@@ -1,0 +1,4 @@
+﻿link,budget_a_to_b_db,budget_b_to_a_db,bidirectional_budget_db,los_distance_km,blocked_distance_km
+transport_gateway,122.0,129.0,122.0,12.510905920255285,3.9562958300091604
+transport_relay_access,116.0,116.0,116.0,6.2703063283438105,1.9828449624534046
+relay_backhaul_gateway,126.0,134.0,126.0,19.828449624534052,6.270306328343811

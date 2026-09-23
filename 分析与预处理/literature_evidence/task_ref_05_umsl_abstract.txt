@@ -1,0 +1,175 @@
+Energy consumption models for delivery drones: A comparison and assessment
+      -  University of Missouri - St. Louis Profiles
+Skip to main navigation
+Skip to search
+Skip to main content
+University of Missouri - St. Louis Profiles Home
+Search content at University of Missouri - St. Louis Profiles
+Home
+Profiles
+Research units
+Research output
+Projects
+Activities
+Prizes
+Courses
+Energy consumption models for delivery drones: A comparison and assessment
+Juan Zhang
+, James F. Campbell
+, Donald C. Sweeney
+,
+Andrea C. Hupman
+Supply Chain and Analytics, Department of
+UMSL Experts (News and Media Relations)
+Economics, Department of
+Research output
+:
+Contribution to journal
+›
+Article
+›
+peer-review
+Overview
+Original language
+English
+Article number
+102668
+Journal
+Transportation Research Part D: Transport and Environment
+Volume
+90
+DOIs
+https://doi.org/10.1016/j.trd.2020.102668
+State
+Published -
+Jan 2021
+ASJC Scopus Subject Areas
+Civil and Structural Engineering
+Transportation
+General Environmental Science
+Keywords
+Drone
+Drone energy models
+Energy consumption
+Parcel delivery
+UAV
+Unmanned aerial vehicle
+Access to Document
+10.1016/j.trd.2020.102668
+Other files and links
+Link to publication in Scopus
+Link to the citations in Scopus
+Cite this
+APA
+Standard
+Harvard
+Vancouver
+Author
+BIBTEX
+RIS
+Zhang, J., Campbell, J. F., Sweeney, D. C.
+, & Hupman, A. C.
+(2021).
+Energy consumption models for delivery drones: A comparison and assessment
+.
+Transportation Research Part D: Transport and Environment
+,
+90
+, Article 102668.
+https://doi.org/10.1016/j.trd.2020.102668
+Energy consumption models for delivery drones: A comparison and assessment.
+/ Zhang, Juan; Campbell, James F.; Sweeney, Donald C. et al.
+In:
+Transportation Research Part D: Transport and Environment
+, Vol. 90, 102668, 01.2021.
+Research output
+:
+Contribution to journal
+›
+Article
+›
+peer-review
+Zhang, J, Campbell, JF, Sweeney, DC
+& Hupman, AC
+2021, '
+Energy consumption models for delivery drones: A comparison and assessment
+',
+Transportation Research Part D: Transport and Environment
+, vol. 90, 102668.
+https://doi.org/10.1016/j.trd.2020.102668
+Zhang J, Campbell JF, Sweeney DC
+, Hupman AC
+.
+Energy consumption models for delivery drones:
+A comparison and assessment
+.
+Transportation Research Part D: Transport and Environment
+. 2021 Jan;90:102668. doi: 10.1016/j.trd.2020.102668
+Zhang, Juan ; Campbell, James F. ; Sweeney, Donald C. et al. /
+Energy consumption models for delivery drones : A comparison and assessment
+. In:
+Transportation Research Part D: Transport and Environment
+. 2021 ; Vol. 90.
+@article{871bf272262e498584043b978f052b89,
+title    = "Energy consumption models for delivery drones: A comparison and assessment",
+keywords = "Drone, Drone energy models, Energy consumption, Parcel delivery, UAV, Unmanned aerial vehicle",
+author   = "Juan Zhang and Campbell, \{James F.\} and Sweeney, \{Donald C.\} and Hupman, \{Andrea C.\}",
+note     = "Publisher Copyright: {\textcopyright} 2020 Elsevier Ltd",
+year     = "2021",
+month    = jan,
+doi      = "10.1016/j.trd.2020.102668",
+language = "English",
+volume   = "90",
+journal  = "Transportation Research Part D: Transport and Environment",
+issn     = "1361-9209",
+}
+TY  - JOUR
+T1  - Energy consumption models for delivery drones
+T2  - A comparison and assessment
+AU  - Zhang, Juan
+AU  - Campbell, James F.
+AU  - Sweeney, Donald C.
+AU  - Hupman, Andrea C.
+N1  - Publisher Copyright:
+© 2020 Elsevier Ltd
+PY  - 2021/1
+Y1  - 2021/1
+KW  - Drone
+KW  - Drone energy models
+KW  - Energy consumption
+KW  - Parcel delivery
+KW  - UAV
+KW  - Unmanned aerial vehicle
+UR  - https://www.scopus.com/pages/publications/85098474575
+UR  - https://www.scopus.com/pages/publications/85098474575#tab=citedBy
+U2  - 10.1016/j.trd.2020.102668
+DO  - 10.1016/j.trd.2020.102668
+M3  - Article
+AN  - SCOPUS:85098474575
+SN  - 1361-9209
+VL  - 90
+JO  - Transportation Research Part D: Transport and Environment
+JF  - Transportation Research Part D: Transport and Environment
+M1  - 102668
+ER  -
+Powered by
+Pure
+Link opens in a new tab
+,
+Scopus
+Link opens in a new tab
+&
+Elsevier Fingerprint Engine™
+Link opens in a new tab
+All content on this site: Copyright © 2026 University of Missouri - St. Louis Profiles, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the
+use of cookies
+Log in to Pure
+Link opens in a new tab
+University of Missouri - St. Louis Profiles data protection policy
+Link opens in a new tab
+About web accessibility
+Link opens in a new tab
+Report vulnerability
+Link opens in a new tab
+Contact us

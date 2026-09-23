@@ -1,0 +1,721 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ],
+      "date-time": "2026-09-17T00:30:51Z",
+      "timestamp": 1789605051443,
+      "version": "build-2803163510"
+    },
+    "reference-count": 56,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2021-01-01T00:00:00Z",
+          "timestamp": 1609459200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Transportation Research Part D: Transport and Environment"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.trd.2020.102668",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          28
+        ]
+      ],
+      "date-time": "2020-12-28T18:01:38Z",
+      "timestamp": 1609178498000
+    },
+    "page": "102668",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 314,
+    "special_numbering": "C",
+    "title": [
+      "Energy consumption models for delivery drones: A comparison and assessment"
+    ],
+    "prefix": "10.1016",
+    "volume": "90",
+    "author": [
+      {
+        "given": "Juan",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James F.",
+        "family": "Campbell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donald C.",
+        "family": "Sweeney II",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrea C.",
+        "family": "Hupman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.trd.2020.102668_b0005",
+        "unstructured": "Adams E., 2016. DHL's Tilt-Rotor ‘Parcelcopter’ is both awesome and actually useful. WIRED. Retrieved January 23rd, 2020 from: https://www.wired.com/2016/05/dhls-new-drone-can-ship-packages-around-alps/."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.trd.2020.102668_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "965",
+        "DOI": "10.1287/trsc.2017.0791",
+        "article-title": "Optimization approaches for the traveling salesman problem with drone",
+        "volume": "52",
+        "author": "Agatz",
+        "year": "2018",
+        "journal-title": "Transportation Science"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0015",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ai, S.M., 2019. Personal communication, December 1st, 2019.",
+        "DOI": "10.36548/jucct.2019.2"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0020",
+        "series-title": "Development of a heavy-duty diesel modal emissions and fuel consumption model",
+        "author": "Barth",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.trc.2018.12.001",
+        "article-title": "Maximum coverage capacitated facility location problem with range constrained drones",
+        "volume": "99",
+        "author": "Chauhan",
+        "year": "2019",
+        "journal-title": "Transportation Research Part C: Emerging Technologies"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "364",
+        "DOI": "10.1016/j.trb.2020.06.011",
+        "article-title": "Drone routing with energy function: Formulation and exact algorithm",
+        "volume": "139",
+        "author": "Cheng",
+        "year": "2020",
+        "journal-title": "Transportation Research Part B: Methodological"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "1164",
+        "DOI": "10.1016/j.apenergy.2019.03.117",
+        "article-title": "Impact of drone delivery on sustainability and cost: Realizing the UAV potential through vehicle routing optimization",
+        "volume": "242",
+        "author": "Chiang",
+        "year": "2019",
+        "journal-title": "Appl. Energy"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0040",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Choudhury, S., Solovey, K., Kochenderfer, M.J. and Pavone, M., 2019. Efficient large-scale multi-drone delivery using transit networks, arXiv preprint arXiv:1909.11840.",
+        "DOI": "10.1109/ICRA40945.2020.9197313"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0045",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cor.2020.105004",
+        "article-title": "Optimization for drone and drone-truck combined operations: A Review of the State of the Art and Future Directions",
+        "author": "Chung",
+        "year": "2020",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0050",
+        "unstructured": "Cohen, J. K., 2019. WakeMed Health & Hospitals joins forces with UPS, FAA for drone pilot. Modern Healthcare. Retrieved January 23rd, 2020 from: https://www.modernhealthcare.com/care-delivery/wakemed-health-hospitals-joins-forces-ups-faa-drone-pilot."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.trd.2020.102668_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "647",
+        "DOI": "10.1109/TASE.2014.2326952",
+        "article-title": "Guest editorial can drones deliver?",
+        "volume": "11",
+        "author": "D'Andrea",
+        "year": "2014",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.trd.2020.102668_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "775",
+        "DOI": "10.1016/j.ejor.2013.12.033",
+        "article-title": "A review of recent research on green road freight transportation",
+        "volume": "237",
+        "author": "Demir",
+        "year": "2014",
+        "journal-title": "Eur. J. Oper. Res."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0065",
+        "series-title": "2015 IEEE International Conference on Autonomous Robot Systems and Competitions",
+        "article-title": "Energy aware coverage path planning of UAVs",
+        "author": "Di Franco",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0070",
+        "unstructured": "DJI website (2020), Phantom 4 specifications. Retrieved May 3rd, 2020 from: https://www.dji.com/phantom-4-pro-v2/specs retrieved May 3rd, 2020."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.trd.2020.102668_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1109/TSMC.2016.2582745",
+        "article-title": "Vehicle routing problems for drone delivery",
+        "volume": "47",
+        "author": "Dorling",
+        "year": "2017",
+        "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0080",
+        "unstructured": "Drones in HealthCare. A role for drones in healthcare. Retrieved January 23rd, 2020 from: https://www.dronesinhealthcare.com/."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.trd.2020.102668_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "374",
+        "DOI": "10.3926/jiem.1929",
+        "article-title": "Optimization of a truck-drone in tandem delivery network using k-means and genetic algorithm",
+        "volume": "9",
+        "author": "Ferrandez",
+        "year": "2016",
+        "journal-title": "Journal of Industrial Engineering and Management (JIEM)"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1016/j.trd.2017.09.011",
+        "article-title": "Lifecycle modeling and assessment of unmanned aerial vehicles (drones) CO 2 e emissions",
+        "volume": "57",
+        "author": "Figliozzi",
+        "year": "2017",
+        "journal-title": "Transportation Research Part D: Transport and Environment"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1016/j.trd.2017.02.017",
+        "article-title": "Delivery by drone: An evaluation of unmanned aerial vehicle technology in reducing CO2 emissions in the delivery service industry",
+        "volume": "61",
+        "author": "Goodchild",
+        "year": "2018",
+        "journal-title": "Transportation Research Part D: Transport and Environment"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0105",
+        "series-title": "The energy implications of drones for package delivery",
+        "author": "Gulden",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_bib281",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.trc.2017.11.015",
+        "article-title": "On the min-cost traveling salesman problem with drone",
+        "author": "Ha",
+        "year": "2018",
+        "journal-title": "Transportation Research Part C: Emerging Technologies,"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0110",
+        "unstructured": "Heath N., 2018. Project Wing: A cheat sheet on Alphabet's drone delivery project. Retrieved January 23rd, 2020 from: https://www.techrepublic.com/article/project-wing-a-cheat-sheet/."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hoffmann, G., Huang, H., Waslander, S., and Tomlin, C., 2007. Quadrotor helicopter flight dynamics and control: Theory and experiment. In: AIAA Guidance, Navigation and Control Conference and Exhibit(p. 6461).",
+        "DOI": "10.2514/6.2007-6461"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "198",
+        "DOI": "10.1016/j.trc.2018.02.017",
+        "article-title": "A range-restricted recharging station coverage model for drone delivery service planning",
+        "volume": "90",
+        "author": "Hong",
+        "year": "2018",
+        "journal-title": "Transportation Research Part C: Emerging Technologies"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0130",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/s10846-020-01223-y",
+        "article-title": "A new parcel delivery system with drones and a public train",
+        "author": "Huang",
+        "year": "2020",
+        "journal-title": "J Intell Robot Syst"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0125",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TITS.2020.2983491",
+        "article-title": "Reliable Path Planning for Drone Delivery using a Stochastic Time-Dependent Public Transportation Network",
+        "author": "Huang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "issue": "2019",
+        "key": "10.1016/j.trd.2020.102668_b0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "220",
+        "DOI": "10.1016/j.ijpe.2019.01.010",
+        "article-title": "Truck-drone hybrid delivery routing: Payload-energy dependency and No-Fly zones",
+        "volume": "214",
+        "author": "Jeong",
+        "year": "2019",
+        "journal-title": "International Journal of Production Economics"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0135",
+        "unstructured": "Josephs L., 2019. UPS wins first broad FAA approval for drone delivery. CNBC. Retrieved January 23rd, 2020 from: https://www.cnbc.com/2019/10/01/ups-wins-faa-approval-for-drone-delivery-airline.html."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0140",
+        "first-page": "1",
+        "article-title": "Comparison of energy demands of drone-based and ground-based parcel delivery services",
+        "volume": "78",
+        "author": "Kirchstein",
+        "year": "2020",
+        "journal-title": "Transportation Research Part D: Transport and Environment"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0145",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kithacharoenchai, P., Min, B-C. and Lee, S., 2020. Two echelon vehicle routing problem with drones in last mile delivery. International journal of Production Economics 225, 107598.",
+        "DOI": "10.1016/j.ijpe.2019.107598"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0150",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Langelaan, J.W., Schmitz, S., Palacios, J., and Lorenz, R.D., 2017. Energetics of rotary-wing exploration of titan. In: Aerospace Conference, 2017 IEEE, pages 1–11. IEEE.",
+        "DOI": "10.1109/AERO.2017.7943650"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0155",
+        "unstructured": "Lee, D., 2019. Amazon to deliver by drone ‘within months’. Retrieved July 12th, 2019 from: https://www.bbc.com/news/technology-48536319."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0160",
+        "volume": "Vol. 12",
+        "author": "Leishman",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.cor.2019.05.024",
+        "article-title": "An optimization-driven dynamic vehicle routing algorithm for on-demand meal delivery using drones",
+        "volume": "111",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0170",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z., Sengupta, R., and Kurzhanskiy, A., 2017. A power consumption model for multi-rotor small unmanned aircraft systems. In:2017 International Conference on Unmanned Aircraft Systems (ICUAS)(pp. 310-315). IEEE.",
+        "DOI": "10.1109/ICUAS.2017.7991310"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0175",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lohn, A. J., 2017.What's the buzz? The city-scale impacts of drone delivery(No. RR-1718-RC).",
+        "DOI": "10.7249/RR1718"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1016/j.trc.2015.03.005",
+        "article-title": "The flying sidekick traveling salesman problem: Optimization of drone-assisted parcel delivery",
+        "volume": "54",
+        "author": "Murray",
+        "year": "2015",
+        "journal-title": "Transportation Research Part C: Emerging Technologies"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0185",
+        "article-title": "Innovative scenarios for modeling intra-city freight delivery",
+        "volume": "3",
+        "author": "Moore",
+        "year": "2019",
+        "journal-title": "Moore Transportation Research Interdisciplinary Perspectives"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "368",
+        "DOI": "10.1016/j.trc.2019.11.003",
+        "article-title": "The multiple flying sidekicks traveling salesman problem: Parcel delivery with multiple drones",
+        "volume": "110",
+        "author": "Murray",
+        "year": "2020",
+        "journal-title": "Transportation Research Part C: Emerging Technologies"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.trd.2020.102668_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "411",
+        "DOI": "10.1002/net.21818",
+        "article-title": "Optimization approaches for civil applications of unmanned aerial vehicles (UAVs) or aerial drones: A survey",
+        "volume": "72",
+        "author": "Otto",
+        "year": "2018",
+        "journal-title": "Networks"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "104",
+        "DOI": "10.1016/j.cor.2019.104802",
+        "article-title": "Multi-visit drone routing problem",
+        "volume": "113",
+        "author": "Poikonen",
+        "year": "2020",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0205",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rotaru, C. and Todorov, M., 2017. Helicopter flight physics, DOI: 10.5772/intechopen.71516, https://www.intechopen.com/books/flight-physics-models-techniques-and-technologies/helicopter-flight-physics.",
+        "DOI": "10.5772/intechopen.71516"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "134",
+        "DOI": "10.1016/j.cor.2019.04.021",
+        "article-title": "A hybrid VNS/Tabu search algorithm for solving the vehicle routing problem with drones and en route operations",
+        "volume": "109",
+        "author": "Schermer",
+        "year": "2019",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "issue": "9–12",
+        "key": "10.1016/j.trd.2020.102668_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "3141",
+        "DOI": "10.1007/s00170-017-1363-1",
+        "article-title": "Application of hierarchical facility location problem for optimization of a drone delivery system: a case study of Amazon prime air in the city of San Francisco",
+        "volume": "95",
+        "author": "Shavarani",
+        "year": "2018",
+        "journal-title": "The International Journal of Advanced Manufacturing Technology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.trd.2020.102668_b0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1038/s41467-017-02411-5",
+        "article-title": "Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery",
+        "volume": "9",
+        "author": "Stolaroff",
+        "year": "2018",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0225",
+        "unstructured": "Swoop Aero, 2019. Drones for medical deliveries: the value of using technology for good. Retrieved January 23rd, 2020 from: https://swoop.aero/2019/10/21/drones-technology-for-good/."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.trd.2020.102668_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "3344",
+        "DOI": "10.3390/su10093344",
+        "article-title": "Sizing of the drone delivery fleet considering energy autonomy",
+        "volume": "10",
+        "author": "Troudi",
+        "year": "2018",
+        "journal-title": "Sustainability"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0235",
+        "unstructured": "Tseng, C-M., Chau, C-K., Elbassioni, K. and Khonji, M., 2017a. Flight Tour Planning with recharging optimization for battery-operated autonomous drones, 29 March 2017, https://pdfs.semanticscholar.org/76d2/307395999118ca3fb406c1d95e337bf3953b.pdf."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0240",
+        "unstructured": "Tseng, C-M., Chau, C-K., Elbassioni, K. and Khonji, M., 2017b. Autonomous recharging and flight mission planning for battery-operated autonomous drones, 12 September 2017, https://arxiv.org/pdf/1703.10049.pdf."
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0245",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tseng, C-M., 2020. Personal communication , January 22 and 25, 2020.",
+        "DOI": "10.1044/leader.PPL.25012020.22"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0250",
+        "doi-asserted-by": "crossref",
+        "unstructured": "U.S. Department of Energy, 2019. FY2018 Energy Efficient Mobility Systems Annual Progress Report. United States Department of Energy, Office of Energy Efficiency and Renewable Energy, Vehicle Technologies Office, doi:10.2172/1525359.",
+        "DOI": "10.2172/1525359"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0255",
+        "doi-asserted-by": "crossref",
+        "unstructured": "U.S. Department of Energy, 2020. FY2019 Energy Efficient Mobility Systems Annual Progress Report. United States Department of Energy, Office of Energy Efficiency and Renewable Energy, Vehicle Technologies Office, doi:10.2172/1525359.",
+        "DOI": "10.2172/1525359"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "79617",
+        "DOI": "10.1109/ACCESS.2019.2922651",
+        "article-title": "Energy consumption and completion time tradeoff in rotary-wing UAV enabled WPCN",
+        "volume": "7",
+        "author": "Wu",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.trd.2020.102668_b0265",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, J., 2017.Design perspectives on delivery drones. RAND.",
+        "DOI": "10.7249/RR1718.2"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.trd.2020.102668_b0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "3747",
+        "DOI": "10.1109/TWC.2017.2688328",
+        "article-title": "Energy-efficient UAV communication with trajectory optimization",
+        "volume": "16",
+        "author": "Zeng",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Wireless Commun."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.trd.2020.102668_b0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "3747",
+        "DOI": "10.1109/TWC.2019.2902559",
+        "article-title": "Energy minimization for wireless communication with rotary-wing UAV",
+        "volume": "18",
+        "author": "Zeng",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Wireless Commun."
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1016/j.trd.2023.103609",
+        "type": "erratum",
+        "label": "Erratum",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2023-02-01T00:00:00Z",
+          "timestamp": 1675209600000
+        }
+      }
+    ],
+    "container-title": [
+      "Transportation Research Part D: Transport and Environment"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1361920920308531?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1361920920308531?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2022-12-09T14:08:25Z",
+      "timestamp": 1670594905000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1361920920308531"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "references-count": 56,
+    "alternative-id": [
+      "S1361920920308531"
+    ],
+    "URL": "https://doi.org/10.1016/j.trd.2020.102668",
+    "relation": {},
+    "ISSN": [
+      "1361-9209"
+    ],
+    "issn-type": [
+      {
+        "value": "1361-9209",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Energy consumption models for delivery drones: A comparison and assessment",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Transportation Research Part D: Transport and Environment",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.trd.2020.102668",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2020 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102668"
+  }
+}

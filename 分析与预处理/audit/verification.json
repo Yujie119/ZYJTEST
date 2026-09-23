@@ -1,0 +1,7 @@
+{
+  "supercover_cases_against_independent_cell_intersection": 106,
+  "directed_geometry_edges_checked": 240,
+  "demand_reconciliation": "pass",
+  "deadline_overlap_cases": "pass",
+  "scope": "Static preprocessing verification; not full scheduling or continuous-link validation."
+}

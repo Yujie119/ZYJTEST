@@ -1,0 +1,13 @@
+﻿type,commodity,mass_limit_boxes,volume_limit_boxes,capacity_ignoring_energy
+A,医疗物资,8,5,5
+A,应急食品,3,2,2
+A,生活卫生用品,4,1,1
+A,饮用水,1,2,1
+B,医疗物资,10,6,6
+B,应急食品,3,2,2
+B,生活卫生用品,5,2,2
+B,饮用水,2,2,2
+C,医疗物资,26,20,20
+C,应急食品,10,8,8
+C,生活卫生用品,13,7,7
+C,饮用水,5,9,5
