@@ -1,0 +1,10 @@
+{
+  "coverage": true,
+  "hard_deadlines": true,
+  "route_load": true,
+  "route_energy": true,
+  "uav_nonoverlap": true,
+  "battery_nonoverlap": true,
+  "soc": true,
+  "all": true
+}

@@ -1,0 +1,1986 @@
+{
+  "tests": {
+    "legacy_plan_passes": true,
+    "unknown_uav_rejected": true,
+    "unknown_battery_rejected": true,
+    "wrong_type_battery_rejected": true,
+    "missing_route_reference_rejected": true,
+    "forged_delivery_rejected": true,
+    "forged_recharge_rejected": true,
+    "forged_soc_rejected": true,
+    "forged_objective_rejected": true,
+    "forged_hard_metadata_rejected": true,
+    "forged_leg_load_rejected": true,
+    "nonfinite_start_rejected": true,
+    "nonfinite_delivery_rejected": true,
+    "duplicate_exported_box_rejected": true,
+    "missing_box_row_rejected": true,
+    "unknown_event_box_rejected": true,
+    "counterexample_fixed_resources": true,
+    "limit_incumbent_kept_and_checked": true,
+    "repeat_pattern_four_instances": true,
+    "four_station_supported": true,
+    "repeat_visit_supported": true,
+    "weight_polytope_0.0": true,
+    "weight_polytope_0.3": true,
+    "weight_polytope_1.5": true,
+    "absolute_dominance_tolerance": true,
+    "independent_dem_all_240": true,
+    "final_independent_rebuild": true
+  },
+  "all": true,
+  "details": {
+    "unknown_uav": [
+      "identifiers: R000254: unknown/mismatched UAV U99",
+      "identifiers: S012-FOD-01 uav",
+      "identifiers: S012-MED-01 uav",
+      "identifiers: S012-WAT-01 uav"
+    ],
+    "unknown_battery": [
+      "identifiers: R000254: unknown/mismatched battery A-BAT-99",
+      "identifiers: S012-FOD-01 battery_id",
+      "identifiers: S012-MED-01 battery_id",
+      "identifiers: S012-WAT-01 battery_id"
+    ],
+    "wrong_type_battery": [
+      "identifiers: R000254: unknown/mismatched battery A-BAT-01",
+      "identifiers: S012-FOD-01 battery_id",
+      "identifiers: S012-MED-01 battery_id",
+      "identifiers: S012-WAT-01 battery_id"
+    ],
+    "missing_route_reference": [
+      "identifiers: S012-FOD-01 route_id"
+    ],
+    "forged_delivery": [
+      "delivery_times: S012-FOD-01 delivery: 0.0 != 1271.3434070745934"
+    ],
+    "forged_recharge": [
+      "resource_times: R000254 recharge: 2000.0 != 3782.30605001331"
+    ],
+    "forged_soc": [
+      "soc: R000254 soc: 1.0 != 0.3118389023860828"
+    ],
+    "forged_objective": [
+      "objective: F1: 1 != 60.70497216913841",
+      "objective: F2: 1 != 9163.548863052574",
+      "objective: F3: 0 != 602.5438554866732"
+    ],
+    "forged_hard_metadata": [
+      "identifiers: S012-MED-01: cached raw field hard",
+      "identifiers: S012-MED-01: cached raw field deadline"
+    ],
+    "forged_leg_load": [
+      "geometry_energy: R000254 load: 0.0 != 25.0"
+    ],
+    "nonfinite_start": [
+      "finite: R000254 start",
+      "objective: F0: 20 != 19",
+      "objective: F1: 60.70497216913841 != 57.952327778682736"
+    ],
+    "nonfinite_delivery": [
+      "finite: S012-FOD-01 delivery",
+      "delivery_times: S012-FOD-01 delivery"
+    ],
+    "duplicate_exported_box": [
+      "coverage: exported box rows are not exact cover"
+    ],
+    "missing_box_row": [
+      "coverage: exported box rows are not exact cover",
+      "identifiers: S001-WAT-08 route_id",
+      "identifiers: S001-WAT-08 event",
+      "identifiers: S001-WAT-08 zone"
+    ],
+    "unknown_event_box": [
+      "identifiers: R000254: unknown box",
+      "coverage: event boxes are not exact cover",
+      "objective: F0: 20 != 19",
+      "objective: F1: 60.70497216913841 != 57.952327778682736"
+    ],
+    "counterexample": {
+      "objective": [
+        20,
+        60.70497216913841,
+        9163.54886305257,
+        520.7998072166125
+      ],
+      "solver": {
+        "scope": "audit_fixed_original_resources",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166127,
+        "upper_bound": 520.7998072166127,
+        "weights": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "epsilon": {
+          "C": 9163.548863052574
+        },
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 381,
+        "constraints": 407,
+        "horizon": 9163.548863052574,
+        "seconds": 0.004094999982044101,
+        "seed": 202600,
+        "relaxation": false,
+        "nodes": 1
+      }
+    },
+    "limit": {
+      "scope": "local",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": null,
+      "upper_bound": 9163.548863052574,
+      "weights": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": 0.0,
+      "variables": 381,
+      "constraints": 1384,
+      "horizon": 69520.70007766677,
+      "seconds": 0.003200999984983355,
+      "seed": 202600,
+      "relaxation": false,
+      "nodes": 0
+    },
+    "repeat": {
+      "objective": [
+        4,
+        4.881737733245699,
+        2298.212351652431,
+        0.0
+      ],
+      "stages": [
+        {
+          "scope": "four_repeated_patterns",
+          "status": "Optimal",
+          "optimal": true,
+          "incumbent": true,
+          "warm_fallback": false,
+          "lower_bound": 2298.212351652431,
+          "upper_bound": 2298.212351652431,
+          "weights": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "epsilon": {},
+          "gap": 0.0,
+          "matrix_residual": 0.0,
+          "variables": 54,
+          "constraints": 114,
+          "horizon": 9378.511054378,
+          "seconds": 0.00738730002194643,
+          "seed": 202600,
+          "relaxation": false,
+          "nodes": 1,
+          "stage": "C",
+          "prior_stages_certified": true
+        },
+        {
+          "scope": "four_repeated_patterns",
+          "status": "Optimal",
+          "optimal": true,
+          "incumbent": true,
+          "warm_fallback": false,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "epsilon": {},
+          "gap": 0.0,
+          "matrix_residual": 0.0,
+          "variables": 54,
+          "constraints": 115,
+          "horizon": 9378.511054378,
+          "seconds": 0.0007215000223368406,
+          "seed": 202600,
+          "relaxation": false,
+          "nodes": 0,
+          "stage": "L",
+          "prior_stages_certified": true
+        },
+        {
+          "scope": "four_repeated_patterns",
+          "status": "Optimal",
+          "optimal": true,
+          "incumbent": true,
+          "warm_fallback": false,
+          "lower_bound": 4.881737733245699,
+          "upper_bound": 4.881737733245699,
+          "weights": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "epsilon": {},
+          "gap": 0.0,
+          "matrix_residual": 0.0,
+          "variables": 54,
+          "constraints": 116,
+          "horizon": 9378.511054378,
+          "seconds": 0.0006703999824821949,
+          "seed": 202600,
+          "relaxation": false,
+          "nodes": 0,
+          "stage": "E",
+          "prior_stages_certified": true
+        },
+        {
+          "scope": "four_repeated_patterns",
+          "status": "Optimal",
+          "optimal": true,
+          "incumbent": true,
+          "warm_fallback": false,
+          "lower_bound": 4.0,
+          "upper_bound": 4.0,
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "epsilon": {},
+          "gap": 0.0,
+          "matrix_residual": 0.0,
+          "variables": 54,
+          "constraints": 117,
+          "horizon": 9378.511054378,
+          "seconds": 0.00076299998909235,
+          "seed": 202600,
+          "relaxation": false,
+          "nodes": 0,
+          "stage": "N",
+          "prior_stages_certified": true
+        }
+      ]
+    },
+    "DEM_edges": [
+      {
+        "source": "O01",
+        "target": "S001",
+        "terrain": 223.05661010742188,
+        "pixel_count": 136,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S002",
+        "terrain": 258.9542541503906,
+        "pixel_count": 323,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S003",
+        "terrain": 511.80413818359375,
+        "pixel_count": 338,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S004",
+        "terrain": 348.2391662597656,
+        "pixel_count": 276,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S005",
+        "terrain": 276.410888671875,
+        "pixel_count": 181,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S006",
+        "terrain": 316.09783935546875,
+        "pixel_count": 116,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S007",
+        "terrain": 461.9731750488281,
+        "pixel_count": 213,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S008",
+        "terrain": 322.9093322753906,
+        "pixel_count": 321,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S009",
+        "terrain": 243.22891235351562,
+        "pixel_count": 253,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S010",
+        "terrain": 385.63653564453125,
+        "pixel_count": 203,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S011",
+        "terrain": 245.36175537109375,
+        "pixel_count": 123,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S012",
+        "terrain": 363.3009948730469,
+        "pixel_count": 354,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S013",
+        "terrain": 349.18182373046875,
+        "pixel_count": 228,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S014",
+        "terrain": 541.9473876953125,
+        "pixel_count": 203,
+        "passed": true
+      },
+      {
+        "source": "O01",
+        "target": "S015",
+        "terrain": 521.7992553710938,
+        "pixel_count": 286,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "O01",
+        "terrain": 223.05661010742188,
+        "pixel_count": 136,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S002",
+        "terrain": 259.2448425292969,
+        "pixel_count": 188,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S003",
+        "terrain": 505.94439697265625,
+        "pixel_count": 293,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S004",
+        "terrain": 358.7777404785156,
+        "pixel_count": 179,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S005",
+        "terrain": 266.13800048828125,
+        "pixel_count": 136,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S006",
+        "terrain": 343.9356384277344,
+        "pixel_count": 251,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S007",
+        "terrain": 389.17535400390625,
+        "pixel_count": 198,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S008",
+        "terrain": 316.78717041015625,
+        "pixel_count": 276,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S009",
+        "terrain": 243.22891235351562,
+        "pixel_count": 118,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S010",
+        "terrain": 381.0796813964844,
+        "pixel_count": 170,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S011",
+        "terrain": 226.38790893554688,
+        "pixel_count": 90,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S012",
+        "terrain": 385.599609375,
+        "pixel_count": 219,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S013",
+        "terrain": 328.3608093261719,
+        "pixel_count": 111,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S014",
+        "terrain": 550.0504150390625,
+        "pixel_count": 248,
+        "passed": true
+      },
+      {
+        "source": "S001",
+        "target": "S015",
+        "terrain": 547.315185546875,
+        "pixel_count": 241,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "O01",
+        "terrain": 258.9542541503906,
+        "pixel_count": 323,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S001",
+        "terrain": 259.2448425292969,
+        "pixel_count": 188,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S003",
+        "terrain": 571.1314086914062,
+        "pixel_count": 432,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S004",
+        "terrain": 283.658203125,
+        "pixel_count": 102,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S005",
+        "terrain": 356.79864501953125,
+        "pixel_count": 161,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S006",
+        "terrain": 344.2987060546875,
+        "pixel_count": 438,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S007",
+        "terrain": 424.7281799316406,
+        "pixel_count": 385,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S008",
+        "terrain": 331.8424987792969,
+        "pixel_count": 199,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S009",
+        "terrain": 278.2866516113281,
+        "pixel_count": 71,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S010",
+        "terrain": 441.85394287109375,
+        "pixel_count": 247,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S011",
+        "terrain": 311.78533935546875,
+        "pixel_count": 277,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S012",
+        "terrain": 358.1782531738281,
+        "pixel_count": 146,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S013",
+        "terrain": 327.2103271484375,
+        "pixel_count": 188,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S014",
+        "terrain": 457.5832214355469,
+        "pixel_count": 325,
+        "passed": true
+      },
+      {
+        "source": "S002",
+        "target": "S015",
+        "terrain": 593.7526245117188,
+        "pixel_count": 314,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "O01",
+        "terrain": 511.80413818359375,
+        "pixel_count": 338,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S001",
+        "terrain": 505.94439697265625,
+        "pixel_count": 293,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S002",
+        "terrain": 571.1314086914062,
+        "pixel_count": 432,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S004",
+        "terrain": 674.2682495117188,
+        "pixel_count": 385,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S005",
+        "terrain": 533.8880615234375,
+        "pixel_count": 272,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S006",
+        "terrain": 612.3626708984375,
+        "pixel_count": 229,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S007",
+        "terrain": 360.6993408203125,
+        "pixel_count": 126,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S008",
+        "terrain": 746.0787353515625,
+        "pixel_count": 300,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S009",
+        "terrain": 544.588134765625,
+        "pixel_count": 362,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S010",
+        "terrain": 466.96417236328125,
+        "pixel_count": 462,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S011",
+        "terrain": 485.42230224609375,
+        "pixel_count": 216,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S012",
+        "terrain": 544.5889282226562,
+        "pixel_count": 463,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S013",
+        "terrain": 505.94439697265625,
+        "pixel_count": 403,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S014",
+        "terrain": 542.7295532226562,
+        "pixel_count": 540,
+        "passed": true
+      },
+      {
+        "source": "S003",
+        "target": "S015",
+        "terrain": 437.89886474609375,
+        "pixel_count": 119,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "O01",
+        "terrain": 348.2391662597656,
+        "pixel_count": 276,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S001",
+        "terrain": 358.7777404785156,
+        "pixel_count": 179,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S002",
+        "terrain": 283.658203125,
+        "pixel_count": 102,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S003",
+        "terrain": 674.2682495117188,
+        "pixel_count": 385,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S005",
+        "terrain": 315.80657958984375,
+        "pixel_count": 114,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S006",
+        "terrain": 375.2806396484375,
+        "pixel_count": 391,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S007",
+        "terrain": 543.2369995117188,
+        "pixel_count": 338,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S008",
+        "terrain": 336.83349609375,
+        "pixel_count": 98,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S009",
+        "terrain": 275.2157897949219,
+        "pixel_count": 140,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S010",
+        "terrain": 432.957275390625,
+        "pixel_count": 348,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S011",
+        "terrain": 311.138916015625,
+        "pixel_count": 230,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S012",
+        "terrain": 312.0069580078125,
+        "pixel_count": 247,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S013",
+        "terrain": 322.2989807128906,
+        "pixel_count": 289,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S014",
+        "terrain": 505.3861083984375,
+        "pixel_count": 426,
+        "passed": true
+      },
+      {
+        "source": "S004",
+        "target": "S015",
+        "terrain": 641.2510375976562,
+        "pixel_count": 267,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "O01",
+        "terrain": 276.410888671875,
+        "pixel_count": 181,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S001",
+        "terrain": 266.13800048828125,
+        "pixel_count": 136,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S002",
+        "terrain": 356.79864501953125,
+        "pixel_count": 161,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S003",
+        "terrain": 533.8880615234375,
+        "pixel_count": 272,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S004",
+        "terrain": 315.80657958984375,
+        "pixel_count": 114,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S006",
+        "terrain": 366.7322998046875,
+        "pixel_count": 278,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S007",
+        "terrain": 467.1478271484375,
+        "pixel_count": 225,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S008",
+        "terrain": 316.78717041015625,
+        "pixel_count": 141,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S009",
+        "terrain": 313.5632019042969,
+        "pixel_count": 97,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S010",
+        "terrain": 416.15325927734375,
+        "pixel_count": 305,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S011",
+        "terrain": 297.5489196777344,
+        "pixel_count": 117,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S012",
+        "terrain": 313.5632019042969,
+        "pixel_count": 204,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S013",
+        "terrain": 324.4444580078125,
+        "pixel_count": 246,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S014",
+        "terrain": 552.8875122070312,
+        "pixel_count": 383,
+        "passed": true
+      },
+      {
+        "source": "S005",
+        "target": "S015",
+        "terrain": 568.6133422851562,
+        "pixel_count": 154,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "O01",
+        "terrain": 316.09783935546875,
+        "pixel_count": 116,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S001",
+        "terrain": 343.9356384277344,
+        "pixel_count": 251,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S002",
+        "terrain": 344.2987060546875,
+        "pixel_count": 438,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S003",
+        "terrain": 612.3626708984375,
+        "pixel_count": 229,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S004",
+        "terrain": 375.2806396484375,
+        "pixel_count": 391,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S005",
+        "terrain": 366.7322998046875,
+        "pixel_count": 278,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S007",
+        "terrain": 540.361328125,
+        "pixel_count": 104,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S008",
+        "terrain": 517.8421020507812,
+        "pixel_count": 306,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S009",
+        "terrain": 341.0712890625,
+        "pixel_count": 368,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S010",
+        "terrain": 383.2227783203125,
+        "pixel_count": 318,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S011",
+        "terrain": 350.46759033203125,
+        "pixel_count": 162,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S012",
+        "terrain": 385.3490295410156,
+        "pixel_count": 469,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S013",
+        "terrain": 344.1709289550781,
+        "pixel_count": 343,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S014",
+        "terrain": 556.662109375,
+        "pixel_count": 312,
+        "passed": true
+      },
+      {
+        "source": "S006",
+        "target": "S015",
+        "terrain": 601.2601318359375,
+        "pixel_count": 177,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "O01",
+        "terrain": 461.9731750488281,
+        "pixel_count": 213,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S001",
+        "terrain": 389.17535400390625,
+        "pixel_count": 198,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S002",
+        "terrain": 424.7281799316406,
+        "pixel_count": 385,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S003",
+        "terrain": 360.6993408203125,
+        "pixel_count": 126,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S004",
+        "terrain": 543.2369995117188,
+        "pixel_count": 338,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S005",
+        "terrain": 467.1478271484375,
+        "pixel_count": 225,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S006",
+        "terrain": 540.361328125,
+        "pixel_count": 104,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S008",
+        "terrain": 606.739501953125,
+        "pixel_count": 253,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S009",
+        "terrain": 418.3708190917969,
+        "pixel_count": 315,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S010",
+        "terrain": 386.94964599609375,
+        "pixel_count": 337,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S011",
+        "terrain": 389.17535400390625,
+        "pixel_count": 109,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S012",
+        "terrain": 407.66363525390625,
+        "pixel_count": 416,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S013",
+        "terrain": 382.5381164550781,
+        "pixel_count": 290,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S014",
+        "terrain": 530.8557739257812,
+        "pixel_count": 415,
+        "passed": true
+      },
+      {
+        "source": "S007",
+        "target": "S015",
+        "terrain": 452.918212890625,
+        "pixel_count": 74,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "O01",
+        "terrain": 322.9093322753906,
+        "pixel_count": 321,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S001",
+        "terrain": 316.78717041015625,
+        "pixel_count": 276,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S002",
+        "terrain": 331.8424987792969,
+        "pixel_count": 199,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S003",
+        "terrain": 746.0787353515625,
+        "pixel_count": 300,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S004",
+        "terrain": 336.83349609375,
+        "pixel_count": 98,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S005",
+        "terrain": 316.78717041015625,
+        "pixel_count": 141,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S006",
+        "terrain": 517.8421020507812,
+        "pixel_count": 306,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S007",
+        "terrain": 606.739501953125,
+        "pixel_count": 253,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S009",
+        "terrain": 338.620361328125,
+        "pixel_count": 237,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S010",
+        "terrain": 419.0903015136719,
+        "pixel_count": 445,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S011",
+        "terrain": 362.91650390625,
+        "pixel_count": 199,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S012",
+        "terrain": 309.1531982421875,
+        "pixel_count": 344,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S013",
+        "terrain": 336.37310791015625,
+        "pixel_count": 386,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S014",
+        "terrain": 542.4922485351562,
+        "pixel_count": 523,
+        "passed": true
+      },
+      {
+        "source": "S008",
+        "target": "S015",
+        "terrain": 660.450927734375,
+        "pixel_count": 182,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "O01",
+        "terrain": 243.22891235351562,
+        "pixel_count": 253,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S001",
+        "terrain": 243.22891235351562,
+        "pixel_count": 118,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S002",
+        "terrain": 278.2866516113281,
+        "pixel_count": 71,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S003",
+        "terrain": 544.588134765625,
+        "pixel_count": 362,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S004",
+        "terrain": 275.2157897949219,
+        "pixel_count": 140,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S005",
+        "terrain": 313.5632019042969,
+        "pixel_count": 97,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S006",
+        "terrain": 341.0712890625,
+        "pixel_count": 368,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S007",
+        "terrain": 418.3708190917969,
+        "pixel_count": 315,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S008",
+        "terrain": 338.620361328125,
+        "pixel_count": 237,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S010",
+        "terrain": 432.957275390625,
+        "pixel_count": 209,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S011",
+        "terrain": 265.66766357421875,
+        "pixel_count": 207,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S012",
+        "terrain": 310.91961669921875,
+        "pixel_count": 108,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S013",
+        "terrain": 322.2989807128906,
+        "pixel_count": 150,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S014",
+        "terrain": 502.7727966308594,
+        "pixel_count": 287,
+        "passed": true
+      },
+      {
+        "source": "S009",
+        "target": "S015",
+        "terrain": 532.3267822265625,
+        "pixel_count": 244,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "O01",
+        "terrain": 385.63653564453125,
+        "pixel_count": 203,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S001",
+        "terrain": 381.0796813964844,
+        "pixel_count": 170,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S002",
+        "terrain": 441.85394287109375,
+        "pixel_count": 247,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S003",
+        "terrain": 466.96417236328125,
+        "pixel_count": 462,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S004",
+        "terrain": 432.957275390625,
+        "pixel_count": 348,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S005",
+        "terrain": 416.15325927734375,
+        "pixel_count": 305,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S006",
+        "terrain": 383.2227783203125,
+        "pixel_count": 318,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S007",
+        "terrain": 386.94964599609375,
+        "pixel_count": 337,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S008",
+        "terrain": 419.0903015136719,
+        "pixel_count": 445,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S009",
+        "terrain": 432.957275390625,
+        "pixel_count": 209,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S011",
+        "terrain": 387.0433349609375,
+        "pixel_count": 247,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S012",
+        "terrain": 423.1903076171875,
+        "pixel_count": 152,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S013",
+        "terrain": 454.07037353515625,
+        "pixel_count": 60,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S014",
+        "terrain": 487.5635681152344,
+        "pixel_count": 79,
+        "passed": true
+      },
+      {
+        "source": "S010",
+        "target": "S015",
+        "terrain": 568.3262329101562,
+        "pixel_count": 410,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "O01",
+        "terrain": 245.36175537109375,
+        "pixel_count": 123,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S001",
+        "terrain": 226.38790893554688,
+        "pixel_count": 90,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S002",
+        "terrain": 311.78533935546875,
+        "pixel_count": 277,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S003",
+        "terrain": 485.42230224609375,
+        "pixel_count": 216,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S004",
+        "terrain": 311.138916015625,
+        "pixel_count": 230,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S005",
+        "terrain": 297.5489196777344,
+        "pixel_count": 117,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S006",
+        "terrain": 350.46759033203125,
+        "pixel_count": 162,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S007",
+        "terrain": 389.17535400390625,
+        "pixel_count": 109,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S008",
+        "terrain": 362.91650390625,
+        "pixel_count": 199,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S009",
+        "terrain": 265.66766357421875,
+        "pixel_count": 207,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S010",
+        "terrain": 387.0433349609375,
+        "pixel_count": 247,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S012",
+        "terrain": 370.4505615234375,
+        "pixel_count": 308,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S013",
+        "terrain": 328.3608093261719,
+        "pixel_count": 188,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S014",
+        "terrain": 568.5668334960938,
+        "pixel_count": 325,
+        "passed": true
+      },
+      {
+        "source": "S011",
+        "target": "S015",
+        "terrain": 538.7306518554688,
+        "pixel_count": 164,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "O01",
+        "terrain": 363.3009948730469,
+        "pixel_count": 354,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S001",
+        "terrain": 385.599609375,
+        "pixel_count": 219,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S002",
+        "terrain": 358.1782531738281,
+        "pixel_count": 146,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S003",
+        "terrain": 544.5889282226562,
+        "pixel_count": 463,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S004",
+        "terrain": 312.0069580078125,
+        "pixel_count": 247,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S005",
+        "terrain": 313.5632019042969,
+        "pixel_count": 204,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S006",
+        "terrain": 385.3490295410156,
+        "pixel_count": 469,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S007",
+        "terrain": 407.66363525390625,
+        "pixel_count": 416,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S008",
+        "terrain": 309.1531982421875,
+        "pixel_count": 344,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S009",
+        "terrain": 310.91961669921875,
+        "pixel_count": 108,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S010",
+        "terrain": 423.1903076171875,
+        "pixel_count": 152,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S011",
+        "terrain": 370.4505615234375,
+        "pixel_count": 308,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S013",
+        "terrain": 386.5263671875,
+        "pixel_count": 127,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S014",
+        "terrain": 481.1858215332031,
+        "pixel_count": 180,
+        "passed": true
+      },
+      {
+        "source": "S012",
+        "target": "S015",
+        "terrain": 534.7462158203125,
+        "pixel_count": 345,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "O01",
+        "terrain": 349.18182373046875,
+        "pixel_count": 228,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S001",
+        "terrain": 328.3608093261719,
+        "pixel_count": 111,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S002",
+        "terrain": 327.2103271484375,
+        "pixel_count": 188,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S003",
+        "terrain": 505.94439697265625,
+        "pixel_count": 403,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S004",
+        "terrain": 322.2989807128906,
+        "pixel_count": 289,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S005",
+        "terrain": 324.4444580078125,
+        "pixel_count": 246,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S006",
+        "terrain": 344.1709289550781,
+        "pixel_count": 343,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S007",
+        "terrain": 382.5381164550781,
+        "pixel_count": 290,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S008",
+        "terrain": 336.37310791015625,
+        "pixel_count": 386,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S009",
+        "terrain": 322.2989807128906,
+        "pixel_count": 150,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S010",
+        "terrain": 454.07037353515625,
+        "pixel_count": 60,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S011",
+        "terrain": 328.3608093261719,
+        "pixel_count": 188,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S012",
+        "terrain": 386.5263671875,
+        "pixel_count": 127,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S014",
+        "terrain": 483.26031494140625,
+        "pixel_count": 138,
+        "passed": true
+      },
+      {
+        "source": "S013",
+        "target": "S015",
+        "terrain": 529.7706298828125,
+        "pixel_count": 351,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "O01",
+        "terrain": 541.9473876953125,
+        "pixel_count": 203,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S001",
+        "terrain": 550.0504150390625,
+        "pixel_count": 248,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S002",
+        "terrain": 457.5832214355469,
+        "pixel_count": 325,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S003",
+        "terrain": 542.7295532226562,
+        "pixel_count": 540,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S004",
+        "terrain": 505.3861083984375,
+        "pixel_count": 426,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S005",
+        "terrain": 552.8875122070312,
+        "pixel_count": 383,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S006",
+        "terrain": 556.662109375,
+        "pixel_count": 312,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S007",
+        "terrain": 530.8557739257812,
+        "pixel_count": 415,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S008",
+        "terrain": 542.4922485351562,
+        "pixel_count": 523,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S009",
+        "terrain": 502.7727966308594,
+        "pixel_count": 287,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S010",
+        "terrain": 487.5635681152344,
+        "pixel_count": 79,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S011",
+        "terrain": 568.5668334960938,
+        "pixel_count": 325,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S012",
+        "terrain": 481.1858215332031,
+        "pixel_count": 180,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S013",
+        "terrain": 483.26031494140625,
+        "pixel_count": 138,
+        "passed": true
+      },
+      {
+        "source": "S014",
+        "target": "S015",
+        "terrain": 578.795166015625,
+        "pixel_count": 488,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "O01",
+        "terrain": 521.7992553710938,
+        "pixel_count": 286,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S001",
+        "terrain": 547.315185546875,
+        "pixel_count": 241,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S002",
+        "terrain": 593.7526245117188,
+        "pixel_count": 314,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S003",
+        "terrain": 437.89886474609375,
+        "pixel_count": 119,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S004",
+        "terrain": 641.2510375976562,
+        "pixel_count": 267,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S005",
+        "terrain": 568.6133422851562,
+        "pixel_count": 154,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S006",
+        "terrain": 601.2601318359375,
+        "pixel_count": 177,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S007",
+        "terrain": 452.918212890625,
+        "pixel_count": 74,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S008",
+        "terrain": 660.450927734375,
+        "pixel_count": 182,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S009",
+        "terrain": 532.3267822265625,
+        "pixel_count": 244,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S010",
+        "terrain": 568.3262329101562,
+        "pixel_count": 410,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S011",
+        "terrain": 538.7306518554688,
+        "pixel_count": 164,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S012",
+        "terrain": 534.7462158203125,
+        "pixel_count": 345,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S013",
+        "terrain": 529.7706298828125,
+        "pixel_count": 351,
+        "passed": true
+      },
+      {
+        "source": "S015",
+        "target": "S014",
+        "terrain": 578.795166015625,
+        "pixel_count": 488,
+        "passed": true
+      }
+    ],
+    "final": {
+      "checks": {
+        "coverage": true,
+        "identifiers": true,
+        "destination": true,
+        "hard_deadlines": true,
+        "mass_volume": true,
+        "geometry_energy": true,
+        "delivery_times": true,
+        "resource_times": true,
+        "uav_nonoverlap": true,
+        "battery_nonoverlap": true,
+        "full_charge_reuse": true,
+        "soc": true,
+        "objective": true,
+        "finite": true,
+        "all": true
+      },
+      "errors": [],
+      "objective": [
+        27,
+        73.08019810265317,
+        7848.519749488045,
+        187.35233094617692
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "seed": 202600,
+  "per_zone_type": 4,
+  "multipoint_budget": 60,
+  "parallel_jobs": 4,
+  "threads_per_solver": 1,
+  "anchor_seconds": 25,
+  "epsilon_rounds": 2,
+  "epsilon_per_round": 4,
+  "epsilon_seconds": 8,
+  "preference_seconds": 30,
+  "alns_iterations": 15,
+  "alns_seconds": 3,
+  "preference_center": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "preference_delta": 0.3,
+  "operator_reaction": 0.25,
+  "operator_floor": 0.05,
+  "initial_temperature": 0.03,
+  "cooling": 0.94,
+  "destroy_route_count": 3,
+  "audit_scope": "direct global joint MILP over frozen working library; no full-route global optimality claim",
+  "seeds_10_run_experiment": "planned, not executed in this corrective run",
+  "preference_lp_seconds": 20
+}

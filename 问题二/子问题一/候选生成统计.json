@@ -1,0 +1,34 @@
+{
+  "catalog_count": 19525,
+  "catalog_stats": {
+    "attempts": 100731,
+    "accepted": 19525,
+    "mass": 80621,
+    "volume": 571,
+    "energy": 14
+  },
+  "working_pool": {
+    "multiroute_generation": {
+      "attempts": 360,
+      "accepted": 82,
+      "energy": 222,
+      "mass": 41,
+      "volume": 15
+    },
+    "count": 558,
+    "type_count": {
+      "B": 185,
+      "C": 218,
+      "A": 155
+    },
+    "visit_count": {
+      "1": 477,
+      "3": 14,
+      "2": 64,
+      "4": 3
+    },
+    "seed": 202600,
+    "per_zone_type": 4,
+    "note": "K0 is a finite working library, not the full original feasible route set."
+  }
+}

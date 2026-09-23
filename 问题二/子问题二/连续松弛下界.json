@@ -1,0 +1,25 @@
+{
+  "scope": "global_K0_LP_C",
+  "status": "Optimal",
+  "optimal": true,
+  "incumbent": false,
+  "warm_fallback": false,
+  "lower_bound": 5937.319875674084,
+  "upper_bound": null,
+  "weights": [
+    0,
+    0,
+    1,
+    0
+  ],
+  "epsilon": {},
+  "gap": null,
+  "matrix_residual": 1.0913936421275139e-11,
+  "variables": 55230,
+  "constraints": 694828,
+  "horizon": 368611.7184759778,
+  "seconds": 5.6924915999989025,
+  "seed": 202600,
+  "relaxation": true,
+  "nodes": 0
+}

@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-09-23T18:47:41.384505+00:00",
+  "inputs": {
+    "问题二\\audit_q2_implementation.py": "9b59a84e443086211e7901b8f1754eedd618b4d6cee8be8372f4775172550879",
+    "问题二\\q2_candidates.py": "994611425982e3cdbe72c918f1c5a3f9575636cbcf48fdcf4c17db6ae1c2e42d",
+    "问题二\\q2_data.py": "cf1a0f2d211b1712d48d8c027ef2ff8c201a933391b66c7212b21f7dd0d9b0b9",
+    "问题二\\q2_gpu_audit.py": "7b5ea4ec779391be3bdd10c586b0bbf32ff5a891d6215131f64e653768c08c49",
+    "问题二\\q2_joint.py": "d4759a7559ba0c24f84488ff09c0dd1eaed8481d2f76f784a56db089110ea476",
+    "问题二\\q2_model.py": "ccf27776ef876f2209052e4b0fa72f78588732d553cfcb29f7eea5d2221eab33",
+    "问题二\\q2_run.py": "fd8021d650a298c4820dbc88cd907ca7d2d04cd6258ab66ebb18bf7f32ee8df0",
+    "问题二\\q2_verify.py": "96dfb8a5018f5be2053a22c1455798305a27c53119da86ab37ae0189f049d452",
+    "问题二\\report_q2.py": "43f501e73413ddf46bfb35ef023347ecc8e1741212d0c6c1cee107c46c1e8091",
+    "问题二\\solve_q2.py": "2f1e62510a47f92015e3b434caf865d2ea944baf808e6768bc952fdafc67fc82",
+    "问题二\\solve_q2_new.py": "1ffb323611436648f08ca03e5b83b04785b525736ab44cbfdeec222cac297013",
+    "问题二\\sync_manuscript_q2.py": "615dc42b5ca55841864ab38e407edab1570d7efb6ae17fc5d785d63be87a8090",
+    "问题二\\write_q2_audit_report.py": "77a56075a4f57cf1f8cbb200736409ad543fe7d335aecb9e7cd64500ea842f3a",
+    "问题二\\联合求解配置.json": "1177da2872718aab30391e35cce665cb89d701aeaad59e85f4f42a881ced5ea8",
+    "问题二\\冻结评价配置.json": "2964af1bdf146670528349a114c8615b8219c4e57ab8934702cf78fc353b1cbc",
+    "问题二\\初始化\\审计基线方案.json": "a230bff39c5a602e8c3296d7bf35a030e475ae99902af94e57d5bfbf3a22c4ae",
+    "正文\\正文.md": "3a7811c25f0ac22ebf75e3a7487250fd12186941264c8a7102b5dad06896dee0"
+  },
+  "outputs": {
+    "问题二\\问题二_结果提交.xlsx": "709d3b6f99a0d4cfb61de01bc7c1ea77f168e96d1f905891fff65643093faa23",
+    "问题二\\求解摘要.json": "393d45a6f4a6d37d036a76ee0fb5daf80248c2f568c4c1123f3757d155c77533",
+    "问题二\\问题二求解结果.md": "73e33f61c6a1b2f47e1337f998c6c31b2cadf00f58515c80141a7ae119520ddb",
+    "问题二\\子问题二\\偏好极点与有效界.csv": "b3a1c611ed8870b25f5534729f90feb509b0c138adcec4e0757f44dd3db0bdc6",
+    "问题二\\子问题二\\四目标基准比较.csv": "0df37e4f612e2dc850c283ffbf17f738b2a8caaa6482bb26a81ffbff811da32b",
+    "问题二\\子问题二\\普通物资及时性.csv": "4f95db7ad7cdd927d16a75937f4ecd7db5550e8d6dc9d038c7666a668b419841",
+    "问题二\\子问题二\\最终方案_架次详情.csv": "c10555cc21f412adc819b919ae112017fdced6dd2ceb07e3a611ff438cd3004c",
+    "问题二\\子问题二\\最终方案_航段明细.csv": "8d46c192263afb36ee6fd224958f04ee8c5aff467e422945ca96e184bac057ec",
+    "问题二\\子问题二\\最终方案_资源事件.csv": "258e228ae7d40327acf02ec5f56d2a0513b04062449b00162b249b9b9375f8df",
+    "问题二\\子问题二\\最终方案_运输架次.csv": "b07909b1020aa13ef1a7847246a92f3f61591a690a8ee45c62d7cacebec88e00",
+    "问题二\\子问题二\\最终方案_逐站事件.csv": "8667c3d342021a9e176e078bb7953806cacdf389f847429f0380bf6fdca5a4ca",
+    "问题二\\子问题二\\最终方案_逐箱交付.csv": "7aac975a14600a2314c68eee2b814e1895c0fd7bc5fe06f88227b1d2d13eb480",
+    "问题二\\子问题二\\最终方案_逐箱核验.csv": "5bd3d504285c99292ab133243f79d9249c5718b73fc6cf564a8cfdefaba8a2cb",
+    "问题二\\子问题二\\求解运行日志.csv": "de8d481e59573e305d0d8a77030580556159d79f8606fe73b5d22ba0a6488bc2",
+    "问题二\\子问题二\\硬时限核验.csv": "2635101ebced7e045e29ba7b2d564e42ae06f2a65298fb5f123ccf0ddc1aa2ba",
+    "问题二\\子问题二\\资源使用汇总.csv": "d05953736144835aed714a8c1353ce5da14cf64f7a2cb3277c547c60d90519ac",
+    "问题二\\子问题二\\资源等待条件.csv": "617597076b502be5b7824b35a0d13582ede87737962509c095f13e30c01af41d",
+    "问题二\\子问题二\\非支配方案.csv": "fab675659107703cfe01790ab0502bff181943019865fc44227167181b489ff6",
+    "问题二\\子问题二\\ALNS对照日志.json": "5011330cc1c4e4cbaa8a7a53c2058b24d593b82e731cacfb8adfea5c301aa2e3",
+    "问题二\\子问题二\\ALNS对照档案.json": "47e63b31178395fbea904200022608094ce439f6e842eb7151b6bd0874c14262",
+    "问题二\\子问题二\\偏好极点基准.json": "0a96a90c8cd4623ba60fe3e0920714513add1015001b6988607972563ea4e0b4",
+    "问题二\\子问题二\\单目标有效下界.json": "ea3a45b0f7fb0a13856f76f9c55b9399f0c37c0fc45db98a41f96eddd0b16558",
+    "问题二\\子问题二\\双GPU物理复算.json": "2cffc1a35ac22b73065b7ebd571e06f81ec98db8e42603d592915bde6ca7b76a",
+    "问题二\\子问题二\\固定原资源反例复现.json": "387907e45267d7c586174f3b3cd05979d5008282d4bf98d7fd9a41b1e56c9a69",
+    "问题二\\子问题二\\完整联合运行日志.json": "95eab643bfa0063d1569e6fcd462dccad7acebd46115fa9d64006ab65f63b3e5",
+    "问题二\\子问题二\\实现审计回归.json": "9e94e8ebc9f58c41d729c29049fb8481b753d2e4abb7d643ea57859cccdcc758",
+    "问题二\\子问题二\\最终方案.json": "f5ada42c6d0787f6bb482ee30201e47b129373aad4ba668438badd1a24539459",
+    "问题二\\子问题二\\构造初始化档案.json": "183c7385f39c5853e90ea902db2603f04f1d0313df5d14a21a5625202228a3ec",
+    "问题二\\子问题二\\独立核验.json": "e98b7926cc03318b96f5a04069df137d133ac3a6c48fb18f10c60376c5fd39e1",
+    "问题二\\子问题二\\直接联合档案.json": "183c7385f39c5853e90ea902db2603f04f1d0313df5d14a21a5625202228a3ec",
+    "问题二\\子问题二\\联合非支配档案.json": "330d5198b00e825845faa375374a3bd0d8876ee72466391619919eef5cb79b51",
+    "问题二\\子问题二\\自适应epsilon.json": "c0e844742baf0830e415bc4687026fa4f584555d1245080cee5f41bf4740d1b3",
+    "问题二\\子问题二\\连续松弛下界.json": "2eafd0b3ceb37b8b63410bccf4b03c9ded91ddec4a6c80227092a731d7e7a5c3",
+    "问题二\\审计修正与复核报告.md": "604d8e9d36eb4e6f7dea574546da9407d6b7e72c03df827fbf0167fb24c7db31",
+    "问题二\\复核_独立审阅_修正版.md": "e9e1de4b22fa1873dbdf8927618b87348db179cd8924eb84a0b3339476776804"
+  },
+  "source_data": [
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\调度中心与服务区.xlsx",
+      "sha256": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\运输无人机数据.xlsx",
+      "sha256": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\物资需求与配送时限.xlsx",
+      "sha256": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\镇龙乡地理空间数据\\镇龙乡及周边地理数据\\数字高程模型数据（DEM）\\镇龙乡及周边30米DEM.mat",
+      "sha256": "c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf"
+    }
+  ]
+}

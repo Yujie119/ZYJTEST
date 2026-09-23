@@ -1,0 +1,62 @@
+{
+  "状态": "可行且经原始数据独立核验",
+  "候选架次总数": 1724,
+  "单点候选数": 901,
+  "两点候选数": 800,
+  "三点候选数": 23,
+  "货箱数": 80,
+  "服务区数": 15,
+  "硬时限货箱数": 31,
+  "非支配方案数": 6,
+  "最终架次数": 20,
+  "总能耗kWh": 59.66897340231617,
+  "最晚返场s": 9812.437474929719,
+  "普通物资加权迟到s": 409.1154782380219,
+  "普通物资迟到箱数": 7,
+  "最小硬时限裕度s": 147.52184857849807,
+  "档案内最坏遗憾": 0.04238799918902372,
+  "遗憾认证范围": "统一有限候选库、已运行偏好极点和精确固定路线排程内；不是完整路线空间全局遗憾",
+  "候选生成统计": {
+    "attempts": 13623,
+    "accepted": 2989,
+    "mass": 7245,
+    "volume": 1869,
+    "energy": 1520,
+    "final": 1724,
+    "single": 901,
+    "double": 800,
+    "triple": 23
+  },
+  "GPU核验": {
+    "devices": [
+      {
+        "device": 0,
+        "name": "NVIDIA GeForce RTX 3080 Ti",
+        "routes": 862,
+        "free_bytes": 11588861952,
+        "total_bytes": 12884377600
+      },
+      {
+        "device": 1,
+        "name": "NVIDIA GeForce RTX 3080 Ti",
+        "routes": 862,
+        "free_bytes": 11588861952,
+        "total_bytes": 12884377600
+      }
+    ]
+  },
+  "GPU最大能耗差kWh": 8.881784197001252e-16,
+  "核验": {
+    "route_physics": true,
+    "unique_coverage": true,
+    "destination": true,
+    "hard_deadlines": true,
+    "delivery_rebuild": true,
+    "uav_nonoverlap": true,
+    "battery_nonoverlap": true,
+    "soc": true,
+    "objective": true,
+    "all": true
+  },
+  "运行秒数": 209.37675679998938
+}

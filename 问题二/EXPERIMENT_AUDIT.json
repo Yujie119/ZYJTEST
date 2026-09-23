@@ -1,0 +1,91 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "finite_library_limited_certification_and_planned_repeats",
+  "summary": "Independent same-family review found no new actual implementation error in the frozen revision. Candidate completeness, exact minimax regret and repeated-run claims remain uncertified.",
+  "audited_input_hashes": {
+    "问题二\\q2_data.py": "sha256:cf1a0f2d211b1712d48d8c027ef2ff8c201a933391b66c7212b21f7dd0d9b0b9",
+    "问题二\\q2_joint.py": "sha256:d4759a7559ba0c24f84488ff09c0dd1eaed8481d2f76f784a56db089110ea476",
+    "问题二\\q2_candidates.py": "sha256:994611425982e3cdbe72c918f1c5a3f9575636cbcf48fdcf4c17db6ae1c2e42d",
+    "问题二\\q2_run.py": "sha256:fd8021d650a298c4820dbc88cd907ca7d2d04cd6258ab66ebb18bf7f32ee8df0",
+    "问题二\\q2_verify.py": "sha256:96dfb8a5018f5be2053a22c1455798305a27c53119da86ab37ae0189f049d452",
+    "问题二\\audit_q2_implementation.py": "sha256:9b59a84e443086211e7901b8f1754eedd618b4d6cee8be8372f4775172550879",
+    "问题二\\q2_gpu_audit.py": "sha256:7b5ea4ec779391be3bdd10c586b0bbf32ff5a891d6215131f64e653768c08c49",
+    "问题二\\report_q2.py": "sha256:43f501e73413ddf46bfb35ef023347ecc8e1741212d0c6c1cee107c46c1e8091",
+    "问题二\\联合求解配置.json": "sha256:1177da2872718aab30391e35cce665cb89d701aeaad59e85f4f42a881ced5ea8",
+    "问题二\\冻结评价配置.json": "sha256:2964af1bdf146670528349a114c8615b8219c4e57ab8934702cf78fc353b1cbc",
+    "问题二\\求解摘要.json": "sha256:393d45a6f4a6d37d036a76ee0fb5daf80248c2f568c4c1123f3757d155c77533",
+    "问题二\\审计修正与复核报告.md": "sha256:604d8e9d36eb4e6f7dea574546da9407d6b7e72c03df827fbf0167fb24c7db31",
+    "问题二\\复核_独立审阅_修正版.md": "sha256:e9e1de4b22fa1873dbdf8927618b87348db179cd8924eb84a0b3339476776804",
+    "问题二\\子问题二\\最终方案.json": "sha256:f5ada42c6d0787f6bb482ee30201e47b129373aad4ba668438badd1a24539459",
+    "问题二\\子问题二\\独立核验.json": "sha256:e98b7926cc03318b96f5a04069df137d133ac3a6c48fb18f10c60376c5fd39e1",
+    "问题二\\子问题二\\实现审计回归.json": "sha256:9e94e8ebc9f58c41d729c29049fb8481b753d2e4abb7d643ea57859cccdcc758",
+    "问题二\\子问题二\\偏好极点基准.json": "sha256:0a96a90c8cd4623ba60fe3e0920714513add1015001b6988607972563ea4e0b4",
+    "问题二\\子问题二\\完整联合运行日志.json": "sha256:95eab643bfa0063d1569e6fcd462dccad7acebd46115fa9d64006ab65f63b3e5",
+    "问题二\\子问题二\\双GPU物理复算.json": "sha256:2cffc1a35ac22b73065b7ebd571e06f81ec98db8e42603d592915bde6ca7b76a",
+    "正文\\正文.md": "sha256:3a7811c25f0ac22ebf75e3a7487250fd12186941264c8a7102b5dad06896dee0"
+  },
+  "trace_path": ".aris\\traces\\experiment-audit\\2026-09-24_run01",
+  "agent_id": "/root/audit_q2",
+  "verdict_id": "/root/audit_q2:final_frozen_revision",
+  "executor_model": "codex-gpt-6-astra",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-09-23T18:47:39.537548+00:00",
+  "date": "2026-09-24",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "Original workbooks and DEM; simulation_only, no external optimum labels."
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "Frozen scales; valid L1-polytope vertices; common K0 regret bounds, exact regret uncertified."
+    },
+    "result_existence": {
+      "status": "pass",
+      "details": "Artifacts, final-plan provenance, workbook readback and fingerprints verified."
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "Unused dynamic expansion removed; executed fixed-K0 ALNS disclosed."
+    },
+    "scope": {
+      "status": "warn",
+      "details": "558-candidate K0 incomplete; many MILPs time-limited; 10-repeat/ablation experiments not run."
+    },
+    "eval_type": "simulation_only"
+  },
+  "claims": [
+    {
+      "id": "physical_and_resource_feasibility",
+      "impact": "supported"
+    },
+    {
+      "id": "objective_constraint_implementation_matches_stated_model",
+      "impact": "supported_with_scope"
+    },
+    {
+      "id": "N_minimum_20_within_K0",
+      "impact": "supported"
+    },
+    {
+      "id": "full_original_global_optimum",
+      "impact": "unsupported"
+    },
+    {
+      "id": "exact_minimax_regret",
+      "impact": "unsupported"
+    },
+    {
+      "id": "same_budget_ALNS_comparison_superiority",
+      "impact": "unsupported"
+    }
+  ]
+}

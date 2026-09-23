@@ -1,0 +1,10 @@
+{
+  "lower_bounds": [
+    20.0,
+    60.70380815279539,
+    6006.72573493983,
+    0.0
+  ],
+  "scope": "same K0; unconditional anchors or safe incumbent cutoff",
+  "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+}

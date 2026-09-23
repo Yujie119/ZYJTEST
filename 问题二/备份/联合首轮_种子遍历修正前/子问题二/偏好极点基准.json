@@ -1,0 +1,230 @@
+[
+  {
+    "weight": [
+      0.09999999999999998,
+      0.25,
+      0.25,
+      0.4
+    ],
+    "coefficients": [
+      0.007692307692307691,
+      0.009528735259802733,
+      0.00013327927881063287,
+      0.0010371027984582139
+    ],
+    "lower": 0.0,
+    "upper": 2.068948061766479,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.09999999999999998,
+      0.25,
+      0.4,
+      0.25
+    ],
+    "coefficients": [
+      0.007692307692307691,
+      0.009528735259802733,
+      0.0002132468460970126,
+      0.0006481892490363836
+    ],
+    "lower": 0.0,
+    "upper": 2.6991660179560872,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.09999999999999998,
+      0.4,
+      0.25,
+      0.25
+    ],
+    "coefficients": [
+      0.007692307692307691,
+      0.015245976415684375,
+      0.00013327927881063287,
+      0.0006481892490363836
+    ],
+    "lower": 0.0,
+    "upper": 2.4213442489456725,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.25,
+      0.09999999999999998,
+      0.25,
+      0.4
+    ],
+    "coefficients": [
+      0.019230769230769232,
+      0.0038114941039210926,
+      0.00013327927881063287,
+      0.0010371027984582139
+    ],
+    "lower": 0.0,
+    "upper": 1.9710850890408698,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.25,
+      0.09999999999999998,
+      0.4,
+      0.25
+    ],
+    "coefficients": [
+      0.019230769230769232,
+      0.0038114941039210926,
+      0.0002132468460970126,
+      0.0006481892490363836
+    ],
+    "lower": 0.0,
+    "upper": 2.5928873632220766,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.25,
+      0.25,
+      0.09999999999999998,
+      0.4
+    ],
+    "coefficients": [
+      0.019230769230769232,
+      0.009528735259802733,
+      5.3311711524253136e-05,
+      0.0010371027984582139
+    ],
+    "lower": 0.0,
+    "upper": 1.623821472766259,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.25,
+      0.25,
+      0.4,
+      0.09999999999999998
+    ],
+    "coefficients": [
+      0.019230769230769232,
+      0.009528735259802733,
+      0.0002132468460970126,
+      0.00025927569961455336
+    ],
+    "lower": 0.0,
+    "upper": 2.9378406194738176,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.25,
+      0.4,
+      0.09999999999999998,
+      0.25
+    ],
+    "coefficients": [
+      0.019230769230769232,
+      0.015245976415684375,
+      5.3311711524253136e-05,
+      0.0006481892490363836
+    ],
+    "lower": 0.0,
+    "upper": 1.9614576354769802,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.25,
+      0.4,
+      0.25,
+      0.09999999999999998
+    ],
+    "coefficients": [
+      0.019230769230769232,
+      0.015245976415684375,
+      0.00013327927881063287,
+      0.00025927569961455336
+    ],
+    "lower": 0.0,
+    "upper": 2.6440256129066317,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.4,
+      0.09999999999999998,
+      0.25,
+      0.25
+    ],
+    "coefficients": [
+      0.03076923076923077,
+      0.0038114941039210926,
+      0.00013327927881063287,
+      0.0006481892490363836
+    ],
+    "lower": 0.0,
+    "upper": 2.2269057342647756,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.4,
+      0.25,
+      0.09999999999999998,
+      0.25
+    ],
+    "coefficients": [
+      0.03076923076923077,
+      0.009528735259802733,
+      5.3311711524253136e-05,
+      0.0006481892490363836
+    ],
+    "lower": 0.0,
+    "upper": 1.8651683615262247,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  },
+  {
+    "weight": [
+      0.4,
+      0.25,
+      0.25,
+      0.09999999999999998
+    ],
+    "coefficients": [
+      0.03076923076923077,
+      0.009528735259802733,
+      0.00013327927881063287,
+      0.00025927569961455336
+    ],
+    "lower": 0.0,
+    "upper": 2.5477363389558763,
+    "status": "Time limit reached",
+    "scope": "same_frozen_joint_library",
+    "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+  }
+]

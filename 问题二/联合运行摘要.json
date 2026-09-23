@@ -1,0 +1,45 @@
+{
+  "library": {
+    "multiroute_generation": {
+      "attempts": 360,
+      "accepted": 82,
+      "energy": 222,
+      "mass": 41,
+      "volume": 15
+    },
+    "count": 558,
+    "type_count": {
+      "B": 185,
+      "C": 218,
+      "A": 155
+    },
+    "visit_count": {
+      "1": 477,
+      "3": 14,
+      "2": 64,
+      "4": 3
+    },
+    "seed": 202600,
+    "per_zone_type": 4,
+    "note": "K0 is a finite working library, not the full original feasible route set."
+  },
+  "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04",
+  "single_point_catalog": 19525,
+  "archive_count": 8,
+  "objective": [
+    28,
+    75.71131596897939,
+    7567.094096939377,
+    200.565886509374
+  ],
+  "regret_interval": [
+    0.2179084629852588,
+    0.5275704112880106
+  ],
+  "global_optimality_certified": false,
+  "direct_seconds": 273.77781890000915,
+  "alns_seconds": 11.851928899995983,
+  "total_seconds": 1090.2526949000312,
+  "scope": "All decisions optimized jointly over K0. Incomplete route enumeration; limited solver certification. ALNS is a separate contrast.",
+  "comparison_note": "Direct phase and ALNS use the same K0 but different actual budgets; no equal-budget superiority claim."
+}

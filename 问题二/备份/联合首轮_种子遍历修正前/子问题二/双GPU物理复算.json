@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "passed": true,
+  "devices": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "routes": 9803,
+      "legs": 19606,
+      "dtype": "float64",
+      "passed": true,
+      "max_abs_error": {
+        "energy_kwh": 4.440892098500626e-16,
+        "duration_s": 0.0,
+        "soc": 1.1102230246251565e-16,
+        "charge_s": 4.547473508864641e-13
+      },
+      "compute_seconds": 0.28132880001794547,
+      "wall_seconds": 0.6836390999960713,
+      "peak_tensor_bytes": 3454464
+    },
+    {
+      "device": 1,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "routes": 9803,
+      "legs": 19707,
+      "dtype": "float64",
+      "passed": true,
+      "max_abs_error": {
+        "energy_kwh": 8.881784197001252e-16,
+        "duration_s": 4.547473508864641e-13,
+        "soc": 1.1102230246251565e-16,
+        "charge_s": 4.547473508864641e-13
+      },
+      "compute_seconds": 0.2751777999801561,
+      "wall_seconds": 0.6733832000172697,
+      "peak_tensor_bytes": 3466752
+    }
+  ],
+  "route_count": 19606,
+  "torch_version": "2.8.0+cu128",
+  "cuda_version": "12.8",
+  "wall_seconds": 1.5925143000204116,
+  "provenance": "Original workbook parameters and box masses; DEM geometry separately checked with independent pixel-rectangle intersections.",
+  "scope": "Independent tensor recomputation of candidate energy, duration, SOC and charging on both GPUs. No GPU MIP or speedup claim."
+}

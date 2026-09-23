@@ -1,0 +1,2087 @@
+[
+  {
+    "iteration": 0,
+    "operator": "energy",
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "K1eecbe2e24269c78",
+      "Kdbd4e861a65b4bd4",
+      "K6a7ae2905393aaaf"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-0",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1828,
+        "constraints": 10452,
+        "horizon": 305921.6951338567,
+        "seconds": 0.11734459997387603,
+        "seed": 202600,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-0",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1828,
+        "constraints": 10453,
+        "horizon": 305921.6951338567,
+        "seconds": 0.08860389998881146,
+        "seed": 202600,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-0",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.7049721691384,
+        "upper_bound": 60.704972169138415,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 2.34097046871337e-16,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1828,
+        "constraints": 10454,
+        "horizon": 305921.6951338567,
+        "seconds": 0.10158409998985007,
+        "seed": 202600,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-0",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1828,
+        "constraints": 10455,
+        "horizon": 305921.6951338567,
+        "seconds": 0.04768800002057105,
+        "seed": 202600,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 1,
+    "operator": "battery",
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "K1eecbe2e24269c78",
+      "Kdbd4e861a65b4bd4",
+      "K6a7ae2905393aaaf"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-1",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1887,
+        "constraints": 10956,
+        "horizon": 305444.6949935528,
+        "seconds": 0.2119611999951303,
+        "seed": 202601,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-1",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1887,
+        "constraints": 10957,
+        "horizon": 305444.6949935528,
+        "seconds": 0.07636449998244643,
+        "seed": 202601,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-1",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.70497216913841,
+        "upper_bound": 60.7049721691384,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1887,
+        "constraints": 10958,
+        "horizon": 305444.6949935528,
+        "seconds": 0.09240079997107387,
+        "seed": 202601,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-1",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1887,
+        "constraints": 10959,
+        "horizon": 305444.6949935528,
+        "seconds": 0.04325889999745414,
+        "seed": 202601,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 2,
+    "operator": "energy",
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      0.775,
+      0.775
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "K1eecbe2e24269c78",
+      "Kdbd4e861a65b4bd4",
+      "K6a7ae2905393aaaf"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-2",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1841,
+        "constraints": 10844,
+        "horizon": 307787.8999330397,
+        "seconds": 0.2347791999927722,
+        "seed": 202602,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-2",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1841,
+        "constraints": 10845,
+        "horizon": 307787.8999330397,
+        "seconds": 0.1770006000297144,
+        "seed": 202602,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-2",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.70497216913841,
+        "upper_bound": 60.7049721691384,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1841,
+        "constraints": 10846,
+        "horizon": 307787.8999330397,
+        "seconds": 0.17996929999208078,
+        "seed": 202602,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-2",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1841,
+        "constraints": 10847,
+        "horizon": 307787.8999330397,
+        "seconds": 0.04644219996407628,
+        "seed": 202602,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 3,
+    "operator": "energy",
+    "probabilities": [
+      0.28169014084507044,
+      0.28169014084507044,
+      0.2183098591549296,
+      0.2183098591549296
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      0.775,
+      0.775
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "K1eecbe2e24269c78",
+      "Kdbd4e861a65b4bd4",
+      "K6a7ae2905393aaaf"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-3",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1845,
+        "constraints": 10844,
+        "horizon": 306677.98705313576,
+        "seconds": 0.2405239000217989,
+        "seed": 202603,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-3",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1845,
+        "constraints": 10845,
+        "horizon": 306677.98705313576,
+        "seconds": 0.15148300002329051,
+        "seed": 202603,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-3",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.7049721691384,
+        "upper_bound": 60.7049721691384,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1845,
+        "constraints": 10846,
+        "horizon": 306677.98705313576,
+        "seconds": 0.14776220003841445,
+        "seed": 202603,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-3",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1845,
+        "constraints": 10847,
+        "horizon": 306677.98705313576,
+        "seconds": 0.04774730000644922,
+        "seed": 202603,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 4,
+    "operator": "random",
+    "probabilities": [
+      0.28169014084507044,
+      0.28169014084507044,
+      0.2183098591549296,
+      0.2183098591549296
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      0.775,
+      0.775
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "K8d90beceb5941288",
+      "Kd3a22a2d5b1752d7",
+      "K407ba4e1c2d2222f"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-4",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1810,
+        "constraints": 10116,
+        "horizon": 246415.87624537168,
+        "seconds": 0.21423670003423467,
+        "seed": 202604,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-4",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1810,
+        "constraints": 10117,
+        "horizon": 246415.87624537168,
+        "seconds": 0.2451359999831766,
+        "seed": 202604,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-4",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.70497216913841,
+        "upper_bound": 60.704972169138415,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 1.170485234356685e-16,
+        "matrix_residual": 0.0,
+        "variables": 1810,
+        "constraints": 10118,
+        "horizon": 246415.87624537168,
+        "seconds": 0.2528252999763936,
+        "seed": 202604,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-4",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1810,
+        "constraints": 10119,
+        "horizon": 246415.87624537168,
+        "seconds": 0.037635200016666204,
+        "seed": 202604,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 5,
+    "operator": "deadline",
+    "probabilities": [
+      0.28169014084507044,
+      0.28169014084507044,
+      0.2183098591549296,
+      0.2183098591549296
+    ],
+    "scores": [
+      0.775,
+      0.775,
+      0.775,
+      0.6062500000000001
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "Kb4dcea9456a134a0",
+      "K1eecbe2e24269c78",
+      "K47d3c93c96fd1eb3"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-5",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1821,
+        "constraints": 10372,
+        "horizon": 282720.7766056837,
+        "seconds": 0.12938950001262128,
+        "seed": 202605,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-5",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1821,
+        "constraints": 10373,
+        "horizon": 282720.7766056837,
+        "seconds": 0.2491872999817133,
+        "seed": 202605,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-5",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.70497216913841,
+        "upper_bound": 60.7049721691384,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1821,
+        "constraints": 10374,
+        "horizon": 282720.7766056837,
+        "seconds": 0.28636540001025423,
+        "seed": 202605,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-5",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1821,
+        "constraints": 10375,
+        "horizon": 282720.7766056837,
+        "seconds": 0.07803120004246011,
+        "seed": 202605,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 6,
+    "operator": "random",
+    "probabilities": [
+      0.26439232409381663,
+      0.26439232409381663,
+      0.26439232409381663,
+      0.2068230277185501
+    ],
+    "scores": [
+      0.775,
+      0.775,
+      0.775,
+      0.6062500000000001
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "K8d90beceb5941288",
+      "K1526eb750f035542",
+      "K3b9ffe6936063ff2"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-6",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1681,
+        "constraints": 8820,
+        "horizon": 279495.833520307,
+        "seconds": 0.21768470003735274,
+        "seed": 202606,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-6",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1681,
+        "constraints": 8821,
+        "horizon": 279495.833520307,
+        "seconds": 0.07065539999166504,
+        "seed": 202606,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-6",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.70497216913841,
+        "upper_bound": 60.7049721691384,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1681,
+        "constraints": 8822,
+        "horizon": 279495.833520307,
+        "seconds": 0.08187410002574325,
+        "seed": 202606,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-6",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1681,
+        "constraints": 8823,
+        "horizon": 279495.833520307,
+        "seconds": 0.01793929998530075,
+        "seed": 202606,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 7,
+    "operator": "energy",
+    "probabilities": [
+      0.26439232409381663,
+      0.26439232409381663,
+      0.26439232409381663,
+      0.2068230277185501
+    ],
+    "scores": [
+      0.775,
+      0.775,
+      0.775,
+      0.6062500000000001
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "K1eecbe2e24269c78",
+      "Kdbd4e861a65b4bd4",
+      "K6a7ae2905393aaaf"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-7",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1821,
+        "constraints": 10664,
+        "horizon": 305858.2251830162,
+        "seconds": 0.19444880000082776,
+        "seed": 202607,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-7",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1821,
+        "constraints": 10665,
+        "horizon": 305858.2251830162,
+        "seconds": 0.08878379996167496,
+        "seed": 202607,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-7",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.70497216913841,
+        "upper_bound": 60.7049721691384,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1821,
+        "constraints": 10666,
+        "horizon": 305858.2251830162,
+        "seconds": 0.09596599999349564,
+        "seed": 202607,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-7",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1821,
+        "constraints": 10667,
+        "horizon": 305858.2251830162,
+        "seconds": 0.04392070003086701,
+        "seed": 202607,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 8,
+    "operator": "deadline",
+    "probabilities": [
+      0.26439232409381663,
+      0.26439232409381663,
+      0.26439232409381663,
+      0.2068230277185501
+    ],
+    "scores": [
+      0.6062500000000001,
+      0.6062500000000001,
+      0.775,
+      0.47968750000000004
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "released": [
+      "Kb4dcea9456a134a0",
+      "K1eecbe2e24269c78",
+      "K47d3c93c96fd1eb3"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-8",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9163.54886305257,
+        "upper_bound": 9163.54886305257,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1831,
+        "constraints": 10268,
+        "horizon": 281663.78849955444,
+        "seconds": 0.21494249999523163,
+        "seed": 202608,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-8",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 520.7998072166124,
+        "upper_bound": 520.7998072166124,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1831,
+        "constraints": 10269,
+        "horizon": 281663.78849955444,
+        "seconds": 0.2633403000072576,
+        "seed": 202608,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-8",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 60.70497216913841,
+        "upper_bound": 60.704972169138415,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 1.170485234356685e-16,
+        "matrix_residual": 0.0,
+        "variables": 1831,
+        "constraints": 10270,
+        "horizon": 281663.78849955444,
+        "seconds": 0.3052419999730773,
+        "seed": 202608,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-8",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 20.0,
+        "upper_bound": 20.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1831,
+        "constraints": 10271,
+        "horizon": 281663.78849955444,
+        "seconds": 0.042128800007048994,
+        "seed": 202608,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 9,
+    "operator": "random",
+    "probabilities": [
+      0.24572514249525013,
+      0.24572514249525013,
+      0.31412286257124755,
+      0.19442685243825203
+    ],
+    "scores": [
+      0.6062500000000001,
+      0.6062500000000001,
+      0.775,
+      0.47968750000000004
+    ],
+    "accepted": true,
+    "new_nondominated": true,
+    "objective": [
+      23,
+      63.26021230769617,
+      9069.567244129956,
+      109.8013979897079
+    ],
+    "released": [
+      "Kb4dcea9456a134a0",
+      "K2f57242223cf66ae",
+      "K3b9ffe6936063ff2"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-9",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9069.567244129956,
+        "upper_bound": 9069.567244129956,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1550,
+        "constraints": 7716,
+        "horizon": 243038.99379070272,
+        "seconds": 0.46217200002865866,
+        "seed": 202609,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-9",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 109.80139798970788,
+        "upper_bound": 109.80139798970788,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1550,
+        "constraints": 7717,
+        "horizon": 243038.99379070272,
+        "seconds": 0.3421682000043802,
+        "seed": 202609,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-9",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 63.26021230769617,
+        "upper_bound": 63.260212307696165,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1550,
+        "constraints": 7718,
+        "horizon": 243038.99379070272,
+        "seconds": 0.16483640001388267,
+        "seed": 202609,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-9",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 23.0,
+        "upper_bound": 23.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1550,
+        "constraints": 7719,
+        "horizon": 243038.99379070272,
+        "seconds": 0.11893519997829571,
+        "seed": 202609,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 10,
+    "operator": "random",
+    "probabilities": [
+      0.24572514249525013,
+      0.24572514249525013,
+      0.31412286257124755,
+      0.19442685243825203
+    ],
+    "scores": [
+      0.6062500000000001,
+      0.6062500000000001,
+      0.775,
+      0.47968750000000004
+    ],
+    "accepted": true,
+    "new_nondominated": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "released": [
+      "K8d90beceb5941288",
+      "K407ba4e1c2d2222f",
+      "K3b9ffe6936063ff2"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-10",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9029.281375254212,
+        "upper_bound": 9029.281375254212,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1355,
+        "constraints": 5752,
+        "horizon": 244479.72615202412,
+        "seconds": 0.2546153000439517,
+        "seed": 202610,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-10",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 109.80139798970788,
+        "upper_bound": 109.80139798970788,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1355,
+        "constraints": 5753,
+        "horizon": 244479.72615202412,
+        "seconds": 0.10892480000620708,
+        "seed": 202610,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-10",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 65.34110020552983,
+        "upper_bound": 65.34110020552983,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1355,
+        "constraints": 5754,
+        "horizon": 244479.72615202412,
+        "seconds": 0.216645399981644,
+        "seed": 202610,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-10",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 24.0,
+        "upper_bound": 24.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 1355,
+        "constraints": 5755,
+        "horizon": 244479.72615202412,
+        "seconds": 0.03326330002164468,
+        "seed": 202610,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 11,
+    "operator": "battery",
+    "probabilities": [
+      0.24572514249525013,
+      0.24572514249525013,
+      0.31412286257124755,
+      0.19442685243825203
+    ],
+    "scores": [
+      2.4546875,
+      0.6062500000000001,
+      0.6062500000000001,
+      0.47968750000000004
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "released": [
+      "K1eecbe2e24269c78",
+      "Kdbd4e861a65b4bd4",
+      "K6a7ae2905393aaaf"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-11",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9029.281375254212,
+        "upper_bound": 9029.281375254212,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1951,
+        "constraints": 10952,
+        "horizon": 306488.52992159664,
+        "seconds": 0.23145890003070235,
+        "seed": 202611,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-11",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 109.80139798970788,
+        "upper_bound": 109.80139798970788,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1951,
+        "constraints": 10953,
+        "horizon": 306488.52992159664,
+        "seconds": 0.15373379999073222,
+        "seed": 202611,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-11",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 65.34110020552983,
+        "upper_bound": 65.34110020552981,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1951,
+        "constraints": 10954,
+        "horizon": 306488.52992159664,
+        "seconds": 0.14276919997064397,
+        "seed": 202611,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-11",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 24.0,
+        "upper_bound": 24.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 1951,
+        "constraints": 10955,
+        "horizon": 306488.52992159664,
+        "seconds": 0.045574999996460974,
+        "seed": 202611,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 12,
+    "operator": "random",
+    "probabilities": [
+      0.5919366993217784,
+      0.14619442351168047,
+      0.14619442351168047,
+      0.11567445365486058
+    ],
+    "scores": [
+      2.4546875,
+      0.6062500000000001,
+      0.6062500000000001,
+      0.47968750000000004
+    ],
+    "accepted": true,
+    "new_nondominated": true,
+    "objective": [
+      24,
+      65.55365418915781,
+      9029.281375254212,
+      54.25995502224788
+    ],
+    "released": [
+      "K057be62281aeda8d",
+      "Kf6fbbcbd43c7eefc",
+      "Kada50d43912b2f82"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-12",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9029.281375254212,
+        "upper_bound": 9029.281375254212,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1538,
+        "constraints": 6920,
+        "horizon": 261272.20746301196,
+        "seconds": 0.1596714000334032,
+        "seed": 202612,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-12",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 54.25995502224788,
+        "upper_bound": 54.25995502224788,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1538,
+        "constraints": 6921,
+        "horizon": 261272.20746301196,
+        "seconds": 0.3097224999801256,
+        "seed": 202612,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-12",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 65.55365418915781,
+        "upper_bound": 65.55365418915781,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1538,
+        "constraints": 6922,
+        "horizon": 261272.20746301196,
+        "seconds": 0.12712509999983013,
+        "seed": 202612,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-12",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 24.0,
+        "upper_bound": 24.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 1538,
+        "constraints": 6923,
+        "horizon": 261272.20746301196,
+        "seconds": 0.016788799955975264,
+        "seed": 202612,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 13,
+    "operator": "random",
+    "probabilities": [
+      0.5919366993217784,
+      0.14619442351168047,
+      0.14619442351168047,
+      0.11567445365486058
+    ],
+    "scores": [
+      2.4546875,
+      0.6062500000000001,
+      0.6062500000000001,
+      0.47968750000000004
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      24,
+      65.55365418915781,
+      9029.281375254212,
+      54.25995502224788
+    ],
+    "released": [
+      "K4c7b7001c84eb366",
+      "Kada50d43912b2f82",
+      "K8e2c748c649551ef"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-13",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9029.281375254212,
+        "upper_bound": 9029.281375254212,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 1.8189894035458565e-12,
+        "variables": 1923,
+        "constraints": 10240,
+        "horizon": 228452.37466030513,
+        "seconds": 0.17747419996885583,
+        "seed": 202613,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-13",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 54.25995502224788,
+        "upper_bound": 54.25995502224788,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 1.8189894035458565e-12,
+        "variables": 1923,
+        "constraints": 10241,
+        "horizon": 228452.37466030513,
+        "seconds": 0.23783489997731522,
+        "seed": 202613,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-13",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 65.55365418915781,
+        "upper_bound": 65.55365418915781,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 1.8189894035458565e-12,
+        "variables": 1923,
+        "constraints": 10242,
+        "horizon": 228452.37466030513,
+        "seconds": 0.26444369996897876,
+        "seed": 202613,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-13",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 24.0,
+        "upper_bound": 24.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 1.8189894035458565e-12,
+        "variables": 1923,
+        "constraints": 10243,
+        "horizon": 228452.37466030513,
+        "seconds": 0.07646569999633357,
+        "seed": 202613,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  },
+  {
+    "iteration": 14,
+    "operator": "battery",
+    "probabilities": [
+      0.5919366993217784,
+      0.14619442351168047,
+      0.14619442351168047,
+      0.11567445365486058
+    ],
+    "scores": [
+      2.853515625,
+      0.6062500000000001,
+      0.47968750000000004,
+      0.47968750000000004
+    ],
+    "accepted": false,
+    "new_nondominated": false,
+    "objective": [
+      24,
+      65.55365418915781,
+      9029.281375254212,
+      54.25995502224788
+    ],
+    "released": [
+      "K1eecbe2e24269c78",
+      "Kdbd4e861a65b4bd4",
+      "K6a7ae2905393aaaf"
+    ],
+    "stages": [
+      {
+        "scope": "ALNS-local-14",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 9029.281375254212,
+        "upper_bound": 9029.281375254212,
+        "weights": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 2030,
+        "constraints": 11596,
+        "horizon": 307797.7160759797,
+        "seconds": 0.16389279998838902,
+        "seed": 202614,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "C",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-14",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 54.25995502224788,
+        "upper_bound": 54.25995502224788,
+        "weights": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 2030,
+        "constraints": 11597,
+        "horizon": 307797.7160759797,
+        "seconds": 0.17092860001139343,
+        "seed": 202614,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "L",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-14",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 65.55365418915781,
+        "upper_bound": 65.55365418915781,
+        "weights": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 2030,
+        "constraints": 11598,
+        "horizon": 307797.7160759797,
+        "seconds": 0.13272850000066683,
+        "seed": 202614,
+        "relaxation": false,
+        "nodes": 1,
+        "stage": "E",
+        "prior_stages_certified": true
+      },
+      {
+        "scope": "ALNS-local-14",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 24.0,
+        "upper_bound": 24.0,
+        "weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "epsilon": {},
+        "gap": 0.0,
+        "matrix_residual": 9.094947017729282e-13,
+        "variables": 2030,
+        "constraints": 11599,
+        "horizon": 307797.7160759797,
+        "seconds": 0.02403899998171255,
+        "seed": 202614,
+        "relaxation": false,
+        "nodes": 0,
+        "stage": "N",
+        "prior_stages_certified": true
+      }
+    ]
+  }
+]

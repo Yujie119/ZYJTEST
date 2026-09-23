@@ -1,0 +1,13 @@
+﻿极点,架次权重,能耗权重,完成时间权重,迟到权重,加权目标下界,加权目标上界,MILP状态,LP状态
+1,0.1,0.25,0.25,0.4,1.78528474304,2.21115403259,Time limit reached,Time limit reached
+2,0.1,0.25,0.4,0.25,2.37048141899,2.8731663816,Time limit reached,Time limit reached
+3,0.1,0.4,0.25,0.25,2.18743086011,2.54424823896,Time limit reached,Time limit reached
+4,0.25,0.1,0.25,0.4,1.66025559914,2.09719025718,Time limit reached,Time limit reached
+5,0.25,0.1,0.4,0.25,2.21678484341,2.74435525469,Time limit reached,Time limit reached
+6,0.25,0.25,0.1,0.4,1.40851840166,1.60277909894,Time limit reached,Time limit reached
+7,0.25,0.25,0.4,0.1,2.62628698826,3.08766242157,Time limit reached,Time limit reached
+8,0.25,0.4,0.1,0.25,1.74102056737,1.92208811798,Time limit reached,Time limit reached
+9,0.25,0.4,0.25,0.1,2.44542822594,2.73838757237,Time limit reached,Optimal
+10,0.4,0.1,0.25,0.25,1.93431979187,2.31336479093,Time limit reached,Optimal
+11,0.4,0.25,0.1,0.25,1.61851840166,1.8105080206,Time limit reached,Optimal
+12,0.4,0.25,0.25,0.1,2.33501724533,2.62680747499,Time limit reached,Optimal

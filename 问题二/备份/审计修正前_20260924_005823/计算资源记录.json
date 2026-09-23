@@ -1,0 +1,24 @@
+{
+  "CPU逻辑线程": 20,
+  "CPU物理核": 14,
+  "内存总字节": 68463718400,
+  "MILP并行任务": 8,
+  "MILP单任务线程": 1,
+  "GPU核验": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "routes": 1327,
+      "free_bytes": 11588861952,
+      "total_bytes": 12884377600
+    },
+    {
+      "device": 1,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "routes": 1327,
+      "free_bytes": 11588861952,
+      "total_bytes": 12884377600
+    }
+  ],
+  "GPU最大能耗差kWh": 8.881784197001252e-16
+}

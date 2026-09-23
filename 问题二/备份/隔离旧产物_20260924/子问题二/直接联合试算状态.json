@@ -1,0 +1,25 @@
+{
+  "scope": "K0_joint_global",
+  "status": "Time limit reached",
+  "optimal": false,
+  "incumbent": true,
+  "warm_fallback": false,
+  "lower_bound": 6082.719772562455,
+  "upper_bound": 9163.548863052574,
+  "weights": [
+    0,
+    0,
+    1,
+    0
+  ],
+  "epsilon": {},
+  "gap": 0.3362047975661505,
+  "matrix_residual": 0.0,
+  "variables": 55230,
+  "constraints": 694828,
+  "horizon": 368611.7184759778,
+  "seconds": 102.51089639996644,
+  "seed": 202600,
+  "relaxation": false,
+  "nodes": 0
+}

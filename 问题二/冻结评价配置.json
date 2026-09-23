@@ -1,0 +1,29 @@
+{
+  "ideal_reference": [
+    20.0,
+    60.70497216913841,
+    7567.094096939377,
+    61.51638430083957
+  ],
+  "upper_reference": [
+    35.0,
+    88.48478697348887,
+    9163.54886305257,
+    520.7998072166125
+  ],
+  "scale": [
+    15.0,
+    27.77981480435046,
+    1596.4547661131937,
+    459.283422915773
+  ],
+  "delta": 0.3,
+  "center": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "rationale": "Frozen after primary anchor pilot; zero pilot ranges use explicit positive unit scales.",
+  "library_sha256": "0c46fcdb4bd139746e0a4e8b2583d3b6f6fdc449861233cfee690a804b21fb04"
+}
