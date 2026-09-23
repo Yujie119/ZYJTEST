@@ -1,0 +1,83 @@
+{
+  "gpu": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "candidate_count": 808,
+      "ray_sample_evaluations": 52952280,
+      "peak_allocated_bytes": 721061376,
+      "peak_reserved_bytes": 723517440,
+      "elapsed_s": 0.43164680001791567
+    },
+    {
+      "device": 1,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "candidate_count": 808,
+      "ray_sample_evaluations": 52952280,
+      "peak_allocated_bytes": 721061376,
+      "peak_reserved_bytes": 723517440,
+      "elapsed_s": 0.4339048000401817
+    }
+  ],
+  "preprocessing": {
+    "gpu_cached_run": [
+      {
+        "device": 0,
+        "name": "NVIDIA GeForce RTX 3080 Ti",
+        "candidate_count": 808,
+        "ray_sample_evaluations": 52952280,
+        "peak_allocated_bytes": 721061376,
+        "peak_reserved_bytes": 723517440,
+        "elapsed_s": 0.43164680001791567
+      },
+      {
+        "device": 1,
+        "name": "NVIDIA GeForce RTX 3080 Ti",
+        "candidate_count": 808,
+        "ray_sample_evaluations": 52952280,
+        "peak_allocated_bytes": 721061376,
+        "peak_reserved_bytes": 723517440,
+        "elapsed_s": 0.4339048000401817
+      }
+    ],
+    "total_seconds": 15.923011899983976,
+    "dem_bytes": 15561392,
+    "candidate_count": 24
+  },
+  "formal_search": {
+    "iterations": 8,
+    "workers": 4,
+    "repair_seconds": 12,
+    "anchor_seconds": 40,
+    "seeds": [
+      202631,
+      202632,
+      202633,
+      202634,
+      202641,
+      202642,
+      202643,
+      202644
+    ],
+    "position_count": 24,
+    "height_levels": [
+      100.0,
+      200.0,
+      300.0
+    ],
+    "slots_per_relay": 3,
+    "search_horizon_s": 30000,
+    "route_count": 1290,
+    "elapsed_s": 252.00245730002644,
+    "feasible_count": 28,
+    "archive_count": 5
+  },
+  "supplement": 69.59292959998129,
+  "cpu_parallel_workers": 4,
+  "geometry_threads": 10,
+  "solver_threads_per_job": 1,
+  "python": "3.13.9",
+  "scipy": "1.16.3",
+  "numpy": "2.3.5",
+  "note": "双GPU仅参与批量几何候选筛选；全区间认证和MILP在CPU执行。内存缓存复用DEM和240航段；未人为填满内存或显存。各阶段耗时不含此前失败调试，未将其当作等预算算法胜负证据。"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    "vertical_motion_manual_obstacle_transition_u_0.3",
+    "stationary_clear_link",
+    "closed_pixel_terrain_touch_is_blocked",
+    "sphere_threshold_roots",
+    "submission_headers_match_original_template",
+    "final_json_csv_identifiers_and_floating_values",
+    "excel_numeric_cells_equal_csv",
+    "event_partition_vs_independent_point_checks_8639",
+    "nondominated_candidates_verified_10"
+  ],
+  "point_crosschecks": 8639,
+  "caveat": "展示/交叉检查采样不替代独立全区间证书及事件端点核验。"
+}

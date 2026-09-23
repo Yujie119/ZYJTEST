@@ -1,0 +1,50 @@
+[
+  {
+    "radius": 0.0,
+    "archive_index": 10,
+    "objective": [
+      24,
+      65.12006866674481,
+      9170.432679280624,
+      465.25841077498995
+    ],
+    "upper_regret": 1.3102134553799543,
+    "source": "resource_sensitivity_3组件"
+  },
+  {
+    "radius": 0.1,
+    "archive_index": 10,
+    "objective": [
+      24,
+      65.12006866674481,
+      9170.432679280624,
+      465.25841077498995
+    ],
+    "upper_regret": 1.4469852033478052,
+    "source": "resource_sensitivity_3组件"
+  },
+  {
+    "radius": 0.3,
+    "archive_index": 10,
+    "objective": [
+      24,
+      65.12006866674481,
+      9170.432679280624,
+      465.25841077498995
+    ],
+    "upper_regret": 1.8729155309954808,
+    "source": "resource_sensitivity_3组件"
+  },
+  {
+    "radius": 0.5,
+    "archive_index": 10,
+    "objective": [
+      24,
+      65.12006866674481,
+      9170.432679280624,
+      465.25841077498995
+    ],
+    "upper_regret": 2.501510892950269,
+    "source": "resource_sensitivity_3组件"
+  }
+]

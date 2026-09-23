@@ -1,0 +1,20 @@
+[
+  {
+    "device": 0,
+    "name": "NVIDIA GeForce RTX 3080 Ti",
+    "candidate_count": 808,
+    "ray_sample_evaluations": 52952280,
+    "peak_allocated_bytes": 721061376,
+    "peak_reserved_bytes": 723517440,
+    "elapsed_s": 0.43164680001791567
+  },
+  {
+    "device": 1,
+    "name": "NVIDIA GeForce RTX 3080 Ti",
+    "candidate_count": 808,
+    "ray_sample_evaluations": 52952280,
+    "peak_allocated_bytes": 721061376,
+    "peak_reserved_bytes": 723517440,
+    "elapsed_s": 0.4339048000401817
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "R2_crossref_retry",
+    "url": "https://api.crossref.org/works/10.1016/j.trc.2025.105082",
+    "result": {
+      "title": [
+        "Integrating battery-related decisions into truck-drone tandem delivery problem with limited battery resources"
+      ],
+      "author": [
+        {
+          "given": "Zhongshan",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bin",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tingting",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Li",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "abstract": null,
+      "container-title": [
+        "Transportation Research Part C: Emerging Technologies"
+      ],
+      "volume": "174",
+      "issue": null,
+      "page": "105082",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0968090X25000865?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0968090X25000865?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  },
+  {
+    "id": "R1_openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1109/TWC.2023.3300332",
+    "result": {
+      "id": "https://openalex.org/W4385627398",
+      "doi": "https://doi.org/10.1109/twc.2023.3300332",
+      "title": "3-D Positioning and Resource Allocation for Multi-UAV Base Stations Under Blockage-Aware Channel Model",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "best_oa_location": null,
+      "locations": [
+        {
+          "id": "doi:10.1109/twc.2023.3300332",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/twc.2023.3300332",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S63459445",
+            "display_name": "IEEE Transactions on Wireless Communications",
+            "issn_l": "1536-1276",
+            "issn": [
+              "1536-1276",
+              "1558-2248"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Wireless Communications",
+          "raw_type": "journal-article"
+        }
+      ],
+      "abstract": "In this paper, we propose to deploy multiple unmanned aerial vehicle (UAV) mounted base stations to serve ground users in outdoor environments with obstacles. In particular, the geographic information is employed to capture the blockage effects for air-to-ground (A2G) links caused by buildings, and a realistic blockage-aware A2G channel model is proposed to characterize the continuous variation of the channels at different locations. Based on the proposed channel model, we formulate the joint optimization problem of UAV three-dimensional (3-D) positioning and resource allocation, by power allocation, user association, and subcarrier allocation, to maximize the minimum achievable rate among users. To solve this non-convex combinatorial programming problem, we introduce a penalty term to relax it and develop a suboptimal solution via a penalty-based double-loop iterative optimization framework. The inner loop solves the penalized problem by employing the block successive convex approximation (BSCA) technique, where the UAV positioning and resource allocation are alternately optimized in each iteration. The outer loop aims to obtain proper penalty multipliers to ensure the solution of the penalized problem converges to that of the original problem. Simulation results demonstrate the superiority of the proposed algorithm over other benchmark schemes in terms of the minimum achievable rate."
+    }
+  },
+  {
+    "id": "R2_openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.trc.2025.105082",
+    "result": {
+      "id": "https://openalex.org/W4408493979",
+      "doi": "https://doi.org/10.1016/j.trc.2025.105082",
+      "title": "Integrating battery-related decisions into truck-drone tandem delivery problem with limited battery resources",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "best_oa_location": null,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.trc.2025.105082",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.trc.2025.105082",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S64511102",
+            "display_name": "Transportation Research Part C Emerging Technologies",
+            "issn_l": "0968-090X",
+            "issn": [
+              "0968-090X",
+              "1879-2359"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Transportation Research Part C: Emerging Technologies",
+          "raw_type": "journal-article"
+        }
+      ],
+      "abstract": ""
+    }
+  },
+  {
+    "id": "R4_publisher",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0305054824001382",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "R3_publisher",
+    "url": "https://link.springer.com/article/10.1007/s00186-023-00841-0",
+    "result": {
+      "text_length": 315,
+      "excerpts": "Client Challenge\nJavaScript is disabled in your browser.\nPlease enable JavaScript to proceed.\nA required part of this site couldn’t load. This may be due to a browser\n      extension, network issues, or browser settings. Please check your\n      connection, disable any ad blockers, or try using a different browser."
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "iterations": 8,
+  "workers": 4,
+  "repair_seconds": 12,
+  "anchor_seconds": 40,
+  "seeds": [
+    202631,
+    202632,
+    202633,
+    202634,
+    202641,
+    202642,
+    202643,
+    202644
+  ],
+  "position_count": 24,
+  "height_levels": [
+    100.0,
+    200.0,
+    300.0
+  ],
+  "slots_per_relay": 3,
+  "search_horizon_s": 30000,
+  "route_count": 1290,
+  "elapsed_s": 252.00245730002644,
+  "feasible_count": 28,
+  "archive_count": 5
+}

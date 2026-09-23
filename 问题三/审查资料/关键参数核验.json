@@ -1,0 +1,183 @@
+{
+  "scope": "原始参数与公式复算；没有执行问题三调度、DEM连续通信认证或全局最优性证明",
+  "boxes": {
+    "total": 80,
+    "medical": 16,
+    "first_batch": 30,
+    "overlap": 15,
+    "hard_deadline": 31,
+    "soft_tardiness": 49
+  },
+  "communication": {
+    "frequency_mhz": 2400.0,
+    "system_loss_db": 3.0,
+    "blockage_loss_db": 10.0,
+    "reception_threshold_dbm": -90.0,
+    "links": [
+      {
+        "link": "运输—网关",
+        "forward_allowed_loss_db": 122.0,
+        "reverse_allowed_loss_db": 129.0,
+        "bidirectional_allowed_loss_db": 122.0,
+        "unblocked_budget_distance_km": 12.510905920255285,
+        "blocked_budget_distance_km": 3.9562958300091604
+      },
+      {
+        "link": "运输—中继接入",
+        "forward_allowed_loss_db": 116.0,
+        "reverse_allowed_loss_db": 116.0,
+        "bidirectional_allowed_loss_db": 116.0,
+        "unblocked_budget_distance_km": 6.2703063283438105,
+        "blocked_budget_distance_km": 1.9828449624534046
+      },
+      {
+        "link": "中继回传—网关",
+        "forward_allowed_loss_db": 126.0,
+        "reverse_allowed_loss_db": 134.0,
+        "bidirectional_allowed_loss_db": 126.0,
+        "unblocked_budget_distance_km": 19.828449624534052,
+        "blocked_budget_distance_km": 6.270306328343811
+      }
+    ]
+  },
+  "relay": {
+    "parameters": {
+      "机型编号": "R",
+      "机型名称": "中继标准测试多旋翼",
+      "含能源组件空载总质量（kg）": 21,
+      "中继通信模块质量（kg）": 2.5,
+      "计划起飞总质量（kg）": 23.5,
+      "计划巡航速度（m/s）": 15,
+      "巡航功率（kW）": 1.15,
+      "能源组件可用能量（kWh）": 3.2,
+      "返航电量下限（%）": 20,
+      "工位固定准备时间（s）": 180,
+      "建链时间（s）": 30,
+      "架次周转时间（s）": 300,
+      "最大爬升速度（m/s）": 4,
+      "最大下降速度（m/s）": 3,
+      "爬升能耗效率": 0.72,
+      "下降能耗效率": 0,
+      "悬停功率（kW）": 1.05,
+      "通信附加功率（kW）": 0.05,
+      "最大悬停离地高度（m）": 300
+    },
+    "vehicle_ids": [
+      "R01",
+      "R02"
+    ],
+    "component_count": 6,
+    "full_charge_s": 1800.0,
+    "sortie_energy_budget_kwh": 2.5600000000000005,
+    "service_power_kw": 1.1,
+    "assumed_setup_energy_kwh": 0.009166666666666667
+  },
+  "charge_comparison": {
+    "examples": [
+      {
+        "soc": 1,
+        "appendix_s": 0.0,
+        "eq_6_17_s": 0.0
+      },
+      {
+        "soc": 0.95,
+        "appendix_s": 315.0000000000003,
+        "eq_6_17_s": 315.0000000000003
+      },
+      {
+        "soc": 0.9,
+        "appendix_s": 629.9999999999998,
+        "eq_6_17_s": 629.9999999999999
+      },
+      {
+        "soc": 0.5,
+        "appendix_s": 1150.0,
+        "eq_6_17_s": 1150.0
+      },
+      {
+        "soc": 0.2,
+        "appendix_s": 1540.0,
+        "eq_6_17_s": 1540.0000000000002
+      }
+    ],
+    "grid_count": 10001,
+    "max_absolute_difference_s": 4.547473508864641e-13,
+    "without_sos2_example": {
+      "energy_kwh": 0.32000000000000006,
+      "correct_charge_s": 630.0,
+      "nonadjacent_convex_combination_s": 180.0
+    }
+  },
+  "template": {
+    "sheet_count": 6,
+    "headers": {
+      "Q1_单点组批": [
+        "架次编号",
+        "服务区编号",
+        "机型编号",
+        "货箱编号列表",
+        "总质量（kg）",
+        "总体积（m³）",
+        "往返时间（s）",
+        "架次能耗（kWh）",
+        "返航SOC（%）"
+      ],
+      "Q2_运输架次": [
+        "架次编号",
+        "无人机编号",
+        "机型编号",
+        "电池编号",
+        "开始时刻（s）",
+        "访问服务区顺序",
+        "返回O01时刻（s）",
+        "架次能耗（kWh）"
+      ],
+      "Q2_逐箱交付": [
+        "货箱编号",
+        "架次编号",
+        "服务区编号",
+        "交付完成时刻（s）"
+      ],
+      "Q3_中继架次": [
+        "中继架次编号",
+        "中继无人机编号",
+        "能源组件编号",
+        "开始时刻（s）",
+        "悬停经度（°）",
+        "悬停纬度（°）",
+        "悬停海拔（m）",
+        "建链完成时刻（s）",
+        "服务结束时刻（s）",
+        "返回O01时刻（s）",
+        "架次能耗（kWh）"
+      ],
+      "Q3_通信保障": [
+        "运输架次编号",
+        "通信阶段",
+        "开始时刻（s）",
+        "结束时刻（s）",
+        "保障方式",
+        "中继架次编号"
+      ],
+      "Q4_分区配置": [
+        "K（2或3）",
+        "任务组编号",
+        "服务区列表",
+        "A型运输无人机数",
+        "B型运输无人机数",
+        "C型运输无人机数",
+        "A型电池组数",
+        "B型电池组数",
+        "C型电池组数",
+        "中继无人机数",
+        "中继能源组件数"
+      ]
+    }
+  },
+  "checks": {
+    "unique_box_ids": true,
+    "paper_hard_deadline_count_matches": true,
+    "paper_link_thresholds_match": true,
+    "charge_formula_matches_appendix": true
+  }
+}

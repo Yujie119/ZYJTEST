@@ -1,0 +1,280 @@
+{
+  "results": [
+    {
+      "label": "reassign_A_C",
+      "objective": [
+        26,
+        64.69667695113688,
+        9165.15535154206,
+        465.25841077498995
+      ],
+      "verified": true,
+      "meta": {
+        "seconds": 58.58291369996732,
+        "variables": 1460,
+        "constraints": 4529,
+        "stages": [
+          {
+            "stage": "C",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 9163.54886305258,
+            "gap": 0.00017518220619394022
+          },
+          {
+            "stage": "L",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 465.25836424915354,
+            "gap": 0.0
+          },
+          {
+            "stage": "E",
+            "status": 1,
+            "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+            "incumbent_available": true,
+            "bound": 62.26861435903566,
+            "gap": 0.03752994290471905
+          },
+          {
+            "stage": "N",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 26.0,
+            "gap": 0.0
+          }
+        ],
+        "route_pool": 20,
+        "required": 20,
+        "mode": "C",
+        "caps": null,
+        "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+        "max_constraint_violation": 9.094947017729282e-13
+      }
+    },
+    {
+      "label": "reassign_A_L",
+      "objective": [
+        25,
+        65.00567221004812,
+        9163.549779407465,
+        465.2584107749898
+      ],
+      "verified": true,
+      "meta": {
+        "seconds": 44.218722000019625,
+        "variables": 1460,
+        "constraints": 4529,
+        "stages": [
+          {
+            "stage": "L",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 465.25836424915354,
+            "gap": 0.0
+          },
+          {
+            "stage": "C",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 9163.54886305258,
+            "gap": 0.0
+          },
+          {
+            "stage": "E",
+            "status": 1,
+            "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+            "incumbent_available": true,
+            "bound": 62.275936503794725,
+            "gap": 0.04199212212365519
+          },
+          {
+            "stage": "N",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 25.0,
+            "gap": 0.0
+          }
+        ],
+        "route_pool": 20,
+        "required": 20,
+        "mode": "L",
+        "caps": null,
+        "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+        "max_constraint_violation": 2.1827872842550278e-11
+      }
+    },
+    {
+      "label": "reassign_A_E",
+      "objective": [
+        25,
+        64.88827397469255,
+        9179.770558875132,
+        465.2584107749898
+      ],
+      "verified": true,
+      "meta": {
+        "seconds": 46.259700099995825,
+        "variables": 1460,
+        "constraints": 4529,
+        "stages": [
+          {
+            "stage": "E",
+            "status": 1,
+            "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+            "incumbent_available": true,
+            "bound": 62.0455213420645,
+            "gap": 0.044128112139423144
+          },
+          {
+            "stage": "C",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 9163.54886305258,
+            "gap": 0.0017670136049297992
+          },
+          {
+            "stage": "L",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 465.25836424915354,
+            "gap": 0.0
+          },
+          {
+            "stage": "N",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 25.0,
+            "gap": 0.0
+          }
+        ],
+        "route_pool": 20,
+        "required": 20,
+        "mode": "E",
+        "caps": null,
+        "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+        "max_constraint_violation": 6.821210263296962e-13
+      }
+    },
+    {
+      "label": "reassign_A_N",
+      "objective": [
+        24,
+        65.14636262795764,
+        9163.549779407465,
+        466.5392083584537
+      ],
+      "verified": true,
+      "meta": {
+        "seconds": 5.558364500000607,
+        "variables": 1460,
+        "constraints": 4529,
+        "stages": [
+          {
+            "stage": "N",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 24.0,
+            "gap": 0.0
+          },
+          {
+            "stage": "C",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 9163.54886305258,
+            "gap": 0.0
+          },
+          {
+            "stage": "L",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 465.25836424915354,
+            "gap": 0.0027453160645820665
+          },
+          {
+            "stage": "E",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 65.02049172115906,
+            "gap": 0.001932124860407455
+          }
+        ],
+        "route_pool": 20,
+        "required": 20,
+        "mode": "N",
+        "caps": null,
+        "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+        "max_constraint_violation": 9.094947017729282e-13
+      }
+    },
+    {
+      "label": "frozen_Q2",
+      "objective": [
+        25,
+        64.71911109858931,
+        9169.188439159356,
+        602.5438554866732
+      ],
+      "verified": true,
+      "meta": {
+        "seconds": 30.253716499952134,
+        "variables": 1466,
+        "constraints": 4655,
+        "stages": [
+          {
+            "stage": "E",
+            "status": 1,
+            "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+            "incumbent_available": true,
+            "bound": 62.06702699210446,
+            "gap": 0.04103037361215921
+          },
+          {
+            "stage": "C",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 9163.548863052572,
+            "gap": 0.0006150572806092745
+          },
+          {
+            "stage": "L",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 602.5438554866734,
+            "gap": 0.0
+          },
+          {
+            "stage": "N",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "bound": 25.0,
+            "gap": 0.0
+          }
+        ],
+        "route_pool": 20,
+        "required": 20,
+        "mode": "E",
+        "caps": null,
+        "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+        "max_constraint_violation": 2.9103830456733704e-11
+      }
+    }
+  ],
+  "elapsed_s": 69.59292959998129
+}

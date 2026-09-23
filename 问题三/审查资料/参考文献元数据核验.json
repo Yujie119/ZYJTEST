@@ -1,0 +1,306 @@
+[
+  {
+    "id": "R1",
+    "doi": "10.1109/TWC.2023.3300332",
+    "title": [
+      "3-D Positioning and Resource Allocation for Multi-UAV Base Stations Under Blockage-Aware Channel Model"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5856-2300",
+        "authenticated-orcid": false,
+        "given": "Pengfei",
+        "family": "Yi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Electronic and Information Engineering, Beihang University, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7587-8876",
+        "authenticated-orcid": false,
+        "given": "Lipeng",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, National University of Singapore, Queenstown, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4884-542X",
+        "authenticated-orcid": false,
+        "given": "Zhenyu",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronic and Information Engineering, Beihang University, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8729-8393",
+        "authenticated-orcid": false,
+        "given": "Rui",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, National University of Singapore, Queenstown, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6606-5822",
+        "authenticated-orcid": false,
+        "given": "Zhu",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Houston, Houston, TX, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5599-7683",
+        "authenticated-orcid": false,
+        "given": "Xiang-Gen",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Delaware, Newark, DE, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Wireless Communications"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "volume": "23",
+    "issue": "3",
+    "page": "2453-2468",
+    "article-number": null,
+    "abstract": null,
+    "links": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/7693/10466655/10210623-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7693/10466655/10210623.pdf?arnumber=10210623",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "source": "https://api.crossref.org/works/10.1109/TWC.2023.3300332"
+  },
+  {
+    "id": "R2",
+    "doi": "10.1016/j.trc.2025.105082",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "R3",
+    "doi": "10.1007/s00186-023-00841-0",
+    "title": [
+      "A simple, efficient and versatile objective space algorithm for multiobjective integer programming"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6458-6480",
+        "authenticated-orcid": false,
+        "given": "Kerstin",
+        "family": "Dächert",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tino",
+        "family": "Fleuren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kathrin",
+        "family": "Klamroth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Mathematical Methods of Operations Research"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          21
+        ]
+      ]
+    },
+    "volume": "100",
+    "issue": "1",
+    "page": "351-384",
+    "article-number": null,
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>In the last years a multitude of algorithms have been proposed to solve multiobjective integer programming problems. However, only few authors offer open-source implementations. On the other hand, new methods are typically compared to code that is publicly available, even if this code is known to be outperformed. In this paper, we aim to overcome this problem by proposing a new state-of-the-art algorithm with an open-source implementation in . The underlying method falls into the class of objective space methods, i.e., it decomposes the overall problem into a series of scalarized subproblems that can be solved with efficient single-objective IP-solvers. It keeps the number of required subproblems small by avoiding redundancies, and it can be combined with different scalarizations that all lead to comparably simple subproblems. Our algorithm bases on previous results but combines them in a new way. Numerical experiments with up to ten objectives validate that the method is efficient and that it scales well to higher dimensional problems.</jats:p>",
+    "links": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00186-023-00841-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s00186-023-00841-0/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00186-023-00841-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "source": "https://api.crossref.org/works/10.1007/s00186-023-00841-0"
+  },
+  {
+    "id": "R4",
+    "doi": "10.1016/j.cor.2024.106666",
+    "title": [
+      "A robust ordered weighted averaging loss model for portfolio optimization"
+    ],
+    "authors": [
+      {
+        "given": "Stefano",
+        "family": "Benati",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5369-8463",
+        "authenticated-orcid": false,
+        "given": "Eduardo",
+        "family": "Conde",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Computers &amp; Operations Research"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "volume": "167",
+    "issue": null,
+    "page": "106666",
+    "article-number": "106666",
+    "abstract": null,
+    "links": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0305054824001382?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0305054824001382?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "source": "https://api.crossref.org/works/10.1016/j.cor.2024.106666"
+  }
+]

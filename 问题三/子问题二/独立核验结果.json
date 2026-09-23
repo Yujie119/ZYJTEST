@@ -1,0 +1,7969 @@
+{
+  "status": "PASS",
+  "passed": true,
+  "plan": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\子问题二\\最终方案_待独立核验.json",
+  "routes": 20,
+  "relays": 4,
+  "boxes": 80,
+  "objective_stored": [
+    24.0,
+    65.12006866674481,
+    9170.432679280624,
+    465.25841077498995
+  ],
+  "objective_recomputed": [
+    24,
+    65.12006866674481,
+    9170.432679280622,
+    465.25841077498995
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "checks": [
+    {
+      "check": "运输架次非空",
+      "passed": true,
+      "value": 20,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱总数",
+      "passed": true,
+      "value": 80,
+      "limit": 80,
+      "note": ""
+    },
+    {
+      "check": "货箱编号唯一",
+      "passed": true,
+      "value": 80,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱集合一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": "缺失=[],多余=[]"
+    },
+    {
+      "check": "路线/K000002/目的地/S006|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/目的地/S006|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/目的地/S006|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/目的地/S006|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 59.0,
+        "volume": 0.156
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/返航能量余量",
+      "passed": true,
+      "value": 2.5979806407170596,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/能耗重算",
+      "passed": true,
+      "value": 2.5979806407170596,
+      "limit": 2.5979806407170596,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 1561.5526244866223,
+        "recomputed_finish": 1561.5526244866223
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 480.0,
+        "recomputed": 480.0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1536.9530901942037,
+        "recomputed": 1536.9530901942037
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/无人机编号",
+      "passed": true,
+      "value": "U08",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/电池编号",
+      "passed": true,
+      "value": "C-BAT-04",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信连续性/K000002",
+      "passed": true,
+      "value": {
+        "intervals": 7,
+        "relay_intervals": 0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000002/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S006|医疗物资": 1,
+        "S006|应急食品": 1,
+        "S006|生活卫生用品": 1,
+        "S006|饮用水": 3
+      },
+      "limit": {
+        "S006|医疗物资": 1,
+        "S006|生活卫生用品": 1,
+        "S006|应急食品": 1,
+        "S006|饮用水": 3
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/目的地/S014|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/目的地/S014|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/目的地/S014|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 25.0,
+        "volume": 0.067
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/返航能量余量",
+      "passed": true,
+      "value": 2.140365220765654,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/能耗重算",
+      "passed": true,
+      "value": 2.140365220765654,
+      "limit": 2.140365220765654,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 1869.7476752786915,
+        "recomputed_finish": 1869.7476752786913
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 390.0,
+        "recomputed": 390.0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1594.1582623317836,
+        "recomputed": 1594.1582623317836
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/无人机编号",
+      "passed": true,
+      "value": "U05",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/电池编号",
+      "passed": true,
+      "value": "B-BAT-04",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000004/802.822-854.437",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.4340705656682786,
+        "access_margin": 13.78842337675718,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/854.437-880.244",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.123486374110456,
+        "access_margin": 12.250551245218276,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/880.244-906.052",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.7625514695378683,
+        "access_margin": 10.708774758254222,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/906.052-938.178",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.76255146953784,
+        "access_margin": 10.693206181982418,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/938.178-970.304",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.7530073188915054,
+        "access_margin": 0.66106764815639,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/970.304-1002.431",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.7453449748713012,
+        "access_margin": 0.6127240211423697,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/1002.431-1242.431",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.739574445940306,
+        "access_margin": 0.6127240211423555,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/1242.431-1269.202",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.7453449748713297,
+        "access_margin": 0.6127240211423555,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/1269.202-1295.974",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.753007318891335,
+        "access_margin": 0.6610676481566031,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/1295.974-1322.746",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.762551469537698,
+        "access_margin": 10.69320618198195,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/1322.746-1348.554",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.7625514695378683,
+        "access_margin": 10.708774758254222,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/1348.554-1374.361",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.1234863741191106,
+        "access_margin": 12.250551245197741,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000004/1374.361-1425.976",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.4340705656776578,
+        "access_margin": 13.788423376738237,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000004",
+      "passed": true,
+      "value": {
+        "intervals": 17,
+        "relay_intervals": 13
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000004/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S014|医疗物资": 1,
+        "S014|应急食品": 1,
+        "S014|饮用水": 1
+      },
+      "limit": {
+        "S014|医疗物资": 1,
+        "S014|应急食品": 1,
+        "S014|饮用水": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/目的地/S001|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 14.0,
+        "volume": 0.027
+      },
+      "limit": {
+        "mass": 25.0,
+        "volume": 0.06
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/返航能量余量",
+      "passed": true,
+      "value": 1.2195425893044773,
+      "limit": 3.6,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/能耗重算",
+      "passed": true,
+      "value": 1.2195425893044773,
+      "limit": 1.2195425893044773,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 1190.9069627433817,
+        "recomputed_finish": 1190.9069627433814
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 330.0,
+        "recomputed": 330.0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 852.3123035768491,
+        "recomputed": 852.3123035768491
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/无人机编号",
+      "passed": true,
+      "value": "U01",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/电池编号",
+      "passed": true,
+      "value": "A-BAT-01",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信连续性/K001310",
+      "passed": true,
+      "value": {
+        "intervals": 7,
+        "relay_intervals": 0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K001310/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S001|饮用水": 1
+      },
+      "limit": {
+        "S001|饮用水": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/目的地/S012|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/目的地/S012|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/目的地/S012|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 25.0,
+        "volume": 0.067
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/返航能量余量",
+      "passed": true,
+      "value": 2.7526443904556688,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/能耗重算",
+      "passed": true,
+      "value": 2.7526443904556688,
+      "limit": 2.7526443904556688,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 1922.826814149187,
+        "recomputed_finish": 1922.8268141491872
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 390.0,
+        "recomputed": 390.0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1859.4792358641232,
+        "recomputed": 1859.4792358641232
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/无人机编号",
+      "passed": true,
+      "value": "U06",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/电池编号",
+      "passed": true,
+      "value": "B-BAT-01",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000003/738.230-778.182",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.9287065987215328,
+        "access_margin": 8.416455661389605,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/778.182-791.500",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.3134650205847436,
+        "access_margin": 8.108013585518762,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/791.500-818.135",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.035486074737321,
+        "access_margin": 7.4020688739464475,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/818.135-831.452",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.375228615359319,
+        "access_margin": 7.020822258044092,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/831.452-871.404",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.3214985987820995,
+        "access_margin": 5.836647193533452,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/871.404-898.039",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.8996348087980692,
+        "access_margin": 5.0520201413118,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/898.039-924.674",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.441742315179468,
+        "access_margin": 4.291909181665886,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/924.674-937.991",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.700633887432815,
+        "access_margin": 3.9237814714054196,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/937.991-951.308",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.9520428958557545,
+        "access_margin": 3.564357408655127,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/951.308-977.943",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.434058144699378,
+        "access_margin": 2.872512988048612,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/977.943-1004.643",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.434058144705972,
+        "access_margin": 2.8654748664076806,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1004.643-1031.343",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.43159596950764,
+        "access_margin": 2.8565475109592597,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1031.343-1271.343",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.42984066485198,
+        "access_margin": 2.8565475109592597,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1271.343-1293.594",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.4315959695076685,
+        "access_margin": 2.8565475109594445,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1293.594-1315.844",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.434058144705972,
+        "access_margin": 2.865474866407766,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1315.844-1342.478",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.434058144704963,
+        "access_margin": 2.872512988040569,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1342.478-1355.796",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.952042895861666,
+        "access_margin": 3.564357408646657,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1355.796-1369.113",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.700633887419741,
+        "access_margin": 3.923781471424064,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1369.113-1395.748",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.441742315165996,
+        "access_margin": 4.2919091816849715,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1395.748-1422.383",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.899634808804734,
+        "access_margin": 5.052020141302577,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1422.383-1462.335",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.3214985987892334,
+        "access_margin": 5.836647193524016,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1462.335-1475.652",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.375228615367263,
+        "access_margin": 7.020822258034869,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1475.652-1502.287",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.035486074745563,
+        "access_margin": 7.402068873937537,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1502.287-1515.604",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.3134650205654594,
+        "access_margin": 8.108013585535488,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000003/1515.604-1555.556",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.9287065987013676,
+        "access_margin": 8.416455661404413,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000003",
+      "passed": true,
+      "value": {
+        "intervals": 29,
+        "relay_intervals": 25
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000003/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S012|医疗物资": 1,
+        "S012|应急食品": 1,
+        "S012|饮用水": 1
+      },
+      "limit": {
+        "S012|医疗物资": 1,
+        "S012|应急食品": 1,
+        "S012|饮用水": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/目的地/S002|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/目的地/S002|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/目的地/S002|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 67.0,
+        "volume": 0.148
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/返航能量余量",
+      "passed": true,
+      "value": 6.2810104080250655,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/能耗重算",
+      "passed": true,
+      "value": 6.2810104080250655,
+      "limit": 6.2810104080250655,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 2252.2396507946573,
+        "recomputed_finish": 2252.2396507946573
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 624.3974847701029,
+        "recomputed": 624.3974847701029
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 2534.440318840122,
+        "recomputed": 2534.440318840122
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/无人机编号",
+      "passed": true,
+      "value": "U07",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/电池编号",
+      "passed": true,
+      "value": "C-BAT-02",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000001/956.953-1112.985",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.9626124517918555,
+        "access_margin": 1.5778209041375248,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000001/1112.985-1164.996",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.98505481864035,
+        "access_margin": 0.612815892461299,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000001/1164.996-1191.001",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.454442080566935,
+        "access_margin": 0.14789258851372722,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000001/1191.001-1235.729",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.454442080570175,
+        "access_margin": 0.33492735049968303,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000001/1235.729-1631.729",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.452794286226634,
+        "access_margin": 0.33492735049956934,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000001/1631.729-1667.510",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.454442080570175,
+        "access_margin": 0.33492735049956934,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000001/1667.510-1693.516",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.454442080562032,
+        "access_margin": 0.14789258851864417,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000001/1693.516-1745.526",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.985054818635177,
+        "access_margin": 0.6128158924663438,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000001/1745.526-1901.559",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.9626124517860433,
+        "access_margin": 1.5778209041428113,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000001",
+      "passed": true,
+      "value": {
+        "intervals": 13,
+        "relay_intervals": 9
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000001/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S002|医疗物资": 1,
+        "S002|应急食品": 1,
+        "S002|饮用水": 4
+      },
+      "limit": {
+        "S002|医疗物资": 1,
+        "S002|应急食品": 1,
+        "S002|饮用水": 4
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/目的地/S001|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/目的地/S001|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/目的地/S001|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/目的地/S001|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 64.0,
+        "volume": 0.197
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/返航能量余量",
+      "passed": true,
+      "value": 2.5656145660855434,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/能耗重算",
+      "passed": true,
+      "value": 2.5656145660855434,
+      "limit": 2.5656145660855434,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 3187.7276703486427,
+        "recomputed_finish": 3187.7276703486423
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 2101.5526244866196,
+        "recomputed": 2101.5526244866196
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1528.1872783148347,
+        "recomputed": 1528.1872783148347
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/无人机编号",
+      "passed": true,
+      "value": "U08",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/电池编号",
+      "passed": true,
+      "value": "C-BAT-01",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信连续性/K000005",
+      "passed": true,
+      "value": {
+        "intervals": 7,
+        "relay_intervals": 0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000005/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S001|医疗物资": 2,
+        "S001|应急食品": 3,
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 2
+      },
+      "limit": {
+        "S001|医疗物资": 2,
+        "S001|生活卫生用品": 1,
+        "S001|应急食品": 3,
+        "S001|饮用水": 2
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/目的地/S010|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/目的地/S010|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/目的地/S010|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 25.0,
+        "volume": 0.067
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/返航能量余量",
+      "passed": true,
+      "value": 1.8232594430204312,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/能耗重算",
+      "passed": true,
+      "value": 1.8232594430204312,
+      "limit": 1.8232594430204312,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 3425.151195058907,
+        "recomputed_finish": 3425.151195058907
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 2259.7476752786897,
+        "recomputed": 2259.7476752786897
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1456.7457586421867,
+        "recomputed": 1456.7457586421867
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/无人机编号",
+      "passed": true,
+      "value": "U05",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/电池编号",
+      "passed": true,
+      "value": "B-BAT-03",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000006/2614.918-2641.499",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.5119281110512333,
+        "access_margin": 23.583829146224588,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/2641.499-2654.790",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.9141789728191725,
+        "access_margin": 23.169340927696624,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/2654.790-2668.081",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.2986963856783404,
+        "access_margin": 20.452735933498758,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/2668.081-2681.371",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.6669723827331495,
+        "access_margin": 18.175385023928285,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/2681.371-2714.986",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.66697238273305,
+        "access_margin": 17.900300822659943,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/2714.986-2954.986",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.6591526950182356,
+        "access_margin": 17.90030082265558,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/2954.986-2982.998",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.6669723827331495,
+        "access_margin": 17.90030082265558,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/2982.998-2996.289",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.6669723827234293,
+        "access_margin": 18.17538502398378,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/2996.289-3009.580",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.2986963856866822,
+        "access_margin": 20.45273593344318,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/3009.580-3022.871",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.9141789728278837,
+        "access_margin": 23.169340927633115,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000006/3022.871-3049.452",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.5119281110603566,
+        "access_margin": 23.583829146072745,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000006",
+      "passed": true,
+      "value": {
+        "intervals": 15,
+        "relay_intervals": 11
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000006/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S010|医疗物资": 1,
+        "S010|应急食品": 1,
+        "S010|饮用水": 1
+      },
+      "limit": {
+        "S010|医疗物资": 1,
+        "S010|应急食品": 1,
+        "S010|饮用水": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/目的地/S013|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/目的地/S013|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/目的地/S013|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 25.0,
+        "volume": 0.067
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/返航能量余量",
+      "passed": true,
+      "value": 1.8248637585718628,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/能耗重算",
+      "passed": true,
+      "value": 1.8248637585718628,
+      "limit": 1.8248637585718628,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 3433.338402893711,
+        "recomputed_finish": 3433.3384028937116
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 2312.8268141491862,
+        "recomputed": 2312.8268141491862
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1457.4409620478073,
+        "recomputed": 1457.4409620478073
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/无人机编号",
+      "passed": true,
+      "value": "U06",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/电池编号",
+      "passed": true,
+      "value": "B-BAT-02",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000007/2661.963-2674.895",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.27033591840317683,
+        "access_margin": 12.930319400246916,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/2674.895-2687.827",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.6729384879312761,
+        "access_margin": 12.66051083228956,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/2687.827-2700.759",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.0577629558675739,
+        "access_margin": 12.264166833591503,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/2700.759-2726.623",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.7798932090982902,
+        "access_margin": 11.222161324806578,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/2726.623-2745.616",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.779893209098205,
+        "access_margin": 11.1874127074922,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/2745.616-2985.616",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.775908330041716,
+        "access_margin": 11.1874127074922,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/2985.616-3001.443",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.7798932090982902,
+        "access_margin": 11.187412707492712,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/3001.443-3027.307",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.7798932090877173,
+        "access_margin": 11.222161324824086,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/3027.307-3040.240",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.057762955873386,
+        "access_margin": 12.264166833584568,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/3040.240-3053.172",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.6729384879373583,
+        "access_margin": 12.660510832284345,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000007/3053.172-3066.104",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.2703359184095291,
+        "access_margin": 12.930319400243874,
+        "backhaul_margin": 3.6748289855268013,
+        "slot": 3
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000007",
+      "passed": true,
+      "value": {
+        "intervals": 15,
+        "relay_intervals": 11
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000007/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S013|医疗物资": 1,
+        "S013|应急食品": 1,
+        "S013|饮用水": 1
+      },
+      "limit": {
+        "S013|医疗物资": 1,
+        "S013|应急食品": 1,
+        "S013|饮用水": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/目的地/S007|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/目的地/S007|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/目的地/S007|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/目的地/S007|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 45.0,
+        "volume": 0.129
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/返航能量余量",
+      "passed": true,
+      "value": 3.411075641855823,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/能耗重算",
+      "passed": true,
+      "value": 3.411075641855823,
+      "limit": 3.411075641855823,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 4159.840349205346,
+        "recomputed_finish": 4159.840349205345
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 2702.2396507946546,
+        "recomputed": 2702.2396507946546
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1757.1663196692853,
+        "recomputed": 1757.1663196692853
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/无人机编号",
+      "passed": true,
+      "value": "U07",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/电池编号",
+      "passed": true,
+      "value": "C-BAT-03",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000008/3105.687-3131.975",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.4285457885183206,
+        "access_margin": 6.584781198561544,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3131.975-3145.119",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.8296488296393818,
+        "access_margin": 6.964028500213757,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3145.119-3158.263",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.213163824729719,
+        "access_margin": 7.100263728495008,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3158.263-3199.132",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.213163824729591,
+        "access_margin": 7.159275860742724,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3199.132-3240.000",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.2020557506869949,
+        "access_margin": 7.115598386535183,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3240.000-3600.000",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.1937365176753048,
+        "access_margin": 7.115598386535183,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3600.000-3632.695",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.2020557506871086,
+        "access_margin": 7.115598386535183,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3632.695-3665.389",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.213163824729719,
+        "access_margin": 7.159275860743207,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3665.389-3678.533",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.2131638247163323,
+        "access_margin": 7.100263728496046,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3678.533-3691.677",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.8296488296428635,
+        "access_margin": 6.964028500215136,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000008/3691.677-3717.966",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.4285457885219728,
+        "access_margin": 6.584781198563505,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000008",
+      "passed": true,
+      "value": {
+        "intervals": 15,
+        "relay_intervals": 11
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000008/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S007|医疗物资": 1,
+        "S007|应急食品": 1,
+        "S007|生活卫生用品": 1,
+        "S007|饮用水": 2
+      },
+      "limit": {
+        "S007|医疗物资": 1,
+        "S007|生活卫生用品": 1,
+        "S007|应急食品": 1,
+        "S007|饮用水": 2
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/目的地/S008|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/目的地/S008|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/目的地/S008|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/目的地/S008|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 45.0,
+        "volume": 0.129
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/返航能量余量",
+      "passed": true,
+      "value": 5.836066297505489,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/能耗重算",
+      "passed": true,
+      "value": 5.836066297505489,
+      "limit": 5.836066297505489,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 5387.43919494949,
+        "recomputed_finish": 5387.43919494949
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 3637.727670348657,
+        "recomputed": 3637.727670348657
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 2413.93462224107,
+        "recomputed": 2413.93462224107
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/无人机编号",
+      "passed": true,
+      "value": "U08",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/电池编号",
+      "passed": true,
+      "value": "C-BAT-04",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000009/4024.820-4037.957",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.1910857450665162,
+        "access_margin": 10.11786551402274,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4037.957-4169.325",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.321303468693827,
+        "access_margin": 9.633887552363362,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4169.325-4208.735",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.076243581064176,
+        "access_margin": 8.141637059240864,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4208.735-4221.872",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.313994869767441,
+        "access_margin": 7.639070913469865,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4221.872-4274.419",
+      "passed": true,
+      "value": {
+        "direct_margin": -6.204869090931766,
+        "access_margin": 5.730740419080348,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4274.419-4299.921",
+      "passed": true,
+      "value": {
+        "direct_margin": -6.204869090937862,
+        "access_margin": 5.70930983318965,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4299.921-4325.423",
+      "passed": true,
+      "value": {
+        "direct_margin": -6.203514460573459,
+        "access_margin": 5.685855611691309,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4325.423-4685.423",
+      "passed": true,
+      "value": {
+        "direct_margin": -6.202505524891052,
+        "access_margin": 5.685855611691238,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4685.423-4705.825",
+      "passed": true,
+      "value": {
+        "direct_margin": -6.2035144605734445,
+        "access_margin": 5.685855611691238,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4705.825-4726.227",
+      "passed": true,
+      "value": {
+        "direct_margin": -6.204869090937848,
+        "access_margin": 5.709309833189295,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4726.227-4778.774",
+      "passed": true,
+      "value": {
+        "direct_margin": -6.204869090937862,
+        "access_margin": 5.730740419067388,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4778.774-4791.911",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.313994869760464,
+        "access_margin": 7.639070913484744,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4791.911-4831.321",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.076243581075332,
+        "access_margin": 8.141637059217487,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4831.321-4962.689",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.321303468705992,
+        "access_margin": 9.63388755234135,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000009/4962.689-4975.826",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.191085745055318,
+        "access_margin": 10.11786551404306,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000009",
+      "passed": true,
+      "value": {
+        "intervals": 19,
+        "relay_intervals": 15
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000009/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S008|医疗物资": 1,
+        "S008|应急食品": 1,
+        "S008|生活卫生用品": 1,
+        "S008|饮用水": 2
+      },
+      "limit": {
+        "S008|医疗物资": 1,
+        "S008|生活卫生用品": 1,
+        "S008|应急食品": 1,
+        "S008|饮用水": 2
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/目的地/S002|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/目的地/S002|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 14.0,
+        "volume": 0.063
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/返航能量余量",
+      "passed": true,
+      "value": 2.3613312390809593,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/能耗重算",
+      "passed": true,
+      "value": 2.3613312390809593,
+      "limit": 2.3613312390809593,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 5220.630018918242,
+        "recomputed_finish": 5220.630018918243
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 3823.905937610485,
+        "recomputed": 3823.905937610485
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1689.910203601749,
+        "recomputed": 1689.910203601749
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/无人机编号",
+      "passed": true,
+      "value": "U06",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/电池编号",
+      "passed": true,
+      "value": "B-BAT-04",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000010/4144.378-4300.410",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.9626124517913865,
+        "access_margin": 1.446127508725894,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000010/4300.410-4352.421",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.985054818639924,
+        "access_margin": 0.7233463593037328,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000010/4352.421-4378.426",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.454442080566537,
+        "access_margin": 0.3475985996385731,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000010/4378.426-4414.208",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.454442080570175,
+        "access_margin": 0.33492735049971145,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000010/4414.208-4624.208",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.452794286226634,
+        "access_margin": 0.33492735049956934,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000010/4624.208-4654.026",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.454442080570175,
+        "access_margin": 0.33492735049956934,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000010/4654.026-4680.031",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.454442080570175,
+        "access_margin": 0.3475985996355604,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000010/4680.031-4732.042",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.985054818646773,
+        "access_margin": 0.7233463592984464,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000010/4732.042-4888.074",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.9626124517990746,
+        "access_margin": 1.4461275087209913,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000010",
+      "passed": true,
+      "value": {
+        "intervals": 13,
+        "relay_intervals": 9
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000010/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S002|应急食品": 1,
+        "S002|生活卫生用品": 1
+      },
+      "limit": {
+        "S002|生活卫生用品": 1,
+        "S002|应急食品": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/目的地/S001|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 28.0,
+        "volume": 0.054
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/返航能量余量",
+      "passed": true,
+      "value": 1.220434433311425,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/能耗重算",
+      "passed": true,
+      "value": 1.220434433311425,
+      "limit": 1.220434433311425,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 4931.41222583953,
+        "recomputed_finish": 4931.412225839531
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 4142.306050013314,
+        "recomputed": 4142.306050013314
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1195.5215877682842,
+        "recomputed": 1195.5215877682842
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/无人机编号",
+      "passed": true,
+      "value": "U05",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/电池编号",
+      "passed": true,
+      "value": "B-BAT-01",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信连续性/K000011",
+      "passed": true,
+      "value": {
+        "intervals": 7,
+        "relay_intervals": 0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000011/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S001|饮用水": 2
+      },
+      "limit": {
+        "S001|饮用水": 2
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/目的地/S003|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/目的地/S003|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/目的地/S003|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 67.0,
+        "volume": 0.148
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/返航能量余量",
+      "passed": true,
+      "value": 6.324596372619295,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/能耗重算",
+      "passed": true,
+      "value": 6.324596372619295,
+      "limit": 6.324596372619295,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 7152.791453016045,
+        "recomputed_finish": 7152.791453016045
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 5196.613741916784,
+        "recomputed": 5196.613741916784
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 2546.2448509177257,
+        "recomputed": 2546.2448509177257
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/无人机编号",
+      "passed": true,
+      "value": "U07",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/电池编号",
+      "passed": true,
+      "value": "C-BAT-01",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000012/5632.015-5645.103",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.4014829582306163,
+        "access_margin": 6.45524002949783,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5645.103-5658.191",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.8016950664103462,
+        "access_margin": 6.6014087885641715,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5658.191-5710.543",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.2414578694025664,
+        "access_margin": 6.712543177255398,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5710.543-5762.895",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.4773424240706987,
+        "access_margin": 6.205946432922843,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5762.895-5841.423",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.054434407821702,
+        "access_margin": 4.663802581057425,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5841.423-5854.511",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.29162647918389,
+        "access_margin": 4.370378278652765,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5854.511-5891.728",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.291626479183833,
+        "access_margin": 4.355452967079884,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5891.728-5928.945",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.287020830286522,
+        "access_margin": 4.337254632047291,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5928.945-5966.163",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.283321256024308,
+        "access_margin": 4.31582446317131,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/5966.163-6362.163",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.280530077345318,
+        "access_margin": 4.3158244631710545,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6362.163-6391.936",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.283321256024308,
+        "access_margin": 4.3158244631710545,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6391.936-6421.710",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.2870208302866075,
+        "access_margin": 4.337254632047319,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6421.710-6451.484",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.29162647918389,
+        "access_margin": 4.355452967080254,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6451.484-6464.572",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.291626479181247,
+        "access_margin": 4.370378278656091,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6464.572-6543.100",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.0544344078303425,
+        "access_margin": 4.663802581046966,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6543.100-6595.452",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.477342424081044,
+        "access_margin": 6.205946432915596,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6595.452-6647.804",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.2414578694144893,
+        "access_margin": 6.712543177258723,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6647.804-6660.892",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.8016950664244007,
+        "access_margin": 6.601408788558956,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000012/6660.892-6673.980",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.40148295821406066,
+        "access_margin": 0.019647347455304498,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000012",
+      "passed": true,
+      "value": {
+        "intervals": 23,
+        "relay_intervals": 19
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000012/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S003|医疗物资": 1,
+        "S003|应急食品": 1,
+        "S003|饮用水": 4
+      },
+      "limit": {
+        "S003|医疗物资": 1,
+        "S003|应急食品": 1,
+        "S003|饮用水": 4
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/目的地/S015|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/目的地/S015|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/目的地/S015|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 25.0,
+        "volume": 0.067
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/返航能量余量",
+      "passed": true,
+      "value": 2.3075883370944723,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/能耗重算",
+      "passed": true,
+      "value": 2.3075883370944723,
+      "limit": 2.3075883370944723,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 7059.934350113855,
+        "recomputed_finish": 7059.934350113855
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 5621.606789940195,
+        "recomputed": 5621.606789940195
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1666.621612740938,
+        "recomputed": 1666.621612740938
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/无人机编号",
+      "passed": true,
+      "value": "U06",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/电池编号",
+      "passed": true,
+      "value": "B-BAT-02",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000014/6028.124-6079.821",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.4442995838516026,
+        "access_margin": 10.3103986180312,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6079.821-6092.746",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.7960684024493077,
+        "access_margin": 13.373122115920324,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6092.746-6105.670",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.134244708900084,
+        "access_margin": 14.089945916632274,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6105.670-6118.594",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.4598329114597988,
+        "access_margin": 14.696902190153025,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6118.594-6144.442",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.07674387017083,
+        "access_margin": 15.123765248172063,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6144.442-6157.367",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.3695977767809637,
+        "access_margin": 14.856873513236124,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6157.367-6170.291",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.6529482103014885,
+        "access_margin": 14.299798407682772,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6170.291-6209.211",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.652948210301389,
+        "access_margin": 14.110852204619931,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6209.211-6449.211",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.6441975540626004,
+        "access_margin": 14.110852204619789,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6449.211-6481.644",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.6529482103014885,
+        "access_margin": 14.110852204619789,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6481.644-6494.568",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.65294821029552,
+        "access_margin": 1.3804419282527078,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6494.568-6507.492",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.36959777678787,
+        "access_margin": 14.856873513224912,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6507.492-6533.341",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.076743870177978,
+        "access_margin": 15.123765248179595,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6533.341-6546.265",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.4598329114674726,
+        "access_margin": 14.696902190165716,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6546.265-6559.189",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.1342447089080565,
+        "access_margin": 14.089945916596378,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6559.189-6572.113",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.7960684024309188,
+        "access_margin": 13.373122115938344,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000014/6572.113-6623.810",
+      "passed": true,
+      "value": {
+        "direct_margin": -1.4442995838602286,
+        "access_margin": 10.310398618048652,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000014",
+      "passed": true,
+      "value": {
+        "intervals": 21,
+        "relay_intervals": 17
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000014/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S015|医疗物资": 1,
+        "S015|应急食品": 1,
+        "S015|饮用水": 1
+      },
+      "limit": {
+        "S015|医疗物资": 1,
+        "S015|应急食品": 1,
+        "S015|饮用水": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/目的地/S004|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/目的地/S004|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/目的地/S004|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/目的地/S004|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 59.0,
+        "volume": 0.156
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/返航能量余量",
+      "passed": true,
+      "value": 6.152920552274484,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/能耗重算",
+      "passed": true,
+      "value": 6.152920552274484,
+      "limit": 6.152920552274484,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 7688.493913721935,
+        "recomputed_finish": 7688.493913721934
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 5867.439194949489,
+        "recomputed": 5867.439194949489
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 2499.749316241006,
+        "recomputed": 2499.749316241006
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/无人机编号",
+      "passed": true,
+      "value": "U08",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/电池编号",
+      "passed": true,
+      "value": "C-BAT-02",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000015/6344.905-6371.280",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.5294518888116784,
+        "access_margin": 4.860196219586541,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/6371.280-6424.030",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.614893620838643,
+        "access_margin": 3.9790361725132897,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/6424.030-6463.592",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.348413296084203,
+        "access_margin": 3.223666242210072,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/6463.592-6476.779",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.57978673487176,
+        "access_margin": 2.9641482099602854,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/6476.779-6489.967",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.805162963709037,
+        "access_margin": 2.7031289399194947,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/6489.967-6532.452",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.805162963709023,
+        "access_margin": 2.685632494207155,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/6532.452-6574.937",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.802584923247252,
+        "access_margin": 10.945928307556017,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/6574.937-6970.937",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.801059035898405,
+        "access_margin": 10.945928307556017,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/6970.937-7004.924",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.802584923247295,
+        "access_margin": 10.94592830755677,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/7004.924-7038.912",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.805162963709037,
+        "access_margin": 2.6856324942074536,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/7038.912-7052.100",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.8051629637026,
+        "access_margin": 2.703128939927069,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/7052.100-7065.287",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.579786734879505,
+        "access_margin": 2.9641482099514462,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/7065.287-7104.850",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.3484132960743835,
+        "access_margin": 3.2236662422208724,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/7104.850-7157.600",
+      "passed": true,
+      "value": {
+        "direct_margin": -4.6148936208279565,
+        "access_margin": 3.9790361725234504,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000015/7157.600-7183.975",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.5294518888215123,
+        "access_margin": 4.860196219580047,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000015",
+      "passed": true,
+      "value": {
+        "intervals": 19,
+        "relay_intervals": 15
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000015/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S004|医疗物资": 1,
+        "S004|应急食品": 1,
+        "S004|生活卫生用品": 1,
+        "S004|饮用水": 3
+      },
+      "limit": {
+        "S004|医疗物资": 1,
+        "S004|生活卫生用品": 1,
+        "S004|应急食品": 1,
+        "S004|饮用水": 3
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/目的地/S009|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/目的地/S009|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/目的地/S009|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 25.0,
+        "volume": 0.067
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/返航能量余量",
+      "passed": true,
+      "value": 2.096289967733762,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/能耗重算",
+      "passed": true,
+      "value": 2.096289967733762,
+      "limit": 2.096289967733762,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 7333.448754672478,
+        "recomputed_finish": 7333.448754672478
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 6164.98589033812,
+        "recomputed": 6164.98589033812
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1575.0589860179634,
+        "recomputed": 1575.0589860179634
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/无人机编号",
+      "passed": true,
+      "value": "U05",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/电池编号",
+      "passed": true,
+      "value": "B-BAT-03",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000013/6482.475-6600.516",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.182624572738618,
+        "access_margin": 8.031610804000948,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000013/6600.516-6625.807",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.1826245727386038,
+        "access_margin": 12.476450835813836,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000013/6625.807-6865.807",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.1807034065250974,
+        "access_margin": 12.476450835812727,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000013/6865.807-6886.884",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.1826245727386038,
+        "access_margin": 12.476450835812727,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000013/6886.884-7004.924",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.182624572738618,
+        "access_margin": 8.031610804002185,
+        "backhaul_margin": 10.187934124130948,
+        "slot": 4
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000013",
+      "passed": true,
+      "value": {
+        "intervals": 9,
+        "relay_intervals": 5
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000013/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S009|医疗物资": 1,
+        "S009|应急食品": 1,
+        "S009|饮用水": 1
+      },
+      "limit": {
+        "S009|医疗物资": 1,
+        "S009|应急食品": 1,
+        "S009|饮用水": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/目的地/S003|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/目的地/S003|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 14.0,
+        "volume": 0.063
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/返航能量余量",
+      "passed": true,
+      "value": 2.424318485056973,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/能耗重算",
+      "passed": true,
+      "value": 2.424318485056973,
+      "limit": 2.424318485056973,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 9080.544015151925,
+        "recomputed_finish": 9080.544015151927
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 7419.934350113863,
+        "recomputed": 7419.934350113863
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1717.2046768580215,
+        "recomputed": 1717.2046768580215
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/无人机编号",
+      "passed": true,
+      "value": "U06",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/电池编号",
+      "passed": true,
+      "value": "B-BAT-04",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000017/7826.395-7839.483",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.4014829582252162,
+        "access_margin": 6.455240029495684,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/7839.483-7852.571",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.8016950664051876,
+        "access_margin": 6.601408788562466,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/7852.571-7904.923",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.2414578693981895,
+        "access_margin": 6.712543177254176,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/7904.923-7957.275",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.47734242406689,
+        "access_margin": 6.205946432925515,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/7957.275-8035.803",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.054434407818533,
+        "access_margin": 4.663802581061276,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8035.803-8048.891",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.29162647918389,
+        "access_margin": 4.370378278652765,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8048.891-8078.665",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.291626479183847,
+        "access_margin": 4.355452967080055,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8078.665-8108.439",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.287020830286565,
+        "access_margin": 4.3372546320470775,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8108.439-8138.213",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.283321256024266,
+        "access_margin": 4.315824463171239,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8138.213-8348.213",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.280530077345318,
+        "access_margin": 4.3158244631710545,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8348.213-8373.024",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.283321256024323,
+        "access_margin": 4.3158244631710545,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8373.024-8397.836",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.287020830286593,
+        "access_margin": 4.337254632047404,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8397.836-8422.647",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.291626479183861,
+        "access_margin": 4.355452967080225,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8422.647-8435.735",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.29162647918389,
+        "access_margin": 4.370378278652765,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8435.735-8514.263",
+      "passed": true,
+      "value": {
+        "direct_margin": -5.054434407816402,
+        "access_margin": 4.663802581063862,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8514.263-8566.615",
+      "passed": true,
+      "value": {
+        "direct_margin": -3.4773424240643322,
+        "access_margin": 4.932878505762758,
+        "backhaul_margin": 15.70845122308394,
+        "slot": 5
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8566.615-8618.967",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.2414578693952336,
+        "access_margin": 6.743751168228243,
+        "backhaul_margin": 15.70845122308394,
+        "slot": 5
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8618.967-8632.055",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.801695066401706,
+        "access_margin": 8.744462893663766,
+        "backhaul_margin": 15.70845122308394,
+        "slot": 5
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000017/8632.055-8645.143",
+      "passed": true,
+      "value": {
+        "direct_margin": -0.4014829582215782,
+        "access_margin": 9.248512683151333,
+        "backhaul_margin": 15.70845122308394,
+        "slot": 5
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000017",
+      "passed": true,
+      "value": {
+        "intervals": 23,
+        "relay_intervals": 19
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000017/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S003|应急食品": 1,
+        "S003|生活卫生用品": 1
+      },
+      "limit": {
+        "S003|生活卫生用品": 1,
+        "S003|应急食品": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/目的地/S005|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/目的地/S005|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/目的地/S005|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/目的地/S005|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 59.0,
+        "volume": 0.156
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/返航能量余量",
+      "passed": true,
+      "value": 4.222182349592158,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/能耗重算",
+      "passed": true,
+      "value": 4.222182349592158,
+      "limit": 4.222182349592158,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 9029.980168507525,
+        "recomputed_finish": 9029.980168507527
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 7632.791453016054,
+        "recomputed": 7632.791453016054
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1976.8410530145427,
+        "recomputed": 1976.8410530145427
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/无人机编号",
+      "passed": true,
+      "value": "U07",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/电池编号",
+      "passed": true,
+      "value": "C-BAT-03",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信/K000018/7973.046-8064.315",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.5128506814345712,
+        "access_margin": 6.984966064421911,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000018/8064.315-8097.168",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.512850681434543,
+        "access_margin": 7.479945452104488,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000018/8097.168-8130.021",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.509867820795691,
+        "access_margin": 7.429128249953379,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000018/8130.021-8526.021",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.508227791369876,
+        "access_margin": 7.429128249953379,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000018/8526.021-8552.303",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.509867820795691,
+        "access_margin": 7.429128249953806,
+        "backhaul_margin": 10.978824655493412,
+        "slot": 0
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000018/8552.303-8578.585",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.5128506814345712,
+        "access_margin": 6.916931836946034,
+        "backhaul_margin": 15.70845122308394,
+        "slot": 5
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信/K000018/8578.585-8669.855",
+      "passed": true,
+      "value": {
+        "direct_margin": -2.5128506814232594,
+        "access_margin": 6.9352573743605745,
+        "backhaul_margin": 15.70845122308394,
+        "slot": 5
+      },
+      "limit": null,
+      "note": "直连不可用时的同一中继接入+回传证书"
+    },
+    {
+      "check": "通信连续性/K000018",
+      "passed": true,
+      "value": {
+        "intervals": 11,
+        "relay_intervals": 7
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000018/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S005|医疗物资": 1,
+        "S005|应急食品": 1,
+        "S005|生活卫生用品": 1,
+        "S005|饮用水": 3
+      },
+      "limit": {
+        "S005|医疗物资": 1,
+        "S005|生活卫生用品": 1,
+        "S005|应急食品": 1,
+        "S005|饮用水": 3
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/目的地/S001|生活卫生用品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/目的地/S001|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 48.0,
+        "volume": 0.116
+      },
+      "limit": {
+        "mass": 80.0,
+        "volume": 0.25
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/返航能量余量",
+      "passed": true,
+      "value": 2.2814782762843073,
+      "limit": 6.4,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/能耗重算",
+      "passed": true,
+      "value": 2.2814782762843073,
+      "limit": 2.2814782762843073,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 9163.54945754938,
+        "recomputed_finish": 9163.549457549381
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 8221.374411687357,
+        "recomputed": 8221.374411687357
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1451.233699827,
+        "recomputed": 1451.233699827
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/无人机编号",
+      "passed": true,
+      "value": "U08",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/电池编号",
+      "passed": true,
+      "value": "C-BAT-04",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信连续性/K000019",
+      "passed": true,
+      "value": {
+        "intervals": 7,
+        "relay_intervals": 0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000019/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 3
+      },
+      "limit": {
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 3
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/目的地/S011|医疗物资",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/目的地/S011|应急食品",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/目的地/S011|饮用水",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/装卸组批一致",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/载荷体积",
+      "passed": true,
+      "value": {
+        "mass": 25.0,
+        "volume": 0.067
+      },
+      "limit": {
+        "mass": 30.0,
+        "volume": 0.073
+      },
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/返航能量余量",
+      "passed": true,
+      "value": 1.073963183411491,
+      "limit": 3.2,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/能耗重算",
+      "passed": true,
+      "value": 1.073963183411491,
+      "limit": 1.073963183411491,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/SOC重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/卸载偏移重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/非负开始时刻",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/时间重算",
+      "passed": true,
+      "value": {
+        "stored_finish": 9170.432679280624,
+        "recomputed_finish": 9170.432679280622
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/起飞准备",
+      "passed": true,
+      "value": {
+        "stored": 8372.007916420103,
+        "recomputed": 8372.007916420103
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1132.0507128116462,
+        "recomputed": 1132.0507128116462
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/充电完成重算",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/无人机编号",
+      "passed": true,
+      "value": "U05",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/电池编号",
+      "passed": true,
+      "value": "B-BAT-01",
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "通信连续性/K000016",
+      "passed": true,
+      "value": {
+        "intervals": 7,
+        "relay_intervals": 0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "路线/K000016/逐箱组批一致",
+      "passed": true,
+      "value": {
+        "S011|医疗物资": 1,
+        "S011|应急食品": 1,
+        "S011|饮用水": 1
+      },
+      "limit": {
+        "S011|医疗物资": 1,
+        "S011|应急食品": 1,
+        "S011|饮用水": 1
+      },
+      "note": ""
+    },
+    {
+      "check": "机型A/实体数量",
+      "passed": true,
+      "value": 1,
+      "limit": 4,
+      "note": ""
+    },
+    {
+      "check": "资源/U01/运输机不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/U02/运输机不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/U03/运输机不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/U04/运输机不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "机型B/实体数量",
+      "passed": true,
+      "value": 2,
+      "limit": 2,
+      "note": ""
+    },
+    {
+      "check": "资源/U05/运输机不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/U06/运输机不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "机型C/实体数量",
+      "passed": true,
+      "value": 2,
+      "limit": 2,
+      "note": ""
+    },
+    {
+      "check": "资源/U07/运输机不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/U08/运输机不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "机型A/共享电池类型",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/A-BAT-01/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/A-BAT-02/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/A-BAT-03/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/A-BAT-04/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/A-BAT-05/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/A-BAT-06/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "机型B/共享电池类型",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/B-BAT-01/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/B-BAT-02/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/B-BAT-03/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/B-BAT-04/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "机型C/共享电池类型",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/C-BAT-01/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/C-BAT-02/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/C-BAT-03/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/C-BAT-04/电池占用不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S001-MED-01",
+      "passed": true,
+      "value": 2875.8251474176313,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-MED-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S001-MED-02",
+      "passed": true,
+      "value": 2875.8251474176313,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-FOD-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-FOD-03/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-HYG-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-HYG-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S001-WAT-01",
+      "passed": true,
+      "value": 848.5768147050242,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-WAT-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-WAT-03/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-WAT-04/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-WAT-05/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-WAT-06/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-WAT-07/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S001-WAT-08/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S002-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S002-MED-01",
+      "passed": true,
+      "value": 1631.7285677823802,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S002-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S002-FOD-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S002-HYG-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S002-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S002-WAT-01",
+      "passed": true,
+      "value": 1631.7285677823802,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S002-WAT-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S002-WAT-03/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S002-WAT-04/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S003-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S003-MED-01",
+      "passed": true,
+      "value": 6362.162597466415,
+      "limit": 7200.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S003-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S003-FOD-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S003-HYG-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S003-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S003-WAT-01",
+      "passed": true,
+      "value": 6362.162597466415,
+      "limit": 7200.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S003-WAT-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S003-WAT-03/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S003-WAT-04/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S004-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S004-MED-01",
+      "passed": true,
+      "value": 6970.936554335713,
+      "limit": 7200.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S004-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S004-HYG-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S004-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S004-WAT-01",
+      "passed": true,
+      "value": 6970.936554335713,
+      "limit": 7200.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S004-WAT-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S004-WAT-03/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S005-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S005-MED-01",
+      "passed": true,
+      "value": 8526.02081076179,
+      "limit": 10800.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S005-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S005-HYG-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S005-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S005-WAT-01",
+      "passed": true,
+      "value": 8526.02081076179,
+      "limit": 10800.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S005-WAT-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S005-WAT-03/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S006-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S006-MED-01",
+      "passed": true,
+      "value": 1209.4213122433111,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S006-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S006-HYG-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S006-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S006-WAT-01",
+      "passed": true,
+      "value": 1209.4213122433111,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S006-WAT-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S006-WAT-03/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S007-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S007-MED-01",
+      "passed": true,
+      "value": 3600.0,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S007-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S007-HYG-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S007-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S007-WAT-01",
+      "passed": true,
+      "value": 3600.0,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S007-WAT-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S008-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S008-MED-01",
+      "passed": true,
+      "value": 4685.423432649073,
+      "limit": 7200.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S008-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S008-HYG-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S008-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S008-WAT-01",
+      "passed": true,
+      "value": 4685.423432649073,
+      "limit": 7200.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S008-WAT-02/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S009-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S009-MED-01",
+      "passed": true,
+      "value": 6865.8073225052985,
+      "limit": 10800.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S009-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S009-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S009-WAT-01",
+      "passed": true,
+      "value": 6865.8073225052985,
+      "limit": 10800.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S010-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S010-MED-01",
+      "passed": true,
+      "value": 2954.986101835465,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S010-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S010-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S010-WAT-01",
+      "passed": true,
+      "value": 2954.986101835465,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S011-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S011-MED-01",
+      "passed": true,
+      "value": 8888.406964517031,
+      "limit": 10800.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S011-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S011-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S011-WAT-01",
+      "passed": true,
+      "value": 8888.406964517031,
+      "limit": 10800.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S012-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S012-MED-01",
+      "passed": true,
+      "value": 1271.3434070745934,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S012-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S012-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S012-WAT-01",
+      "passed": true,
+      "value": 1271.3434070745934,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S013-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S013-MED-01",
+      "passed": true,
+      "value": 2985.6159418547822,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S013-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S013-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S013-WAT-01",
+      "passed": true,
+      "value": 2985.6159418547822,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S014-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S014-MED-01",
+      "passed": true,
+      "value": 1242.4305043060124,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S014-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S014-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S014-WAT-01",
+      "passed": true,
+      "value": 1242.4305043060124,
+      "limit": 3600.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S015-MED-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S015-MED-01",
+      "passed": true,
+      "value": 6449.210570027025,
+      "limit": 7200.0,
+      "note": ""
+    },
+    {
+      "check": "货箱/S015-FOD-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "货箱/S015-WAT-01/原始属性",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "时限/S015-WAT-01",
+      "passed": true,
+      "value": 6449.210570027025,
+      "limit": 10800.0,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S001|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2875.8251474176313,
+            "K000005"
+          ],
+          [
+            2875.8251474176313,
+            "K000005"
+          ]
+        ],
+        "actual": [
+          [
+            2875.8251474176313,
+            "K000005"
+          ],
+          [
+            2875.8251474176313,
+            "K000005"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S001|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2875.8251474176313,
+            "K000005"
+          ],
+          [
+            2875.8251474176313,
+            "K000005"
+          ]
+        ],
+        "actual": [
+          [
+            2875.8251474176313,
+            "K000005"
+          ],
+          [
+            2875.8251474176313,
+            "K000005"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S001|生活卫生用品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2875.8251474176313,
+            "K000005"
+          ],
+          [
+            8851.646934618368,
+            "K000019"
+          ]
+        ],
+        "actual": [
+          [
+            2875.8251474176313,
+            "K000005"
+          ],
+          [
+            8851.646934618368,
+            "K000019"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S001|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            848.5768147050242,
+            "K001310"
+          ],
+          [
+            2875.8251474176313,
+            "K000005"
+          ]
+        ],
+        "actual": [
+          [
+            848.5768147050242,
+            "K001310"
+          ],
+          [
+            2875.8251474176313,
+            "K000005"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S002|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1631.7285677823802,
+            "K000001"
+          ]
+        ],
+        "actual": [
+          [
+            1631.7285677823802,
+            "K000001"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S002|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1631.7285677823802,
+            "K000001"
+          ],
+          [
+            4624.207978264364,
+            "K000010"
+          ]
+        ],
+        "actual": [
+          [
+            1631.7285677823802,
+            "K000001"
+          ],
+          [
+            4624.207978264364,
+            "K000010"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S002|生活卫生用品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            4624.207978264364,
+            "K000010"
+          ]
+        ],
+        "actual": [
+          [
+            4624.207978264364,
+            "K000010"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S002|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1631.7285677823802,
+            "K000001"
+          ],
+          [
+            1631.7285677823802,
+            "K000001"
+          ]
+        ],
+        "actual": [
+          [
+            1631.7285677823802,
+            "K000001"
+          ],
+          [
+            1631.7285677823802,
+            "K000001"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S003|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6362.162597466415,
+            "K000012"
+          ]
+        ],
+        "actual": [
+          [
+            6362.162597466415,
+            "K000012"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S003|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6362.162597466415,
+            "K000012"
+          ],
+          [
+            8348.212515966228,
+            "K000017"
+          ]
+        ],
+        "actual": [
+          [
+            6362.162597466415,
+            "K000012"
+          ],
+          [
+            8348.212515966228,
+            "K000017"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S003|生活卫生用品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            8348.212515966228,
+            "K000017"
+          ]
+        ],
+        "actual": [
+          [
+            8348.212515966228,
+            "K000017"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S003|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6362.162597466415,
+            "K000012"
+          ],
+          [
+            6362.162597466415,
+            "K000012"
+          ]
+        ],
+        "actual": [
+          [
+            6362.162597466415,
+            "K000012"
+          ],
+          [
+            6362.162597466415,
+            "K000012"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S004|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6970.936554335713,
+            "K000015"
+          ]
+        ],
+        "actual": [
+          [
+            6970.936554335713,
+            "K000015"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S004|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6970.936554335713,
+            "K000015"
+          ]
+        ],
+        "actual": [
+          [
+            6970.936554335713,
+            "K000015"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S004|生活卫生用品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6970.936554335713,
+            "K000015"
+          ]
+        ],
+        "actual": [
+          [
+            6970.936554335713,
+            "K000015"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S004|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6970.936554335713,
+            "K000015"
+          ],
+          [
+            6970.936554335713,
+            "K000015"
+          ]
+        ],
+        "actual": [
+          [
+            6970.936554335713,
+            "K000015"
+          ],
+          [
+            6970.936554335713,
+            "K000015"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S005|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            8526.02081076179,
+            "K000018"
+          ]
+        ],
+        "actual": [
+          [
+            8526.02081076179,
+            "K000018"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S005|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            8526.02081076179,
+            "K000018"
+          ]
+        ],
+        "actual": [
+          [
+            8526.02081076179,
+            "K000018"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S005|生活卫生用品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            8526.02081076179,
+            "K000018"
+          ]
+        ],
+        "actual": [
+          [
+            8526.02081076179,
+            "K000018"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S005|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            8526.02081076179,
+            "K000018"
+          ],
+          [
+            8526.02081076179,
+            "K000018"
+          ]
+        ],
+        "actual": [
+          [
+            8526.02081076179,
+            "K000018"
+          ],
+          [
+            8526.02081076179,
+            "K000018"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S006|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1209.4213122433111,
+            "K000002"
+          ]
+        ],
+        "actual": [
+          [
+            1209.4213122433111,
+            "K000002"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S006|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1209.4213122433111,
+            "K000002"
+          ]
+        ],
+        "actual": [
+          [
+            1209.4213122433111,
+            "K000002"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S006|生活卫生用品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1209.4213122433111,
+            "K000002"
+          ]
+        ],
+        "actual": [
+          [
+            1209.4213122433111,
+            "K000002"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S006|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1209.4213122433111,
+            "K000002"
+          ],
+          [
+            1209.4213122433111,
+            "K000002"
+          ]
+        ],
+        "actual": [
+          [
+            1209.4213122433111,
+            "K000002"
+          ],
+          [
+            1209.4213122433111,
+            "K000002"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S007|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            3600.0,
+            "K000008"
+          ]
+        ],
+        "actual": [
+          [
+            3600.0,
+            "K000008"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S007|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            3600.0,
+            "K000008"
+          ]
+        ],
+        "actual": [
+          [
+            3600.0,
+            "K000008"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S007|生活卫生用品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            3600.0,
+            "K000008"
+          ]
+        ],
+        "actual": [
+          [
+            3600.0,
+            "K000008"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S007|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            3600.0,
+            "K000008"
+          ],
+          [
+            3600.0,
+            "K000008"
+          ]
+        ],
+        "actual": [
+          [
+            3600.0,
+            "K000008"
+          ],
+          [
+            3600.0,
+            "K000008"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S008|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            4685.423432649073,
+            "K000009"
+          ]
+        ],
+        "actual": [
+          [
+            4685.423432649073,
+            "K000009"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S008|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            4685.423432649073,
+            "K000009"
+          ]
+        ],
+        "actual": [
+          [
+            4685.423432649073,
+            "K000009"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S008|生活卫生用品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            4685.423432649073,
+            "K000009"
+          ]
+        ],
+        "actual": [
+          [
+            4685.423432649073,
+            "K000009"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S008|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            4685.423432649073,
+            "K000009"
+          ],
+          [
+            4685.423432649073,
+            "K000009"
+          ]
+        ],
+        "actual": [
+          [
+            4685.423432649073,
+            "K000009"
+          ],
+          [
+            4685.423432649073,
+            "K000009"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S009|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6865.8073225052985,
+            "K000013"
+          ]
+        ],
+        "actual": [
+          [
+            6865.8073225052985,
+            "K000013"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S009|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6865.8073225052985,
+            "K000013"
+          ]
+        ],
+        "actual": [
+          [
+            6865.8073225052985,
+            "K000013"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S009|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6865.8073225052985,
+            "K000013"
+          ]
+        ],
+        "actual": [
+          [
+            6865.8073225052985,
+            "K000013"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S010|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2954.986101835465,
+            "K000006"
+          ]
+        ],
+        "actual": [
+          [
+            2954.986101835465,
+            "K000006"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S010|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2954.986101835465,
+            "K000006"
+          ]
+        ],
+        "actual": [
+          [
+            2954.986101835465,
+            "K000006"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S010|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2954.986101835465,
+            "K000006"
+          ]
+        ],
+        "actual": [
+          [
+            2954.986101835465,
+            "K000006"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S011|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            8888.406964517031,
+            "K000016"
+          ]
+        ],
+        "actual": [
+          [
+            8888.406964517031,
+            "K000016"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S011|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            8888.406964517031,
+            "K000016"
+          ]
+        ],
+        "actual": [
+          [
+            8888.406964517031,
+            "K000016"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S011|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            8888.406964517031,
+            "K000016"
+          ]
+        ],
+        "actual": [
+          [
+            8888.406964517031,
+            "K000016"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S012|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1271.3434070745934,
+            "K000003"
+          ]
+        ],
+        "actual": [
+          [
+            1271.3434070745934,
+            "K000003"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S012|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1271.3434070745934,
+            "K000003"
+          ]
+        ],
+        "actual": [
+          [
+            1271.3434070745934,
+            "K000003"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S012|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1271.3434070745934,
+            "K000003"
+          ]
+        ],
+        "actual": [
+          [
+            1271.3434070745934,
+            "K000003"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S013|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2985.6159418547822,
+            "K000007"
+          ]
+        ],
+        "actual": [
+          [
+            2985.6159418547822,
+            "K000007"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S013|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2985.6159418547822,
+            "K000007"
+          ]
+        ],
+        "actual": [
+          [
+            2985.6159418547822,
+            "K000007"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S013|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            2985.6159418547822,
+            "K000007"
+          ]
+        ],
+        "actual": [
+          [
+            2985.6159418547822,
+            "K000007"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S014|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1242.4305043060124,
+            "K000004"
+          ]
+        ],
+        "actual": [
+          [
+            1242.4305043060124,
+            "K000004"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S014|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1242.4305043060124,
+            "K000004"
+          ]
+        ],
+        "actual": [
+          [
+            1242.4305043060124,
+            "K000004"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S014|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            1242.4305043060124,
+            "K000004"
+          ]
+        ],
+        "actual": [
+          [
+            1242.4305043060124,
+            "K000004"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S015|医疗物资/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6449.210570027025,
+            "K000014"
+          ]
+        ],
+        "actual": [
+          [
+            6449.210570027025,
+            "K000014"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S015|应急食品/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6449.210570027025,
+            "K000014"
+          ]
+        ],
+        "actual": [
+          [
+            6449.210570027025,
+            "K000014"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "逐箱交付/S015|饮用水/时刻一致",
+      "passed": true,
+      "value": {
+        "expected": [
+          [
+            6449.210570027025,
+            "K000014"
+          ]
+        ],
+        "actual": [
+          [
+            6449.210570027025,
+            "K000014"
+          ]
+        ]
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继架次非空",
+      "passed": true,
+      "value": 4,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继槽位唯一",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继无人机库存",
+      "passed": true,
+      "value": [
+        "R01",
+        "R02"
+      ],
+      "limit": 2,
+      "note": ""
+    },
+    {
+      "check": "中继能源组件库存",
+      "passed": true,
+      "value": 3,
+      "limit": 6,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/离地高度",
+      "passed": true,
+      "value": 300.0,
+      "limit": 300.0,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/位置与编号",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/回传链路",
+      "passed": true,
+      "value": 10.978824655493412,
+      "limit": 0.0,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/takeoff重算",
+      "passed": true,
+      "value": {
+        "stored": 608.2224676063638,
+        "recomputed": 608.2224676063638
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/arrival重算",
+      "passed": true,
+      "value": {
+        "stored": 1161.0014407071867,
+        "recomputed": 1161.0014407071867
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/alpha重算",
+      "passed": true,
+      "value": {
+        "stored": 1191.0014407071867,
+        "recomputed": 1191.0014407071867
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/finish重算",
+      "passed": true,
+      "value": {
+        "stored": 9165.85322827993,
+        "recomputed": 9165.85322827993
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/服务能量",
+      "passed": true,
+      "value": 2.56,
+      "limit": 2.56,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/返航能量余量",
+      "passed": true,
+      "value": 2.56,
+      "limit": 2.56,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 1540.0,
+        "recomputed": 1540.0
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/服务结束",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/SOC",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R001/资源完成",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/离地高度",
+      "passed": true,
+      "value": 300.0,
+      "limit": 300.0,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/位置与编号",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/回传链路",
+      "passed": true,
+      "value": 3.6748289855268013,
+      "limit": 0.0,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/takeoff重算",
+      "passed": true,
+      "value": {
+        "stored": 311.59422923524346,
+        "recomputed": 311.59422923524346
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/arrival重算",
+      "passed": true,
+      "value": {
+        "stored": 708.2303552059602,
+        "recomputed": 708.2303552059602
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/alpha重算",
+      "passed": true,
+      "value": {
+        "stored": 738.2303552059602,
+        "recomputed": 738.2303552059602
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/finish重算",
+      "passed": true,
+      "value": {
+        "stored": 3504.302639989341,
+        "recomputed": 3504.302639989341
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/服务能量",
+      "passed": true,
+      "value": 0.9385653074937479,
+      "limit": 0.9385653074937479,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/返航能量余量",
+      "passed": true,
+      "value": 0.9385653074937479,
+      "limit": 2.56,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 881.2921561693352,
+        "recomputed": 881.2921561693352
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/服务结束",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/SOC",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R004/资源完成",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/离地高度",
+      "passed": true,
+      "value": 300.0,
+      "limit": 300.0,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/位置与编号",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/回传链路",
+      "passed": true,
+      "value": 10.187934124130948,
+      "limit": 0.0,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/takeoff重算",
+      "passed": true,
+      "value": {
+        "stored": 5923.706359200023,
+        "recomputed": 5923.706359200023
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/arrival重算",
+      "passed": true,
+      "value": {
+        "stored": 6451.643655150727,
+        "recomputed": 6451.643655150727
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/alpha重算",
+      "passed": true,
+      "value": {
+        "stored": 6481.643655150727,
+        "recomputed": 6481.643655150727
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/finish重算",
+      "passed": true,
+      "value": {
+        "stored": 7572.866928492798,
+        "recomputed": 7572.866928492798
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/服务能量",
+      "passed": true,
+      "value": 0.4723718190577374,
+      "limit": 0.4723718190577374,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/返航能量余量",
+      "passed": true,
+      "value": 0.4723718190577374,
+      "limit": 2.56,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 691.9010514922057,
+        "recomputed": 691.9010514922057
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/服务结束",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/SOC",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R005/资源完成",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/离地高度",
+      "passed": true,
+      "value": 300.0,
+      "limit": 300.0,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/位置与编号",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/回传链路",
+      "passed": true,
+      "value": 15.70845122308394,
+      "limit": 0.0,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/takeoff重算",
+      "passed": true,
+      "value": {
+        "stored": 8163.750512680713,
+        "recomputed": 8163.750512680713
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/arrival重算",
+      "passed": true,
+      "value": {
+        "stored": 8484.263064323573,
+        "recomputed": 8484.263064323573
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/alpha重算",
+      "passed": true,
+      "value": {
+        "stored": 8514.263064323573,
+        "recomputed": 8514.263064323573
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/finish重算",
+      "passed": true,
+      "value": {
+        "stored": 9025.540236791234,
+        "recomputed": 9025.540236791234
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/服务能量",
+      "passed": true,
+      "value": 0.23160538742692854,
+      "limit": 0.23160538742692854,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/返航能量余量",
+      "passed": true,
+      "value": 0.23160538742692854,
+      "limit": 2.56,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/充电时间",
+      "passed": true,
+      "value": {
+        "stored": 455.97310649676575,
+        "recomputed": 455.97310649676575
+      },
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/服务结束",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/SOC",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "中继/Q3-R006/资源完成",
+      "passed": true,
+      "value": null,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/R01/中继机体不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/R02/中继机体不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/R-EC-01/能源组件不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/R-EC-02/能源组件不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "资源/R-EC-03/能源组件不重叠",
+      "passed": true,
+      "value": 0,
+      "limit": null,
+      "note": ""
+    },
+    {
+      "check": "目标值重算",
+      "passed": true,
+      "value": {
+        "stored": [
+          24.0,
+          65.12006866674481,
+          9170.432679280624,
+          465.25841077498995
+        ],
+        "recomputed": [
+          24,
+          65.12006866674481,
+          9170.432679280622,
+          465.25841077498995
+        ]
+      },
+      "limit": null,
+      "note": ""
+    }
+  ],
+  "tolerance": {
+    "time_s": 0.0002,
+    "energy_kWh": 2e-06
+  },
+  "certified_intervals": 284,
+  "minimum_certificate_lower_margin_dB": 0.01785896961720823,
+  "communication_scope": "每个爬升、巡航、下降和物资投送阶段按DEM扫掠证书分段核验；直连优先，直连失败时核验同一中继的接入与回传。"
+}

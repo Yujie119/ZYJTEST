@@ -1,0 +1,46 @@
+[
+  {
+    "key": "R4_openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.cor.2024.106666",
+    "abstract": "In this paper we will propose a Robust Ordered Weighted Averaging (ROWA) optimization model to find a portfolio according to different attitudes towards risk of a decision maker. The rationale of our model is supported by the idea of measuring risk through conditional means of losses from a database of past returns. The way in which these means of extreme losses affect to the final decision may be different according to the risk perception of the decision maker (scenarios). In this context, a compromise portfolio is identified to reconcile the admisible risk attitudes of a decision maker according to different paradigms. We will also link the robustness of the proposed solution with its efficiency from a multi-criterion decision making viewpoint (Pareto optimality). Both concepts have been connected previously in the literature in different contexts. The paper ends with an extensive numerical experiment in order to check the applicability of our model to real data on six financial markets.",
+    "oa": {
+      "id": "doi:10.1016/j.cor.2024.106666",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.cor.2024.106666",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173256270",
+        "display_name": "Computers & Operations Research",
+        "issn_l": "0305-0548",
+        "issn": [
+          "0305-0548",
+          "1873-765X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Computers &amp; Operations Research",
+      "raw_type": "journal-article"
+    }
+  },
+  {
+    "key": "R2_publisher_api",
+    "url": "https://api.elsevier.com/content/article/PII:S0968090X25000865?httpAccept=text/xml",
+    "text": "<full-text-retrieval-response xmlns=\"http://www.elsevier.com/xml/svapi/article/dtd\" xmlns:bk=\"http://www.elsevier.com/xml/bk/dtd\" xmlns:cals=\"http://www.elsevier.com/xml/common/cals/dtd\" xmlns:ce=\"http://www.elsevier.com/xml/common/dtd\" xmlns:ja=\"http://www.elsevier.com/xml/ja/dtd\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:sa=\"http://www.elsevier.com/xml/common/struct-aff/dtd\" xmlns:sb=\"http://www.elsevier.com/xml/common/struct-bib/dtd\" xmlns:tb=\"http://www.elsevier.com/xml/common/table/dtd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xocs=\"http://www.elsevier.com/xml/xocs/dtd\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:prism=\"http://prismstandard.org/namespaces/basic/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0968090X25000865</prism:url><dc:identifier>doi:10.1016/j.trc.2025.105082</dc:identifier><eid>1-s2.0-S0968090X25000865</eid><prism:doi>10.1016/j.trc.2025.105082</prism:doi><pii>S0968-090X(25)00086-5</pii><dc:title>Integrating battery-related decisions into truck-drone tandem delivery problem with limited battery resources </dc:title><prism:publicationName>Transportation Research Part C: Emerging Technologies</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><prism:issn>0968090X</prism:issn><prism:coverDate>2025-05-31</prism:coverDate><prism:coverDisplayDate>May 2025</prism:coverDisplayDate><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><link href=\"https://api.elsevier.com/content/article/pii/S0968090X25000865\" rel=\"self\"/><link href=\"https://www.sciencedirect.com/science/article/pii/S0968090X25000865\" rel=\"scidir\"/></coredata></full-text-retrieval-response>"
+  }
+]

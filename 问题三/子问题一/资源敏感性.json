@@ -1,0 +1,130 @@
+[
+  {
+    "scenario": "2组件",
+    "component_inventory": 2,
+    "position_count": 24,
+    "objective": [
+      24,
+      65.60391037184864,
+      9234.6292452147,
+      466.0105224569404
+    ],
+    "verified": true,
+    "meta": {
+      "seconds": 32.063329299970064,
+      "variables": 1436,
+      "constraints": 4420,
+      "stages": [
+        {
+          "stage": "C",
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "bound": 9163.54886305258,
+          "gap": 0.007697056797820811
+        },
+        {
+          "stage": "L",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "bound": 465.2583642491536,
+          "gap": 0.001614036961700622
+        },
+        {
+          "stage": "E",
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "bound": null,
+          "gap": null
+        }
+      ],
+      "route_pool": 20,
+      "required": 20,
+      "mode": "C",
+      "caps": {
+        "N": 24,
+        "E": 65.64636262795764,
+        "L": 467.5392083584537
+      },
+      "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+      "max_constraint_violation": 6.821210263296962e-13
+    },
+    "scope": "固定最终运输箱组/路线/机型及资源身份顺序，开放时刻、中继位置时段及组件；限时45s"
+  },
+  {
+    "scenario": "3组件",
+    "component_inventory": 3,
+    "position_count": 24,
+    "objective": [
+      24,
+      65.12006866674481,
+      9170.432679280624,
+      465.25841077498995
+    ],
+    "verified": true,
+    "meta": {
+      "seconds": 13.988850199966691,
+      "variables": 1442,
+      "constraints": 4452,
+      "stages": [
+        {
+          "stage": "C",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "bound": 9163.54886305258,
+          "gap": 0.000750553448662093
+        },
+        {
+          "stage": "L",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "bound": 465.2583642491536,
+          "gap": 0.0
+        },
+        {
+          "stage": "E",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "bound": 64.98930510938165,
+          "gap": 0.00200788451423725
+        },
+        {
+          "stage": "N",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "bound": 24.0,
+          "gap": 0.0
+        }
+      ],
+      "route_pool": 20,
+      "required": 20,
+      "mode": "C",
+      "caps": {
+        "N": 24,
+        "E": 65.64636262795764,
+        "L": 467.5392083584537
+      },
+      "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+      "max_constraint_violation": 6.821210263296962e-13
+    },
+    "scope": "固定最终运输箱组/路线/机型及资源身份顺序，开放时刻、中继位置时段及组件；限时45s"
+  },
+  {
+    "scenario": "200m高度上限",
+    "component_inventory": 6,
+    "position_count": 8,
+    "objective": null,
+    "verified": false,
+    "meta": {
+      "reason": "selected_positions_cannot_cover",
+      "route": "K000004"
+    },
+    "scope": "固定最终运输箱组/路线/机型及资源身份顺序，开放时刻、中继位置时段及组件；限时45s"
+  }
+]

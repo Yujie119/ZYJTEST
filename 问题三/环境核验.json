@@ -1,0 +1,25 @@
+{
+  "python": "E:\\tool\\anaconda3\\python.exe",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "logical_cpu": 20,
+  "physical_cpu": 14,
+  "ram_bytes": 68463718400,
+  "available_ram_bytes": 40854597632,
+  "gpu": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "witness": 16236.535823509166,
+      "free_bytes": 11557404672
+    },
+    {
+      "device": 1,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "witness": 16236.535823509166,
+      "free_bytes": 11557404672
+    }
+  ]
+}

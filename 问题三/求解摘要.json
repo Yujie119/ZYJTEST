@@ -1,0 +1,49 @@
+{
+  "objective": [
+    24,
+    65.12006866674481,
+    9170.432679280624,
+    465.25841077498995
+  ],
+  "NT": 20,
+  "NR": 4,
+  "ET": 60.9175261527664,
+  "ER": 4.202542513978414,
+  "boxes": 80,
+  "hard_boxes": 31,
+  "soft_boxes": 49,
+  "late_soft_boxes": 5,
+  "hard_deadline_min_margin_s": 0.0,
+  "transport_uavs": {
+    "A": 1,
+    "B": 2,
+    "C": 2
+  },
+  "transport_batteries": {
+    "A": 1,
+    "B": 4,
+    "C": 4
+  },
+  "relay_uavs": 2,
+  "relay_components": 3,
+  "min_transport_soc": 0.20942545342258811,
+  "min_relay_soc": 0.20000000000000007,
+  "archive_count": 10,
+  "regret_archive": 0.0004699884211132391,
+  "regret_upper": 1.8729155309954808,
+  "completion_time_lower_bound": 6309.363068668322,
+  "fixed_pool_bound_gap": 0.3119885081405711,
+  "verification_checks": 803,
+  "verification": "PASS",
+  "communication": {
+    "status": "PASS",
+    "event_points": 497,
+    "rows": 174,
+    "direct_duration_s": 16609.875823710612,
+    "relay_duration_s": 9920.654097135877,
+    "note": "表中区间内部状态由地形事件和距离球交点分割；精确边界保障主体以事件端点表为准，均已单独核验。展示采样不作为连续证书。"
+  },
+  "last_return": "Q3-T020",
+  "candidate_routes": 1292,
+  "source": "resource_sensitivity_3组件"
+}

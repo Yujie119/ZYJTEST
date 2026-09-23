@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sheets": {
+    "Q3_中继架次": 4,
+    "Q3_通信保障": 174,
+    "Q3_运输架次": 20,
+    "Q3_逐箱交付": 80
+  },
+  "numeric_values_preserved": true
+}
