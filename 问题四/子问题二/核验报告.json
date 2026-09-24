@@ -1,0 +1,48 @@
+{
+  "partition_counts": {
+    "2": 7,
+    "3": 6
+  },
+  "main_components": [
+    [
+      "S001"
+    ],
+    [
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S012",
+      "S013",
+      "S014",
+      "S015"
+    ],
+    [
+      "S006"
+    ],
+    [
+      "S011"
+    ]
+  ],
+  "resource_assignment_rows": 96,
+  "physical_scope": "Inherited Q3 physical/DEM certificates and same-snapshot reconstructed communication; no new independent propagation algorithm.",
+  "stock_feasible_partitions": {
+    "2": 0,
+    "3": 0
+  },
+  "boxes": 80,
+  "hard_boxes": 31,
+  "objective_recomputed": [
+    24,
+    65.11205028199753,
+    9165.154435126618,
+    465.2583642491526
+  ],
+  "status": "PASS",
+  "checks": 11954,
+  "failed_checks": []
+}

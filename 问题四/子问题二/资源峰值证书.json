@@ -1,0 +1,773 @@
+[
+  {
+    "G": 2,
+    "group": "G2-01",
+    "resource_type": "U_A",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 1190.9069627433817,
+        "tasks": [
+          "K001310"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-01",
+    "resource_type": "U_B",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 3782.30605001331,
+        "end": 4931.4122258395255,
+        "tasks": [
+          "K000011"
+        ]
+      },
+      {
+        "start": 7976.729672266098,
+        "end": 9165.154435126618,
+        "tasks": [
+          "K000016"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-01",
+    "resource_type": "U_C",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 1561.5526244866223,
+        "tasks": [
+          "K000002"
+        ]
+      },
+      {
+        "start": 1561.5526244866223,
+        "end": 3187.7276703486455,
+        "tasks": [
+          "K000005"
+        ]
+      },
+      {
+        "start": 7801.37381719055,
+        "end": 9163.548863052572,
+        "tasks": [
+          "K000019"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-01",
+    "resource_type": "P_A",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 2043.2192663202309,
+        "tasks": [
+          "K001310"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-01",
+    "resource_type": "P_B",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 3782.30605001331,
+        "end": 6126.9338136078095,
+        "tasks": [
+          "K000011"
+        ]
+      },
+      {
+        "start": 7976.729672266098,
+        "end": 10297.205147938264,
+        "tasks": [
+          "K000016"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-01",
+    "resource_type": "P_C",
+    "minimum_count": 2,
+    "peak_intervals": [
+      {
+        "start": 1561.5526244866223,
+        "end": 3098.505714680826,
+        "tasks": [
+          "K000002",
+          "K000005"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-01",
+    "resource_type": "U_R",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 2,
+    "group": "G2-01",
+    "resource_type": "P_R",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 2,
+    "group": "G2-02",
+    "resource_type": "U_A",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 2,
+    "group": "G2-02",
+    "resource_type": "U_B",
+    "minimum_count": 2,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 1869.7476752786915,
+        "tasks": [
+          "K000003",
+          "K000004"
+        ]
+      },
+      {
+        "start": 1869.7476752786915,
+        "end": 1922.826814149187,
+        "tasks": [
+          "K000003",
+          "K000006"
+        ]
+      },
+      {
+        "start": 1922.826814149187,
+        "end": 3425.151195058909,
+        "tasks": [
+          "K000006",
+          "K000007"
+        ]
+      },
+      {
+        "start": 5774.985890338107,
+        "end": 7083.947408604299,
+        "tasks": [
+          "K000013",
+          "K000014"
+        ]
+      },
+      {
+        "start": 7083.947408604299,
+        "end": 7333.448754672465,
+        "tasks": [
+          "K000013",
+          "K000017"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-02",
+    "resource_type": "U_C",
+    "minimum_count": 2,
+    "peak_intervals": [
+      {
+        "start": 3187.7276703486455,
+        "end": 4159.840349205346,
+        "tasks": [
+          "K000008",
+          "K000009"
+        ]
+      },
+      {
+        "start": 4715.91494866348,
+        "end": 5387.439194949478,
+        "tasks": [
+          "K000009",
+          "K000012"
+        ]
+      },
+      {
+        "start": 5387.439194949478,
+        "end": 7152.09265976274,
+        "tasks": [
+          "K000012",
+          "K000015"
+        ]
+      },
+      {
+        "start": 7152.09265976274,
+        "end": 7688.493913721924,
+        "tasks": [
+          "K000015",
+          "K000018"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-02",
+    "resource_type": "P_A",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 2,
+    "group": "G2-02",
+    "resource_type": "P_B",
+    "minimum_count": 4,
+    "peak_intervals": [
+      {
+        "start": 1922.826814149187,
+        "end": 3463.905937610475,
+        "tasks": [
+          "K000003",
+          "K000004",
+          "K000006",
+          "K000007"
+        ]
+      },
+      {
+        "start": 3498.8957671228823,
+        "end": 3782.30605001331,
+        "tasks": [
+          "K000003",
+          "K000006",
+          "K000007",
+          "K000010"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-02",
+    "resource_type": "P_C",
+    "minimum_count": 4,
+    "peak_intervals": [
+      {
+        "start": 4715.91494866348,
+        "end": 4786.679969634777,
+        "tasks": [
+          "K000001",
+          "K000008",
+          "K000009",
+          "K000012"
+        ]
+      },
+      {
+        "start": 5387.439194949478,
+        "end": 5917.006668874631,
+        "tasks": [
+          "K000008",
+          "K000009",
+          "K000012",
+          "K000015"
+        ]
+      },
+      {
+        "start": 7152.09265976274,
+        "end": 7801.373817190548,
+        "tasks": [
+          "K000009",
+          "K000012",
+          "K000015",
+          "K000018"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-02",
+    "resource_type": "U_R",
+    "minimum_count": 2,
+    "peak_intervals": [
+      {
+        "start": 428.2224676063595,
+        "end": 3804.3026399893397,
+        "tasks": [
+          "Q3-R001",
+          "Q3-R004"
+        ]
+      },
+      {
+        "start": 5744.537700648645,
+        "end": 7872.866928492787,
+        "tasks": [
+          "Q3-R001",
+          "Q3-R005"
+        ]
+      },
+      {
+        "start": 8007.763571171147,
+        "end": 9324.841443537918,
+        "tasks": [
+          "Q3-R001",
+          "Q3-R006"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 2,
+    "group": "G2-02",
+    "resource_type": "P_R",
+    "minimum_count": 3,
+    "peak_intervals": [
+      {
+        "start": 8007.763571171147,
+        "end": 8264.664783954477,
+        "tasks": [
+          "Q3-R001",
+          "Q3-R005",
+          "Q3-R006"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-01",
+    "resource_type": "U_A",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 1190.9069627433817,
+        "tasks": [
+          "K001310"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-01",
+    "resource_type": "U_B",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 3782.30605001331,
+        "end": 4931.4122258395255,
+        "tasks": [
+          "K000011"
+        ]
+      },
+      {
+        "start": 7976.729672266098,
+        "end": 9165.154435126618,
+        "tasks": [
+          "K000016"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-01",
+    "resource_type": "U_C",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 1561.5526244866223,
+        "end": 3187.7276703486455,
+        "tasks": [
+          "K000005"
+        ]
+      },
+      {
+        "start": 7801.37381719055,
+        "end": 9163.548863052572,
+        "tasks": [
+          "K000019"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-01",
+    "resource_type": "P_A",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 2043.2192663202309,
+        "tasks": [
+          "K001310"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-01",
+    "resource_type": "P_B",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 3782.30605001331,
+        "end": 6126.9338136078095,
+        "tasks": [
+          "K000011"
+        ]
+      },
+      {
+        "start": 7976.729672266098,
+        "end": 10297.205147938264,
+        "tasks": [
+          "K000016"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-01",
+    "resource_type": "P_C",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 1561.5526244866223,
+        "end": 4715.91494866348,
+        "tasks": [
+          "K000005"
+        ]
+      },
+      {
+        "start": 7801.37381719055,
+        "end": 10614.782562879573,
+        "tasks": [
+          "K000019"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-01",
+    "resource_type": "U_R",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-01",
+    "resource_type": "P_R",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-02",
+    "resource_type": "U_A",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-02",
+    "resource_type": "U_B",
+    "minimum_count": 2,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 1869.7476752786915,
+        "tasks": [
+          "K000003",
+          "K000004"
+        ]
+      },
+      {
+        "start": 1869.7476752786915,
+        "end": 1922.826814149187,
+        "tasks": [
+          "K000003",
+          "K000006"
+        ]
+      },
+      {
+        "start": 1922.826814149187,
+        "end": 3425.151195058909,
+        "tasks": [
+          "K000006",
+          "K000007"
+        ]
+      },
+      {
+        "start": 5774.985890338107,
+        "end": 7083.947408604299,
+        "tasks": [
+          "K000013",
+          "K000014"
+        ]
+      },
+      {
+        "start": 7083.947408604299,
+        "end": 7333.448754672465,
+        "tasks": [
+          "K000013",
+          "K000017"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-02",
+    "resource_type": "U_C",
+    "minimum_count": 2,
+    "peak_intervals": [
+      {
+        "start": 3187.7276703486455,
+        "end": 4159.840349205346,
+        "tasks": [
+          "K000008",
+          "K000009"
+        ]
+      },
+      {
+        "start": 4715.91494866348,
+        "end": 5387.439194949478,
+        "tasks": [
+          "K000009",
+          "K000012"
+        ]
+      },
+      {
+        "start": 5387.439194949478,
+        "end": 7152.09265976274,
+        "tasks": [
+          "K000012",
+          "K000015"
+        ]
+      },
+      {
+        "start": 7152.09265976274,
+        "end": 7688.493913721924,
+        "tasks": [
+          "K000015",
+          "K000018"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-02",
+    "resource_type": "P_A",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-02",
+    "resource_type": "P_B",
+    "minimum_count": 4,
+    "peak_intervals": [
+      {
+        "start": 1922.826814149187,
+        "end": 3463.905937610475,
+        "tasks": [
+          "K000003",
+          "K000004",
+          "K000006",
+          "K000007"
+        ]
+      },
+      {
+        "start": 3498.8957671228823,
+        "end": 3782.30605001331,
+        "tasks": [
+          "K000003",
+          "K000006",
+          "K000007",
+          "K000010"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-02",
+    "resource_type": "P_C",
+    "minimum_count": 4,
+    "peak_intervals": [
+      {
+        "start": 4715.91494866348,
+        "end": 4786.679969634777,
+        "tasks": [
+          "K000001",
+          "K000008",
+          "K000009",
+          "K000012"
+        ]
+      },
+      {
+        "start": 5387.439194949478,
+        "end": 5917.006668874631,
+        "tasks": [
+          "K000008",
+          "K000009",
+          "K000012",
+          "K000015"
+        ]
+      },
+      {
+        "start": 7152.09265976274,
+        "end": 7801.373817190548,
+        "tasks": [
+          "K000009",
+          "K000012",
+          "K000015",
+          "K000018"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-02",
+    "resource_type": "U_R",
+    "minimum_count": 2,
+    "peak_intervals": [
+      {
+        "start": 428.2224676063595,
+        "end": 3804.3026399893397,
+        "tasks": [
+          "Q3-R001",
+          "Q3-R004"
+        ]
+      },
+      {
+        "start": 5744.537700648645,
+        "end": 7872.866928492787,
+        "tasks": [
+          "Q3-R001",
+          "Q3-R005"
+        ]
+      },
+      {
+        "start": 8007.763571171147,
+        "end": 9324.841443537918,
+        "tasks": [
+          "Q3-R001",
+          "Q3-R006"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-02",
+    "resource_type": "P_R",
+    "minimum_count": 3,
+    "peak_intervals": [
+      {
+        "start": 8007.763571171147,
+        "end": 8264.664783954477,
+        "tasks": [
+          "Q3-R001",
+          "Q3-R005",
+          "Q3-R006"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-03",
+    "resource_type": "U_A",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-03",
+    "resource_type": "U_B",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-03",
+    "resource_type": "U_C",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 1561.5526244866223,
+        "tasks": [
+          "K000002"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-03",
+    "resource_type": "P_A",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-03",
+    "resource_type": "P_B",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-03",
+    "resource_type": "P_C",
+    "minimum_count": 1,
+    "peak_intervals": [
+      {
+        "start": 0.0,
+        "end": 3098.505714680826,
+        "tasks": [
+          "K000002"
+        ]
+      }
+    ]
+  },
+  {
+    "G": 3,
+    "group": "G3-03",
+    "resource_type": "U_R",
+    "minimum_count": 0,
+    "peak_intervals": []
+  },
+  {
+    "G": 3,
+    "group": "G3-03",
+    "resource_type": "P_R",
+    "minimum_count": 0,
+    "peak_intervals": []
+  }
+]

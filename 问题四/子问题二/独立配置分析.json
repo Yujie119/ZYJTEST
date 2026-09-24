@@ -1,0 +1,91 @@
+{
+  "source_sha256": "f3be3724a2685c5edf027d4e567ec9144efcca2fc63899a9e6ab9d73d5b88f53",
+  "inventory": {
+    "U_A": 4,
+    "U_B": 2,
+    "U_C": 2,
+    "P_A": 6,
+    "P_B": 4,
+    "P_C": 4,
+    "U_R": 2,
+    "P_R": 6
+  },
+  "central_P": {
+    "U_A": 1,
+    "U_B": 2,
+    "U_C": 2,
+    "P_A": 1,
+    "P_B": 4,
+    "P_C": 4,
+    "U_R": 2,
+    "P_R": 3
+  },
+  "demand": {
+    "2": {
+      "U_A": 1,
+      "U_B": 3,
+      "U_C": 3,
+      "P_A": 1,
+      "P_B": 5,
+      "P_C": 6,
+      "U_R": 2,
+      "P_R": 3
+    },
+    "3": {
+      "U_A": 1,
+      "U_B": 3,
+      "U_C": 4,
+      "P_A": 1,
+      "P_B": 5,
+      "P_C": 6,
+      "U_R": 2,
+      "P_R": 3
+    }
+  },
+  "gaps": {
+    "2": {
+      "U_A": 0,
+      "U_B": 1,
+      "U_C": 1,
+      "P_A": 0,
+      "P_B": 1,
+      "P_C": 2,
+      "U_R": 0,
+      "P_R": 0
+    },
+    "3": {
+      "U_A": 0,
+      "U_B": 1,
+      "U_C": 2,
+      "P_A": 0,
+      "P_B": 1,
+      "P_C": 2,
+      "U_R": 0,
+      "P_R": 0
+    }
+  },
+  "split_loss": {
+    "2": {
+      "U_A": 0,
+      "U_B": 1,
+      "U_C": 1,
+      "P_A": 0,
+      "P_B": 1,
+      "P_C": 2,
+      "U_R": 0,
+      "P_R": 0
+    },
+    "3": {
+      "U_A": 0,
+      "U_B": 1,
+      "U_C": 2,
+      "P_A": 0,
+      "P_B": 1,
+      "P_C": 2,
+      "U_R": 0,
+      "P_R": 0
+    }
+  },
+  "assignment_rows": 96,
+  "scope": "Exact fixed-task interval coloring and gap accounting; no rescheduling."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "event_points": 738,
+  "rows": 171,
+  "direct_duration_s": 16508.075036793452,
+  "relay_duration_s": 9920.65409713584,
+  "note": "表中区间内部状态由地形事件和距离球交点分割；精确边界保障主体以事件端点表为准，均已单独核验。展示采样不作为连续证书。",
+  "source_sha256": "d26e96c2a6e9430479310cca82c22e90205e85ae0b9e2af7954308fc33a30f80",
+  "minimum_endpoint_margin_dB": -1.4210854715202004e-14
+}

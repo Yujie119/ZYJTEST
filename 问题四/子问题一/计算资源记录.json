@@ -1,0 +1,39 @@
+{
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "torch": "2.8.0+cu128",
+  "cpu_logical": 20,
+  "memory_total_bytes": 68463718400,
+  "rss_before_bytes": 455561216,
+  "rss_after_bytes": 842997760,
+  "peak_working_set_bytes": 842997760,
+  "snapshot_processes": 4,
+  "gpu": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "G": 2,
+      "candidate_resource_checks": 112,
+      "tensor_cells": 1292,
+      "peak_allocated_bytes": 8526848,
+      "seconds_including_transfer": 0.35155729996040463,
+      "agreement": true,
+      "role": "float64 tensor peak cross-check; exact CPU enumeration is authoritative"
+    },
+    {
+      "device": 1,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "G": 3,
+      "candidate_resource_checks": 80,
+      "tensor_cells": 1100,
+      "peak_allocated_bytes": 8525824,
+      "seconds_including_transfer": 0.3497872999869287,
+      "agreement": true,
+      "role": "float64 tensor peak cross-check; exact CPU enumeration is authoritative"
+    }
+  ],
+  "solver_wall_seconds": 3.044546300021466,
+  "scope": "Snapshot evaluation, MILP/LP, GPU initialization/checks, exports; excludes prior freeze/DEM reconstruction.",
+  "memory_policy": "Complete groups and partitions cached in RAM. No artificial RAM/GPU workload."
+}
