@@ -1,0 +1,12 @@
+{
+  "seconds": 7080.0,
+  "task_seconds": 90.0,
+  "seed": 2026092402,
+  "output": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022\\邻域_2026092402",
+  "started_utc": "2026-09-23T20:55:29.770755+00:00",
+  "pid": 24192,
+  "scope": "O01-exchange only; no spare carriage; whole-sortie original energy limits retained",
+  "bounds_scope": "Each bound belongs ONLY to its frozen neighborhood, caps, positions, slots and horizon; never merge with a larger-library lower bound.",
+  "official_files_modified": false,
+  "threads_per_solver": 1
+}

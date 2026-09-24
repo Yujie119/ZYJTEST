@@ -1,0 +1,77 @@
+{
+  "method": "global_finite_library_then_exact_selected_schedule",
+  "route_patterns": 1292,
+  "route_instances": 1457,
+  "master_relaxation_objective": [
+    15,
+    73.33597325877889,
+    0.0,
+    0.0
+  ],
+  "master_meta": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "incumbent_available": true,
+    "route_pool": 1457,
+    "variables": 4895,
+    "constraints": 1513,
+    "bound": 15.0,
+    "gap": 0.0
+  },
+  "selected_route_ids": [
+    "K000002#I01",
+    "K000008#I01",
+    "K000009#I01",
+    "K000015#I01",
+    "K000019#I02",
+    "K000614#I01",
+    "K000823#I01",
+    "K000885#I01",
+    "K000903#I01",
+    "K000916#I01",
+    "K001026#I01",
+    "K001030#I01",
+    "K001195#I01",
+    "K001251#I01",
+    "K001286#I01"
+  ],
+  "communication_refinement": [
+    {
+      "iteration": 0,
+      "loaded": 0,
+      "selected": 15,
+      "newly_loaded": 15,
+      "objective": [
+        15,
+        73.33597325877889,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "scheduled_plan": null,
+  "schedule_meta": {
+    "seconds": 0.12754690001020208,
+    "variables": 3350,
+    "constraints": 10584,
+    "stages": [
+      {
+        "stage": "C",
+        "status": 4,
+        "message": "(HiGHS Status 0: Not Set)",
+        "incumbent_available": false,
+        "bound": null,
+        "gap": null
+      }
+    ],
+    "route_pool": 15,
+    "required": 15,
+    "mode": "C",
+    "caps": null,
+    "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+    "resource_pairs": true
+  },
+  "elapsed_s": 3.0745977999758907,
+  "scope": "complete frozen accumulated route library and 24 cached relay candidates; master is a valid relaxation; only scheduled plan is a feasible incumbent",
+  "alns_reference": "solve_q3.py retained as simplified same-physics comparison"
+}

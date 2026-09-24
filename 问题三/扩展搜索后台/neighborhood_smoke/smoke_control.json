@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "physical_status": "PASS",
+  "raw_status": "PASS",
+  "battery_status": "PASS",
+  "physical_checks": 1015,
+  "raw_checks": 452,
+  "battery_checks": 307,
+  "evidence": [
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke\\smoke_existing_seed_control\\existing_seed_DEM核验.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke\\smoke_existing_seed_control\\existing_seed_原始算术核验.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke\\smoke_existing_seed_control\\existing_seed_电池位置核验.json"
+  ],
+  "meaning": "Existing verified seed, not a new solution discovered by this worker"
+}

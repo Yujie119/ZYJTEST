@@ -1,0 +1,33 @@
+{
+  "spec": {
+    "name": "cover_01_2",
+    "cap": {
+      "N": 20
+    },
+    "weights": [
+      0.05,
+      0.25,
+      0.7
+    ],
+    "schedule_weights": [
+      0,
+      0,
+      3.571428571428572e-05,
+      0.00125
+    ],
+    "noise": 0.0024000000000000002,
+    "seed": 2026092412,
+    "master_seconds": 12.0,
+    "schedule_seconds": 12.0
+  },
+  "master": {
+    "status": "Time limit reached",
+    "objective_proxy": null,
+    "proxy_dual_bound": 0.9170408230021956,
+    "proxy_not_actual_completion": true
+  },
+  "plan": null,
+  "scheduling": null,
+  "verification": null,
+  "seconds": 13.313687599962577
+}

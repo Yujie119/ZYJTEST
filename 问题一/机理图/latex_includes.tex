@@ -1,0 +1,28 @@
+% Use XeLaTeX with ctex; paths relative to this directory.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.98\textwidth]{\detokenize{图1_epsilon约束与条件可行集.pdf}}
+\caption{ε 约束与条件可行集。固定其余14个服务区为综合方案，仅改变S008组批，在该区23个筛选后模式内枚举36个整数方案；不同方案在目标投影中可能重合。左图为空间分布，右图放大两个非支配方案。约束为N≤19、T≤T\_B−0.001 s，交叉标记为子问题最优解A。浅蓝色仅表示时间上限半平面，不表示其中任意位置均可实现。B高于时间阈值0.001 s，这一距离按真实比例无法辨认，未人为放大。}
+\label{fig:q1-mechanism-1}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.98\textwidth]{\detokenize{图2_三目标自适应epsilon搜索.pdf}}
+\caption{真实日志中的三目标自适应ε搜索。三幅图依次表示区域3返回B、区域4收紧时间上限后返回A，以及区域5再次收紧后整数不可行、当前架次上限分支终止；第三幅A为空心标记，表示已被新阈值排除。各坐标按两个非支配点的分量最小值和最大值归一化，三维盒仅是[0,1]³显示窗口；区域3的时间上限实际为正无穷。区域4中的A已在区域1发现，属于重复返回。此图复现当前输出驱动的阈值更新，不将其描述为通用三维盒递归切分。}
+\label{fig:q1-mechanism-2}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.98\textwidth]{\detokenize{图3_连续松弛与整数凸包.pdf}}
+\caption{S003整数可行域、整数凸包与连续松弛域的二维投影。保留该区53个筛选后模式，完整枚举384个整数组批方案；左图以B/C型架次总数为投影坐标，右图以能耗和累计作业时间为投影坐标。灰色为LP松弛投影，斜线为整数凸包投影，空心方块为整数解投影。菱形与叉号分别表示该区LP与整数能耗最优解。LP多边形由原模型支持函数求解并逐边核验，未手绘边界。图示是局部模型的投影；全问题下界单独核算。}
+\label{fig:q1-mechanism-3}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.98\textwidth]{\detokenize{图4_全局连续松弛下界核验.pdf}}
+\caption{全局连续松弛下界与当前综合方案。三个面板依次对比架次数、总能耗和累计作业时间的LP下界、各自的单目标整数最优值及综合方案指标。相对间隙统一定义为(综合方案值−LP下界)/综合方案值；灰色连线仅用于对应类别，不表示连续可行路径。三个分量的LP下界由分别优化得到，不是同一个可实现方案。}
+\label{fig:q1-mechanism-4}
+\end{figure}

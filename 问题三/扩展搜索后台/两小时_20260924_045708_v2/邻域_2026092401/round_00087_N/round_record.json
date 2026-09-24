@@ -1,0 +1,26 @@
+{
+  "round": 87,
+  "mode": "N",
+  "kind": "free_joint_retiming",
+  "started_utc": "2026-09-23T22:55:28.568912+00:00",
+  "seed_objective": [
+    31,
+    79.22538670397434,
+    10438.437745850293,
+    571.2490732692047
+  ],
+  "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00061_E\\verified_plan.json",
+  "status": "time_limit_without_certified_incumbent",
+  "route_instances": 42,
+  "patterns": 24,
+  "caps": {
+    "E": 79.72538670397434,
+    "C": 10618.437745850293,
+    "L": 671.2490732692047
+  },
+  "neighborhood_only_lower_bound": null,
+  "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+  "solver_elapsed_s": 2.5500019546598196e-05,
+  "accepted_as_feasible": false,
+  "finished_utc": "2026-09-23T22:55:28.707968+00:00"
+}

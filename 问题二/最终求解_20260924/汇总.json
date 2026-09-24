@@ -1,0 +1,45 @@
+{
+  "objective": [
+    22,
+    65.51851671683666,
+    6206.344443443169,
+    0.0
+  ],
+  "archive_count": 14,
+  "route_count": 28216,
+  "library_coefficient_sha256": "96c73b04ebaeb105368e4298d3bd871ceab92c6734e580a835a9988780dc4058",
+  "source_library_file_sha256": "6e6953b0f0da38bee9abc3967a78d65c9e975fbc81d4a9961fb58dea1b7178e4",
+  "scope": "Verified feasible representative with O01-only battery exchanges; not a global optimum certificate for unrestricted routes or off-depot exchanges.",
+  "physics": "Original task physical rules with explicitly stated horizontal calibration and potential-energy climb assumptions.",
+  "frozen_scale": [
+    15.0,
+    27.77981480435046,
+    1596.4547661131937,
+    459.283422915773
+  ],
+  "regret_interval": [
+    0.011536646601719491,
+    0.18905108565680795
+  ],
+  "source_paths": [
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\改进搜索_20260924\\联合非支配档案.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\cover_search\\combined_archive.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_00.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_01.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_02.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_03.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_04.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_05.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_06.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_07.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_08.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_09.json",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\type_polish\\plan_10.json"
+  ],
+  "pre_polish_count": 14,
+  "raw_checks": 373,
+  "selected_by": "minimum common worst-case regret upper bound",
+  "exact_global_optimum": false,
+  "route_count_not_fixed": true,
+  "off_depot_operation_used": false
+}

@@ -1,5 +1,0 @@
-﻿file,rows,cols,features,null_cells,full_duplicate_rows,unique_osm,rings,polygons,duplicate_sequence_keys,noncontiguous_sequences,unclosed_rings,length_km_feature_once,within_feature_length_conflicts
-镇龙乡及周边村镇点位.csv,166,7,166,0,0,166,,,,,,,
-镇龙乡及周边水体.csv,4229,9,95,0,0,95,100.0,100.0,0.0,0.0,0.0,,
-镇龙乡及周边水系.csv,4570,8,101,0,0,99,,,0.0,0.0,0.0,332.53700000000003,0.0
-镇龙乡及周边道路.csv,21015,7,1829,0,0,1825,,,0.0,0.0,0.0,,

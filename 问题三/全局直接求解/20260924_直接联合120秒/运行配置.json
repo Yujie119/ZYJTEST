@@ -1,0 +1,16 @@
+{
+  "seconds": 120.0,
+  "round_seconds": 25.0,
+  "mode": "C",
+  "caps_json": "{}",
+  "route_file": "子问题一/累计候选路线.json",
+  "output_dir": "全局直接求解\\20260924_直接联合120秒",
+  "slots_per_uav": 3,
+  "horizon": 30000,
+  "seed_reference": null,
+  "resume_state": null,
+  "display": true,
+  "seed_reference_metadata": null,
+  "patterns": 1290,
+  "instances": 1445
+}

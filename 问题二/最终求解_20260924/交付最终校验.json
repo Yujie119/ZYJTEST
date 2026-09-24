@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "objective": [
+    22,
+    65.51851671683666,
+    6206.344443443169,
+    0.0
+  ],
+  "xlsx_and_csv_and_manuscript_match": true,
+  "all_22_routes_and_80_boxes_read_back": true,
+  "evaluation_matches_final_hash": true,
+  "final_plan_sha256": "a2f8a50534fb39ebb06d80fca82a3432585fdfbb19dd4a66b75ee74fca82e54b",
+  "workbook_sha256": "245ea27540d7d49347ca94b2489322d0ab03032a375c059cb96360a88717262c",
+  "manuscript_sha256": "46ccbfc0f21de7c8667fbd412d70de19a7d67288143414957060b7b76e405696",
+  "report_sha256": "19b2935f6588988fa71aef38b7967206dc903f3d2d7d0410b0565fb3f212cf64"
+}

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1200" height="520" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow-default" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#555555"/>
+    </marker>
+    <marker id="arrow-c0" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#2563EB"/>
+    </marker>
+    <marker id="arrow-c1" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#10B981"/>
+    </marker>
+    <marker id="arrow-c2" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#7C3AED"/>
+    </marker>
+    <marker id="arrow-c3" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#EA580C"/>
+    </marker>
+    <marker id="arrow-c4" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#C62828"/>
+    </marker>
+    <marker id="arrow-c5" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#0D47A1"/>
+    </marker>
+    <marker id="arrow-c6" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#1B5E20"/>
+    </marker>
+    <marker id="arrow-c7" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#4A148C"/>
+    </marker>
+    <marker id="arrow-c8" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#BF360C"/>
+    </marker>
+    <marker id="arrow-c9" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 4, 0 8" fill="#37474F"/>
+    </marker>
+  </defs>
+  <rect x="-5.0" y="53.0" width="960.0" height="114.0" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" rx="8"/>
+  <text x="3.0" y="69.0" font-size="12" fill="#999999" font-weight="bold">数据与物理层</text>
+  <rect x="170.0" y="271.0" width="1035.0" height="118.0" fill="#FCFCFD" stroke="#CBD5E1" stroke-width="1" rx="8"/>
+  <text x="178.0" y="287.0" font-size="12" fill="#999999" font-weight="bold">优化与决策层</text>
+  <path d="M 215.0,110.0 L 245.0,110.0" stroke="#555555" stroke-width="2" fill="none" marker-end="url(#arrow-default)"/>
+  <rect x="215.0" y="92.0" width="30.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="230.0" y="104.0" font-size="11" fill="#777777" text-anchor="middle">读取</text>
+  <path d="M 455.0,110.0 L 485.0,110.0" stroke="#555555" stroke-width="2" fill="none" marker-end="url(#arrow-default)"/>
+  <rect x="444.0" y="92.0" width="52.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="470.0" y="104.0" font-size="11" fill="#777777" text-anchor="middle">几何特征</text>
+  <path d="M 695.0,110.0 L 725.0,110.0" stroke="#555555" stroke-width="2" fill="none" marker-end="url(#arrow-default)"/>
+  <rect x="684.0" y="92.0" width="52.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="710.0" y="104.0" font-size="11" fill="#777777" text-anchor="middle">可行载荷</text>
+  <path d="M 740.9,147.0 L 394.0,291.0" stroke="#555555" stroke-width="2" fill="none" marker-end="url(#arrow-default)"/>
+  <rect x="541.4" y="201.0" width="52.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="567.4" y="213.0" font-size="11" fill="#777777" text-anchor="middle">整数模式</text>
+  <path d="M 410.0,330.0 L 460.0,330.0" stroke="#555555" stroke-width="2" fill="none" marker-end="url(#arrow-default)"/>
+  <rect x="409.0" y="312.0" width="52.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="435.0" y="324.0" font-size="11" fill="#777777" text-anchor="middle">候选区域</text>
+  <path d="M 680.0,330.0 L 730.0,330.0" stroke="#555555" stroke-width="2" fill="none" marker-end="url(#arrow-default)"/>
+  <rect x="679.0" y="312.0" width="52.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="705.0" y="324.0" font-size="11" fill="#777777" text-anchor="middle">非支配集</text>
+  <path d="M 950.0,330.0 L 975.0,330.0" stroke="#555555" stroke-width="2" fill="none" marker-end="url(#arrow-default)"/>
+  <rect x="936.5" y="312.0" width="52.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="962.5" y="324.0" font-size="11" fill="#777777" text-anchor="middle">条件最优</text>
+  <path d="M 586.6,147.0 Q 550.2,216.3 573.5,291.0" stroke="#888888" stroke-width="2" fill="none" marker-end="url(#arrow-default)" stroke-dasharray="8,4"/>
+  <rect x="539.2" y="199.6" width="52.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="565.2" y="211.6" font-size="11" fill="#777777" text-anchor="middle">下界系数</text>
+  <path d="M 993.1,291.0 Q 845.1,191.6 672.4,147.0" stroke="#888888" stroke-width="2" fill="none" marker-end="url(#arrow-default)" stroke-dasharray="8,4"/>
+  <rect x="796.4" y="187.3" width="85.0" height="16" fill="#FFFFFF" rx="3" opacity="0.85"/>
+  <text x="838.9" y="199.3" font-size="11" fill="#777777" text-anchor="middle">安全余量敏感性</text>
+  <rect x="15.0" y="73.0" width="200.0" height="74.0" fill="#E8F1FA" stroke="#4C78A8" stroke-width="2" rx="8"/>
+  <text x="115.0" y="106.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">原始数据</text>
+  <text x="115.0" y="124.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">15个服务区 · 80个货箱 · 3类无人机</text>
+  <rect x="245.0" y="73.0" width="210.0" height="74.0" fill="#EAF5EE" stroke="#59A14F" stroke-width="2" rx="8"/>
+  <text x="350.0" y="106.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">地形与航段</text>
+  <text x="350.0" y="124.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">WGS84局部坐标 + DEM supercover</text>
+  <rect x="485.0" y="73.0" width="210.0" height="74.0" fill="#FFF3E5" stroke="#F28E2B" stroke-width="2" rx="8"/>
+  <text x="590.0" y="106.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">物理可行性</text>
+  <text x="590.0" y="124.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">巡航高度 · 能耗 · 安全载荷</text>
+  <rect x="725.0" y="73.0" width="210.0" height="74.0" fill="#F5ECF7" stroke="#B279A2" stroke-width="2" rx="8"/>
+  <text x="830.0" y="106.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">候选组批</text>
+  <text x="830.0" y="124.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">规格计数枚举 + 支配筛选</text>
+  <rect x="190.0" y="291.0" width="220.0" height="78.0" fill="#EAF2F8" stroke="#4C78A8" stroke-width="2" rx="8"/>
+  <text x="300.0" y="326.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">ε约束与自适应搜索</text>
+  <text x="300.0" y="344.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">E主目标；N、T约束</text>
+  <rect x="460.0" y="291.0" width="220.0" height="78.0" fill="#EEF6EA" stroke="#59A14F" stroke-width="2" rx="8"/>
+  <text x="570.0" y="326.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">连续松弛</text>
+  <text x="570.0" y="344.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">LP有效下界与整数可行性核验</text>
+  <rect x="730.0" y="291.0" width="220.0" height="78.0" fill="#FFF0EE" stroke="#E15759" stroke-width="2" rx="8"/>
+  <text x="840.0" y="326.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">偏好不确定性</text>
+  <text x="840.0" y="344.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">极点加权 + 最小最大遗憾</text>
+  <rect x="975.0" y="291.0" width="210.0" height="78.0" fill="#E7F4F2" stroke="#21918C" stroke-width="2" rx="8"/>
+  <text x="1080.0" y="326.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">最终代表方案</text>
+  <text x="1080.0" y="344.6" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">18架次 · 59.133 kWh · 32776.5 s</text>
+</svg>

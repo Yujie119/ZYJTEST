@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="761.293527pt" height="311.7328pt" viewBox="0 0 761.293527 311.7328" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-24T15:46:51.138061</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 311.7328 
+L 761.293527 311.7328 
+L 761.293527 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 9.36 246.32 
+L 193.68 246.32 
+L 193.68 62 
+L 9.36 62 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="pane3d_1">
+   <g id="patch_3">
+    <path d="M 27.92138 207.90143 
+L 89.220524 172.391895 
+L 89.220524 71.485465 
+L 27.92138 106.995 
+" style="fill: none; opacity: 0.5; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="pane3d_2">
+   <g id="patch_4">
+    <path d="M 89.220524 172.391895 
+L 180.100242 196.343379 
+L 180.100242 95.436949 
+L 89.220524 71.485465 
+" style="fill: none; opacity: 0.5; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="pane3d_3">
+   <g id="patch_5">
+    <path d="M 27.92138 207.90143 
+L 118.801098 231.852913 
+L 180.100242 196.343379 
+L 89.220524 172.391895 
+" style="fill: none; opacity: 0.5; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="axis3d_1">
+   <g id="line2d_1">
+    <path d="M 27.92138 207.90143 
+L 118.801098 231.852913 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_1">
+    <g id="line2d_2">
+     <path d="M 37.430371 209.994218 
+L 35.959191 210.846447 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_1">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="32.470249" y="228.225292" transform="rotate(-0 32.470249 228.225292)">0</text>
+    </g>
+   </g>
+   <g id="xtick_2">
+    <g id="line2d_3">
+     <path d="M 106.804202 228.277794 
+L 105.333022 229.130022 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_2">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="101.844079" y="246.508867" transform="rotate(-0 101.844079 246.508867)">1</text>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- $\widetilde E$ -->
+    <g transform="translate(57.706975 247.430029) rotate(-345.235349)">
+     <text>
+      <tspan x="8.949219" y="-4.578125" style="font-size: 7.13643px; font-family: 'STIXSizeTwoSym'">̃</tspan>
+      <tspan x="0" y="-0.34375" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'">E</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="axis3d_2">
+   <g id="line2d_4">
+    <path d="M 180.100242 196.343379 
+L 118.801098 231.852913 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_3">
+    <g id="line2d_5">
+     <path d="M 124.157181 228.137455 
+L 126.338295 228.71229 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="131.510865" y="245.433289" transform="rotate(-0 131.510865 245.433289)">0</text>
+    </g>
+   </g>
+   <g id="xtick_4">
+    <g id="line2d_6">
+     <path d="M 170.950421 201.030939 
+L 173.131534 201.605775 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="178.304105" y="218.326774" transform="rotate(-0 178.304105 218.326774)">1</text>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- $\widetilde N$ -->
+    <g transform="translate(164.409976 242.146618) rotate(-30.082971)">
+     <text>
+      <tspan x="10.707031" y="-3.640625" style="font-size: 8.381713px; font-family: 'STIXSizeTwoSym'">̃</tspan>
+      <tspan x="0" y="-0.171875" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'">N</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="axis3d_3">
+   <g id="line2d_7">
+    <path d="M 180.100242 196.343379 
+L 180.100242 95.436949 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_5">
+    <g id="line2d_8">
+     <path d="M 179.373204 186.138151 
+L 181.554317 186.712987 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="191.196617" y="193.486989" transform="rotate(-0 191.196617 193.486989)">0</text>
+    </g>
+   </g>
+   <g id="xtick_6">
+    <g id="line2d_9">
+     <path d="M 179.373204 109.110342 
+L 181.554317 109.685178 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="191.196617" y="116.45918" transform="rotate(-0 191.196617 116.45918)">1</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_10">
+    <path d="M 43.023099 196.740832 
+L 43.023099 119.713023 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 43.023099 196.740832 
+L 89.816339 169.634317 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 43.023099 196.740832 
+L 112.39693 215.024408 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 43.023099 119.713023 
+L 89.816339 92.606508 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 43.023099 119.713023 
+L 112.39693 137.996599 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 89.816339 169.634317 
+L 89.816339 92.606508 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 89.816339 169.634317 
+L 159.190169 187.917893 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 89.816339 92.606508 
+L 159.190169 110.890083 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 112.39693 215.024408 
+L 112.39693 137.996599 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 112.39693 215.024408 
+L 159.190169 187.917893 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 112.39693 137.996599 
+L 159.190169 110.890083 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 159.190169 187.917893 
+L 159.190169 110.890083 
+" clip-path="url(#ped9a375752)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="Path3DCollection_1">
+    <defs>
+     <path id="m0015c3b360" d="M -3.872983 3.872983 
+L 3.872983 -3.872983 
+M -3.872983 -3.872983 
+L 3.872983 3.872983 
+" style="stroke: #b65d31; stroke-width: 1.8"/>
+    </defs>
+    <g clip-path="url(#ped9a375752)">
+     <use xlink:href="#m0015c3b360" x="89.816339" y="92.606508" style="fill: #b65d31; stroke: #b65d31; stroke-width: 1.8"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <!-- $\widetilde T$ -->
+    <g transform="translate(188.3568 139.4144)">
+     <text>
+      <tspan x="8.796875" y="-5.671875" style="font-size: 7.021277px; font-family: 'STIXSizeTwoSym'">̃</tspan>
+      <tspan x="0" y="-0.59375" style="font-style: italic; font-size: 12px; font-family: 'STIXGeneral'">T</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_10">
+    <!--   $A$ -->
+    <g style="fill: #376b8e" transform="translate(112.39693 215.024408)">
+     <text>
+      <tspan x="0" y="-0.65625" style="font-weight: 200; font-size: 11px; font-family: 'Noto Serif SC'; fill: #376b8e"> </tspan>
+      <tspan x="2.848999" y="-0.65625" style="font-weight: 200; font-size: 11px; font-family: 'Noto Serif SC'; fill: #376b8e"> </tspan>
+      <tspan x="5.697998" y="-0.65625" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'; fill: #376b8e">A</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_11">
+    <!-- $B$ -->
+    <g style="fill: #b65d31" transform="translate(89.816339 87.214562)">
+     <text>
+      <tspan x="0" y="-0.8125" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'; fill: #b65d31">B</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="14.8896" y="47.2544" transform="rotate(-0 14.8896 47.2544)">(a)</text>
+   </g>
+   <g id="text_13">
+    <!-- 区域 3：返回 $B$ -->
+    <g transform="translate(68.12 265.4544)">
+     <text>
+      <tspan x="0" y="-0.765625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'">区</tspan>
+      <tspan x="9.999985" y="-0.765625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'">域</tspan>
+      <tspan x="19.999969" y="-0.765625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'"> </tspan>
+      <tspan x="22.589966" y="-0.765625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'">3</tspan>
+      <tspan x="28.009949" y="-0.765625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'">：</tspan>
+      <tspan x="38.009933" y="-0.765625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'">返</tspan>
+      <tspan x="48.009918" y="-0.765625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'">回</tspan>
+      <tspan x="58.009903" y="-0.765625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'"> </tspan>
+      <tspan x="60.599899" y="-0.765625" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">B</tspan>
+     </text>
+    </g>
+    <!-- $\varepsilon_N=19,\ \varepsilon_T=+\infty$ -->
+    <g transform="translate(66.37 277.6544)">
+     <text>
+      <tspan x="0" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">ε</tspan>
+      <tspan x="35.638175" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">ε</tspan>
+      <tspan x="4.439987" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'">N</tspan>
+      <tspan x="40.078162" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'">T</tspan>
+      <tspan x="10.993597" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">=</tspan>
+      <tspan x="19.287585" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">1</tspan>
+      <tspan x="24.28757" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">9</tspan>
+      <tspan x="29.287555" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">,</tspan>
+      <tspan x="45.854772" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">=</tspan>
+      <tspan x="54.14876" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">+</tspan>
+      <tspan x="60.998751" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">∞</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="Path3DCollection_2">
+    <defs>
+     <path id="mb3513c68c3" d="M 0 3.464102 
+C 0.91869 3.464102 1.799877 3.099102 2.44949 2.44949 
+C 3.099102 1.799877 3.464102 0.91869 3.464102 0 
+C 3.464102 -0.91869 3.099102 -1.799877 2.44949 -2.44949 
+C 1.799877 -3.099102 0.91869 -3.464102 0 -3.464102 
+C -0.91869 -3.464102 -1.799877 -3.099102 -2.44949 -2.44949 
+C -3.099102 -1.799877 -3.464102 -0.91869 -3.464102 0 
+C -3.464102 0.91869 -3.099102 1.799877 -2.44949 2.44949 
+C -1.799877 3.099102 -0.91869 3.464102 0 3.464102 
+z
+" style="stroke: #376b8e"/>
+    </defs>
+    <g clip-path="url(#ped9a375752)">
+     <use xlink:href="#mb3513c68c3" x="112.39693" y="215.024408" style="fill: #ffffff; stroke: #376b8e"/>
+    </g>
+   </g>
+   <g id="Poly3DCollection_1">
+    <path d="M 89.816339 169.634317 
+L 159.190169 187.917893 
+L 159.190169 110.890083 
+L 89.816339 92.606508 
+z
+" clip-path="url(#ped9a375752)" style="fill: #376b8e; fill-opacity: 0.07"/>
+    <path d="M 43.023099 196.740832 
+L 112.39693 215.024408 
+L 159.190169 187.917893 
+L 89.816339 169.634317 
+z
+" clip-path="url(#ped9a375752)" style="fill: #376b8e; fill-opacity: 0.07"/>
+    <path d="M 43.023099 119.713023 
+L 112.39693 137.996599 
+L 159.190169 110.890083 
+L 89.816339 92.606508 
+z
+" clip-path="url(#ped9a375752)" style="fill: #376b8e; fill-opacity: 0.07"/>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 295.763499 246.32 
+L 463.893229 246.32 
+L 463.893229 62 
+L 295.763499 62 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 314.44458 223.902703 
+L 438.98512 223.902703 
+L 438.98512 99.362162 
+L 314.44458 99.362162 
+z
+" clip-path="url(#p4de8c5b6f3)" style="fill: #376b8e; opacity: 0.12; stroke: #758a99; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_7">
+     <g id="line2d_22">
+      <defs>
+       <path id="md0e6a3ad82" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md0e6a3ad82" x="314.44458" y="246.32" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="314.44458" y="261.32" transform="rotate(-0 314.44458 261.32)">0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#md0e6a3ad82" x="438.98512" y="246.32" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="438.98512" y="261.32" transform="rotate(-0 438.98512 261.32)">1</text>
+     </g>
+    </g>
+    <g id="text_16">
+     <!-- $\widetilde E$ -->
+     <g transform="translate(376.308364 276.72)">
+      <text>
+       <tspan x="8.949219" y="-4.578125" style="font-size: 7.13643px; font-family: 'STIXSizeTwoSym'">̃</tspan>
+       <tspan x="0" y="-0.34375" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'">E</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_24">
+      <defs>
+       <path id="m84ca259aa8" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m84ca259aa8" x="295.763499" y="223.902703" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="288.763499" y="227.902703" transform="rotate(-0 288.763499 227.902703)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m84ca259aa8" x="295.763499" y="99.362162" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="288.763499" y="103.362162" transform="rotate(-0 288.763499 103.362162)">1</text>
+     </g>
+    </g>
+    <g id="text_19">
+     <!-- $\widetilde T$ -->
+     <g transform="translate(276.483186 157.35) rotate(-90)">
+      <text>
+       <tspan x="8" y="-5.109375" style="font-size: 6.449927px; font-family: 'STIXSizeTwoSym'">̃</tspan>
+       <tspan x="0" y="-0.453125" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'">T</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_26">
+    <path d="M 295.763499 99.362162 
+L 463.893229 99.362162 
+" clip-path="url(#p4de8c5b6f3)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #b65d31"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 295.763499 246.32 
+L 295.763499 62 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 295.763499 246.32 
+L 463.893229 246.32 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_20">
+    <!-- $B$：排除 -->
+    <g style="fill: #b65d31" transform="translate(339.352688 84.417297)">
+     <text>
+      <tspan x="0" y="-0.796875" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'; fill: #b65d31">B</tspan>
+      <tspan x="6.720993" y="-0.796875" style="font-weight: 200; font-size: 11px; font-family: 'Noto Serif SC'; fill: #b65d31">：</tspan>
+      <tspan x="17.720993" y="-0.796875" style="font-weight: 200; font-size: 11px; font-family: 'Noto Serif SC'; fill: #b65d31">排</tspan>
+      <tspan x="28.720993" y="-0.796875" style="font-weight: 200; font-size: 11px; font-family: 'Noto Serif SC'; fill: #b65d31">除</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_21">
+    <!-- $A$：返回 -->
+    <g style="fill: #376b8e" transform="translate(374.224039 211.448649)">
+     <text>
+      <tspan x="0" y="-0" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'; fill: #376b8e">A</tspan>
+      <tspan x="6.720993" y="-0" style="font-weight: 200; font-size: 11px; font-family: 'Noto Serif SC'; fill: #376b8e">：</tspan>
+      <tspan x="17.720993" y="-0" style="font-weight: 200; font-size: 11px; font-family: 'Noto Serif SC'; fill: #376b8e">返</tspan>
+      <tspan x="28.720993" y="-0" style="font-weight: 200; font-size: 11px; font-family: 'Noto Serif SC'; fill: #376b8e">回</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 382.941877 121.284764 
+Q 382.941877 151.665474 382.941877 180.480937 
+" style="fill: none; stroke: #376b8e; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 385.141877 176.080937 
+L 382.941877 180.480937 
+L 380.741877 176.080937 
+" style="fill: none; stroke: #376b8e; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_22">
+    <!-- $\varepsilon_T\downarrow$ -->
+    <g style="fill: #376b8e" transform="translate(359.480256 149.178378)">
+     <text>
+      <tspan x="0" y="-0.71875" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'; fill: #376b8e">ε</tspan>
+      <tspan x="4.884003" y="0.734375" style="font-style: italic; font-size: 7.7px; font-family: 'STIXGeneral'; fill: #376b8e">T</tspan>
+      <tspan x="11.237976" y="-0.71875" style="font-size: 11px; font-family: 'STIXGeneral'; fill: #376b8e">↓</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_23">
+    <!-- $T_B-0.001\ \mathrm{s}$ -->
+    <g style="fill: #b65d31" transform="translate(352.26485 110.570811)">
+     <text>
+      <tspan x="0" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'; fill: #b65d31">T</tspan>
+      <tspan x="5.559982" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'; fill: #b65d31">B</tspan>
+      <tspan x="11.721594" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'; fill: #b65d31">−</tspan>
+      <tspan x="20.015582" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'; fill: #b65d31">0</tspan>
+      <tspan x="25.015567" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'; fill: #b65d31">.</tspan>
+      <tspan x="27.515552" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'; fill: #b65d31">0</tspan>
+      <tspan x="32.515536" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'; fill: #b65d31">0</tspan>
+      <tspan x="37.515521" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'; fill: #b65d31">1</tspan>
+      <tspan x="44.922144" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'; fill: #b65d31">s</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="278.950526" y="54.6272" transform="rotate(-0 278.950526 54.6272)">(b)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(335.833051 287.5728)">区域 4：投影与收紧</text>
+    <!-- $\varepsilon_N=19,\ \varepsilon_T=T_B-0.001$ s -->
+    <g transform="translate(327.878364 299.7728)">
+     <text>
+      <tspan x="0" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">ε</tspan>
+      <tspan x="35.638175" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">ε</tspan>
+      <tspan x="54.14876" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">T</tspan>
+      <tspan x="4.439987" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'">N</tspan>
+      <tspan x="40.078162" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'">T</tspan>
+      <tspan x="59.708742" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'">B</tspan>
+      <tspan x="10.993597" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">=</tspan>
+      <tspan x="19.287585" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">1</tspan>
+      <tspan x="24.28757" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">9</tspan>
+      <tspan x="29.287555" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">,</tspan>
+      <tspan x="45.854772" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">=</tspan>
+      <tspan x="65.870354" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">−</tspan>
+      <tspan x="74.164342" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">0</tspan>
+      <tspan x="79.164327" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">.</tspan>
+      <tspan x="81.664312" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">0</tspan>
+      <tspan x="86.664296" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">0</tspan>
+      <tspan x="91.664281" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">1</tspan>
+      <tspan x="96.664266" y="-0.234375" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'"> </tspan>
+      <tspan x="99.254262" y="-0.234375" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'">s</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m2d49ef5c7c" d="M 0 3.807887 
+C 1.009863 3.807887 1.978501 3.406664 2.692582 2.692582 
+C 3.406664 1.978501 3.807887 1.009863 3.807887 0 
+C 3.807887 -1.009863 3.406664 -1.978501 2.692582 -2.692582 
+C 1.978501 -3.406664 1.009863 -3.807887 0 -3.807887 
+C -1.009863 -3.807887 -1.978501 -3.406664 -2.692582 -2.692582 
+C -3.406664 -1.978501 -3.807887 -1.009863 -3.807887 0 
+C -3.807887 1.009863 -3.406664 1.978501 -2.692582 2.692582 
+C -1.978501 3.406664 -1.009863 3.807887 0 3.807887 
+z
+" style="stroke: #b65d31; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#p4de8c5b6f3)">
+     <use xlink:href="#m2d49ef5c7c" x="314.44458" y="99.362162" style="fill: #ffffff; stroke: #b65d31; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m6fc8a83f0a" d="M -4.1833 4.1833 
+L 4.1833 -4.1833 
+M -4.1833 -4.1833 
+L 4.1833 4.1833 
+" style="stroke: #376b8e; stroke-width: 1.8"/>
+    </defs>
+    <g clip-path="url(#p4de8c5b6f3)">
+     <use xlink:href="#m6fc8a83f0a" x="438.98512" y="223.902703" style="fill: #376b8e; stroke: #376b8e; stroke-width: 1.8"/>
+    </g>
+   </g>
+  </g>
+  <g id="patch_11">
+   <path d="M 565.976727 246.32 
+L 750.296727 246.32 
+L 750.296727 62 
+L 565.976727 62 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="pane3d_4">
+   <g id="patch_12">
+    <path d="M 584.538107 207.90143 
+L 645.837251 172.391895 
+L 645.837251 71.485465 
+L 584.538107 106.995 
+" style="fill: none; opacity: 0.5; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="pane3d_5">
+   <g id="patch_13">
+    <path d="M 645.837251 172.391895 
+L 736.716969 196.343379 
+L 736.716969 95.436949 
+L 645.837251 71.485465 
+" style="fill: none; opacity: 0.5; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="pane3d_6">
+   <g id="patch_14">
+    <path d="M 584.538107 207.90143 
+L 675.417825 231.852913 
+L 736.716969 196.343379 
+L 645.837251 172.391895 
+" style="fill: none; opacity: 0.5; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="axis3d_4">
+   <g id="line2d_27">
+    <path d="M 584.538107 207.90143 
+L 675.417825 231.852913 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_9">
+    <g id="line2d_28">
+     <path d="M 594.047098 209.994218 
+L 592.575919 210.846447 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="589.086976" y="228.225292" transform="rotate(-0 589.086976 228.225292)">0</text>
+    </g>
+   </g>
+   <g id="xtick_10">
+    <g id="line2d_29">
+     <path d="M 663.420929 228.277794 
+L 661.949749 229.130022 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="658.460806" y="246.508867" transform="rotate(-0 658.460806 246.508867)">1</text>
+    </g>
+   </g>
+   <g id="text_28">
+    <!-- $\widetilde E$ -->
+    <g transform="translate(614.323702 247.430029) rotate(-345.235349)">
+     <text>
+      <tspan x="8.949219" y="-4.578125" style="font-size: 7.13643px; font-family: 'STIXSizeTwoSym'">̃</tspan>
+      <tspan x="0" y="-0.34375" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'">E</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="axis3d_5">
+   <g id="line2d_30">
+    <path d="M 736.716969 196.343379 
+L 675.417825 231.852913 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_11">
+    <g id="line2d_31">
+     <path d="M 680.773909 228.137455 
+L 682.955022 228.71229 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="688.127592" y="245.433289" transform="rotate(-0 688.127592 245.433289)">0</text>
+    </g>
+   </g>
+   <g id="xtick_12">
+    <g id="line2d_32">
+     <path d="M 727.567148 201.030939 
+L 729.748261 201.605775 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_30">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="734.920832" y="218.326774" transform="rotate(-0 734.920832 218.326774)">1</text>
+    </g>
+   </g>
+   <g id="text_31">
+    <!-- $\widetilde N$ -->
+    <g transform="translate(721.026703 242.146618) rotate(-30.082971)">
+     <text>
+      <tspan x="10.707031" y="-3.640625" style="font-size: 8.381713px; font-family: 'STIXSizeTwoSym'">̃</tspan>
+      <tspan x="0" y="-0.171875" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'">N</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="axis3d_6">
+   <g id="line2d_33">
+    <path d="M 736.716969 196.343379 
+L 736.716969 95.436949 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_13">
+    <g id="line2d_34">
+     <path d="M 735.989931 186.138151 
+L 738.171045 186.712987 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_32">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="747.813344" y="193.486989" transform="rotate(-0 747.813344 193.486989)">0</text>
+    </g>
+   </g>
+   <g id="xtick_14">
+    <g id="line2d_35">
+     <path d="M 735.989931 109.110342 
+L 738.171045 109.685178 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_33">
+     <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="747.813344" y="116.45918" transform="rotate(-0 747.813344 116.45918)">1</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="line2d_36">
+    <path d="M 599.639826 196.740832 
+L 599.639826 119.713023 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_37">
+    <path d="M 599.639826 196.740832 
+L 646.433066 169.634317 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_38">
+    <path d="M 599.639826 196.740832 
+L 669.013657 215.024408 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_39">
+    <path d="M 599.639826 119.713023 
+L 646.433066 92.606508 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_40">
+    <path d="M 599.639826 119.713023 
+L 669.013657 137.996599 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_41">
+    <path d="M 646.433066 169.634317 
+L 646.433066 92.606508 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_42">
+    <path d="M 646.433066 169.634317 
+L 715.806896 187.917893 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_43">
+    <path d="M 646.433066 92.606508 
+L 715.806896 110.890083 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_44">
+    <path d="M 669.013657 215.024408 
+L 669.013657 137.996599 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_45">
+    <path d="M 669.013657 215.024408 
+L 715.806896 187.917893 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_46">
+    <path d="M 669.013657 137.996599 
+L 715.806896 110.890083 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_47">
+    <path d="M 715.806896 187.917893 
+L 715.806896 110.890083 
+" clip-path="url(#pf73b22d947)" style="fill: none; stroke: #758a99; stroke-opacity: 0.8; stroke-width: 0.75; stroke-linecap: square"/>
+   </g>
+   <g id="Path3DCollection_3">
+    <defs>
+     <path id="md1c5d566f5" d="M 0 3.464102 
+C 0.91869 3.464102 1.799877 3.099102 2.44949 2.44949 
+C 3.099102 1.799877 3.464102 0.91869 3.464102 0 
+C 3.464102 -0.91869 3.099102 -1.799877 2.44949 -2.44949 
+C 1.799877 -3.099102 0.91869 -3.464102 0 -3.464102 
+C -0.91869 -3.464102 -1.799877 -3.099102 -2.44949 -2.44949 
+C -3.099102 -1.799877 -3.464102 -0.91869 -3.464102 0 
+C -3.464102 0.91869 -3.099102 1.799877 -2.44949 2.44949 
+C -1.799877 3.099102 -0.91869 3.464102 0 3.464102 
+z
+" style="stroke: #b65d31"/>
+    </defs>
+    <g clip-path="url(#pf73b22d947)">
+     <use xlink:href="#md1c5d566f5" x="646.433066" y="92.606508" style="fill: #ffffff; stroke: #b65d31"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <!-- $\widetilde T$ -->
+    <g transform="translate(744.973527 139.4144)">
+     <text>
+      <tspan x="8.796875" y="-5.671875" style="font-size: 7.021277px; font-family: 'STIXSizeTwoSym'">̃</tspan>
+      <tspan x="0" y="-0.59375" style="font-style: italic; font-size: 12px; font-family: 'STIXGeneral'">T</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_35">
+    <!-- $B$ -->
+    <g style="fill: #b65d31" transform="translate(646.433066 87.98484)">
+     <text>
+      <tspan x="0" y="-0.8125" style="font-style: italic; font-size: 11px; font-family: 'STIXGeneral'; fill: #b65d31">B</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_36">
+    <!-- $A$：已排除 -->
+    <g style="fill: #65737e" transform="translate(645.426554 196.483543)">
+     <text>
+      <tspan x="0" y="-0.640625" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'; fill: #65737e">A</tspan>
+      <tspan x="6.109985" y="-0.640625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'; fill: #65737e">：</tspan>
+      <tspan x="16.10997" y="-0.640625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'; fill: #65737e">已</tspan>
+      <tspan x="26.109955" y="-0.640625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'; fill: #65737e">排</tspan>
+      <tspan x="36.10994" y="-0.640625" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'; fill: #65737e">除</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_37">
+    <!-- $\varepsilon_T&lt;T_A\ \Rightarrow\ \varnothing$ -->
+    <g style="fill: #376b8e" transform="translate(626.096727 74.9024)">
+     <text>
+      <tspan x="0" y="-0.15625" style="font-style: italic; font-size: 12px; font-family: 'STIXGeneral'; fill: #376b8e">ε</tspan>
+      <tspan x="22.213654" y="-0.15625" style="font-style: italic; font-size: 12px; font-family: 'STIXGeneral'; fill: #376b8e">T</tspan>
+      <tspan x="5.327988" y="1.432813" style="font-style: italic; font-size: 8.4px; font-family: 'STIXGeneral'; fill: #376b8e">T</tspan>
+      <tspan x="28.885651" y="1.432813" style="font-style: italic; font-size: 8.4px; font-family: 'STIXGeneral'; fill: #376b8e">A</tspan>
+      <tspan x="12.26087" y="-0.15625" style="font-size: 12px; font-family: 'STIXGeneral'; fill: #376b8e">&lt;</tspan>
+      <tspan x="39.168492" y="-0.15625" style="font-size: 12px; font-family: 'STIXGeneral'; fill: #376b8e">⇒</tspan>
+      <tspan x="54.90124" y="-0.15625" style="font-size: 12px; font-family: 'STIXGeneral'; fill: #376b8e">∅</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="571.506327" y="47.2544" transform="rotate(-0 571.506327 47.2544)">(c)</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(584.121102 265.4544)">区域 5：整数不可行，本分支终止</text>
+    <!-- $\varepsilon_N=19,\ \varepsilon_T=T_A-0.001$ s -->
+    <g transform="translate(606.186727 277.6544)">
+     <text>
+      <tspan x="0" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">ε</tspan>
+      <tspan x="35.638175" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">ε</tspan>
+      <tspan x="54.14876" y="-0.234375" style="font-style: italic; font-size: 10px; font-family: 'STIXGeneral'">T</tspan>
+      <tspan x="4.439987" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'">N</tspan>
+      <tspan x="40.078162" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'">T</tspan>
+      <tspan x="59.708742" y="1.0875" style="font-style: italic; font-size: 7px; font-family: 'STIXGeneral'">A</tspan>
+      <tspan x="10.993597" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">=</tspan>
+      <tspan x="19.287585" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">1</tspan>
+      <tspan x="24.28757" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">9</tspan>
+      <tspan x="29.287555" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">,</tspan>
+      <tspan x="45.854772" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">=</tspan>
+      <tspan x="65.870354" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">−</tspan>
+      <tspan x="74.164342" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">0</tspan>
+      <tspan x="79.164327" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">.</tspan>
+      <tspan x="81.664312" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">0</tspan>
+      <tspan x="86.664296" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">0</tspan>
+      <tspan x="91.664281" y="-0.234375" style="font-size: 10px; font-family: 'STIXGeneral'">1</tspan>
+      <tspan x="96.664266" y="-0.234375" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'"> </tspan>
+      <tspan x="99.254262" y="-0.234375" style="font-weight: 200; font-size: 10px; font-family: 'Noto Serif SC'">s</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="Path3DCollection_4">
+    <defs>
+     <path id="mae68b7d6de" d="M 0 3.605551 
+C 0.956203 3.605551 1.873372 3.225648 2.54951 2.54951 
+C 3.225648 1.873372 3.605551 0.956203 3.605551 0 
+C 3.605551 -0.956203 3.225648 -1.873372 2.54951 -2.54951 
+C 1.873372 -3.225648 0.956203 -3.605551 0 -3.605551 
+C -0.956203 -3.605551 -1.873372 -3.225648 -2.54951 -2.54951 
+C -3.225648 -1.873372 -3.605551 -0.956203 -3.605551 0 
+C -3.605551 0.956203 -3.225648 1.873372 -2.54951 2.54951 
+C -1.873372 3.225648 -0.956203 3.605551 0 3.605551 
+z
+" style="stroke: #65737e; stroke-width: 1.3"/>
+    </defs>
+    <g clip-path="url(#pf73b22d947)">
+     <use xlink:href="#mae68b7d6de" x="669.013657" y="215.024408" style="fill: #ffffff; stroke: #65737e; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="Poly3DCollection_2">
+    <path d="M 599.639826 196.740832 
+L 669.013657 215.024408 
+L 715.806896 187.917893 
+L 646.433066 169.634317 
+z
+" clip-path="url(#pf73b22d947)" style="fill: #376b8e; fill-opacity: 0.18; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #376b8e"/>
+   </g>
+   <g id="Poly3DCollection_3">
+    <path d="M 646.433066 169.634317 
+L 715.806896 187.917893 
+L 715.806896 110.890083 
+L 646.433066 92.606508 
+z
+" clip-path="url(#pf73b22d947)" style="fill: #376b8e; fill-opacity: 0.07"/>
+    <path d="M 599.639826 196.740832 
+L 669.013657 215.024408 
+L 715.806896 187.917893 
+L 646.433066 169.634317 
+z
+" clip-path="url(#pf73b22d947)" style="fill: #376b8e; fill-opacity: 0.07"/>
+    <path d="M 599.639826 119.713023 
+L 669.013657 137.996599 
+L 715.806896 110.890083 
+L 646.433066 92.606508 
+z
+" clip-path="url(#pf73b22d947)" style="fill: #376b8e; fill-opacity: 0.07"/>
+   </g>
+  </g>
+  <g id="text_40">
+   <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #4d5961" x="384.076364" y="17.36" transform="rotate(-0 384.076364 17.36)">三维盒表示理想点—最差非支配点显示窗口；盒内连续位置不代表可行方案</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="ped9a375752">
+   <rect x="9.36" y="62" width="184.32" height="184.32"/>
+  </clipPath>
+  <clipPath id="p4de8c5b6f3">
+   <rect x="295.763499" y="62" width="168.12973" height="184.32"/>
+  </clipPath>
+  <clipPath id="pf73b22d947">
+   <rect x="565.976727" y="62" width="184.32" height="184.32"/>
+  </clipPath>
+ </defs>
+</svg>

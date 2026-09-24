@@ -1,0 +1,35 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "check": "transport IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relay IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relay slots unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "80 named boxes exactly once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "each named box has an actual route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "visit order equals delivery-event order",
+      "passed": false,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "archive_count": 11,
+  "objective": [
+    25,
+    71.31909210428417,
+    6672.014331816174,
+    0.0
+  ],
+  "regret_interval": [
+    0.05859641572496166,
+    0.3959623629643847
+  ],
+  "route_count": 28216,
+  "library_coefficient_sha256": "96c73b04ebaeb105368e4298d3bd871ceab92c6734e580a835a9988780dc4058",
+  "scope": "Expanded finite-library heuristic search with certified relaxation lower bounds; no full-route optimum claim",
+  "physics": "Same audited q2_data physical assumptions; no parameter tuning against external answers",
+  "frozen_scale": [
+    15.0,
+    27.77981480435046,
+    1596.4547661131937,
+    459.283422915773
+  ],
+  "status": "completed",
+  "battery_exchange_scope": "O01-only charging/exchange feasible subset under expert addendum; off-depot exchange not modeled",
+  "unresolved_rules": [
+    "off-depot charging availability",
+    "SOC requirement for mid-sortie installation",
+    "sortie-total energy rule when swapping mid-sortie"
+  ]
+}

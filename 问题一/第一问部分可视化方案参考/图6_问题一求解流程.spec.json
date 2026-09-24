@@ -1,0 +1,28 @@
+{
+  "canvas": {"width": 1200, "height": 520},
+  "nodes": [
+    {"id": "input", "label": "原始数据\n15个服务区 · 80个货箱 · 3类无人机", "x": 115, "y": 110, "width": 200, "height": 74, "shape": "rounded", "fill": "#E8F1FA", "stroke": "#4C78A8", "font_size": 16},
+    {"id": "dem", "label": "地形与航段\nWGS84局部坐标 + DEM supercover", "x": 350, "y": 110, "width": 210, "height": 74, "shape": "rounded", "fill": "#EAF5EE", "stroke": "#59A14F", "font_size": 16},
+    {"id": "physics", "label": "物理可行性\n巡航高度 · 能耗 · 安全载荷", "x": 590, "y": 110, "width": 210, "height": 74, "shape": "rounded", "fill": "#FFF3E5", "stroke": "#F28E2B", "font_size": 16},
+    {"id": "patterns", "label": "候选组批\n规格计数枚举 + 支配筛选", "x": 830, "y": 110, "width": 210, "height": 74, "shape": "rounded", "fill": "#F5ECF7", "stroke": "#B279A2", "font_size": 16},
+    {"id": "eps", "label": "ε约束与自适应搜索\nE主目标；N、T约束", "x": 300, "y": 330, "width": 220, "height": 78, "shape": "rounded", "fill": "#EAF2F8", "stroke": "#4C78A8", "font_size": 16},
+    {"id": "lb", "label": "连续松弛\nLP有效下界与整数可行性核验", "x": 570, "y": 330, "width": 220, "height": 78, "shape": "rounded", "fill": "#EEF6EA", "stroke": "#59A14F", "font_size": 16},
+    {"id": "robust", "label": "偏好不确定性\n极点加权 + 最小最大遗憾", "x": 840, "y": 330, "width": 220, "height": 78, "shape": "rounded", "fill": "#FFF0EE", "stroke": "#E15759", "font_size": 16},
+    {"id": "out", "label": "最终代表方案\n18架次 · 59.133 kWh · 32776.5 s", "x": 1080, "y": 330, "width": 210, "height": 78, "shape": "rounded", "fill": "#E7F4F2", "stroke": "#21918C", "font_size": 16}
+  ],
+  "edges": [
+    {"from": "input", "to": "dem", "label": "读取"},
+    {"from": "dem", "to": "physics", "label": "几何特征"},
+    {"from": "physics", "to": "patterns", "label": "可行载荷"},
+    {"from": "patterns", "to": "eps", "label": "整数模式"},
+    {"from": "eps", "to": "lb", "label": "候选区域"},
+    {"from": "lb", "to": "robust", "label": "非支配集"},
+    {"from": "robust", "to": "out", "label": "条件最优"},
+    {"from": "physics", "to": "lb", "label": "下界系数", "style": "dashed", "curve": true, "color": "#888888"},
+    {"from": "out", "to": "physics", "label": "安全余量敏感性", "style": "dashed", "curve": true, "color": "#888888"}
+  ],
+  "groups": [
+    {"label": "数据与物理层", "node_ids": ["input", "dem", "physics", "patterns"], "fill": "#F8FAFC", "stroke": "#CBD5E1"},
+    {"label": "优化与决策层", "node_ids": ["eps", "lb", "robust", "out"], "fill": "#FCFCFD", "stroke": "#CBD5E1"}
+  ]
+}

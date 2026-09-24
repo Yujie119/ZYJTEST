@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+  "source_objective": [
+    24,
+    65.11205028199753,
+    9165.154435126618,
+    465.2583642491526
+  ],
+  "table_objective_recomputed": [
+    24,
+    65.11205028199753,
+    9165.154435126618,
+    465.2583642491526
+  ],
+  "objective_difference": [
+    0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "counts": {
+    "运输架次.csv": 20,
+    "逐箱交付.csv": 80,
+    "中继架次.csv": 4,
+    "架次编号映射.csv": 24
+  },
+  "transport_energy": 60.9175261527664,
+  "relay_energy": 4.194524129231121,
+  "hard_boxes": 31,
+  "soft_boxes": 49,
+  "soft_priority_sum": 460,
+  "unique_ID_and_association_checks": true,
+  "source_XLSX_box_ids_match": true,
+  "CSV_BOM_and_full_float_round_trip": true,
+  "template_headers_match": true,
+  "numeric_rounding_applied": false,
+  "official_XLSX_written": false,
+  "swap_policy": "Only O01 exchange; one installed energy unit per sortie; no spare carried.",
+  "not_claimed": [
+    "full expert-rule domain optimality",
+    "new minimax regret optimum",
+    "all-library global optimum"
+  ],
+  "source_verification": {
+    "DEM_status": "PASS",
+    "DEM_checks": 1015,
+    "raw_status": "PASS",
+    "raw_checks": 452
+  }
+}

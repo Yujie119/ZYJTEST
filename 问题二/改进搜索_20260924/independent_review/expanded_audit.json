@@ -1,0 +1,38 @@
+{
+  "verdict": "PASS_WITH_SCOPE_WARNINGS",
+  "source": "问题二/改进搜索_20260924/search_expanded.py",
+  "review_type": "fresh_read_only_same_family_provisional",
+  "mathematical_validity": {
+    "expanded_library_lp_lower_bound": "PASS",
+    "reason": "精确覆盖、x∈[0,1]及每机型总duration≤n_g*C构成原联合模型的松弛；目标为非负加权N/E/C并将非负L置零，故LP最优是同一有限库真实加权最优的有效下界。",
+    "scale_and_regret": "PASS",
+    "reason_scale": "原冻结scale仅作共同坐标；平移常数在遗憾差中抵消。扩大库上下界用同一扩大库重新计算。",
+    "forced_new_candidate": "PASS",
+    "reason_forced": "forced x列lb=ub=1且warm=None，旧完整方案不能回退；硬约束仍由JointModel及独立核验保留。"
+  },
+  "independent_recomputation": {
+    "final_objective": [27,73.65691369089227,7210.460195963937,107.16489638900858],
+    "final_raw_checks": 417,
+    "archive_count": 15,
+    "archive_raw_checks_all_pass": true,
+    "candidate_count": 26821,
+    "lp_recomputations_match": true,
+    "weak_duality_certificates": true,
+    "regret_recomputations_match": true,
+    "archive_dominance_pairs": []
+  },
+  "scope_warnings": [
+    "随机多点路线仍仅2—5个不同服务区，未枚举重复访问；注释中的all orders并非全排列。",
+    "每步MILP只取有限邻域列；expanded_candidates虽大，未对全库联合模型求全局整数最优。",
+    "collect()按worker_*文件glob，复用同目录时可能混入旧运行产物，应使用运行ID隔离。",
+    "终端固定资源阶段仅优化L；当L=0时不主动进一步压缩C。"
+  ],
+  "evidence": [
+    "independent_review/final_raw_verification.json",
+    "independent_review/archive_raw_verifications.json",
+    "independent_review/LP_dual_certificates.json",
+    "independent_review/regret_recheck.json",
+    "independent_review/summary.json",
+    "independent_source_review.md"
+  ]
+}

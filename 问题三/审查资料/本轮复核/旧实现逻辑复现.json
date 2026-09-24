@@ -1,0 +1,164 @@
+{
+  "register_same_object": true,
+  "register_same_id": true,
+  "synthetic_cover_one_binary_status": 2,
+  "synthetic_cover_four_binary_status": 0,
+  "published_routes_with_deleted_switch_boundaries": [
+    {
+      "route_id": "Q3-T003",
+      "merged_needs": 11,
+      "atomic_needs": 23
+    },
+    {
+      "route_id": "Q3-T002",
+      "merged_needs": 23,
+      "atomic_needs": 41
+    },
+    {
+      "route_id": "Q3-T005",
+      "merged_needs": 7,
+      "atomic_needs": 39
+    },
+    {
+      "route_id": "Q3-T007",
+      "merged_needs": 9,
+      "atomic_needs": 13
+    },
+    {
+      "route_id": "Q3-T008",
+      "merged_needs": 7,
+      "atomic_needs": 13
+    },
+    {
+      "route_id": "Q3-T009",
+      "merged_needs": 9,
+      "atomic_needs": 13
+    },
+    {
+      "route_id": "Q3-T010",
+      "merged_needs": 11,
+      "atomic_needs": 43
+    },
+    {
+      "route_id": "Q3-T011",
+      "merged_needs": 7,
+      "atomic_needs": 39
+    },
+    {
+      "route_id": "Q3-T013",
+      "merged_needs": 15,
+      "atomic_needs": 41
+    },
+    {
+      "route_id": "Q3-T014",
+      "merged_needs": 15,
+      "atomic_needs": 25
+    },
+    {
+      "route_id": "Q3-T015",
+      "merged_needs": 13,
+      "atomic_needs": 27
+    },
+    {
+      "route_id": "Q3-T016",
+      "merged_needs": 3,
+      "atomic_needs": 21
+    },
+    {
+      "route_id": "Q3-T017",
+      "merged_needs": 15,
+      "atomic_needs": 41
+    },
+    {
+      "route_id": "Q3-T018",
+      "merged_needs": 3,
+      "atomic_needs": 19
+    }
+  ],
+  "synthetic_handoff": {
+    "label": "synthetic, not an observed violation of the published plan",
+    "intervals": [
+      [
+        1000,
+        5000
+      ],
+      [
+        5000,
+        9000
+      ]
+    ],
+    "same_position_mask": true,
+    "one_relay_max_service_s": 7361.301547788978,
+    "two_4000s_tasks_each_fit": true,
+    "merged_8000s_one_task_fits": false
+  },
+  "cache_identity_keys": [
+    "arcs",
+    "candidate_count",
+    "nodes",
+    "seconds",
+    "step_m"
+  ],
+  "candidate_reordering_accepted_by_old_cache_predicate": true,
+  "cached_candidate_rows": 24,
+  "published_candidate_csv_rows": 16,
+  "exact_charging_regressions": [
+    {
+      "energy": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "energy": 0.01,
+      "minimum": 19.6875,
+      "maximum": 19.6875,
+      "expected": 19.6875,
+      "passed": true
+    },
+    {
+      "energy": 0.16,
+      "minimum": 315.0,
+      "maximum": 315.0,
+      "expected": 315.0,
+      "passed": true
+    },
+    {
+      "energy": 0.32,
+      "minimum": 630.0,
+      "maximum": 630.0,
+      "expected": 630.0,
+      "passed": true
+    },
+    {
+      "energy": 0.321,
+      "minimum": 630.40625,
+      "maximum": 630.40625,
+      "expected": 630.40625,
+      "passed": true
+    },
+    {
+      "energy": 1.0,
+      "minimum": 906.25,
+      "maximum": 906.25,
+      "expected": 906.25,
+      "passed": true
+    },
+    {
+      "energy": 2.0,
+      "minimum": 1312.5,
+      "maximum": 1312.5,
+      "expected": 1312.5,
+      "passed": true
+    },
+    {
+      "energy": 2.56,
+      "minimum": 1540.0,
+      "maximum": 1540.0,
+      "expected": 1540.0,
+      "passed": true
+    }
+  ],
+  "scope": "Only specified interfaces tested; no synthetic failure is labelled as an actual constraint violation of the submitted plan."
+}

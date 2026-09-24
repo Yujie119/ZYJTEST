@@ -1,0 +1,64 @@
+{
+  "old_objective": [
+    28,
+    75.71131596897939,
+    7567.094096939377,
+    200.565886509374
+  ],
+  "witness_objective": [
+    28,
+    75.71131596897939,
+    7567.094096939377,
+    70.64808661848737
+  ],
+  "timing_original": {
+    "last_delivery": 7063.1347391936415,
+    "last_return": 7567.094096939377,
+    "last_recharge": 9543.935149953919,
+    "cumulative_duration": 49084.07394199239,
+    "per_uav_last_return": {
+      "U07": 7567.094096939377,
+      "U03": 6321.831798727168,
+      "U06": 7363.649517417795,
+      "U04": 6484.141274320928,
+      "U02": 6805.381272187215,
+      "U01": 5582.606750097435,
+      "U05": 6513.803024019505,
+      "U08": 6907.994009465509
+    }
+  },
+  "timing_witness": {
+    "last_delivery": 6850.029515517704,
+    "last_return": 7567.094096939377,
+    "last_recharge": 10113.338947857103,
+    "cumulative_duration": 49084.07394199239,
+    "per_uav_last_return": {
+      "U03": 6321.831798727168,
+      "U05": 7529.203680527299,
+      "U06": 6807.791076316629,
+      "U04": 6484.141274320928,
+      "U07": 7567.094096939377,
+      "U02": 6805.381272187215,
+      "U01": 5582.606750097435,
+      "U08": 6907.994009465509
+    }
+  },
+  "lateness_reduction": 129.9177998908866,
+  "lateness_reduction_percent": 64.77562169318088,
+  "frozen_library_regret_original_reassessed": [
+    0.21790846298525923,
+    0.5275704112880111
+  ],
+  "frozen_library_regret_witness": [
+    0.14719080074845325,
+    0.4568527490512051
+  ],
+  "actual_regret_strict_improvement_lower_bound": 0.028287064894722304,
+  "interpretation": "Same K0 coefficients and preference lower bounds; witness is an audit counterexample, not a new global optimum.",
+  "sha256": {
+    "子问题二\\最终方案.json": "f5ada42c6d0787f6bb482ee30201e47b129373aad4ba668438badd1a24539459",
+    "源头核查_20260924\\implementation\\fixed_resources_timing_witness.json": "fcc8c24a09376a5f6ac5de81691a070e7b6cf1fd9c1973c4a277eaa4e549309d",
+    "子问题二\\偏好极点基准.json": "0a96a90c8cd4623ba60fe3e0920714513add1015001b6988607972563ea4e0b4",
+    "冻结评价配置.json": "2964af1bdf146670528349a114c8615b8219c4e57ab8934702cf78fc353b1cbc"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "status": "ERROR",
+  "candidate_sha256": "ff44cbf23f2cfac1efa7929e323af862a6c51579aefa48803dac33b70a1b9bc1",
+  "error": "ValueError: Nonfinite value cannot enter verified output"
+}

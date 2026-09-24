@@ -1,0 +1,815 @@
+{
+  "source": "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\改进搜索_20260924\\最终方案.json",
+  "sha256": "1939cce13167720a7e36a7a9fff3f3032b89486fda4124d3dafc733fb09f6b26",
+  "objective": [
+    25,
+    71.31909210428417,
+    6672.014331816174,
+    0.0
+  ],
+  "all_bounded_checks": true,
+  "assertions_count": 161,
+  "assertions": [
+    {
+      "check": "Unique 80 delivered boxes",
+      "passed": true
+    },
+    {
+      "check": "All hard deadlines",
+      "passed": true
+    },
+    {
+      "check": "Q2-0001 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0001 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0001 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0001 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0001 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0002 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0002 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0002 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0002 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0002 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0003 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0003 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0003 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0003 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0003 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0004 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0004 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0004 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0004 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0004 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0005 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0005 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0005 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0005 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0005 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0006 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0006 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0006 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0006 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0006 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0007 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0007 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0007 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0007 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0007 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0008 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0008 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0008 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0008 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0008 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0009 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0009 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0009 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0009 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0009 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0010 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0010 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0010 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0010 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0010 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0011 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0011 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0011 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0011 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0011 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0012 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0012 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0012 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0012 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0012 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0013 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0013 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0013 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0013 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0013 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0014 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0014 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0014 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0014 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0014 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0015 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0015 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0015 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0015 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0015 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0016 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0016 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0016 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0016 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0016 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0017 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0017 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0017 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0017 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0017 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0018 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0018 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0018 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0018 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0018 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0019 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0019 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0019 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0019 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0019 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0020 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0020 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0020 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0020 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0020 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0021 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0021 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0021 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0021 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0021 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0022 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0022 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0022 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0022 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0022 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0023 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0023 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0023 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0023 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0023 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0024 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0024 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0024 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0024 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0024 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0025 resource matching",
+      "passed": true
+    },
+    {
+      "check": "Q2-0025 starts/ends O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0025 one route battery identifier",
+      "passed": true
+    },
+    {
+      "check": "Q2-0025 accounting SOC",
+      "passed": true
+    },
+    {
+      "check": "Q2-0025 recharge from raw Tfull",
+      "passed": true
+    },
+    {
+      "check": "Q2-0007 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0010 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0002 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0015 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0021 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0001 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0018 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0003 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0014 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0024 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0011 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0025 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0004 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0022 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0013 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0005 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0017 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0009 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0020 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0006 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0023 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0016 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0008 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0019 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "Q2-0012 available full battery at O01",
+      "passed": true
+    },
+    {
+      "check": "U02 nonoverlap",
+      "passed": true
+    },
+    {
+      "check": "U01 nonoverlap",
+      "passed": true
+    },
+    {
+      "check": "U03 nonoverlap",
+      "passed": true
+    },
+    {
+      "check": "U06 nonoverlap",
+      "passed": true
+    },
+    {
+      "check": "U05 nonoverlap",
+      "passed": true
+    },
+    {
+      "check": "U08 nonoverlap",
+      "passed": true
+    },
+    {
+      "check": "U04 nonoverlap",
+      "passed": true
+    },
+    {
+      "check": "U07 nonoverlap",
+      "passed": true
+    },
+    {
+      "check": "Four objective arithmetic",
+      "passed": true
+    }
+  ],
+  "battery_chains": [
+    {
+      "battery": "A-BAT-01",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0007"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "A-BAT-02",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0010"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "A-BAT-03",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0002",
+        "Q2-0015",
+        "Q2-0021"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "A-BAT-04",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0001",
+        "Q2-0018"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "A-BAT-05",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0003",
+        "Q2-0014",
+        "Q2-0024"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "A-BAT-06",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0011",
+        "Q2-0025"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "B-BAT-01",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0004",
+        "Q2-0022"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "B-BAT-02",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0013"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "B-BAT-03",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0005",
+        "Q2-0017"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "B-BAT-04",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0009",
+        "Q2-0020"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "C-BAT-01",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0006",
+        "Q2-0023"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "C-BAT-02",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0016"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "C-BAT-03",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0008",
+        "Q2-0019"
+      ],
+      "off_depot_swap_events": 0
+    },
+    {
+      "battery": "C-BAT-04",
+      "initial_location": "O01",
+      "initial_soc": 1.0,
+      "route_ids": [
+        "Q2-0012"
+      ],
+      "off_depot_swap_events": 0
+    }
+  ],
+  "uav_count_used": 8,
+  "battery_count_used": 14,
+  "minimum_route_end_soc": 0.20942545342258811,
+  "hard_boxes": 31,
+  "soft_boxes": 49,
+  "soft_priority_sum": 460.0,
+  "existing_raw_audit": {
+    "all": true,
+    "checks_count": 399,
+    "objective": [
+      25,
+      71.31909210428417,
+      6672.014331816174,
+      0.0
+    ],
+    "scope": "Raw XLSX plus independent GeoTIFF slab geometry; O01-only charging/exchange feasible submodel."
+  },
+  "scope": "O01-only full-charge reuse and source-JSON arithmetic; does not rederive geometry/energy or prove off-depot exchange invalid; no spare cargo is represented in the submitted route plan."
+}

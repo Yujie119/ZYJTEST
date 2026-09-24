@@ -1,0 +1,118 @@
+[
+  {
+    "label": "1_C_原运输资源次序",
+    "mode": "C",
+    "transport_resources_and_order_fixed": true,
+    "seconds": 60.28284870000789,
+    "solver_meta": {
+      "seconds": 60.139690099982545,
+      "variables": 4063,
+      "constraints": 13572,
+      "stages": [
+        {
+          "stage": "C",
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "bound": 7567.094096939398,
+          "gap": 0.2890893463686204
+        }
+      ],
+      "route_pool": 28,
+      "required": 28,
+      "mode": "C",
+      "caps": null,
+      "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+      "max_constraint_violation": 7.275957614183426e-12
+    },
+    "candidate_found": true,
+    "objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "raw_arithmetic_status": "PASS",
+    "raw_arithmetic_checks": 556,
+    "dem_status": "PASS",
+    "dem_checks": 1307,
+    "status": "verified_feasible_candidate_no_global_optimality_claim",
+    "expert_rule_scope": {
+      "spare_battery_carriage_allowed": false,
+      "expert_swap_rule": "Swap where an eligible battery is available; not restricted to O01; all shared batteries initially at O01.",
+      "implemented_swap_policy": "Only O01 swaps between complete O01-to-O01 sorties; one installed energy unit per sortie; no spare energy carried.",
+      "full_expert_feasible_domain_searched": false,
+      "interpretation": "These remain allowed restricted-policy candidates under the expert rule, but do not optimize service-node exchange or battery relocation."
+    }
+  },
+  {
+    "label": "2_L_开放运输资源",
+    "mode": "L",
+    "transport_resources_and_order_fixed": false,
+    "seconds": 60.10577489994466,
+    "solver_meta": {
+      "seconds": 60.100628999993205,
+      "variables": 4063,
+      "constraints": 13351,
+      "stages": [
+        {
+          "stage": "L",
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "bound": null,
+          "gap": null
+        }
+      ],
+      "route_pool": 28,
+      "required": 28,
+      "mode": "L",
+      "caps": null,
+      "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+    },
+    "candidate_found": false,
+    "status": "limited_or_rejected_no_feasible_incumbent",
+    "expert_rule_scope": {
+      "spare_battery_carriage_allowed": false,
+      "expert_swap_rule": "Swap where an eligible battery is available; not restricted to O01; all shared batteries initially at O01.",
+      "implemented_swap_policy": "Only O01 swaps between complete O01-to-O01 sorties; one installed energy unit per sortie; no spare energy carried.",
+      "full_expert_feasible_domain_searched": false,
+      "interpretation": "These remain allowed restricted-policy candidates under the expert rule, but do not optimize service-node exchange or battery relocation."
+    }
+  },
+  {
+    "label": "3_E_开放运输资源",
+    "mode": "E",
+    "transport_resources_and_order_fixed": false,
+    "seconds": 60.10596330004046,
+    "solver_meta": {
+      "seconds": 60.1018158000079,
+      "variables": 4063,
+      "constraints": 13351,
+      "stages": [
+        {
+          "stage": "E",
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "bound": null,
+          "gap": null
+        }
+      ],
+      "route_pool": 28,
+      "required": 28,
+      "mode": "E",
+      "caps": null,
+      "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+    },
+    "candidate_found": false,
+    "status": "limited_or_rejected_no_feasible_incumbent",
+    "expert_rule_scope": {
+      "spare_battery_carriage_allowed": false,
+      "expert_swap_rule": "Swap where an eligible battery is available; not restricted to O01; all shared batteries initially at O01.",
+      "implemented_swap_policy": "Only O01 swaps between complete O01-to-O01 sorties; one installed energy unit per sortie; no spare energy carried.",
+      "full_expert_feasible_domain_searched": false,
+      "interpretation": "These remain allowed restricted-policy candidates under the expert rule, but do not optimize service-node exchange or battery relocation."
+    }
+  }
+]

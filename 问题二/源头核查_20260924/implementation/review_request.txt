@@ -1,0 +1,5 @@
+初始任务原文（由本审阅代理收到的 NEW_TASK 文本逐字保存）：
+
+按 experiment-audit 技能做 fresh independent audit，只读活动文件，不派生代理。工作目录 D:/研究生/比赛/数学建模/2026。文件：问题二/问题二_下一版改进策略_正向校核与实现方案.md；D题/山区洪涝灾害下无人机运输与通信协同优化.docx；原始相关XLSX与DEM；正文/正文.md；问题二/q2_data.py、q2_joint.py、q2_candidates.py、q2_run.py、q2_verify.py、audit_q2_implementation.py、report_q2.py；最新求解摘要/冻结评价配置/联合配置；子问题二/最终方案.json、完整联合运行日志.json、偏好极点基准.json、单目标有效下界.json、联合非支配档案.json、构造初始化档案.json、ALNS日志、独立核验。不要接受上一轮审计结论为事实，逐行查真实目标、约束、下界/遗憾/安全截断、候选遗漏、warm start、终止状态和导出。寻找可复现反例与可能编码错误，必要时小模型或重排最终方案，但不长时间重跑整个管线。成果写 问题二/源头核查_20260924/implementation/，不得覆盖正式结果、正文或活动源码。按技能A–F提供PASS/WARN/FAIL和具体file:line；另外明确建模假设/搜索不充分/实际编码错误的区别。原始参考或真值不能来自模型输出。Python E:/tool/anaconda3/python.exe；PowerShell C:/Program Files/PowerShell/7/pwsh.exe；不安装。
+
+后续重点补充（摘要，非逐字原文）：核验全部任务完成时间取最后返场；审查 JointModel cm 上图、正权/ε、unpack压缩、decode和报表；区分最后交付、最后返场、最后充满与累计duration。微型实例穷举真值由主代理另行执行，本代理不重复。保留独立原始量核算、见证求解状态、资源核验和哈希；不参考尚未提供的他人结果。trace元数据由主代理统一归档。

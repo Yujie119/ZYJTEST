@@ -1,0 +1,244 @@
+[
+  {
+    "source": "polish_official",
+    "plan_path": "搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+    "plan_sha256": "f3be3724a2685c5edf027d4e567ec9144efcca2fc63899a9e6ab9d73d5b88f53",
+    "objective": [
+      24.0,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "physical_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\official\\独立DEM核验.json",
+      "sha256": "88bd6cce7ce4bca7a10189bebe7bf7d6a7e0f1c1be4c6e221317c1eb0be35fbf",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\official\\原始数据结构审计.json",
+      "sha256": "7ed301324ea96abef72fe05151749fc92595bbe25d76b9e544cf32bef72d1228",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "polish_mapped_witness",
+    "plan_path": "搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "plan_sha256": "7b34f5a4caa7b92c67260b6454b20664f74b5beadef6d8ee26439ccfe94694f4",
+    "objective": [
+      24.0,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "physical_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\mapped_witness\\独立DEM核验.json",
+      "sha256": "1ffc9a271c478ac21af019993eb83aad6ffc7f5d560ee5d58ba6bddf298d94cf",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\mapped_witness\\原始数据结构审计.json",
+      "sha256": "50d91fe75978f943ff1fd72df1cb942f59bf404b56756526d7935499cad82c99",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "polish_archive_00",
+    "plan_path": "搜索精修\\扩展固定结构精修_v1\\archive_00\\已核验方案.json",
+    "plan_sha256": "60948328756498cce1e89909b019f9ee3a511bf86e211413dab10b5a3f53fb94",
+    "objective": [
+      24.0,
+      64.93374004014163,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "physical_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_00\\独立DEM核验.json",
+      "sha256": "a93192ad6251a1b83e0d44b884dcb5d565adb3c70fc7657fb06413695082198b",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_00\\原始数据结构审计.json",
+      "sha256": "48129b3d4a2cc2f91713687c0e8fa4872f020976131c3c3163dc8ca9c1b843f5",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "polish_archive_01",
+    "plan_path": "搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "plan_sha256": "d26e96c2a6e9430479310cca82c22e90205e85ae0b9e2af7954308fc33a30f80",
+    "objective": [
+      24.0,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "physical_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_01\\独立DEM核验.json",
+      "sha256": "616b2812eb960e3ad1f21ba7a90697df8e39382c1d231ab6d471335cdd771e4b",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_01\\原始数据结构审计.json",
+      "sha256": "1ab62367e670ff7b44c2a27ac83ff8cbc67f731fc51b56ac20a03d9547a55175",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "polish_archive_02",
+    "plan_path": "搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "plan_sha256": "2ed7f7f231a53afeef123fa6d7b0d2be1b64728b2948cdbe0393b4ac17a10db2",
+    "objective": [
+      24.0,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "physical_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_02\\独立DEM核验.json",
+      "sha256": "ee2845bbb35ce2c8ac936796c7b43b419f87eeba3a9783f5fda087eee2b8c3ca",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_02\\原始数据结构审计.json",
+      "sha256": "ba37d4f3e6d33fda62660bf2b1ce9941cb78857343a5e8f64534b26efefa6d9c",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "polish_archive_03",
+    "plan_path": "搜索精修\\扩展固定结构精修_v1\\archive_03\\已核验方案.json",
+    "plan_sha256": "ee52b10a7ab686a0d71cf81c79188530a19391628ddb24d762fab5b251cc6e9b",
+    "objective": [
+      24.0,
+      64.85204587579615,
+      9165.15443502662,
+      602.5438554866731
+    ],
+    "physical_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_03\\独立DEM核验.json",
+      "sha256": "7e350ad554e49b637c97210554942e90a66a5223cc074453c754dbd4fba97629",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_03\\原始数据结构审计.json",
+      "sha256": "4784ee5f8dc70f88b4ddcc7f8c5e1c05792bb6406d06e628b49fbc0026b4417b",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "polish_archive_05",
+    "plan_path": "搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "plan_sha256": "e642fcbccac76cfe4bd2c21af93711974fd8eb60ac74c0e34b1e3579d4c00141",
+    "objective": [
+      25.0,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "physical_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_05\\独立DEM核验.json",
+      "sha256": "21824150a7e6665c941ec9251a2dffa503e9c36e2a286be2df1fbaa93e4b03c5",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_05\\原始数据结构审计.json",
+      "sha256": "be5948ed541a269f045e74248753d7df38b5ec0f0755e5e7c2febbf365e7c9cf",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "polish_archive_06",
+    "plan_path": "搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "plan_sha256": "15873a3e18d2c15f26b6eaceef1ceb39c2c93cf0649d556767b3b6f49136f058",
+    "objective": [
+      25.0,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "physical_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_06\\独立DEM核验.json",
+      "sha256": "dc94eb71e13575f34e0dd9ed2244df053982e57c872302916e33700e0b904b85",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "搜索精修\\扩展固定结构精修_v1\\archive_06\\原始数据结构审计.json",
+      "sha256": "8b24286f0ee752eda45a361697fded0fbf757758b1d62dd70d963db205779a24",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "original_official",
+    "plan_path": "子问题二\\最终方案_待独立核验.json",
+    "plan_sha256": "ca11f812b9210a1e138c796f069fc88276ae013f29445239076eee31f977a32e",
+    "objective": [
+      24.0,
+      65.12006866674481,
+      9170.432679280624,
+      465.25841077498995
+    ],
+    "physical_evidence": {
+      "path": "审查资料\\本轮复核\\baseline_完整DEM核验.json",
+      "sha256": "a73fbafa04548e8400c29396d3eb0b9cb6c5c1287a505336022639d19196148a",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "审查资料\\本轮复核\\原始工作簿独立算术复核.json",
+      "sha256": "3842b5b9ae9a9a91303728174a15ffddd0af049d386b642d24c44120e2043314",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "ten_second_departure_witness",
+    "plan_path": "审查资料\\本轮复核\\支配见证方案.json",
+    "plan_sha256": "2a0b5e7837dd4945a06839f9e2a35b7d54a7773a21da8d845d0654d9c9c14194",
+    "objective": [
+      24.0,
+      65.12006866674481,
+      9165.85322827993,
+      465.25841077498995
+    ],
+    "physical_evidence": {
+      "path": "审查资料\\本轮复核\\witness_完整DEM核验.json",
+      "sha256": "7dcd163d5e319bcd097170f7422ef3f2f472bd12e73c25becfed5e11ac9e8637",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "审查资料\\本轮复核\\支配见证原始数据算术复核.json",
+      "sha256": "0e7ed8c0b4417cce6a81d6e31ef70831af8a2e8606e274e042336d855e4d0155",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  },
+  {
+    "source": "new_Q2_seed",
+    "plan_path": "全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "plan_sha256": "5d5d4baa2debe41e9cbcf02947e8dbf643f846c7cd53c2e2be9ed885b1c4495a",
+    "objective": [
+      33.0,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "physical_evidence": {
+      "path": "全局直接求解\\Q2新种子\\1_C_原运输资源次序_原DEM核验.json",
+      "sha256": "43283c6d600cb412b4f4e6142f2bbf58b4f420e1ed4fc0641b85585eb45eb1e8",
+      "status": "PASS"
+    },
+    "raw_evidence": {
+      "path": "全局直接求解\\Q2新种子\\1_C_原运输资源次序_原始算术核验.json",
+      "sha256": "ec670139ee05bc0c8d3f6fdbf5a45d60f3bae248d54f88957e11ca41a57d975b",
+      "status": "PASS"
+    },
+    "evidence_binding": "Existing PASS artifacts; matching objectives, counts, transport energy and lateness. No repeated physical solve/check."
+  }
+]

@@ -1,0 +1,3266 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "transport IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relay IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relay slots unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "80 named boxes exactly once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "each named box has an actual route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "visit order equals delivery-event order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-001/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/O01-S012/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/S012-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-004/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-006/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/O01-S002/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/S002-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-008/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/O01-S014/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/S014-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-003/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/O01-S010/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/S010-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-005/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/O01-S013/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/S013-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-007/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/O01-S010/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/S010-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-002/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/O01-S006/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/S006-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-012/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/O01-S015/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/S015-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-013/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/O01-S007/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/S007-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-015/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/O01-S004/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/S004-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-009/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/O01-S004/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/S004-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-010/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/O01-S002/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/S002-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-014/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/O01-S009/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/S009-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-011/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-016/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/O01-S003/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/S003-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-017/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-021/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-018/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/O01-S008/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/S008-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-025/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/O01-S009/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/S009-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-024/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/O01-S005/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/S005-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-028/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/O01-S004/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/S004-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-023/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/O01-S003/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/S003-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-027/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/O01-S011/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/S011-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-020/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/O01-S004/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/S004-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-019/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/O01-S012/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/S012-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-022/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q2SEED-28-026/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-02/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-HYG-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-HYG-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-04/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-04/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-05/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-05/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-06/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-06/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-07/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-07/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-08/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-08/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-FOD-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-FOD-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-04/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-04/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-FOD-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-FOD-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-04/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-04/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U07/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-01/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U04/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "A-BAT-04/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U01/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "A-BAT-01/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U08/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-02/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U06/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-02/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U02/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "A-BAT-02/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U05/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-01/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U03/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "A-BAT-03/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-03/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-04/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-04/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "A-BAT-05/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-03/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "A-BAT-06/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "category aggregation assumptions",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "transport_energy": 75.71131596897939,
+  "routes": [
+    {
+      "route_id": "Q2SEED-28-001",
+      "energy": 2.4050600594039855,
+      "horizontal": 2.312238027659728,
+      "climb": 0.09282203174425763,
+      "duration": 1626.175045862023,
+      "finish": 1626.175045862023,
+      "soc": 0.6993674925745018
+    },
+    {
+      "route_id": "Q2SEED-28-004",
+      "energy": 2.9582684272003648,
+      "horizontal": 2.8288598568787515,
+      "climb": 0.1294085703216129,
+      "duration": 2109.1981528997,
+      "finish": 2109.1981528997,
+      "soc": 0.34260701617769673
+    },
+    {
+      "route_id": "Q2SEED-28-006",
+      "energy": 1.2195425893044773,
+      "horizontal": 1.1497374831495057,
+      "climb": 0.06980510615497167,
+      "duration": 1190.9069627433817,
+      "finish": 1190.9069627433817,
+      "soc": 0.7289905357101161
+    },
+    {
+      "route_id": "Q2SEED-28-008",
+      "energy": 6.2810104080250655,
+      "horizontal": 6.16343210893983,
+      "climb": 0.1175782990852356,
+      "duration": 2173.8421660245544,
+      "finish": 2219.3014919694283,
+      "soc": 0.2148736989968668
+    },
+    {
+      "route_id": "Q2SEED-28-003",
+      "energy": 2.140365220765654,
+      "horizontal": 1.9229562237131437,
+      "climb": 0.2174089970525106,
+      "duration": 1869.7476752786915,
+      "finish": 1954.9402345523577,
+      "soc": 0.46490869480858654
+    },
+    {
+      "route_id": "Q2SEED-28-005",
+      "energy": 1.892537836105976,
+      "horizontal": 1.7758721958221795,
+      "climb": 0.11666564028379653,
+      "duration": 1654.8926699889435,
+      "finish": 1764.6063939648466,
+      "soc": 0.5794360364208943
+    },
+    {
+      "route_id": "Q2SEED-28-007",
+      "energy": 1.8248637585718632,
+      "horizontal": 1.7207094039910897,
+      "climb": 0.10415435458077327,
+      "duration": 1510.511588744525,
+      "finish": 1646.4584292918266,
+      "soc": 0.5437840603570342
+    },
+    {
+      "route_id": "Q2SEED-28-002",
+      "energy": 1.9214315187565438,
+      "horizontal": 1.8012695157242833,
+      "climb": 0.12016200303226049,
+      "duration": 1594.8926699889435,
+      "finish": 1734.6063939648466,
+      "soc": 0.5730152180541014
+    },
+    {
+      "route_id": "Q2SEED-28-012",
+      "energy": 2.5979806407170596,
+      "horizontal": 2.4681071389614515,
+      "climb": 0.12987350175560847,
+      "duration": 1561.5526244866223,
+      "finish": 3187.7276703486596,
+      "soc": 0.6752524199103676
+    },
+    {
+      "route_id": "Q2SEED-28-013",
+      "energy": 2.307588337094472,
+      "horizontal": 2.1323807357231304,
+      "climb": 0.1752076013713413,
+      "duration": 1828.3275601736595,
+      "finish": 3783.2677947260154,
+      "soc": 0.42310291572638203
+    },
+    {
+      "route_id": "Q2SEED-28-015",
+      "energy": 3.411075641855823,
+      "horizontal": 3.200721678673755,
+      "climb": 0.2103539631820679,
+      "duration": 1907.600698410691,
+      "finish": 4126.902190380116,
+      "soc": 0.5736155447680221
+    },
+    {
+      "route_id": "Q2SEED-28-009",
+      "energy": 3.0353499449527557,
+      "horizontal": 2.9043189572848243,
+      "climb": 0.13103098766793148,
+      "duration": 2118.797718228741,
+      "finish": 4436.029073743469,
+      "soc": 0.3254777900104987
+    },
+    {
+      "route_id": "Q2SEED-28-010",
+      "energy": 2.8712767698831185,
+      "horizontal": 2.737318151342884,
+      "climb": 0.13395861854023405,
+      "duration": 1981.641663352524,
+      "finish": 4367.451046305355,
+      "soc": 0.28218080752922037
+    },
+    {
+      "route_id": "Q2SEED-28-014",
+      "energy": 2.8715168769453436,
+      "horizontal": 2.7901939633978277,
+      "climb": 0.08132291354751588,
+      "duration": 1943.7752084462202,
+      "finish": 4561.312081084963,
+      "soc": 0.3618851384565903
+    },
+    {
+      "route_id": "Q2SEED-28-011",
+      "energy": 2.2548835576521644,
+      "horizontal": 2.1836284438637716,
+      "climb": 0.07125511378839282,
+      "duration": 1688.6396458883246,
+      "finish": 4327.072286867111,
+      "soc": 0.4989147649661857
+    },
+    {
+      "route_id": "Q2SEED-28-016",
+      "energy": 1.2195425893044773,
+      "horizontal": 1.1497374831495057,
+      "climb": 0.06980510615497167,
+      "duration": 1190.9069627433817,
+      "finish": 3980.5935732378894,
+      "soc": 0.7289905357101161
+    },
+    {
+      "route_id": "Q2SEED-28-017",
+      "energy": 6.324596372619295,
+      "horizontal": 6.04059908374346,
+      "climb": 0.2839972888758342,
+      "duration": 2502.1777110992607,
+      "finish": 5689.9053814479175,
+      "soc": 0.20942545342258811
+    },
+    {
+      "route_id": "Q2SEED-28-021",
+      "energy": 1.2204344333114248,
+      "horizontal": 1.1473633902812157,
+      "climb": 0.07307104303020902,
+      "duration": 1149.1061758262156,
+      "finish": 4932.373970552239,
+      "soc": 0.6948913916721438
+    },
+    {
+      "route_id": "Q2SEED-28-018",
+      "energy": 1.2195425893044773,
+      "horizontal": 1.1497374831495057,
+      "climb": 0.06980510615497167,
+      "duration": 1190.9069627433817,
+      "finish": 5517.979249610493,
+      "soc": 0.7289905357101161
+    },
+    {
+      "route_id": "Q2SEED-28-025",
+      "energy": 5.836066297505489,
+      "horizontal": 5.70244666202321,
+      "climb": 0.1336196354822795,
+      "duration": 2199.7115246008334,
+      "finish": 6953.453335410378,
+      "soc": 0.27049171281181383
+    },
+    {
+      "route_id": "Q2SEED-28-024",
+      "energy": 2.1581023674302218,
+      "horizontal": 2.092485582218871,
+      "climb": 0.0656167852113512,
+      "duration": 1628.6396458883246,
+      "finish": 7146.618895498814,
+      "soc": 0.5204216961266174
+    },
+    {
+      "route_id": "Q2SEED-28-028",
+      "energy": 4.222182349592158,
+      "horizontal": 4.090476080189082,
+      "climb": 0.13170626940307617,
+      "duration": 1877.1887154914712,
+      "finish": 7567.094096939398,
+      "soc": 0.47222720630098025
+    },
+    {
+      "route_id": "Q2SEED-28-023",
+      "energy": 2.9335654846540304,
+      "horizontal": 2.810725821742297,
+      "climb": 0.12283966291173301,
+      "duration": 2118.797718228741,
+      "finish": 7931.705664958572,
+      "soc": 0.34809655896577096
+    },
+    {
+      "route_id": "Q2SEED-28-027",
+      "energy": 2.424318485056973,
+      "horizontal": 2.2395899936358026,
+      "climb": 0.1847284914211697,
+      "duration": 1960.6096650380625,
+      "finish": 8238.9473116261,
+      "soc": 0.3939203787357568
+    },
+    {
+      "route_id": "Q2SEED-28-020",
+      "energy": 1.073963183411491,
+      "horizontal": 0.9963704279602887,
+      "climb": 0.0775927554512024,
+      "duration": 1188.4247628605203,
+      "finish": 9495.120434488554,
+      "soc": 0.7315092041471272
+    },
+    {
+      "route_id": "Q2SEED-28-019",
+      "energy": 3.0353499449527557,
+      "horizontal": 2.9043189572848243,
+      "climb": 0.13103098766793148,
+      "duration": 2118.797718228741,
+      "finish": 10638.375685756462,
+      "soc": 0.3254777900104987
+    },
+    {
+      "route_id": "Q2SEED-28-022",
+      "energy": 2.8304658512905028,
+      "horizontal": 2.710785564856753,
+      "climb": 0.11968028643374973,
+      "duration": 2049.1981528997,
+      "finish": 10606.772087658008,
+      "soc": 0.37100758860211047
+    },
+    {
+      "route_id": "Q2SEED-28-026",
+      "energy": 1.2204344333114248,
+      "horizontal": 1.1473633902812157,
+      "climb": 0.07307104303020902,
+      "duration": 1149.1061758262156,
+      "finish": 10644.22661031477,
+      "soc": 0.6948913916721438
+    }
+  ],
+  "hard_box_count": 31,
+  "soft_box_count": 49,
+  "soft_priority_denominator": 460.0,
+  "weighted_lateness": 576.1011585525097,
+  "late_soft_boxes": 10,
+  "category_data_checks": [
+    {
+      "category": "S001|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S001|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S001|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S001|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S002|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S002|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S002|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S002|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S003|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S003|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S003|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S003|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S004|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S004|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S004|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S004|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S005|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S005|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S005|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S005|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S006|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S006|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S006|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S006|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S007|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S007|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S007|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S007|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S008|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S008|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S008|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S008|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S009|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S009|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S009|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S010|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S010|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S010|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S011|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S011|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S011|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S012|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S012|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S012|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S013|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S013|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S013|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S014|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S014|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S014|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S015|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S015|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S015|饮用水",
+      "aggregation_preconditions": true
+    }
+  ],
+  "expert_rule_scope": {
+    "spare_battery_carriage_allowed": false,
+    "expert_swap_rule": "Swap where an eligible battery is available; not restricted to O01; all shared batteries initially at O01.",
+    "implemented_swap_policy": "Only O01 swaps between complete O01-to-O01 sorties; one installed energy unit per sortie; no spare energy carried.",
+    "full_expert_feasible_domain_searched": false,
+    "interpretation": "These remain allowed restricted-policy candidates under the expert rule, but do not optimize service-node exchange or battery relocation."
+  }
+}

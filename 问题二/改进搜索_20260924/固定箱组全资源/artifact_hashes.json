@@ -1,0 +1,14 @@
+{
+  "best_plan.json": "7017532c96ed2b4798a9593688bbb59126cbeabd69448accfc2b1c5cac34c9a4",
+  "C_plan.json": "7017532c96ed2b4798a9593688bbb59126cbeabd69448accfc2b1c5cac34c9a4",
+  "C_solver.json": "baa4d9f0f8de072872e38bb9ff6b0e2299f4a926346d25aa2dbc04b7235541f5",
+  "C_verification.json": "8c3e5c49e5be813e72ad48335fb1d8cce856f646f0125249a0b7bdaae044928a",
+  "L_plan.json": "bda11e8e6ea901ea0506c90718fa3c434a6d32578d174f4cb37e2146bb304e3d",
+  "L_solver.json": "01e603ed9cb64b82de97a12a9275f3a263f3f31eb60dd0e024eade3fe289ff72",
+  "L_verification.json": "616021c49e7ef42383d9e9a50863f6cf5b3cc762bd6b897b6de4a059a1f2aba2",
+  "README.md": "1dd6914b55a8ae96fd725ed315223df8008c72dc5126c58003f418bd58709053",
+  "regret_fixed_old_lower_bounds.json": "c6ac15f926ffeb6c04de57580d77376df94a02373a26a8c907f716cfb247315f",
+  "search_config.json": "9bffaab63208dfc513327ef5eb30dde36bc6a94226ef5b4c739b7e620fe6d14a",
+  "search_fixed_candidates.py": "504dcfeb9c0e8c2620051e8fded42b09fc302bb0bbf2d945e16c963933496f02",
+  "search_summary.json": "f4468bb8422290a5ec608599389df305ed8e4fcef41643067a8c6f0596cb8b0e"
+}

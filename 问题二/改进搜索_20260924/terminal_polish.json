@@ -1,0 +1,362 @@
+[
+  {
+    "scope": "archive_terminal_0",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 520.7998072166126,
+    "upper_bound": 520.7998072166126,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 20,
+      "E": 60.70497216913841,
+      "C": 9163.54886305257,
+      "L": 520.7998072166125
+    },
+    "gap": 0.0,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 381,
+    "constraints": 410,
+    "horizon": 9163.54886305257,
+    "seconds": 0.003043100005015731,
+    "seed": 20260924,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_1",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 109.80139798970788,
+    "upper_bound": 109.80139798970788,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 63.26021230769617,
+      "C": 9069.567244129956,
+      "L": 109.8013979897079
+    },
+    "gap": 0.0,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 419,
+    "constraints": 412,
+    "horizon": 9069.567244129956,
+    "seconds": 0.0025886999792419374,
+    "seed": 20260925,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_2",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 0.0,
+    "upper_bound": 0.0,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 25,
+      "E": 71.31909210428417,
+      "C": 6672.014331816174,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 480,
+    "constraints": 398,
+    "horizon": 6672.014331816174,
+    "seconds": 0.003236599965021014,
+    "seed": 20260926,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_3",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 0.0,
+    "upper_bound": 0.0,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 21,
+      "E": 67.32235979591468,
+      "C": 8013.646246218171,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 396,
+    "constraints": 360,
+    "horizon": 8013.646246218171,
+    "seconds": 0.0020490000024437904,
+    "seed": 20260927,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_4",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 0.0,
+    "upper_bound": 0.0,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 68.14991640976821,
+      "C": 7066.62791044095,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 423,
+    "constraints": 380,
+    "horizon": 7066.62791044095,
+    "seconds": 0.0024849000037647784,
+    "seed": 20260928,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_5",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 37.64777524470868,
+    "upper_bound": 37.64777524470868,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 66.29741292296062,
+      "C": 7881.646246218171,
+      "L": 37.64777524470868
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 417,
+    "constraints": 392,
+    "horizon": 7881.646246218171,
+    "seconds": 0.003180100000463426,
+    "seed": 20260929,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_6",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 203.27678734880095,
+    "upper_bound": 203.27678734880095,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 21,
+      "E": 62.72052529403814,
+      "C": 9584.298606161949,
+      "L": 203.27678734880095
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.4210854715202004e-14,
+    "variables": 388,
+    "constraints": 404,
+    "horizon": 9584.298606161949,
+    "seconds": 0.0026431999867781997,
+    "seed": 20260930,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_7",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 446.62419790370564,
+    "upper_bound": 446.6241979037055,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 20,
+      "E": 60.9175261527664,
+      "C": 9163.54886305257,
+      "L": 446.62419790370546
+    },
+    "gap": 0.0,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 375,
+    "constraints": 396,
+    "horizon": 9163.54886305257,
+    "seconds": 0.003015599970240146,
+    "seed": 20260931,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_8",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 0.0,
+    "upper_bound": 0.0,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 64.56560504372038,
+      "C": 8427.071898766839,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 401,
+    "constraints": 394,
+    "horizon": 8427.071898766839,
+    "seconds": 0.0023116999655030668,
+    "seed": 20260932,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_9",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 42.23839207874447,
+    "upper_bound": 42.238392078744475,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 64.3922692668716,
+      "C": 8337.140388078022,
+      "L": 161.61050221130995
+    },
+    "gap": 1.6822201338427958e-16,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 401,
+    "constraints": 394,
+    "horizon": 8337.140388078022,
+    "seconds": 0.004217899986542761,
+    "seed": 20260933,
+    "relaxation": false,
+    "nodes": 1
+  },
+  {
+    "scope": "archive_terminal_10",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 47.634602398500704,
+    "upper_bound": 47.634602398500704,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 64.61567425934115,
+      "C": 8379.628938723547,
+      "L": 47.63460239850099
+    },
+    "gap": 0.0,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 401,
+    "constraints": 394,
+    "horizon": 8379.628938723547,
+    "seconds": 0.0026750999968498945,
+    "seed": 20260934,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_11",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 51.21449236346476,
+    "upper_bound": 51.21449236346476,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 67.35998571793408,
+      "C": 7831.124655517117,
+      "L": 51.21449236346475
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 401,
+    "constraints": 374,
+    "horizon": 7831.124655517117,
+    "seconds": 0.0022119999630376697,
+    "seed": 20260935,
+    "relaxation": false,
+    "nodes": 0
+  }
+]

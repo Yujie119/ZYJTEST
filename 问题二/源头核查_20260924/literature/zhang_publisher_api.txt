@@ -1,0 +1,14 @@
+https://api.elsevier.com/content/article/pii/S1361920920308531
+doi:10.1016/j.trd.2020.102668
+1-s2.0-S1361920920308531
+10.1016/j.trd.2020.102668
+S1361-9209(20)30853-1
+Energy consumption models for delivery drones: A comparison and assessment
+Transportation Research Part D: Transport and Environment
+Journal
+13619209
+2021-01-31
+January 2021
+0
+false
+false

@@ -1,0 +1,26 @@
+{
+  "round": 72,
+  "mode": "C",
+  "kind": "free_joint_retiming",
+  "started_utc": "2026-09-23T22:37:30.442795+00:00",
+  "seed_objective": [
+    25,
+    64.99970719690505,
+    9163.548863152573,
+    465.2583643491526
+  ],
+  "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+  "status": "solver_limit_or_rejection_without_new_incumbent",
+  "route_instances": 31,
+  "patterns": 20,
+  "caps": {
+    "N": 25.0,
+    "E": 64.99970719690505,
+    "L": 465.2583643491526
+  },
+  "neighborhood_only_lower_bound": null,
+  "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+  "solver_elapsed_s": 85.00227510003606,
+  "accepted_as_feasible": false,
+  "finished_utc": "2026-09-23T22:38:55.492063+00:00"
+}

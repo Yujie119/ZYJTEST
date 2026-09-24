@@ -1,0 +1,46 @@
+{
+  "round": 55,
+  "mode": "N",
+  "kind": "two_route_box_vehicle_neighborhood",
+  "started_utc": "2026-09-23T22:15:50.557330+00:00",
+  "seed_objective": [
+    33,
+    81.05125838536102,
+    10644.22661031477,
+    576.1011585525097
+  ],
+  "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+  "status": "verified_candidate",
+  "route_instances": 90,
+  "patterns": 34,
+  "caps": {
+    "E": 81.55125838536102,
+    "C": 10824.22661031477,
+    "L": 676.1011585525097
+  },
+  "neighborhood_only_lower_bound": 29.0,
+  "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+  "solver_elapsed_s": 76.2986914999783,
+  "independent_verification": {
+    "passed": true,
+    "physical_status": "PASS",
+    "raw_status": "PASS",
+    "battery_status": "PASS",
+    "physical_checks": 1250,
+    "raw_checks": 533,
+    "battery_checks": 400,
+    "evidence": [
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00055_N\\candidate_DEM核验.json",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00055_N\\candidate_原始算术核验.json",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00055_N\\candidate_电池位置核验.json"
+    ]
+  },
+  "objective": [
+    29,
+    80.23394029032745,
+    8959.82995591304,
+    562.691335984293
+  ],
+  "new_objective": true,
+  "finished_utc": "2026-09-23T22:17:09.074921+00:00"
+}

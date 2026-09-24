@@ -1,0 +1,83 @@
+{
+  "spec": {
+    "name": "cover_00_1",
+    "cap": {},
+    "weights": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "schedule_weights": [
+      0,
+      0,
+      9.285714285714286e-05,
+      0.0005833333333333333
+    ],
+    "noise": 0.0016,
+    "seed": 2026092401,
+    "master_seconds": 12.0,
+    "schedule_seconds": 12.0
+  },
+  "master": {
+    "status": "Time limit reached",
+    "objective_proxy": 1.0242312936221474,
+    "proxy_dual_bound": 0.8853558314602459,
+    "proxy_not_actual_completion": true,
+    "residual": 0.0,
+    "N": 22,
+    "E": 65.80296490201918,
+    "workload_proxy": 9018.925876065685,
+    "selected_candidate_ids": [
+      "Kf0e40a2d7088e67a",
+      "K30d69ac71ddf357c",
+      "K4910af3dd4d6feb1",
+      "Kf1b5cf8a61f6f049",
+      "Kab7623a953e8531b",
+      "Kc1dacb3a9869a6ee",
+      "K4a33d2b0ec8a37b3",
+      "Kcfb32e57284f9553",
+      "K45d87be6ef446d50",
+      "K1eecbe2e24269c78",
+      "K8e2c748c649551ef",
+      "K806fa4375381c0ed",
+      "K2308faeecb54484c",
+      "K75288894dc86cf2a",
+      "K1526eb750f035542",
+      "Kada50d43912b2f82",
+      "K3b9ffe6936063ff2",
+      "Kb4dcea9456a134a0",
+      "K645309ed991e9fa2",
+      "K8d90beceb5941288",
+      "K6d5bedb3be0149a0",
+      "K1c0c3b5279bfdf2d"
+    ]
+  },
+  "plan": null,
+  "scheduling": {
+    "scope": "fixed_cover_actual_resource_schedule",
+    "status": "Infeasible",
+    "optimal": false,
+    "incumbent": false,
+    "warm_fallback": false,
+    "lower_bound": null,
+    "upper_bound": null,
+    "weights": [
+      0,
+      0,
+      9.285714285714286e-05,
+      0.0005833333333333333
+    ],
+    "epsilon": {},
+    "gap": null,
+    "matrix_residual": null,
+    "variables": 402,
+    "constraints": 1332,
+    "horizon": 75569.64515365497,
+    "seconds": 0.38396050001028925,
+    "seed": 2026092401,
+    "relaxation": false,
+    "nodes": 217
+  },
+  "verification": null,
+  "seconds": 14.156731399998534
+}

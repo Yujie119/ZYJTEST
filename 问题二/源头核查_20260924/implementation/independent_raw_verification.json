@@ -1,0 +1,5760 @@
+{
+  "provenance": {
+    "geotiff_sha256": "741fe6de0b2bcaffd0f4007f574ee698d46197094f52cc954b532c4f90fc7c03",
+    "mat_tif_pixels_equal": true,
+    "max_transform_difference": 3.848917712323541e-18,
+    "geotiff_raster_type": "PixelIsPoint, half-pixel correction applied"
+  },
+  "original": {
+    "all": true,
+    "checks_count": 426,
+    "objective": [
+      28,
+      75.71131596897939,
+      7567.094096939377,
+      200.565886509374
+    ],
+    "assertions": [
+      {
+        "check": "Q2-0001 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0001 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-HYG-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-HYG-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-01 hard time",
+        "passed": true,
+        "actual": 1314.2725229310115,
+        "expected": 3600
+      },
+      {
+        "check": "S001-MED-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-02 hard time",
+        "passed": true,
+        "actual": 1314.2725229310115,
+        "expected": 3600
+      },
+      {
+        "check": "S001-WAT-07 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-07 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0001 energy",
+        "passed": true,
+        "actual": 2.4050600594039855,
+        "expected": 2.4050600594039855
+      },
+      {
+        "check": "Q2-0001 finish",
+        "passed": true,
+        "actual": 1626.175045862023,
+        "expected": 1626.175045862023
+      },
+      {
+        "check": "Q2-0001 recharge",
+        "passed": true,
+        "actual": 3110.8788119506025,
+        "expected": 3110.8788119506025
+      },
+      {
+        "check": "Q2-0001 soc",
+        "passed": true,
+        "actual": 0.6993674925745018,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0001 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0002 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0002 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-WAT-01 hard time",
+        "passed": true,
+        "actual": 1044.9830016611384,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0002 energy",
+        "passed": true,
+        "actual": 1.9214315187565438,
+        "expected": 1.9214315187565438
+      },
+      {
+        "check": "Q2-0002 finish",
+        "passed": true,
+        "actual": 1594.8926699889435,
+        "expected": 1594.8926699889435
+      },
+      {
+        "check": "Q2-0002 recharge",
+        "passed": true,
+        "actual": 2649.9728865186116,
+        "expected": 2649.9728865186116
+      },
+      {
+        "check": "Q2-0002 soc",
+        "passed": true,
+        "actual": 0.5730152180541014,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0002 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0003 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0003 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-MED-01 hard time",
+        "passed": true,
+        "actual": 1242.4305043060124,
+        "expected": 3600
+      },
+      {
+        "check": "S014-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-WAT-01 hard time",
+        "passed": true,
+        "actual": 1242.4305043060124,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0003 energy",
+        "passed": true,
+        "actual": 2.140365220765654,
+        "expected": 2.140365220765654
+      },
+      {
+        "check": "Q2-0003 finish",
+        "passed": true,
+        "actual": 1869.7476752786915,
+        "expected": 1869.7476752786915
+      },
+      {
+        "check": "Q2-0003 recharge",
+        "passed": true,
+        "actual": 3463.905937610475,
+        "expected": 3463.905937610475
+      },
+      {
+        "check": "Q2-0003 soc",
+        "passed": true,
+        "actual": 0.46490869480858654,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0003 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0004 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0004 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-MED-01 hard time",
+        "passed": true,
+        "actual": 1334.52907644985,
+        "expected": 3600
+      },
+      {
+        "check": "S012-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-WAT-01 hard time",
+        "passed": true,
+        "actual": 1334.52907644985,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0004 energy",
+        "passed": true,
+        "actual": 2.9582684272003648,
+        "expected": 2.9582684272003648
+      },
+      {
+        "check": "Q2-0004 finish",
+        "passed": true,
+        "actual": 2109.1981528997,
+        "expected": 2109.1981528997
+      },
+      {
+        "check": "Q2-0004 recharge",
+        "passed": true,
+        "actual": 3463.809031868694,
+        "expected": 3463.809031868694
+      },
+      {
+        "check": "Q2-0004 soc",
+        "passed": true,
+        "actual": 0.34260701617769673,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0004 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0005 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0005 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-MED-01 hard time",
+        "passed": true,
+        "actual": 1104.9830016611384,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0005 energy",
+        "passed": true,
+        "actual": 1.892537836105976,
+        "expected": 1.892537836105976
+      },
+      {
+        "check": "Q2-0005 finish",
+        "passed": true,
+        "actual": 1654.8926699889435,
+        "expected": 1654.8926699889435
+      },
+      {
+        "check": "Q2-0005 recharge",
+        "passed": true,
+        "actual": 2701.625822641781,
+        "expected": 2701.625822641781
+      },
+      {
+        "check": "Q2-0005 soc",
+        "passed": true,
+        "actual": 0.5794360364208943,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0005 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0006 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0006 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-01 hard time",
+        "passed": true,
+        "actual": 848.5768147050242,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0006 energy",
+        "passed": true,
+        "actual": 1.2195425893044773,
+        "expected": 1.2195425893044773
+      },
+      {
+        "check": "Q2-0006 finish",
+        "passed": true,
+        "actual": 1190.9069627433817,
+        "expected": 1190.9069627433817
+      },
+      {
+        "check": "Q2-0006 recharge",
+        "passed": true,
+        "actual": 2043.2192663202309,
+        "expected": 2043.2192663202309
+      },
+      {
+        "check": "Q2-0006 soc",
+        "passed": true,
+        "actual": 0.7289905357101161,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0006 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0007 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0007 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-MED-01 hard time",
+        "passed": true,
+        "actual": 1062.7891277055958,
+        "expected": 3600
+      },
+      {
+        "check": "S013-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-WAT-01 hard time",
+        "passed": true,
+        "actual": 1062.7891277055958,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0007 energy",
+        "passed": true,
+        "actual": 1.8248637585718632,
+        "expected": 1.8248637585718632
+      },
+      {
+        "check": "Q2-0007 finish",
+        "passed": true,
+        "actual": 1510.511588744525,
+        "expected": 1510.511588744525
+      },
+      {
+        "check": "Q2-0007 recharge",
+        "passed": true,
+        "actual": 2967.9525507923327,
+        "expected": 2967.9525507923327
+      },
+      {
+        "check": "Q2-0007 soc",
+        "passed": true,
+        "actual": 0.5437840603570342,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0007 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0008 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0008 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-FOD-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-FOD-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-MED-01 hard time",
+        "passed": true,
+        "actual": 1553.3310830122773,
+        "expected": 3600
+      },
+      {
+        "check": "S002-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-01 hard time",
+        "passed": true,
+        "actual": 1553.3310830122773,
+        "expected": 3600
+      },
+      {
+        "check": "S002-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-04 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-04 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0008 energy",
+        "passed": true,
+        "actual": 6.2810104080250655,
+        "expected": 6.2810104080250655
+      },
+      {
+        "check": "Q2-0008 finish",
+        "passed": true,
+        "actual": 2173.8421660245544,
+        "expected": 2173.8421660245544
+      },
+      {
+        "check": "Q2-0008 recharge",
+        "passed": true,
+        "actual": 4708.282484864676,
+        "expected": 4708.282484864676
+      },
+      {
+        "check": "Q2-0008 soc",
+        "passed": true,
+        "actual": 0.2148736989968668,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0008 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0009 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0009 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-01 hard time",
+        "passed": true,
+        "actual": 2501.952488524419,
+        "expected": 7200
+      },
+      {
+        "check": "Q2-0009 energy",
+        "passed": true,
+        "actual": 3.0353499449527557,
+        "expected": 3.0353499449527557
+      },
+      {
+        "check": "Q2-0009 finish",
+        "passed": true,
+        "actual": 3309.7046809721223,
+        "expected": 3309.7046809721223
+      },
+      {
+        "check": "Q2-0009 recharge",
+        "passed": true,
+        "actual": 4686.583553958474,
+        "expected": 4686.583553958474
+      },
+      {
+        "check": "Q2-0009 soc",
+        "passed": true,
+        "actual": 0.3254777900104987,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0009 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0010 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0010 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-MED-01 hard time",
+        "passed": true,
+        "actual": 2812.9790870874535,
+        "expected": 7200
+      },
+      {
+        "check": "S004-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0010 energy",
+        "passed": true,
+        "actual": 2.8712767698831185,
+        "expected": 2.8712767698831185
+      },
+      {
+        "check": "Q2-0010 finish",
+        "passed": true,
+        "actual": 3492.1532520970486,
+        "expected": 3492.1532520970486
+      },
+      {
+        "check": "Q2-0010 recharge",
+        "passed": true,
+        "actual": 5403.039852379733,
+        "expected": 5403.039852379733
+      },
+      {
+        "check": "Q2-0010 soc",
+        "passed": true,
+        "actual": 0.28218080752922037,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0010 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0011 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0011 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-MED-01 hard time",
+        "passed": true,
+        "actual": 2720.802492933106,
+        "expected": 10800
+      },
+      {
+        "check": "S009-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-WAT-01 hard time",
+        "passed": true,
+        "actual": 2720.802492933106,
+        "expected": 10800
+      },
+      {
+        "check": "Q2-0011 energy",
+        "passed": true,
+        "actual": 2.2548835576521644,
+        "expected": 2.2548835576521644
+      },
+      {
+        "check": "Q2-0011 finish",
+        "passed": true,
+        "actual": 3283.532315877268,
+        "expected": 3283.532315877268
+      },
+      {
+        "check": "Q2-0011 recharge",
+        "passed": true,
+        "actual": 4434.943121421227,
+        "expected": 4434.943121421227
+      },
+      {
+        "check": "Q2-0011 soc",
+        "passed": true,
+        "actual": 0.4989147649661857,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0011 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0012 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0012 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-MED-01 hard time",
+        "passed": true,
+        "actual": 2835.596358105334,
+        "expected": 3600
+      },
+      {
+        "check": "S006-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-01 hard time",
+        "passed": true,
+        "actual": 2835.596358105334,
+        "expected": 3600
+      },
+      {
+        "check": "S006-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0012 energy",
+        "passed": true,
+        "actual": 2.5979806407170596,
+        "expected": 2.5979806407170596
+      },
+      {
+        "check": "Q2-0012 finish",
+        "passed": true,
+        "actual": 3187.727670348645,
+        "expected": 3187.727670348645
+      },
+      {
+        "check": "Q2-0012 recharge",
+        "passed": true,
+        "actual": 4724.6807605428485,
+        "expected": 4724.6807605428485
+      },
+      {
+        "check": "Q2-0012 soc",
+        "passed": true,
+        "actual": 0.6752524199103676,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0012 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0013 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0013 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-MED-01 hard time",
+        "passed": true,
+        "actual": 3087.3514553655214,
+        "expected": 7200
+      },
+      {
+        "check": "S015-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-WAT-01 hard time",
+        "passed": true,
+        "actual": 3087.3514553655214,
+        "expected": 10800
+      },
+      {
+        "check": "Q2-0013 energy",
+        "passed": true,
+        "actual": 2.307588337094472,
+        "expected": 2.307588337094472
+      },
+      {
+        "check": "Q2-0013 finish",
+        "passed": true,
+        "actual": 3698.075235452351,
+        "expected": 3698.075235452351
+      },
+      {
+        "check": "Q2-0013 recharge",
+        "passed": true,
+        "actual": 5364.696848193289,
+        "expected": 5364.696848193289
+      },
+      {
+        "check": "Q2-0013 soc",
+        "passed": true,
+        "actual": 0.42310291572638203,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0013 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0014 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0014 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0014 energy",
+        "passed": true,
+        "actual": 2.8715168769453436,
+        "expected": 2.8715168769453436
+      },
+      {
+        "check": "Q2-0014 finish",
+        "passed": true,
+        "actual": 3986.9944747664513,
+        "expected": 3986.9944747664513
+      },
+      {
+        "check": "Q2-0014 recharge",
+        "passed": true,
+        "actual": 5316.543794772884,
+        "expected": 5316.543794772884
+      },
+      {
+        "check": "Q2-0014 soc",
+        "passed": true,
+        "actual": 0.3618851384565903,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0014 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0015 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0015 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-MED-01 hard time",
+        "passed": true,
+        "actual": 3521.6025152299,
+        "expected": 3600
+      },
+      {
+        "check": "S007-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-WAT-01 hard time",
+        "passed": true,
+        "actual": 3521.6025152299,
+        "expected": 3600
+      },
+      {
+        "check": "S007-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0015 energy",
+        "passed": true,
+        "actual": 3.411075641855823,
+        "expected": 3.411075641855823
+      },
+      {
+        "check": "Q2-0015 finish",
+        "passed": true,
+        "actual": 4081.4428644352456,
+        "expected": 4081.4428644352456
+      },
+      {
+        "check": "Q2-0015 recharge",
+        "passed": true,
+        "actual": 5838.609184104531,
+        "expected": 5838.609184104531
+      },
+      {
+        "check": "Q2-0015 soc",
+        "passed": true,
+        "actual": 0.5736155447680221,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0015 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0016 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0016 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0016 energy",
+        "passed": true,
+        "actual": 1.2195425893044773,
+        "expected": 1.2195425893044773
+      },
+      {
+        "check": "Q2-0016 finish",
+        "passed": true,
+        "actual": 3840.8798492619935,
+        "expected": 3840.8798492619935
+      },
+      {
+        "check": "Q2-0016 recharge",
+        "passed": true,
+        "actual": 4693.192152838843,
+        "expected": 4693.192152838843
+      },
+      {
+        "check": "Q2-0016 soc",
+        "passed": true,
+        "actual": 0.7289905357101161,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0016 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0017 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0017 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-FOD-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-FOD-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-MED-01 hard time",
+        "passed": true,
+        "actual": 4899.276525898275,
+        "expected": 7200
+      },
+      {
+        "check": "S003-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-01 hard time",
+        "passed": true,
+        "actual": 4899.276525898275,
+        "expected": 7200
+      },
+      {
+        "check": "S003-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-04 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-04 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0017 energy",
+        "passed": true,
+        "actual": 6.324596372619295,
+        "expected": 6.324596372619295
+      },
+      {
+        "check": "Q2-0017 finish",
+        "passed": true,
+        "actual": 5689.905381447906,
+        "expected": 5689.905381447906
+      },
+      {
+        "check": "Q2-0017 recharge",
+        "passed": true,
+        "actual": 8236.150232365631,
+        "expected": 8236.150232365631
+      },
+      {
+        "check": "Q2-0017 soc",
+        "passed": true,
+        "actual": 0.20942545342258811,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0017 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0018 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0018 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-08 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-08 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0018 energy",
+        "passed": true,
+        "actual": 1.2195425893044773,
+        "expected": 1.2195425893044773
+      },
+      {
+        "check": "Q2-0018 finish",
+        "passed": true,
+        "actual": 4474.43927862065,
+        "expected": 4474.43927862065
+      },
+      {
+        "check": "Q2-0018 recharge",
+        "passed": true,
+        "actual": 5326.751582197499,
+        "expected": 5326.751582197499
+      },
+      {
+        "check": "Q2-0018 soc",
+        "passed": true,
+        "actual": 0.7289905357101161,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0018 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0019 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0019 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0019 energy",
+        "passed": true,
+        "actual": 3.0353499449527557,
+        "expected": 3.0353499449527557
+      },
+      {
+        "check": "Q2-0019 finish",
+        "passed": true,
+        "actual": 5582.606750097435,
+        "expected": 5582.606750097435
+      },
+      {
+        "check": "Q2-0019 recharge",
+        "passed": true,
+        "actual": 6959.485623083787,
+        "expected": 6959.485623083787
+      },
+      {
+        "check": "Q2-0019 soc",
+        "passed": true,
+        "actual": 0.3254777900104987,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0019 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0020 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0020 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-MED-01 hard time",
+        "passed": true,
+        "actual": 4398.5523001939755,
+        "expected": 10800
+      },
+      {
+        "check": "S011-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-WAT-01 hard time",
+        "passed": true,
+        "actual": 4398.5523001939755,
+        "expected": 10800
+      },
+      {
+        "check": "Q2-0020 energy",
+        "passed": true,
+        "actual": 1.073963183411491,
+        "expected": 1.073963183411491
+      },
+      {
+        "check": "Q2-0020 finish",
+        "passed": true,
+        "actual": 4680.578014957569,
+        "expected": 4680.578014957569
+      },
+      {
+        "check": "Q2-0020 recharge",
+        "passed": true,
+        "actual": 5812.628727769215,
+        "expected": 5812.628727769215
+      },
+      {
+        "check": "Q2-0020 soc",
+        "passed": true,
+        "actual": 0.7315092041471272,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0020 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0021 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0021 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-04 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-04 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0021 energy",
+        "passed": true,
+        "actual": 1.2204344333114248,
+        "expected": 1.2204344333114248
+      },
+      {
+        "check": "Q2-0021 finish",
+        "passed": true,
+        "actual": 4847.181411278567,
+        "expected": 4847.181411278567
+      },
+      {
+        "check": "Q2-0021 recharge",
+        "passed": true,
+        "actual": 6042.702999046851,
+        "expected": 6042.702999046851
+      },
+      {
+        "check": "Q2-0021 soc",
+        "passed": true,
+        "actual": 0.6948913916721438,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0021 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0022 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0022 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0022 energy",
+        "passed": true,
+        "actual": 2.8304658512905028,
+        "expected": 2.8304658512905028
+      },
+      {
+        "check": "Q2-0022 finish",
+        "passed": true,
+        "actual": 6484.141274320928,
+        "expected": 6484.141274320928
+      },
+      {
+        "check": "Q2-0022 recharge",
+        "passed": true,
+        "actual": 7801.8314091381835,
+        "expected": 7801.8314091381835
+      },
+      {
+        "check": "Q2-0022 soc",
+        "passed": true,
+        "actual": 0.37100758860211047,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0022 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0023 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0023 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0023 energy",
+        "passed": true,
+        "actual": 2.9335654846540304,
+        "expected": 2.9335654846540304
+      },
+      {
+        "check": "Q2-0023 finish",
+        "passed": true,
+        "actual": 6805.381272187215,
+        "expected": 6805.381272187215
+      },
+      {
+        "check": "Q2-0023 recharge",
+        "passed": true,
+        "actual": 8152.855745531712,
+        "expected": 8152.855745531712
+      },
+      {
+        "check": "Q2-0023 soc",
+        "passed": true,
+        "actual": 0.34809655896577096,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0023 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0024 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0024 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0024 energy",
+        "passed": true,
+        "actual": 2.1581023674302218,
+        "expected": 2.1581023674302218
+      },
+      {
+        "check": "Q2-0024 finish",
+        "passed": true,
+        "actual": 6321.831798727168,
+        "expected": 6321.831798727168
+      },
+      {
+        "check": "Q2-0024 recharge",
+        "passed": true,
+        "actual": 7445.283593762565,
+        "expected": 7445.283593762565
+      },
+      {
+        "check": "Q2-0024 soc",
+        "passed": true,
+        "actual": 0.5204216961266174,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0024 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0025 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0025 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-MED-01 hard time",
+        "passed": true,
+        "actual": 6205.978247165092,
+        "expected": 7200
+      },
+      {
+        "check": "S008-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-WAT-01 hard time",
+        "passed": true,
+        "actual": 6205.978247165092,
+        "expected": 7200
+      },
+      {
+        "check": "S008-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0025 energy",
+        "passed": true,
+        "actual": 5.836066297505489,
+        "expected": 5.836066297505489
+      },
+      {
+        "check": "Q2-0025 finish",
+        "passed": true,
+        "actual": 6907.994009465509,
+        "expected": 6907.994009465509
+      },
+      {
+        "check": "Q2-0025 recharge",
+        "passed": true,
+        "actual": 9321.92863170658,
+        "expected": 9321.92863170658
+      },
+      {
+        "check": "Q2-0025 soc",
+        "passed": true,
+        "actual": 0.27049171281181383,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0025 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0026 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0026 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-05 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-05 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-06 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-06 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0026 energy",
+        "passed": true,
+        "actual": 1.2204344333114248,
+        "expected": 1.2204344333114248
+      },
+      {
+        "check": "Q2-0026 finish",
+        "passed": true,
+        "actual": 6513.803024019505,
+        "expected": 6513.803024019505
+      },
+      {
+        "check": "Q2-0026 recharge",
+        "passed": true,
+        "actual": 7709.324611787789,
+        "expected": 7709.324611787789
+      },
+      {
+        "check": "Q2-0026 soc",
+        "passed": true,
+        "actual": 0.6948913916721438,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0026 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0027 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0027 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0027 energy",
+        "passed": true,
+        "actual": 2.424318485056973,
+        "expected": 2.424318485056973
+      },
+      {
+        "check": "Q2-0027 finish",
+        "passed": true,
+        "actual": 7363.649517417795,
+        "expected": 7363.649517417795
+      },
+      {
+        "check": "Q2-0027 recharge",
+        "passed": true,
+        "actual": 9080.854194275817,
+        "expected": 9080.854194275817
+      },
+      {
+        "check": "Q2-0027 soc",
+        "passed": true,
+        "actual": 0.3939203787357568,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0027 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0028 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0028 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-MED-01 hard time",
+        "passed": true,
+        "actual": 7063.1347391936415,
+        "expected": 10800
+      },
+      {
+        "check": "S005-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-01 hard time",
+        "passed": true,
+        "actual": 7063.1347391936415,
+        "expected": 10800
+      },
+      {
+        "check": "S005-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0028 energy",
+        "passed": true,
+        "actual": 4.222182349592158,
+        "expected": 4.222182349592158
+      },
+      {
+        "check": "Q2-0028 finish",
+        "passed": true,
+        "actual": 7567.094096939377,
+        "expected": 7567.094096939377
+      },
+      {
+        "check": "Q2-0028 recharge",
+        "passed": true,
+        "actual": 9543.935149953919,
+        "expected": 9543.935149953919
+      },
+      {
+        "check": "Q2-0028 soc",
+        "passed": true,
+        "actual": 0.47222720630098025,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0028 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "exact coverage",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "uav U07 Q2-0001 before Q2-0012",
+        "passed": true,
+        "actual": 1626.175045862023,
+        "expected": 1626.175045862023
+      },
+      {
+        "check": "uav U07 Q2-0012 before Q2-0017",
+        "passed": true,
+        "actual": 3187.727670348645,
+        "expected": 3187.727670348645
+      },
+      {
+        "check": "uav U07 Q2-0017 before Q2-0028",
+        "passed": true,
+        "actual": 5689.905381447906,
+        "expected": 5689.905381447906
+      },
+      {
+        "check": "uav U03 Q2-0002 before Q2-0011",
+        "passed": true,
+        "actual": 1594.8926699889435,
+        "expected": 1594.8926699889435
+      },
+      {
+        "check": "uav U03 Q2-0011 before Q2-0018",
+        "passed": true,
+        "actual": 3283.532315877268,
+        "expected": 3283.532315877268
+      },
+      {
+        "check": "uav U03 Q2-0018 before Q2-0024",
+        "passed": true,
+        "actual": 4474.43927862065,
+        "expected": 4693.192152838843
+      },
+      {
+        "check": "uav U06 Q2-0003 before Q2-0013",
+        "passed": true,
+        "actual": 1869.7476752786915,
+        "expected": 1869.7476752786915
+      },
+      {
+        "check": "uav U06 Q2-0013 before Q2-0021",
+        "passed": true,
+        "actual": 3698.075235452351,
+        "expected": 3698.075235452351
+      },
+      {
+        "check": "uav U06 Q2-0021 before Q2-0027",
+        "passed": true,
+        "actual": 4847.181411278567,
+        "expected": 5403.039852379733
+      },
+      {
+        "check": "uav U04 Q2-0004 before Q2-0016",
+        "passed": true,
+        "actual": 2109.1981528997,
+        "expected": 2649.9728865186116
+      },
+      {
+        "check": "uav U04 Q2-0016 before Q2-0022",
+        "passed": true,
+        "actual": 3840.8798492619935,
+        "expected": 4434.943121421227
+      },
+      {
+        "check": "uav U02 Q2-0005 before Q2-0014",
+        "passed": true,
+        "actual": 1654.8926699889435,
+        "expected": 2043.2192663202309
+      },
+      {
+        "check": "uav U02 Q2-0014 before Q2-0023",
+        "passed": true,
+        "actual": 3986.9944747664513,
+        "expected": 4686.583553958474
+      },
+      {
+        "check": "uav U01 Q2-0006 before Q2-0009",
+        "passed": true,
+        "actual": 1190.9069627433817,
+        "expected": 1190.9069627433817
+      },
+      {
+        "check": "uav U01 Q2-0009 before Q2-0019",
+        "passed": true,
+        "actual": 3309.7046809721223,
+        "expected": 3463.809031868694
+      },
+      {
+        "check": "uav U05 Q2-0007 before Q2-0010",
+        "passed": true,
+        "actual": 1510.511588744525,
+        "expected": 1510.511588744525
+      },
+      {
+        "check": "uav U05 Q2-0010 before Q2-0020",
+        "passed": true,
+        "actual": 3492.1532520970486,
+        "expected": 3492.1532520970486
+      },
+      {
+        "check": "uav U05 Q2-0020 before Q2-0026",
+        "passed": true,
+        "actual": 4680.578014957569,
+        "expected": 5364.696848193289
+      },
+      {
+        "check": "uav U08 Q2-0008 before Q2-0015",
+        "passed": true,
+        "actual": 2173.8421660245544,
+        "expected": 2173.8421660245544
+      },
+      {
+        "check": "uav U08 Q2-0015 before Q2-0025",
+        "passed": true,
+        "actual": 4081.4428644352456,
+        "expected": 4708.282484864676
+      },
+      {
+        "check": "battery C-BAT-01 Q2-0001 before Q2-0017",
+        "passed": true,
+        "actual": 3110.8788119506025,
+        "expected": 3187.727670348645
+      },
+      {
+        "check": "battery A-BAT-03 Q2-0002 before Q2-0016",
+        "passed": true,
+        "actual": 2649.9728865186116,
+        "expected": 2649.9728865186116
+      },
+      {
+        "check": "battery A-BAT-03 Q2-0016 before Q2-0024",
+        "passed": true,
+        "actual": 4693.192152838843,
+        "expected": 4693.192152838843
+      },
+      {
+        "check": "battery B-BAT-02 Q2-0003 before Q2-0021",
+        "passed": true,
+        "actual": 3463.905937610475,
+        "expected": 3698.075235452351
+      },
+      {
+        "check": "battery A-BAT-04 Q2-0004 before Q2-0019",
+        "passed": true,
+        "actual": 3463.809031868694,
+        "expected": 3463.809031868694
+      },
+      {
+        "check": "battery A-BAT-02 Q2-0005 before Q2-0018",
+        "passed": true,
+        "actual": 2701.625822641781,
+        "expected": 3283.532315877268
+      },
+      {
+        "check": "battery A-BAT-01 Q2-0006 before Q2-0014",
+        "passed": true,
+        "actual": 2043.2192663202309,
+        "expected": 2043.2192663202309
+      },
+      {
+        "check": "battery B-BAT-01 Q2-0007 before Q2-0020",
+        "passed": true,
+        "actual": 2967.9525507923327,
+        "expected": 3492.1532520970486
+      },
+      {
+        "check": "battery C-BAT-02 Q2-0008 before Q2-0025",
+        "passed": true,
+        "actual": 4708.282484864676,
+        "expected": 4708.282484864676
+      },
+      {
+        "check": "battery A-BAT-05 Q2-0009 before Q2-0023",
+        "passed": true,
+        "actual": 4686.583553958474,
+        "expected": 4686.583553958474
+      },
+      {
+        "check": "battery B-BAT-03 Q2-0010 before Q2-0027",
+        "passed": true,
+        "actual": 5403.039852379733,
+        "expected": 5403.039852379733
+      },
+      {
+        "check": "battery A-BAT-06 Q2-0011 before Q2-0022",
+        "passed": true,
+        "actual": 4434.943121421227,
+        "expected": 4434.943121421227
+      },
+      {
+        "check": "battery C-BAT-03 Q2-0012 before Q2-0028",
+        "passed": true,
+        "actual": 4724.6807605428485,
+        "expected": 5689.905381447906
+      },
+      {
+        "check": "battery B-BAT-04 Q2-0013 before Q2-0026",
+        "passed": true,
+        "actual": 5364.696848193289,
+        "expected": 5364.696848193289
+      },
+      {
+        "check": "objective 0",
+        "passed": true,
+        "actual": 28,
+        "expected": 28
+      },
+      {
+        "check": "objective 1",
+        "passed": true,
+        "actual": 75.71131596897939,
+        "expected": 75.71131596897939
+      },
+      {
+        "check": "objective 2",
+        "passed": true,
+        "actual": 7567.094096939377,
+        "expected": 7567.094096939377
+      },
+      {
+        "check": "objective 3",
+        "passed": true,
+        "actual": 200.565886509374,
+        "expected": 200.565886509374
+      }
+    ],
+    "delivery": {
+      "S001-FOD-01": 1314.2725229310115,
+      "S001-FOD-02": 1314.2725229310115,
+      "S001-FOD-03": 1314.2725229310115,
+      "S001-HYG-01": 1314.2725229310115,
+      "S001-HYG-02": 1314.2725229310115,
+      "S001-MED-01": 1314.2725229310115,
+      "S001-MED-02": 1314.2725229310115,
+      "S001-WAT-07": 1314.2725229310115,
+      "S010-WAT-01": 1044.9830016611384,
+      "S014-FOD-01": 1242.4305043060124,
+      "S014-MED-01": 1242.4305043060124,
+      "S014-WAT-01": 1242.4305043060124,
+      "S012-MED-01": 1334.52907644985,
+      "S012-WAT-01": 1334.52907644985,
+      "S010-FOD-01": 1104.9830016611384,
+      "S010-MED-01": 1104.9830016611384,
+      "S001-WAT-01": 848.5768147050242,
+      "S013-FOD-01": 1062.7891277055958,
+      "S013-MED-01": 1062.7891277055958,
+      "S013-WAT-01": 1062.7891277055958,
+      "S002-FOD-01": 1553.3310830122773,
+      "S002-FOD-02": 1553.3310830122773,
+      "S002-HYG-01": 1553.3310830122773,
+      "S002-MED-01": 1553.3310830122773,
+      "S002-WAT-01": 1553.3310830122773,
+      "S002-WAT-03": 1553.3310830122773,
+      "S002-WAT-04": 1553.3310830122773,
+      "S004-WAT-01": 2501.952488524419,
+      "S004-FOD-01": 2812.9790870874535,
+      "S004-MED-01": 2812.9790870874535,
+      "S004-WAT-03": 2812.9790870874535,
+      "S009-MED-01": 2720.802492933106,
+      "S009-WAT-01": 2720.802492933106,
+      "S006-FOD-01": 2835.596358105334,
+      "S006-HYG-01": 2835.596358105334,
+      "S006-MED-01": 2835.596358105334,
+      "S006-WAT-01": 2835.596358105334,
+      "S006-WAT-02": 2835.596358105334,
+      "S006-WAT-03": 2835.596358105334,
+      "S015-FOD-01": 3087.3514553655214,
+      "S015-MED-01": 3087.3514553655214,
+      "S015-WAT-01": 3087.3514553655214,
+      "S002-WAT-02": 3267.046870543341,
+      "S007-FOD-01": 3521.6025152299,
+      "S007-HYG-01": 3521.6025152299,
+      "S007-MED-01": 3521.6025152299,
+      "S007-WAT-01": 3521.6025152299,
+      "S007-WAT-02": 3521.6025152299,
+      "S001-WAT-02": 3498.5497012236356,
+      "S003-FOD-01": 4899.276525898275,
+      "S003-FOD-02": 4899.276525898275,
+      "S003-HYG-01": 4899.276525898275,
+      "S003-MED-01": 4899.276525898275,
+      "S003-WAT-01": 4899.276525898275,
+      "S003-WAT-03": 4899.276525898275,
+      "S003-WAT-04": 4899.276525898275,
+      "S001-WAT-08": 4132.109130582292,
+      "S004-WAT-02": 4774.854557649731,
+      "S011-FOD-01": 4398.5523001939755,
+      "S011-MED-01": 4398.5523001939755,
+      "S011-WAT-01": 4398.5523001939755,
+      "S001-WAT-03": 4555.751656698792,
+      "S001-WAT-04": 4555.751656698792,
+      "S012-FOD-01": 5709.472197871077,
+      "S004-HYG-01": 5997.629079739511,
+      "S009-FOD-01": 5759.101975783005,
+      "S008-FOD-01": 6205.978247165092,
+      "S008-HYG-01": 6205.978247165092,
+      "S008-MED-01": 6205.978247165092,
+      "S008-WAT-01": 6205.978247165092,
+      "S008-WAT-02": 6205.978247165092,
+      "S001-WAT-05": 6222.37326943973,
+      "S001-WAT-06": 6222.37326943973,
+      "S003-WAT-02": 6631.3180182320975,
+      "S005-FOD-01": 7063.1347391936415,
+      "S005-HYG-01": 7063.1347391936415,
+      "S005-MED-01": 7063.1347391936415,
+      "S005-WAT-01": 7063.1347391936415,
+      "S005-WAT-02": 7063.1347391936415,
+      "S005-WAT-03": 7063.1347391936415
+    },
+    "routes": [
+      {
+        "route_id": "Q2-0001",
+        "candidate_id": "K1828e5c16cac500b",
+        "energy": 2.4050600594039855,
+        "finish": 1626.175045862023,
+        "soc": 0.6993674925745018,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0002",
+        "candidate_id": "K41b884755a03ab53",
+        "energy": 1.9214315187565438,
+        "finish": 1594.8926699889435,
+        "soc": 0.5730152180541014,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0003",
+        "candidate_id": "K645309ed991e9fa2",
+        "energy": 2.140365220765654,
+        "finish": 1869.7476752786915,
+        "soc": 0.46490869480858654,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0004",
+        "candidate_id": "K827727021e9b4ea3",
+        "energy": 2.9582684272003648,
+        "finish": 2109.1981528997,
+        "soc": 0.34260701617769673,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0005",
+        "candidate_id": "Ka1838e6ec77b2d25",
+        "energy": 1.892537836105976,
+        "finish": 1654.8926699889435,
+        "soc": 0.5794360364208943,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0006",
+        "candidate_id": "Kb4037a5c7e0576d0",
+        "energy": 1.2195425893044773,
+        "finish": 1190.9069627433817,
+        "soc": 0.7289905357101161,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0007",
+        "candidate_id": "Kb4dcea9456a134a0",
+        "energy": 1.8248637585718632,
+        "finish": 1510.511588744525,
+        "soc": 0.5437840603570342,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0008",
+        "candidate_id": "Kcb2b55c84e67d87c",
+        "energy": 6.2810104080250655,
+        "finish": 2173.8421660245544,
+        "soc": 0.2148736989968668,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0009",
+        "candidate_id": "Kf5d720c243a1075b",
+        "energy": 3.0353499449527557,
+        "finish": 3309.7046809721223,
+        "soc": 0.3254777900104987,
+        "start": 1190.9069627433817
+      },
+      {
+        "route_id": "Q2-0010",
+        "candidate_id": "K4bd2066b5fe7dc3c",
+        "energy": 2.8712767698831185,
+        "finish": 3492.1532520970486,
+        "soc": 0.28218080752922037,
+        "start": 1510.511588744525
+      },
+      {
+        "route_id": "Q2-0011",
+        "candidate_id": "K371497d7436d81a7",
+        "energy": 2.2548835576521644,
+        "finish": 3283.532315877268,
+        "soc": 0.4989147649661857,
+        "start": 1594.8926699889435
+      },
+      {
+        "route_id": "Q2-0012",
+        "candidate_id": "K8e2c748c649551ef",
+        "energy": 2.5979806407170596,
+        "finish": 3187.727670348645,
+        "soc": 0.6752524199103676,
+        "start": 1626.175045862023
+      },
+      {
+        "route_id": "Q2-0013",
+        "candidate_id": "K8d90beceb5941288",
+        "energy": 2.307588337094472,
+        "finish": 3698.075235452351,
+        "soc": 0.42310291572638203,
+        "start": 1869.7476752786915
+      },
+      {
+        "route_id": "Q2-0014",
+        "candidate_id": "K5ed0fd2a67098c26",
+        "energy": 2.8715168769453436,
+        "finish": 3986.9944747664513,
+        "soc": 0.3618851384565903,
+        "start": 2043.2192663202309
+      },
+      {
+        "route_id": "Q2-0015",
+        "candidate_id": "K47d3c93c96fd1eb3",
+        "energy": 3.411075641855823,
+        "finish": 4081.4428644352456,
+        "soc": 0.5736155447680221,
+        "start": 2173.8421660245544
+      },
+      {
+        "route_id": "Q2-0016",
+        "candidate_id": "Kd7ab568e699bcd78",
+        "energy": 1.2195425893044773,
+        "finish": 3840.8798492619935,
+        "soc": 0.7289905357101161,
+        "start": 2649.9728865186116
+      },
+      {
+        "route_id": "Q2-0017",
+        "candidate_id": "K6a2e5f3223bf9174",
+        "energy": 6.324596372619295,
+        "finish": 5689.905381447906,
+        "soc": 0.20942545342258811,
+        "start": 3187.727670348645
+      },
+      {
+        "route_id": "Q2-0018",
+        "candidate_id": "K4d25eefccc289311",
+        "energy": 1.2195425893044773,
+        "finish": 4474.43927862065,
+        "soc": 0.7289905357101161,
+        "start": 3283.532315877268
+      },
+      {
+        "route_id": "Q2-0019",
+        "candidate_id": "K5c3cd12420ceceb1",
+        "energy": 3.0353499449527557,
+        "finish": 5582.606750097435,
+        "soc": 0.3254777900104987,
+        "start": 3463.809031868694
+      },
+      {
+        "route_id": "Q2-0020",
+        "candidate_id": "K4c7b7001c84eb366",
+        "energy": 1.073963183411491,
+        "finish": 4680.578014957569,
+        "soc": 0.7315092041471272,
+        "start": 3492.1532520970486
+      },
+      {
+        "route_id": "Q2-0021",
+        "candidate_id": "K1ffbd54f3df7bdbb",
+        "energy": 1.2204344333114248,
+        "finish": 4847.181411278567,
+        "soc": 0.6948913916721438,
+        "start": 3698.075235452351
+      },
+      {
+        "route_id": "Q2-0022",
+        "candidate_id": "Kd1d0e13137f86d48",
+        "energy": 2.8304658512905028,
+        "finish": 6484.141274320928,
+        "soc": 0.37100758860211047,
+        "start": 4434.943121421227
+      },
+      {
+        "route_id": "Q2-0023",
+        "candidate_id": "Kae6e950b7bf1ac34",
+        "energy": 2.9335654846540304,
+        "finish": 6805.381272187215,
+        "soc": 0.34809655896577096,
+        "start": 4686.583553958474
+      },
+      {
+        "route_id": "Q2-0024",
+        "candidate_id": "Kb0cd62057d2e005e",
+        "energy": 2.1581023674302218,
+        "finish": 6321.831798727168,
+        "soc": 0.5204216961266174,
+        "start": 4693.192152838843
+      },
+      {
+        "route_id": "Q2-0025",
+        "candidate_id": "K057be62281aeda8d",
+        "energy": 5.836066297505489,
+        "finish": 6907.994009465509,
+        "soc": 0.27049171281181383,
+        "start": 4708.282484864676
+      },
+      {
+        "route_id": "Q2-0026",
+        "candidate_id": "K7288cab1aa261c76",
+        "energy": 1.2204344333114248,
+        "finish": 6513.803024019505,
+        "soc": 0.6948913916721438,
+        "start": 5364.696848193289
+      },
+      {
+        "route_id": "Q2-0027",
+        "candidate_id": "Ke5cfb1f82505be01",
+        "energy": 2.424318485056973,
+        "finish": 7363.649517417795,
+        "soc": 0.3939203787357568,
+        "start": 5403.039852379733
+      },
+      {
+        "route_id": "Q2-0028",
+        "candidate_id": "K1b4069e1511c59e5",
+        "energy": 4.222182349592158,
+        "finish": 7567.094096939377,
+        "soc": 0.47222720630098025,
+        "start": 5689.905381447906
+      }
+    ]
+  },
+  "witness": {
+    "all": true,
+    "checks_count": 426,
+    "objective": [
+      28,
+      75.71131596897939,
+      7567.094096939377,
+      70.64808661848737
+    ],
+    "assertions": [
+      {
+        "check": "Q2-0001 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0001 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-WAT-01 hard time",
+        "passed": true,
+        "actual": 1044.9830016611384,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0001 energy",
+        "passed": true,
+        "actual": 1.9214315187565438,
+        "expected": 1.9214315187565438
+      },
+      {
+        "check": "Q2-0001 finish",
+        "passed": true,
+        "actual": 1594.8926699889435,
+        "expected": 1594.8926699889435
+      },
+      {
+        "check": "Q2-0001 recharge",
+        "passed": true,
+        "actual": 2649.9728865186116,
+        "expected": 2649.9728865186116
+      },
+      {
+        "check": "Q2-0001 soc",
+        "passed": true,
+        "actual": 0.5730152180541014,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0001 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0002 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0002 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-MED-01 hard time",
+        "passed": true,
+        "actual": 906.3990480969269,
+        "expected": 10800
+      },
+      {
+        "check": "S011-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S011-WAT-01 hard time",
+        "passed": true,
+        "actual": 906.3990480969269,
+        "expected": 10800
+      },
+      {
+        "check": "Q2-0002 energy",
+        "passed": true,
+        "actual": 1.073963183411491,
+        "expected": 1.073963183411491
+      },
+      {
+        "check": "Q2-0002 finish",
+        "passed": true,
+        "actual": 1188.4247628605203,
+        "expected": 1188.4247628605203
+      },
+      {
+        "check": "Q2-0002 recharge",
+        "passed": true,
+        "actual": 2320.475475672167,
+        "expected": 2320.475475672167
+      },
+      {
+        "check": "Q2-0002 soc",
+        "passed": true,
+        "actual": 0.7315092041471272,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0002 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0003 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0003 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-MED-01 hard time",
+        "passed": true,
+        "actual": 1242.4305043060124,
+        "expected": 3600
+      },
+      {
+        "check": "S014-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S014-WAT-01 hard time",
+        "passed": true,
+        "actual": 1242.4305043060124,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0003 energy",
+        "passed": true,
+        "actual": 2.140365220765654,
+        "expected": 2.140365220765654
+      },
+      {
+        "check": "Q2-0003 finish",
+        "passed": true,
+        "actual": 1869.7476752786915,
+        "expected": 1869.7476752786915
+      },
+      {
+        "check": "Q2-0003 recharge",
+        "passed": true,
+        "actual": 3463.905937610475,
+        "expected": 3463.905937610475
+      },
+      {
+        "check": "Q2-0003 soc",
+        "passed": true,
+        "actual": 0.46490869480858654,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0003 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0004 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0004 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-MED-01 hard time",
+        "passed": true,
+        "actual": 1334.52907644985,
+        "expected": 3600
+      },
+      {
+        "check": "S012-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-WAT-01 hard time",
+        "passed": true,
+        "actual": 1334.52907644985,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0004 energy",
+        "passed": true,
+        "actual": 2.9582684272003648,
+        "expected": 2.9582684272003648
+      },
+      {
+        "check": "Q2-0004 finish",
+        "passed": true,
+        "actual": 2109.1981528997,
+        "expected": 2109.1981528997
+      },
+      {
+        "check": "Q2-0004 recharge",
+        "passed": true,
+        "actual": 3463.809031868694,
+        "expected": 3463.809031868694
+      },
+      {
+        "check": "Q2-0004 soc",
+        "passed": true,
+        "actual": 0.34260701617769673,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0004 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0005 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0005 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-MED-01 hard time",
+        "passed": true,
+        "actual": 1209.4213122433111,
+        "expected": 3600
+      },
+      {
+        "check": "S006-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-01 hard time",
+        "passed": true,
+        "actual": 1209.4213122433111,
+        "expected": 3600
+      },
+      {
+        "check": "S006-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S006-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0005 energy",
+        "passed": true,
+        "actual": 2.5979806407170596,
+        "expected": 2.5979806407170596
+      },
+      {
+        "check": "Q2-0005 finish",
+        "passed": true,
+        "actual": 1561.5526244866223,
+        "expected": 1561.5526244866223
+      },
+      {
+        "check": "Q2-0005 recharge",
+        "passed": true,
+        "actual": 3098.505714680826,
+        "expected": 3098.505714680826
+      },
+      {
+        "check": "Q2-0005 soc",
+        "passed": true,
+        "actual": 0.6752524199103676,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0005 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0006 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0006 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S010-MED-01 hard time",
+        "passed": true,
+        "actual": 1104.9830016611384,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0006 energy",
+        "passed": true,
+        "actual": 1.892537836105976,
+        "expected": 1.892537836105976
+      },
+      {
+        "check": "Q2-0006 finish",
+        "passed": true,
+        "actual": 1654.8926699889435,
+        "expected": 1654.8926699889435
+      },
+      {
+        "check": "Q2-0006 recharge",
+        "passed": true,
+        "actual": 2701.625822641781,
+        "expected": 2701.625822641781
+      },
+      {
+        "check": "Q2-0006 soc",
+        "passed": true,
+        "actual": 0.5794360364208943,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0006 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0007 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0007 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-01 hard time",
+        "passed": true,
+        "actual": 848.5768147050242,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0007 energy",
+        "passed": true,
+        "actual": 1.2195425893044773,
+        "expected": 1.2195425893044773
+      },
+      {
+        "check": "Q2-0007 finish",
+        "passed": true,
+        "actual": 1190.9069627433817,
+        "expected": 1190.9069627433817
+      },
+      {
+        "check": "Q2-0007 recharge",
+        "passed": true,
+        "actual": 2043.2192663202309,
+        "expected": 2043.2192663202309
+      },
+      {
+        "check": "Q2-0007 soc",
+        "passed": true,
+        "actual": 0.7289905357101161,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0007 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0008 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0008 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-FOD-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-FOD-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-MED-01 hard time",
+        "passed": true,
+        "actual": 1553.3310830122773,
+        "expected": 3600
+      },
+      {
+        "check": "S002-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-01 hard time",
+        "passed": true,
+        "actual": 1553.3310830122773,
+        "expected": 3600
+      },
+      {
+        "check": "S002-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-04 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-04 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0008 energy",
+        "passed": true,
+        "actual": 6.2810104080250655,
+        "expected": 6.2810104080250655
+      },
+      {
+        "check": "Q2-0008 finish",
+        "passed": true,
+        "actual": 2173.8421660245544,
+        "expected": 2173.8421660245544
+      },
+      {
+        "check": "Q2-0008 recharge",
+        "passed": true,
+        "actual": 4708.282484864676,
+        "expected": 4708.282484864676
+      },
+      {
+        "check": "Q2-0008 soc",
+        "passed": true,
+        "actual": 0.2148736989968668,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0008 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0009 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0009 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-05 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-05 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-06 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-06 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0009 energy",
+        "passed": true,
+        "actual": 1.2204344333114248,
+        "expected": 1.2204344333114248
+      },
+      {
+        "check": "Q2-0009 finish",
+        "passed": true,
+        "actual": 2337.5309386867357,
+        "expected": 2337.5309386867357
+      },
+      {
+        "check": "Q2-0009 recharge",
+        "passed": true,
+        "actual": 3533.0525264550197,
+        "expected": 3533.0525264550197
+      },
+      {
+        "check": "Q2-0009 soc",
+        "passed": true,
+        "actual": 0.6948913916721438,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0009 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0010 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0010 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-01 hard time",
+        "passed": true,
+        "actual": 2501.952488524419,
+        "expected": 7200
+      },
+      {
+        "check": "Q2-0010 energy",
+        "passed": true,
+        "actual": 3.0353499449527557,
+        "expected": 3.0353499449527557
+      },
+      {
+        "check": "Q2-0010 finish",
+        "passed": true,
+        "actual": 3309.7046809721223,
+        "expected": 3309.7046809721223
+      },
+      {
+        "check": "Q2-0010 recharge",
+        "passed": true,
+        "actual": 4686.583553958474,
+        "expected": 4686.583553958474
+      },
+      {
+        "check": "Q2-0010 soc",
+        "passed": true,
+        "actual": 0.3254777900104987,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0010 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0011 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0011 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-FOD-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-HYG-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-HYG-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-01 hard time",
+        "passed": true,
+        "actual": 2875.825147417634,
+        "expected": 3600
+      },
+      {
+        "check": "S001-MED-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-MED-02 hard time",
+        "passed": true,
+        "actual": 2875.825147417634,
+        "expected": 3600
+      },
+      {
+        "check": "S001-WAT-07 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-07 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0011 energy",
+        "passed": true,
+        "actual": 2.4050600594039855,
+        "expected": 2.4050600594039855
+      },
+      {
+        "check": "Q2-0011 finish",
+        "passed": true,
+        "actual": 3187.727670348645,
+        "expected": 3187.727670348645
+      },
+      {
+        "check": "Q2-0011 recharge",
+        "passed": true,
+        "actual": 4672.431436437224,
+        "expected": 4672.431436437224
+      },
+      {
+        "check": "Q2-0011 soc",
+        "passed": true,
+        "actual": 0.6993674925745018,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0011 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0012 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0012 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-MED-01 hard time",
+        "passed": true,
+        "actual": 2720.802492933106,
+        "expected": 10800
+      },
+      {
+        "check": "S009-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-WAT-01 hard time",
+        "passed": true,
+        "actual": 2720.802492933106,
+        "expected": 10800
+      },
+      {
+        "check": "Q2-0012 energy",
+        "passed": true,
+        "actual": 2.2548835576521644,
+        "expected": 2.2548835576521644
+      },
+      {
+        "check": "Q2-0012 finish",
+        "passed": true,
+        "actual": 3283.532315877268,
+        "expected": 3283.532315877268
+      },
+      {
+        "check": "Q2-0012 recharge",
+        "passed": true,
+        "actual": 4434.943121421227,
+        "expected": 4434.943121421227
+      },
+      {
+        "check": "Q2-0012 soc",
+        "passed": true,
+        "actual": 0.4989147649661857,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0012 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0013 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0013 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0013 energy",
+        "passed": true,
+        "actual": 2.424318485056973,
+        "expected": 2.424318485056973
+      },
+      {
+        "check": "Q2-0013 finish",
+        "passed": true,
+        "actual": 3830.357340316754,
+        "expected": 3830.357340316754
+      },
+      {
+        "check": "Q2-0013 recharge",
+        "passed": true,
+        "actual": 5547.562017174775,
+        "expected": 5547.562017174775
+      },
+      {
+        "check": "Q2-0013 soc",
+        "passed": true,
+        "actual": 0.3939203787357568,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0013 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0014 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0014 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S002-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0014 energy",
+        "passed": true,
+        "actual": 2.8715168769453436,
+        "expected": 2.8715168769453436
+      },
+      {
+        "check": "Q2-0014 finish",
+        "passed": true,
+        "actual": 3986.9944747664513,
+        "expected": 3986.9944747664513
+      },
+      {
+        "check": "Q2-0014 recharge",
+        "passed": true,
+        "actual": 5316.543794772884,
+        "expected": 5316.543794772884
+      },
+      {
+        "check": "Q2-0014 soc",
+        "passed": true,
+        "actual": 0.3618851384565903,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0014 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0015 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0015 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-MED-01 hard time",
+        "passed": true,
+        "actual": 3521.6025152299,
+        "expected": 3600
+      },
+      {
+        "check": "S007-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-WAT-01 hard time",
+        "passed": true,
+        "actual": 3521.6025152299,
+        "expected": 3600
+      },
+      {
+        "check": "S007-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S007-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0015 energy",
+        "passed": true,
+        "actual": 3.411075641855823,
+        "expected": 3.411075641855823
+      },
+      {
+        "check": "Q2-0015 finish",
+        "passed": true,
+        "actual": 4081.4428644352456,
+        "expected": 4081.4428644352456
+      },
+      {
+        "check": "Q2-0015 recharge",
+        "passed": true,
+        "actual": 5838.609184104531,
+        "expected": 5838.609184104531
+      },
+      {
+        "check": "Q2-0015 soc",
+        "passed": true,
+        "actual": 0.5736155447680221,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0015 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0016 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0016 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-MED-01 hard time",
+        "passed": true,
+        "actual": 3400.3200663923317,
+        "expected": 3600
+      },
+      {
+        "check": "S013-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S013-WAT-01 hard time",
+        "passed": true,
+        "actual": 3400.3200663923317,
+        "expected": 3600
+      },
+      {
+        "check": "Q2-0016 energy",
+        "passed": true,
+        "actual": 1.8248637585718632,
+        "expected": 1.8248637585718632
+      },
+      {
+        "check": "Q2-0016 finish",
+        "passed": true,
+        "actual": 3848.0425274312606,
+        "expected": 3848.0425274312606
+      },
+      {
+        "check": "Q2-0016 recharge",
+        "passed": true,
+        "actual": 5305.483489479068,
+        "expected": 5305.483489479068
+      },
+      {
+        "check": "Q2-0016 soc",
+        "passed": true,
+        "actual": 0.5437840603570342,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0016 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0017 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0017 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0017 energy",
+        "passed": true,
+        "actual": 1.2195425893044773,
+        "expected": 1.2195425893044773
+      },
+      {
+        "check": "Q2-0017 finish",
+        "passed": true,
+        "actual": 3840.8798492619935,
+        "expected": 3840.8798492619935
+      },
+      {
+        "check": "Q2-0017 recharge",
+        "passed": true,
+        "actual": 4693.192152838843,
+        "expected": 4693.192152838843
+      },
+      {
+        "check": "Q2-0017 soc",
+        "passed": true,
+        "actual": 0.7289905357101161,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0017 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0018 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0018 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-MED-01 hard time",
+        "passed": true,
+        "actual": 4560.957028094381,
+        "expected": 10800
+      },
+      {
+        "check": "S005-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-01 hard time",
+        "passed": true,
+        "actual": 4560.957028094381,
+        "expected": 10800
+      },
+      {
+        "check": "S005-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S005-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0018 energy",
+        "passed": true,
+        "actual": 4.222182349592158,
+        "expected": 4.222182349592158
+      },
+      {
+        "check": "Q2-0018 finish",
+        "passed": true,
+        "actual": 5064.916385840116,
+        "expected": 5064.916385840116
+      },
+      {
+        "check": "Q2-0018 recharge",
+        "passed": true,
+        "actual": 7041.757438854659,
+        "expected": 7041.757438854659
+      },
+      {
+        "check": "Q2-0018 soc",
+        "passed": true,
+        "actual": 0.47222720630098025,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0018 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0019 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0019 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-08 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-08 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0019 energy",
+        "passed": true,
+        "actual": 1.2195425893044773,
+        "expected": 1.2195425893044773
+      },
+      {
+        "check": "Q2-0019 finish",
+        "passed": true,
+        "actual": 4474.43927862065,
+        "expected": 4474.43927862065
+      },
+      {
+        "check": "Q2-0019 recharge",
+        "passed": true,
+        "actual": 5326.751582197499,
+        "expected": 5326.751582197499
+      },
+      {
+        "check": "Q2-0019 soc",
+        "passed": true,
+        "actual": 0.7289905357101161,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0019 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0020 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0020 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0020 energy",
+        "passed": true,
+        "actual": 3.0353499449527557,
+        "expected": 3.0353499449527557
+      },
+      {
+        "check": "Q2-0020 finish",
+        "passed": true,
+        "actual": 5582.606750097435,
+        "expected": 5582.606750097435
+      },
+      {
+        "check": "Q2-0020 recharge",
+        "passed": true,
+        "actual": 6959.485623083787,
+        "expected": 6959.485623083787
+      },
+      {
+        "check": "Q2-0020 soc",
+        "passed": true,
+        "actual": 0.3254777900104987,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0020 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0021 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0021 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-04 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S001-WAT-04 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0021 energy",
+        "passed": true,
+        "actual": 1.2204344333114248,
+        "expected": 1.2204344333114248
+      },
+      {
+        "check": "Q2-0021 finish",
+        "passed": true,
+        "actual": 4979.46351614297,
+        "expected": 4979.46351614297
+      },
+      {
+        "check": "Q2-0021 recharge",
+        "passed": true,
+        "actual": 6174.985103911254,
+        "expected": 6174.985103911254
+      },
+      {
+        "check": "Q2-0021 soc",
+        "passed": true,
+        "actual": 0.6948913916721438,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0021 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0022 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0022 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S012-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0022 energy",
+        "passed": true,
+        "actual": 2.8304658512905028,
+        "expected": 2.8304658512905028
+      },
+      {
+        "check": "Q2-0022 finish",
+        "passed": true,
+        "actual": 6484.141274320928,
+        "expected": 6484.141274320928
+      },
+      {
+        "check": "Q2-0022 recharge",
+        "passed": true,
+        "actual": 7801.8314091381835,
+        "expected": 7801.8314091381835
+      },
+      {
+        "check": "Q2-0022 soc",
+        "passed": true,
+        "actual": 0.37100758860211047,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0022 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0023 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0023 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0023 energy",
+        "passed": true,
+        "actual": 2.9335654846540304,
+        "expected": 2.9335654846540304
+      },
+      {
+        "check": "Q2-0023 finish",
+        "passed": true,
+        "actual": 6805.381272187215,
+        "expected": 6805.381272187215
+      },
+      {
+        "check": "Q2-0023 recharge",
+        "passed": true,
+        "actual": 8152.855745531712,
+        "expected": 8152.855745531712
+      },
+      {
+        "check": "Q2-0023 soc",
+        "passed": true,
+        "actual": 0.34809655896577096,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0023 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0024 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0024 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S009-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0024 energy",
+        "passed": true,
+        "actual": 2.1581023674302218,
+        "expected": 2.1581023674302218
+      },
+      {
+        "check": "Q2-0024 finish",
+        "passed": true,
+        "actual": 6321.831798727168,
+        "expected": 6321.831798727168
+      },
+      {
+        "check": "Q2-0024 recharge",
+        "passed": true,
+        "actual": 7445.283593762565,
+        "expected": 7445.283593762565
+      },
+      {
+        "check": "Q2-0024 soc",
+        "passed": true,
+        "actual": 0.5204216961266174,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0024 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0025 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0025 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-MED-01 hard time",
+        "passed": true,
+        "actual": 6205.978247165092,
+        "expected": 7200
+      },
+      {
+        "check": "S008-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-WAT-01 hard time",
+        "passed": true,
+        "actual": 6205.978247165092,
+        "expected": 7200
+      },
+      {
+        "check": "S008-WAT-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S008-WAT-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0025 energy",
+        "passed": true,
+        "actual": 5.836066297505489,
+        "expected": 5.836066297505489
+      },
+      {
+        "check": "Q2-0025 finish",
+        "passed": true,
+        "actual": 6907.994009465509,
+        "expected": 6907.994009465509
+      },
+      {
+        "check": "Q2-0025 recharge",
+        "passed": true,
+        "actual": 9321.92863170658,
+        "expected": 9321.92863170658
+      },
+      {
+        "check": "Q2-0025 soc",
+        "passed": true,
+        "actual": 0.27049171281181383,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0025 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0026 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0026 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-MED-01 hard time",
+        "passed": true,
+        "actual": 6197.0672962297995,
+        "expected": 7200
+      },
+      {
+        "check": "S015-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S015-WAT-01 hard time",
+        "passed": true,
+        "actual": 6197.0672962297995,
+        "expected": 10800
+      },
+      {
+        "check": "Q2-0026 energy",
+        "passed": true,
+        "actual": 2.307588337094472,
+        "expected": 2.307588337094472
+      },
+      {
+        "check": "Q2-0026 finish",
+        "passed": true,
+        "actual": 6807.791076316629,
+        "expected": 6807.791076316629
+      },
+      {
+        "check": "Q2-0026 recharge",
+        "passed": true,
+        "actual": 8474.412689057566,
+        "expected": 8474.412689057566
+      },
+      {
+        "check": "Q2-0026 soc",
+        "passed": true,
+        "actual": 0.42310291572638203,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0026 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0027 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0027 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-FOD-02 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-FOD-02 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-HYG-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-HYG-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-MED-01 hard time",
+        "passed": true,
+        "actual": 6776.465241389747,
+        "expected": 7200
+      },
+      {
+        "check": "S003-WAT-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-01 hard time",
+        "passed": true,
+        "actual": 6776.465241389747,
+        "expected": 7200
+      },
+      {
+        "check": "S003-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-04 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S003-WAT-04 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0027 energy",
+        "passed": true,
+        "actual": 6.324596372619295,
+        "expected": 6.324596372619295
+      },
+      {
+        "check": "Q2-0027 finish",
+        "passed": true,
+        "actual": 7567.094096939377,
+        "expected": 7567.094096939377
+      },
+      {
+        "check": "Q2-0027 recharge",
+        "passed": true,
+        "actual": 10113.338947857103,
+        "expected": 10113.338947857103
+      },
+      {
+        "check": "Q2-0027 soc",
+        "passed": true,
+        "actual": 0.20942545342258811,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0027 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0028 capacity",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0028 identifiers",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-FOD-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-FOD-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-MED-01 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-MED-01 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-MED-01 hard time",
+        "passed": true,
+        "actual": 6850.029515517704,
+        "expected": 7200
+      },
+      {
+        "check": "S004-WAT-03 unique",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "S004-WAT-03 destination",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "Q2-0028 energy",
+        "passed": true,
+        "actual": 2.8712767698831185,
+        "expected": 2.8712767698831185
+      },
+      {
+        "check": "Q2-0028 finish",
+        "passed": true,
+        "actual": 7529.203680527299,
+        "expected": 7529.203680527299
+      },
+      {
+        "check": "Q2-0028 recharge",
+        "passed": true,
+        "actual": 9440.090280809984,
+        "expected": 9440.090280809984
+      },
+      {
+        "check": "Q2-0028 soc",
+        "passed": true,
+        "actual": 0.28218080752922037,
+        "expected": 0.2
+      },
+      {
+        "check": "Q2-0028 start",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "exact coverage",
+        "passed": true,
+        "actual": null,
+        "expected": null
+      },
+      {
+        "check": "uav U03 Q2-0001 before Q2-0012",
+        "passed": true,
+        "actual": 1594.8926699889435,
+        "expected": 1594.8926699889435
+      },
+      {
+        "check": "uav U03 Q2-0012 before Q2-0019",
+        "passed": true,
+        "actual": 3283.532315877268,
+        "expected": 3283.532315877268
+      },
+      {
+        "check": "uav U03 Q2-0019 before Q2-0024",
+        "passed": true,
+        "actual": 4474.43927862065,
+        "expected": 4693.192152838843
+      },
+      {
+        "check": "uav U05 Q2-0002 before Q2-0009",
+        "passed": true,
+        "actual": 1188.4247628605203,
+        "expected": 1188.4247628605203
+      },
+      {
+        "check": "uav U05 Q2-0009 before Q2-0016",
+        "passed": true,
+        "actual": 2337.5309386867357,
+        "expected": 2337.5309386867357
+      },
+      {
+        "check": "uav U05 Q2-0016 before Q2-0028",
+        "passed": true,
+        "actual": 3848.0425274312606,
+        "expected": 5547.562017174775
+      },
+      {
+        "check": "uav U06 Q2-0003 before Q2-0013",
+        "passed": true,
+        "actual": 1869.7476752786915,
+        "expected": 1869.7476752786915
+      },
+      {
+        "check": "uav U06 Q2-0013 before Q2-0021",
+        "passed": true,
+        "actual": 3830.357340316754,
+        "expected": 3830.357340316754
+      },
+      {
+        "check": "uav U06 Q2-0021 before Q2-0026",
+        "passed": true,
+        "actual": 4979.46351614297,
+        "expected": 4979.46351614297
+      },
+      {
+        "check": "uav U04 Q2-0004 before Q2-0017",
+        "passed": true,
+        "actual": 2109.1981528997,
+        "expected": 2649.9728865186116
+      },
+      {
+        "check": "uav U04 Q2-0017 before Q2-0022",
+        "passed": true,
+        "actual": 3840.8798492619935,
+        "expected": 4434.943121421227
+      },
+      {
+        "check": "uav U07 Q2-0005 before Q2-0011",
+        "passed": true,
+        "actual": 1561.5526244866223,
+        "expected": 1561.5526244866223
+      },
+      {
+        "check": "uav U07 Q2-0011 before Q2-0018",
+        "passed": true,
+        "actual": 3187.727670348645,
+        "expected": 3187.727670348645
+      },
+      {
+        "check": "uav U07 Q2-0018 before Q2-0027",
+        "passed": true,
+        "actual": 5064.916385840116,
+        "expected": 5064.916385840116
+      },
+      {
+        "check": "uav U02 Q2-0006 before Q2-0014",
+        "passed": true,
+        "actual": 1654.8926699889435,
+        "expected": 2043.2192663202309
+      },
+      {
+        "check": "uav U02 Q2-0014 before Q2-0023",
+        "passed": true,
+        "actual": 3986.9944747664513,
+        "expected": 4686.583553958474
+      },
+      {
+        "check": "uav U01 Q2-0007 before Q2-0010",
+        "passed": true,
+        "actual": 1190.9069627433817,
+        "expected": 1190.9069627433817
+      },
+      {
+        "check": "uav U01 Q2-0010 before Q2-0020",
+        "passed": true,
+        "actual": 3309.7046809721223,
+        "expected": 3463.809031868694
+      },
+      {
+        "check": "uav U08 Q2-0008 before Q2-0015",
+        "passed": true,
+        "actual": 2173.8421660245544,
+        "expected": 2173.8421660245544
+      },
+      {
+        "check": "uav U08 Q2-0015 before Q2-0025",
+        "passed": true,
+        "actual": 4081.4428644352456,
+        "expected": 4708.282484864676
+      },
+      {
+        "check": "battery A-BAT-03 Q2-0001 before Q2-0017",
+        "passed": true,
+        "actual": 2649.9728865186116,
+        "expected": 2649.9728865186116
+      },
+      {
+        "check": "battery A-BAT-03 Q2-0017 before Q2-0024",
+        "passed": true,
+        "actual": 4693.192152838843,
+        "expected": 4693.192152838843
+      },
+      {
+        "check": "battery B-BAT-01 Q2-0002 before Q2-0016",
+        "passed": true,
+        "actual": 2320.475475672167,
+        "expected": 2337.5309386867357
+      },
+      {
+        "check": "battery B-BAT-02 Q2-0003 before Q2-0021",
+        "passed": true,
+        "actual": 3463.905937610475,
+        "expected": 3830.357340316754
+      },
+      {
+        "check": "battery A-BAT-04 Q2-0004 before Q2-0020",
+        "passed": true,
+        "actual": 3463.809031868694,
+        "expected": 3463.809031868694
+      },
+      {
+        "check": "battery C-BAT-03 Q2-0005 before Q2-0018",
+        "passed": true,
+        "actual": 3098.505714680826,
+        "expected": 3187.727670348645
+      },
+      {
+        "check": "battery A-BAT-02 Q2-0006 before Q2-0019",
+        "passed": true,
+        "actual": 2701.625822641781,
+        "expected": 3283.532315877268
+      },
+      {
+        "check": "battery A-BAT-01 Q2-0007 before Q2-0014",
+        "passed": true,
+        "actual": 2043.2192663202309,
+        "expected": 2043.2192663202309
+      },
+      {
+        "check": "battery C-BAT-02 Q2-0008 before Q2-0025",
+        "passed": true,
+        "actual": 4708.282484864676,
+        "expected": 4708.282484864676
+      },
+      {
+        "check": "battery B-BAT-04 Q2-0009 before Q2-0026",
+        "passed": true,
+        "actual": 3533.0525264550197,
+        "expected": 4979.46351614297
+      },
+      {
+        "check": "battery A-BAT-05 Q2-0010 before Q2-0023",
+        "passed": true,
+        "actual": 4686.583553958474,
+        "expected": 4686.583553958474
+      },
+      {
+        "check": "battery C-BAT-01 Q2-0011 before Q2-0027",
+        "passed": true,
+        "actual": 4672.431436437224,
+        "expected": 5064.916385840116
+      },
+      {
+        "check": "battery A-BAT-06 Q2-0012 before Q2-0022",
+        "passed": true,
+        "actual": 4434.943121421227,
+        "expected": 4434.943121421227
+      },
+      {
+        "check": "battery B-BAT-03 Q2-0013 before Q2-0028",
+        "passed": true,
+        "actual": 5547.562017174775,
+        "expected": 5547.562017174775
+      },
+      {
+        "check": "objective 0",
+        "passed": true,
+        "actual": 28,
+        "expected": 28
+      },
+      {
+        "check": "objective 1",
+        "passed": true,
+        "actual": 75.71131596897939,
+        "expected": 75.71131596897939
+      },
+      {
+        "check": "objective 2",
+        "passed": true,
+        "actual": 7567.094096939377,
+        "expected": 7567.094096939377
+      },
+      {
+        "check": "objective 3",
+        "passed": true,
+        "actual": 70.64808661848737,
+        "expected": 70.64808661848737
+      }
+    ],
+    "delivery": {
+      "S010-WAT-01": 1044.9830016611384,
+      "S011-FOD-01": 906.3990480969269,
+      "S011-MED-01": 906.3990480969269,
+      "S011-WAT-01": 906.3990480969269,
+      "S014-FOD-01": 1242.4305043060124,
+      "S014-MED-01": 1242.4305043060124,
+      "S014-WAT-01": 1242.4305043060124,
+      "S012-MED-01": 1334.52907644985,
+      "S012-WAT-01": 1334.52907644985,
+      "S006-FOD-01": 1209.4213122433111,
+      "S006-HYG-01": 1209.4213122433111,
+      "S006-MED-01": 1209.4213122433111,
+      "S006-WAT-01": 1209.4213122433111,
+      "S006-WAT-02": 1209.4213122433111,
+      "S006-WAT-03": 1209.4213122433111,
+      "S010-FOD-01": 1104.9830016611384,
+      "S010-MED-01": 1104.9830016611384,
+      "S001-WAT-01": 848.5768147050242,
+      "S002-FOD-01": 1553.3310830122773,
+      "S002-FOD-02": 1553.3310830122773,
+      "S002-HYG-01": 1553.3310830122773,
+      "S002-MED-01": 1553.3310830122773,
+      "S002-WAT-01": 1553.3310830122773,
+      "S002-WAT-03": 1553.3310830122773,
+      "S002-WAT-04": 1553.3310830122773,
+      "S001-WAT-05": 2046.1011841069615,
+      "S001-WAT-06": 2046.1011841069615,
+      "S004-WAT-01": 2501.952488524419,
+      "S001-FOD-01": 2875.825147417634,
+      "S001-FOD-02": 2875.825147417634,
+      "S001-FOD-03": 2875.825147417634,
+      "S001-HYG-01": 2875.825147417634,
+      "S001-HYG-02": 2875.825147417634,
+      "S001-MED-01": 2875.825147417634,
+      "S001-MED-02": 2875.825147417634,
+      "S001-WAT-07": 2875.825147417634,
+      "S009-MED-01": 2720.802492933106,
+      "S009-WAT-01": 2720.802492933106,
+      "S003-WAT-02": 3098.025841131056,
+      "S002-WAT-02": 3267.046870543341,
+      "S007-FOD-01": 3521.6025152299,
+      "S007-HYG-01": 3521.6025152299,
+      "S007-MED-01": 3521.6025152299,
+      "S007-WAT-01": 3521.6025152299,
+      "S007-WAT-02": 3521.6025152299,
+      "S013-FOD-01": 3400.3200663923317,
+      "S013-MED-01": 3400.3200663923317,
+      "S013-WAT-01": 3400.3200663923317,
+      "S001-WAT-02": 3498.5497012236356,
+      "S005-FOD-01": 4560.957028094381,
+      "S005-HYG-01": 4560.957028094381,
+      "S005-MED-01": 4560.957028094381,
+      "S005-WAT-01": 4560.957028094381,
+      "S005-WAT-02": 4560.957028094381,
+      "S005-WAT-03": 4560.957028094381,
+      "S001-WAT-08": 4132.109130582292,
+      "S004-WAT-02": 4774.854557649731,
+      "S001-WAT-03": 4688.033761563195,
+      "S001-WAT-04": 4688.033761563195,
+      "S012-FOD-01": 5709.472197871077,
+      "S004-HYG-01": 5997.629079739511,
+      "S009-FOD-01": 5759.101975783005,
+      "S008-FOD-01": 6205.978247165092,
+      "S008-HYG-01": 6205.978247165092,
+      "S008-MED-01": 6205.978247165092,
+      "S008-WAT-01": 6205.978247165092,
+      "S008-WAT-02": 6205.978247165092,
+      "S015-FOD-01": 6197.0672962297995,
+      "S015-MED-01": 6197.0672962297995,
+      "S015-WAT-01": 6197.0672962297995,
+      "S003-FOD-01": 6776.465241389747,
+      "S003-FOD-02": 6776.465241389747,
+      "S003-HYG-01": 6776.465241389747,
+      "S003-MED-01": 6776.465241389747,
+      "S003-WAT-01": 6776.465241389747,
+      "S003-WAT-03": 6776.465241389747,
+      "S003-WAT-04": 6776.465241389747,
+      "S004-FOD-01": 6850.029515517704,
+      "S004-MED-01": 6850.029515517704,
+      "S004-WAT-03": 6850.029515517704
+    },
+    "routes": [
+      {
+        "route_id": "Q2-0001",
+        "candidate_id": "K41b884755a03ab53",
+        "energy": 1.9214315187565438,
+        "finish": 1594.8926699889435,
+        "soc": 0.5730152180541014,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0002",
+        "candidate_id": "K4c7b7001c84eb366",
+        "energy": 1.073963183411491,
+        "finish": 1188.4247628605203,
+        "soc": 0.7315092041471272,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0003",
+        "candidate_id": "K645309ed991e9fa2",
+        "energy": 2.140365220765654,
+        "finish": 1869.7476752786915,
+        "soc": 0.46490869480858654,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0004",
+        "candidate_id": "K827727021e9b4ea3",
+        "energy": 2.9582684272003648,
+        "finish": 2109.1981528997,
+        "soc": 0.34260701617769673,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0005",
+        "candidate_id": "K8e2c748c649551ef",
+        "energy": 2.5979806407170596,
+        "finish": 1561.5526244866223,
+        "soc": 0.6752524199103676,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0006",
+        "candidate_id": "Ka1838e6ec77b2d25",
+        "energy": 1.892537836105976,
+        "finish": 1654.8926699889435,
+        "soc": 0.5794360364208943,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0007",
+        "candidate_id": "Kb4037a5c7e0576d0",
+        "energy": 1.2195425893044773,
+        "finish": 1190.9069627433817,
+        "soc": 0.7289905357101161,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0008",
+        "candidate_id": "Kcb2b55c84e67d87c",
+        "energy": 6.2810104080250655,
+        "finish": 2173.8421660245544,
+        "soc": 0.2148736989968668,
+        "start": 0.0
+      },
+      {
+        "route_id": "Q2-0009",
+        "candidate_id": "K7288cab1aa261c76",
+        "energy": 1.2204344333114248,
+        "finish": 2337.5309386867357,
+        "soc": 0.6948913916721438,
+        "start": 1188.4247628605203
+      },
+      {
+        "route_id": "Q2-0010",
+        "candidate_id": "Kf5d720c243a1075b",
+        "energy": 3.0353499449527557,
+        "finish": 3309.7046809721223,
+        "soc": 0.3254777900104987,
+        "start": 1190.9069627433817
+      },
+      {
+        "route_id": "Q2-0011",
+        "candidate_id": "K1828e5c16cac500b",
+        "energy": 2.4050600594039855,
+        "finish": 3187.727670348645,
+        "soc": 0.6993674925745018,
+        "start": 1561.5526244866223
+      },
+      {
+        "route_id": "Q2-0012",
+        "candidate_id": "K371497d7436d81a7",
+        "energy": 2.2548835576521644,
+        "finish": 3283.532315877268,
+        "soc": 0.4989147649661857,
+        "start": 1594.8926699889435
+      },
+      {
+        "route_id": "Q2-0013",
+        "candidate_id": "Ke5cfb1f82505be01",
+        "energy": 2.424318485056973,
+        "finish": 3830.357340316754,
+        "soc": 0.3939203787357568,
+        "start": 1869.7476752786915
+      },
+      {
+        "route_id": "Q2-0014",
+        "candidate_id": "K5ed0fd2a67098c26",
+        "energy": 2.8715168769453436,
+        "finish": 3986.9944747664513,
+        "soc": 0.3618851384565903,
+        "start": 2043.2192663202309
+      },
+      {
+        "route_id": "Q2-0015",
+        "candidate_id": "K47d3c93c96fd1eb3",
+        "energy": 3.411075641855823,
+        "finish": 4081.4428644352456,
+        "soc": 0.5736155447680221,
+        "start": 2173.8421660245544
+      },
+      {
+        "route_id": "Q2-0016",
+        "candidate_id": "Kb4dcea9456a134a0",
+        "energy": 1.8248637585718632,
+        "finish": 3848.0425274312606,
+        "soc": 0.5437840603570342,
+        "start": 2337.5309386867357
+      },
+      {
+        "route_id": "Q2-0017",
+        "candidate_id": "Kd7ab568e699bcd78",
+        "energy": 1.2195425893044773,
+        "finish": 3840.8798492619935,
+        "soc": 0.7289905357101161,
+        "start": 2649.9728865186116
+      },
+      {
+        "route_id": "Q2-0018",
+        "candidate_id": "K1b4069e1511c59e5",
+        "energy": 4.222182349592158,
+        "finish": 5064.916385840116,
+        "soc": 0.47222720630098025,
+        "start": 3187.727670348645
+      },
+      {
+        "route_id": "Q2-0019",
+        "candidate_id": "K4d25eefccc289311",
+        "energy": 1.2195425893044773,
+        "finish": 4474.43927862065,
+        "soc": 0.7289905357101161,
+        "start": 3283.532315877268
+      },
+      {
+        "route_id": "Q2-0020",
+        "candidate_id": "K5c3cd12420ceceb1",
+        "energy": 3.0353499449527557,
+        "finish": 5582.606750097435,
+        "soc": 0.3254777900104987,
+        "start": 3463.809031868694
+      },
+      {
+        "route_id": "Q2-0021",
+        "candidate_id": "K1ffbd54f3df7bdbb",
+        "energy": 1.2204344333114248,
+        "finish": 4979.46351614297,
+        "soc": 0.6948913916721438,
+        "start": 3830.357340316754
+      },
+      {
+        "route_id": "Q2-0022",
+        "candidate_id": "Kd1d0e13137f86d48",
+        "energy": 2.8304658512905028,
+        "finish": 6484.141274320928,
+        "soc": 0.37100758860211047,
+        "start": 4434.943121421227
+      },
+      {
+        "route_id": "Q2-0023",
+        "candidate_id": "Kae6e950b7bf1ac34",
+        "energy": 2.9335654846540304,
+        "finish": 6805.381272187215,
+        "soc": 0.34809655896577096,
+        "start": 4686.583553958474
+      },
+      {
+        "route_id": "Q2-0024",
+        "candidate_id": "Kb0cd62057d2e005e",
+        "energy": 2.1581023674302218,
+        "finish": 6321.831798727168,
+        "soc": 0.5204216961266174,
+        "start": 4693.192152838843
+      },
+      {
+        "route_id": "Q2-0025",
+        "candidate_id": "K057be62281aeda8d",
+        "energy": 5.836066297505489,
+        "finish": 6907.994009465509,
+        "soc": 0.27049171281181383,
+        "start": 4708.282484864676
+      },
+      {
+        "route_id": "Q2-0026",
+        "candidate_id": "K8d90beceb5941288",
+        "energy": 2.307588337094472,
+        "finish": 6807.791076316629,
+        "soc": 0.42310291572638203,
+        "start": 4979.46351614297
+      },
+      {
+        "route_id": "Q2-0027",
+        "candidate_id": "K6a2e5f3223bf9174",
+        "energy": 6.324596372619295,
+        "finish": 7567.094096939377,
+        "soc": 0.20942545342258811,
+        "start": 5064.916385840116
+      },
+      {
+        "route_id": "Q2-0028",
+        "candidate_id": "K4bd2066b5fe7dc3c",
+        "energy": 2.8712767698831185,
+        "finish": 7529.203680527299,
+        "soc": 0.28218080752922037,
+        "start": 5547.562017174775
+      }
+    ]
+  }
+}

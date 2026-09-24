@@ -1,0 +1,45 @@
+{
+  "single_count": 19525,
+  "total": 26192,
+  "attempts": 24000,
+  "multi_stats": {
+    "attempts": 24000,
+    "accepted": 8113,
+    "volume": 2144,
+    "energy": 4305,
+    "mass": 9438
+  },
+  "visits": {
+    "1": 19525,
+    "3": 753,
+    "2": 5886,
+    "4": 28
+  },
+  "types": {
+    "A": 1206,
+    "B": 2112,
+    "C": 22874
+  },
+  "coefficient_sha256": "19c5efd225d97292915d5cb4a9243b188a1dc7d1c757ab29490c46231dd081f4",
+  "assumptions": "Same q2_data physics and event-completion delivery assumptions as audited source.",
+  "complete": false,
+  "seconds": 6.294106199988164,
+  "input_manifest": [
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\调度中心与服务区.xlsx",
+      "sha256": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\运输无人机数据.xlsx",
+      "sha256": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\物资需求与配送时限.xlsx",
+      "sha256": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\镇龙乡地理空间数据\\镇龙乡及周边地理数据\\数字高程模型数据（DEM）\\镇龙乡及周边30米DEM.mat",
+      "sha256": "c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf"
+    }
+  ]
+}

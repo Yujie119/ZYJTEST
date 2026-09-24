@@ -1,0 +1,3200 @@
+[
+  {
+    "step": 0,
+    "operator": 0,
+    "released_count": 6,
+    "columns": 135,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_0",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7953353978000854,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.05544593696736262,
+      "matrix_residual": 0.0,
+      "variables": 3675,
+      "constraints": 32309,
+      "horizon": 8590.155634963116,
+      "seconds": 5.063620199973229,
+      "seed": 20261924,
+      "relaxation": false,
+      "nodes": 94
+    }
+  },
+  {
+    "step": 1,
+    "operator": 1,
+    "released_count": 8,
+    "columns": 171,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_1",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.688839350231807,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.09143134126149469,
+      "matrix_residual": 0.0,
+      "variables": 5816,
+      "constraints": 59449,
+      "horizon": 8590.155634963116,
+      "seconds": 5.1588056000182405,
+      "seed": 20261925,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 2,
+    "operator": 2,
+    "released_count": 4,
+    "columns": 120,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_2",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.809650491315255,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.05060881446925848,
+      "matrix_residual": 0.0,
+      "variables": 2495,
+      "constraints": 18505,
+      "horizon": 8590.155634963116,
+      "seconds": 5.053757400019094,
+      "seed": 20261926,
+      "relaxation": false,
+      "nodes": 331
+    }
+  },
+  {
+    "step": 3,
+    "operator": 3,
+    "released_count": 4,
+    "columns": 134,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_3",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.744215703398705,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.072719468825404,
+      "matrix_residual": 0.0,
+      "variables": 3842,
+      "constraints": 34565,
+      "horizon": 8590.155634963116,
+      "seconds": 5.062436599982902,
+      "seed": 20261927,
+      "relaxation": false,
+      "nodes": 1
+    }
+  },
+  {
+    "step": 4,
+    "operator": 4,
+    "released_count": 8,
+    "columns": 147,
+    "forced_candidate": "Kd56b57c13a1c6833",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_4",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 2.9991508531293585,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 4388,
+      "constraints": 39968,
+      "horizon": 343268.96441335534,
+      "seconds": 9.585506099974737,
+      "seed": 20261928,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 5,
+    "operator": 5,
+    "released_count": 4,
+    "columns": 125,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_5",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.8059635971109422,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.051854629516496074,
+      "matrix_residual": 0.0,
+      "variables": 3064,
+      "constraints": 26097,
+      "horizon": 8590.155634963116,
+      "seconds": 8.034117800008971,
+      "seed": 20261929,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 6,
+    "operator": 0,
+    "released_count": 6,
+    "columns": 166,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_6",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.680210265183778,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.09434714068534363,
+      "matrix_residual": 0.0,
+      "variables": 5692,
+      "constraints": 56693,
+      "horizon": 8590.155634963116,
+      "seconds": 5.634138600027654,
+      "seed": 20261930,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 7,
+    "operator": 1,
+    "released_count": 8,
+    "columns": 132,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_7",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.8351080071043753,
+      "upper_bound": 2.959423401160572,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.042006626698783626,
+      "matrix_residual": 0.0,
+      "variables": 3628,
+      "constraints": 31701,
+      "horizon": 8590.155634963116,
+      "seconds": 5.077707000018563,
+      "seed": 20261931,
+      "relaxation": false,
+      "nodes": 122
+    }
+  },
+  {
+    "step": 8,
+    "operator": 2,
+    "released_count": 5,
+    "columns": 125,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_8",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.808691288659905,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.05093293255759084,
+      "matrix_residual": 0.0,
+      "variables": 3140,
+      "constraints": 25841,
+      "horizon": 8590.155634963116,
+      "seconds": 5.0705343000008725,
+      "seed": 20261932,
+      "relaxation": false,
+      "nodes": 1
+    }
+  },
+  {
+    "step": 9,
+    "operator": 3,
+    "released_count": 4,
+    "columns": 159,
+    "forced_candidate": "Kf9857b92bc782127",
+    "accepted": false,
+    "objective": [
+      32,
+      85.48629304781058,
+      27622.89709164957,
+      2901.2417232530915
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_9",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.023043535932836,
+      "upper_bound": 11.616740468954616,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": 0.7397683503378742,
+      "matrix_residual": 1.1641532182693481e-10,
+      "variables": 5161,
+      "constraints": 50516,
+      "horizon": 329476.24519409164,
+      "seconds": 5.096487700007856,
+      "seed": 20261933,
+      "relaxation": false,
+      "nodes": 1
+    }
+  },
+  {
+    "step": 10,
+    "operator": 4,
+    "released_count": 5,
+    "columns": 144,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_10",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.6539884731545467,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.1032075801949278,
+      "matrix_residual": 0.0,
+      "variables": 4219,
+      "constraints": 38969,
+      "horizon": 8590.155634963116,
+      "seconds": 5.267287499969825,
+      "seed": 20261934,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 11,
+    "operator": 5,
+    "released_count": 5,
+    "columns": 127,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      75.00366401031708,
+      7264.62791044095,
+      12.251145311880922
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_11",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7791596694746374,
+      "upper_bound": 2.9594234011605725,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 8590.155634963116
+      },
+      "gap": 0.06091177477857426,
+      "matrix_residual": 0.0,
+      "variables": 3251,
+      "constraints": 27493,
+      "horizon": 8590.155634963116,
+      "seconds": 5.113375000015367,
+      "seed": 20261935,
+      "relaxation": false,
+      "nodes": 1
+    }
+  },
+  {
+    "step": 12,
+    "operator": 0,
+    "released_count": 8,
+    "columns": 165,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_12",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.843925698825285,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.202418486536748,
+      "matrix_residual": 0.0,
+      "variables": 5600,
+      "constraints": 54145,
+      "horizon": 10349.922436787467,
+      "seconds": 5.4140338999568485,
+      "seed": 20261936,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 13,
+    "operator": 1,
+    "released_count": 8,
+    "columns": 158,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_13",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.808511950095503,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.2123503041369665,
+      "matrix_residual": 0.0,
+      "variables": 5395,
+      "constraints": 51009,
+      "horizon": 10349.922436787467,
+      "seconds": 5.132062599994242,
+      "seed": 20261937,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 14,
+    "operator": 2,
+    "released_count": 6,
+    "columns": 139,
+    "forced_candidate": "K0569e70f3c38e3e1",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_14",
+      "status": "Infeasible",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": null,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 3881,
+      "constraints": 34020,
+      "horizon": 329351.5008436429,
+      "seconds": 4.17475760000525,
+      "seed": 20261938,
+      "relaxation": false,
+      "nodes": 159
+    }
+  },
+  {
+    "step": 15,
+    "operator": 3,
+    "released_count": 10,
+    "columns": 162,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_15",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.804890396100941,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.21336597220356363,
+      "matrix_residual": 0.0,
+      "variables": 5556,
+      "constraints": 53309,
+      "horizon": 10349.922436787467,
+      "seconds": 5.128181700012647,
+      "seed": 20261939,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 16,
+    "operator": 4,
+    "released_count": 4,
+    "columns": 49,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_16",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.36142717109436,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.057284734398877095,
+      "matrix_residual": 0.0,
+      "variables": 911,
+      "constraints": 4917,
+      "horizon": 10349.922436787467,
+      "seconds": 5.0243586000287905,
+      "seed": 20261940,
+      "relaxation": false,
+      "nodes": 1376
+    }
+  },
+  {
+    "step": 17,
+    "operator": 5,
+    "released_count": 8,
+    "columns": 178,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_17",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7718261071195505,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.22263888170969337,
+      "matrix_residual": 0.0,
+      "variables": 6636,
+      "constraints": 65621,
+      "horizon": 10349.922436787467,
+      "seconds": 5.346536300028674,
+      "seed": 20261941,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 18,
+    "operator": 0,
+    "released_count": 10,
+    "columns": 198,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_18",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.844923032332303,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.20213878346001715,
+      "matrix_residual": 0.0,
+      "variables": 7789,
+      "constraints": 78433,
+      "horizon": 10349.922436787467,
+      "seconds": 8.521762699994724,
+      "seed": 20261942,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 19,
+    "operator": 1,
+    "released_count": 4,
+    "columns": 101,
+    "forced_candidate": "Kbb861202775056d4",
+    "accepted": false,
+    "objective": [
+      23,
+      65.18930604427365,
+      11031.954838640597,
+      333.7921005912627
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_19",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.35899099226356,
+      "upper_bound": 4.370345271437948,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": 0.2314129013522147,
+      "matrix_residual": 3.637978807091713e-12,
+      "variables": 2152,
+      "constraints": 15264,
+      "horizon": 304164.74765653163,
+      "seconds": 5.030947900027968,
+      "seed": 20261943,
+      "relaxation": false,
+      "nodes": 721
+    }
+  },
+  {
+    "step": 20,
+    "operator": 2,
+    "released_count": 6,
+    "columns": 180,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_20",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.386859383406501,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.05015224764121853,
+      "matrix_residual": 0.0,
+      "variables": 6640,
+      "constraints": 66261,
+      "horizon": 10349.922436787467,
+      "seconds": 6.748237399966456,
+      "seed": 20261944,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 21,
+    "operator": 3,
+    "released_count": 5,
+    "columns": 131,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_21",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.3826001413205535,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.051346755905101654,
+      "matrix_residual": 0.0,
+      "variables": 3765,
+      "constraints": 32781,
+      "horizon": 10349.922436787467,
+      "seconds": 5.17473530001007,
+      "seed": 20261945,
+      "relaxation": false,
+      "nodes": 1
+    }
+  },
+  {
+    "step": 22,
+    "operator": 4,
+    "released_count": 6,
+    "columns": 152,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_22",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.989365968515803,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.16162963243054462,
+      "matrix_residual": 0.0,
+      "variables": 4721,
+      "constraints": 44073,
+      "horizon": 10349.922436787467,
+      "seconds": 5.147995900013484,
+      "seed": 20261946,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 23,
+    "operator": 5,
+    "released_count": 8,
+    "columns": 181,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_23",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7483076418845083,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.2292346563827961,
+      "matrix_residual": 0.0,
+      "variables": 6832,
+      "constraints": 67921,
+      "horizon": 10349.922436787467,
+      "seconds": 5.836116099962965,
+      "seed": 20261947,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 24,
+    "operator": 0,
+    "released_count": 6,
+    "columns": 172,
+    "forced_candidate": "K99276e674439d475",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_24",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 3.108593451436692,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 6352,
+      "constraints": 62236,
+      "horizon": 345311.94611506164,
+      "seconds": 11.158999999985099,
+      "seed": 20261948,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 25,
+    "operator": 1,
+    "released_count": 10,
+    "columns": 212,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_25",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.678216937194725,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.2937760067865352,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 9438,
+      "constraints": 97501,
+      "horizon": 11007.715911513957,
+      "seconds": 8.795389000035357,
+      "seed": 20261949,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 26,
+    "operator": 2,
+    "released_count": 10,
+    "columns": 194,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_26",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.8288318256102176,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.2540600874160888,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 7910,
+      "constraints": 79965,
+      "horizon": 11007.715911513957,
+      "seconds": 6.861357900022995,
+      "seed": 20261950,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 27,
+    "operator": 3,
+    "released_count": 4,
+    "columns": 68,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_27",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.3463515942590254,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.11759433943792334,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 1409,
+      "constraints": 9177,
+      "horizon": 11007.715911513957,
+      "seconds": 5.0223788999719545,
+      "seed": 20261951,
+      "relaxation": false,
+      "nodes": 1002
+    }
+  },
+  {
+    "step": 28,
+    "operator": 4,
+    "released_count": 10,
+    "columns": 227,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_28",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.799250202779946,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.2618605204246304,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 10539,
+      "constraints": 110917,
+      "horizon": 11007.715911513957,
+      "seconds": 9.887785699975211,
+      "seed": 20261952,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 29,
+    "operator": 5,
+    "released_count": 4,
+    "columns": 130,
+    "forced_candidate": "K243670241b5fc068",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_29",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 3.197716026155121,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 3596,
+      "constraints": 30276,
+      "horizon": 307616.78684146964,
+      "seconds": 6.94253130001016,
+      "seed": 20261953,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 30,
+    "operator": 0,
+    "released_count": 6,
+    "columns": 151,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_30",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.1319537592459175,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.1741293023367372,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 4812,
+      "constraints": 43857,
+      "horizon": 11007.715911513957,
+      "seconds": 5.116074900026433,
+      "seed": 20261954,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 31,
+    "operator": 1,
+    "released_count": 5,
+    "columns": 132,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_31",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.8848601673666767,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.23928587002583473,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 3858,
+      "constraints": 33109,
+      "horizon": 11007.715911513957,
+      "seconds": 5.23373099998571,
+      "seed": 20261955,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 32,
+    "operator": 2,
+    "released_count": 5,
+    "columns": 176,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_32",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.3540751598790717,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.1155576980896132,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 5733,
+      "constraints": 53113,
+      "horizon": 11007.715911513957,
+      "seconds": 5.214832299971022,
+      "seed": 20261956,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 33,
+    "operator": 3,
+    "released_count": 8,
+    "columns": 175,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_33",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.8986275916765436,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.2356555123660992,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 6460,
+      "constraints": 62977,
+      "horizon": 11007.715911513957,
+      "seconds": 5.120435799995903,
+      "seed": 20261957,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 34,
+    "operator": 4,
+    "released_count": 10,
+    "columns": 207,
+    "forced_candidate": "K9d627dbb2b101c88",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_34",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 2.891529997946268,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 7950,
+      "constraints": 79064,
+      "horizon": 279671.79826056183,
+      "seconds": 5.173423000029288,
+      "seed": 20261958,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 35,
+    "operator": 5,
+    "released_count": 8,
+    "columns": 194,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_35",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.740906374219315,
+      "upper_bound": 3.7923052217587307,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 11007.715911513957
+      },
+      "gap": 0.2772453128263278,
+      "matrix_residual": 7.275957614183426e-12,
+      "variables": 7824,
+      "constraints": 79133,
+      "horizon": 11007.715911513957,
+      "seconds": 5.3517843000008725,
+      "seed": 20261959,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 36,
+    "operator": 0,
+    "released_count": 5,
+    "columns": 159,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_36",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.836038026269916,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.09964684345310428,
+      "matrix_residual": 0.0,
+      "variables": 5224,
+      "constraints": 50209,
+      "horizon": 9143.091940083177,
+      "seconds": 5.180292800010648,
+      "seed": 20261960,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 37,
+    "operator": 1,
+    "released_count": 6,
+    "columns": 120,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_37",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.917776385544584,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.07369747708275784,
+      "matrix_residual": 0.0,
+      "variables": 3040,
+      "constraints": 25533,
+      "horizon": 9143.091940083177,
+      "seconds": 5.063870500016492,
+      "seed": 20261961,
+      "relaxation": false,
+      "nodes": 190
+    }
+  },
+  {
+    "step": 38,
+    "operator": 2,
+    "released_count": 8,
+    "columns": 143,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_38",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7530486432029697,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.12599337065481434,
+      "matrix_residual": 0.0,
+      "variables": 4307,
+      "constraints": 40117,
+      "horizon": 9143.091940083177,
+      "seconds": 5.081747199990787,
+      "seed": 20261962,
+      "relaxation": false,
+      "nodes": 81
+    }
+  },
+  {
+    "step": 39,
+    "operator": 3,
+    "released_count": 10,
+    "columns": 161,
+    "forced_candidate": "Kc867dd0daace8edd",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_39",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 2.929403792538144,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 5411,
+      "constraints": 53380,
+      "horizon": 346411.306307217,
+      "seconds": 9.861807299952488,
+      "seed": 20261963,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 40,
+    "operator": 4,
+    "released_count": 6,
+    "columns": 177,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_40",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7007059267401154,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.1426105420583844,
+      "matrix_residual": 0.0,
+      "variables": 6453,
+      "constraints": 64877,
+      "horizon": 9143.091940083177,
+      "seconds": 5.138018199999351,
+      "seed": 20261964,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 41,
+    "operator": 5,
+    "released_count": 10,
+    "columns": 191,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_41",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.6752028856066428,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.1507069580349599,
+      "matrix_residual": 0.0,
+      "variables": 7427,
+      "constraints": 76381,
+      "horizon": 9143.091940083177,
+      "seconds": 5.552444699977059,
+      "seed": 20261965,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 42,
+    "operator": 0,
+    "released_count": 5,
+    "columns": 155,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_42",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7250077093491036,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.13489548800091236,
+      "matrix_residual": 0.0,
+      "variables": 4751,
+      "constraints": 44597,
+      "horizon": 9143.091940083177,
+      "seconds": 5.096555800002534,
+      "seed": 20261966,
+      "relaxation": false,
+      "nodes": 1
+    }
+  },
+  {
+    "step": 43,
+    "operator": 1,
+    "released_count": 8,
+    "columns": 168,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_43",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.697510494093485,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.1436249917389872,
+      "matrix_residual": 0.0,
+      "variables": 5880,
+      "constraints": 57725,
+      "horizon": 9143.091940083177,
+      "seconds": 5.130933699954767,
+      "seed": 20261967,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 44,
+    "operator": 2,
+    "released_count": 8,
+    "columns": 165,
+    "forced_candidate": "Kc68c5e0ac546cc75",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_44",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 2.882869367037175,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 5508,
+      "constraints": 54488,
+      "horizon": 343871.50029719336,
+      "seconds": 8.103036699991208,
+      "seed": 20261968,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 45,
+    "operator": 3,
+    "released_count": 8,
+    "columns": 165,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_45",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.6901013463138925,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.14597716386393295,
+      "matrix_residual": 0.0,
+      "variables": 5652,
+      "constraints": 55025,
+      "horizon": 9143.091940083177,
+      "seconds": 5.121393200010061,
+      "seed": 20261969,
+      "relaxation": false,
+      "nodes": 30
+    }
+  },
+  {
+    "step": 46,
+    "operator": 4,
+    "released_count": 4,
+    "columns": 154,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_46",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7425074201147743,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.129339878491948,
+      "matrix_residual": 0.0,
+      "variables": 5112,
+      "constraints": 48437,
+      "horizon": 9143.091940083177,
+      "seconds": 5.1336129999835975,
+      "seed": 20261970,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 47,
+    "operator": 5,
+    "released_count": 4,
+    "columns": 141,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_47",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7372801789968113,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.1309993636599872,
+      "matrix_residual": 0.0,
+      "variables": 4050,
+      "constraints": 37345,
+      "horizon": 9143.091940083177,
+      "seconds": 5.086489899957087,
+      "seed": 20261971,
+      "relaxation": false,
+      "nodes": 1
+    }
+  },
+  {
+    "step": 48,
+    "operator": 0,
+    "released_count": 6,
+    "columns": 139,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_48",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.806921302501979,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.10889049036825003,
+      "matrix_residual": 0.0,
+      "variables": 4014,
+      "constraints": 37009,
+      "horizon": 9143.091940083177,
+      "seconds": 5.085548200004268,
+      "seed": 20261972,
+      "relaxation": false,
+      "nodes": 44
+    }
+  },
+  {
+    "step": 49,
+    "operator": 1,
+    "released_count": 5,
+    "columns": 128,
+    "forced_candidate": "Kc77be47d61e7765e",
+    "accepted": false,
+    "objective": [
+      29,
+      76.00086321786374,
+      8871.890168130256,
+      181.36932226625453
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_49",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.9342781182788062,
+      "upper_bound": 3.6221251681623814,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": 0.18990151304808212,
+      "matrix_residual": 1.1641532182693481e-10,
+      "variables": 3430,
+      "constraints": 30068,
+      "horizon": 335029.7915076963,
+      "seconds": 5.060725799994543,
+      "seed": 20261973,
+      "relaxation": false,
+      "nodes": 476
+    }
+  },
+  {
+    "step": 50,
+    "operator": 2,
+    "released_count": 4,
+    "columns": 123,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_50",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.9361404471228103,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.06786746329033917,
+      "matrix_residual": 0.0,
+      "variables": 2934,
+      "constraints": 24433,
+      "horizon": 9143.091940083177,
+      "seconds": 5.053207999968436,
+      "seed": 20261974,
+      "relaxation": false,
+      "nodes": 195
+    }
+  },
+  {
+    "step": 51,
+    "operator": 3,
+    "released_count": 5,
+    "columns": 150,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_51",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.6456004532657498,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.16010480219385645,
+      "matrix_residual": 0.0,
+      "variables": 4642,
+      "constraints": 45053,
+      "horizon": 9143.091940083177,
+      "seconds": 5.098001400008798,
+      "seed": 20261975,
+      "relaxation": false,
+      "nodes": 12
+    }
+  },
+  {
+    "step": 52,
+    "operator": 4,
+    "released_count": 10,
+    "columns": 162,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_52",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.654157279305049,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.1573882782040006,
+      "matrix_residual": 0.0,
+      "variables": 5478,
+      "constraints": 52173,
+      "horizon": 9143.091940083177,
+      "seconds": 5.314956400019582,
+      "seed": 20261976,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 53,
+    "operator": 5,
+    "released_count": 10,
+    "columns": 190,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_53",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.710631956433197,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.13945933883636752,
+      "matrix_residual": 0.0,
+      "variables": 7193,
+      "constraints": 75257,
+      "horizon": 9143.091940083177,
+      "seconds": 5.2409264000016265,
+      "seed": 20261977,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 54,
+    "operator": 0,
+    "released_count": 8,
+    "columns": 152,
+    "forced_candidate": "Kfce8e277aafcc7c1",
+    "accepted": false,
+    "objective": [
+      29,
+      77.2377894511274,
+      9124.72473358013,
+      244.68367322641566
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_54",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7758981484782166,
+      "upper_bound": 3.7481463224690867,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": 0.2593944020174759,
+      "matrix_residual": 3.637978807091713e-12,
+      "variables": 4884,
+      "constraints": 46092,
+      "horizon": 341849.9177442046,
+      "seconds": 5.076946799992584,
+      "seed": 20261978,
+      "relaxation": false,
+      "nodes": 101
+    }
+  },
+  {
+    "step": 55,
+    "operator": 1,
+    "released_count": 4,
+    "columns": 122,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_55",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.9321039186641857,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.06914893452081994,
+      "matrix_residual": 0.0,
+      "variables": 3038,
+      "constraints": 25709,
+      "horizon": 9143.091940083177,
+      "seconds": 5.060700799978804,
+      "seed": 20261979,
+      "relaxation": false,
+      "nodes": 255
+    }
+  },
+  {
+    "step": 56,
+    "operator": 2,
+    "released_count": 8,
+    "columns": 168,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_56",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.86499943178808,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.09045250521265064,
+      "matrix_residual": 0.0,
+      "variables": 5124,
+      "constraints": 48157,
+      "horizon": 9143.091940083177,
+      "seconds": 5.098501999978907,
+      "seed": 20261980,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 57,
+    "operator": 3,
+    "released_count": 10,
+    "columns": 167,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_57",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.8389901476198633,
+      "upper_bound": 3.1499173470406974,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.09870963748078841,
+      "matrix_residual": 0.0,
+      "variables": 5929,
+      "constraints": 57461,
+      "horizon": 9143.091940083177,
+      "seconds": 5.085814299993217,
+      "seed": 20261981,
+      "relaxation": false,
+      "nodes": 3
+    }
+  },
+  {
+    "step": 58,
+    "operator": 4,
+    "released_count": 5,
+    "columns": 122,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      27,
+      70.39642266653898,
+      7827.045797869374,
+      36.718681198953554
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_58",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.9366111347665904,
+      "upper_bound": 3.149917347040698,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9143.091940083177
+      },
+      "gap": 0.06771803472065879,
+      "matrix_residual": 0.0,
+      "variables": 3032,
+      "constraints": 24621,
+      "horizon": 9143.091940083177,
+      "seconds": 5.071186100016348,
+      "seed": 20261982,
+      "relaxation": false,
+      "nodes": 242
+    }
+  },
+  {
+    "step": 59,
+    "operator": 5,
+    "released_count": 4,
+    "columns": 141,
+    "forced_candidate": "K2923bf0680b00c8d",
+    "accepted": false,
+    "objective": [
+      31,
+      77.20192913843499,
+      9264.01258525123,
+      309.62245918948196
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_59",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.878775230976671,
+      "upper_bound": 3.844684976867556,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": 0.2512324811271941,
+      "matrix_residual": 1.1641532182693481e-10,
+      "variables": 4170,
+      "constraints": 37704,
+      "horizon": 339100.19665981195,
+      "seconds": 5.073666500044055,
+      "seed": 20261983,
+      "relaxation": false,
+      "nodes": 206
+    }
+  },
+  {
+    "step": 60,
+    "operator": 0,
+    "released_count": 4,
+    "columns": 145,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_60",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.9064176678593237,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.1848925577608818,
+      "matrix_residual": 0.0,
+      "variables": 4436,
+      "constraints": 40641,
+      "horizon": 10349.922436787467,
+      "seconds": 5.085386699996889,
+      "seed": 20261984,
+      "relaxation": false,
+      "nodes": 35
+    }
+  },
+  {
+    "step": 61,
+    "operator": 1,
+    "released_count": 5,
+    "columns": 119,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_61",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.0553799981917256,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.1431159385880934,
+      "matrix_residual": 0.0,
+      "variables": 3220,
+      "constraints": 26561,
+      "horizon": 10349.922436787467,
+      "seconds": 5.0678590000025,
+      "seed": 20261985,
+      "relaxation": false,
+      "nodes": 135
+    }
+  },
+  {
+    "step": 62,
+    "operator": 2,
+    "released_count": 10,
+    "columns": 226,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_62",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.8997889644344235,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.1867515835828696,
+      "matrix_residual": 0.0,
+      "variables": 9619,
+      "constraints": 101009,
+      "horizon": 10349.922436787467,
+      "seconds": 7.841787500015926,
+      "seed": 20261986,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 63,
+    "operator": 3,
+    "released_count": 4,
+    "columns": 108,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_63",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.2037846837646735,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.10149571138834562,
+      "matrix_residual": 0.0,
+      "variables": 2349,
+      "constraints": 17001,
+      "horizon": 10349.922436787467,
+      "seconds": 5.053238600026816,
+      "seed": 20261987,
+      "relaxation": false,
+      "nodes": 478
+    }
+  },
+  {
+    "step": 64,
+    "operator": 4,
+    "released_count": 6,
+    "columns": 139,
+    "forced_candidate": "Ke451b98c5d7df7f2",
+    "accepted": false,
+    "objective": [
+      29,
+      79.42950345682986,
+      12078.79486822699,
+      877.7561388844522
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_64",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.0319078103718855,
+      "upper_bound": 5.118350479414933,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": 0.4076396638788878,
+      "matrix_residual": 3.637978807091713e-12,
+      "variables": 4075,
+      "constraints": 36628,
+      "horizon": 325972.69175468496,
+      "seconds": 5.059287399984896,
+      "seed": 20261988,
+      "relaxation": false,
+      "nodes": 122
+    }
+  },
+  {
+    "step": 65,
+    "operator": 5,
+    "released_count": 4,
+    "columns": 142,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_65",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.8680829415847042,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.19564356613389935,
+      "matrix_residual": 0.0,
+      "variables": 4230,
+      "constraints": 37613,
+      "horizon": 10349.922436787467,
+      "seconds": 5.080712400027551,
+      "seed": 20261989,
+      "relaxation": false,
+      "nodes": 85
+    }
+  },
+  {
+    "step": 66,
+    "operator": 0,
+    "released_count": 6,
+    "columns": 147,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_66",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.203784683764673,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.10149571138834575,
+      "matrix_residual": 0.0,
+      "variables": 4672,
+      "constraints": 43593,
+      "horizon": 10349.922436787467,
+      "seconds": 5.125772200000938,
+      "seed": 20261990,
+      "relaxation": false,
+      "nodes": 56
+    }
+  },
+  {
+    "step": 67,
+    "operator": 1,
+    "released_count": 4,
+    "columns": 133,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_67",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.984726106107237,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.1629308860053528,
+      "matrix_residual": 0.0,
+      "variables": 3008,
+      "constraints": 22969,
+      "horizon": 10349.922436787467,
+      "seconds": 5.070426199992653,
+      "seed": 20261991,
+      "relaxation": false,
+      "nodes": 134
+    }
+  },
+  {
+    "step": 68,
+    "operator": 2,
+    "released_count": 5,
+    "columns": 125,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_68",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 3.1558585461682065,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.11493663967083467,
+      "matrix_residual": 0.0,
+      "variables": 3134,
+      "constraints": 25857,
+      "horizon": 10349.922436787467,
+      "seconds": 5.057941400038544,
+      "seed": 20261992,
+      "relaxation": false,
+      "nodes": 231
+    }
+  },
+  {
+    "step": 69,
+    "operator": 3,
+    "released_count": 8,
+    "columns": 170,
+    "forced_candidate": "K98277b32ecce03ad",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_69",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 3.013288444152809,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 6158,
+      "constraints": 60076,
+      "horizon": 334799.35099913744,
+      "seconds": 7.214793999970425,
+      "seed": 20261993,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 70,
+    "operator": 4,
+    "released_count": 8,
+    "columns": 142,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_70",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.979080841176012,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.16451410561956675,
+      "matrix_residual": 0.0,
+      "variables": 3511,
+      "constraints": 28177,
+      "horizon": 10349.922436787467,
+      "seconds": 5.08701800002018,
+      "seed": 20261994,
+      "relaxation": false,
+      "nodes": 101
+    }
+  },
+  {
+    "step": 71,
+    "operator": 5,
+    "released_count": 4,
+    "columns": 142,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      24,
+      65.34110020552983,
+      9029.281375254212,
+      109.8013979897079
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_71",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.880268505168907,
+      "upper_bound": 3.5656865797658894,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10349.922436787467
+      },
+      "gap": 0.19222611389528924,
+      "matrix_residual": 0.0,
+      "variables": 4211,
+      "constraints": 37969,
+      "horizon": 10349.922436787467,
+      "seconds": 5.073370199999772,
+      "seed": 20261995,
+      "relaxation": false,
+      "nodes": 66
+    }
+  },
+  {
+    "step": 72,
+    "operator": 0,
+    "released_count": 6,
+    "columns": 154,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      22,
+      69.44532592565854,
+      8852.931369659842,
+      483.798169787249
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_72",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.594781260446086,
+      "upper_bound": 3.709948683486113,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10768.664115066858
+      },
+      "gap": 0.30058836878361944,
+      "matrix_residual": 0.0,
+      "variables": 5129,
+      "constraints": 48353,
+      "horizon": 10768.664115066858,
+      "seconds": 5.115891200024635,
+      "seed": 20261996,
+      "relaxation": false,
+      "nodes": 1
+    }
+  },
+  {
+    "step": 73,
+    "operator": 1,
+    "released_count": 5,
+    "columns": 136,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      23,
+      70.65894712313825,
+      9237.155878764815,
+      20.007579322878527
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_73",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.7485255155358908,
+      "upper_bound": 3.600901174405781,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10768.664115066858
+      },
+      "gap": 0.23671176119143253,
+      "matrix_residual": 3.637978807091713e-12,
+      "variables": 3819,
+      "constraints": 34025,
+      "horizon": 10768.664115066858,
+      "seconds": 5.080941100022756,
+      "seed": 20261997,
+      "relaxation": false,
+      "nodes": 40
+    }
+  },
+  {
+    "step": 74,
+    "operator": 2,
+    "released_count": 8,
+    "columns": 181,
+    "forced_candidate": "K367cb8728b5364b0",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_74",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 2.919515703510002,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 6806,
+      "constraints": 69296,
+      "horizon": 345689.2956966583,
+      "seconds": 7.566459099994972,
+      "seed": 20261998,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 75,
+    "operator": 3,
+    "released_count": 8,
+    "columns": 177,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      23,
+      70.65894712313825,
+      9237.155878764815,
+      20.007579322878527
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_75",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.6427276599452867,
+      "upper_bound": 3.600901174405781,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10452.137904877643
+      },
+      "gap": 0.2660926995916825,
+      "matrix_residual": 0.0,
+      "variables": 6571,
+      "constraints": 65917,
+      "horizon": 10452.137904877643,
+      "seconds": 5.093594400037546,
+      "seed": 20261999,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 76,
+    "operator": 4,
+    "released_count": 8,
+    "columns": 166,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      23,
+      69.84015121783996,
+      8261.677563553785,
+      309.1126329297854
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_76",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.599700106124201,
+      "upper_bound": 3.4192558656294394,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 10452.137904877643
+      },
+      "gap": 0.23968833913351179,
+      "matrix_residual": 1.8189894035458565e-12,
+      "variables": 5721,
+      "constraints": 57481,
+      "horizon": 10452.137904877643,
+      "seconds": 5.297749099961948,
+      "seed": 20262000,
+      "relaxation": false,
+      "nodes": 103
+    }
+  },
+  {
+    "step": 77,
+    "operator": 5,
+    "released_count": 8,
+    "columns": 199,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      23,
+      69.84015121783996,
+      8261.677563553785,
+      309.1126329297854
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_77",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.622868235532986,
+      "upper_bound": 3.4192558656294403,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9924.886052262933
+      },
+      "gap": 0.23291255799303856,
+      "matrix_residual": 0.0,
+      "variables": 8114,
+      "constraints": 83697,
+      "horizon": 9924.886052262933,
+      "seconds": 5.122682099987287,
+      "seed": 20262001,
+      "relaxation": false,
+      "nodes": 0
+    }
+  },
+  {
+    "step": 78,
+    "operator": 0,
+    "released_count": 8,
+    "columns": 149,
+    "forced_candidate": null,
+    "accepted": true,
+    "objective": [
+      23,
+      69.84015121783996,
+      8261.677563553785,
+      309.1126329297854
+    ],
+    "solver": {
+      "scope": "expanded_worker_1_step_78",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": true,
+      "warm_fallback": false,
+      "lower_bound": 2.705780494518177,
+      "upper_bound": 3.4192558656294403,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {
+        "C": 9924.886052262933
+      },
+      "gap": 0.20866393132001598,
+      "matrix_residual": 0.0,
+      "variables": 4696,
+      "constraints": 43937,
+      "horizon": 9924.886052262933,
+      "seconds": 5.063217399991117,
+      "seed": 20262002,
+      "relaxation": false,
+      "nodes": 27
+    }
+  },
+  {
+    "step": 79,
+    "operator": 1,
+    "released_count": 10,
+    "columns": 191,
+    "forced_candidate": "K106549ca7f60f227",
+    "accepted": false,
+    "objective": null,
+    "solver": {
+      "scope": "expanded_worker_1_step_79",
+      "status": "Time limit reached",
+      "optimal": false,
+      "incumbent": false,
+      "warm_fallback": false,
+      "lower_bound": 2.7911467401414414,
+      "upper_bound": null,
+      "weights": [
+        0.006666666666666667,
+        0.003599736020714562,
+        0.0003445133627801161,
+        0.0005443261993060154
+      ],
+      "epsilon": {},
+      "gap": null,
+      "matrix_residual": null,
+      "variables": 7279,
+      "constraints": 72980,
+      "horizon": 309912.2940814037,
+      "seconds": 9.830504400015343,
+      "seed": 20262003,
+      "relaxation": false,
+      "nodes": 0
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "dorling_author_pdf",
+    "url": "https://arxiv.org/pdf/1608.02305",
+    "resolved_url": "https://arxiv.org/pdf/1608.02305",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 510648,
+    "file": "dorling_author_pdf.pdf",
+    "pdf": true,
+    "sha256": "a88cf73253b6dcbf90bdd581013619e52ae5797fcd636365f47ebbe9160691aa"
+  },
+  {
+    "name": "zhang_openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.trd.2020.102668",
+    "resolved_url": "https://api.openalex.org/works/https://doi.org/10.1016/j.trd.2020.102668",
+    "status": 200,
+    "type": "application/json",
+    "bytes": 14746,
+    "file": "zhang_openalex.json",
+    "pdf": false,
+    "sha256": "e409f7c8abceb4c7d34553efae1f0f3441f5e62d4436a4e91a518e9fc0202c39"
+  },
+  {
+    "name": "zhang_publisher_api",
+    "url": "https://api.elsevier.com/content/article/PII:S1361920920308531?httpAccept=text/xml",
+    "resolved_url": "https://api.elsevier.com/content/article/PII:S1361920920308531?httpAccept=text/xml",
+    "status": 200,
+    "type": "text/xml;charset=UTF-8",
+    "bytes": 1853,
+    "file": "zhang_publisher_api.xml",
+    "pdf": false,
+    "sha256": "9f6f2913753fa3ae05a717c2b25d5a1ee79ba598966cde128e7dd9eae95b7222"
+  },
+  {
+    "name": "zhang_umsl",
+    "url": "https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/",
+    "resolved_url": "https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/",
+    "status": 200,
+    "type": "text/html;charset=UTF-8",
+    "bytes": 36910,
+    "file": "zhang_umsl.html",
+    "pdf": false,
+    "sha256": "66ea6f8a4d65fa69045404e868a955d50bd3da4eb98e03298ac90e753bed1c77"
+  },
+  {
+    "name": "zhang_corrigendum_api",
+    "url": "https://api.elsevier.com/content/article/doi/10.1016/j.trd.2023.103609?httpAccept=text/xml",
+    "resolved_url": "https://api.elsevier.com/content/article/doi/10.1016/j.trd.2023.103609?httpAccept=text/xml",
+    "status": 200,
+    "type": "text/xml;charset=UTF-8",
+    "bytes": 1932,
+    "file": "zhang_corrigendum_api.xml",
+    "pdf": false,
+    "sha256": "95681761311bd59debb5417cffec96970408828d450b78744b273fad30763195"
+  },
+  {
+    "name": "zeng_energy_author_pdf",
+    "url": "https://arxiv.org/pdf/1804.02238",
+    "resolved_url": "https://arxiv.org/pdf/1804.02238",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 4485945,
+    "file": "zeng_energy_author_pdf.pdf",
+    "pdf": true,
+    "sha256": "f071ace91b9c0337441bdfad86425a2e9400d07c76abc471543e655980e06160"
+  },
+  {
+    "name": "task_ref_08_author_pdf",
+    "url": "https://arxiv.org/pdf/1602.03602",
+    "resolved_url": "https://arxiv.org/pdf/1602.03602",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 1356625,
+    "file": "task_ref_08_author_pdf.pdf",
+    "pdf": true,
+    "sha256": "113f235edc9d48638d3bda9cca3401c3e84262c56a95582f875b8e21d8a55729"
+  },
+  {
+    "name": "R3_publisher_pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00186-023-00841-0.pdf",
+    "resolved_url": "https://link.springer.com/content/pdf/10.1007/s00186-023-00841-0.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 718768,
+    "file": "R3_publisher_pdf.pdf",
+    "pdf": true,
+    "sha256": "94223d4a1a487351dd9d368bfeade545a7d1d71a1cfb978cfcc1ed6b27be866c"
+  },
+  {
+    "name": "R4_publisher_api",
+    "url": "https://api.elsevier.com/content/article/PII:S0305054824001382?httpAccept=text/xml",
+    "resolved_url": "https://api.elsevier.com/content/article/PII:S0305054824001382?httpAccept=text/xml",
+    "status": 200,
+    "type": "text/xml;charset=UTF-8",
+    "bytes": 1997,
+    "file": "R4_publisher_api.xml",
+    "pdf": false,
+    "sha256": "6dd889e256468b82211174820a0d05336d08d114de458c6eeb109bc838d00d5a"
+  }
+]

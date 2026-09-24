@@ -1,0 +1,183 @@
+{
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "scope": "Original DOCX text including OMML; raw workbook counts/budgets; current finite-library time bounds. No optimization rerun or full DEM communication certification.",
+  "source_math_paragraphs": [
+    {
+      "paragraph": 48,
+      "text": "Lg(q)=Lg0-Lg0-LgFqQg3/2,  0≤q≤Qg."
+    },
+    {
+      "paragraph": 51,
+      "text": "tgij=hij+vg↑+dijvgc+hij-vg↓"
+    },
+    {
+      "paragraph": 54,
+      "text": "Egij(q)=Egijhor(q)+Egijup(q)."
+    },
+    {
+      "paragraph": 57,
+      "text": "EpT=(i,j)∈p​Egij(qpij)≤(1-ρg)Eguse."
+    },
+    {
+      "paragraph": 64,
+      "text": "tchg(s) =Tfull[0.65(0.90 - s)/0.90 + 0.35],    0 ≤ s < 0.90Tfull·0.35(1 - s)/0.10,    0.90 ≤ s ≤ 1"
+    },
+    {
+      "paragraph": 78,
+      "text": "Pthb=Psensb+Mb"
+    },
+    {
+      "paragraph": 81,
+      "text": "Lmaxa→b=Pta+Gta+Grb-Lsys-Pthb"
+    },
+    {
+      "paragraph": 84,
+      "text": "Lmaxa↔b=minLmaxa→b,Lmaxb→a"
+    },
+    {
+      "paragraph": 87,
+      "text": "LFSPL,ijt=32.45+20log10f+20log10Dijt"
+    },
+    {
+      "paragraph": 90,
+      "text": "Lpath,ijt=LFSPL,ijt+Lobsbijt"
+    },
+    {
+      "paragraph": 94,
+      "text": "Aijt=1,Lpath,ijt≤Lmaxi↔j,0,Lpath,ijt>Lmaxi↔j"
+    }
+  ],
+  "boxes": {
+    "total": 80,
+    "medical": 16,
+    "first": 30,
+    "overlap": 15,
+    "hard": 31,
+    "soft": 49,
+    "soft_weight_sum": 460,
+    "first_deadline_after_expected": []
+  },
+  "links": [
+    {
+      "a": "运输无人机",
+      "b": "固定网关 G01",
+      "forward_db": 122,
+      "reverse_db": 129,
+      "bidirectional_db": 122
+    },
+    {
+      "a": "运输无人机",
+      "b": "中继接入端",
+      "forward_db": 116,
+      "reverse_db": 116,
+      "bidirectional_db": 116
+    },
+    {
+      "a": "中继回传端",
+      "b": "固定网关 G01",
+      "forward_db": 126,
+      "reverse_db": 134,
+      "bidirectional_db": 126
+    }
+  ],
+  "finite_library": {
+    "route_count": 1292,
+    "position_count": 24,
+    "max_transport_duration_s": 3080.1605155588845,
+    "max_transport_charge_s": 2566.413859484147,
+    "max_transport_duration_plus_charge_s": 5632.796183790231,
+    "max_relay_duration_s": 8737.630760673566,
+    "W_s": 10537.630760673566,
+    "H3_with_6_slots_s": 916773.8761786002,
+    "code_H_s": 30000,
+    "code_M_s": 50000,
+    "transport_inactive_release_bound_s": 32566.413859484146,
+    "relay_inactive_release_bound_s": 31540
+  },
+  "raw_transport_inventory_rows": [
+    [
+      "A",
+      6,
+      1800,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "B",
+      4,
+      2400,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "C",
+      4,
+      3000,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "raw_relay_inventory_rows": [
+    [
+      "R",
+      6,
+      1800,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}

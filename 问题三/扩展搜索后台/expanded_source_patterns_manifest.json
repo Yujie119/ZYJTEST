@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "existing_source_route_count": 1292,
+  "new_pattern_count": 134,
+  "expected_expanded_pattern_count": 1426,
+  "sha256": "7cb018e0161363891f4d6729586ef09971d062aeb2c829a76278971ddb547d96",
+  "combined_unique_pattern_count": 1424,
+  "combined_instance_count": 1596,
+  "combined_expand_discarded": 0,
+  "combined_expand_check": "PASS",
+  "note": "1426 is the record count (1292 existing + 134 new); expand_instances deduplicates records into 1424 unique patterns and 1596 executable instances."
+}

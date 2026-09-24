@@ -1,0 +1,60 @@
+FINITE_DIRECT_LIBRARY 1290 INSTANCES 1445 OUT D:\�о���\����\��ѧ��ģ\2026\������\ȫ��ֱ�����\20260924_����44������
+Running HiGHS 1.8.0 (git hash: unknown): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [3e-04, 7e+04]
+  Cost   [1e+00, 1e+00]
+  Bound  [1e+00, 3e+04]
+  RHS    [1e+00, 2e+05]
+Presolving model
+30622 rows, 20142 cols, 196525 nonzeros  0s
+23664 rows, 9236 cols, 151075 nonzeros  0s
+22382 rows, 7989 cols, 147435 nonzeros  3s
+
+Solving MIP model with:
+   22382 rows
+   7989 cols (7883 binary, 0 integer, 10 implied int., 96 continuous)
+   147435 nonzeros
+MIP-Timing:         4.2 - starting analytic centre calculation
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic; L => Sub-MIP;
+     P => Empty MIP; R => Randomized rounding; S => Solve LP; T => Evaluate node; U => Unbounded;
+     z => Trivial zero; l => Trivial lower; u => Trivial upper; p => Trivial point
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     4.2s
+         0       0         0   0.00%   5585.864545     inf                  inf        0      0      4      1599     4.4s
+         0       0         0   0.00%   5644.247883     inf                  inf     2948    395    115      7954     9.4s
+ L       0       0         0   0.00%   5644.247883     8364.986176       32.53%     4314    499    131     12390    34.0s
+
+Symmetry detection completed in 0.2s
+Found 84 full orbitope(s) acting on 567 columns
+
+         3       3         1   0.00%   5644.247883     8364.986176       32.53%     4484    136    131     51733    43.0s
+         3       3         1   0.00%   5644.247883     8364.986176       32.53%     4484    136    131     51733    43.0s
+
+Solving report
+  Status            Time limit reached
+  Primal bound      8364.98617631
+  Dual bound        5644.24788337
+  Gap               32.53% (tolerance: 0%)
+  P-D integral      2.90245396314
+  Solution status   feasible
+                    8364.98617631 (objective)
+                    0 (bound viol.)
+                    7.1054273576e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            42.96 (total)
+                    0.00 (presolve)
+                    0.00 (solve)
+                    0.00 (postsolve)
+  Max sub-MIP depth 4
+  Nodes             3
+  Repair LPs        0 (0 feasible; 0 iterations)
+  LP iterations     51733 (total)
+                    14756 (strong br.)
+                    11712 (separation)
+                    22469 (heuristics)
+{"iteration": 0, "all_route_instances_still_selectable": 1445, "status": 1, "message": "Time limit reached. (HiGHS Status 13: Time limit reached)", "incumbent_available": true, "objective_mode": "C", "solver_objective": 8364.986176313392, "dual_bound": 5644.247883366157, "mip_gap": 0.32525317264138215, "nodes": 3, "max_constraint_violation": 2.9103830456733704e-11, "variables": 22476, "constraints": 35755, "route_instances": 1445, "loaded_route_blocks": 28, "loaded_transport_pairs": 214, "building_s": 1.0629683000152, "elapsed_s": 44.24056780000683, "mip_rel_gap_requested": 0.0, "threads": 1, "selected_routes": 27, "objective_recomputed": [31, 74.98990049734178, 8364.986176313392, 740.9904625748886], "newly_loaded_route_blocks": 2, "newly_loaded_resource_pairs": 45, "transport_conflicts": 14, "incomplete_communication": 2, "accepted_as_feasible": false}
+FINITE_DIRECT_RESULT time_limit_without_certified_incumbent BOUND 5644.247883366157 CANDIDATE None

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\研究生\比赛\数学建模\2026\问题三\solve_q3_global.py", line 269, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\研究生\比赛\数学建模\2026\问题三\solve_q3_global.py", line 229, in main
+    routes, library = expand_instances(ctx, json.loads(source_bytes.decode("utf-8")))
+                      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\研究生\比赛\数学建模\2026\问题三\solve_q3_global.py", line 44, in expand_instances
+    signature = route_signature(source)
+  File "D:\研究生\比赛\数学建模\2026\问题三\solve_q3_global.py", line 24, in route_signature
+    return (route["vehicle"], tuple((d["zone"], tuple(sorted((c, int(n)) for c, n in d["counts"].items() if n)))
+            ~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'

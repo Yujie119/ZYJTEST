@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "test": "baseline",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true
+    },
+    {
+      "test": "extra onboard spare",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "nonexistent battery",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "remote departure cannot receive baseline certificate",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "premature recharge",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "undeclared additional payload",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "remote event needs extended verifier",
+      "expected": "UNSUPPORTED_EXTENDED_EVENT_SCHEMA",
+      "actual": "UNSUPPORTED_EXTENDED_EVENT_SCHEMA",
+      "passed": true
+    },
+    {
+      "test": "existing incompatible battery",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "unknown aircraft type rejected without crashing",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "remote initial inventory contradicts source",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "initial battery not full",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "declared partially charged departure",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "plan-level declared spare cargo",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "same battery used on overlapping flights",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "battery reused after return but before fully charged",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "one body simultaneously on two routes",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true
+    },
+    {
+      "test": "consistent explicit initial location remains valid",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true
+    }
+  ]
+}

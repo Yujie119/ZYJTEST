@@ -1,0 +1,722 @@
+[
+  {
+    "scope": "final_all_resources_plan_1",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 9.14254943530867,
+    "upper_bound": 9.14254943530867,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 28,
+      "E": 75.71131596897939,
+      "C": 7264.62791044095,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 533,
+    "constraints": 2476,
+    "horizon": 7264.62791044095,
+    "seconds": 2.303752899984829,
+    "seed": 20261102,
+    "relaxation": false,
+    "nodes": 1505
+  },
+  {
+    "scope": "final_all_resources_plan_5",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.555222760950409,
+    "upper_bound": 8.555222760950409,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 70.33734734562732,
+      "C": 7298.5935259879625,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 428,
+    "constraints": 1532,
+    "horizon": 7298.5935259879625,
+    "seconds": 3.4476416999823414,
+    "seed": 20261106,
+    "relaxation": false,
+    "nodes": 4377
+  },
+  {
+    "scope": "final_all_resources_plan_0",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 9.050409166184743,
+    "upper_bound": 9.050409166184743,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 27,
+      "E": 75.00366401031708,
+      "C": 7264.62791044095,
+      "L": 12.251145311880922
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 509,
+    "constraints": 2232,
+    "horizon": 7264.62791044095,
+    "seconds": 10.518419499974698,
+    "seed": 20261101,
+    "relaxation": false,
+    "nodes": 7728
+  },
+  {
+    "scope": "final_all_resources_plan_4",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.41323497655685,
+    "upper_bound": 8.41323497655685,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 25,
+      "E": 71.31909210428417,
+      "C": 6672.014331816174,
+      "L": 27.570931703959147
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 480,
+    "constraints": 2068,
+    "horizon": 6672.014331816174,
+    "seconds": 16.61852610000642,
+    "seed": 20261105,
+    "relaxation": false,
+    "nodes": 11785
+  },
+  {
+    "scope": "final_all_resources_plan_8",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.8430785381411,
+    "upper_bound": 8.8430785381411,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 21,
+      "E": 67.32235979591468,
+      "C": 8147.02382484277,
+      "L": 12.468106916163798
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.0913936421275139e-11,
+    "variables": 396,
+    "constraints": 1316,
+    "horizon": 8147.02382484277,
+    "seconds": 7.481415000045672,
+    "seed": 20261109,
+    "relaxation": false,
+    "nodes": 7755
+  },
+  {
+    "scope": "final_all_resources_plan_3",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.983552173603538,
+    "upper_bound": 10.39242842662602,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 20,
+      "E": 60.70497216913841,
+      "C": 9163.54886305257,
+      "L": 520.7998072166125
+    },
+    "gap": 0.13556756853988597,
+    "matrix_residual": 7.275957614183426e-12,
+    "variables": 381,
+    "constraints": 1388,
+    "horizon": 9163.54886305257,
+    "seconds": 20.00856059999205,
+    "seed": 20261104,
+    "relaxation": false,
+    "nodes": 19038
+  },
+  {
+    "scope": "final_all_resources_plan_2",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 9.27553407328696,
+    "upper_bound": 9.730672566294515,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 63.26021230769617,
+      "C": 9069.567244129956,
+      "L": 109.8013979897079
+    },
+    "gap": 0.04677359040772607,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 419,
+    "constraints": 1424,
+    "horizon": 9069.567244129956,
+    "seconds": 20.01683929999126,
+    "seed": 20261103,
+    "relaxation": false,
+    "nodes": 21089
+  },
+  {
+    "scope": "final_all_resources_plan_6",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.788778752513071,
+    "upper_bound": 8.8125229460068,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 25,
+      "E": 73.12151423043781,
+      "C": 7232.5935259879625,
+      "L": 18.82388762235434
+    },
+    "gap": 0.0026943695510588733,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 464,
+    "constraints": 1804,
+    "horizon": 7232.5935259879625,
+    "seconds": 20.008457700023428,
+    "seed": 20261107,
+    "relaxation": false,
+    "nodes": 15913
+  },
+  {
+    "scope": "final_all_resources_plan_7",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.323790554475842,
+    "upper_bound": 8.566514571772696,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 24,
+      "E": 69.58887587848585,
+      "C": 7387.904912008393,
+      "L": 144.13878144787924
+    },
+    "gap": 0.02833404592535782,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 449,
+    "constraints": 1716,
+    "horizon": 7387.904912008393,
+    "seconds": 20.009296200005338,
+    "seed": 20261108,
+    "relaxation": false,
+    "nodes": 17963
+  },
+  {
+    "scope": "final_all_resources_plan_14",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.413000867771418,
+    "upper_bound": 8.413000867771416,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 68.14991640976821,
+      "C": 7981.383638477309,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 7.275957614183426e-12,
+    "variables": 423,
+    "constraints": 1456,
+    "horizon": 7981.383638477309,
+    "seconds": 3.8007657999987714,
+    "seed": 20261115,
+    "relaxation": false,
+    "nodes": 3661
+  },
+  {
+    "scope": "final_all_resources_plan_10",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 9.369913287456747,
+    "upper_bound": 9.369913287456745,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 24,
+      "E": 70.8638736952283,
+      "C": 7210.1468043903615,
+      "L": 409.12794181892633
+    },
+    "gap": 0.0,
+    "matrix_residual": 5.804245972740318e-12,
+    "variables": 450,
+    "constraints": 1728,
+    "horizon": 7210.1468043903615,
+    "seconds": 16.767298199993093,
+    "seed": 20261111,
+    "relaxation": false,
+    "nodes": 9567
+  },
+  {
+    "scope": "final_all_resources_plan_9",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.899963342904233,
+    "upper_bound": 9.179401642282414,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 27,
+      "E": 70.29143588322789,
+      "C": 7838.543016214665,
+      "L": 8.441518167943919
+    },
+    "gap": 0.03044188611281864,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 502,
+    "constraints": 2108,
+    "horizon": 7838.543016214665,
+    "seconds": 20.013243400026113,
+    "seed": 20261110,
+    "relaxation": false,
+    "nodes": 13440
+  },
+  {
+    "scope": "final_all_resources_plan_11",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.943645206949192,
+    "upper_bound": 9.242498147256425,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 24,
+      "E": 64.64703177165313,
+      "C": 8427.071898766839,
+      "L": 54.79569968735583
+    },
+    "gap": 0.03233464973925319,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 435,
+    "constraints": 1500,
+    "horizon": 8427.071898766839,
+    "seconds": 20.009371499996632,
+    "seed": 20261112,
+    "relaxation": false,
+    "nodes": 22458
+  },
+  {
+    "scope": "final_all_resources_plan_12",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.76556388169606,
+    "upper_bound": 8.938803964273408,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 66.29741292296062,
+      "C": 8801.581000635153,
+      "L": 54.79569968735583
+    },
+    "gap": 0.019380678138792733,
+    "matrix_residual": 2.220446049250313e-15,
+    "variables": 417,
+    "constraints": 1376,
+    "horizon": 8801.581000635153,
+    "seconds": 20.009049199987203,
+    "seed": 20261113,
+    "relaxation": false,
+    "nodes": 22287
+  },
+  {
+    "scope": "final_all_resources_plan_13",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 9.225730944143464,
+    "upper_bound": 10.103857852372686,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 21,
+      "E": 62.72052529403814,
+      "C": 11090.242795618593,
+      "L": 291.4184170441769
+    },
+    "gap": 0.0869100615883082,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 388,
+    "constraints": 1292,
+    "horizon": 11090.242795618593,
+    "seconds": 20.011176400003023,
+    "seed": 20261114,
+    "relaxation": false,
+    "nodes": 19954
+  },
+  {
+    "scope": "final_all_resources_plan_15",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.969351188347693,
+    "upper_bound": 10.238576898944128,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 20,
+      "E": 60.9175261527664,
+      "C": 9803.458735277365,
+      "L": 468.1828595075362
+    },
+    "gap": 0.12396505130779716,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 375,
+    "constraints": 1268,
+    "horizon": 9803.458735277365,
+    "seconds": 20.011149499972817,
+    "seed": 20261116,
+    "relaxation": false,
+    "nodes": 21770
+  },
+  {
+    "scope": "final_all_resources_plan_16",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 9.46936487569536,
+    "upper_bound": 11.049991898035044,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 21,
+      "E": 62.87303538809696,
+      "C": 10419.437299354506,
+      "L": 452.7336842497841
+    },
+    "gap": 0.14304327432319272,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 400,
+    "constraints": 1524,
+    "horizon": 10419.437299354506,
+    "seconds": 20.007184199988842,
+    "seed": 20261117,
+    "relaxation": false,
+    "nodes": 12853
+  },
+  {
+    "scope": "final_all_resources_plan_17",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 9.452210571923818,
+    "upper_bound": 10.465666251462459,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 21,
+      "E": 63.14303421472227,
+      "C": 9797.852148011561,
+      "L": 505.6390670379835
+    },
+    "gap": 0.09683623146276253,
+    "matrix_residual": 7.275957614183426e-12,
+    "variables": 400,
+    "constraints": 1524,
+    "horizon": 9797.852148011561,
+    "seconds": 20.007524200016633,
+    "seed": 20261118,
+    "relaxation": false,
+    "nodes": 14857
+  },
+  {
+    "scope": "final_all_resources_plan_18",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.807380726359975,
+    "upper_bound": 9.069474150661367,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 64.56560504372038,
+      "C": 9029.281375254212,
+      "L": 48.93668415900525
+    },
+    "gap": 0.028898414610099517,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 401,
+    "constraints": 1300,
+    "horizon": 9029.281375254212,
+    "seconds": 20.009137800021563,
+    "seed": 20261119,
+    "relaxation": false,
+    "nodes": 25490
+  },
+  {
+    "scope": "final_all_resources_plan_19",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.801141095963965,
+    "upper_bound": 9.358777828980378,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 64.3922692668716,
+      "C": 8337.140388078022,
+      "L": 188.96036084521492
+    },
+    "gap": 0.059584354197364894,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 401,
+    "constraints": 1300,
+    "horizon": 8337.140388078022,
+    "seconds": 20.00901950005209,
+    "seed": 20261120,
+    "relaxation": false,
+    "nodes": 23530
+  },
+  {
+    "scope": "final_all_resources_plan_20",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.809183085949964,
+    "upper_bound": 9.145273860922464,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 64.61567425934115,
+      "C": 8595.767179658245,
+      "L": 159.8657339484218
+    },
+    "gap": 0.03675021438216376,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 401,
+    "constraints": 1300,
+    "horizon": 8595.767179658245,
+    "seconds": 20.00730089994613,
+    "seed": 20261121,
+    "relaxation": false,
+    "nodes": 23159
+  },
+  {
+    "scope": "final_all_resources_plan_21",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.83153861000751,
+    "upper_bound": 9.384916031347165,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 65.23670657751394,
+      "C": 8790.617890465817,
+      "L": 152.5851498098037
+    },
+    "gap": 0.058964557540129726,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 401,
+    "constraints": 1300,
+    "horizon": 8790.617890465817,
+    "seconds": 20.00779889995465,
+    "seed": 20261122,
+    "relaxation": false,
+    "nodes": 23977
+  },
+  {
+    "scope": "final_all_resources_plan_22",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.91725853738553,
+    "upper_bound": 8.961562200565094,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 68.76182634177101,
+      "C": 8013.646246218171,
+      "L": 0.0
+    },
+    "gap": 0.004943743310376201,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 401,
+    "constraints": 1276,
+    "horizon": 8013.646246218171,
+    "seconds": 20.01194219995523,
+    "seed": 20261123,
+    "relaxation": false,
+    "nodes": 21766
+  },
+  {
+    "scope": "final_all_resources_plan_23",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.778488634209982,
+    "upper_bound": 8.908279876781837,
+    "weights": [
+      0.06666666666666667,
+      0.03599736020714562,
+      0.0006263879323274837,
+      0.0021773047972240616
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 67.35998571793408,
+      "C": 7831.124655517117,
+      "L": 51.21449236346475
+    },
+    "gap": 0.014569731122855428,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 401,
+    "constraints": 1276,
+    "horizon": 7831.124655517117,
+    "seconds": 20.008878700027708,
+    "seed": 20261124,
+    "relaxation": false,
+    "nodes": 24197
+  }
+]

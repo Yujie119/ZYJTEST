@@ -1,0 +1,2436 @@
+[
+  {
+    "round": 0,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T20:57:32.952806+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 24.0,
+      "E": 65.11205028199753,
+      "L": 465.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.97936830000253,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T20:58:58.011362+00:00"
+  },
+  {
+    "round": 1,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T20:58:58.015280+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.97676150000188,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:00:23.111922+00:00"
+  },
+  {
+    "round": 2,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:00:23.116189+00:00",
+    "seed_objective": [
+      24,
+      64.93374004014163,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_00\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 52,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 64.93374004014163,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.98826199996984,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:01:48.207728+00:00"
+  },
+  {
+    "round": 3,
+    "mode": "N",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:01:48.209894+00:00",
+    "seed_objective": [
+      24,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "E": 65.40750468311684,
+      "C": 9343.548863152573,
+      "L": 702.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00333000003593,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:03:13.258956+00:00"
+  },
+  {
+    "round": 4,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:03:13.261050+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 57,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.14636262795766,
+      "L": 465.2583643491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.98185039998498,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:04:38.321322+00:00"
+  },
+  {
+    "round": 5,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:04:38.324156+00:00",
+    "seed_objective": [
+      24,
+      64.85204587579615,
+      9165.15443502662,
+      602.5438554866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_03\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 56,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.15443502662,
+      "L": 702.5438554866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.03407990001142,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:06:03.451588+00:00"
+  },
+  {
+    "round": 6,
+    "mode": "L",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:06:03.454362+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 25.0,
+      "E": 64.63787853587301,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.0071803999599,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:07:28.508479+00:00"
+  },
+  {
+    "round": 7,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:07:28.510697+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "E": 65.49970719690505,
+      "C": 9343.548863152573,
+      "L": 565.2583643491525
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.99390950001543,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:08:53.584695+00:00"
+  },
+  {
+    "round": 8,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:08:53.587544+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "verified_candidate",
+    "route_instances": 56,
+    "patterns": 34,
+    "caps": {
+      "N": 33.0,
+      "E": 81.05125838536102,
+      "L": 576.1011585525097
+    },
+    "neighborhood_only_lower_bound": 6924.124242987729,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.11696209997172,
+    "independent_verification": {
+      "passed": true,
+      "physical_status": "PASS",
+      "raw_status": "PASS",
+      "battery_status": "PASS",
+      "physical_checks": 1279,
+      "raw_checks": 544,
+      "battery_checks": 415,
+      "evidence": [
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00008_C\\candidate_DEM核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00008_C\\candidate_原始算术核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00008_C\\candidate_电池位置核验.json"
+      ]
+    },
+    "objective": [
+      31,
+      79.49211905794898,
+      9334.757847831057,
+      576.1011585525098
+    ],
+    "new_objective": true,
+    "finished_utc": "2026-09-23T21:10:21.204000+00:00"
+  },
+  {
+    "round": 9,
+    "mode": "E",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:10:21.221881+00:00",
+    "seed_objective": [
+      31,
+      79.49211905794898,
+      9334.757847831057,
+      576.1011585525098
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00008_C\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 42,
+    "patterns": 24,
+    "caps": {
+      "N": 32.0,
+      "C": 9514.757847831057,
+      "L": 676.1011585525098
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.05286690004868,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:11:46.336515+00:00"
+  },
+  {
+    "round": 10,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:11:46.351018+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "verified_candidate",
+    "route_instances": 60,
+    "patterns": 42,
+    "caps": {
+      "N": 33.0,
+      "E": 81.05125838536102,
+      "C": 10644.22661031477
+    },
+    "neighborhood_only_lower_bound": 0.0,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.20593599998392,
+    "independent_verification": {
+      "passed": true,
+      "physical_status": "PASS",
+      "raw_status": "PASS",
+      "battery_status": "PASS",
+      "physical_checks": 1279,
+      "raw_checks": 544,
+      "battery_checks": 415,
+      "evidence": [
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\candidate_DEM核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\candidate_原始算术核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\candidate_电池位置核验.json"
+      ]
+    },
+    "objective": [
+      31,
+      80.48034691375231,
+      8963.0164063331,
+      480.8102552869631
+    ],
+    "new_objective": true,
+    "finished_utc": "2026-09-23T21:13:13.840117+00:00"
+  },
+  {
+    "round": 11,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:13:13.866363+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 74,
+    "patterns": 42,
+    "caps": {
+      "E": 81.55125838536102,
+      "C": 10824.22661031477,
+      "L": 676.1011585525097
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.05055949999951,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:14:39.014256+00:00"
+  },
+  {
+    "round": 12,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:14:39.039038+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 25.0,
+      "E": 64.99970719690505,
+      "L": 465.2583643491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.99966049997602,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:16:04.089355+00:00"
+  },
+  {
+    "round": 13,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:16:04.121456+00:00",
+    "seed_objective": [
+      31,
+      79.49211905794898,
+      9334.757847831057,
+      576.1011585525098
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00008_C\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 60,
+    "patterns": 42,
+    "caps": {
+      "N": 32.0,
+      "C": 9514.757847831057,
+      "L": 676.1011585525098
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.06355050002458,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:17:29.292492+00:00"
+  },
+  {
+    "round": 14,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:17:29.317081+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "E": 64.63787853587301,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.07866459997604,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:18:54.502690+00:00"
+  },
+  {
+    "round": 15,
+    "mode": "N",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:18:54.527648+00:00",
+    "seed_objective": [
+      24,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "E": 65.40750468311684,
+      "C": 9343.548863152573,
+      "L": 702.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.98864529997809,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:20:19.572118+00:00"
+  },
+  {
+    "round": 16,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:20:19.602205+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.11205028199753,
+      "L": 465.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.9982738000108,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:21:44.690521+00:00"
+  },
+  {
+    "round": 17,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:21:44.716046+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 64,
+    "patterns": 32,
+    "caps": {
+      "N": 34.0,
+      "C": 10824.22661031477,
+      "L": 676.1011585525097
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.4225225999835,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:23:10.208870+00:00"
+  },
+  {
+    "round": 18,
+    "mode": "L",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:23:10.234230+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 25.0,
+      "E": 64.63787853587301,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00399310002103,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:24:35.285923+00:00"
+  },
+  {
+    "round": 19,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:24:35.311697+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 52,
+    "patterns": 38,
+    "caps": {
+      "E": 65.49970719690505,
+      "C": 9343.548863152573,
+      "L": 565.2583643491525
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.03545569995185,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:26:00.460059+00:00"
+  },
+  {
+    "round": 20,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:26:00.488447+00:00",
+    "seed_objective": [
+      31,
+      79.49211905794898,
+      9334.757847831057,
+      576.1011585525098
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00008_C\\verified_plan.json",
+    "status": "verified_candidate",
+    "route_instances": 72,
+    "patterns": 42,
+    "caps": {
+      "N": 31.0,
+      "E": 79.49211905794898,
+      "L": 576.1011585525098
+    },
+    "neighborhood_only_lower_bound": 6893.290721463315,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.11246569996001,
+    "independent_verification": {
+      "passed": true,
+      "physical_status": "PASS",
+      "raw_status": "PASS",
+      "battery_status": "PASS",
+      "physical_checks": 1265,
+      "raw_checks": 544,
+      "battery_checks": 415,
+      "evidence": [
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00020_C\\candidate_DEM核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00020_C\\candidate_原始算术核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00020_C\\candidate_电池位置核验.json"
+      ]
+    },
+    "objective": [
+      30,
+      79.18090483505476,
+      8830.57166467314,
+      574.1927227326456
+    ],
+    "new_objective": true,
+    "finished_utc": "2026-09-23T21:27:27.854399+00:00"
+  },
+  {
+    "round": 21,
+    "mode": "E",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:27:27.890799+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.0570753000211,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:28:52.995276+00:00"
+  },
+  {
+    "round": 22,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:28:53.035996+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 50,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.11205028199753,
+      "C": 9165.154435126618
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.99716500000795,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:30:18.131021+00:00"
+  },
+  {
+    "round": 23,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:30:18.161932+00:00",
+    "seed_objective": [
+      31,
+      80.48034691375231,
+      8963.0164063331,
+      480.8102552869631
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 60,
+    "patterns": 42,
+    "caps": {
+      "E": 80.98034691375231,
+      "C": 9143.0164063331,
+      "L": 580.8102552869632
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.35194530000445,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:31:43.623657+00:00"
+  },
+  {
+    "round": 24,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:31:43.655444+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 24.0,
+      "E": 65.11205028199753,
+      "L": 465.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00335689994972,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:33:08.714380+00:00"
+  },
+  {
+    "round": 25,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:33:08.745751+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 66,
+    "patterns": 42,
+    "caps": {
+      "N": 34.0,
+      "C": 10824.22661031477,
+      "L": 676.1011585525097
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.03323799994541,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:34:33.861158+00:00"
+  },
+  {
+    "round": 26,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:34:33.894448+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 63,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "E": 64.63787853587301,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00517850002507,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:35:58.992681+00:00"
+  },
+  {
+    "round": 27,
+    "mode": "N",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:35:59.023787+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "E": 65.13787853587301,
+      "C": 9343.548863152573,
+      "L": 702.5438555866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00365240004612,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:37:24.072514+00:00"
+  },
+  {
+    "round": 28,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:37:24.103776+00:00",
+    "seed_objective": [
+      30,
+      79.18090483505476,
+      8830.57166467314,
+      574.1927227326456
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00020_C\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 62,
+    "patterns": 42,
+    "caps": {
+      "N": 30.0,
+      "E": 79.18090483505476,
+      "L": 574.1927227326456
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.04317700001411,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:38:49.238934+00:00"
+  },
+  {
+    "round": 29,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:38:49.269854+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9343.548863152573,
+      "L": 565.2583643491525
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00381010002457,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:40:14.348715+00:00"
+  },
+  {
+    "round": 30,
+    "mode": "L",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:40:14.380090+00:00",
+    "seed_objective": [
+      24,
+      64.85204587579615,
+      9165.15443502662,
+      602.5438554866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_03\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 24.0,
+      "E": 64.85204587579615,
+      "C": 9165.15443502662
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00188539997907,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:41:39.433563+00:00"
+  },
+  {
+    "round": 31,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:41:39.463820+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "E": 65.13787853587301,
+      "C": 9343.548863152573,
+      "L": 702.5438555866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00212189997546,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:43:04.563868+00:00"
+  },
+  {
+    "round": 32,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:43:04.595059+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 51,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.14636262795766,
+      "L": 465.2583643491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.02504929999122,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:44:29.711145+00:00"
+  },
+  {
+    "round": 33,
+    "mode": "E",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:44:29.741959+00:00",
+    "seed_objective": [
+      31,
+      80.48034691375231,
+      8963.0164063331,
+      480.8102552869631
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 42,
+    "patterns": 24,
+    "caps": {
+      "N": 32.0,
+      "C": 9143.0164063331,
+      "L": 580.8102552869632
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.05781530000968,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:45:54.853077+00:00"
+  },
+  {
+    "round": 34,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:45:54.890818+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "verified_candidate",
+    "route_instances": 73,
+    "patterns": 41,
+    "caps": {
+      "N": 33.0,
+      "E": 81.05125838536102,
+      "C": 10644.22661031477
+    },
+    "neighborhood_only_lower_bound": 0.0,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.84341239999048,
+    "independent_verification": {
+      "passed": true,
+      "physical_status": "PASS",
+      "raw_status": "PASS",
+      "battery_status": "PASS",
+      "physical_checks": 1293,
+      "raw_checks": 544,
+      "battery_checks": 415,
+      "evidence": [
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00034_L\\candidate_DEM核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00034_L\\candidate_原始算术核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00034_L\\candidate_电池位置核验.json"
+      ]
+    },
+    "objective": [
+      32,
+      79.87415658559513,
+      10133.450297644275,
+      146.59091822523325
+    ],
+    "new_objective": true,
+    "finished_utc": "2026-09-23T21:47:23.097345+00:00"
+  },
+  {
+    "round": 35,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:47:23.146280+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 53,
+    "patterns": 38,
+    "caps": {
+      "E": 65.61205028199753,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.01713059999747,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:48:48.259353+00:00"
+  },
+  {
+    "round": 36,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:48:48.301141+00:00",
+    "seed_objective": [
+      24,
+      64.93374004014163,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_00\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 24.0,
+      "E": 64.93374004014163,
+      "L": 602.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 87.83347559999675,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:50:16.180900+00:00"
+  },
+  {
+    "round": 37,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:50:16.223012+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9343.548863152573,
+      "L": 565.2583643491525
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.97924230003264,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:51:41.300630+00:00"
+  },
+  {
+    "round": 38,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:51:41.343241+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 50,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.11205028199753,
+      "C": 9165.154435126618
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00378299999284,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:53:06.428881+00:00"
+  },
+  {
+    "round": 39,
+    "mode": "N",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:53:06.474428+00:00",
+    "seed_objective": [
+      24,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "E": 65.40750468311684,
+      "C": 9343.548863152573,
+      "L": 702.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.01143660000525,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:54:31.542261+00:00"
+  },
+  {
+    "round": 40,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:54:31.584027+00:00",
+    "seed_objective": [
+      24,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 53,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 64.90750468311684,
+      "L": 602.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.03768559999298,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:55:56.715991+00:00"
+  },
+  {
+    "round": 41,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:55:56.759188+00:00",
+    "seed_objective": [
+      24,
+      64.85204587579615,
+      9165.15443502662,
+      602.5438554866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_03\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.15443502662,
+      "L": 702.5438554866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00242019997677,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:57:21.848694+00:00"
+  },
+  {
+    "round": 42,
+    "mode": "L",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T21:57:21.893419+00:00",
+    "seed_objective": [
+      24,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 24.0,
+      "E": 64.90750468311684,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00959749997128,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T21:58:46.952508+00:00"
+  },
+  {
+    "round": 43,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T21:58:46.997196+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 64,
+    "patterns": 42,
+    "caps": {
+      "E": 81.55125838536102,
+      "C": 10824.22661031477,
+      "L": 676.1011585525097
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.05995129997609,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:00:12.162999+00:00"
+  },
+  {
+    "round": 44,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:00:12.217409+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 50,
+    "patterns": 33,
+    "caps": {
+      "N": 24.0,
+      "E": 65.14636262795766,
+      "L": 465.2583643491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.03459180000937,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:01:37.332361+00:00"
+  },
+  {
+    "round": 45,
+    "mode": "E",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:01:37.379420+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 25.0,
+      "C": 9343.548863152573,
+      "L": 565.2583643491525
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.04737029998796,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:03:02.471956+00:00"
+  },
+  {
+    "round": 46,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:03:02.515606+00:00",
+    "seed_objective": [
+      32,
+      79.87415658559513,
+      10133.450297644275,
+      146.59091822523325
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00034_L\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 68,
+    "patterns": 33,
+    "caps": {
+      "N": 32.0,
+      "E": 79.87415658559513,
+      "C": 10133.450297644275
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 86.50428850000026,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:04:29.095486+00:00"
+  },
+  {
+    "round": 47,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:04:29.144688+00:00",
+    "seed_objective": [
+      24,
+      64.93374004014163,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_00\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 65,
+    "patterns": 33,
+    "caps": {
+      "E": 65.43374004014163,
+      "C": 9343.548863152573,
+      "L": 702.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.01506979996338,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:05:54.241289+00:00"
+  },
+  {
+    "round": 48,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:05:54.284735+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 42,
+    "patterns": 24,
+    "caps": {
+      "N": 33.0,
+      "E": 81.05125838536102,
+      "L": 576.1011585525097
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.02461789996596,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:07:19.369687+00:00"
+  },
+  {
+    "round": 49,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:07:19.412711+00:00",
+    "seed_objective": [
+      31,
+      80.48034691375231,
+      8963.0164063331,
+      480.8102552869631
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 60,
+    "patterns": 42,
+    "caps": {
+      "N": 32.0,
+      "C": 9143.0164063331,
+      "L": 580.8102552869632
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.35258219996467,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:08:44.857955+00:00"
+  },
+  {
+    "round": 50,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:08:44.899793+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "E": 64.99970719690505,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.9945876999991,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:10:09.978414+00:00"
+  },
+  {
+    "round": 51,
+    "mode": "N",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:10:10.021058+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "E": 65.64636262795766,
+      "C": 9343.548863152573,
+      "L": 565.2583643491525
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00481459998991,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:11:35.074970+00:00"
+  },
+  {
+    "round": 52,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:11:35.117663+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 61,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.11205028199753,
+      "L": 465.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.0192917000386,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:13:00.226340+00:00"
+  },
+  {
+    "round": 53,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:13:00.272735+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 55,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.03841859998647,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:14:25.417522+00:00"
+  },
+  {
+    "round": 54,
+    "mode": "L",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:14:25.462140+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 24.0,
+      "E": 65.14636262795766,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.99859319999814,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:15:50.514482+00:00"
+  },
+  {
+    "round": 55,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:15:50.557330+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "verified_candidate",
+    "route_instances": 90,
+    "patterns": 34,
+    "caps": {
+      "E": 81.55125838536102,
+      "C": 10824.22661031477,
+      "L": 676.1011585525097
+    },
+    "neighborhood_only_lower_bound": 29.0,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 76.2986914999783,
+    "independent_verification": {
+      "passed": true,
+      "physical_status": "PASS",
+      "raw_status": "PASS",
+      "battery_status": "PASS",
+      "physical_checks": 1250,
+      "raw_checks": 533,
+      "battery_checks": 400,
+      "evidence": [
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00055_N\\candidate_DEM核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00055_N\\candidate_原始算术核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00055_N\\candidate_电池位置核验.json"
+      ]
+    },
+    "objective": [
+      29,
+      80.23394029032745,
+      8959.82995591304,
+      562.691335984293
+    ],
+    "new_objective": true,
+    "finished_utc": "2026-09-23T22:17:09.074921+00:00"
+  },
+  {
+    "round": 56,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:17:09.129592+00:00",
+    "seed_objective": [
+      24,
+      64.93374004014163,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_00\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 54,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 64.93374004014163,
+      "L": 602.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.03360769996652,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:18:34.262425+00:00"
+  },
+  {
+    "round": 57,
+    "mode": "E",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:18:34.315873+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 26.0,
+      "C": 9343.548863152573,
+      "L": 565.2583643491525
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.0179613000364,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:19:59.381206+00:00"
+  },
+  {
+    "round": 58,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:19:59.446000+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 52,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "E": 64.99970719690505,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.01730589999352,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:21:24.545340+00:00"
+  },
+  {
+    "round": 59,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:21:24.599452+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 51,
+    "patterns": 38,
+    "caps": {
+      "E": 65.61205028199753,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.03575450001517,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:22:49.719569+00:00"
+  },
+  {
+    "round": 60,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:22:49.775031+00:00",
+    "seed_objective": [
+      24,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 24.0,
+      "E": 64.90750468311684,
+      "L": 602.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 87.19312640000135,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:24:17.014896+00:00"
+  },
+  {
+    "round": 61,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:24:17.070057+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "verified_candidate",
+    "route_instances": 62,
+    "patterns": 42,
+    "caps": {
+      "N": 34.0,
+      "C": 10824.22661031477,
+      "L": 676.1011585525097
+    },
+    "neighborhood_only_lower_bound": 74.84660162939036,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.12056200002553,
+    "independent_verification": {
+      "passed": true,
+      "physical_status": "PASS",
+      "raw_status": "PASS",
+      "battery_status": "PASS",
+      "physical_checks": 1278,
+      "raw_checks": 543,
+      "battery_checks": 415,
+      "evidence": [
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00061_E\\candidate_DEM核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00061_E\\candidate_原始算术核验.json",
+        "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00061_E\\candidate_电池位置核验.json"
+      ]
+    },
+    "objective": [
+      31,
+      79.22538670397434,
+      10438.437745850293,
+      571.2490732692047
+    ],
+    "new_objective": true,
+    "finished_utc": "2026-09-23T22:25:44.211018+00:00"
+  },
+  {
+    "round": 62,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:25:44.278213+00:00",
+    "seed_objective": [
+      24,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 57,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 64.90750468311684,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.02865439996822,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:27:09.390853+00:00"
+  },
+  {
+    "round": 63,
+    "mode": "N",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:27:09.456987+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "E": 65.49970719690505,
+      "C": 9343.548863152573,
+      "L": 565.2583643491525
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00530369998887,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:28:34.509151+00:00"
+  },
+  {
+    "round": 64,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:28:34.580991+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 69,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.14636262795766,
+      "L": 465.2583643491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 89.03074579994427,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:30:03.690892+00:00"
+  },
+  {
+    "round": 65,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:30:03.763130+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 63,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00257139996393,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:31:28.859384+00:00"
+  },
+  {
+    "round": 66,
+    "mode": "L",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:31:28.935905+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 25.0,
+      "E": 64.99970719690505,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.99343460000819,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:32:53.981913+00:00"
+  },
+  {
+    "round": 67,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:32:54.105250+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 63,
+    "patterns": 38,
+    "caps": {
+      "E": 65.61205028199753,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.0006807000027,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:34:19.191331+00:00"
+  },
+  {
+    "round": 68,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:34:19.255732+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 52,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.11205028199753,
+      "L": 465.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.0452365000383,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:35:44.402480+00:00"
+  },
+  {
+    "round": 69,
+    "mode": "E",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:35:44.467561+00:00",
+    "seed_objective": [
+      24,
+      64.85204587579615,
+      9165.15443502662,
+      602.5438554866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_03\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.15443502662,
+      "L": 702.5438554866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.04199070000323,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:37:09.557250+00:00"
+  },
+  {
+    "round": 70,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:37:09.622969+00:00",
+    "seed_objective": [
+      31,
+      79.22538670397434,
+      10438.437745850293,
+      571.2490732692047
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00061_E\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 60,
+    "patterns": 42,
+    "caps": {
+      "N": 31.0,
+      "E": 79.22538670397434,
+      "C": 10438.437745850293
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.0488804000197,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:38:34.777870+00:00"
+  },
+  {
+    "round": 71,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:38:34.852956+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 63,
+    "patterns": 38,
+    "caps": {
+      "E": 65.13787853587301,
+      "C": 9343.548863152573,
+      "L": 702.5438555866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.1786398999975,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:40:00.115426+00:00"
+  },
+  {
+    "round": 72,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:40:00.181375+00:00",
+    "seed_objective": [
+      31,
+      80.48034691375231,
+      8963.0164063331,
+      480.8102552869631
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 42,
+    "patterns": 24,
+    "caps": {
+      "N": 31.0,
+      "E": 80.48034691375231,
+      "L": 480.8102552869631
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.08607010002015,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:41:25.326822+00:00"
+  },
+  {
+    "round": 73,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:41:25.407496+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 63,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.98656220000703,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:42:50.492882+00:00"
+  },
+  {
+    "round": 74,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:42:50.558639+00:00",
+    "seed_objective": [
+      25,
+      64.99970719690505,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "E": 64.99970719690505,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.0066546999733,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:44:15.647037+00:00"
+  },
+  {
+    "round": 75,
+    "mode": "N",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:44:15.712015+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "E": 65.13787853587301,
+      "C": 9343.548863152573,
+      "L": 702.5438555866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00140299997292,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:45:40.760003+00:00"
+  },
+  {
+    "round": 76,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:45:40.829651+00:00",
+    "seed_objective": [
+      33,
+      81.05125838536102,
+      10644.22661031477,
+      576.1011585525097
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 52,
+    "patterns": 28,
+    "caps": {
+      "N": 33.0,
+      "E": 81.05125838536102,
+      "L": 576.1011585525097
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.09569809999084,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:47:05.992161+00:00"
+  },
+  {
+    "round": 77,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:47:06.119655+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 25.0,
+      "C": 9345.154435126618,
+      "L": 565.2583642491526
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 84.94545190001372,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:48:31.279889+00:00"
+  },
+  {
+    "round": 78,
+    "mode": "L",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:48:31.405107+00:00",
+    "seed_objective": [
+      24,
+      65.14636262795766,
+      9163.548863152573,
+      465.2583643491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 24.0,
+      "E": 65.14636262795766,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.04067170002963,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:49:56.564103+00:00"
+  },
+  {
+    "round": 79,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:49:56.690131+00:00",
+    "seed_objective": [
+      32,
+      79.87415658559513,
+      10133.450297644275,
+      146.59091822523325
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00034_L\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 62,
+    "patterns": 42,
+    "caps": {
+      "E": 80.37415658559513,
+      "C": 10313.450297644275,
+      "L": 246.59091822523325
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 87.47628070000792,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:51:24.412614+00:00"
+  },
+  {
+    "round": 80,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:51:24.537950+00:00",
+    "seed_objective": [
+      31,
+      80.48034691375231,
+      8963.0164063331,
+      480.8102552869631
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 74,
+    "patterns": 42,
+    "caps": {
+      "N": 31.0,
+      "E": 80.48034691375231,
+      "L": 480.8102552869631
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.00988710002275,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:52:49.792542+00:00"
+  },
+  {
+    "round": 81,
+    "mode": "E",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:52:49.910432+00:00",
+    "seed_objective": [
+      32,
+      79.87415658559513,
+      10133.450297644275,
+      146.59091822523325
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00034_L\\verified_plan.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 42,
+    "patterns": 24,
+    "caps": {
+      "N": 33.0,
+      "C": 10313.450297644275,
+      "L": 246.59091822523325
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 85.02983989997301,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:54:15.078159+00:00"
+  },
+  {
+    "round": 82,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:54:15.202596+00:00",
+    "seed_objective": [
+      24,
+      64.90750468311684,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+    "status": "solver_limit_or_rejection_without_new_incumbent",
+    "route_instances": 52,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 64.90750468311684,
+      "C": 9163.548863152573
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 71.72692839999218,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:55:27.155348+00:00"
+  },
+  {
+    "round": 83,
+    "mode": "N",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:55:27.272381+00:00",
+    "seed_objective": [
+      24,
+      64.93374004014163,
+      9163.548863152573,
+      602.5438555866732
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_00\\已核验方案.json",
+    "status": "time_limit_without_certified_incumbent",
+    "route_instances": 51,
+    "patterns": 38,
+    "caps": {
+      "E": 65.43374004014163,
+      "C": 9343.548863152573,
+      "L": 702.5438555866732
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 3.189995186403394e-05,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:55:27.487920+00:00"
+  },
+  {
+    "round": 84,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:55:27.607014+00:00",
+    "seed_objective": [
+      25,
+      64.63787853587301,
+      9163.548863152573,
+      602.5438555866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+    "status": "time_limit_without_certified_incumbent",
+    "route_instances": 31,
+    "patterns": 20,
+    "caps": {
+      "N": 25.0,
+      "E": 64.63787853587301,
+      "L": 602.5438555866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 1.7099955584853888e-05,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:55:27.725638+00:00"
+  },
+  {
+    "round": 85,
+    "mode": "E",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:55:27.853350+00:00",
+    "seed_objective": [
+      32,
+      79.87415658559513,
+      10133.450297644275,
+      146.59091822523325
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00034_L\\verified_plan.json",
+    "status": "time_limit_without_certified_incumbent",
+    "route_instances": 60,
+    "patterns": 42,
+    "caps": {
+      "N": 33.0,
+      "C": 10313.450297644275,
+      "L": 246.59091822523325
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 3.339996328577399e-05,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:55:28.108104+00:00"
+  },
+  {
+    "round": 86,
+    "mode": "L",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:55:28.235679+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+    "status": "time_limit_without_certified_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 65.11205028199753,
+      "C": 9165.154435126618
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 2.9499991796910763e-05,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:55:28.442476+00:00"
+  },
+  {
+    "round": 87,
+    "mode": "N",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T22:55:28.568912+00:00",
+    "seed_objective": [
+      31,
+      79.22538670397434,
+      10438.437745850293,
+      571.2490732692047
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00061_E\\verified_plan.json",
+    "status": "time_limit_without_certified_incumbent",
+    "route_instances": 42,
+    "patterns": 24,
+    "caps": {
+      "E": 79.72538670397434,
+      "C": 10618.437745850293,
+      "L": 671.2490732692047
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 2.5500019546598196e-05,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:55:28.707968+00:00"
+  },
+  {
+    "round": 88,
+    "mode": "C",
+    "kind": "two_route_box_vehicle_neighborhood",
+    "started_utc": "2026-09-23T22:55:28.837516+00:00",
+    "seed_objective": [
+      24,
+      64.85204587579615,
+      9165.15443502662,
+      602.5438554866731
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_03\\已核验方案.json",
+    "status": "time_limit_without_certified_incumbent",
+    "route_instances": 49,
+    "patterns": 38,
+    "caps": {
+      "N": 24.0,
+      "E": 64.85204587579615,
+      "L": 602.5438554866731
+    },
+    "neighborhood_only_lower_bound": null,
+    "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+    "solver_elapsed_s": 2.5600020308047533e-05,
+    "accepted_as_feasible": false,
+    "finished_utc": "2026-09-23T22:55:29.062752+00:00"
+  }
+]

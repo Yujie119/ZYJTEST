@@ -1,0 +1,11 @@
+{
+  "wall_seconds": 7200,
+  "output_dir": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022",
+  "route_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\expanded_source_patterns.json",
+  "seed_reference": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\审查资料\\本轮复核\\直接模型基准映射方案.json",
+  "neighborhood_ready": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_worker_ready.json",
+  "neighborhood_seeds": [
+    2026092401,
+    2026092402
+  ]
+}

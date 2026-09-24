@@ -1,0 +1,2657 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "transport IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relay IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relay slots unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "80 named boxes exactly once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "each named box has an actual route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "visit order equals delivery-event order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/O01-S006/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/S006-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/O01-S012/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/S012-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/O01-S014/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/S014-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/O01-S002/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/S002-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/O01-S010/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/S010-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/O01-S013/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/S013-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/O01-S007/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/S007-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/O01-S008/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/S008-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/O01-S002/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/S002-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/O01-S003/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/S003-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/O01-S009/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/S009-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/O01-S015/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/S015-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/O01-S004/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/S004-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/O01-S011/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/S011-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/O01-S003/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/S003-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/O01-S005/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/S005-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/named payload equals declared counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/all destinations physically visited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/mass and volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/O01-S001/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/S001-O01/nonnegative heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/reserve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/charge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/UAV type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000020/battery identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-MED-02/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-FOD-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-HYG-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-HYG-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-04/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-04/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-05/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-05/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-06/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-06/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-07/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-07/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-08/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S001-WAT-08/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-FOD-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-FOD-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-04/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S002-WAT-04/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-FOD-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-FOD-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-04/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S003-WAT-04/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S004-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S005-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-03/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S006-WAT-03/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S007-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-HYG-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-HYG-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-02/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S008-WAT-02/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S009-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S010-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S011-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S012-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S013-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S014-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-MED-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-MED-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-MED-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-FOD-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-FOD-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-WAT-01/named attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-WAT-01/delivery recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S015-WAT-01/hard deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U08/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-04/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U06/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-01/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U05/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-04/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U07/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-02/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-01/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-03/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-02/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-03/nonoverlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "category aggregation assumptions",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "transport_energy": 60.70497216913841,
+  "routes": [
+    {
+      "route_id": "K000002",
+      "energy": 2.5979806407170596,
+      "horizontal": 2.4681071389614515,
+      "climb": 0.12987350175560847,
+      "duration": 1561.5526244866223,
+      "finish": 1561.5526244866223,
+      "soc": 0.6752524199103676
+    },
+    {
+      "route_id": "K000003",
+      "energy": 2.7526443904556688,
+      "horizontal": 2.6225193797480255,
+      "climb": 0.13012501070764332,
+      "duration": 1922.826814149187,
+      "finish": 1922.8268153269632,
+      "soc": 0.3118389023860828
+    },
+    {
+      "route_id": "K000004",
+      "energy": 2.140365220765654,
+      "horizontal": 1.9229562237131437,
+      "climb": 0.2174089970525106,
+      "duration": 1869.7476752786915,
+      "finish": 1869.7476752786915,
+      "soc": 0.46490869480858654
+    },
+    {
+      "route_id": "K000001",
+      "energy": 6.2810104080250655,
+      "horizontal": 6.16343210893983,
+      "climb": 0.1175782990852356,
+      "duration": 2107.8421660245544,
+      "finish": 2252.2396507946546,
+      "soc": 0.2148736989968668
+    },
+    {
+      "route_id": "K000005",
+      "energy": 2.565614566085543,
+      "horizontal": 2.468391459201922,
+      "climb": 0.09722310688362124,
+      "duration": 1626.175045862023,
+      "finish": 3187.727670348645,
+      "soc": 0.6792981792393071
+    },
+    {
+      "route_id": "K000006",
+      "energy": 1.8232594430204316,
+      "horizontal": 1.6976949892109054,
+      "climb": 0.12556445380952624,
+      "duration": 1555.4035197802173,
+      "finish": 3425.151195058909,
+      "soc": 0.5441851392448921
+    },
+    {
+      "route_id": "K000007",
+      "energy": 1.8248637585718632,
+      "horizontal": 1.7207094039910897,
+      "climb": 0.10415435458077327,
+      "duration": 1510.511588744525,
+      "finish": 3433.338404071488,
+      "soc": 0.5437840603570342
+    },
+    {
+      "route_id": "K000008",
+      "energy": 3.411075641855823,
+      "horizontal": 3.200721678673755,
+      "climb": 0.2103539631820679,
+      "duration": 1907.600698410691,
+      "finish": 4159.840349205346,
+      "soc": 0.5736155447680221
+    },
+    {
+      "route_id": "K000009",
+      "energy": 5.836066297505489,
+      "horizontal": 5.70244666202321,
+      "climb": 0.1336196354822795,
+      "duration": 2199.7115246008334,
+      "finish": 5387.43919504948,
+      "soc": 0.27049171281181383
+    },
+    {
+      "route_id": "K000010",
+      "energy": 2.3613312390809593,
+      "horizontal": 2.285131108068996,
+      "climb": 0.0762001310119629,
+      "duration": 1756.7240813077574,
+      "finish": 5220.630018918233,
+      "soc": 0.40966719022976017
+    },
+    {
+      "route_id": "K000011",
+      "energy": 1.2204344333114248,
+      "horizontal": 1.1473633902812157,
+      "climb": 0.07307104303020902,
+      "duration": 1149.1061758262156,
+      "finish": 4931.412227017302,
+      "soc": 0.6948913916721438
+    },
+    {
+      "route_id": "K000012",
+      "energy": 6.324596372619295,
+      "horizontal": 6.04059908374346,
+      "climb": 0.2839972888758342,
+      "duration": 2436.1777110992607,
+      "finish": 7152.09265976274,
+      "soc": 0.20942545342258811
+    },
+    {
+      "route_id": "K000013",
+      "energy": 2.096289967733762,
+      "horizontal": 2.0243519304347117,
+      "climb": 0.07193803729905023,
+      "duration": 1558.4628643343576,
+      "finish": 6489.87509135166,
+      "soc": 0.4759275080665595
+    },
+    {
+      "route_id": "K000014",
+      "energy": 2.307588337094472,
+      "horizontal": 2.1323807357231304,
+      "climb": 0.1752076013713413,
+      "duration": 1828.3275601736595,
+      "finish": 7048.957579091892,
+      "soc": 0.42310291572638203
+    },
+    {
+      "route_id": "K000015",
+      "energy": 6.152920552274484,
+      "horizontal": 5.975980071666285,
+      "climb": 0.17694048060819836,
+      "duration": 2301.0547187724455,
+      "finish": 7789.078393129934,
+      "soc": 0.23088493096568952
+    },
+    {
+      "route_id": "K000016",
+      "energy": 1.073963183411491,
+      "horizontal": 0.9963704279602887,
+      "climb": 0.0775927554512024,
+      "duration": 1188.4247628605203,
+      "finish": 8064.934077369624,
+      "soc": 0.7315092041471272
+    },
+    {
+      "route_id": "K000017",
+      "energy": 2.424318485056973,
+      "horizontal": 2.2395899936358026,
+      "climb": 0.1847284914211697,
+      "duration": 2020.6096650380625,
+      "finish": 9069.567244129954,
+      "soc": 0.3939203787357568
+    },
+    {
+      "route_id": "K000018",
+      "energy": 4.222182349592158,
+      "horizontal": 4.090476080189082,
+      "climb": 0.13170626940307617,
+      "duration": 1877.1887154914712,
+      "finish": 9029.281375254212,
+      "soc": 0.47222720630098025
+    },
+    {
+      "route_id": "K000019",
+      "energy": 2.2814782762843064,
+      "horizontal": 2.1930573196794128,
+      "climb": 0.08842095660489402,
+      "duration": 1362.175045862023,
+      "finish": 9163.548863152573,
+      "soc": 0.7148152154644617
+    },
+    {
+      "route_id": "K000020",
+      "energy": 1.0069886056764816,
+      "horizontal": 0.9416194441401589,
+      "climb": 0.0653691615363227,
+      "duration": 1089.1061758262156,
+      "finish": 9154.040253195839,
+      "soc": 0.7482528485808796
+    }
+  ],
+  "hard_box_count": 31,
+  "soft_box_count": 49,
+  "soft_priority_denominator": 460.0,
+  "weighted_lateness": 602.5438555866732,
+  "late_soft_boxes": 6,
+  "category_data_checks": [
+    {
+      "category": "S001|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S001|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S001|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S001|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S002|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S002|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S002|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S002|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S003|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S003|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S003|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S003|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S004|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S004|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S004|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S004|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S005|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S005|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S005|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S005|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S006|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S006|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S006|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S006|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S007|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S007|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S007|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S007|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S008|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S008|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S008|生活卫生用品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S008|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S009|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S009|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S009|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S010|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S010|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S010|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S011|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S011|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S011|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S012|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S012|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S012|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S013|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S013|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S013|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S014|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S014|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S014|饮用水",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S015|医疗物资",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S015|应急食品",
+      "aggregation_preconditions": true
+    },
+    {
+      "category": "S015|饮用水",
+      "aggregation_preconditions": true
+    }
+  ]
+}

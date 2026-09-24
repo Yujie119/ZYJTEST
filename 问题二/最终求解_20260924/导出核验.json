@@ -1,0 +1,28 @@
+{
+  "source_objective": [
+    22,
+    65.51851671683666,
+    6206.344443443169,
+    0.0
+  ],
+  "workbook_objective": [
+    22,
+    65.51851671683666,
+    6206.344443443169,
+    0.0
+  ],
+  "routes": 22,
+  "boxes": 80,
+  "archive_solutions": 14,
+  "uavs": 8,
+  "batteries": 14,
+  "formula_count": 840,
+  "all_formula_caches_verified": true,
+  "typed_numeric_columns_verified": true,
+  "one_final_solution_only": true,
+  "original_workbook_unchanged": true,
+  "source_independent_audit_matches": true,
+  "output": "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\最终求解_20260924\\问题二_结果提交.xlsx",
+  "sha256": "245ea27540d7d49347ca94b2489322d0ab03032a375c059cb96360a88717262c",
+  "formula_method": "Python restricted formula parser; Excel auto-recalculation on opening"
+}

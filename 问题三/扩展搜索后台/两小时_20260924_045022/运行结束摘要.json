@@ -1,0 +1,83 @@
+{
+  "status": "stopped_requested_stop_file",
+  "started_utc": "2026-09-23T20:55:28.499113+00:00",
+  "started_epoch": 1790196928.4991188,
+  "deadline_epoch": 1790204128.4991107,
+  "coordinator_pid": 13988,
+  "config": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022\\后台配置.json",
+  "jobs": [
+    {
+      "name": "full_C",
+      "kind": "full_library",
+      "pid": 36480,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022\\全库_C",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:55:28.506650+00:00",
+      "returncode": 1,
+      "ended_utc": "2026-09-23T20:55:38.556508+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_E",
+      "kind": "full_library",
+      "pid": 3328,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022\\全库_E",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:55:28.514729+00:00",
+      "returncode": 1,
+      "ended_utc": "2026-09-23T20:55:38.556536+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_L",
+      "kind": "full_library",
+      "pid": 32828,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022\\全库_L",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:55:28.526623+00:00",
+      "returncode": 1,
+      "ended_utc": "2026-09-23T20:55:38.556543+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_N",
+      "kind": "full_library",
+      "pid": 31496,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022\\全库_N",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:55:28.535118+00:00",
+      "returncode": 1,
+      "ended_utc": "2026-09-23T20:55:38.556549+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "neighborhood_2026092401",
+      "kind": "neighborhood",
+      "pid": 9712,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022\\邻域_2026092401",
+      "status": "stopped_requested_stop_file",
+      "started_utc": "2026-09-23T20:55:28.544770+00:00",
+      "returncode": 1,
+      "ended_utc": "2026-09-23T20:56:18.592500+00:00"
+    },
+    {
+      "name": "neighborhood_2026092402",
+      "kind": "neighborhood",
+      "pid": 24192,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022\\邻域_2026092402",
+      "status": "stopped_requested_stop_file",
+      "started_utc": "2026-09-23T20:55:28.553935+00:00",
+      "returncode": 1,
+      "ended_utc": "2026-09-23T20:56:18.621889+00:00"
+    }
+  ],
+  "elapsed_s": 50.12300739996135,
+  "remaining_s": 7149.876991300029,
+  "only_O01_swaps": true,
+  "completion_does_not_mean_optimality": true,
+  "updated_utc": "2026-09-23T20:56:18.622111+00:00",
+  "active_jobs": 0,
+  "verified_plan_files": [],
+  "pending_plan_files": [],
+  "finished_utc": "2026-09-23T20:56:18.622118+00:00"
+}

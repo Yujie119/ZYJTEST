@@ -1,0 +1,17 @@
+{
+  "sources": [
+    "联合非支配档案.json",
+    "run2\\联合非支配档案.json",
+    "direct_joint\\archive.json",
+    "target_20_22\\worker_0_archive.json",
+    "target_20_22\\worker_1_archive.json",
+    "target_20_22\\worker_2_archive.json",
+    "target_20_22\\worker_3_archive.json"
+  ],
+  "archive_before_polish": 24,
+  "archive_after_merge": 11,
+  "candidate_count": 28216,
+  "seconds": 105.92224390001502,
+  "scope": "No sortie count is fixed in the main searches. Per-plan terminal polishing is only an additional dominance improvement.",
+  "expert_addendum": "No spare batteries; initially all at O01. Current solutions do not use off-depot exchanges and remain restricted feasible baselines."
+}

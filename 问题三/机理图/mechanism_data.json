@@ -1,0 +1,4307 @@
+{
+  "archive": [
+    {
+      "id": "CA01",
+      "objective": [
+        24.0,
+        65.11205028199753,
+        9165.154435126618,
+        465.2583642491526
+      ],
+      "sources": [
+        "polish_official",
+        "polish_mapped_witness"
+      ],
+      "representative_path": "搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+      "dominated_by": [],
+      "nondominated": true,
+      "normalized_objective": [
+        0.0,
+        0.0938998618569741,
+        0.0008919844855770659,
+        -0.22880915206253613
+      ],
+      "regret_archive": 0.0,
+      "worst_vertex_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "regrets_by_vertex": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "CA03",
+      "objective": [
+        24.0,
+        64.90750468311684,
+        9163.548863152573,
+        602.5438555866732
+      ],
+      "sources": [
+        "polish_archive_01"
+      ],
+      "representative_path": "搜索精修\\扩展固定结构精修_v1\\archive_01\\已核验方案.json",
+      "dominated_by": [],
+      "nondominated": true,
+      "normalized_objective": [
+        0.0,
+        0.052990742080837094,
+        5.5551936384290455e-11,
+        1.666649040998891e-10
+      ],
+      "regret_archive": 0.08720975280656043,
+      "worst_vertex_indices": [
+        11
+      ],
+      "regrets_by_vertex": [
+        0.05288837997218027,
+        0.0468858096702635,
+        0.012430639171379572,
+        0.04061564403933917,
+        0.04074944170384294,
+        0.006294271204959017,
+        0.04661821434125595,
+        0.052754582307676504,
+        0.012296841506875801,
+        0.08107338484013987,
+        0.08720975280656043,
+        0.08120718250464366
+      ]
+    },
+    {
+      "id": "CA04",
+      "objective": [
+        24.0,
+        65.14636262795766,
+        9163.548863152573,
+        465.2583643491526
+      ],
+      "sources": [
+        "polish_archive_02"
+      ],
+      "representative_path": "搜索精修\\扩展固定结构精修_v1\\archive_02\\已核验方案.json",
+      "dominated_by": [],
+      "nondominated": true,
+      "normalized_objective": [
+        0.0,
+        0.10076233104900041,
+        5.5551936384290455e-11,
+        -0.22880915189586942
+      ],
+      "regret_archive": 0.0026557892754746903,
+      "worst_vertex_indices": [
+        5
+      ],
+      "regrets_by_vertex": [
+        0.00046325085336302446,
+        0.0016264188966707421,
+        0.0014926212071669663,
+        0.002521991610970914,
+        0.0026557892754746903,
+        0.0025219915859709067,
+        0.0013588235676632032,
+        0.000329453188859255,
+        0.001358823542663196,
+        0.0014926212571669817,
+        0.00046325087836303347,
+        0.001626418921670758
+      ]
+    },
+    {
+      "id": "CA05",
+      "objective": [
+        24.0,
+        64.85204587579615,
+        9165.15443502662,
+        602.5438554866731
+      ],
+      "sources": [
+        "polish_archive_03"
+      ],
+      "representative_path": "搜索精修\\扩展固定结构精修_v1\\archive_03\\已核验方案.json",
+      "dominated_by": [],
+      "nondominated": true,
+      "normalized_objective": [
+        0.0,
+        0.041898980616699076,
+        0.000891984430022098,
+        -1.8947806286936005e-15
+      ],
+      "regret_archive": 0.08632357268709745,
+      "worst_vertex_indices": [
+        11
+      ],
+      "regrets_by_vertex": [
+        0.052002199877717314,
+        0.04420206770000931,
+        0.009880694882295928,
+        0.0364019355056348,
+        0.036401935513968045,
+        0.002080562696254668,
+        0.04420206768334281,
+        0.052002199869384064,
+        0.009880694873962682,
+        0.0785234405010562,
+        0.08632357268709745,
+        0.07852344050938945
+      ]
+    },
+    {
+      "id": "CA06",
+      "objective": [
+        25.0,
+        64.63787853587301,
+        9163.548863152573,
+        602.5438555866731
+      ],
+      "sources": [
+        "polish_archive_05"
+      ],
+      "representative_path": "搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+      "dominated_by": [],
+      "nondominated": true,
+      "normalized_objective": [
+        0.5,
+        -0.0009344873679282273,
+        5.5551936384290455e-11,
+        1.6666471462182622e-10
+      ],
+      "regret_archive": 0.2474958570273037,
+      "worst_vertex_indices": [
+        1
+      ],
+      "regrets_by_vertex": [
+        0.2474958570273037,
+        0.23340450230807214,
+        0.19894933180918822,
+        0.069045552259833,
+        0.14417934992433676,
+        0.10972417942545287,
+        0.08313690697906458,
+        0.17236205936279994,
+        0.12381553414468446,
+        0.11759207747794848,
+        0.20681722986168383,
+        0.19272587514245226
+      ]
+    },
+    {
+      "id": "CA07",
+      "objective": [
+        25.0,
+        64.99970719690505,
+        9163.548863152573,
+        465.2583643491526
+      ],
+      "sources": [
+        "polish_archive_06"
+      ],
+      "representative_path": "搜索精修\\扩展固定结构精修_v1\\archive_06\\已核验方案.json",
+      "dominated_by": [],
+      "nondominated": true,
+      "normalized_objective": [
+        0.5,
+        0.07143124483847885,
+        5.5551936384290455e-11,
+        -0.22880915189586942
+      ],
+      "regret_archive": 0.19753014223231086,
+      "worst_vertex_indices": [
+        1
+      ],
+      "regrets_by_vertex": [
+        0.19753014223231086,
+        0.19429364734404037,
+        0.1941598496545366,
+        0.0407895571267623,
+        0.11592335479126606,
+        0.1157895571017623,
+        0.04402605201503282,
+        0.1223963445678071,
+        0.11902605199003281,
+        0.044159849704536576,
+        0.12253014225731086,
+        0.11929364736904036
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "caps": {
+        "N": 24,
+        "E": 65.2,
+        "L": 650
+      },
+      "eligible": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "best": 2
+    },
+    {
+      "caps": {
+        "N": 24,
+        "E": 65.13,
+        "L": 500
+      },
+      "eligible": [
+        0
+      ],
+      "best": 0
+    },
+    {
+      "caps": {
+        "N": 24,
+        "E": 64.95,
+        "L": 500
+      },
+      "eligible": [],
+      "best": null
+    }
+  ],
+  "chains": [
+    {
+      "seed": 202631,
+      "wave": 0,
+      "caps": {
+        "N": 25.0,
+        "E": 65.455822995215,
+        "L": 702.5439157410597
+      },
+      "rows": [
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202631,
+          "iteration": 0,
+          "operator": "relay_linked",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.0,
+            0.8300000000000001
+          ],
+          "seconds": 13.77799309999682,
+          "variables": 6601,
+          "constraints": 26736,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202631,
+          "iteration": 1,
+          "operator": "relay_linked",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.0,
+            0.6940000000000002
+          ],
+          "seconds": 12.454587400017772,
+          "variables": 6748,
+          "constraints": 27050,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202631,
+          "iteration": 2,
+          "operator": "energy",
+          "removed": 3,
+          "feasible": true,
+          "objective": [
+            25,
+            65.45582299521504,
+            9163.54886305258,
+            602.5438554866743
+          ],
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.1,
+            0.6940000000000002
+          ],
+          "seconds": 11.967969300050754,
+          "variables": 6091,
+          "constraints": 24839,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.54886305258,
+              "gap": 0.0
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 2.6147972675971687e-12
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202631,
+          "iteration": 3,
+          "operator": "random",
+          "removed": 2,
+          "feasible": true,
+          "objective": [
+            24,
+            65.455822995215,
+            9165.154435026616,
+            602.5438554866743
+          ],
+          "operator_weights": [
+            1.1,
+            1.0,
+            1.1,
+            0.6940000000000002
+          ],
+          "seconds": 8.79402830003528,
+          "variables": 4037,
+          "constraints": 18077,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.54886305258,
+              "gap": 0.00017518220619394022
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 2.728484105318785e-12
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202631,
+          "iteration": 4,
+          "operator": "global_resource_retime",
+          "removed": 20,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0300000000000002,
+            1.0,
+            1.1,
+            0.6940000000000002
+          ],
+          "seconds": 12.046119400009047,
+          "variables": 1466,
+          "constraints": 4534,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 20,
+          "required": 20,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202631,
+          "iteration": 5,
+          "operator": "communication",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0300000000000002,
+            0.8300000000000001,
+            1.1,
+            0.6940000000000002
+          ],
+          "seconds": 13.086309399979655,
+          "variables": 6711,
+          "constraints": 24972,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 58,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202631,
+          "iteration": 6,
+          "operator": "energy",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0300000000000002,
+            0.8300000000000001,
+            1.0300000000000002,
+            0.6940000000000002
+          ],
+          "seconds": 12.166668899997603,
+          "variables": 5897,
+          "constraints": 24288,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202631,
+          "iteration": 7,
+          "operator": "communication",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0300000000000002,
+            0.6940000000000002,
+            1.0300000000000002,
+            0.6940000000000002
+          ],
+          "seconds": 13.649563600018155,
+          "variables": 6972,
+          "constraints": 27126,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        }
+      ],
+      "returned_count": 2
+    },
+    {
+      "seed": 202632,
+      "wave": 0,
+      "caps": {
+        "N": 27.0,
+        "E": 64.79918698396384,
+        "L": 902.5439157410597
+      },
+      "rows": [
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202632,
+          "iteration": 0,
+          "operator": "random",
+          "removed": 3,
+          "feasible": true,
+          "objective": [
+            25,
+            64.79918698396384,
+            9165.154435026616,
+            602.5438554866743
+          ],
+          "operator_weights": [
+            1.1,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "seconds": 8.682082000013907,
+          "variables": 5545,
+          "constraints": 23214,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.54886305258,
+              "gap": 0.00017518220619394022
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.79918698396384,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 6.821210263296962e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202632,
+          "iteration": 1,
+          "operator": "energy",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1,
+            1.0,
+            0.8300000000000001,
+            1.0
+          ],
+          "seconds": 12.326324500027113,
+          "variables": 5653,
+          "constraints": 23225,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.79918698396384,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202632,
+          "iteration": 2,
+          "operator": "communication",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1,
+            0.8300000000000001,
+            0.8300000000000001,
+            1.0
+          ],
+          "seconds": 12.56182629999239,
+          "variables": 7612,
+          "constraints": 29279,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.79918698396384,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202632,
+          "iteration": 3,
+          "operator": "relay_linked",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1,
+            0.8300000000000001,
+            0.8300000000000001,
+            0.8300000000000001
+          ],
+          "seconds": 12.165318300016224,
+          "variables": 5678,
+          "constraints": 24150,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.79918698396384,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202632,
+          "iteration": 4,
+          "operator": "global_resource_retime",
+          "removed": 20,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1,
+            0.6940000000000002,
+            0.8300000000000001,
+            0.8300000000000001
+          ],
+          "seconds": 12.047882000042591,
+          "variables": 1466,
+          "constraints": 4534,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 20,
+          "required": 20,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.79918698396384,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202632,
+          "iteration": 5,
+          "operator": "random",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0300000000000002,
+            0.6940000000000002,
+            0.8300000000000001,
+            0.8300000000000001
+          ],
+          "seconds": 12.108571199991275,
+          "variables": 4210,
+          "constraints": 18447,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.79918698396384,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202632,
+          "iteration": 6,
+          "operator": "communication",
+          "removed": 4,
+          "feasible": true,
+          "objective": [
+            25,
+            64.61766955815122,
+            9165.154435026616,
+            602.5438554866743
+          ],
+          "operator_weights": [
+            1.0300000000000002,
+            0.6552000000000001,
+            0.8300000000000001,
+            0.8300000000000001
+          ],
+          "seconds": 9.047350800014101,
+          "variables": 6782,
+          "constraints": 26809,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.54886305258,
+              "gap": 0.00017518220619394022
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.79918698396384,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 9.094947017729282e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202632,
+          "iteration": 7,
+          "operator": "relay_linked",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0300000000000002,
+            0.6552000000000001,
+            0.8300000000000001,
+            0.6940000000000002
+          ],
+          "seconds": 12.244167099997867,
+          "variables": 5225,
+          "constraints": 22593,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.79918698396384,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        }
+      ],
+      "returned_count": 2
+    },
+    {
+      "seed": 202633,
+      "wave": 0,
+      "caps": {
+        "N": 24.0,
+        "E": 65.955822995215,
+        "L": 612.5438554866743
+      },
+      "rows": [
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202633,
+          "iteration": 0,
+          "operator": "relay_linked",
+          "removed": 3,
+          "feasible": true,
+          "objective": [
+            24,
+            65.70620644367577,
+            9170.431762237386,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.0,
+            1.1
+          ],
+          "seconds": 8.783887500001583,
+          "variables": 5232,
+          "constraints": 22376,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.0007504694921806837
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 1.0732037480920553e-10
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202633,
+          "iteration": 1,
+          "operator": "communication",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            0.8300000000000001,
+            1.0,
+            1.1
+          ],
+          "seconds": 12.229079100012314,
+          "variables": 6711,
+          "constraints": 24972,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 58,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202633,
+          "iteration": 2,
+          "operator": "energy",
+          "removed": 2,
+          "feasible": true,
+          "objective": [
+            24,
+            65.52181691533336,
+            9170.431762237447,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.0,
+            0.8300000000000001,
+            1.1,
+            1.1
+          ],
+          "seconds": 4.140927900036331,
+          "variables": 2659,
+          "constraints": 9205,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.0007504694921846478
+            }
+          ],
+          "route_pool": 34,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 6.821210263296962e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202633,
+          "iteration": 3,
+          "operator": "random",
+          "removed": 4,
+          "feasible": true,
+          "objective": [
+            24,
+            64.90201246625955,
+            9165.154435026616,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.5,
+            0.8300000000000001,
+            1.1,
+            1.1
+          ],
+          "seconds": 12.145382600021549,
+          "variables": 5177,
+          "constraints": 21628,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.00017509820137406873
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 1.4551915228366852e-11
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202633,
+          "iteration": 4,
+          "operator": "global_resource_retime",
+          "removed": 20,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.5,
+            0.8300000000000001,
+            1.1,
+            1.0300000000000002
+          ],
+          "seconds": 12.10820270003751,
+          "variables": 1466,
+          "constraints": 4534,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 20,
+          "required": 20,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202633,
+          "iteration": 5,
+          "operator": "random",
+          "removed": 2,
+          "feasible": true,
+          "objective": [
+            24,
+            65.05306727519374,
+            9165.154435026616,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.7000000000000002,
+            0.8300000000000001,
+            1.1,
+            1.0300000000000002
+          ],
+          "seconds": 9.656926799973007,
+          "variables": 6328,
+          "constraints": 25241,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.00017509820137406873
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 9.094947017729282e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202633,
+          "iteration": 6,
+          "operator": "random",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.6933333333333338,
+            0.8300000000000001,
+            1.1,
+            1.0300000000000002
+          ],
+          "seconds": 2.325835600029677,
+          "variables": 5373,
+          "constraints": 22548,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202633,
+          "iteration": 7,
+          "operator": "random",
+          "removed": 4,
+          "feasible": true,
+          "objective": [
+            24,
+            65.03219843937606,
+            9163.549632969727,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.7796666666666672,
+            0.8300000000000001,
+            1.1,
+            1.0300000000000002
+          ],
+          "seconds": 8.85554099996807,
+          "variables": 5829,
+          "constraints": 23539,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.0
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 2.9103830456733704e-11
+        }
+      ],
+      "returned_count": 5
+    },
+    {
+      "seed": 202634,
+      "wave": 0,
+      "caps": {
+        "N": 23.0,
+        "E": 66.955822995215,
+        "L": 1102.5439157410597
+      },
+      "rows": [
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202634,
+          "iteration": 0,
+          "operator": "energy",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            1.0,
+            0.8300000000000001,
+            1.0
+          ],
+          "seconds": 3.047613399976399,
+          "variables": 2659,
+          "constraints": 9204,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 34,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202634,
+          "iteration": 1,
+          "operator": "communication",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            0.8300000000000001,
+            0.8300000000000001,
+            1.0
+          ],
+          "seconds": 5.4274086999939755,
+          "variables": 7426,
+          "constraints": 28839,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202634,
+          "iteration": 2,
+          "operator": "relay_linked",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            0.8300000000000001,
+            0.8300000000000001,
+            0.8300000000000001
+          ],
+          "seconds": 2.2482489999965765,
+          "variables": 5750,
+          "constraints": 23273,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202634,
+          "iteration": 3,
+          "operator": "relay_linked",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            0.8300000000000001,
+            0.8300000000000001,
+            0.6940000000000002
+          ],
+          "seconds": 4.962869500042871,
+          "variables": 6513,
+          "constraints": 25767,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202634,
+          "iteration": 4,
+          "operator": "global_resource_retime",
+          "removed": 20,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.8300000000000001,
+            0.8300000000000001,
+            0.8300000000000001,
+            0.6940000000000002
+          ],
+          "seconds": 12.033059699984733,
+          "variables": 1466,
+          "constraints": 4534,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 20,
+          "required": 20,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202634,
+          "iteration": 5,
+          "operator": "random",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.8300000000000001,
+            0.8300000000000001,
+            0.6940000000000002
+          ],
+          "seconds": 5.61860639997758,
+          "variables": 5443,
+          "constraints": 23022,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202634,
+          "iteration": 6,
+          "operator": "communication",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.6940000000000002,
+            0.8300000000000001,
+            0.6940000000000002
+          ],
+          "seconds": 5.9595586999785155,
+          "variables": 7851,
+          "constraints": 29891,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 0,
+          "seed": 202634,
+          "iteration": 7,
+          "operator": "energy",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.6940000000000002,
+            0.6940000000000002,
+            0.6940000000000002
+          ],
+          "seconds": 4.455232899985276,
+          "variables": 5666,
+          "constraints": 23382,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        }
+      ],
+      "returned_count": 0
+    },
+    {
+      "seed": 202641,
+      "wave": 1,
+      "caps": {
+        "N": 25.0,
+        "E": 65.455822995215,
+        "L": 702.5439157410597
+      },
+      "rows": [
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202641,
+          "iteration": 0,
+          "operator": "relay_linked",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.0,
+            0.8300000000000001
+          ],
+          "seconds": 12.445899499987718,
+          "variables": 8393,
+          "constraints": 32043,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202641,
+          "iteration": 1,
+          "operator": "relay_linked",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.0,
+            0.6940000000000002
+          ],
+          "seconds": 14.64573540003039,
+          "variables": 6255,
+          "constraints": 25278,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202641,
+          "iteration": 2,
+          "operator": "relay_linked",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.0,
+            0.5852000000000002
+          ],
+          "seconds": 12.154739700024948,
+          "variables": 6716,
+          "constraints": 26944,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202641,
+          "iteration": 3,
+          "operator": "random",
+          "removed": 2,
+          "feasible": true,
+          "objective": [
+            24,
+            65.38770561998116,
+            9163.54886305258,
+            602.5438554866743
+          ],
+          "operator_weights": [
+            1.1,
+            1.0,
+            1.0,
+            0.5852000000000002
+          ],
+          "seconds": 6.171811800042633,
+          "variables": 6515,
+          "constraints": 26153,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.54886305258,
+              "gap": 0.0
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 9.094947017729282e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202641,
+          "iteration": 4,
+          "operator": "global_resource_retime",
+          "removed": 20,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0300000000000002,
+            1.0,
+            1.0,
+            0.5852000000000002
+          ],
+          "seconds": 12.028013200033456,
+          "variables": 1466,
+          "constraints": 4534,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 20,
+          "required": 20,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202641,
+          "iteration": 5,
+          "operator": "random",
+          "removed": 3,
+          "feasible": true,
+          "objective": [
+            25,
+            65.45582299521499,
+            9174.523645624187,
+            602.5438554866743
+          ],
+          "operator_weights": [
+            1.0240000000000002,
+            1.0,
+            1.0,
+            0.5852000000000002
+          ],
+          "seconds": 9.020442500011995,
+          "variables": 5773,
+          "constraints": 23997,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.54886305258,
+              "gap": 0.001196223694604798
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 6.821210263296962e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202641,
+          "iteration": 6,
+          "operator": "random",
+          "removed": 4,
+          "feasible": true,
+          "objective": [
+            24,
+            65.455822995215,
+            9165.154435026601,
+            602.5438554866743
+          ],
+          "operator_weights": [
+            1.1442000000000003,
+            1.0,
+            1.0,
+            0.5852000000000002
+          ],
+          "seconds": 10.650006100011524,
+          "variables": 5477,
+          "constraints": 22330,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.54886305258,
+              "gap": 0.00017518220619235276
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 9.094947017729282e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202641,
+          "iteration": 7,
+          "operator": "random",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1753600000000004,
+            1.0,
+            1.0,
+            0.5852000000000002
+          ],
+          "seconds": 0.4594498000224121,
+          "variables": 6105,
+          "constraints": 24419,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 25.0,
+            "E": 65.455822995215,
+            "L": 702.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        }
+      ],
+      "returned_count": 3
+    },
+    {
+      "seed": 202642,
+      "wave": 1,
+      "caps": {
+        "N": 27.0,
+        "E": 64.78674627668312,
+        "L": 902.5439157410597
+      },
+      "rows": [
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202642,
+          "iteration": 0,
+          "operator": "relay_linked",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.0,
+            0.8300000000000001
+          ],
+          "seconds": 12.593708500033244,
+          "variables": 6674,
+          "constraints": 26127,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.78674627668312,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202642,
+          "iteration": 1,
+          "operator": "energy",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            1.0,
+            0.8300000000000001,
+            0.8300000000000001
+          ],
+          "seconds": 12.210384999983944,
+          "variables": 6045,
+          "constraints": 24277,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.78674627668312,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202642,
+          "iteration": 2,
+          "operator": "communication",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.0,
+            0.8300000000000001,
+            0.8300000000000001,
+            0.8300000000000001
+          ],
+          "seconds": 12.645522500039078,
+          "variables": 7487,
+          "constraints": 28928,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.78674627668312,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202642,
+          "iteration": 3,
+          "operator": "random",
+          "removed": 4,
+          "feasible": true,
+          "objective": [
+            25,
+            64.78674627668312,
+            9165.154435026618,
+            602.5438554866743
+          ],
+          "operator_weights": [
+            1.1,
+            0.8300000000000001,
+            0.8300000000000001,
+            0.8300000000000001
+          ],
+          "seconds": 8.507314699993003,
+          "variables": 5895,
+          "constraints": 23831,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.54886305258,
+              "gap": 0.00017518220619394022
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.78674627668312,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 1.8189894035458565e-12
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202642,
+          "iteration": 4,
+          "operator": "global_resource_retime",
+          "removed": 20,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1,
+            0.8300000000000001,
+            0.8300000000000001,
+            0.6940000000000002
+          ],
+          "seconds": 12.03364340000553,
+          "variables": 1466,
+          "constraints": 4534,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 20,
+          "required": 20,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.78674627668312,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202642,
+          "iteration": 5,
+          "operator": "energy",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1,
+            0.8300000000000001,
+            0.6940000000000002,
+            0.6940000000000002
+          ],
+          "seconds": 12.191678199975286,
+          "variables": 5389,
+          "constraints": 22062,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.78674627668312,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202642,
+          "iteration": 6,
+          "operator": "communication",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1,
+            0.6940000000000002,
+            0.6940000000000002,
+            0.6940000000000002
+          ],
+          "seconds": 13.665003900008742,
+          "variables": 7398,
+          "constraints": 28731,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.78674627668312,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202642,
+          "iteration": 7,
+          "operator": "relay_linked",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1,
+            0.6940000000000002,
+            0.6940000000000002,
+            0.5852000000000002
+          ],
+          "seconds": 13.386431300023105,
+          "variables": 5907,
+          "constraints": 23861,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 27.0,
+            "E": 64.78674627668312,
+            "L": 902.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        }
+      ],
+      "returned_count": 1
+    },
+    {
+      "seed": 202643,
+      "wave": 1,
+      "caps": {
+        "N": 24.0,
+        "E": 65.955822995215,
+        "L": 612.5438554866743
+      },
+      "rows": [
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202643,
+          "iteration": 0,
+          "operator": "relay_linked",
+          "removed": 3,
+          "feasible": true,
+          "objective": [
+            24,
+            65.52501654233266,
+            9165.154435026616,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.0,
+            1.1
+          ],
+          "seconds": 10.023466599988751,
+          "variables": 6035,
+          "constraints": 24815,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.00017509820137406873
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 6.821210263296962e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202643,
+          "iteration": 1,
+          "operator": "energy",
+          "removed": 2,
+          "feasible": true,
+          "objective": [
+            24,
+            64.91900401550828,
+            9163.549632969727,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.0,
+            1.0,
+            1.5,
+            1.1
+          ],
+          "seconds": 11.62308769999072,
+          "variables": 5771,
+          "constraints": 23837,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.0
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 9.094947017729282e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202643,
+          "iteration": 2,
+          "operator": "random",
+          "removed": 4,
+          "feasible": true,
+          "objective": [
+            24,
+            65.6012697969389,
+            9170.431762237447,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.1,
+            1.0,
+            1.5,
+            1.1
+          ],
+          "seconds": 11.467838199983817,
+          "variables": 5383,
+          "constraints": 22004,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.0007504694921846478
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 9.094947017729282e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202643,
+          "iteration": 3,
+          "operator": "random",
+          "removed": 3,
+          "feasible": true,
+          "objective": [
+            24,
+            65.66069512458292,
+            9190.24867848723,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.1800000000000002,
+            1.0,
+            1.5,
+            1.1
+          ],
+          "seconds": 12.146173399989493,
+          "variables": 5052,
+          "constraints": 20989,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "incumbent_available": true,
+              "bound": 9154.040252018072,
+              "gap": 0.003939874505672088
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 7.958078640513122e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202643,
+          "iteration": 4,
+          "operator": "global_resource_retime",
+          "removed": 20,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1440000000000001,
+            1.0,
+            1.5,
+            1.1
+          ],
+          "seconds": 12.042089900001884,
+          "variables": 1466,
+          "constraints": 4534,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 20,
+          "required": 20,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202643,
+          "iteration": 5,
+          "operator": "communication",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            1.1440000000000001,
+            0.8300000000000001,
+            1.5,
+            1.1
+          ],
+          "seconds": 12.239268600009382,
+          "variables": 6946,
+          "constraints": 27048,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202643,
+          "iteration": 6,
+          "operator": "energy",
+          "removed": 3,
+          "feasible": true,
+          "objective": [
+            24,
+            65.47513634951713,
+            9163.549632969727,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.1440000000000001,
+            0.8300000000000001,
+            1.9000000000000004,
+            1.1
+          ],
+          "seconds": 11.925994899997022,
+          "variables": 5684,
+          "constraints": 23556,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.0
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 9.094947017729282e-13
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202643,
+          "iteration": 7,
+          "operator": "random",
+          "removed": 4,
+          "feasible": true,
+          "objective": [
+            24,
+            65.48266338197081,
+            9170.431762237447,
+            602.5439157410597
+          ],
+          "operator_weights": [
+            1.1402,
+            0.8300000000000001,
+            1.9000000000000004,
+            1.1
+          ],
+          "seconds": 9.792174200003501,
+          "variables": 5884,
+          "constraints": 24046,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "incumbent_available": true,
+              "bound": 9163.549632969727,
+              "gap": 0.0007504694921846478
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 24.0,
+            "E": 65.955822995215,
+            "L": 612.5438554866743
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+          "max_constraint_violation": 6.821210263296962e-13
+        }
+      ],
+      "returned_count": 6
+    },
+    {
+      "seed": 202644,
+      "wave": 1,
+      "caps": {
+        "N": 23.0,
+        "E": 66.955822995215,
+        "L": 1102.5439157410597
+      },
+      "rows": [
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202644,
+          "iteration": 0,
+          "operator": "random",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.8300000000000001,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "seconds": 8.059409099980257,
+          "variables": 4694,
+          "constraints": 20272,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202644,
+          "iteration": 1,
+          "operator": "communication",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.8300000000000001,
+            0.8300000000000001,
+            1.0,
+            1.0
+          ],
+          "seconds": 4.887392800010275,
+          "variables": 7426,
+          "constraints": 28503,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202644,
+          "iteration": 2,
+          "operator": "random",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.8300000000000001,
+            1.0,
+            1.0
+          ],
+          "seconds": 2.048532899993006,
+          "variables": 6547,
+          "constraints": 26153,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202644,
+          "iteration": 3,
+          "operator": "relay_linked",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.8300000000000001,
+            1.0,
+            0.8300000000000001
+          ],
+          "seconds": 2.441032800008543,
+          "variables": 7070,
+          "constraints": 27737,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202644,
+          "iteration": 4,
+          "operator": "global_resource_retime",
+          "removed": 20,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.8300000000000001,
+            1.0,
+            0.6940000000000002
+          ],
+          "seconds": 12.03649550001137,
+          "variables": 1466,
+          "constraints": 4534,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 20,
+          "required": 20,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202644,
+          "iteration": 5,
+          "operator": "communication",
+          "removed": 4,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.6940000000000002,
+            1.0,
+            0.6940000000000002
+          ],
+          "seconds": 12.358246100018732,
+          "variables": 7393,
+          "constraints": 28370,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 64,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202644,
+          "iteration": 6,
+          "operator": "relay_linked",
+          "removed": 3,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.6940000000000002,
+            1.0,
+            0.5852000000000002
+          ],
+          "seconds": 2.7903744999784976,
+          "variables": 6272,
+          "constraints": 24928,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 65,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        },
+        {
+          "kind": "ALNS",
+          "wave": 1,
+          "seed": 202644,
+          "iteration": 7,
+          "operator": "relay_linked",
+          "removed": 2,
+          "feasible": false,
+          "objective": null,
+          "operator_weights": [
+            0.6940000000000002,
+            0.6940000000000002,
+            1.0,
+            0.49816000000000016
+          ],
+          "seconds": 2.656531599990558,
+          "variables": 5069,
+          "constraints": 21396,
+          "stages": [
+            {
+              "stage": "C",
+              "status": 2,
+              "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+              "incumbent_available": false,
+              "bound": null,
+              "gap": null
+            }
+          ],
+          "route_pool": 66,
+          "required": 0,
+          "mode": "C",
+          "caps": {
+            "N": 23.0,
+            "E": 66.955822995215,
+            "L": 1102.5439157410597
+          },
+          "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon"
+        }
+      ],
+      "returned_count": 0
+    }
+  ],
+  "graph": {
+    "relay": "Q3-R001",
+    "slot": 0,
+    "routes": [
+      {
+        "id": "K000001",
+        "zone": "S002",
+        "related": true
+      },
+      {
+        "id": "K000008",
+        "zone": "S007",
+        "related": true
+      },
+      {
+        "id": "K000009",
+        "zone": "S008",
+        "related": true
+      },
+      {
+        "id": "K000010",
+        "zone": "S002",
+        "related": true
+      },
+      {
+        "id": "K000002",
+        "zone": "S006",
+        "related": false
+      },
+      {
+        "id": "K000004",
+        "zone": "S014",
+        "related": false
+      }
+    ],
+    "incidence_count": 9,
+    "meaning": "Subset of actual incidence; highlighted removal is illustrative, not a recovered ALNS transition"
+  },
+  "old_bounds": [
+    {
+      "mode": "C",
+      "caps": {
+        "N": 24.000001,
+        "E": 65.12007,
+        "L": 465.2585
+      },
+      "elapsed_s": 300.27177839999786,
+      "rounds": 4,
+      "lower_bound": 6786.438811950914,
+      "external_witness_upper_bound": 9165.85322827993,
+      "relative_gap": 0.25959551795872887,
+      "same_frozen_scope_verified": true,
+      "external_witness_satisfies_caps": true,
+      "new_complete_incumbent": false,
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "file": "全局直接求解/扩展搜索_v3/C/直接联合MILP结果.json"
+    },
+    {
+      "mode": "E",
+      "caps": {
+        "N": 24.000001,
+        "C": 9165.854,
+        "L": 465.2585
+      },
+      "elapsed_s": 300.17641650000587,
+      "rounds": 3,
+      "lower_bound": 60.7353168350321,
+      "external_witness_upper_bound": 65.12006866674481,
+      "relative_gap": 0.06733334164851541,
+      "same_frozen_scope_verified": true,
+      "external_witness_satisfies_caps": true,
+      "new_complete_incumbent": false,
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "file": "全局直接求解/扩展搜索_v3/E/直接联合MILP结果.json"
+    },
+    {
+      "mode": "L",
+      "caps": {
+        "N": 24.000001,
+        "E": 65.12007,
+        "C": 9165.854
+      },
+      "elapsed_s": 300.2349983000313,
+      "rounds": 3,
+      "lower_bound": 0.0,
+      "external_witness_upper_bound": 465.25841077498995,
+      "relative_gap": 1.0,
+      "same_frozen_scope_verified": true,
+      "external_witness_satisfies_caps": true,
+      "new_complete_incumbent": false,
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "file": "全局直接求解/扩展搜索_v3/L/直接联合MILP结果.json"
+    },
+    {
+      "mode": "N",
+      "caps": {
+        "E": 65.12007,
+        "C": 9165.854,
+        "L": 465.2585
+      },
+      "elapsed_s": 300.6489278000081,
+      "rounds": 4,
+      "lower_bound": 21.0,
+      "external_witness_upper_bound": 24,
+      "relative_gap": 0.125,
+      "same_frozen_scope_verified": true,
+      "external_witness_satisfies_caps": true,
+      "new_complete_incumbent": false,
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "file": "全局直接求解/扩展搜索_v3/N/直接联合MILP结果.json"
+    }
+  ],
+  "long_runs": [
+    {
+      "scalar_objective": "C",
+      "epsilon_caps": {
+        "N": 24.000001,
+        "E": 65.12007,
+        "L": 465.2585
+      },
+      "finite_model_valid_lower_bound": 6466.957058329807,
+      "elapsed_s": 7080.685824699991,
+      "iterations": [
+        {
+          "iteration": 0,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "C",
+          "solver_objective": 6734.530359749452,
+          "dual_bound": 6336.724886273685,
+          "mip_gap": 0.05906951965846759,
+          "nodes": 5911,
+          "max_constraint_violation": 4.547473508864641e-13,
+          "variables": 21516,
+          "constraints": 26567,
+          "route_instances": 1596,
+          "loaded_route_blocks": 20,
+          "loaded_transport_pairs": 81,
+          "building_s": 1.2611445999937132,
+          "elapsed_s": 300.1603013999993,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 21,
+          "objective_recomputed": [
+            24,
+            65.12007000000003,
+            6613.111325189111,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 10,
+          "newly_loaded_resource_pairs": 48,
+          "transport_conflicts": 52,
+          "incomplete_communication": 10,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 1,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "C",
+          "solver_objective": 7525.58420543827,
+          "dual_bound": 6375.970958620064,
+          "mip_gap": 0.15276066487801068,
+          "nodes": 2220,
+          "max_constraint_violation": 1.8189894035458565e-12,
+          "variables": 23496,
+          "constraints": 33381,
+          "route_instances": 1596,
+          "loaded_route_blocks": 30,
+          "loaded_transport_pairs": 129,
+          "building_s": 1.296410599956289,
+          "elapsed_s": 300.20879119995516,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 21,
+          "objective_recomputed": [
+            23,
+            65.12007000000003,
+            5935.266215536203,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 8,
+          "newly_loaded_resource_pairs": 49,
+          "transport_conflicts": 50,
+          "incomplete_communication": 8,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 2,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "C",
+          "solver_objective": 7194.096926482302,
+          "dual_bound": 6413.192909211787,
+          "mip_gap": 0.10854788658683713,
+          "nodes": 804,
+          "max_constraint_violation": 4.547473508864641e-13,
+          "variables": 25033,
+          "constraints": 38761,
+          "route_instances": 1596,
+          "loaded_route_blocks": 38,
+          "loaded_transport_pairs": 178,
+          "building_s": 1.3010117000085302,
+          "elapsed_s": 300.3117172999773,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 20,
+          "objective_recomputed": [
+            23,
+            65.12007000000003,
+            7194.096926482302,
+            406.6672394073011
+          ],
+          "newly_loaded_route_blocks": 4,
+          "newly_loaded_resource_pairs": 26,
+          "transport_conflicts": 12,
+          "incomplete_communication": 4,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 3,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "objective_mode": "C",
+          "solver_objective": null,
+          "dual_bound": null,
+          "mip_gap": null,
+          "nodes": null,
+          "max_constraint_violation": null,
+          "variables": 25995,
+          "constraints": 42077,
+          "route_instances": 1596,
+          "loaded_route_blocks": 42,
+          "loaded_transport_pairs": 204,
+          "building_s": 1.3311987000051886,
+          "elapsed_s": 300.39989010000136,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 4,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "C",
+          "solver_objective": 7589.883363004546,
+          "dual_bound": 6466.957058329807,
+          "mip_gap": 0.14795040331558068,
+          "nodes": 24547,
+          "max_constraint_violation": 2.2737367544323206e-13,
+          "variables": 25995,
+          "constraints": 42077,
+          "route_instances": 1596,
+          "loaded_route_blocks": 42,
+          "loaded_transport_pairs": 204,
+          "building_s": 1.2560933000058867,
+          "elapsed_s": 5879.303535300016,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 20,
+          "objective_recomputed": [
+            23,
+            65.12007000000004,
+            6932.572560049533,
+            129.3998887774325
+          ],
+          "newly_loaded_route_blocks": 0,
+          "newly_loaded_resource_pairs": 25,
+          "transport_conflicts": 8,
+          "incomplete_communication": 0,
+          "accepted_as_feasible": false
+        }
+      ],
+      "status": "solver_limit_or_rejection_without_new_incumbent"
+    },
+    {
+      "scalar_objective": "E",
+      "epsilon_caps": {
+        "N": 24.000001,
+        "C": 9165.854,
+        "L": 465.2585
+      },
+      "finite_model_valid_lower_bound": 59.857918429710914,
+      "elapsed_s": 7081.194157699996,
+      "iterations": [
+        {
+          "iteration": 0,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "E",
+          "solver_objective": 61.64743596820959,
+          "dual_bound": 59.82559250137038,
+          "mip_gap": 0.029552623531312834,
+          "nodes": 9003,
+          "max_constraint_violation": 4.547473508864641e-13,
+          "variables": 21516,
+          "constraints": 26567,
+          "route_instances": 1596,
+          "loaded_route_blocks": 20,
+          "loaded_transport_pairs": 81,
+          "building_s": 1.2087547999690287,
+          "elapsed_s": 300.1569149999996,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            22,
+            61.64743596820959,
+            7175.8955138573565,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 6,
+          "newly_loaded_resource_pairs": 46,
+          "transport_conflicts": 28,
+          "incomplete_communication": 6,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 1,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "E",
+          "solver_objective": 61.629237020280954,
+          "dual_bound": 59.84441687047803,
+          "mip_gap": 0.028960607596287078,
+          "nodes": 4489,
+          "max_constraint_violation": 2.2737367544323206e-13,
+          "variables": 23038,
+          "constraints": 31793,
+          "route_instances": 1596,
+          "loaded_route_blocks": 26,
+          "loaded_transport_pairs": 127,
+          "building_s": 1.2880118999746628,
+          "elapsed_s": 300.1696196999983,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 18,
+          "objective_recomputed": [
+            21,
+            61.629237020280954,
+            9165.854,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 4,
+          "newly_loaded_resource_pairs": 41,
+          "transport_conflicts": 24,
+          "incomplete_communication": 4,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 2,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "objective_mode": "E",
+          "solver_objective": null,
+          "dual_bound": null,
+          "mip_gap": null,
+          "nodes": null,
+          "max_constraint_violation": null,
+          "variables": 24039,
+          "constraints": 35325,
+          "route_instances": 1596,
+          "loaded_route_blocks": 30,
+          "loaded_transport_pairs": 168,
+          "building_s": 1.259882899990771,
+          "elapsed_s": 300.15502889995696,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 3,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "E",
+          "solver_objective": 61.33150368686655,
+          "dual_bound": 59.857918429710914,
+          "mip_gap": 0.024026563325092343,
+          "nodes": 146892,
+          "max_constraint_violation": 1.3096723705530167e-10,
+          "variables": 24039,
+          "constraints": 35325,
+          "route_instances": 1596,
+          "loaded_route_blocks": 30,
+          "loaded_transport_pairs": 168,
+          "building_s": 1.316856999997981,
+          "elapsed_s": 6180.476418899954,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 18,
+          "objective_recomputed": [
+            22,
+            61.33150368686655,
+            7771.723837031149,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 4,
+          "newly_loaded_resource_pairs": 41,
+          "transport_conflicts": 20,
+          "incomplete_communication": 4,
+          "accepted_as_feasible": false
+        }
+      ],
+      "status": "solver_limit_or_rejection_without_new_incumbent"
+    },
+    {
+      "scalar_objective": "L",
+      "epsilon_caps": {
+        "N": 24.000001,
+        "E": 65.12007,
+        "C": 9165.854
+      },
+      "finite_model_valid_lower_bound": 0.0,
+      "elapsed_s": 7080.920497499988,
+      "iterations": [
+        {
+          "iteration": 0,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 673,
+          "max_constraint_violation": 1.7053025658242404e-13,
+          "variables": 21516,
+          "constraints": 26567,
+          "route_instances": 1596,
+          "loaded_route_blocks": 20,
+          "loaded_transport_pairs": 81,
+          "building_s": 1.228755899996031,
+          "elapsed_s": 30.30785049998667,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 20,
+          "objective_recomputed": [
+            22,
+            65.01524823249943,
+            4254.3398713852785,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 12,
+          "newly_loaded_resource_pairs": 74,
+          "transport_conflicts": 89,
+          "incomplete_communication": 12,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 1,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 100,
+          "max_constraint_violation": 3.3306690738754696e-11,
+          "variables": 24014,
+          "constraints": 35131,
+          "route_instances": 1596,
+          "loaded_route_blocks": 32,
+          "loaded_transport_pairs": 155,
+          "building_s": 1.373973100038711,
+          "elapsed_s": 31.381883700028993,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 20,
+          "objective_recomputed": [
+            22,
+            65.12007000000001,
+            9165.854,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 13,
+          "newly_loaded_resource_pairs": 70,
+          "transport_conflicts": 95,
+          "incomplete_communication": 13,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 2,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 2223,
+          "max_constraint_violation": 2.2737367544323206e-13,
+          "variables": 26400,
+          "constraints": 43313,
+          "route_instances": 1596,
+          "loaded_route_blocks": 45,
+          "loaded_transport_pairs": 225,
+          "building_s": 2.8837325000204146,
+          "elapsed_s": 262.2203106000088,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 20,
+          "objective_recomputed": [
+            22,
+            65.12007000000003,
+            3970.037466483286,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 11,
+          "newly_loaded_resource_pairs": 72,
+          "transport_conflicts": 88,
+          "incomplete_communication": 11,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 3,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 224,
+          "max_constraint_violation": 1.7053025658242404e-13,
+          "variables": 28884,
+          "constraints": 51815,
+          "route_instances": 1596,
+          "loaded_route_blocks": 56,
+          "loaded_transport_pairs": 297,
+          "building_s": 1.2819793000235222,
+          "elapsed_s": 111.81773970002541,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            21,
+            65.12007000000003,
+            9165.854,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 9,
+          "newly_loaded_resource_pairs": 59,
+          "transport_conflicts": 58,
+          "incomplete_communication": 9,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 4,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 708,
+          "max_constraint_violation": 9.26428571086252e-12,
+          "variables": 31109,
+          "constraints": 59382,
+          "route_instances": 1596,
+          "loaded_route_blocks": 65,
+          "loaded_transport_pairs": 356,
+          "building_s": 1.4216403999598697,
+          "elapsed_s": 196.61356799997156,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            21,
+            64.83663055658593,
+            7024.79830871127,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 8,
+          "newly_loaded_resource_pairs": 64,
+          "transport_conflicts": 65,
+          "incomplete_communication": 8,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 5,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 129,
+          "max_constraint_violation": 4.547473508864641e-13,
+          "variables": 32949,
+          "constraints": 65774,
+          "route_instances": 1596,
+          "loaded_route_blocks": 73,
+          "loaded_transport_pairs": 420,
+          "building_s": 1.3573988000280224,
+          "elapsed_s": 103.84060350002255,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            22,
+            65.12007000000003,
+            6026.1249889315495,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 8,
+          "newly_loaded_resource_pairs": 63,
+          "transport_conflicts": 54,
+          "incomplete_communication": 8,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 6,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 312,
+          "max_constraint_violation": 3.979039320256561e-13,
+          "variables": 34722,
+          "constraints": 71945,
+          "route_instances": 1596,
+          "loaded_route_blocks": 81,
+          "loaded_transport_pairs": 483,
+          "building_s": 1.5114827999495901,
+          "elapsed_s": 164.51742930000182,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            22,
+            65.12007000000003,
+            6269.801163328562,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 9,
+          "newly_loaded_resource_pairs": 60,
+          "transport_conflicts": 56,
+          "incomplete_communication": 9,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 7,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 1575,
+          "max_constraint_violation": 2.2737367544323206e-13,
+          "variables": 36954,
+          "constraints": 79543,
+          "route_instances": 1596,
+          "loaded_route_blocks": 90,
+          "loaded_transport_pairs": 543,
+          "building_s": 1.4207078999606892,
+          "elapsed_s": 277.6710451999679,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            22,
+            65.12007000000001,
+            9165.854,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 8,
+          "newly_loaded_resource_pairs": 56,
+          "transport_conflicts": 47,
+          "incomplete_communication": 8,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 8,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 1,
+          "max_constraint_violation": 1.4551915228366852e-11,
+          "variables": 39398,
+          "constraints": 87777,
+          "route_instances": 1596,
+          "loaded_route_blocks": 98,
+          "loaded_transport_pairs": 599,
+          "building_s": 1.3772299999836832,
+          "elapsed_s": 59.883416299999226,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 20,
+          "objective_recomputed": [
+            23,
+            65.12007000000003,
+            8050.66826139765,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 9,
+          "newly_loaded_resource_pairs": 63,
+          "transport_conflicts": 47,
+          "incomplete_communication": 9,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 9,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "L",
+          "solver_objective": 0.0,
+          "dual_bound": 0.0,
+          "mip_gap": 0.0,
+          "nodes": 195,
+          "max_constraint_violation": 1.4551915228366852e-11,
+          "variables": 41315,
+          "constraints": 94404,
+          "route_instances": 1596,
+          "loaded_route_blocks": 107,
+          "loaded_transport_pairs": 662,
+          "building_s": 1.3675168000045232,
+          "elapsed_s": 234.92508489999454,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 20,
+          "objective_recomputed": [
+            22,
+            65.12007000000001,
+            6704.117693653429,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 9,
+          "newly_loaded_resource_pairs": 67,
+          "transport_conflicts": 61,
+          "incomplete_communication": 9,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 10,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "objective_mode": "L",
+          "solver_objective": null,
+          "dual_bound": null,
+          "mip_gap": null,
+          "nodes": null,
+          "max_constraint_violation": null,
+          "variables": 43188,
+          "constraints": 100927,
+          "route_instances": 1596,
+          "loaded_route_blocks": 116,
+          "loaded_transport_pairs": 729,
+          "building_s": 1.4129375999909826,
+          "elapsed_s": 309.37796589999925,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 11,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "objective_mode": "L",
+          "solver_objective": null,
+          "dual_bound": null,
+          "mip_gap": null,
+          "nodes": null,
+          "max_constraint_violation": null,
+          "variables": 43188,
+          "constraints": 100927,
+          "route_instances": 1596,
+          "loaded_route_blocks": 116,
+          "loaded_transport_pairs": 729,
+          "building_s": 1.5506643999833614,
+          "elapsed_s": 5297.602193899977,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "accepted_as_feasible": false
+        }
+      ],
+      "status": "solver_limit_or_rejection_without_new_incumbent"
+    },
+    {
+      "scalar_objective": "N",
+      "epsilon_caps": {
+        "E": 65.12007,
+        "C": 9165.854,
+        "L": 465.2585
+      },
+      "finite_model_valid_lower_bound": 21.0,
+      "elapsed_s": 7081.081747600052,
+      "iterations": [
+        {
+          "iteration": 0,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 20.0,
+          "dual_bound": 20.0,
+          "mip_gap": 0.0,
+          "nodes": 1,
+          "max_constraint_violation": 0.0,
+          "variables": 21516,
+          "constraints": 26567,
+          "route_instances": 1596,
+          "loaded_route_blocks": 20,
+          "loaded_transport_pairs": 81,
+          "building_s": 1.2763017999823205,
+          "elapsed_s": 17.458080900018103,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            20,
+            64.95177508244986,
+            3952.131312243311,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 13,
+          "newly_loaded_resource_pairs": 63,
+          "transport_conflicts": 101,
+          "incomplete_communication": 13,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 1,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 20.0,
+          "dual_bound": 20.0,
+          "mip_gap": 0.0,
+          "nodes": 481,
+          "max_constraint_violation": 2.2737367544323206e-13,
+          "variables": 24615,
+          "constraints": 36945,
+          "route_instances": 1596,
+          "loaded_route_blocks": 33,
+          "loaded_transport_pairs": 144,
+          "building_s": 1.2939067999832332,
+          "elapsed_s": 205.12914149998687,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            20,
+            65.08110349549854,
+            4284.717293742206,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 9,
+          "newly_loaded_resource_pairs": 66,
+          "transport_conflicts": 69,
+          "incomplete_communication": 9,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 2,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 20.0,
+          "dual_bound": 20.0,
+          "mip_gap": 0.0,
+          "nodes": 1,
+          "max_constraint_violation": 4.547473508864641e-13,
+          "variables": 26685,
+          "constraints": 44083,
+          "route_instances": 1596,
+          "loaded_route_blocks": 42,
+          "loaded_transport_pairs": 210,
+          "building_s": 1.3471470000222325,
+          "elapsed_s": 44.8262186999782,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 18,
+          "objective_recomputed": [
+            20,
+            65.00711405063721,
+            8117.499857423932,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 3,
+          "newly_loaded_resource_pairs": 41,
+          "transport_conflicts": 19,
+          "incomplete_communication": 3,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 3,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 20.0,
+          "dual_bound": 20.0,
+          "mip_gap": 0.0,
+          "nodes": 1,
+          "max_constraint_violation": 9.094947017729282e-13,
+          "variables": 27494,
+          "constraints": 47007,
+          "route_instances": 1596,
+          "loaded_route_blocks": 45,
+          "loaded_transport_pairs": 251,
+          "building_s": 1.3416141999769025,
+          "elapsed_s": 34.57445179997012,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 18,
+          "objective_recomputed": [
+            20,
+            65.12007000000001,
+            9165.854,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 3,
+          "newly_loaded_resource_pairs": 28,
+          "transport_conflicts": 14,
+          "incomplete_communication": 3,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 4,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 21.0,
+          "dual_bound": 20.0,
+          "mip_gap": 0.047619047619047616,
+          "nodes": 303,
+          "max_constraint_violation": 4.547473508864641e-13,
+          "variables": 28236,
+          "constraints": 49604,
+          "route_instances": 1596,
+          "loaded_route_blocks": 48,
+          "loaded_transport_pairs": 279,
+          "building_s": 1.406818499963265,
+          "elapsed_s": 300.29889729997376,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            21,
+            65.12007000000001,
+            9165.854,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 7,
+          "newly_loaded_resource_pairs": 52,
+          "transport_conflicts": 40,
+          "incomplete_communication": 7,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 5,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 21.0,
+          "dual_bound": 20.0,
+          "mip_gap": 0.047619047619047616,
+          "nodes": 219,
+          "max_constraint_violation": 9.094947017729282e-13,
+          "variables": 29866,
+          "constraints": 55225,
+          "route_instances": 1596,
+          "loaded_route_blocks": 55,
+          "loaded_transport_pairs": 331,
+          "building_s": 1.337231499957852,
+          "elapsed_s": 300.3353442999651,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 18,
+          "objective_recomputed": [
+            21,
+            65.12007000000001,
+            6021.568428197558,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 8,
+          "newly_loaded_resource_pairs": 51,
+          "transport_conflicts": 44,
+          "incomplete_communication": 8,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 6,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 22.0,
+          "dual_bound": 20.0,
+          "mip_gap": 0.09090909090909091,
+          "nodes": 214,
+          "max_constraint_violation": 1.4551915228366852e-11,
+          "variables": 31453,
+          "constraints": 60701,
+          "route_instances": 1596,
+          "loaded_route_blocks": 63,
+          "loaded_transport_pairs": 382,
+          "building_s": 1.4061947000445798,
+          "elapsed_s": 300.3922033000272,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            22,
+            64.46202132302787,
+            8990.00079281703,
+            268.2744837204743
+          ],
+          "newly_loaded_route_blocks": 3,
+          "newly_loaded_resource_pairs": 35,
+          "transport_conflicts": 14,
+          "incomplete_communication": 3,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 7,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "objective_mode": "N",
+          "solver_objective": null,
+          "dual_bound": null,
+          "mip_gap": null,
+          "nodes": null,
+          "max_constraint_violation": null,
+          "variables": 32010,
+          "constraints": 62774,
+          "route_instances": 1596,
+          "loaded_route_blocks": 66,
+          "loaded_transport_pairs": 417,
+          "building_s": 1.2520625000470318,
+          "elapsed_s": 304.4585208000499,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 8,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 21.0,
+          "dual_bound": 21.0,
+          "mip_gap": 0.0,
+          "nodes": 2820,
+          "max_constraint_violation": 4.547473508864641e-13,
+          "variables": 32010,
+          "constraints": 62774,
+          "route_instances": 1596,
+          "loaded_route_blocks": 66,
+          "loaded_transport_pairs": 417,
+          "building_s": 1.3049416999565437,
+          "elapsed_s": 2093.632321399986,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 19,
+          "objective_recomputed": [
+            21,
+            65.03351242496771,
+            8108.525130834036,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 5,
+          "newly_loaded_resource_pairs": 42,
+          "transport_conflicts": 26,
+          "incomplete_communication": 5,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 9,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "objective_mode": "N",
+          "solver_objective": null,
+          "dual_bound": null,
+          "mip_gap": null,
+          "nodes": null,
+          "max_constraint_violation": null,
+          "variables": 33018,
+          "constraints": 66337,
+          "route_instances": 1596,
+          "loaded_route_blocks": 71,
+          "loaded_transport_pairs": 459,
+          "building_s": 1.356248299998697,
+          "elapsed_s": 300.4001874999958,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 10,
+          "all_route_instances_still_selectable": 1596,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 21.0,
+          "dual_bound": 21.0,
+          "mip_gap": 0.0,
+          "nodes": 936,
+          "max_constraint_violation": 9.094947017729282e-13,
+          "variables": 33018,
+          "constraints": 66337,
+          "route_instances": 1596,
+          "loaded_route_blocks": 71,
+          "loaded_transport_pairs": 459,
+          "building_s": 1.4021750999963842,
+          "elapsed_s": 1784.0446314999717,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 18,
+          "objective_recomputed": [
+            21,
+            65.11129374131085,
+            6442.535192017816,
+            0.0
+          ],
+          "newly_loaded_route_blocks": 6,
+          "newly_loaded_resource_pairs": 54,
+          "transport_conflicts": 36,
+          "incomplete_communication": 6,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 11,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+          "incumbent_available": true,
+          "objective_mode": "N",
+          "solver_objective": 21.0,
+          "dual_bound": 20.0,
+          "mip_gap": 0.047619047619047616,
+          "nodes": 67,
+          "max_constraint_violation": 7.275957614183426e-12,
+          "variables": 34896,
+          "constraints": 72761,
+          "route_instances": 1596,
+          "loaded_route_blocks": 77,
+          "loaded_transport_pairs": 513,
+          "building_s": 1.3343428999651223,
+          "elapsed_s": 300.419896300009,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "selected_routes": 18,
+          "objective_recomputed": [
+            21,
+            64.94071755837547,
+            7674.3338841489585,
+            70.18857420688245
+          ],
+          "newly_loaded_route_blocks": 2,
+          "newly_loaded_resource_pairs": 28,
+          "transport_conflicts": 13,
+          "incomplete_communication": 2,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 12,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "objective_mode": "N",
+          "solver_objective": null,
+          "dual_bound": null,
+          "mip_gap": null,
+          "nodes": null,
+          "max_constraint_violation": null,
+          "variables": 35416,
+          "constraints": 74655,
+          "route_instances": 1596,
+          "loaded_route_blocks": 79,
+          "loaded_transport_pairs": 541,
+          "building_s": 1.4001618000329472,
+          "elapsed_s": 300.4320710999891,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "accepted_as_feasible": false
+        },
+        {
+          "iteration": 13,
+          "all_route_instances_still_selectable": 1596,
+          "status": 1,
+          "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+          "incumbent_available": false,
+          "objective_mode": "N",
+          "solver_objective": null,
+          "dual_bound": null,
+          "mip_gap": null,
+          "nodes": null,
+          "max_constraint_violation": null,
+          "variables": 35416,
+          "constraints": 74655,
+          "route_instances": 1596,
+          "loaded_route_blocks": 79,
+          "loaded_transport_pairs": 541,
+          "building_s": 1.3133200000156648,
+          "elapsed_s": 794.0060075999936,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1,
+          "accepted_as_feasible": false
+        }
+      ],
+      "status": "solver_limit_or_rejection_without_new_incumbent"
+    }
+  ],
+  "toy": {
+    "kind": "synthetic illustrative MILP, unrelated to actual sortie counts",
+    "vertices": [
+      [
+        0.5,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        0.5
+      ],
+      [
+        1.3333333333333333,
+        1.3333333333333333
+      ]
+    ],
+    "integers": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "LP": [
+      1.3333333333333333,
+      1.3333333333333333
+    ],
+    "IP": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "LB": 2.6666666666666665,
+    "UB": 3.0
+  },
+  "sources": [
+    {
+      "path": "搜索精修/扩展固定结构精修_v1/共同档案重评/目标去重共同档案.json",
+      "sha256": "2f8554e878463ca67ff34e367daeca4c8368533870ea1f7e2e72961e468099f6"
+    },
+    {
+      "path": "日志/搜索记录.json",
+      "sha256": "66f17dd3246c2149c548579cd33c6a5f6c8573cc095672e31f6933100f413991"
+    },
+    {
+      "path": "搜索精修/扩展固定结构精修_v1/official/已核验方案.json",
+      "sha256": "f3be3724a2685c5edf027d4e567ec9144efcca2fc63899a9e6ab9d73d5b88f53"
+    },
+    {
+      "path": "搜索精修/扩展固定结构精修_v1/扩展搜索汇总.json",
+      "sha256": "7070f1a968ffe2bb9c9dc23aa9b262ddd5c61cd8b6bfdfec1bb69b3331a8897b"
+    },
+    {
+      "path": "扩展搜索后台/两小时_20260924_045708_v2/全库_C/直接联合MILP结果.json",
+      "sha256": "b82924988a6918c26f75434913e17a062a66c090408458adf49e35ac4934e60b"
+    },
+    {
+      "path": "扩展搜索后台/两小时_20260924_045708_v2/全库_E/直接联合MILP结果.json",
+      "sha256": "d8d8b673c441f7febc3712083595b13708a8f8b456d65c4fb60fc492167eabbf"
+    },
+    {
+      "path": "扩展搜索后台/两小时_20260924_045708_v2/全库_L/直接联合MILP结果.json",
+      "sha256": "1aeee1f805333e2e95a58e8c9d09267521852e2751850b5cd0981c0855800acc"
+    },
+    {
+      "path": "扩展搜索后台/两小时_20260924_045708_v2/全库_N/直接联合MILP结果.json",
+      "sha256": "c239db2ff8ab66ccabc29c62077e5f29e99a9af4fb2c87340f0a2bdc42c9e282"
+    }
+  ],
+  "scope": "O01-only battery exchange, no carried spare; all figures distinguish measured archives/logs and schematics",
+  "no_new_optimization": true,
+  "archive_filtering_is_posthoc_not_original_epsilon_history": true,
+  "historical_ALNS_feasible_flag_is_solver_return_not_independent_certification": true
+}

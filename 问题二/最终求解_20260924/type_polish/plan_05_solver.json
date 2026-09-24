@@ -1,0 +1,290 @@
+{
+  "stages": [
+    {
+      "vehicle": "A",
+      "original_objective": [
+        22,
+        64.3922692668716,
+        8337.140388078022,
+        42.238392078744454
+      ],
+      "original_type_L": 0.0,
+      "L_stage": {
+        "scope": "type_polish_5_A_L",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "weights": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "epsilon": {
+          "C": 8337.140388078022,
+          "L": 1e-07
+        },
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 65,
+        "constraints": 155,
+        "horizon": 8337.140388078022,
+        "seconds": 0.0011512000346556306,
+        "seed": 20261039,
+        "relaxation": false,
+        "nodes": 0
+      },
+      "L_objective": [
+        4,
+        7.898363491938701,
+        4063.659233258133,
+        0.0
+      ],
+      "C_stage": {
+        "scope": "type_polish_5_A_C",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 2031.8296166290665,
+        "upper_bound": 2031.8296166290665,
+        "weights": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "epsilon": {
+          "C": 8337.140388078022,
+          "L": 1e-07
+        },
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 65,
+        "constraints": 155,
+        "horizon": 8337.140388078022,
+        "seconds": 0.003316699992865324,
+        "seed": 20261139,
+        "relaxation": false,
+        "nodes": 1
+      },
+      "C_objective": [
+        4,
+        7.898363491938701,
+        2031.8296166290665,
+        0.0
+      ],
+      "local_checks": {
+        "coverage": true,
+        "identifiers": true,
+        "destination": true,
+        "hard_deadlines": true,
+        "mass_volume": true,
+        "geometry_energy": true,
+        "delivery_times": true,
+        "resource_times": true,
+        "uav_nonoverlap": true,
+        "battery_nonoverlap": true,
+        "full_charge_reuse": true,
+        "soc": true,
+        "objective": true,
+        "finite": true,
+        "all": true
+      }
+    },
+    {
+      "vehicle": "B",
+      "original_objective": [
+        22,
+        64.3922692668716,
+        8337.140388078022,
+        42.238392078744454
+      ],
+      "original_type_L": 154.20365362081307,
+      "L_stage": {
+        "scope": "type_polish_5_B_L",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 89.57726711210437,
+        "upper_bound": 89.57726711210437,
+        "weights": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "epsilon": {
+          "C": 8337.140388078022,
+          "L": 154.20365372081307
+        },
+        "gap": 0.0,
+        "matrix_residual": 0.0,
+        "variables": 166,
+        "constraints": 649,
+        "horizon": 8337.140388078022,
+        "seconds": 0.7124506000545807,
+        "seed": 20261040,
+        "relaxation": false,
+        "nodes": 1553
+      },
+      "L_objective": [
+        10,
+        19.43451375495515,
+        8101.128066703804,
+        89.57726711210428
+      ],
+      "C_stage": {
+        "scope": "type_polish_5_B_C",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 8101.128066693804,
+        "upper_bound": 8101.128066693804,
+        "weights": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "epsilon": {
+          "C": 8337.140388078022,
+          "L": 89.57726721210427
+        },
+        "gap": 0.0,
+        "matrix_residual": 1.0000803740695119e-08,
+        "variables": 166,
+        "constraints": 649,
+        "horizon": 8337.140388078022,
+        "seconds": 0.8224950999720022,
+        "seed": 20261140,
+        "relaxation": false,
+        "nodes": 2327
+      },
+      "C_objective": [
+        10,
+        19.43451375495515,
+        8101.128066703804,
+        89.57726711210428
+      ],
+      "local_checks": {
+        "coverage": true,
+        "identifiers": true,
+        "destination": true,
+        "hard_deadlines": true,
+        "mass_volume": true,
+        "geometry_energy": true,
+        "delivery_times": true,
+        "resource_times": true,
+        "uav_nonoverlap": true,
+        "battery_nonoverlap": true,
+        "full_charge_reuse": true,
+        "soc": true,
+        "objective": true,
+        "finite": true,
+        "all": true
+      }
+    },
+    {
+      "vehicle": "C",
+      "original_objective": [
+        22,
+        64.3922692668716,
+        8337.140388078022,
+        42.238392078744454
+      ],
+      "original_type_L": 0.0,
+      "L_stage": {
+        "scope": "type_polish_5_C_L",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "weights": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "epsilon": {
+          "C": 8337.140388078022,
+          "L": 1e-07
+        },
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 172,
+        "constraints": 498,
+        "horizon": 8337.140388078022,
+        "seconds": 0.0014822999946773052,
+        "seed": 20261041,
+        "relaxation": false,
+        "nodes": 0
+      },
+      "L_objective": [
+        8,
+        37.05939201997775,
+        8337.140388078022,
+        0.0
+      ],
+      "C_stage": {
+        "scope": "type_polish_5_C_C",
+        "status": "Optimal",
+        "optimal": true,
+        "incumbent": true,
+        "warm_fallback": false,
+        "lower_bound": 8337.140388078022,
+        "upper_bound": 8337.140388078022,
+        "weights": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "epsilon": {
+          "C": 8337.140388078022,
+          "L": 1e-07
+        },
+        "gap": 0.0,
+        "matrix_residual": 3.637978807091713e-12,
+        "variables": 172,
+        "constraints": 498,
+        "horizon": 8337.140388078022,
+        "seconds": 0.48436450003646314,
+        "seed": 20261141,
+        "relaxation": false,
+        "nodes": 1543
+      },
+      "C_objective": [
+        8,
+        37.05939201997775,
+        8337.140388078022,
+        0.0
+      ],
+      "local_checks": {
+        "coverage": true,
+        "identifiers": true,
+        "destination": true,
+        "hard_deadlines": true,
+        "mass_volume": true,
+        "geometry_energy": true,
+        "delivery_times": true,
+        "resource_times": true,
+        "uav_nonoverlap": true,
+        "battery_nonoverlap": true,
+        "full_charge_reuse": true,
+        "soc": true,
+        "objective": true,
+        "finite": true,
+        "all": true
+      }
+    }
+  ],
+  "elapsed": 2.8588791000074707
+}

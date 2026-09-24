@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "input_source_count": 11,
+  "unique_objective_count": 10,
+  "unique_nondominated_objective_count": 6,
+  "objective_order": [
+    "total_sorties",
+    "total_energy_kWh",
+    "joint_return_s",
+    "weighted_mean_lateness_s"
+  ],
+  "objective_dedup_and_dominance_tolerance": [
+    0.0,
+    2e-06,
+    0.0002,
+    0.0002
+  ],
+  "frozen_ideal_reference": [
+    24.0,
+    64.64255097271266,
+    9163.54886305258,
+    602.5438554866743
+  ],
+  "frozen_scale": [
+    2.0,
+    5.0,
+    1800.0,
+    600.0
+  ],
+  "weights": [
+    [
+      0.4,
+      0.1,
+      0.25,
+      0.25
+    ],
+    [
+      0.4,
+      0.25,
+      0.1,
+      0.25
+    ],
+    [
+      0.4,
+      0.25,
+      0.25,
+      0.1
+    ],
+    [
+      0.1,
+      0.4,
+      0.25,
+      0.25
+    ],
+    [
+      0.25,
+      0.4,
+      0.1,
+      0.25
+    ],
+    [
+      0.25,
+      0.4,
+      0.25,
+      0.1
+    ],
+    [
+      0.1,
+      0.25,
+      0.4,
+      0.25
+    ],
+    [
+      0.25,
+      0.1,
+      0.4,
+      0.25
+    ],
+    [
+      0.25,
+      0.25,
+      0.4,
+      0.1
+    ],
+    [
+      0.1,
+      0.25,
+      0.25,
+      0.4
+    ],
+    [
+      0.25,
+      0.1,
+      0.25,
+      0.4
+    ],
+    [
+      0.25,
+      0.25,
+      0.1,
+      0.4
+    ]
+  ],
+  "representative_id": "CA01",
+  "representative_sources": [
+    "polish_official",
+    "polish_mapped_witness"
+  ],
+  "representative_objective": [
+    24.0,
+    65.11205028199753,
+    9165.154435126618,
+    465.2583642491526
+  ],
+  "representative_regret_archive": 0.0,
+  "polished_official_is_representative": true,
+  "scope": "Only this explicitly listed O01-exchange restricted-strategy archive; no carried spare batteries; all complete-sortie original energy limits retained.",
+  "full_domain_regret_claim": false,
+  "old_regret_upper_reused": false,
+  "physical_verification_repeated": false,
+  "explanation": "Maximum over the original twelve preference vertices of normalized utility minus the minimum utility in this common archive. A restricted-archive representative, not the optimum over all routes/swap locations.",
+  "source_scale_file": "子问题一\\冻结比较尺度.json",
+  "source_weights_file": "子问题一\\偏好极点与有效下界.json"
+}

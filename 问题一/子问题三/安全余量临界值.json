@@ -1,0 +1,407 @@
+{
+  "global_feasible_rho": 0.3526719978564765,
+  "limiting_groups": [
+    "S008:T3"
+  ],
+  "group_thresholds": {
+    "S001:T0": {
+      "critical_rho": 0.7655275119875338,
+      "vehicle": "B",
+      "boxes": [
+        "S001-MED-01",
+        "S001-MED-02"
+      ]
+    },
+    "S001:T1": {
+      "critical_rho": 0.7622657540204665,
+      "vehicle": "B",
+      "boxes": [
+        "S001-HYG-01",
+        "S001-HYG-02"
+      ]
+    },
+    "S001:T2": {
+      "critical_rho": 0.7594975371024748,
+      "vehicle": "B",
+      "boxes": [
+        "S001-FOD-01",
+        "S001-FOD-02",
+        "S001-FOD-03"
+      ]
+    },
+    "S001:T3": {
+      "critical_rho": 0.7515402254649933,
+      "vehicle": "C",
+      "boxes": [
+        "S001-WAT-01",
+        "S001-WAT-02",
+        "S001-WAT-03",
+        "S001-WAT-04",
+        "S001-WAT-05",
+        "S001-WAT-06",
+        "S001-WAT-07",
+        "S001-WAT-08"
+      ]
+    },
+    "S002:T0": {
+      "critical_rho": 0.44980455458815394,
+      "vehicle": "B",
+      "boxes": [
+        "S002-MED-01"
+      ]
+    },
+    "S002:T1": {
+      "critical_rho": 0.4423756948522566,
+      "vehicle": "B",
+      "boxes": [
+        "S002-HYG-01"
+      ]
+    },
+    "S002:T2": {
+      "critical_rho": 0.4359822966674962,
+      "vehicle": "B",
+      "boxes": [
+        "S002-FOD-01",
+        "S002-FOD-02"
+      ]
+    },
+    "S002:T3": {
+      "critical_rho": 0.4096671902297603,
+      "vehicle": "B",
+      "boxes": [
+        "S002-WAT-01",
+        "S002-WAT-02",
+        "S002-WAT-03",
+        "S002-WAT-04"
+      ]
+    },
+    "S003:T0": {
+      "critical_rho": 0.43592708720570517,
+      "vehicle": "B",
+      "boxes": [
+        "S003-MED-01"
+      ]
+    },
+    "S003:T1": {
+      "critical_rho": 0.427918301087281,
+      "vehicle": "B",
+      "boxes": [
+        "S003-HYG-01"
+      ]
+    },
+    "S003:T2": {
+      "critical_rho": 0.42116699998057205,
+      "vehicle": "B",
+      "boxes": [
+        "S003-FOD-01",
+        "S003-FOD-02"
+      ]
+    },
+    "S003:T3": {
+      "critical_rho": 0.4051641548382864,
+      "vehicle": "C",
+      "boxes": [
+        "S003-WAT-01",
+        "S003-WAT-02",
+        "S003-WAT-03",
+        "S003-WAT-04"
+      ]
+    },
+    "S004:T0": {
+      "critical_rho": 0.4173078139879559,
+      "vehicle": "B",
+      "boxes": [
+        "S004-MED-01"
+      ]
+    },
+    "S004:T1": {
+      "critical_rho": 0.409342702884527,
+      "vehicle": "B",
+      "boxes": [
+        "S004-HYG-01"
+      ]
+    },
+    "S004:T2": {
+      "critical_rho": 0.40253287091473267,
+      "vehicle": "B",
+      "boxes": [
+        "S004-FOD-01"
+      ]
+    },
+    "S004:T3": {
+      "critical_rho": 0.3780284095580121,
+      "vehicle": "C",
+      "boxes": [
+        "S004-WAT-01",
+        "S004-WAT-02",
+        "S004-WAT-03"
+      ]
+    },
+    "S005:T0": {
+      "critical_rho": 0.599356608567592,
+      "vehicle": "B",
+      "boxes": [
+        "S005-MED-01"
+      ]
+    },
+    "S005:T1": {
+      "critical_rho": 0.5938661926411101,
+      "vehicle": "B",
+      "boxes": [
+        "S005-HYG-01"
+      ]
+    },
+    "S005:T2": {
+      "critical_rho": 0.5891793517227242,
+      "vehicle": "B",
+      "boxes": [
+        "S005-FOD-01"
+      ]
+    },
+    "S005:T3": {
+      "critical_rho": 0.5732329443017654,
+      "vehicle": "C",
+      "boxes": [
+        "S005-WAT-01",
+        "S005-WAT-02",
+        "S005-WAT-03"
+      ]
+    },
+    "S006:T0": {
+      "critical_rho": 0.7523574998015208,
+      "vehicle": "B",
+      "boxes": [
+        "S006-MED-01"
+      ]
+    },
+    "S006:T1": {
+      "critical_rho": 0.7487083316086494,
+      "vehicle": "B",
+      "boxes": [
+        "S006-HYG-01"
+      ]
+    },
+    "S006:T2": {
+      "critical_rho": 0.74565614593162,
+      "vehicle": "B",
+      "boxes": [
+        "S006-FOD-01"
+      ]
+    },
+    "S006:T3": {
+      "critical_rho": 0.7387199066790788,
+      "vehicle": "C",
+      "boxes": [
+        "S006-WAT-01",
+        "S006-WAT-02",
+        "S006-WAT-03"
+      ]
+    },
+    "S007:T0": {
+      "critical_rho": 0.6390884304210142,
+      "vehicle": "B",
+      "boxes": [
+        "S007-MED-01"
+      ]
+    },
+    "S007:T1": {
+      "critical_rho": 0.6337671302272124,
+      "vehicle": "B",
+      "boxes": [
+        "S007-HYG-01"
+      ]
+    },
+    "S007:T2": {
+      "critical_rho": 0.6293380337238497,
+      "vehicle": "B",
+      "boxes": [
+        "S007-FOD-01"
+      ]
+    },
+    "S007:T3": {
+      "critical_rho": 0.6233596205829661,
+      "vehicle": "C",
+      "boxes": [
+        "S007-WAT-01",
+        "S007-WAT-02"
+      ]
+    },
+    "S008:T0": {
+      "critical_rho": 0.3969059015137453,
+      "vehicle": "B",
+      "boxes": [
+        "S008-MED-01"
+      ]
+    },
+    "S008:T1": {
+      "critical_rho": 0.3886727075830987,
+      "vehicle": "B",
+      "boxes": [
+        "S008-HYG-01"
+      ]
+    },
+    "S008:T2": {
+      "critical_rho": 0.3816133076455426,
+      "vehicle": "B",
+      "boxes": [
+        "S008-FOD-01"
+      ]
+    },
+    "S008:T3": {
+      "critical_rho": 0.3526719978564765,
+      "vehicle": "C",
+      "boxes": [
+        "S008-WAT-01",
+        "S008-WAT-02"
+      ]
+    },
+    "S009:T0": {
+      "critical_rho": 0.5751400286137265,
+      "vehicle": "B",
+      "boxes": [
+        "S009-MED-01"
+      ]
+    },
+    "S009:T1": {
+      "critical_rho": 0.5643768205682612,
+      "vehicle": "B",
+      "boxes": [
+        "S009-FOD-01"
+      ]
+    },
+    "S009:T2": {
+      "critical_rho": 0.5439721760240914,
+      "vehicle": "B",
+      "boxes": [
+        "S009-WAT-01"
+      ]
+    },
+    "S010:T0": {
+      "critical_rho": 0.6309087144682416,
+      "vehicle": "B",
+      "boxes": [
+        "S010-MED-01"
+      ]
+    },
+    "S010:T1": {
+      "critical_rho": 0.621082216887043,
+      "vehicle": "B",
+      "boxes": [
+        "S010-FOD-01"
+      ]
+    },
+    "S010:T2": {
+      "critical_rho": 0.6093944937555753,
+      "vehicle": "C",
+      "boxes": [
+        "S010-WAT-01"
+      ]
+    },
+    "S011:T0": {
+      "critical_rho": 0.7821349649882949,
+      "vehicle": "B",
+      "boxes": [
+        "S011-MED-01"
+      ]
+    },
+    "S011:T1": {
+      "critical_rho": 0.7764296418003844,
+      "vehicle": "B",
+      "boxes": [
+        "S011-FOD-01"
+      ]
+    },
+    "S011:T2": {
+      "critical_rho": 0.7701513655703726,
+      "vehicle": "C",
+      "boxes": [
+        "S011-WAT-01"
+      ]
+    },
+    "S012:T0": {
+      "critical_rho": 0.44184860127657266,
+      "vehicle": "B",
+      "boxes": [
+        "S012-MED-01"
+      ]
+    },
+    "S012:T1": {
+      "critical_rho": 0.4275683630401159,
+      "vehicle": "B",
+      "boxes": [
+        "S012-FOD-01"
+      ]
+    },
+    "S012:T2": {
+      "critical_rho": 0.4040340153367633,
+      "vehicle": "C",
+      "boxes": [
+        "S012-WAT-01"
+      ]
+    },
+    "S013:T0": {
+      "critical_rho": 0.6308375479902868,
+      "vehicle": "B",
+      "boxes": [
+        "S013-MED-01"
+      ]
+    },
+    "S013:T1": {
+      "critical_rho": 0.6210700524527538,
+      "vehicle": "B",
+      "boxes": [
+        "S013-FOD-01"
+      ]
+    },
+    "S013:T2": {
+      "critical_rho": 0.6069585051152675,
+      "vehicle": "C",
+      "boxes": [
+        "S013-WAT-01"
+      ]
+    },
+    "S014:T0": {
+      "critical_rho": 0.5655425611406903,
+      "vehicle": "B",
+      "boxes": [
+        "S014-MED-01"
+      ]
+    },
+    "S014:T1": {
+      "critical_rho": 0.5544246620660496,
+      "vehicle": "C",
+      "boxes": [
+        "S014-FOD-01"
+      ]
+    },
+    "S014:T2": {
+      "critical_rho": 0.5481637141003739,
+      "vehicle": "C",
+      "boxes": [
+        "S014-WAT-01"
+      ]
+    },
+    "S015:T0": {
+      "critical_rho": 0.5332247133027956,
+      "vehicle": "B",
+      "boxes": [
+        "S015-MED-01"
+      ]
+    },
+    "S015:T1": {
+      "critical_rho": 0.5206110312713985,
+      "vehicle": "B",
+      "boxes": [
+        "S015-FOD-01"
+      ]
+    },
+    "S015:T2": {
+      "critical_rho": 0.5073799512603258,
+      "vehicle": "C",
+      "boxes": [
+        "S015-WAT-01"
+      ]
+    }
+  },
+  "baseline_plan_feasible_rho": 0.2308849309656894
+}

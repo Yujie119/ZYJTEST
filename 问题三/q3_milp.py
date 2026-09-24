@@ -237,4 +237,3 @@ def solve_joint(ctx,routes,required=None,reference=None,frozen=None,mode="C",cap
     plan=dict(routes=sorted(transports,key=lambda r:r["start"]),relays=relay,boxes=boxes,
               objective=[NT+NR,ET+ER,actualC,actualL],NT=NT,NR=NR,ET=ET,ER=ER,meta=meta)
     return plan,meta
-

@@ -1,0 +1,17 @@
+{
+  "collect_only": false,
+  "reuse_candidates": true,
+  "workers": 8,
+  "steps": 80,
+  "seconds": 5.0,
+  "initials": 60,
+  "attempts": 24000,
+  "seed": 20260924,
+  "threads_per_solver": 1,
+  "hardware_parallelism": "Independent CPU MILP workers; both GPUs reserved for batch coefficient verification",
+  "source_hashes": {
+    "q2_data.py": "cf1a0f2d211b1712d48d8c027ef2ff8c201a933391b66c7212b21f7dd0d9b0b9",
+    "q2_joint.py": "d4759a7559ba0c24f84488ff09c0dd1eaed8481d2f76f784a56db089110ea476",
+    "q2_verify.py": "96dfb8a5018f5be2053a22c1455798305a27c53119da86ab37ae0189f049d452"
+  }
+}

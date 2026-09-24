@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "expected_completion": 300.0,
+  "observed": 300.0,
+  "explanation": "Synthetic validation of delayed resource/communication constraints only; not evidence for physical Q3 feasibility"
+}

@@ -1,0 +1,51 @@
+{
+  "original_objective": [
+    28,
+    75.71131596897939,
+    7567.094096939377,
+    200.565886509374
+  ],
+  "stages": [
+    {
+      "label": "L",
+      "objective": [
+        28,
+        75.71131596897939,
+        7546.053562989618,
+        0.0
+      ],
+      "status": "Optimal",
+      "optimal": true,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "gap": 0.0,
+      "wall_seconds": 2.788633899996057,
+      "production_verified": true,
+      "raw_verified": true
+    },
+    {
+      "label": "C",
+      "objective": [
+        28,
+        75.71131596897939,
+        7264.62791044095,
+        0.0
+      ],
+      "status": "Optimal",
+      "optimal": true,
+      "lower_bound": 7264.627910441112,
+      "upper_bound": 7264.627910441112,
+      "gap": 0.0,
+      "wall_seconds": 18.08323000004748,
+      "production_verified": true,
+      "raw_verified": true
+    }
+  ],
+  "latest_objective": [
+    28,
+    75.71131596897939,
+    7264.62791044095,
+    0.0
+  ],
+  "total_seconds": 21.64945590001298
+}

@@ -1,0 +1,18 @@
+https://api.elsevier.com/content/article/pii/S0305054824001382
+doi:10.1016/j.cor.2024.106666
+1-s2.0-S0305054824001382
+10.1016/j.cor.2024.106666
+S0305-0548(24)00138-2
+A robust ordered weighted averaging loss model for portfolio optimization
+Computers & Operations Research
+Journal
+03050548
+2024-07-31
+July 2024
+1
+true
+Full
+false
+Spanish Institutions 2022
+FundingBody
+http://creativecommons.org/licenses/by-nc/4.0/

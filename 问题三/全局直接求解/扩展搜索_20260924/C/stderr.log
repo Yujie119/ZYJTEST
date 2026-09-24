@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "D:\研究生\比赛\数学建模\2026\问题三\solve_q3_global.py", line 269, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\研究生\比赛\数学建模\2026\问题三\solve_q3_global.py", line 260, in main
+    mode=args.mode, caps=json.loads(args.caps_json), slots_per_uav=args.slots_per_uav,
+                         ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\tool\anaconda3\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\tool\anaconda3\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tool\anaconda3\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)

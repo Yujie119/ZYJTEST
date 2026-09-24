@@ -1,0 +1,695 @@
+{
+  "kind": "two_route_box_vehicle_neighborhood",
+  "source_route_count": 28,
+  "new_pattern_count": 18,
+  "replaced_route_source_ids": [
+    "Q2SEED-28-016",
+    "Q2SEED-28-013"
+  ],
+  "library": {
+    "input_patterns": 42,
+    "unique_patterns_before_regeneration": 42,
+    "patterns": 42,
+    "instances": 74,
+    "records": [
+      {
+        "pattern_id": "DP000001",
+        "source_ids": [
+          "Q2SEED-28-018"
+        ],
+        "copies": 8,
+        "vehicle": "A",
+        "counts": {
+          "S001|饮用水": 1
+        },
+        "atomic_needs": 0,
+        "energy_recomputed": 1.2195425893044773,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000002",
+        "source_ids": [
+          "Q2SEED-28-014"
+        ],
+        "copies": 4,
+        "vehicle": "A",
+        "counts": {
+          "S002|饮用水": 1
+        },
+        "atomic_needs": 39,
+        "energy_recomputed": 2.8715168769453436,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000003",
+        "source_ids": [
+          "Q2SEED-28-023"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S004|生活卫生用品": 1
+        },
+        "atomic_needs": 27,
+        "energy_recomputed": 2.9335654846540304,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000004",
+        "source_ids": [
+          "Q2SEED-28-019"
+        ],
+        "copies": 3,
+        "vehicle": "A",
+        "counts": {
+          "S004|饮用水": 1
+        },
+        "atomic_needs": 27,
+        "energy_recomputed": 3.035349944952756,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000005",
+        "source_ids": [
+          "Q2SEED-28-011"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S009|医疗物资": 1,
+          "S009|饮用水": 1
+        },
+        "atomic_needs": 21,
+        "energy_recomputed": 2.2548835576521644,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000006",
+        "source_ids": [
+          "Q2SEED-28-024"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S009|应急食品": 1
+        },
+        "atomic_needs": 21,
+        "energy_recomputed": 2.1581023674302218,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000007",
+        "source_ids": [
+          "Q2SEED-28-005"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S010|应急食品": 1,
+          "S010|医疗物资": 1
+        },
+        "atomic_needs": 13,
+        "energy_recomputed": 1.8925378361059755,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000008",
+        "source_ids": [
+          "Q2SEED-28-002"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S010|饮用水": 1
+        },
+        "atomic_needs": 13,
+        "energy_recomputed": 1.9214315187565436,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000009",
+        "source_ids": [
+          "Q2SEED-28-004"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S012|医疗物资": 1,
+          "S012|饮用水": 1
+        },
+        "atomic_needs": 41,
+        "energy_recomputed": 2.9582684272003648,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000010",
+        "source_ids": [
+          "Q2SEED-28-022"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S012|应急食品": 1
+        },
+        "atomic_needs": 41,
+        "energy_recomputed": 2.8304658512905028,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000011",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S015|应急食品": 1,
+          "S015|医疗物资": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 2.392496522846683,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000012",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S015|医疗物资": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 2.3210597087953455,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000013",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S015|应急食品": 1,
+          "S015|饮用水": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 2.5578455595522476,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000014",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "A",
+        "counts": {
+          "S015|饮用水": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 2.429439068002888,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000015",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 8,
+        "vehicle": "B",
+        "counts": {
+          "S001|饮用水": 1
+        },
+        "atomic_needs": 0,
+        "energy_recomputed": 1.0069886056764816,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000016",
+        "source_ids": [
+          "Q2SEED-28-026"
+        ],
+        "copies": 4,
+        "vehicle": "B",
+        "counts": {
+          "S001|饮用水": 2
+        },
+        "atomic_needs": 0,
+        "energy_recomputed": 1.220434433311425,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000017",
+        "source_ids": [
+          "Q2SEED-28-027"
+        ],
+        "copies": 4,
+        "vehicle": "B",
+        "counts": {
+          "S003|饮用水": 1
+        },
+        "atomic_needs": 41,
+        "energy_recomputed": 2.424318485056973,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000018",
+        "source_ids": [
+          "Q2SEED-28-010"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S004|应急食品": 1,
+          "S004|医疗物资": 1,
+          "S004|饮用水": 1
+        },
+        "atomic_needs": 27,
+        "energy_recomputed": 2.871276769883119,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000019",
+        "source_ids": [
+          "Q2SEED-28-020"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S011|应急食品": 1,
+          "S011|医疗物资": 1,
+          "S011|饮用水": 1
+        },
+        "atomic_needs": 0,
+        "energy_recomputed": 1.073963183411491,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000020",
+        "source_ids": [
+          "Q2SEED-28-007"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S013|应急食品": 1,
+          "S013|医疗物资": 1,
+          "S013|饮用水": 1
+        },
+        "atomic_needs": 13,
+        "energy_recomputed": 1.8248637585718628,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000021",
+        "source_ids": [
+          "Q2SEED-28-003"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S014|应急食品": 1,
+          "S014|医疗物资": 1,
+          "S014|饮用水": 1
+        },
+        "atomic_needs": 23,
+        "energy_recomputed": 2.140365220765654,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000022",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S015|应急食品": 1,
+          "S015|医疗物资": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 1.9590371669252353,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000023",
+        "source_ids": [
+          "Q2SEED-28-013"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S015|应急食品": 1,
+          "S015|医疗物资": 1,
+          "S015|饮用水": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 2.3075883370944723,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000024",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S015|医疗物资": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 1.867101146788818,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000025",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S015|应急食品": 1,
+          "S001|饮用水": 1
+        },
+        "atomic_needs": 23,
+        "energy_recomputed": 2.7261025642621486,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000026",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "B",
+        "counts": {
+          "S015|饮用水": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 2.0096552754975012,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000027",
+        "source_ids": [
+          "Q2SEED-28-001"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S001|应急食品": 3,
+          "S001|生活卫生用品": 2,
+          "S001|医疗物资": 2,
+          "S001|饮用水": 1
+        },
+        "atomic_needs": 0,
+        "energy_recomputed": 2.405060059403986,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000028",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S001|饮用水": 1,
+          "S015|应急食品": 1,
+          "S015|医疗物资": 1,
+          "S015|饮用水": 1
+        },
+        "atomic_needs": 23,
+        "energy_recomputed": 5.102296242035055,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000029",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S001|饮用水": 1,
+          "S015|医疗物资": 1
+        },
+        "atomic_needs": 23,
+        "energy_recomputed": 4.728113699777385,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000030",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 8,
+        "vehicle": "C",
+        "counts": {
+          "S001|饮用水": 1
+        },
+        "atomic_needs": 0,
+        "energy_recomputed": 1.9876781962800534,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000031",
+        "source_ids": [
+          "Q2SEED-28-008"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S002|应急食品": 2,
+          "S002|生活卫生用品": 1,
+          "S002|医疗物资": 1,
+          "S002|饮用水": 3
+        },
+        "atomic_needs": 39,
+        "energy_recomputed": 6.2810104080250655,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000032",
+        "source_ids": [
+          "Q2SEED-28-017"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S003|应急食品": 2,
+          "S003|生活卫生用品": 1,
+          "S003|医疗物资": 1,
+          "S003|饮用水": 3
+        },
+        "atomic_needs": 41,
+        "energy_recomputed": 6.324596372619295,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000033",
+        "source_ids": [
+          "Q2SEED-28-028"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S005|应急食品": 1,
+          "S005|生活卫生用品": 1,
+          "S005|医疗物资": 1,
+          "S005|饮用水": 3
+        },
+        "atomic_needs": 19,
+        "energy_recomputed": 4.222182349592158,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000034",
+        "source_ids": [
+          "Q2SEED-28-012"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S006|应急食品": 1,
+          "S006|生活卫生用品": 1,
+          "S006|医疗物资": 1,
+          "S006|饮用水": 3
+        },
+        "atomic_needs": 0,
+        "energy_recomputed": 2.5979806407170596,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000035",
+        "source_ids": [
+          "Q2SEED-28-015"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S007|应急食品": 1,
+          "S007|生活卫生用品": 1,
+          "S007|医疗物资": 1,
+          "S007|饮用水": 2
+        },
+        "atomic_needs": 13,
+        "energy_recomputed": 3.411075641855823,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000036",
+        "source_ids": [
+          "Q2SEED-28-025"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S008|应急食品": 1,
+          "S008|生活卫生用品": 1,
+          "S008|医疗物资": 1,
+          "S008|饮用水": 2
+        },
+        "atomic_needs": 43,
+        "energy_recomputed": 5.836066297505489,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000037",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S015|应急食品": 1,
+          "S015|医疗物资": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 3.9122339513341178,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000038",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S015|应急食品": 1,
+          "S015|医疗物资": 1,
+          "S015|饮用水": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 4.075567309309595,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000039",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S015|医疗物资": 1,
+          "S015|饮用水": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 3.973086118032616,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000040",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S015|医疗物资": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 3.853846344857142,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000041",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S015|应急食品": 1,
+          "S015|饮用水": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 4.034202502008859,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      },
+      {
+        "pattern_id": "DP000042",
+        "source_ids": [
+          "NEW"
+        ],
+        "copies": 1,
+        "vehicle": "C",
+        "counts": {
+          "S015|应急食品": 1
+        },
+        "atomic_needs": 25,
+        "energy_recomputed": 3.887023553783476,
+        "energy_delta_from_source": 0.0,
+        "duration_delta_from_source": 0.0
+      }
+    ],
+    "discarded": []
+  }
+}

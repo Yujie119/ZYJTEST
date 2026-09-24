@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="910.102299pt" height="341.57408pt" viewBox="0 0 910.102299 341.57408" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-24T16:46:06.509618</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 341.57408 
+L 910.102299 341.57408 
+L 910.102299 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 37.030299 271.116 
+L 237.616119 271.116 
+L 237.616119 67.212 
+L 37.030299 67.212 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 53.077164 254.80368 
+L 137.323209 254.80368 
+L 137.323209 177.32016 
+L 53.077164 177.32016 
+z
+" clip-path="url(#pf2d33d4ac4)" style="fill: #bac3c9; opacity: 0.1; stroke: #20262b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 137.323209 254.80368 
+L 217.557537 254.80368 
+L 217.557537 177.32016 
+L 137.323209 177.32016 
+z
+" clip-path="url(#pf2d33d4ac4)" style="fill: #376b8e; opacity: 0.1; stroke: #20262b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 53.077164 177.32016 
+L 137.323209 177.32016 
+L 137.323209 87.6024 
+L 53.077164 87.6024 
+z
+" clip-path="url(#pf2d33d4ac4)" style="fill: #b65d31; opacity: 0.1; stroke: #20262b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 137.323209 177.32016 
+L 217.557537 177.32016 
+L 217.557537 87.6024 
+L 137.323209 87.6024 
+z
+" clip-path="url(#pf2d33d4ac4)" style="fill: #bac3c9; opacity: 0.1; stroke: #20262b; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="text_1">
+     <!-- 阈值坐标 $\varepsilon_E$ -->
+     <g transform="translate(110.128209 283.516)">
+      <text>
+       <tspan x="0" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">阈</tspan>
+       <tspan x="10.5" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">值</tspan>
+       <tspan x="21" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">坐</tspan>
+       <tspan x="31.5" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">标</tspan>
+       <tspan x="42" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'"> </tspan>
+       <tspan x="44.719498" y="-0.1875" style="font-style: italic; font-size: 10.5px; font-family: 'STIXGeneral'">ε</tspan>
+       <tspan x="49.3815" y="1.2" style="font-style: italic; font-size: 7.35px; font-family: 'STIXGeneral'">E</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="text_2">
+     <!-- 阈值坐标 $\varepsilon_L$ -->
+     <g transform="translate(30.300299 196.149) rotate(-90)">
+      <text>
+       <tspan x="0" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">阈</tspan>
+       <tspan x="10.5" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">值</tspan>
+       <tspan x="21" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">坐</tspan>
+       <tspan x="31.5" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">标</tspan>
+       <tspan x="42" y="-0.1875" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'"> </tspan>
+       <tspan x="44.719498" y="-0.1875" style="font-style: italic; font-size: 10.5px; font-family: 'STIXGeneral'">ε</tspan>
+       <tspan x="49.3815" y="1.2" style="font-style: italic; font-size: 7.35px; font-family: 'STIXGeneral'">L</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_1">
+    <path d="M 137.323209 254.80368 
+L 137.323209 87.6024 
+" clip-path="url(#pf2d33d4ac4)" style="fill: none; stroke: #20262b; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 53.077164 177.32016 
+L 217.557537 177.32016 
+" clip-path="url(#pf2d33d4ac4)" style="fill: none; stroke: #20262b; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 37.030299 271.116 
+L 37.030299 67.212 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 37.030299 271.116 
+L 237.616119 271.116 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #b65d31" x="95.200187" y="134.50032" transform="rotate(-0 95.200187 134.50032)">下一待探索区域</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #376b8e" x="177.440373" y="216.06192" transform="rotate(-0 177.440373 216.06192)">当前 ε 子问题</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 159.804394 182.225729 
+Q 141.336373 168.145584 123.935279 154.87887 
+" style="fill: none; stroke: #b65d31; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 126.002062 159.095315 
+L 123.935279 154.87887 
+L 128.548504 155.75531 
+" style="fill: none; stroke: #b65d31; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.4px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(95.023209 314.70208)">区域细分为机理示意</text>
+    <!-- 固定 $\varepsilon_N$；盒内未必存在可行解 -->
+    <g transform="translate(75.189209 326.17008)">
+     <text>
+      <tspan x="0" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">固</tspan>
+      <tspan x="9.39061" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">定</tspan>
+      <tspan x="18.781219" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'"> </tspan>
+      <tspan x="30.181349" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">；</tspan>
+      <tspan x="39.571959" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">盒</tspan>
+      <tspan x="48.962569" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">内</tspan>
+      <tspan x="58.353178" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">未</tspan>
+      <tspan x="67.743788" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">必</tspan>
+      <tspan x="77.134398" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">存</tspan>
+      <tspan x="86.525008" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">在</tspan>
+      <tspan x="95.915617" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">可</tspan>
+      <tspan x="105.306227" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">行</tspan>
+      <tspan x="114.696837" y="-0.15625" style="font-weight: 200; font-size: 9.4px; font-family: 'Noto Serif SC'">解</tspan>
+      <tspan x="21.213379" y="-0.15625" style="font-style: italic; font-size: 9.4px; font-family: 'STIXGeneral'">ε</tspan>
+      <tspan x="25.382812" y="1.085938" style="font-style: italic; font-size: 6.58px; font-family: 'STIXGeneral'">N</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 14px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="12.96" y="57.0168" transform="rotate(-0 12.96 57.0168)">(a)</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mba3ecbda98" d="M -4.743416 4.743416 
+L 4.743416 -4.743416 
+M -4.743416 -4.743416 
+L 4.743416 4.743416 
+" style="stroke: #376b8e; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#pf2d33d4ac4)">
+     <use xlink:href="#mba3ecbda98" x="137.323209" y="177.32016" style="fill: #376b8e; stroke: #376b8e; stroke-width: 2"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_10">
+    <path d="M 331.690869 271.116 
+L 552.335272 271.116 
+L 552.335272 67.212 
+L 331.690869 67.212 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_1">
+     <g id="line2d_3">
+      <defs>
+       <path id="m32ffe1ddd7" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="349.580956" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="349.580956" y="285.716" transform="rotate(-0 349.580956 285.716)">第1波</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="468.848201" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="468.848201" y="285.716" transform="rotate(-0 468.848201 285.716)">第2波</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m8684a693b8" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8684a693b8" x="331.690869" y="263.961474" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="324.690869" y="267.761474" transform="rotate(-0 324.690869 267.761474)">64.5</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m8684a693b8" x="331.690869" y="228.188842" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="324.690869" y="231.988842" transform="rotate(-0 324.690869 231.988842)">65.0</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m8684a693b8" x="331.690869" y="192.416211" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="324.690869" y="196.216211" transform="rotate(-0 324.690869 196.216211)">65.5</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m8684a693b8" x="331.690869" y="156.643579" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="324.690869" y="160.443579" transform="rotate(-0 324.690869 160.443579)">66.0</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m8684a693b8" x="331.690869" y="120.870947" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="324.690869" y="124.670947" transform="rotate(-0 324.690869 124.670947)">66.5</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m8684a693b8" x="331.690869" y="85.098316" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="324.690869" y="88.898316" transform="rotate(-0 324.690869 88.898316)">67.0</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <!-- 实际能耗阈值 $\varepsilon_E$ (kWh) -->
+     <g transform="translate(299.386885 223.869) rotate(-90)">
+      <text>
+       <tspan x="0" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">实</tspan>
+       <tspan x="10.5" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">际</tspan>
+       <tspan x="21" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">能</tspan>
+       <tspan x="31.5" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">耗</tspan>
+       <tspan x="42" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">阈</tspan>
+       <tspan x="52.5" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">值</tspan>
+       <tspan x="63" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'"> </tspan>
+       <tspan x="75.334848" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'"> </tspan>
+       <tspan x="78.054346" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">(</tspan>
+       <tspan x="81.729349" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">k</tspan>
+       <tspan x="87.924356" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">W</tspan>
+       <tspan x="98.823358" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">h</tspan>
+       <tspan x="105.679865" y="-0.109375" style="font-weight: 200; font-size: 10.5px; font-family: 'Noto Serif SC'">)</tspan>
+       <tspan x="65.719498" y="-0.109375" style="font-style: italic; font-size: 10.5px; font-family: 'STIXGeneral'">ε</tspan>
+       <tspan x="70.3815" y="1.278125" style="font-style: italic; font-size: 7.35px; font-family: 'STIXGeneral'">E</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_11">
+    <path d="M 349.580956 195.576866 
+L 468.848201 195.576866 
+" clip-path="url(#pb04e2d7d6e)" style="fill: none; stroke: #376b8e; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="md97bda1922" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #376b8e"/>
+    </defs>
+    <g clip-path="url(#pb04e2d7d6e)">
+     <use xlink:href="#md97bda1922" x="349.580956" y="195.576866" style="fill: #376b8e; stroke: #376b8e"/>
+     <use xlink:href="#md97bda1922" x="468.848201" y="195.576866" style="fill: #376b8e; stroke: #376b8e"/>
+    </g>
+   </g>
+   <g id="line2d_12">
+    <path d="M 349.580956 242.556062 
+L 468.848201 243.446136 
+" clip-path="url(#pb04e2d7d6e)" style="fill: none; stroke: #b65d31; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m3a44ab2faf" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #b65d31"/>
+    </defs>
+    <g clip-path="url(#pb04e2d7d6e)">
+     <use xlink:href="#m3a44ab2faf" x="349.580956" y="242.556062" style="fill: #b65d31; stroke: #b65d31"/>
+     <use xlink:href="#m3a44ab2faf" x="468.848201" y="243.446136" style="fill: #b65d31; stroke: #b65d31"/>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <path d="M 349.580956 159.804234 
+L 468.848201 159.804234 
+" clip-path="url(#pb04e2d7d6e)" style="fill: none; stroke: #517a64; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m8bd6e4d16f" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #517a64"/>
+    </defs>
+    <g clip-path="url(#pb04e2d7d6e)">
+     <use xlink:href="#m8bd6e4d16f" x="349.580956" y="159.804234" style="fill: #517a64; stroke: #517a64"/>
+     <use xlink:href="#m8bd6e4d16f" x="468.848201" y="159.804234" style="fill: #517a64; stroke: #517a64"/>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <path d="M 349.580956 88.258971 
+L 468.848201 88.258971 
+" clip-path="url(#pb04e2d7d6e)" style="fill: none; stroke: #786a91; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m36ee207637" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #786a91"/>
+    </defs>
+    <g clip-path="url(#pb04e2d7d6e)">
+     <use xlink:href="#m36ee207637" x="349.580956" y="88.258971" style="fill: #786a91; stroke: #786a91"/>
+     <use xlink:href="#m36ee207637" x="468.848201" y="88.258971" style="fill: #786a91; stroke: #786a91"/>
+    </g>
+   </g>
+   <g id="patch_11">
+    <path d="M 331.690869 271.116 
+L 331.690869 67.212 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 331.690869 271.116 
+L 552.335272 271.116 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #376b8e" transform="translate(478.389581 192.618866)">N≤25</text>
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #376b8e" transform="translate(478.389581 203.232866)">L≤702.54</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #b65d31" transform="translate(478.389581 240.488136)">N≤27</text>
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #b65d31" transform="translate(478.389581 251.102136)">L≤902.54</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #517a64" transform="translate(478.389581 156.846234)">N≤24</text>
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #517a64" transform="translate(478.389581 167.460234)">L≤612.54</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #786a91" transform="translate(478.389581 85.300971)">N≤23</text>
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #786a91" transform="translate(478.389581 95.914971)">L≤1102.54</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 408.060776 221.60286 
+Q 419.811925 231.867226 431.563075 242.131593 
+" style="fill: none; stroke: #b65d31; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #b65d31" transform="translate(356.736991 205.412147)">中点更新 64.79919</text>
+    <text style="font-size: 8.7px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #b65d31" transform="translate(356.736991 216.026147)">→ 64.78675</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9.4px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(366.813071 314.70208)">真实历史阈值；仅能耗侧重情景变化</text>
+    <text style="font-size: 9.4px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(376.213071 326.17008)">其余阈值不变，不代表搜索完备</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 14px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="305.213541" y="57.0168" transform="rotate(-0 305.213541 57.0168)">(b)</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 646.410022 271.116 
+L 897.142299 271.116 
+L 897.142299 67.212 
+L 646.410022 67.212 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p5b50a3914d)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAABBUAAANSCAYAAAA6e/ZdAAAVcUlEQVR4nO3asa3iQBhGUbzanujApZDQgEtwRAEuha4Q5H4R2nhvMvOkcyr4Io989S+v9+e8AAAAAPynP6MHAAAAAL+TqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAMlyvT/O0SMAgDk999voCcBE1u0YPQGYjEsFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACAZHm9P+foEQDMZd2O0ROYxHO/jZ4AAEzMpQIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJD8HT0AAID5rdsxegIwked+Gz2BSbhUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAkuX1/pyjRwAAAAC/j0sFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgWa73xzl6BOM999voCUxi3Y7RE4CJeB/48j5wufgm8I9vAl8uFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAAJLlen+co0cw3nO/jZ4AAMDk1u0YPYFJ+H/gy6UCAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQiAoAAABAIioAAAAAiagAAAAAJKICAAAAkIgKAAAAQCIqAAAAAImoAAAAACSiAgAAAJCICgAAAEAiKgAAAACJqAAAAAAkogIAAACQLK/35xw9ApjHuh2jJwATee630RMAgIm5VAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAABJRAQAAAEhEBQAAACARFQAAAIBEVAAAAAASUQEAAABIRAUAAAAgERUAAACARFQAAAAAElEBAAAASEQFAAAAIBEVAAAAgERUAAAAAJIfiXA2MT0jSTUAAAAASUVORK5CYII=" id="imageebf4d8324f" transform="scale(1 -1) translate(0 -204)" x="646.410022" y="-67.116" width="250.8" height="204"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_3">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="662.08079" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="662.08079" y="285.716" transform="rotate(-0 662.08079 285.716)">1</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="693.422324" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="693.422324" y="285.716" transform="rotate(-0 693.422324 285.716)">2</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="724.763859" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="724.763859" y="285.716" transform="rotate(-0 724.763859 285.716)">3</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="756.105393" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="756.105393" y="285.716" transform="rotate(-0 756.105393 285.716)">4</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="787.446928" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="787.446928" y="285.716" transform="rotate(-0 787.446928 285.716)">5</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="818.788462" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="818.788462" y="285.716" transform="rotate(-0 818.788462 285.716)">6</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="850.129997" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="850.129997" y="285.716" transform="rotate(-0 850.129997 285.716)">7</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m32ffe1ddd7" x="881.471531" y="271.116" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="881.471531" y="285.716" transform="rotate(-0 881.471531 285.716)">8</text>
+     </g>
+    </g>
+    <g id="text_31">
+     <text style="font-size: 10.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="771.77616" y="300.586" transform="rotate(-0 771.77616 300.586)">链内迭代次数</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_7">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m8684a693b8" x="646.410022" y="79.956" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="639.410022" y="83.756" transform="rotate(-0 639.410022 83.756)">202631</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m8684a693b8" x="646.410022" y="105.444" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="639.410022" y="109.244" transform="rotate(-0 639.410022 109.244)">202632</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m8684a693b8" x="646.410022" y="130.932" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="639.410022" y="134.732" transform="rotate(-0 639.410022 134.732)">202633</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m8684a693b8" x="646.410022" y="156.42" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="639.410022" y="160.22" transform="rotate(-0 639.410022 160.22)">202634</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m8684a693b8" x="646.410022" y="181.908" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="639.410022" y="185.708" transform="rotate(-0 639.410022 185.708)">202641</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m8684a693b8" x="646.410022" y="207.396" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="639.410022" y="211.196" transform="rotate(-0 639.410022 211.196)">202642</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m8684a693b8" x="646.410022" y="232.884" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="639.410022" y="236.684" transform="rotate(-0 639.410022 236.684)">202643</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m8684a693b8" x="646.410022" y="258.372" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="639.410022" y="262.172" transform="rotate(-0 639.410022 262.172)">202644</text>
+     </g>
+    </g>
+    <g id="text_40">
+     <text style="font-size: 10.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="601.707054" y="169.164" transform="rotate(-90 601.707054 169.164)">历史随机链种子</text>
+    </g>
+   </g>
+   <g id="line2d_31">
+    <path d="M 646.410022 169.164 
+L 897.142299 169.164 
+" clip-path="url(#p5b50a3914d)" style="fill: none; stroke: #20262b; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 646.410022 271.116 
+L 646.410022 67.212 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 646.410022 271.116 
+L 897.142299 271.116 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="662.08079" y="82.656" transform="rotate(-0 662.08079 82.656)">×</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="693.422324" y="82.656" transform="rotate(-0 693.422324 82.656)">×</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="724.763859" y="82.656" transform="rotate(-0 724.763859 82.656)">●</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="756.105393" y="82.656" transform="rotate(-0 756.105393 82.656)">●</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="787.446928" y="82.656" transform="rotate(-0 787.446928 82.656)">×</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="818.788462" y="82.656" transform="rotate(-0 818.788462 82.656)">×</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="850.129997" y="82.656" transform="rotate(-0 850.129997 82.656)">×</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="881.471531" y="82.656" transform="rotate(-0 881.471531 82.656)">×</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="662.08079" y="108.144" transform="rotate(-0 662.08079 108.144)">●</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="693.422324" y="108.144" transform="rotate(-0 693.422324 108.144)">×</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="724.763859" y="108.144" transform="rotate(-0 724.763859 108.144)">×</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="756.105393" y="108.144" transform="rotate(-0 756.105393 108.144)">×</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="787.446928" y="108.144" transform="rotate(-0 787.446928 108.144)">×</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="818.788462" y="108.144" transform="rotate(-0 818.788462 108.144)">×</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="850.129997" y="108.144" transform="rotate(-0 850.129997 108.144)">●</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="881.471531" y="108.144" transform="rotate(-0 881.471531 108.144)">×</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="662.08079" y="133.632" transform="rotate(-0 662.08079 133.632)">●</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="693.422324" y="133.632" transform="rotate(-0 693.422324 133.632)">×</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="724.763859" y="133.632" transform="rotate(-0 724.763859 133.632)">●</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="756.105393" y="133.632" transform="rotate(-0 756.105393 133.632)">●</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="787.446928" y="133.632" transform="rotate(-0 787.446928 133.632)">×</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="818.788462" y="133.632" transform="rotate(-0 818.788462 133.632)">●</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="850.129997" y="133.632" transform="rotate(-0 850.129997 133.632)">×</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="881.471531" y="133.632" transform="rotate(-0 881.471531 133.632)">●</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="662.08079" y="159.12" transform="rotate(-0 662.08079 159.12)">×</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="693.422324" y="159.12" transform="rotate(-0 693.422324 159.12)">×</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="724.763859" y="159.12" transform="rotate(-0 724.763859 159.12)">×</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="756.105393" y="159.12" transform="rotate(-0 756.105393 159.12)">×</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="787.446928" y="159.12" transform="rotate(-0 787.446928 159.12)">×</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="818.788462" y="159.12" transform="rotate(-0 818.788462 159.12)">×</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="850.129997" y="159.12" transform="rotate(-0 850.129997 159.12)">×</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="881.471531" y="159.12" transform="rotate(-0 881.471531 159.12)">×</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="662.08079" y="184.608" transform="rotate(-0 662.08079 184.608)">×</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="693.422324" y="184.608" transform="rotate(-0 693.422324 184.608)">×</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="724.763859" y="184.608" transform="rotate(-0 724.763859 184.608)">×</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="756.105393" y="184.608" transform="rotate(-0 756.105393 184.608)">●</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="787.446928" y="184.608" transform="rotate(-0 787.446928 184.608)">×</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="818.788462" y="184.608" transform="rotate(-0 818.788462 184.608)">●</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="850.129997" y="184.608" transform="rotate(-0 850.129997 184.608)">●</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="881.471531" y="184.608" transform="rotate(-0 881.471531 184.608)">×</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="662.08079" y="210.096" transform="rotate(-0 662.08079 210.096)">×</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="693.422324" y="210.096" transform="rotate(-0 693.422324 210.096)">×</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="724.763859" y="210.096" transform="rotate(-0 724.763859 210.096)">×</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="756.105393" y="210.096" transform="rotate(-0 756.105393 210.096)">●</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="787.446928" y="210.096" transform="rotate(-0 787.446928 210.096)">×</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="818.788462" y="210.096" transform="rotate(-0 818.788462 210.096)">×</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="850.129997" y="210.096" transform="rotate(-0 850.129997 210.096)">×</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="881.471531" y="210.096" transform="rotate(-0 881.471531 210.096)">×</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="662.08079" y="235.584" transform="rotate(-0 662.08079 235.584)">●</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="693.422324" y="235.584" transform="rotate(-0 693.422324 235.584)">●</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="724.763859" y="235.584" transform="rotate(-0 724.763859 235.584)">●</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="756.105393" y="235.584" transform="rotate(-0 756.105393 235.584)">●</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="787.446928" y="235.584" transform="rotate(-0 787.446928 235.584)">×</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="818.788462" y="235.584" transform="rotate(-0 818.788462 235.584)">×</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="850.129997" y="235.584" transform="rotate(-0 850.129997 235.584)">●</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="881.471531" y="235.584" transform="rotate(-0 881.471531 235.584)">●</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="662.08079" y="261.072" transform="rotate(-0 662.08079 261.072)">×</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="693.422324" y="261.072" transform="rotate(-0 693.422324 261.072)">×</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="724.763859" y="261.072" transform="rotate(-0 724.763859 261.072)">×</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="756.105393" y="261.072" transform="rotate(-0 756.105393 261.072)">×</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="787.446928" y="261.072" transform="rotate(-0 787.446928 261.072)">×</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="818.788462" y="261.072" transform="rotate(-0 818.788462 261.072)">×</text>
+   </g>
+   <g id="text_103">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="850.129997" y="261.072" transform="rotate(-0 850.129997 261.072)">×</text>
+   </g>
+   <g id="text_104">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle; fill: #9aa5ad" x="881.471531" y="261.072" transform="rotate(-0 881.471531 261.072)">×</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 9.4px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(715.929879 314.70208)">64 次调用中 19 次返回候选</text>
+    <text style="font-size: 9.4px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(712.940973 326.17008)">求解器返回 ≠ 独立核验通过</text>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 14px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="616.322149" y="57.0168" transform="rotate(-0 616.322149 57.0168)">(c)</text>
+   </g>
+  </g>
+  <g id="legend_1">
+   <g id="patch_17">
+    <path d="M 631.642299 23.76 
+L 649.642299 23.76 
+L 649.642299 17.46 
+L 631.642299 17.46 
+z
+" style="fill: #376b8e"/>
+   </g>
+   <g id="text_107">
+    <text style="font-size: 9px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="656.842299" y="23.76" transform="rotate(-0 656.842299 23.76)">求解器返回候选</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 737.842299 23.76 
+L 755.842299 23.76 
+L 755.842299 17.46 
+L 737.842299 17.46 
+z
+" style="fill: #f1f3f4; stroke: #bac3c9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 9px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="763.042299" y="23.76" transform="rotate(-0 763.042299 23.76)">未返回候选；不等于已证不可行</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf2d33d4ac4">
+   <rect x="37.030299" y="67.212" width="200.585821" height="203.904"/>
+  </clipPath>
+  <clipPath id="pb04e2d7d6e">
+   <rect x="331.690869" y="67.212" width="220.644403" height="203.904"/>
+  </clipPath>
+  <clipPath id="p5b50a3914d">
+   <rect x="646.410022" y="67.212" width="250.732276" height="203.904"/>
+  </clipPath>
+ </defs>
+</svg>

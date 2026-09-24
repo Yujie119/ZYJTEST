@@ -1,0 +1,23 @@
+{
+  "state": "solving_neighborhood",
+  "updated_utc": "2026-09-23T20:55:31.049861+00:00",
+  "elapsed_s": 1.2791203999659047,
+  "round": 0,
+  "new_verified_count": 0,
+  "route_instances": 31,
+  "latest": {
+    "round": 0,
+    "mode": "C",
+    "kind": "free_joint_retiming",
+    "started_utc": "2026-09-23T20:55:30.987688+00:00",
+    "seed_objective": [
+      24,
+      65.11205028199753,
+      9165.154435126618,
+      465.2583642491526
+    ],
+    "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+    "status": "running"
+  },
+  "scope": "O01-exchange only; no spare carriage; whole-sortie original energy limits retained"
+}

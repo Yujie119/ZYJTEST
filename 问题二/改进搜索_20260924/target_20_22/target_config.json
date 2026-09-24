@@ -1,0 +1,77 @@
+{
+  "jobs": [
+    [
+      0,
+      60,
+      4.0,
+      20,
+      {
+        "cap": {
+          "N": 20
+        },
+        "weights": [
+          0.01,
+          0.04,
+          0.8,
+          0.15
+        ]
+      }
+    ],
+    [
+      1,
+      60,
+      4.0,
+      20,
+      {
+        "cap": {
+          "N": 21,
+          "E": 66.0
+        },
+        "weights": [
+          0.01,
+          0.04,
+          0.8,
+          0.15
+        ]
+      }
+    ],
+    [
+      2,
+      60,
+      4.0,
+      20,
+      {
+        "cap": {
+          "N": 22,
+          "E": 66.0
+        },
+        "weights": [
+          0.01,
+          0.04,
+          0.8,
+          0.15
+        ]
+      }
+    ],
+    [
+      3,
+      60,
+      4.0,
+      20,
+      {
+        "cap": {
+          "N": 22
+        },
+        "weights": [
+          0.05,
+          0.05,
+          0.7,
+          0.2
+        ]
+      }
+    ]
+  ],
+  "meaning": "N is an upper epsilon bound, never fixed to 28 or any externally reported answer; 66 kWh is a search threshold only.",
+  "reference_89_min_s": 5340,
+  "reference_is_unverified": true
+}

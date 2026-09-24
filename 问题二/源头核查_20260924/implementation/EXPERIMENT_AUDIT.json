@@ -1,0 +1,39 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "reason_code": "strict_dominance_witness_and_search_control_defects",
+  "summary": "原始量及导出核验通过，但固定正式路线和资源即可严格减少迟到；ALNS探索分支受warm回退及词典序约束限制。",
+  "date": "2026-09-24",
+  "auditor": "fresh independent same-family agent",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "trace_path": "问题二/源头核查_20260924/implementation/",
+  "request_path": "review_request.txt",
+  "response_path": "review_response.md",
+  "audited_input_hashes_path": "input_hashes.json",
+  "checks": {
+    "gt_provenance": {"status": "PASS", "details": "原始工作簿和GeoTIFF独立重建，原方案与见证各426项通过；水平标定及势能爬升保留为已声明假设。", "evidence": ["问题二/q2_data.py:76", "正文/正文.md:17", "independent_raw_verification.json:8", "independent_raw_verification.json:2884"]},
+    "score_normalization": {"status": "WARN", "details": "决策尺度来自预实验方案极差，已冻结披露且原始四目标同行；不是预测准确率。8个档案遗憾均重算一致，只适用当前K0。", "evidence": ["问题二/q2_run.py:132", "问题二/q2_run.py:169", "result_consistency.json:391"]},
+    "result_existence": {"status": "PASS", "details": "最终目标、输入和结果哈希、28架次与80箱官方表回读相符；最优性另有严格反例。", "evidence": ["result_consistency.json:2", "result_consistency.json:638", "问题二/report_q2.py:38"]},
+    "dead_code": {"status": "WARN", "details": "主要指标真实调用；较差C解在退火接受之前被warm回退和词典序上限阻断。", "evidence": ["问题二/q2_joint.py:200", "问题二/q2_joint.py:214", "问题二/q2_run.py:78", "问题二/q2_run.py:87"]},
+    "scope": {"status": "WARN", "details": "一个预实验场景；558候选，遗漏19048条可行单点；固定路线资源时序见证严格支配代表。", "evidence": ["result_consistency.json:357", "fixed_resources_timing_witness.json:3789", "问题二/q2_candidates.py:29"]},
+    "evaluation_type": {"status": "PASS", "classification": "simulation_only", "details": "原始参数驱动的确定性调度及独立算术核验，无实测或官方最优调度标签。"}
+  },
+  "findings": [
+    {"id": "I01", "category": "search_incompleteness", "severity": "high", "title": "固定路线资源存在严格支配时序", "original_objective": [28,75.71131596897939,7567.094096939377,200.565886509374], "witness_objective": [28,75.71131596897939,7567.094096939377,70.64808661848737], "witness_path": "fixed_resources_timing_witness.json", "independent_raw_check": "independent_raw_verification.json", "claims_affected": ["K0内Pareto有效", "终端已不可支配改善"]},
+    {"id": "I02", "category": "algorithm_control_flow_defect", "severity": "medium", "title": "较差C退火接受通道在正常数值意义上不可达"},
+    {"id": "I03", "category": "production_workflow_defect", "severity": "medium", "title": "正式入口硬依赖历史方案与历史L数值门槛"},
+    {"id": "I04", "category": "search_incompleteness", "severity": "medium", "title": "固定K0省略大多数单点候选且重复访问未生成"},
+    {"id": "I05", "category": "scope_fingerprint_defect", "severity": "medium", "title": "仅候选ID哈希无法区分物理系数更新", "current_contamination_observed": false}
+  ],
+  "claims": [
+    {"id": "current_feasibility", "impact": "supported"},
+    {"id": "completion_time_definition", "impact": "supported", "value": 7567.094096939377},
+    {"id": "current_archive_regret_upper_representative", "impact": "supported", "qualifier": "仅当前已存档案；加入见证后须统一重评"},
+    {"id": "K0_Pareto_efficiency", "impact": "unsupported"},
+    {"id": "full_original_global_optimality", "impact": "unsupported"},
+    {"id": "equal_budget_method_superiority", "impact": "unsupported"}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ready": true,
+  "created_utc": "2026-09-23T20:50:52.557476+00:00",
+  "script": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\search_q3_neighborhood_worker.py",
+  "sha256": "d913e7156f35f159cc4bb1686d04353e5d29489826c73f04e3cc2cb0a56c3a58",
+  "python": "E:\\tool\\anaconda3\\python.exe",
+  "interface": "--seconds 6600 --output ABSOLUTE_DIRECTORY --seed INTEGER [--task-seconds 90] [--max-rounds INTEGER] [--smoke]",
+  "default_task_solver_and_preparation_budget_s": 90,
+  "threads_per_solver": 1,
+  "scope": "O01 exchange only; no carried spare batteries; retain complete-sortie 80% energy limit; neighborhood bounds are not full-library bounds",
+  "smoke_summary": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke_v2\\summary.json",
+  "smoke_elapsed_s": 10.928693099995144,
+  "smoke_rounds": 2,
+  "smoke_new_solver_incumbents": 0,
+  "smoke_control": {
+    "passed": true,
+    "physical_status": "PASS",
+    "raw_status": "PASS",
+    "battery_status": "PASS",
+    "physical_checks": 1015,
+    "raw_checks": 452,
+    "battery_checks": 307,
+    "evidence": [
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke_v2\\smoke_existing_seed_control\\existing_seed_DEM核验.json",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke_v2\\smoke_existing_seed_control\\existing_seed_原始算术核验.json",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke_v2\\smoke_existing_seed_control\\existing_seed_电池位置核验.json"
+    ],
+    "meaning": "Existing verified seed, not a new solution discovered by this worker"
+  },
+  "smoke_description": "Two real bounded joint MILPs (31 and 65 free instances), both short time limits with no incumbent, correctly rejected. Existing seed independently passed DEM/raw/battery location control. No new result was invented.",
+  "output_files": [
+    "progress.json",
+    "attempts.json",
+    "verified_candidates.json",
+    "verified_nondominated_candidates.json",
+    "summary.json",
+    "round_NNNNN_MODE/verified_plan.json",
+    "round_NNNNN_MODE/已核验方案.json"
+  ],
+  "stop_flag": "create OUTPUT/STOP to stop after current bounded round; verification completes for any current candidate",
+  "archive_gate": "Every solver candidate requires Verifier, raw audit, battery location audit all PASS before verified_plan and archive writes",
+  "updated_utc": "2026-09-23T20:51:45.022667+00:00",
+  "post_smoke_change": "Add a second identical verified candidate filename 已核验方案.json after all three PASS audits, for coordinator compatibility; no solver or validation logic changed.",
+  "script_sha256": "d913e7156f35f159cc4bb1686d04353e5d29489826c73f04e3cc2cb0a56c3a58"
+}

@@ -1,0 +1,506 @@
+{
+  "specs": [
+    {
+      "name": "cover_00_0",
+      "cap": {},
+      "weights": [
+        0.1,
+        0.15,
+        0.75
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        0.00014285714285714287,
+        0.0005
+      ],
+      "noise": 0.0008,
+      "seed": 2026092400,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_00_1",
+      "cap": {},
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        9.285714285714286e-05,
+        0.0005833333333333333
+      ],
+      "noise": 0.0016,
+      "seed": 2026092401,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_00_2",
+      "cap": {},
+      "weights": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        3.571428571428572e-05,
+        0.00125
+      ],
+      "noise": 0.0024000000000000002,
+      "seed": 2026092402,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_01_0",
+      "cap": {
+        "N": 20
+      },
+      "weights": [
+        0.1,
+        0.15,
+        0.75
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        0.00014285714285714287,
+        0.0005
+      ],
+      "noise": 0.0008,
+      "seed": 2026092410,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_01_1",
+      "cap": {
+        "N": 20
+      },
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        9.285714285714286e-05,
+        0.0005833333333333333
+      ],
+      "noise": 0.0016,
+      "seed": 2026092411,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_01_2",
+      "cap": {
+        "N": 20
+      },
+      "weights": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        3.571428571428572e-05,
+        0.00125
+      ],
+      "noise": 0.0024000000000000002,
+      "seed": 2026092412,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_02_0",
+      "cap": {
+        "N": 21
+      },
+      "weights": [
+        0.1,
+        0.15,
+        0.75
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        0.00014285714285714287,
+        0.0005
+      ],
+      "noise": 0.0008,
+      "seed": 2026092420,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_02_1",
+      "cap": {
+        "N": 21
+      },
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        9.285714285714286e-05,
+        0.0005833333333333333
+      ],
+      "noise": 0.0016,
+      "seed": 2026092421,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_02_2",
+      "cap": {
+        "N": 21
+      },
+      "weights": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        3.571428571428572e-05,
+        0.00125
+      ],
+      "noise": 0.0024000000000000002,
+      "seed": 2026092422,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_03_0",
+      "cap": {
+        "N": 22
+      },
+      "weights": [
+        0.1,
+        0.15,
+        0.75
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        0.00014285714285714287,
+        0.0005
+      ],
+      "noise": 0.0008,
+      "seed": 2026092430,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_03_1",
+      "cap": {
+        "N": 22
+      },
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        9.285714285714286e-05,
+        0.0005833333333333333
+      ],
+      "noise": 0.0016,
+      "seed": 2026092431,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_03_2",
+      "cap": {
+        "N": 22
+      },
+      "weights": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        3.571428571428572e-05,
+        0.00125
+      ],
+      "noise": 0.0024000000000000002,
+      "seed": 2026092432,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_04_0",
+      "cap": {
+        "N": 23
+      },
+      "weights": [
+        0.1,
+        0.15,
+        0.75
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        0.00014285714285714287,
+        0.0005
+      ],
+      "noise": 0.0008,
+      "seed": 2026092440,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_04_1",
+      "cap": {
+        "N": 23
+      },
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        9.285714285714286e-05,
+        0.0005833333333333333
+      ],
+      "noise": 0.0016,
+      "seed": 2026092441,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_04_2",
+      "cap": {
+        "N": 23
+      },
+      "weights": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        3.571428571428572e-05,
+        0.00125
+      ],
+      "noise": 0.0024000000000000002,
+      "seed": 2026092442,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_05_0",
+      "cap": {
+        "N": 24
+      },
+      "weights": [
+        0.1,
+        0.15,
+        0.75
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        0.00014285714285714287,
+        0.0005
+      ],
+      "noise": 0.0008,
+      "seed": 2026092450,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_05_1",
+      "cap": {
+        "N": 24
+      },
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        9.285714285714286e-05,
+        0.0005833333333333333
+      ],
+      "noise": 0.0016,
+      "seed": 2026092451,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_05_2",
+      "cap": {
+        "N": 24
+      },
+      "weights": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        3.571428571428572e-05,
+        0.00125
+      ],
+      "noise": 0.0024000000000000002,
+      "seed": 2026092452,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_06_0",
+      "cap": {
+        "N": 25
+      },
+      "weights": [
+        0.1,
+        0.15,
+        0.75
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        0.00014285714285714287,
+        0.0005
+      ],
+      "noise": 0.0008,
+      "seed": 2026092460,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_06_1",
+      "cap": {
+        "N": 25
+      },
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        9.285714285714286e-05,
+        0.0005833333333333333
+      ],
+      "noise": 0.0016,
+      "seed": 2026092461,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_06_2",
+      "cap": {
+        "N": 25
+      },
+      "weights": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        3.571428571428572e-05,
+        0.00125
+      ],
+      "noise": 0.0024000000000000002,
+      "seed": 2026092462,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_07_0",
+      "cap": {
+        "N": 26
+      },
+      "weights": [
+        0.1,
+        0.15,
+        0.75
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        0.00014285714285714287,
+        0.0005
+      ],
+      "noise": 0.0008,
+      "seed": 2026092470,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_07_1",
+      "cap": {
+        "N": 26
+      },
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        9.285714285714286e-05,
+        0.0005833333333333333
+      ],
+      "noise": 0.0016,
+      "seed": 2026092471,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    },
+    {
+      "name": "cover_07_2",
+      "cap": {
+        "N": 26
+      },
+      "weights": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "schedule_weights": [
+        0,
+        0,
+        3.571428571428572e-05,
+        0.00125
+      ],
+      "noise": 0.0024000000000000002,
+      "seed": 2026092472,
+      "master_seconds": 12.0,
+      "schedule_seconds": 12.0
+    }
+  ],
+  "route_count_fixed": false,
+  "working_columns_file": "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\改进搜索_20260924\\frozen_evaluation_candidates.json.gz",
+  "candidate_file_sha256": "6e6953b0f0da38bee9abc3967a78d65c9e975fbc81d4a9961fb58dea1b7178e4",
+  "scope": "Finite full available library; only O01 battery exchanges; no carried spare or remote stock assumed."
+}

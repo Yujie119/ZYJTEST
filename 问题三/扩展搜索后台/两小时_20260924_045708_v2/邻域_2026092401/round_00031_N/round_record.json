@@ -1,0 +1,26 @@
+{
+  "round": 31,
+  "mode": "N",
+  "kind": "two_route_box_vehicle_neighborhood",
+  "started_utc": "2026-09-23T21:41:39.463820+00:00",
+  "seed_objective": [
+    25,
+    64.63787853587301,
+    9163.548863152573,
+    602.5438555866731
+  ],
+  "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\archive_05\\已核验方案.json",
+  "status": "solver_limit_or_rejection_without_new_incumbent",
+  "route_instances": 49,
+  "patterns": 38,
+  "caps": {
+    "E": 65.13787853587301,
+    "C": 9343.548863152573,
+    "L": 702.5438555866731
+  },
+  "neighborhood_only_lower_bound": null,
+  "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+  "solver_elapsed_s": 85.00212189997546,
+  "accepted_as_feasible": false,
+  "finished_utc": "2026-09-23T21:43:04.563868+00:00"
+}

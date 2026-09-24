@@ -1,0 +1,660 @@
+{
+  "final_sha256": "f5ada42c6d0787f6bb482ee30201e47b129373aad4ba668438badd1a24539459",
+  "summary_hash_matches": true,
+  "input_manifest_matches": true,
+  "last_delivery": 7063.1347391936415,
+  "last_return": 7567.094096939377,
+  "last_full_recharge": 9543.935149953919,
+  "total_duration": 49084.07394199239,
+  "uav_duration_sums": {
+    "U01": 5428.502399200864,
+    "U02": 5717.465596663905,
+    "U03": 6103.0789245089745,
+    "U04": 5349.303268542782,
+    "U05": 5829.684190783784,
+    "U06": 6807.791076316629,
+    "U07": 7567.094096939377,
+    "U08": 6281.154389036079
+  },
+  "last_return_route": "Q2-0028",
+  "late_boxes": [
+    {
+      "box": "S001-WAT-08",
+      "delivery": 4132.109130582292,
+      "expected": 3600.0,
+      "weight": 12.0
+    },
+    {
+      "box": "S001-WAT-03",
+      "delivery": 4555.751656698792,
+      "expected": 3600.0,
+      "weight": 12.0
+    },
+    {
+      "box": "S001-WAT-04",
+      "delivery": 4555.751656698792,
+      "expected": 3600.0,
+      "weight": 12.0
+    },
+    {
+      "box": "S001-WAT-05",
+      "delivery": 6222.37326943973,
+      "expected": 3600.0,
+      "weight": 12.0
+    },
+    {
+      "box": "S001-WAT-06",
+      "delivery": 6222.37326943973,
+      "expected": 3600.0,
+      "weight": 12.0
+    }
+  ],
+  "statuses": {
+    "Optimal": 6,
+    "Time limit reached": 32,
+    "Infeasible": 1
+  },
+  "mip_nodes": {
+    "1": 2,
+    "0": 25
+  },
+  "warm_fallback_tasks": [],
+  "global_mip_run_summary": [
+    {
+      "label": "global_anchor_N",
+      "status": "Optimal",
+      "nodes": 1,
+      "lower": 20.0,
+      "upper": 20.0,
+      "seconds": 17.217701699992176,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_anchor_E",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 60.70380825279539,
+      "upper": 60.7049721691384,
+      "seconds": 212.15662329999031,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_anchor_C",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 6006.725744939829,
+      "upper": 7567.094096939377,
+      "seconds": 70.49296559998766,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_anchor_L",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 0.0,
+      "upper": 61.51638430083956,
+      "seconds": 26.736959200003184,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_0",
+      "status": "Infeasible",
+      "nodes": 0,
+      "lower": null,
+      "upper": null,
+      "seconds": 3.3182020999956876,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_1",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": null,
+      "upper": 9163.54886305257,
+      "seconds": 12.563760200049728,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_1",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": null,
+      "upper": 520.7998072166124,
+      "seconds": 11.890241100045387,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_1",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": null,
+      "upper": 60.7049721691384,
+      "seconds": 10.357905099983327,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_1",
+      "status": "Optimal",
+      "nodes": 1,
+      "lower": 20.0,
+      "upper": 20.0,
+      "seconds": 8.57011390000116,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_2",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": null,
+      "upper": 7567.094096939377,
+      "seconds": 12.451736200018786,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_2",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": null,
+      "upper": 200.56588650937402,
+      "seconds": 11.94978289998835,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_2",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": null,
+      "upper": 75.71131596897939,
+      "seconds": 10.345227700017858,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_2",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 0.0,
+      "upper": 28.0,
+      "seconds": 8.816266599984374,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_epsilon_0_3",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": null,
+      "upper": null,
+      "seconds": 12.521221100003459,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_0",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 1.7852847430430276,
+      "upper": 2.2111540325944206,
+      "seconds": 218.82935590000125,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_1",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 2.370481418993788,
+      "upper": 2.8731663815975934,
+      "seconds": 217.7039958999958,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_2",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 2.1874308601108603,
+      "upper": 2.544248238956726,
+      "seconds": 237.9711196999997,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_3",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 1.6602555991394978,
+      "upper": 2.097190257183154,
+      "seconds": 220.2535188999609,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_4",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 2.216784843405727,
+      "upper": 2.744355254693738,
+      "seconds": 113.07083679997595,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_5",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 1.408518401655241,
+      "upper": 1.6027790989371387,
+      "seconds": 137.4542034000042,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_6",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 2.626286988263891,
+      "upper": 3.0876624215691395,
+      "seconds": 113.67458760004956,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_7",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 1.741020567368227,
+      "upper": 1.92208811798338,
+      "seconds": 132.04585259995656,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_8",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 2.445428225937223,
+      "upper": 2.7383875723689908,
+      "seconds": 157.4224592000246,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_9",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 1.934319791867444,
+      "upper": 2.313364790927334,
+      "seconds": 140.14364659995772,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_10",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 1.6185184016552412,
+      "upper": 1.8105080206002828,
+      "seconds": 168.69742909999331,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_preference_11",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 2.3350172453336553,
+      "upper": 2.626807474985894,
+      "seconds": 185.25018149998505,
+      "warm_fallback": false
+    },
+    {
+      "label": "global_final_dominance_check",
+      "status": "Time limit reached",
+      "nodes": 0,
+      "lower": 8.268710826395985,
+      "upper": 9.768703671324754,
+      "seconds": 150.560362899967,
+      "warm_fallback": false
+    }
+  ],
+  "initializer_archive_objectives": [
+    [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    [
+      28,
+      75.71131596897939,
+      7567.094096939377,
+      200.565886509374
+    ],
+    [
+      35,
+      83.38099365985667,
+      8814.942307327085,
+      117.64635271454279
+    ],
+    [
+      31,
+      80.14096841606289,
+      7815.646246218171,
+      140.52818164625708
+    ],
+    [
+      33,
+      86.68601267226725,
+      8725.33757133525,
+      114.6863756062933
+    ],
+    [
+      35,
+      88.48478697348887,
+      9034.928161702084,
+      61.51638430083957
+    ]
+  ],
+  "archive_all_from_initial_objectives": false,
+  "number_candidates": 558,
+  "candidates_visit_counts": {
+    "1": 477,
+    "3": 14,
+    "2": 64,
+    "4": 3
+  },
+  "repeated_visit_candidates": 0,
+  "catalog_and_missing_single": {
+    "catalog": 19525,
+    "working_single": 477,
+    "omitted_single": 19048
+  },
+  "lower_bounds_from_anchors": [
+    {
+      "j": 0,
+      "exported": 20.0,
+      "solver": 20.0,
+      "status": "Optimal",
+      "cap": {}
+    },
+    {
+      "j": 1,
+      "exported": 60.70380815279539,
+      "solver": 60.70380825279539,
+      "status": "Time limit reached",
+      "cap": {}
+    },
+    {
+      "j": 2,
+      "exported": 6006.72573493983,
+      "solver": 6006.725744939829,
+      "status": "Time limit reached",
+      "cap": {
+        "C": 7567.094096939377
+      }
+    },
+    {
+      "j": 3,
+      "exported": 0.0,
+      "solver": 0.0,
+      "status": "Time limit reached",
+      "cap": {}
+    }
+  ],
+  "regret_recalculations": [
+    {
+      "objective": [
+        20,
+        60.70497216913841,
+        9163.54886305257,
+        520.7998072166125
+      ],
+      "calculated": [
+        0.3869595032985882,
+        0.9145299145865988
+      ],
+      "saved": [
+        0.3869595032985882,
+        0.9145299145865988
+      ],
+      "matches": true
+    },
+    {
+      "objective": [
+        28,
+        75.71131596897939,
+        7567.094096939377,
+        200.565886509374
+      ],
+      "calculated": [
+        0.2179084629852588,
+        0.5275704112880106
+      ],
+      "saved": [
+        0.2179084629852588,
+        0.5275704112880106
+      ],
+      "matches": true
+    },
+    {
+      "objective": [
+        35,
+        83.38099365985667,
+        8814.942307327085,
+        117.64635271454279
+      ],
+      "calculated": [
+        0.48939456911653556,
+        0.9416648518735355
+      ],
+      "saved": [
+        0.48939456911653556,
+        0.9416648518735355
+      ],
+      "matches": true
+    },
+    {
+      "objective": [
+        31,
+        80.14096841606289,
+        7815.646246218171,
+        140.52818164625708
+      ],
+      "calculated": [
+        0.3145796918603432,
+        0.623111921802745
+      ],
+      "saved": [
+        0.3145796918603432,
+        0.623111921802745
+      ],
+      "matches": true
+    },
+    {
+      "objective": [
+        33,
+        86.68601267226725,
+        8725.33757133525,
+        114.6863756062933
+      ],
+      "calculated": [
+        0.4850703462132928,
+        0.914979101152888
+      ],
+      "saved": [
+        0.4850703462132928,
+        0.914979101152888
+      ],
+      "matches": true
+    },
+    {
+      "objective": [
+        23,
+        63.26021230769617,
+        9069.567244129956,
+        109.8013979897079
+      ],
+      "calculated": [
+        0.19889291047014002,
+        0.7264633217581506
+      ],
+      "saved": [
+        0.19889291047014002,
+        0.7264633217581506
+      ],
+      "matches": true
+    },
+    {
+      "objective": [
+        24,
+        65.34110020552983,
+        9029.281375254212,
+        109.8013979897079
+      ],
+      "calculated": [
+        0.21295639141487,
+        0.7405268027028806
+      ],
+      "saved": [
+        0.21295639141487,
+        0.7405268027028806
+      ],
+      "matches": true
+    },
+    {
+      "objective": [
+        24,
+        65.55365418915781,
+        9029.281375254212,
+        54.25995502224788
+      ],
+      "calculated": [
+        0.1834888670916328,
+        0.7110592783796434
+      ],
+      "saved": [
+        0.1834888670916328,
+        0.7110592783796434
+      ],
+      "matches": true
+    }
+  ],
+  "preference_upper_from_archive": true,
+  "preference_coefficients_match_frozen_scale": true,
+  "alns_acceptance": [
+    {
+      "iteration": 0,
+      "operator": "energy",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 1,
+      "operator": "battery",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 2,
+      "operator": "energy",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 3,
+      "operator": "energy",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 4,
+      "operator": "random",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 5,
+      "operator": "deadline",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 6,
+      "operator": "random",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 7,
+      "operator": "energy",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 8,
+      "operator": "deadline",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 9,
+      "operator": "random",
+      "accepted": true,
+      "new_nondominated": true,
+      "candidate_C_minus_current": -93.98161892261487
+    },
+    {
+      "iteration": 10,
+      "operator": "random",
+      "accepted": true,
+      "new_nondominated": true,
+      "candidate_C_minus_current": -40.2858688757442
+    },
+    {
+      "iteration": 11,
+      "operator": "battery",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 12,
+      "operator": "random",
+      "accepted": true,
+      "new_nondominated": true,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 13,
+      "operator": "random",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    },
+    {
+      "iteration": 14,
+      "operator": "battery",
+      "accepted": false,
+      "new_nondominated": false,
+      "candidate_C_minus_current": 0.0
+    }
+  ],
+  "xlsx_readback": [
+    {
+      "sheet": "Q2_运输架次",
+      "passed": true,
+      "errors": [],
+      "rows": 28
+    },
+    {
+      "sheet": "Q2_逐箱交付",
+      "passed": true,
+      "errors": [],
+      "rows": 80
+    }
+  ],
+  "identity_hash_parameter_mutation": {
+    "same_candidate_id": true,
+    "old_duration": 1626.175045862023,
+    "new_duration": 1630.2882089697873,
+    "old_energy": 2.4050600594039855,
+    "new_energy": 2.4050600594039855,
+    "note": "No production input altered; route identity intentionally omits coefficients, so it cannot alone serve as model-scope fingerprint."
+  }
+}

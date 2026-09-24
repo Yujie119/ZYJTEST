@@ -1,0 +1,28 @@
+{
+  "scope": "fixed_formal_28_candidates_all_resources_L",
+  "status": "Optimal",
+  "optimal": true,
+  "incumbent": true,
+  "warm_fallback": false,
+  "lower_bound": 0.0,
+  "upper_bound": 0.0,
+  "weights": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "epsilon": {
+    "C": 7567.094096939377,
+    "L": 70.64808661848737
+  },
+  "gap": 0.0,
+  "matrix_residual": 3.637978807091713e-12,
+  "variables": 533,
+  "constraints": 2474,
+  "horizon": 7567.094096939377,
+  "seconds": 2.779600899957586,
+  "seed": 20260924,
+  "relaxation": false,
+  "nodes": 3225
+}

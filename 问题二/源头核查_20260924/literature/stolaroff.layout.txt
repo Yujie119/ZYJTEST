@@ -1,0 +1,1196 @@
+             ARTICLE
+                                                                                                                               Corrected: Author correction
+             DOI: 10.1038/s41467-017-02411-5                 OPEN
+
+             Energy use and life cycle greenhouse gas emissions
+             of drones for commercial package delivery
+             Joshuah K. Stolaroff 1, Constantine Samaras                         2, Emma R. O’Neill3, Alia Lubers4,
+
+             Alexandra S. Mitchell3 & Daniel Ceperley3,5
+
+
+
+             The use of automated, unmanned aerial vehicles (drones) to deliver commercial packages is
+1234567890
+
+
+
+
+             poised to become a new industry, signiﬁcantly shifting energy use in the freight sector. Here
+             we ﬁnd the current practical range of multi-copters to be about 4 km with current battery
+             technology, requiring a new network of urban warehouses or waystations as support. We
+             show that, although drones consume less energy per package-km than delivery trucks, the
+             additional warehouse energy required and the longer distances traveled by drones per
+             package greatly increase the life-cycle impacts. Still, in most cases examined, the impacts of
+             package delivery by small drone are lower than ground-based delivery. Results suggest that, if
+             carefully deployed, drone-based delivery could reduce greenhouse gas emissions and energy
+             use in the freight sector. To realize the environmental beneﬁts of drone delivery, regulators
+             and ﬁrms should focus on minimizing extra warehousing and limiting the size of drones.
+
+
+
+
+             1 E Program, Global Security, Lawrence Livermore National Laboratory, Livermore, CA 94551, USA. 2 Civil & Environmental Engineering, Carnegie Mellon
+
+             University, Pittsburgh, PA 15213, USA. 3 Advanced Technology and Systems Division, SRI International, Menlo Park, CA 94025, USA. 4 Chemical and
+             Biological Engineering, University of Colorado at Boulder, Boulder, CO 80309, USA. 5Present address: LeoLabs, Inc., PO Box 998, Menlo Park, CA 94026,
+             USA. Correspondence and requests for materials should be addressed to J.K.S. (email: stolaroff1@llnl.gov) or to C.S. (email: csamaras@cmu.edu)
+
+             NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications                                      1
+ARTICLE                                                                         NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5
+
+
+
+
+T
+       he technological advancement of unmanned aerial vehicles           technologies, and other energy storage methods would affect the
+       (UAVs), commonly referred to as drones, enables novel              range and energy efﬁciency of these drones. Google
+       applications in industry, government, and research1.               has announced a novel hybrid design, capable of both hovering
+Drones have long been used in military applications, but the use          and ﬁxed-wing ﬂight3. Although not meant for package delivery,
+of drones for commercial package delivery is poised to become a           another hybrid prototype has been revealed by Sony17. However,
+new industry. Several companies are developing programs for               to date, information about this type of drone is limited and
+package delivery using drones, including Amazon2, Google3,                commercial models are not available.
+UPS4, and Deutsche Post DHL5. Some of these ﬁrms have                        In addition to the energy efﬁciency of the drone designs, the
+registered patents ranging from new delivery drone designs to             impacts of drone delivery depend on the structure of the logistics
+ﬂying warehouses6,7. Although commercial use is currently lim-            system in which they are employed. Several visions have been
+ited in the United States and much of the world, the U.S. Federal         offered, and these include a drone ﬂying directly from the retai-
+Aviation Administration and European Aviation Safety Agency               ler’s warehouse to the consumer, a package transported by mul-
+are developing regulations to allow more commercial uses8–10.             tiple drones in relay through a series of waypoint stations3, or the
+Much of the previous criticism of commercial drones has focused           drone taking packages from a truck to the consumer and back
+on privacy concerns and safety issues, both of which are sig-             while the truck travels near a series of delivery locations5. The
+niﬁcant11,12. Yet widespread adoption of drones to replace some           advantage of drone delivery for consumers in developed markets
+truck deliveries could reshape the energy system by changing total        has mainly been represented as speed. Several logistics scenarios
+demand and by shifting a portion of the demand for fuel, for              can offer near-immediate delivery if coupled with a network of
+example, from diesel used by trucks to electricity used by drones.        local warehouses of available commercial goods. Thus, the energy
+Truck transport is responsible for 24% of transportation-related          use and impacts of any additional product warehousing must also
+greenhouse gas emissions and comprises 23% of transportation              be considered.
+energy use in the USA13, hence changes to the industry are                   Here we develop scenarios for truck and drone delivery to
+important to the environment and the energy system14. While               compare impacts among drones and traditional delivery methods.
+power grids are evolving, the scale of environmental beneﬁts from         We focus the analysis on copters, by far the better-known and
+charging drones with electricity depend on the life-cycle envir-          more widely depicted format for package delivery, but also
+onmental characteristics of electricity, vehicle use, battery mate-       include an initial estimate for a ﬁxed-wing (non-hybrid) drone for
+rials, and enabling infrastructure. Drones are coming to the              comparison. To assess these issues, we develop a ﬂexible energy
+transportation sector, and stakeholders need to be prepared to            use model for multi-rotor drones that is calibrated to measure-
+encourage positive environmental outcomes during this transi-             ments from representative quadcopter ﬂights. We characterize the
+tion. Understanding these issues can inform public and private            life-cycle greenhouse gas (GHG) emissions and energy impacts of
+decision makers facing energy and environmental choices in the            commercial package delivery by drone compared with current
+infancy of the commercial drone age.                                      systems. We show that while drones could consume less energy
+   Previous studies have shown that transport of goods per                per package than diesel-powered delivery trucks, the additional
+tonne-km by conventional aircraft is about four times more                warehouse energy required greatly increases life-cycle GHG
+carbon-intensive than transport by truck, which is in turn                impacts. Still, in most cases examined, we show the life-cycle
+about 10 times more carbon-intensive than transport by rail15.            GHG emissions and energy use of package delivery by small
+A delivery system based on drones carrying single packages                drone are lower than ground-based delivery. Minimizing extra
+promises a new class of delivery speed—Amazon has claimed                 warehousing and continued reductions in electricity carbon
+30 min from time of purchase2. If it follows the trend set by             intensity are of critical importance to realizing the environmental
+other modes, this large increase in speed could come at the cost          beneﬁts of drone delivery.
+of another order-of-magnitude increase in energy intensity and
+carbon emissions. However, small, battery-powered drones can
+be considerably more efﬁcient than the fossil-fueled vehicles             Results
+they replace.                                                             Drone sizes and ranges. To estimate the energy use and envir-
+   Most drones for military and government applications have              onmental impacts of drone delivery, we ﬁrst model the energy use
+been larger, ﬁxed-wing (airplane-style), fossil-fueled designs.           and performance of multicopter drones. The use case consists of a
+Fixed-wing aircraft are inherently more energy efﬁcient and can           single drone carrying a single package from warehouse to desti-
+have much longer ranges than rotary wing copters, and this holds          nation, and then returning empty to the warehouse. We base the
+true for small drones1. However, these ﬁxed-wing drones are               analysis on two representative commercial drones: a small
+physically much larger than copters of comparable payload                 quadcopter (3D Robotics’ Iris), designed to carry up to 0.5 kg, and
+capacity, they require runways for takeoff and landing, are more          a large octocopter (Turbo Ace’s Inﬁnity 9) designed to carry up to
+constrained in the weight and size of packages they can carry, and        8.1 kg. These provide useful bounds in the performance of current
+can only deliver packages from an altitude, while moving, which           commercial designs. To estimate the energy used by a drone on a
+is not as suitable for precise urban deliveries. Drone deliveries         delivery trip, we extend a known analytical model, based on
+have also been considered for places with poor road networks, for         conservation of momentum, of the theoretical minimum power
+example delivering supplies to villages in rural Africa3,16. This         demand by copters. The model includes two empirical para-
+would require longer-range fossil-fueled drones, and ﬁxed-wing            meters: an overall power efﬁciency, η (compared to the theoretical
+drones making airdrops of larger payloads are more plausible for          minimum), and effective drag coefﬁcient for the drone body and
+this application. However, drone deliveries are also likely to            rotors, CD,body. These are derived from measurements of 1073
+appear in urban developed markets.                                        ﬂight segments of the quadcopter in several outdoor test cam-
+   In most prototypes and media depictions so far, drones for             paigns (see Methods for model details and ﬂight conditions).
+package delivery have appeared as four- or eight-rotor, battery-          Parameters thus account for moderate wind (0–7 m/s) at random
+powered copters capable of carrying up to 4.5 kg (10 lbs). The            orientation to the direction of travel.
+multicopter models currently available typically have ﬂight times            The energy used by the drone to deliver a package depends on
+of 10–15 min before draining the onboard batteries, leading to            the speed of travel. Figure 1a shows the measured energy use per
+very limited delivery ranges. Larger batteries, new battery               distance traveled over a range of velocities for our test unit
+
+2                                         NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5                                                                                                                                                                 ARTICLE
+
+ a                                                                                                                                                                  speeds for safety or other practical considerations. The size of the
+                         140                                                                                                                                        package also inﬂuences the optimum choice of velocity, although
+                                                                                                                                                                    the overall contribution of package drag in our base case is small
+                         120                                                                                                                                        (9 and 7% of roundtrip energy use for the quadcopter and
+                                                                                                                                                                    octocopter, respectively). For simplicity, we assume a 10 m/s
+ Energy/distance (J/m)
+
+
+
+
+                         100        x                                    Rotor model                                                                                velocity for further analysis in all cases, which yields power
+                                     x                                                                                                                              demands close to the modeled optimum (at most 14% higher).
+                                     xxx
+                          80          xxxx
+                                       xxxx                                                                                           Power efficiency = 50%        Supplementary Tables 1–3 present model parameters and
+                                         xxxx                                                                                                                       assumptions.
+                                          xxxx
+                                             xxx
+                          60                  xxxxxx                                        Power efficiency = 70%                                                     In our ﬂight tests, the quadcopter ﬂew total distances of 2.6 to
+                                                 xxxxxxxxxx                                                                                                         3.7 km on a single charge during the high-speed measurements
+                                                     xxxxxxxxxxx
+                                                           xxxxxx
+                                                              xxxxxxxxxxxx
+                                                                         x
+                          40                                         xxxxxx
+                                                                         xx x x
+                                                                         xxxxxxxxxx
+                                                                       xxx
+                                                                                                                                                                    (5–12 m/s) and 0.6 km to 1.15 km during low speed measure-
+                                                                         xx  xxxxxxxxx                                                                              ments (<5 m/s), without a package. For the scenarios below, we
+                                                                                       xxxxx
+                                                                                          xxxxxxxx xxxx x x x x
+                                                                                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                                                                                xxxxxx                                 xxxx
+                                                                                                                                    xxxxx
+                          20
+                                                                                                              x xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                    deﬁne range as the farthest distance from a warehouse to which a
+                                   Theoretical min.
+                                                                                                                                                                    drone can deliver a package and still return to the warehouse. The
+                           0                                                                                                                                        test model conﬁguration is thus not suited to package delivery,
+                               0                               5                                   10                                   15                     20   except at very short ranges (about 1 km). However, increasing the
+                                                                                      Velocity (m/s)                                                                battery size can increase the range. Figure 2 shows the
+                                                                                                                                                                    dependence of range and energy use on battery mass. In
+ b 500                                                                                                                                                              principle, the range increases with battery size with diminishing
+                                                                                                                                                                    returns, up to a maximum where additional battery mass
+                                                                                                                                                                    becomes counter-productive. Although the model accounts for
+                         400                                                                                                                                        the increase in drag due to the presence of the additional battery
+                                                                                                             Octo, loaded                                           volume, we ﬁnd this effect has very little inﬂuence on the
+ Energy/distance (J/m)
+
+
+
+
+                                                                                                                                                                    result compared with the weight of the battery. The maximum
+                         300                                                                                                                                        range with base-case assumptions is about 5 km for both the
+                                                                                                                                                                    quadcopter and octocopter. However, the maximum is achieved
+                                                                                                  Octo, unloaded
+                                                                                                                                                                    with batteries that are impractically large and well beyond the
+                         200
+                                                                                                                                                                    thrust capabilities of the test models, likely imposing problems
+                                                                                                                                                                    for ﬂight control, capital cost, and energy efﬁciency. For further
+                                             Quad, unloaded                                                                                                         analysis, we choose battery sizes that provide most of the
+                         100
+                                                                                                                                                                    range while still within or near the thrust capabilities of our test
+                                                                        Quad, loaded                                                                                units: 1 kg for the quadcopter and 10 kg for the octocopter,
+                                                                                                                                                                    providing ranges of about 3.5 and 4.2 km, respectively. These
+                           0
+                                                                                                                                                                    ranges are short compared to the distances traveled by
+                               0                               5                           10                                           15                     20
+                                                                                                                                                                    conventional package delivery vehicles and the sizes of most
+                                                                                      Velocity (m/s)
+                                                                                                                                                                    metropolitan areas.
+Fig. 1 Energy use of a drone per distance traveled at various velocities.
+a Comparison of measured data with several models for the unloaded
+quadcopter. The theoretical minimum (theoretical min.), represented by                                                                                              Powering drones. The choice of battery or energy storage media
+the solid blue line, is calculated by Eqs. 6 and 7. The dashed blue line shows                                                                                      substantially affects the delivery range and environmental impact
+the power efﬁciency curve at 70% and the dotted blue line the power                                                                                                 of a drone. Lithium polymer (LiPo) batteries for electric motors,
+efﬁciency at 50%. These are calculated by Eq. 8 with the values of η (power                                                                                         and gasoline or glow fuel (a mixture of methanol, oil and nitro-
+efﬁciency) noted. The red line shows results incorporating the                                                                                                      methane) for combustion engines are currently used to power
+manufacturer-supplied rotor properties (see Methods for rotor model).                                                                                               drones. To compare, energy densities of relevant energy storage
+Black crosses denote measured data for 1073 ﬂight segments. b Base-case                                                                                             options are shown in Table 1 based on existing and expected
+model results for quadcopter (Quad) and octocopter (Octo), with and                                                                                                 battery, hydrogen fuel cell, and popular internal combustion
+without a package                                                                                                                                                   engine technologies and fuels. Practical energy densities are
+                                                                                                                                                                    reported for commercially available devices; most need
+                                                                                                                                                                    improvement to approach their theoretical values. We include a
+quadcopter. Comparable results from the analytical model                                                                                                            representative range for hydrogen fuel cells in Table 1 based on
+are shown with two different power efﬁciencies. At low                                                                                                              estimates of additional hardware necessary to be comparable to a
+velocities, a power efﬁciency, η, of about 50% ﬁts the data                                                                                                         battery. Our base case assumes the energy density of the LiPo
+well (also with different payload masses, see Supplementary                                                                                                         batteries used in our test unit, 540 kJ/kg (150 Wh/kg), which is on
+Figs. 1 and 2). At higher speeds, the power efﬁciency appears to                                                                                                    the high end of current technologies.
+increase to about 70% (likely due to translational lift, a well-                                                                                                       Figure 2 also shows the calculated range with a future battery
+known effect in helicopter dynamics18). We use the higher value                                                                                                     technology with 900 kJ/kg (250 Wh/kg), the U.S. Department of
+in further analysis. The effective drag coefﬁcient, CD,body, also                                                                                                   Energy target for the speciﬁc energy of ground vehicle batteries by
+varies with velocity (Supplementary Fig. 3). We use the best-ﬁt                                                                                                     the year 202219. We can see from Table 1 that such a target is
+value at higher velocities, CD,body = 1.5, in further analysis.                                                                                                     possible with a variety of battery chemistries, which would enable
+Figure 1b shows the model results for the quadcopter and                                                                                                            factor increases in range. We can also see that fuel cell
+octocopter in the two relevant ﬂight conditions (with and without                                                                                                   technologies, like combustion fuels, offer signiﬁcantly higher
+a package).                                                                                                                                                         energy densities and potential ranges compared to current
+   In selecting the velocity, the operator may choose to minimize                                                                                                   batteries. As electric drones are likely to be the ﬁrst type of
+energy use (i.e., maximize range) or may choose higher speeds for                                                                                                   urban delivery drones in widespread use, we focus the primary
+faster delivery times (and better capital utilization), or lower                                                                                                    efforts of this paper on electric drones.
+
+NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications                                                                                                                         3
+ARTICLE                                                                                                                           NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5
+
+
+
+            a 10                                                                                                b                                                                     600
+                                 Range, future battery tech.                      120                                        12
+                                                                                                                                              Range, future battery tech.
+                                                                                                                                                                                      500
+                         8
+                                                                                  100                                        10       Energy use,
+
+
+
+
+                                                                                                                                                                                            Energy/distance (J/m)
+                                                                                        Energy/distance (J/m)
+                                                                                                                                      both cases
+                                                                                                                                                                                      400
+            Range (km)
+
+
+
+
+                                                                                                                Range (km)
+                         6                                                        80                                          8
+                                           Range, base case
+                                                                                                                                                                                      300
+                                                                                  60                                          6
+                         4
+                                                                                  40                                          4                            Range, base case           200
+
+                         2                  Energy use, both cases
+                                                                                  20                                          2                                                       100
+
+
+                         0                                                        0                                           0                                                       0
+                             0         1         2          3        4        5                                                   0       5         10    15      20        25   30
+                                              Mass of battery (kg)                                                                                  Mass of battery (kg)
+
+Fig. 2 Range and energy use as a function of battery size for model copters. a Quadcopter results. b Octocopter results. Range (solid black lines) is the sum
+of a loaded and unloaded trip of the distance shown. The future battery technology (future battery tech.) curves (black dashed lines) reﬂect batteries with
+higher energy density than currently available (DOE target for 202219). Red lines show the energy use as a function of battery mass, which is the same for
+the base case and future battery technology cases. The design battery sizes for the quadcopter and octocopter test models are 0.26 and 4.2 kg,
+respectively
+
+
+Comparing emissions. In the near-term, it is likely the use of                                                  plant fuels. Because the emissions intensity of the electric grid is
+drones for retail package delivery will only be for short distance,                                             likely to decrease over the coming decades, we also include a low-
+same-day deliveries, and will build upon the existing freight                                                   GHG case about half as carbon intensive as California in the
+logistics network. Manufacturers produce goods, which are                                                       sensitivity analysis. We include values for upstream battery
+delivered via marine transport (for imports), air, rail, and/or truck                                           manufacturing emissions for drone and electric vehicle pathways
+to regional warehouses. Once purchased by consumers online, the                                                 (see Methods).
+goods are shipped to local package collection and distribution                                                     Similar to electric ground vehicles, battery-powered drones
+centers via air transport (for express deliveries) and/or truck, and                                            beneﬁt from more efﬁcient motors than combustion engines, and
+then shipped along with many other packages by a ground                                                         the ability to shift urban tailpipe emissions and associated
+delivery vehicle to the customer’s address. Drone delivery would                                                impacts to more remote power plants24,25. Yet because of their
+shift the energy and GHG emissions in this supply chain in two                                                  limited range, the use of drones for on-demand package delivery
+major ways. First, delivery by drone shifts energy use and GHG                                                  likely requires additional infrastructure in the form of urban
+emissions from the main ground vehicle fuels of diesel, gasoline,                                               warehouses. These distributed warehouses would need to store a
+and natural gas to the regionally varying sources of electricity                                                range of products to enable rapid delivery to consumers,
+used to charge drones. Second, same-day delivery by drone likely                                                increasing the total inventory and ﬂoor space required. Another
+requires additional warehouses to store packages in locations                                                   possibility is combining warehouses with urban waystations,
+close to ﬁnal customers, so the total energy use by package                                                     where packages could be relayed to fully charged drones, thereby
+warehouses could increase. We estimate GHG emissions across                                                     increasing total drone range. In either case, many new ware-
+three broad delivery pathways. The ﬁrst is ﬁnal delivery by                                                     houses or waystations would be required to support a drone-
+medium-duty delivery truck, representing the most common                                                        based delivery system. As an example, Fig. 3 shows a hypothetical
+existing logistics pathway. The second pathway is package storage                                               coverage map for the city of San Francisco and for the populated
+in additional urban warehouses, with ﬁnal delivery by electricity-                                              areas of the greater San Francisco Bay Area. About four urban
+powered drone or package delivery vans. The ﬁnal pathway we                                                     warehouses would be needed to provide drone delivery service to
+assessed is customer pick-up from a retail store or urban ware-                                                 the small, dense city of San Francisco, CA with drones capable of
+house by a passenger vehicle. An illustration of the estimation                                                 a 3.5 km range. Dozens of warehouses and waystations would be
+system boundary used in our model is shown in Supplementary                                                     required to service a metropolitan area (we estimate 112 for the
+Fig. 4. The total energy and emissions used to deliver packages up                                              San Francisco Bay Area). Increasing drone range can signiﬁcantly
+to the start of each pathway are assumed to be similar for either                                               reduce the number of needed nodes. For example, in a generic,
+ground delivery or drone delivery. The analysis here focuses on                                                 medium-sized, square city, doubling the drone range reduces the
+the ﬁnal delivery of the package.                                                                               number of required nodes by a factor of 3.5 (see Supplementary
+   Drone batteries will be charged by the electric grids where they                                             Fig. 7 and Methods).
+are operating, which differ by region and over time in their fuel                                                  If drones are restricted to designated airways, the warehousing
+mixes and corresponding emissions20,21. To account for this                                                     requirements would be higher. On the other hand, modifying
+variation, we use the U.S. Environmental Protection Agency’s                                                    existing retail locations to store goods and charge drones could
+(EPA) estimate of regional, non-baseload GHG emissions in the                                                   reduce some warehouse impacts. Overall, the warehouse needs
+United States22. To bound the main results, we use emissions                                                    represent a large source of uncertainty in estimating emissions
+factors for California (a low-carbon region), the U.S. average, and                                             from drone delivery. All product delivery pathways require
+Missouri (a region with the current highest value). We also report                                              electricity and natural gas to light, operate, heat, and cool package
+results for drones used in each of the EPA electricity regions and                                              warehouses and distribution centers26,27, but any additional
+each North American Reliability Council regions as shown in                                                     warehousing space needed to enable drone delivery results in
+Supplementary Figs. 5 and 6. We use EPA non-baseload power                                                      additional energy use. We quantify this warehousing penalty as a
+plant fuel mixes and Argonne National Laboratory values23 to                                                    multiple of existing warehouse needs for package delivery. We
+estimate and include upstream emissions associated with power                                                   include emissions for warehouse energy for all pathways, and
+
+4                                                           NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5                                                                                            ARTICLE
+
+ Table 1 Key characteristics of potential energy storage technologies for drones
+
+ Battery chemistry/fuel               Theoretical maximum                     Practical energy        Proposed            Depth of          Representative rangea
+ cell/combustion fuel                 energy density (Wh per                  density (Wh per         maximum # of        discharge (%)     (km)
+                                      kg/Wh per l)                             kg/Wh per l)           cycles
+ Metal battery technology
+ Nickel metal hydride                 800/194071                              8072/190b               200,00071           8073              1.8
+ Zinc-air                             70074/NA                                40074/NA                20073               8073              9.1
+ Lithium-air                          5000/100075                             100075/200b             175                 4076              23
+ Li-ion battery technology
+ Lithium polymer                      890/144073                              150/17077               30073               8073              3.5
+ Lithium iron phosphate               580/208078                              130/25079               300079              10079             3
+ (LFP)/carbon
+ Fuel cell technology fuels
+ Hydrogen (200 bar)           33,300/53080                                    16,65081/270b           9000c               100d              11
+ Methanol                     5550/439080                                     222081/1760b            9000e               100d              20
+ Hydrocarbon combustion fuels
+ Gasoline                     12,400/910081                                   4710e/3450e             80,470f             100d              —
+ Glow fuel  g                 4310h/3930h                                     1640e/1500e             80,470f             100d              —
+ a Representative range is calculated by Eq. 11
+ b Calculated from density determined from theoretical values
+ c Calculated from 2500 h maximum lifetime82, with a cycle consisting of 16.6 min
+ d Considering full use of a fuel tank
+ e Calculated from efﬁciency of internal combustion engine83
+ f Calculated from 250,000 mile maximum lifetime, with a cycle consisting of 5 km
+ g Composed of 50% methanol, 30% nitromethane and 20% synthetic oil
+ h Calculated from mixture characteristics
+
+
+
+
+include emissions for one additional warehouse stage for the                                  electric vans. Results for the larger octocopter are mixed and less
+drone and delivery van pathways. Although the speciﬁc ware-                                   favorable for drones. In the base case, delivery of a medium-sized
+house needs and impacts per package are uncertain, it is likely                               (8 kg) package has 9% lower GHGs than delivery by truck in
+that the total warehouse area used in a future with widespread                                California, is about 24% higher than delivery trucks for the U.S.
+drone delivery is higher than the status quo. Although we did not                             average electricity mix, and has 50% higher GHGs than truck
+speciﬁcally evaluate ﬂying warehouses as patented by Amazon7,                                 delivery in Missouri, which has a carbon-intensive electricity grid.
+we consider different ground warehousing multipliers in the                                   Large drones only have lower impacts than the other delivery
+sensitivity analysis, which enables a comparison across a range of                            modes when charged with relatively low-carbon electricity, and
+warehouse energy assumptions.                                                                 still in low-carbon regions such as California, electric trucks and
+   Because of their small size, when solely comparing the energy use                          electric vans are better than large drones. Both small drones and
+required per km of distance traveled, we ﬁnd that electric drones are                         large drones have lower GHGs per package than using a personal
+far more efﬁcient than trucks, vans, larger gasoline drones, and                              gasoline or electric car for a single item shopping trip, as shown in
+passenger cars. The results are shown in Fig. 4. For cases comparing                          Fig. 5.
+a drone and a vehicle carrying a single package over similar                                     These results are sensitive to a number of uncertain
+distances, for example a customer picking up a package from a                                 parameters, as summarized in Fig. 6. For small drones, the
+retail store, the drone is clearly a lower-impact solution. However,                          number of warehouses needed, the electricity intensity of
+delivery trucks carry many packages, delivering on average 0.94                               warehousing, and the carbon intensity of electricity dominates
+packages per km (1.51 per mile), and their impacts need to be                                 the total impacts. Reducing the number of warehouses, increasing
+allocated per package. Our base case estimate of energy per package                           their energy efﬁciency, or increasing the range of small drones
+shows drones, electric and gasoline vans, and electric trucks with                            through more energy-dense storage technologies or waystations
+the lowest values (see Supplementary Table 4). In turn, the                                   could reduce overall impacts by reducing warehousing demands.
+greenhouse gas impacts per unit of energy vary by type of fuel. The                              For the larger and heavier octocopter, the electricity used for
+direct and life-cycle emissions factors are shown in Supplementary                            ﬂying is more important, and is approximately equivalent to
+Table 5. Taking these factors together with the warehousing impacts                           impacts of warehousing in the base case. Therefore, increasing the
+described above, we estimate the life-cycle energy use and                                    range through waystations is likely to increase emissions from
+greenhouse gas emissions (in CO2-equivalents) per package                                     electricity use more than the corresponding savings in ware-
+delivered by drone, truck (diesel, natural gas, and electric), van,                           housing demand in the near-term. Because of the importance of
+and picked up in a passenger car (gasoline and electricity). The                              electricity used to power the octocopter, charging with low-
+main results are shown in Fig. 5. Electric delivery van results across                        carbon electricity of 200 g CO2e/kWh can reduce delivered
+a range of carbon intensities are shown in Supplementary Fig. 8,                              package GHGs by 37% compared to diesel trucks.
+and a sensitivity analysis showing how the results change under                                  For the truck delivery pathways, the most important parameter
+alternate assumptions is presented in Fig. 6. The assumptions used                            is the delivered packages per unit of distance. This is a function of
+in the sensitivity analysis are shown in Table 2.                                             urban density, geography, logistics, and customer orders. Our
+   In the base case, delivery of a small (0.5 kg) package with the                            base case uses average numbers from UPS (Methods), and while
+small quadrotor drone has lower impacts than delivery by diesel                               deliveries in dense cities could be much higher, additional
+truck, ranging from a 54% reduction in GHGs in California, to a                               uncertainties, such as allocating packages across residential,
+23% reduction in Missouri. Small drones also have lower impacts                               commercial, and institutional customers, pickups, and various
+across every other delivery method in the same geographical                                   package weights, would affect the results. We test a best case
+region: natural gas trucks, electric trucks, gasoline vans, and                               where delivery trucks achieve four times as many deliveries per
+
+NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications                                                    5
+ARTICLE                                                                                                                                                                                                                   NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5
+
+
+
+                                                                                                                                                                                                            a                                                          b
+
+
+                                                                                                                                                                                                                           N
+
+
+                                                                                                                                                                                                                                          San
+                                                                                                                                                                                                                                       Francisco
+
+                                                                                                                                                                                                                2000 Census Block Group
+                                                                                                                                                                                                                Persons per 30 m pixel
+                                                                                                  San Francisco                                                                                                        0.00006 – 0.5
+                                                                                                                                                                                                                       0.50 – 1.00
+                                                                                                                                                                                                                       1.00 – 2.00
+                                                                                                                                                                                                                       2.00 – 3.00
+                                                                                                                                                                                                                       3.00 – 4.00
+                                                                                                                                                                                                                       4.00 – 5.00
+                                                                                                                                                                                                                       5.00 – 7.00
+                                                                                                                                                                                                                       7.00 – 10.00
+                                                                                                                                                                                                                       10.00 – 15.00
+                                                                                                                                                                                                                       15.00 – 146.00
+                                                                                                                                                                                                                       Zero population–Exclusion
+                                                                                                                                                                                                                0           25              50      100 Kilometers
+
+
+
+
+Fig. 3 Example coverage of drone delivery systems. a coverage with the base-case quadcopter range (3.5 km) in the city of San Francisco, CA, USA, and b
+in the populated areas of the San Francisco Bay Area. Legend indicates population density in the underlying map, which is based on the 2000 U.S.
+Census70. As shown, roughly four local warehouses or waystations (indicated by a yellow circle) would be required to service the small, dense city of San
+Francisco and up to 112 warehouses or waystations would be required to cover the greater Bay Area
+
+
+                                              8
+    Energy use per unit of distance (MJ/km)
+
+
+
+
+                                                                                                                                                                                                                    major exception to this case is if electricity generation
+                                              7                                                                                                                                                                     decarbonizes faster than delivery vehicles. If charged with low-
+                                              6                                                                                                                                                                     carbon electricity, drones offer a distinct advantage over diesel
+                                                                                                                                                                                                                    and CNG delivery trucks or vans. In recent years in the U.S.,
+                                              5
+                                                                                                                                                                                                                    transportation and electricity production have both modestly
+                                              4                                                                                                                                                                     decreased in carbon intensity30.
+                                              3
+                                                                                                                                                                                                                       Another possibility for drones to become more attractive is if
+                                                                                                                                                                                                                    hybrid hovering/ﬁxed-wing drones become commercially viable
+                                              2                                                                                                                                                                     and have signiﬁcantly improved energy efﬁciency over copters. As
+                                              1                                                                                                                                                                     discussed above, prototype hybrids have appeared, but informa-
+                                                                                                                                                                                                                    tion is currently too limited to evaluate these designs. However,
+                                              0
+                                                                                                                                                                                                                    we can fairly expect the performance of a hybrid to fall between
+                                                  Small drone
+
+
+
+                                                                Large drone
+
+
+
+                                                                              Personal electric
+
+
+
+
+                                                                                                  Personal car
+
+
+                                                                                                                 Gasoline delivery
+
+
+
+
+                                                                                                                                     Electric truck
+
+
+
+
+                                                                                                                                                      helicopter drone
+
+
+                                                                                                                                                                         Diesel truck
+
+
+
+                                                                                                                                                                                        Natural gas truck
+
+
+
+
+                                                                                                                                                                                                                    that of a copter and a classic ﬁxed-wing sized for a similar
+                                                                                                                                                          Gasoline
+                                                                                  vehicle
+
+
+
+
+                                                                                                                       van
+
+
+
+
+                                                                                                                                                                                                                    payload. Using manufacturer data and measurements from a
+                                                                                                                                                                                                                    short ﬂight campaign, we measured the energy efﬁciency of ﬂight
+                                                                                                                                                                                                                    for a battery-powered, ﬁxed-wing drone (3D Robotics Aero-M)
+Fig. 4 Energy required per km of travel for individual package delivery                                                                                                                                             with a payload capacity similar to the quadcopter test unit. We
+vehicles. Electric drone and electric vehicle energy use shown includes                                                                                                                                             ﬁnd the ﬁxed-wing uses about half the energy per distance
+losses in transmission, distribution, and charging. Electrical conversion                                                                                                                                           traveled as the quadcopter. This is broadly consistent with the
+losses at the power plant not shown, but are included for the emissions                                                                                                                                             well-known efﬁciency advantage of ﬁxed-wing aircraft over
+analysis. Energy use per package delivery is dependent on number of                                                                                                                                                 copters18,31.
+packages per km, in addition to a range of vehicle and route characteristics.                                                                                                                                          There are several reasons to expect that hybrids will not match
+Life-cycle energy and emissions per package additionally include upstream                                                                                                                                           efﬁciency of classic ﬁxed-wings. For example, hybrid motors and
+impacts from batteries and fuels, as well as increased warehouse energy                                                                                                                                             rotors must be sized to support the full weight of the vehicle,
+requirements                                                                                                                                                                                                        adding weight and drag. Also, the efﬁciency of ﬁxed-wings is
+                                                                                                                                                                                                                    directly related to wingspan and wing area, which may be limited
+mile as our base case, and only then would diesel trucks start to                                                                                                                                                   for safety and maneuverability in urban environments (the
+approach the GHG impacts of small drones in California.                                                                                                                                                             quadcopter test model measures roughly 0.5 by 0.6 m, whereas
+However, as technology improves in the future, delivery trucks                                                                                                                                                      the comparable ﬁxed-wing test model spans 1.3 by 1.9 m).
+and vans will get more efﬁcient, reducing emissions per package.                                                                                                                                                    However, the potential for improved energy efﬁciency through
+Overall efﬁciency of the logistics system may also improve, due to                                                                                                                                                  hybrid designs is clear. A scenario where drone energy use is
+factors including greater application of information technology                                                                                                                                                     reduced by half is shown in the best case drone power use scenario
+and automation, growing horizontal cooperation among compa-                                                                                                                                                         in Fig. 6. Especially for the larger drone, emissions are reduced in
+nies, or standardization of shipping containers28,29. However,                                                                                                                                                      this case, which start to have lower impacts than diesel trucks
+multi-rotor drones are already close to the limits of efﬁciency, and                                                                                                                                                under the U.S. average carbon intensity of electricity. The range of
+any beneﬁts of improved logistics are likely to accrue upstream of                                                                                                                                                  the drone could be much longer in this case, easing warehouse
+drone operation. Technological advances are more likely to                                                                                                                                                          demand as well, although that is not captured in this calculation.
+improve energy storage technologies, allowing the drones to go                                                                                                                                                         Although drone-based package delivery faces many technolo-
+farther and carry heavier packages, ultimately leading to higher                                                                                                                                                    gical challenges, safety issues, regulatory concerns, and system
+emissions per package. Over time then, large drone delivery could                                                                                                                                                   uncertainties, in this initial estimate we ﬁnd signiﬁcant promise in
+become the progressively worse option for package delivery. A                                                                                                                                                       the use of drones to reduce energy use and greenhouse gas
+
+6                                                                                                                                    NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5                                                                                                                                                                                                                                                                                                                                                                                                                                                             ARTICLE
+
+
+
+
+                     Life cycle GHGs per package (g CO2e)
+                                                            5000
+                                                            4500
+                                                            4000
+                                                            3500
+                                                            3000
+                                                            2500
+                                                            2000
+                                                            1500
+                                                            1000
+                                                             500
+                                                               0
+                                                                     Small drone in California
+
+                                                                                                 Small drone U.S. average
+
+                                                                                                                            Small drone in Missouri
+
+                                                                                                                                                        Large drone in California
+
+                                                                                                                                                                                    Large drone U.S. average
+
+                                                                                                                                                                                                               Large drone in Missouri
+
+
+
+
+                                                                                                                                                                                                                                                 Diesel truck
+
+                                                                                                                                                                                                                                                                Natural gas truck
+
+                                                                                                                                                                                                                                                                                       Electric truck in California
+
+                                                                                                                                                                                                                                                                                                                      Electric truck U.S. average
+
+                                                                                                                                                                                                                                                                                                                                                    Electric truck in Missouri
+
+                                                                                                                                                                                                                                                                                                                                                                                 Gas delivery van
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                             Personal vehicle
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                   Personal EV in California
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               Personal EV U.S. average
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Personal EV in Missouri
+                                                                                                                                                      Drones                                                                                                                        Delivery trucks                                                                                                                             Retail pick-up
+                                                                   Battery production                                                                                                                                                    Transportation electricity                                                                                                                           Upstream transportation fuels
+                                                                   Transportation fuels combustion                                                                                                                                       Warehouse electricity                                                                                                                                Warehouse natural gas
+
+Fig. 5 Comparison of life-cycle greenhouse gas emissions per package delivered for drone and ground vehicle pathways under base case assumptions. The
+analysis focuses on the ﬁnal delivery of the package, after the package is delivered to the regional warehouse. Emissions from battery and fuels production,
+as well as fuels combustion and electricity production required for transportation and warehousing, are included. The range of regional greenhouse gas
+(GHG) intensities of electricity in the U.S. is represented by comparing results from low-carbon California to relatively high-carbon Missouri. Additional
+warehousing requirements for drone and van pathways are included. The results show that small quadcopter drones across all U.S. regions have lower life-
+cycle GHG emissions than conventional delivery trucks powered by diesel and natural gas, electric vehicle (EV) trucks in most regions, and gasoline-
+powered vans. Large octocopter drones are shown to have lower GHG emissions than diesel and natural gas vehicles only when charged with low-carbon
+electricity. Both small drones and large drones are shown to have lower GHG emissions than use of a personal vehicle to pick-up a single package.
+Numerical values of these results are presented in Supplementary Tables 13–17
+
+
+
+emissions in the freight sector compared with traditional                                                                                                                                                                                                           the speed of each rotor to achieve the thrust and pitch necessary to stay aloft and
+pathways. We focus initially on the United States, where the                                                                                                                                                                                                        travel forward at the desired velocity. On average, the thrusts from each of the
+                                                                                                                                                                                                                                                                    rotors are roughly equal and together exactly balance gravity and drag forces. We
+large variation in regional electricity mixes provides important                                                                                                                                                                                                    can then ﬁnd the total required thrust by:
+comparisons and can inform policymakers and stakeholders (the                                                                                                                                                                                                                                                          
+carbon intensity of many countries and international regions fall                                                                                                                                                                                                                        T ¼ mbody þ mbatt þ mpackage g þ Fdrag ;                    ð1Þ
+within the range of the values assessed here—see Supplementary
+                                                                                                                                                                                                                                                                    where mbody, mbatt, and mpackage are the masses of the drone body, battery, and
+Fig. 9).                                                                                                                                                                                                                                                            package (if present), g is the gravitational constant, and Fdrag is the total drag force.
+   There are plausible scenarios where drones lead to overall                                                                                                                                                                                                       Similarly, for steady ﬂight, the pitch angle, α, can be calculated by:
+higher energy use and greenhouse gas emissions compared to                                                                                                                                                                                                                                                                         !
+                                                                                                                                                                                                                                                                                                                   Fdrag
+ground vehicles. These include higher than expected warehousing                                                                                                                                                                                                                          α ¼ tan1                               :                     ð2Þ
+                                                                                                                                                                                                                                                                                                        mbody þ mbatt þ mpackage g
+space and energy needs, as well as continued improvement in
+ground vehicle energy and logistics efﬁciencies. Contrary to most
+energy technologies, future technological improvement in drones                                                                                                                                                                                                                      The drag force can be estimated piecewise by the formula:
+may increase energy use per package, because better energy                                                                                                                                                                                                                                                             X1
+storage will allow drones to ﬂy further with heavier loads. To                                                                                                                                                                                                                                                 Fdrag ¼     ρv2 CDi Ai ;
+                                                                                                                                                                                                                                                                                                                          2 a
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ð3Þ
+                                                                                                                                                                                                                                                                                                                       i
+realize any environmental beneﬁts from the use of drones,
+regulators and ﬁrms must consider the system-wide demand for                                                                                                                                                                                                        where va is the air speed, ρ is the density of air, and CDi and Ai are the drag
+additional warehousing, the size and efﬁciency of the drones, and                                                                                                                                                                                                   coefﬁcient and projected area (perpendicular to v) of the ith component. We ﬁnd it
+the source of electricity. In particular, the focus of drones should                                                                                                                                                                                                useful to consider the drag in three components: the drone body, the battery pack,
+be on light packages, with heavier packages left for ground                                                                                                                                                                                                         and the package. Drag coefﬁcients for the latter two are taken from the literature
+                                                                                                                                                                                                                                                                    for appropriate geometries. The drag coefﬁcient for the quadrotor drone is
+vehicles. Finally, it’s clear that the continued reduction in the                                                                                                                                                                                                   determined empirically using the drone’s onboard pitch measurement while ﬂying
+carbon intensity of the electricity system, coupled with energy                                                                                                                                                                                                     at various velocities:
+efﬁciency improvements in associated commercial buildings, are                                                                                                                                                                                                                                                                                                                                             2mbody g  tanðαÞ
+essential to realize the potential environmental beneﬁts of freight                                                                                                                                                                                                                                                                                                                                 CD ¼                     :                                                                                           ð4Þ
+                                                                                                                                                                                                                                                                                                                                                                                                              ρva2 Abody
+delivery by drones.
+
+                                                                                                                                                                                                                                                                       The same CD is also applied to the octocopter body. The values used are given
+Methods                                                                                                                                                                                                                                                             in Supplementary Table 1.
+Drone energy use model. Drones expend energy to ﬁght gravity and to counter                                                                                                                                                                                            With the total thrust from Eq. 1, we calculate the power required for steady
+drag forces due to forward motion and wind. The drone’s control software adjusts                                                                                                                                                                                    ﬂight. The theoretical minimum power depends on the area swept by the rotors. In
+
+NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications                                                                                                                                                                                                                                                                                                                                                                                                             7
+ARTICLE                                                                                NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5
+
+
+                                                                                          Small drone
+
+                              Warehouse multiplier for drones
+
+
+                             Electricity intesity of warehousing
+
+
+                                 Carbon intensity of electricity
+
+
+                            Number of hops for drone delivery
+
+
+                          Natural gas intensity of warehousing
+
+
+                         Upstream emissions from natural gas
+
+
+                                              Drone power use
+
+
+                                        Drone battery cycle life
+
+                                                               200   600   1000 1400 1800 2200 2600 3000 3400 3800 4200
+                                                                                      g CO2e/package
+
+                                                                                          Large drone
+
+                            Number of hops for drone delivery
+
+
+                              Warehouse multiplier for drones
+
+
+                                 Carbon intensity of electricity
+
+
+                            Electricity intensity of warehousing
+
+
+                                              Drone power use
+
+
+                                        Drone battery cycle life
+
+
+                          Natural gas intensity of warehousing
+
+
+                         Upstream emissions from natural gas
+
+                                                               200   600   1000 1400 1800 2200 2600 3000 3400 3800 4200
+                                                                                      g CO2e/package
+
+                                                                                          Diesel truck
+
+                                    Delivery truck parcels/mile
+
+
+
+                            Electricity intensity of warehousing
+
+
+
+                                 Carbon intensity of electricity
+
+
+
+                          Natural gas intensity of warehousing
+
+
+
+                         Upstream emissions from natural gas
+
+
+                                                               200   600   1000 1400 1800 2200 2600 3000 3400 3800 4200
+                                                                                      g CO2e/package
+
+Fig. 6 Sensitivity analysis. Greenhouse gas emissions per package delivered for the quadcopter, octocopter, and diesel truck under the parameters listed in
+Table 2. Vertical lines mark the base case result for each mode. Green bars show the decrease in emissions and purple bars show the increase in emissions
+given parameters Table 2
+
+
+
+
+8                                                NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5                                                                                                                  ARTICLE
+
+ Table 2 Parameter values used in the sensitivity analysis
+
+ Parameter                                                                                    Best case                     Base case                         High case
+ Number of hops for drone deliverya                                                           —                             1                                 4
+ Carbon intensity of electricity (g CO2e/(kW·h)                                               100                           654                               1000
+ Warehouse multiplier for drones and vansb                                                    1                             2                                 4
+ Electricity intensity of warehousing (kW·h/package)                                          0.175                         0.35                              0.70
+ Drone power use (% of base case)                                                             50                            100                               140
+ Drone battery cycle life                                                                     1000                          300                               150
+ Upstream emissions of natural gasc (g CO2e/MJ)                                               10.3                          20.1/13.4                         29.5
+ Natural gas intensity of warehousing (MJ/package)                                            0.475                         0.95                              1.9
+ Delivery truck parcels delivered per mile                                                    6.04                          1.51                              0.76
+ a Hops are the number of segments each package travels by drone. More than one hop would represent a scenario built on waystations where packages are passed from one drone to another
+ b The impacts of warehousing in the drone and van scenario, as a multiple of warehousing impacts in the current logistics network
+ c base case upstream natural gas emissions for CNG/stationary combustion are from Argonne National Laboratory23 for consistency. Low (5%) and high (95%) values are from ref. 40
+
+
+
+
+general, larger propellers are more efﬁcient because the larger swept area allows                    a typical cycle), and f is a safety factor to reserve energy for unusual
+them to achieve a given thrust at lower air velocity. However, they are less                         conditions. Note that P and v depend implicitly on m batt because of its
+responsive (because they have greater inertia) and more dangerous (because they                      contribution to the drone mass. In practice, batteries will have to be oversized
+carry more kinetic energy). In addition, rotors must be spaced not to interfere with                 to give a margin of safety accounting for variations in conditions and drone
+each other. These factors limit the rotor size.                                                      performance. On the basis of the variation in ﬂight times that we observed on
+   For n rotors of diameter D, the theoretical minimum power to hover is32:                          the test unit, we assume f = 1.2. In emergency situations, the option of
+                                                                                                     discharging the battery below its optimal depth of discharge also provides a
+                                                T 3=2
+                                 Pmin;hover ¼ qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ :                               ð5Þ
+                                                                                                     margin of safety. However, in very windy conditions, especially in the case of a
+                                               2 πnD ρ
+                                               1          2                                          strong and steady crosswind, the drone’s range will be greatly reduced or it
+                                                                                                     may become unstable (in many locations, winds can reach similar speeds to
+                                                                                                     the drone’s air speed). A summary of parameter values used in the base case
+                                                                                                     energy model is given in Supplementary Table 1.
+   When the drone moves at signiﬁcant velocity or in signiﬁcant wind, the
+minimum power requirement changes somewhat depending on the air speed and
+incident angle. For example, when the drone has substantial forward pitch and                        Drone ﬂight conditions, data collection, and model implementation. Mea-
+forward velocity, the rotors must spin faster to achieve a given thrust, because they                surements from several ﬂight campaigns with a quadrotor drone were used to
+must accelerate the air faster than its incoming velocity. The minimum power with                    validate and calibrate the energy use model. We ﬂew the quadcopter back and forth
+forward motion can also be calculated from conservation of momentum. Adapting                        between programmed waypoints. To obtain data from ﬂight path segments, where
+from Hoffman et al.33, the power is given by:                                                        the quadcopter was ﬂying at a consistent velocity, we omitted data during the
+                                 Pmin ¼ Tðv sinα þ vi Þ;                                       ð6Þ   periods when the quadcopter was turning, slowing, or accelerating. There were two
+                                                                                                     sites for testing. One of them required the distance between waypoints to be limited
+                                                                                                     to 10.4 m, but the second site allowed for longer ﬂight paths of 66.1 m, allowing
+where vi is the induced velocity required for a given thrust and can be found by the
+                                                                                                     measurements at higher velocities. Our experimental set-up included a weather
+solution to the implicit equation:
+                                                                                                     station that recorded the wind direction and magnitude while we were ﬂying. Wind
+                                                     2T                                              speed ranged from 0 to 3 m/s (0 to 7 mph) at the ﬁrst site and 2 to 7 m/s (4 to 15
+                       vi ¼            qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ :    ð7Þ   mph) at the second. On average, wind direction was oriented at random with
+                              πnD2 ρ    ðv cos αÞ2 þðv sin α þ vi Þ2                                 respect to the ﬂight paths. During different tests, the programmed velocity and
+                                                                                                     acceleration of the quadcopter was varied to examine the energy efﬁciency at
+                                                                                                     different speeds. We also performed tests with payloads increasing from 0 to 384 g
+   We correct the theoretical minimum power by the overall power efﬁciency of                        to investigate the relationship between energy use and payload weight. Depending
+the drone, η, to get expended power:                                                                 on the ﬂight test parameters, the quadcopter was able to complete between 19 and
+                                                                                                     74 segments on a battery charge. The onboard autopilot system recorded GPS data,
+                                           P ¼ Pmin =η:                                        ð8Þ
+                                                                                                     onboard voltage and current, the pitch, roll, and yaw of the copter, and other
+                                                                                                     information. These data were post-processed in Matlab to compute the power
+                                                                                                     drained by the copter, the distance and time traveled, and the drag coefﬁcient.
+    We determine η empirically for the quadcopter model and apply the same                           These results were then imported into R for comparison with analytical and
+factor to the octocopter estimates. Alternately, the velocity-dependent                              manufacturer rotor models and plotting. The analytical and rotor models were
+power–thrust relationship for a speciﬁc propeller can be measured empirically or                     implemented in R35.
+estimated with a computational ﬂuid dynamics (CFD) simulation. The relationship                          Supplementary Fig. 1 shows the theoretical power vs. thrust relationship
+is available from the manufacturer in the form of a lookup table for the propellers                  for the quadrotor test model. Comparative data shown were measured by
+in our quadcopter test model34. We include the CFD result in Fig. 1 and                              afﬁxing a variety of weights and ﬂying at low speed (~2 m/s). We see that the
+Supplementary Fig. 1 for comparison.                                                                 quadrotor operates at about two times the theoretical minimum energy (the
+    To calculate the energy efﬁciency of travel, e, we divide power consumption by                   best-ﬁt power efﬁciency is 0.53). This compares well with typical power
+the average ground speed of the drone:                                                               efﬁciencies reported for similar propellers36. The rotor model overestimates
+                                              e ¼ P=v:                                         ð9Þ   the power consumption slightly.
+                                                                                                         We performed quadrotor test ﬂights with nine different batteries. The ﬂight
+                                                                                                     times varied depending on payload, programmed speed, and wind conditions. As
+   We ﬁnd the energy consumed for a delivery trip of one-way distance d by:                          we would expect, ﬂight times were shorter when the quadrotor carried heavier
+                                                                                                     payloads: ﬂights lasted for 12 min with 0 payload weight, and were as short as 8
+                                E ¼ ðeloaded þ eunloaded Þd;                                  ð10Þ   min for the full 384 g payload. Flight length extended a little with speed at the ﬁrst
+                                                                                                     site, and those ﬂights had durations between 11 and 12 min. For the longer distance
+                                                                                                     ﬂights at high speed, there were signiﬁcantly higher winds and ﬂights lasted
+   where power and velocity (which we assume are constant for each leg) are                          between 7 and 9 min. Due to the changing test conditions, there are not sufﬁcient
+evaluated with the package present to give eloaded (for the outbound trip) and                       data to formally analyze the variability in ﬂight times, however it is apparent that
+without the package to give eunloaded (for the return trip).                                         the variation in ﬂight time per battery charge is substantially less that the variability
+   We calculate the range of a drone, R, by:                                                         in energy use on a given ﬂight segment, as seen in Fig. 1a. This is the basis for our
+                                                                                                     assumption of the safety factor, f = 1.2.
+                                              mbatt sbatt δ
+                                R¼                              ;                             ð11Þ
+                                        ðeloaded þ eunloaded Þf
+                                                                                                     Rotor model. For reference, we adapted parameters provided by the rotor man-
+where s batt is the speciﬁc energy of the battery (energy capacity per mass), δ is                   ufacturer based on a CFD model to compare with other results34. The predicted
+the depth of discharge (the fraction of energy capacity designed to be spent on                      power and thrust of a rotor is given at various rotational velocities and incident air
+
+NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications                                                                               9
+ARTICLE                                                                                          NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5
+
+
+velocities. However, the parameters do not account for pitch. To calculate the            is 4.5, whereas the ratio for the 4-seat Cessna 172 is 9. Some aircraft are
+effective incident air velocity, we take the component of air speed perpendicular to      considerably more efﬁcient, for example the Boeing 747 has a ratio of 17.7,
+the rotor:                                                                                suggesting at least the potential for ﬁxed-wing drones to outperform copters by a
+                                                                                          wider margin31.
+                                   veff ¼ v sinðαÞ;                               ð12Þ
+                                                                                          Ground vehicle parameters. For ﬁnal delivery of packages with a medium-duty
+where v and α are the air speed and pitch angle of the drone, as calculated by            truck, we developed a bottom-up energy and emissions model informed by lit-
+Eqs. 1–3. The manufacturer-provided parameters are then interpolated using the            erature values and Argonne National Laboratory’s GREET model23 and validated it
+required thrust and effective velocity to calculate power requirements in various         against top-down sustainability reporting from United Parcel Service, Inc. (UPS)’s
+conditions. Results are shown in Fig. 1a and Supplementary Fig. 1. The CFD model          2015 Corporate Sustainability report39. We model total energy use of a ground
+gives results of the same order as measured data, but over-predicts power demand          vehicle per package delivered, thereby eliminating the need to estimate exact street
+at all velocities.                                                                        routes. Because our functional unit is 1 package delivered, we also do not distribute
+                                                                                          impacts across the distribution of package weights on a delivery truck. We started
+                                                                                          with fuel energy content and vehicle efﬁciency values for Class 4 package delivery
+Energy storage options and drone range. The range of a drone depends strongly
+                                                                                          vehicles, as well as for light-duty vans and light-duty cars as shown in Supple-
+on the energy density and speciﬁc energy of the battery or fuel it carries. The
+                                                                                          mentary Table 4. The product of the energy content of the fuel and the fuel
+Lithium polymer battery technology used in the test models and many commercial
+                                                                                          consumption per mile of travel yields the direct energy use per mile of travel for
+drones leads to a very short range compared to ground-based delivery vehicles. The
+                                                                                          each of these vehicles.
+representative range for batteries is calculated using Eq. 11 using the quadcopter
+                                                                                              Tong et al.40 estimates that the energy efﬁciency for Class 4 parcel delivery
+parameter values in Supplementary Table 1 and the practical energy density and            trucks is 7.3 MJ/km (11.5 mpg) for diesel trucks, 7.8 MJ/km (10.8 mpgde) for
+depth of discharge shown. To assess the potential for improvements in drone range
+                                                                                          compressed natural gas (CNG) trucks, and 2.44 MJ/km (34.5 mpgde) for electric
+and subsequent effects on energy efﬁciency, we performed a review of battery
+                                                                                          (EV) trucks. Hence, each 100 miles (161 km) of travel at these efﬁciencies uses 1178
+technologies and hydrocarbon fuels. The results are compiled in Supplementary
+                                                                                          MJ for diesel trucks, 1255 MJ for CNG trucks, and 393 MJ of ﬁnal energy for EV
+Table 2, with a shortened version presented in Table 1. The number of charging
+                                                                                          trucks (excluding efﬁciency losses at the power plant). As with all rated fuel
+cycles for drones will affect how often energy storage/generation devices or com-
+                                                                                          economy values, actual observed energy use values would vary with driving
+ponents need to be replaced. The safe depth of discharge must also be considered,
+                                                                                          patterns, trafﬁc, terrain, vehicle weight, age of the vehicles, and other parameters.
+since it relates directly to useable energy density. Additional considerations, such as
+                                                                                          UPS reported that route optimization and other efﬁciencies led to a decrease of 23
+stability, maximum discharge power and charging rate, are important for vehicle
+                                                                                          million miles traveled and a fuel savings of 2.6 million gallons. Dividing those
+applications37, and thus not all chemistries will be available to drones.
+                                                                                          reported numbers only yields 8.9 mpg. Yet, we use the original reviewed literature
+    Unlike batteries, other components such as fuel tanks and hardware are
+                                                                                          values as near-term thresholds and also include the bounds of uncertainty to
+necessary to facilitate the function of both fuel cells and combustion engines (this
+                                                                                          account for near-term improvements to measured fuel economies in these vehicles.
+weight is not included in the energy densities shown). To compare the performance
+                                                                                              To obtain an energy consumption value for the functional unit of 1 package
+of fuel cells and combustion fuels to batteries, the added volume and weight must
+                                                                                          delivered, the energy used by the vehicle has to be normalized for the number of
+be considered. Table 1 and Supplementary Table 2 give representative ranges for
+                                                                                          packages the vehicle is carrying and delivering per km. UPS states39 that ground
+hypothetical drones driven by hydrogen or methanol fuel cells. The key
+                                                                                          package trucks generally travel about 100 miles/day and average 1.51 stops per mile
+assumptions to calculate the effective energy density of the systems are shown in
+                                                                                          (161 km with 0.94 stops/km), which provides a base case of 151 packages delivered
+Supplementary Table 3. Even with the added equipment weight, there is potential
+                                                                                          per day. We note that some of the stops reported by UPS could include pickups
+for substantially increased range using fuel cells.
+                                                                                          only, or could include the delivery of multiple packages to a single stop, which
+    Engines used in combusting fuels are generally much heavier than electric             would make 151 packages delivered to individual addresses per day a generous
+motors. Therefore, the practical energy density of combustion fuels will likely be
+                                                                                          average estimate. Yet, in urban areas packages per mile could be higher. This
+lower than the values in the table when considering the added weights of the
+                                                                                          number of packages delivered per total distance traveled in a day is a key parameter
+motors and added weight of a fuel tank. However, even when considering
+                                                                                          that is explored in the sensitivity analysis. For the sensitivity analysis, we use a best
+hardware, combustion fuels are the most energy dense of the technologies we
+                                                                                          case value of a factor of four higher deliveries per mile than the base, and a worst-
+examined, which is why they are used in current large drones.
+                                                                                          case value a factor of two lower. A Class 4 diesel truck that travels 100 miles and
+    Advantages to using batteries and fuel cells in drones are higher energy
+                                                                                          delivers 151 packages requires 8.7 gallons, or 17.4 packages per gallon, or 7.8 MJ
+efﬁciency than combustion, lower noise, no air emissions at the point of use, and
+                                                                                          per package. This estimate is similar in magnitude to an earlier estimate by Weber
+possible reduced greenhouse gas impacts via low-carbon electricity storage in             et al.27 of last-mile energy use for commercial package delivery. For U.S. domestic
+batteries or hydrogen produced via low-carbon methods. Cost-efﬁcient use of grid
+                                                                                          packages, UPS reports a normalized energy intensity of 26.65 MJ per package,
+resources is possible if batteries are charged or hydrogen is generated by electricity
+                                                                                          however these values include all stationary and fuel energy used by UPS. Taking the
+from the grid during off-peak hours, and then used in drones during peak hours.
+                                                                                          percentage of energy from diesel to estimate the energy intensity of ﬁnal package
+                                                                                          delivery, as done in Weber et al.27, we arrive at a value similar to our
+Energy use estimate for a gasoline helicopter drone and a ﬁxed-wing drone.                7.8 MJ per package.
+We included parameters for a gasoline-powered drone, which are adapted from the               Our bottom-up estimate of package delivery truck energy efﬁciency is fairly
+Yamaha RMAX, a helicopter-style drone, currently used in agricultural applica-            consistent with UPS’ reporting of 8.32 packages delivered per gallon of fuel,
+tions, with a maximum load capacity of 28 kg38. As electric drones are likely to be       because UPS’ estimate includes fuel consumption by their feeder network (which
+the ﬁrst type of urban delivery drones in widespread use, we focus the efforts of this    we did not estimate here), and their feeder network “connects our distribution hubs
+paper on electric drones.                                                                 to each other and to high-volume customers, our own delivery network with the
+    Although copters are the focus of this analysis, we also provide an estimate of       familiar brown delivery vehicles, as well as third-party trucking and rail partners.”
+energy use for a ﬁxed-wing drone for rough comparison. The Aero-M by 3D                   They report that the feeder network accounts for “more than half of our fuel
+Robotics is a battery-powered, ﬁxed-wing drone with a payload capacity (0.5 kg)           consumption in our U.S. Domestic Package business segment”39. Adjusting our
+similar to our quadcopter test unit and, incidentally, the same control software.         bottom-up estimate by half gives a value similar to UPS’ 8.32 packages delivered
+Manufacturer speciﬁcations indicate a ﬂight time of 40 min, and maximum and               per gallon of fuel. This gives us conﬁdence in our baseline value and also highlights
+minimum airspeeds of 25 and 9.8 m/s. The speciﬁed battery capacity converts to            the need for sensitivity analyses across these parameters.
+320 kJ. Assuming an 80% maximum discharge and average ﬂight speed of 17.4 m/s,                Besides current Class 4 parcel delivery trucks using a range of fuels, we also
+we calculate an expected energy efﬁciency of ﬂight of 6 J/m.                              estimate impacts from both vans and automobiles. Last mile delivery in an urban
+    To test this speciﬁcation, we ﬂew a single campaign with the ﬁxed-wing drone          setting could also be accomplished with smaller, more efﬁcient delivery vans of
+and measured energy use and distance traveled. Energy use was calculated by the           various sizes. To bound the vehicle performance we use a smaller van, the Nissan
+degree of battery discharge while distance and velocity were calculated by similar        NV200, which has a city fuel economy of 10.2 km/l (24 mpg)41. A small electric
+methods as for the quadcopter. The ﬂight was performed outdoors in moderate               cargo van is currently not available in the United States, but we test this case using
+wind conditions at an average ground speed of 13.5 m/s. The resulting energy              a van with a 30 kWh battery achieving 100 MPGGE. A recent news article
+efﬁciency of travel was 10 J/m. This should be taken as a rough value, since it is        mentioned that 150 parcels were loaded onto Amazon.com urban delivery vans42,
+based on a single campaign, however it is consistent with the difference between          nearly matching our assumption of 151 packages per day for traditional parcel
+speciﬁed and measured performance that we observed for the quadcopter.                    trucks. If delivery vans can maintain the same number of stops per mile as Class 4
+Comparing with Fig. 1a, we see that the ﬁxed-wing is roughly twice as efﬁcient as         trucks, then their energy consumption is 3.1 MJ per package or 37.8 packages per
+the quadcopter, which clusters around 20 J/m at higher velocities.                        gallon.
+    This value is roughly consistent with known data for passenger aircraft.                  To test a scenario where customers use light-duty passenger vehicles to pick-up
+Although not directly proportional to energy use, comparing the lift-to-drag ratios       a package from a retail store, we use the city fuel economy of exemplary gasoline
+of aircraft can provide some guidance about the relative energy use of aircraft of        (31 MPG Nissan Versa) and electric (124 MPGGE Nissan Leaf) light-duty vehicles
+similar weight. The factor-of-2 difference between the copter and ﬁxed-wing drone         from U.S. fuel economy information41. The U.S. Department of Transportation
+is on the order of what we would expect comparing the lift-to-drag ratios of              estimated that the average vehicle trip length for shopping purposes was 6.4 miles,
+passenger helicopters and small planes. For example, a typical ratio for a helicopter     according to the most recent survey data43. We use twice this length (12.8 miles or
+
+10                                                    NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5                                                                                                     ARTICLE
+
+20.6 km) as the base case roundtrip travel distance for personal package pick-up          fuel from Argonne’s GREET model. This yields an upstream value in g GHG/kWh
+from a retail store. If the roundtrip energy is allocated to one package, the base case   for non-baseload generation in each NERC region and e-GRID subregion. Values
+energy use is 50.5 MJ for the gasoline personal car and 3.7 kWh for the EV personal       for the weighted percentage of non-baseload generation by fuel in each NERC
+car. We test the sensitivity to these results by using minimum and maximum                region are shown in Supplementary Table 9 and in e-GRID subregions in
+roundtrip distances for retail of 2 and 20 miles, respectively, as done in Weber          Supplementary Table 10. Direct, upstream, and life-cycle emissions in each NERC
+et al.27. This sensitivity range would also likely include the uncertainty regarding      region are shown in Supplementary Table 11, and in each e-GRID subregion in
+allocation of per package energy and chained trips with other errands. At a               Supplementary Table 12. The uncertainties involved in estimating upstream
+roundtrip distance of 2 miles, a personal gasoline car would still have more GHGs         emissions from non-baseload electricity in regional electricity grids are
+per package than small drones in most of the U.S., but would have lower GHGs              compounded across assumptions about resource extraction, transport, and power
+than large drones.                                                                        plant type. We tested the sensitivity of the results to the distributions of upstream
+                                                                                          GHGs from fossil fuel-ﬁred power plants used in Tong et al.40 and Abrahams
+                                                                                          et al.62, which did not measurably change the results.
+Emissions from fuels. The life-cycle GHG intensities of diesel fuel, gasoline and
+natural gas are adapted from Argonne National Laboratory’s GREET model23 and
+Tong et al.40, using IPCC AR5 100-year Global Warming Potential values44 of 1             Emissions from battery production. The impacts of manufacturing and raw
+(CO2), 36 (CH4), and 298 (N2O), and are summarized in Supplementary Table 5.              material extraction for lithium-ion batteries can be an important portion of the life-
+These include both direct values and upstream GHGs associated with extraction,            cycle impacts of electriﬁed transportation. These impacts depend on the battery
+transportation, and processing of fuels.                                                  chemistries, manufacturing and recycling processes, useful life, and other para-
+                                                                                          meters24,63–68. For this analysis, we assume Li–Po batteries will have similar
+                                                                                          impacts to lithium-ion phosphate batteries. We use an estimate from Argonne’s
+Emissions from electricity. We use our calculated range of 3.5 km for the                 GREET model23 for the embodied energy and GHG emissions for 1 kg of lithium-
+quadcopter and 4.2 km for the octocopter, and estimate the GHGs per trip for these        ion phosphate batteries of 75 MJ and 4.7 kg of GHG, respectfully. We assume these
+distances. Our estimate of direct average energy consumption for a quadcopter             impacts are distributed equally per drone trip over the cycle life of the battery.
+with a 1 kg Li-Polymer battery is 32 J/m (0.0089 Wh/m) and our estimate for an            Testing a range of cycle life assumptions did not measurably affect the results from
+octocopter with a 10 kg Li-Polymer battery is 266 J/m (0.0739 Wh/m).                      the small drone, but battery emissions from large drones would be affected by
+    Because of efﬁciency losses in the drone battery and charger, as well as in the       either better or worse than expected cycle life. We also use an estimate from
+electric power transmission and distribution systems, more than 1 unit of                 GREET for 1 kg of lithium cobalt oxide batteries of 154 MJ and 10.4 kg of GHG.
+electricity generation is required at the power plant to provide 1 unit of usable         For ground vehicles, battery emissions are allocated per km and then per package.
+electricity from the drone battery. We assume battery and battery charging                If early battery replacement is required, emissions would increase.
+efﬁciencies are each 90%, for a combined efﬁciency of 81%45,46. We use a value of
+5% for transmission and distribution losses from the EPA22. Hence, electricity
+generated at the power plant, traveling the transmission and distribution system,         Emissions from warehouses. UPS reports a total global electricity consumption of
+converted at the drone charger, and traveling into and out of the battery to power        about 1628 GWhs, 4365 TJs of natural gas, and 4.7 billion packages delivered in
+the motor has an efﬁciency of about 77%. Our estimates reﬂect these efﬁciencies           201539. Using these numbers, the UPS metrics for 2015 are 0.35 kWh per package
+and hence electricity values are power plant-to-drone estimates. The emissions            for electricity and 0.93 MJ per package of natural gas. Given the large uncertainty
+from drone electricity are the product of electricity per meter (including charging       involved in accounting boundaries, local climate, fuels, and operations, we use
+and distribution losses), trip distance, and subregional non-baseload electricity         these UPS metrics as a base case and test this assumption in the sensitivity analysis.
+emissions factors from the e-GRID dataset from the U.S. Environmental Protection          Emissions from warehousing are the product of these metrics and regional elec-
+Agency.                                                                                   tricity emissions factors or life-cycle emissions from stationary combustion of
+    There are a variety of methods to allocate GHG and air pollutant emissions to         natural gas. UPS reports 1970 g GHG per U.S. domestic package, resulting from all
+local electricity use, and each has beneﬁts and drawbacks20,21,47–51. The regional        stationary and mobile combustion in their supply chain, and they note that more
+yet interconnected architecture of the electricity system, coupled with hourly,           than half of these emissions are from air operations. Our bottom-up estimate of
+seasonal, inter-annual variation, and long-term change in fuel use and asset              about 880 g GHG for the local diesel truck delivery (excluding upstream fuel
+composition introduces temporal and spatial uncertainty20,21,52. New demand               production) and warehousing portion is within the values expected, given the
+from drones would be charged by electricity generating units at the margin, rather        reporting by UPS.
+than baseload electricity generating units. Because the GHG emissions intensity of            The energy use and environmental impacts of drone delivery depend
+electricity varies regionally, and for the desire to have open and replicable data        substantially on the drones’ range and manner of implementation. As explained in
+inputs, we use EPA’s e-GRID annual direct non-baseload GHG emissions22 to                 the main text, the degree of extra warehousing required for drone delivery
+present the range of emissions in each North American Reliability Corporation             dominates the comparison of drone- and truck-based scenarios. For servicing an
+(NERC) region (shown in Supplementary Table 6), in each e-GRID subregion                  urban area with on-demand delivery, two main approaches have been proposed.
+(shown in Supplementary Table 7), and for the United States average. When                 The ﬁrst is to locate distribution centers such that all of the service area is within
+comparing the results, e-GRID subregions have the advantage of smaller                    delivery range of a distribution center. The second is to establish waystations such
+geographic boundaries, whereas NERC regions reduce some of the uncertainty                that drones can ﬂy from one to another and exchange batteries or trade packages in
+from electricity trading across a larger area. To represent the range, we estimate the    a series of hops from distribution center to destination. In the case of connecting
+emissions using both NERC regions and e-GRID subregions. For the main ﬁgures,             one way station to another, the effective range of the drone is reduced somewhat
+we report the range from California (e-GRID subregion WECC California (CAMX)              because it ﬂies the whole trip with a package instead of only the outbound trip.
+to the highest value in Missouri (e-GRID subregion SERC Midwest (SRMW). We                However, this difference is small, and we neglect it.
+note that e-GRID subregion WECC Northwest (NWPP) has about 3% less GHGs                       To give a sense of the number of nodes required for a typical urban area, Fig. 3
+than California (resulting in similar outcomes). For completeness, we report drone        shows a hypothetical coverage map for the city of San Francisco and for the
+GHG results for each NERC region and e-GRID subregion in Supplementary                    populated areas of the greater San Francisco Bay Area. The service area is deﬁned
+Figs. 10–13. The values are consistent with the endpoints selected for presentation       by a circle around each node (warehouse or way station) with radius equal to the
+in Fig. 5. As done with other emissions above, methane and nitrous oxide                  range of the drone, where range is deﬁned as the farthest distance from the
+emissions are converted to CO2-equivalent with a 100-year global warming                  warehouse to which a drone can deliver a package and still return to the warehouse.
+potentials (GWP) from IPCC AR544. A map of the NERC regions is shown in                   The nodes were placed manually based on a drone range of 3.5 km and covering
+Supplementary Fig. 5 and a map of EPA e-GRID subregions is shown in                       most signiﬁcant regions with population density above the lowest category (>0.5
+Supplementary Fig 6. Because the fuel mix and emissions of the electricity grid is        people per 30×30 m square), yielding rough estimates only. We ﬁnd that about four
+likely to evolve toward lower emissions over time, and because reduced relative           nodes can service the small, dense city of San Francisco, but about 112 nodes are
+natural gas prices can result in reduced electricity emissions as gas substitutes for     needed to service the Bay Area.
+coal in the near-term53, we include a low-carbon case using 200 g/kWh. We also                More generally, the problem of covering a deﬁned area with the minimum
+present the spectrum of results as GHG intensity of electricity varies from 100 to        number of equally sized circles has been explored for a variety of applications,
+1000 g/kWh in the sensitivity analysis. In Supplementary Fig. 9, we show average          including placement of ﬁre sensors and cellular telephone towers. The solution
+emissions factors for electricity from several selected continents and countries.         depends on the boundary shape and relative size of the circles and boundary.
+    Emissions and other environmental impacts are also generated in the                   Square and hexagonal packings are each optimal in certain circumstances, however
+manufacturing, construction and decommissioning of speciﬁc electricity and fuels          hexagonal packing tends to be best over larger areas69. Li et al. provide a formula to
+infrastructure, as well as in the extraction, processing and transportation of            calculate the minimum number of nodes required to cover a square area with
+energy54–61. Hence upstream emissions from electricity production vary both               hexagonal packing. The results for an area 16 km on a side (representing a
+within and across regions based on time of day, season, fuel mix, methane leakage         medium-sized city) and varying drone range are shown in Supplementary Fig. 7.
+rates, and technological change. Argonne National Laboratory’s GREET model                We see that the number of required nodes drops quickly with improvements in
+estimates upstream emissions from average U.S. power plants by fuel type (see             range from current technology. For example, doubling the range from 3.5 to 7 km
+Supplementary Table 8). We estimate the weighted percentage of non-baseload               decreases the number of nodes by a factor of 3.5. This illustrates the strong
+generation by fuel in each NERC region and e-GRID subregion per the e-GRID                economic and environmental incentive to increase the range of the drones, if they
+guidance, and multiply these percentages by the upstream emissions values for each        are to be deployed from local warehouses. In our base case, we assume drone and
+
+NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications                                                                11
+ARTICLE                                                                                      NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5
+
+
+van pathways require twice as much warehouse space (and energy) than                  19. DOE. EV everywhere grand challenge progress report 2014. https://energy.gov/
+conventional truck pathways. For our best case, we assume no difference in                sites/prod/ﬁles/2014/02/f8/eveverywhere_road_to_success.pdf (U.S.
+warehouse energy, and for our worst case, we assume drones and vans will need             Department of Energy, Washington, DC, USA, 2014).
+four times as much warehouse energy.                                                  20. Weber, C. L., Jaramillo, P., Marriott, J. & Samaras, C. Life cycle assessment and
+    Overall, we ﬁnd that a metropolitan area currently served by one regional             grid electricity: what do we know and what can we know? Environ. Sci. Technol.
+distribution center could easily require dozens of new local warehouses to achieve
+                                                                                          44, 1895–1901 (2010).
+the on-demand delivery model proposed for drones. In our base case scenario, we
+                                                                                      21. Siler-Evans, K., Azevedo, I. L. & Morgan, M. G. Marginal emissions
+assume that the local warehouses constitute a new and additional stage in the
+                                                                                          factors for the U.S. electricity system. Environ. Sci. Technol. 46, 4742–4748
+logistics system and that the total storage space in local warehouses is comparable
+to the space in the distribution center that serves them. Conceivably, a retailer         (2012).
+selling a high volume of a small number of products could bypass the regional         22. US EPA. Emissions & Generation Resource Integrated Database, eGRID2010
+distribution center and stock local warehouses directly from suppliers. This would        Version 1.0 9th edn (U.S. Environmental Protection Agency, Washington, D.C.,
+reduce the impact of the new local warehouses. On the other hand, a retailer              2014).
+stocking a large number of distinct products might have to replicate its inventory    23. Argonne National Laboratory. GREET.Net Database (Argonne National
+many times to make the products available at each local warehouse.                        Laboratory, Lemont, Illinois, USA, 2014).
+                                                                                      24. Michalek, J. J. et al. Valuation of plug-in vehicle life-cycle air emissions and
+                                                                                           oil displacement beneﬁts. Proc. Natl. Acad. Sci. USA 108, 16554–16558
+Data availability. The datasets and code generated in the current study are
+                                                                                          (2011).
+available from the corresponding authors on reasonable request.
+                                                                                      25. Tessum, C. W., Hill, J. D. & Marshall, J. D. Life cycle air quality impacts of
+                                                                                          conventional and alternative light-duty transportation in the United States.
+Received: 13 October 2015 Accepted: 28 November 2017                                      Proc. Natl. Acad. Sci. USA 111, 18490–18495 (2014).
+Published online: 13 February 2018                                                    26. Weber, C. L. et al. in IEEE International Symposium on Sustainable Systems and
+                                                                                          Technology, 2009. ISSST ’09 1–6. Phoenix, AZ, USA, https://doi.org/10.1109/
+                                                                                          ISSST.2009.5156681 (IEEE, 2009).
+                                                                                      27. Weber, C. L., Koomey, J. G. & Matthews, H. S. The energy and climate change
+                                                                                          implications of different music delivery methods. J. Ind. Ecol. 14, 754–769
+References                                                                                (2010).
+1. Floreano, D. & Wood, R. J. Science, technology and the future of small             28. Cruijssen, F., Dullaert, W. & Fleuren, H. Horizontal cooperation in transport
+    autonomous drones. Nature 521, 460–466 (2015).                                        and logistics: a literature review. Transp. J. 46, 22–39 (2007).
+2. CBS News. Amazon unveils futuristic plan: delivery by drone. 60 Minutes            29. Ballot, E., Montreuill, B. & Thivierge, C. Functional Design of Physical Internet
+    Overtime. https://www.cbsnews.com/news/amazon-unveils-futuristic-plan-                Facilities: A Distribution Hub in Progress in Material Handling Research
+    delivery-by-drone/ (2013).                                                            (Material Handling Industry of America, Charlotte, NC, USA, 2012).
+3. Gaitan, D. Drones being developed to deliver medical aid, not bombs. Bus           30.. Feng, K., Davis, S. J., Sun, L. & Hubacek, K. Drivers of the US CO2 emissions
+    Inside. https://www.reuters.com/article/us-medical-drones/drones-being-                1997–2013. Nat. Commun. 6, 7714 (2015).
+    developed-to-deliver-medical-aid-not-bombs-idUSKBN0GF17I20140815                  31. Anderson, D. F. & Eberhardt, S. Understanding Flight (McGraw-Hill, New
+    (2014).                                                                               York, NY, USA, 2010).
+4. UPS. UPS tests residential delivery via drone launched from atop package car.      32. Driessens, S. & Pounds, P. E. I. in IEEE/RSJ International Conference on
+    United Parcel Service. https://pressroom.ups.com/pressroom/                           Intelligent Robots and Systems (IROS), 2013, Tokyo, Japan, 1386–1392. https://
+    ContentDetailsViewer.page?ConceptType=PressReleases&id=1487687844847-                 doi.org/10.1109/IROS.2013.6696530 (2013).
+    162 (2017).                                                                       33. Hoffmann, G. M., Huang, H., Wasl, S. L. & Tomlin, E. C. J. in Proc. of the AIAA
+5. Wohlsen, M. The next big thing you missed: Amazon’s delivery drones could              Guidance, Navigation, and Control Conference, Hilton Head, South Carolina,
+    work—they just need trucks. Wired https://www.wired.com/2014/06/the-next-             USA (AIAA, 2007).
+    big-thing-you-missed-delivery-drones-launched-from-trucks-are-the-future-of-      34. APC Propellers. Performance sata: 10x47SF. https://www.apcprop.com/
+    shipping/ (2014).                                                                     technical-information/performance-data/ (2014).
+6. Murphy, M. This is how Google wants its drones to deliver stuff to you. Quartz.    35. R Core Team. R: A Language and Environment for Statistical Computing (R
+    https://qz.com/670670/this-is-how-google-wants-its-drones-to-deliver-stuff-to-        Foundation for Statistical Computing, Vienna, Austria, 2014).
+    you/(2016).                                                                       36. Brandt, J. B. & Selig, M. S. in 49th AIAA Aerospace Sciences Meeting, Hilton
+7. Atherton, K. D. Amazon patents warehouse blimps with packages delivered by             Head, South Carolina, USA (AIAA, 2011).
+    drone. Popular Science. http://www.popsci.com/amazon-patents-airship-             37. Wang, H. et al. An ultrafast nickel-iron battery from strongly coupled
+    warehouses-for-delivery-by-drone. Accessed 6 February 2017.                           inorganic nanoparticle/nanocarbon hybrid materials. Nat. Commun. 3, 917
+8. FAA. Unmanned Aircraft Systems (Federal Aviation Administration, U.S.                  (2012).
+    Department of Transportation, Washington, DC, 2016).                              38. Dittrich, J. S. Design and Integration of an Unmanned Aerial Vehicle Navigation
+9. Levin, A. More drones for hire coming to U.S. skies in landmark rules—                 System (Georgia Institute of Technology, Atlanta, GA, USA, 2002).
+    Bloomberg. https://www.bloomberg.com/news/articles/2016-06-21/more-               39. UPS. UPS 2015 Corporate Sustainability Report (United Parcel Service, Atlanta,
+    drones-for-hire-coming-to-u-s-skies-under-landmark-rules (2016).                      Georgia, USA, 2016).
+10. EASA. Civil Drones (Unmanned aircraft). https://www.easa.europa.eu/easa-          40. Tong, F., Jaramillo, P. & Azevedo, I. M. L. Comparison of life cycle greenhouse
+    and-you/civil-drones-rpas (European Aviation Safety Agency, Cologne,                  gases from natural gas pathways for medium and heavy-duty vehicles. Environ.
+    Germany, 2017).                                                                       Sci. Technol. https://doi.org/10.1021/es5052759 (2015).
+11. Editorial Board. Putting drones to the test. N. Y. Times. https://www.nytimes.    41. US DOE. FuelEconomy.gov. http://fueleconomy.gov/. Accessed 22 September
+    com/2014/01/05/opinion/sunday/putting-drones-to-the-test.html (2014).                 2016.
+12. Whitlock, C. Close encounters on rise as small drones gain in popularity.         42. Bensinger, G. & Stevens, L. Amazon’s newest ambition: competing directly with
+    Washington Post. http://www.washingtonpost.com/sf/investigative/2014/06/23/           UPS and FedEx. Wall Street Journal https://www.wsj.com/articles/amazons-
+    close-encounters-with-small-drones-on-rise/ (2013).                                   newest-ambitioncompeting-directly-with-ups-and-fedex-1474994758 (2016).
+13. Davis, S. E., Williams, S. E. & Boundy, R. G. Transportation Energy Data Book     43. US DOT. National Household Travel Survey, 2009. http://nhts.ornl.gov/index.
+    35th edn (Oak Ridge National Laboratory, Oak Ridge, TN, USA, 2016).                   shtml. Accessed 22 September 2016.
+14. Grenzeback, L. R. et al. Freight Transportation Demand: Energy-Efﬁcient           44. IPCC. Climate Change 2013: The Physical Science Basis. Contribution of
+    Scenarios for a Low-Carbon Future (Cambridge Systematics, Inc./the National           Working Group I to the Fifth Assessment Report of the Intergovernmental Panel
+    Renewable Energy Laboratory for the U.S. Department of Energy, Washington,            on Climate Change (eds Stocker, T. F., et al.) (Cambridge University Press,
+    D.C., USA, 2013).                                                                     Cambridge, 2013).
+15. Weber, C. L. & Matthews, H. S. Food-miles and the relative climate impacts of     45. US DOE. All-Electric Vehicles. http://www.fueleconomy.gov/feg/evtech.shtml.
+    food choices in the United States. Environ. Sci. Technol. 42, 3508–3513 (2008).       (U.S. Department of Energy, Washington, DC, USA, Undated).
+16. Murgia, M. Lord Norman Foster to build world’s ﬁrst droneport in Rwanda.          46. Gautam, D., Musavi, F., Edington, M., Eberle, W. & Dunford, W. G. in 2011
+    http://www.telegraph.co.uk/technology/news/11879956/Lord-Norman-Foster-               IEEE Vehicle Power and Propulsion Conference (VPPC), Chicago, IL, USA.
+    to-build-worlds-ﬁrst-droneport-in-Rwanda.html. Accessed 26 January 2016.              https://doi.org/10.1109/VPPC.2011.6043192 (2011).
+17. Atherton, K. D. Sony’s new drone is a helicopter in a plane’s body. Popular       47. Siler-Evans, K., Azevedo, I. L., Morgan, M. G. & Apt, J. Regional variations in
+    Science. http://www.popsci.com/sonys-new-drone-helicopter-planes-body                 the health, environmental, and climate beneﬁts of wind and solar generation.
+    (2015).                                                                               Proc. Natl. Acad. Sci. USA 110, 11768–11773 (2013).
+18. Leishman, J. G. Principles of Helicopter Aerodynamics (Cambridge University       48. Tamayao, M.-A. M., Michalek, J. J., Hendrickson, C. & Azevedo, I. M. L.
+    Press, Cambridge, 2006).                                                              Regional variability and uncertainty of electric vehicle life cycle CO 2
+
+12                                                  NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-017-02411-5                                                                                                           ARTICLE
+
+    emissions across the United States. Environ. Sci. Technol. 49, 8844–8855                74. Parker, J. F., Chervin, C. N., Nelson, E. S., Rolison, D. R. & Long, J. W. Wiring
+    (2015).                                                                                     zinc in three dimensions re-writes battery performance-dendrite-free cycling.
+49. Ryan, N. A., Johnson, J. X. & Keoleian, G. A. Comparative assessment of                     Energy Environ. Sci. 7, 1117–1124 (2014).
+    models and methods to calculate grid electricity emissions. Environ. Sci.               75. PolyPlus Battery Company Inc. Advanced lithium battery technology. http://
+    Technol. 50, 8937–8953 (2016).                                                              www.polyplus.com/technology.html (2009).
+50. Hawkes, A. D. Estimating marginal CO2 emissions rates for national electricity          76. Jian, Z. et al. Core–shell-structured CNT@RuO2 composite as a high-
+    systems. Energy Policy 38, 5977–5987 (2010).                                                performance cathode catalyst for rechargeable Li–O2 batteries. Angew. Chem.
+51. Graff Zivin, J. S., Kotchen, M. J. & Mansur, E. T. Spatial and temporal                     Int. Ed. 53, 442–446 (2014).
+    heterogeneity of marginal emissions: Implications for electric cars and other           77. Hyperion. Hyperion G3 LiPo—speciﬁcations. http://media.hyperion.hk/dn/
+    electricity-shifting policies. J. Econ. Behav. Organ. 107, 248–268 (2014).                  g3lipo/G3-Specs-EN.pdf (2014).
+52. Rogers, M. M., Wang, Y., Wang, C., McElmurry, S. P. & Miller, C. J. Evaluation          78. Howard, W. F. & Spotnitz, R. M. Theoretical evaluation of high-energy lithium
+    of a rapid LMP-based approach for calculating marginal unit emissions. Appl.                metal phosphate cathode materials in Li-ion batteries. J. Power Sources 165,
+    Energy 111, 812–820 (2013).                                                                 887–891 (2007).
+53. Venkatesh, A., Jaramillo, P., Grifﬁn, W. M. & Matthews, H. S. Implications of           79. A123 Systems Inc. Nanophosphate lithium ion prismatic pouch cell
+    changing natural gas prices in the United States electricity sector for SO2, NOX            AMP20M1HD-A, MD100105-03 (2012).
+    and life cycle GHG emissions. Environ. Res. Lett. 7, 34018 (2012).                      80. Larminie, J., Dicks, A. & McDonald, M. S. Fuel Cell Systems Explained Vol. 2,
+54. Weisser, D. A guide to life-cycle greenhouse gas (GHG) emissions from electric              (Wiley, New York, NY, 2003).
+    supply technologies. Energy 32, 1543–1559 (2007).                                       81. Chau, K. T., Wong, Y. S. & Chan, C. C. An overview of energy sources for
+55. Jaramillo, P., Grifﬁn, W. M. & Matthews, H. S. Comparative life-cycle air                   electric vehicles. Energy Convers. Manag. 40, 1021–1039 (1999).
+    emissions of coal, domestic natural gas, LNG, and SNG for electricity                   82. Rabis, A., Rodriguez, P. & Schmidt, T. J. Electrocatalysis for polymer electrolyte
+    generation. Environ. Sci. Technol. 41, 6290–6296 (2007).                                    fuel cells: recent achievements and future challenges. ACS Catal. 2, 864–890
+56. Jorge, R. S., Hawkins, T. R. & Hertwich, E. G. Life cycle assessment of electricity         (2012).
+    transmission and distribution—part 1: power lines and cables. Int. J. Life Cycle        83. Toyota Motor Corporation. Toyota’s new, more efﬁcient engines. http://
+                                                                                                newsroom.toyota.co.jp/en/download/2610289 (2014).
+    Assess. 17, 9–15 (2011).
+57. Jorge, R. S., Hawkins, T. R. & Hertwich, E. G. Life cycle assessment of electricity
+    transmission and distribution—part 2: transformers and substation equipment.            Acknowledgements
+    Int. J. Life Cycle Assess. 17, 184–191 (2011).                                          We thank Sebastian Scherer for helpful feedback. This work was performed in part under
+58. Heath, G. A. & Mann, M. K. Background and reﬂections on the life cycle                  the auspices of the U.S. Department of Energy by Lawrence Livermore National
+    assessment harmonization project. J. Ind. Ecol. 16, S8–S11 (2012).                      Laboratory under contract DE-AC52-07NA27344. This research was also supported in
+59. Turconi, R., Boldrin, A. & Astrup, T. Life cycle assessment (LCA) of electricity        part by the Climate and Energy Decision Making (CEDM) center through a cooperative
+    generation technologies: overview, comparability and limitations. Renew.                agreement between the National Science Foundation (SES-0949710) and Carnegie
+    Sustain. Energy Rev. 28, 555–565 (2013).                                                Mellon University. Any opinions, ﬁndings, and conclusions or recommendations
+60. Heath, G. A., O’Donoughue, P., Arent, D. J. & Bazilian, M. Harmonization                expressed in this material do not necessarily represent the views of the organizations to
+    of initial estimates of shale gas life cycle greenhouse gas emissions for               which the authors are afﬁliated.
+    electric power generation. Proc. Natl. Acad. Sci. USA 111, E3167–E3176
+    (2014).
+61. Hertwich, E. G. et al. Integrated life-cycle assessment of electricity-supply
+                                                                                            Author contributions
+                                                                                            J.K.S. led the overall project and contributed the drone energy use modeling. C.S.
+    scenarios conﬁrms global environmental beneﬁt of low-carbon technologies.
+                                                                                            led the life-cycle assessment and emissions comparison. E.R.O. compiled and
+    Proc. Natl. Acad. Sci. USA 112, 6277–6282 (2014).
+                                                                                            analyzed the physical energy use data. A.S.M. and E.R.O. executed experimental
+62. Abrahams, L. S., Samaras, C., Grifﬁn, W. M. & Matthews, H. S. Life cycle
+                                                                                            campaigns. A.L. assessed energy storage technologies. D.C. supervised the experi-
+    greenhouse gas emissions from U.S. liqueﬁed natural gas exports: implications           mental team and contributed to the modeling theory. All contributed text and
+    for end uses. Environ. Sci. Technol. 49, 3237–3245 (2015).                              determined research directions.
+63. Samaras, C. & Meisterling, K. Life cycle assessment of greenhouse gas emissions
+    from plug-in hybrid vehicles: implications for policy. Environ. Sci. Technol. 42,
+    3170–3176 (2008).                                                                       Additional information
+64. Dunn, J. B., Gaines, L., Sullivan, J. & Wang, M. Q. Impact of recycling on cradle-to-   Supplementary Information accompanies this paper at https://doi.org/10.1038/s41467-
+    gate energy consumption and greenhouse gas emissions of automotive lithium-ion          017-02411-5.
+    batteries. Environ. Sci. Technol. 46, 12704–12710 (2012).
+65. Notter, D. A. et al. Contribution of li-ion batteries to the environmental impact       Competing interests: The authors declare no competing ﬁnancial interests.
+    of electric vehicles. Environ. Sci. Technol. 44, 6550–6556 (2010).
+66. Zackrisson, M., Avellán, L. & Orlenius, J. Life cycle assessment of lithium-ion         Reprints and permission information is available online at http://npg.nature.com/
+    batteries for plug-in hybrid electric vehicles—critical issues. J. Clean. Prod. 18,     reprintsandpermissions/
+    1519–1529 (2010).
+67. Majeau-Bettez, G., Hawkins, T. R. & Strømman, A. H. Life cycle environmental            Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in
+    assessment of lithium-ion and nickel metal hydride batteries for plug-in hybrid         published maps and institutional afﬁliations.
+    and battery electric vehicles. Environ. Sci. Technol. 45, 4548–4554 (2011).
+68. Hawkins, T. R., Singh, B., Majeau-Bettez, G. & Strømman, A. H. Comparative
+    environmental life cycle assessment of conventional and electric vehicles. J. Ind.
+    Ecol. 17, 53–64 (2013).                                                                                   Open Access This article is licensed under a Creative Commons
+69. Li, S., Cheng, X., Chen, Y. & Zhang, H. The optimal placement of sensors in square                        Attribution 4.0 International License, which permits use, sharing,
+    target regions with varying boundary length. Proc. Eng. 62, 899–906 (2013).             adaptation, distribution and reproduction in any medium or format, as long as you give
+70. USGS. Dasymetric Mapping: An Alternative Approach to Visually and                       appropriate credit to the original author(s) and the source, provide a link to the Creative
+    Statistically Enhancing Population Density (United States Geological Survey,            Commons license, and indicate if changes were made. The images or other third party
+    Reston, VA, USA, 2017).                                                                 material in this article are included in the article’s Creative Commons license, unless
+71. Kopera, J. J. Inside the Nickel metal hydride battery. Cobasys MI USA.                  indicated otherwise in a credit line to the material. If material is not included in the
+    http://www.cobasys.com/pdf/tutorial/inside_nimh_battery_technology.pdf                  article’s Creative Commons license and your intended use is not permitted by statutory
+    (2004).                                                                                 regulation or exceeds the permitted use, you will need to obtain permission directly from
+72. Energizer Battery Manufacturing Inc. Product datasheet ENERGIZER NH15-                  the copyright holder. To view a copy of this license, visit http://creativecommons.org/
+    2300. Form No. EBC—7102WB. http://data.energizer.com/PDFs/nh15-2300.                    licenses/by/4.0/.
+    pdf (2010).
+73. Beck, F. & Rüetschi, P. Rechargeable batteries with aqueous electrolytes.
+                                                                                            © The Author(s) 2018
+    Electrochim. Acta 45, 2467–2482 (2000).
+
+
+
+
+NATURE COMMUNICATIONS | (2018) 9: 409 | DOI: 10.1038/s41467-017-02411-5 | www.nature.com/naturecommunications                                                                      13
+

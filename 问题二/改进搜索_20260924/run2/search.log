@@ -1,0 +1,30 @@
+CANDIDATES 26821
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\tool\anaconda3\Lib\concurrent\futures\process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "D:\研究生\比赛\数学建模\2026\问题二\改进搜索_20260924\run2\search_expanded_run2.py", line 106, in worker
+    if validate(data,p):archive_add(archive,p)
+       ~~~~~~~~^^^^^^^^
+  File "D:\研究生\比赛\数学建模\2026\问题二\改进搜索_20260924\run2\search_expanded_run2.py", line 34, in validate
+    if not checks['all']:raise AssertionError(errors[:5])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['identifiers: empty/duplicate/missing route IDs']
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\研究生\比赛\数学建模\2026\问题二\改进搜索_20260924\run2\search_expanded_run2.py", line 284, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\研究生\比赛\数学建模\2026\问题二\改进搜索_20260924\run2\search_expanded_run2.py", line 279, in main
+    results=[future.result() for future in as_completed(jobs)]
+             ~~~~~~~~~~~~~^^
+  File "E:\tool\anaconda3\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "E:\tool\anaconda3\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+AssertionError: ['identifiers: empty/duplicate/missing route IDs']

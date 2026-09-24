@@ -1,0 +1,21 @@
+{
+  "seconds": 18.665320500032976,
+  "variables": 299116,
+  "constraints": 860097,
+  "stages": [
+    {
+      "stage": "N",
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "incumbent_available": false,
+      "bound": null,
+      "gap": null
+    }
+  ],
+  "route_pool": 1457,
+  "required": 0,
+  "mode": "N",
+  "caps": null,
+  "model_scope": "certified finite route/position/relay-slot model; 30000s search horizon",
+  "resource_pairs": false
+}

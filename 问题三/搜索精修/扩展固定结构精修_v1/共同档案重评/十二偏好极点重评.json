@@ -1,0 +1,158 @@
+[
+  {
+    "vertex": 1,
+    "weight": [
+      0.4,
+      0.1,
+      0.25,
+      0.25
+    ],
+    "archive_minimum_utility": -0.047589305708542355,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 2,
+    "weight": [
+      0.4,
+      0.25,
+      0.1,
+      0.25
+    ],
+    "archive_minimum_utility": -0.0336381241028328,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 3,
+    "weight": [
+      0.4,
+      0.25,
+      0.25,
+      0.1
+    ],
+    "archive_minimum_utility": 0.0008170463793841774,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 4,
+    "weight": [
+      0.1,
+      0.4,
+      0.25,
+      0.25
+    ],
+    "archive_minimum_utility": -0.01941934715145012,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 5,
+    "weight": [
+      0.25,
+      0.4,
+      0.1,
+      0.25
+    ],
+    "archive_minimum_utility": -0.019553144824286682,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 6,
+    "weight": [
+      0.25,
+      0.4,
+      0.25,
+      0.1
+    ],
+    "archive_minimum_utility": 0.014902025657930298,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 7,
+    "weight": [
+      0.1,
+      0.25,
+      0.4,
+      0.25
+    ],
+    "archive_minimum_utility": -0.03337052875715968,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 8,
+    "weight": [
+      0.25,
+      0.1,
+      0.4,
+      0.25
+    ],
+    "archive_minimum_utility": -0.04745550803570579,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 9,
+    "weight": [
+      0.25,
+      0.25,
+      0.4,
+      0.1
+    ],
+    "archive_minimum_utility": 0.000950844052220738,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 10,
+    "weight": [
+      0.1,
+      0.25,
+      0.25,
+      0.4
+    ],
+    "archive_minimum_utility": -0.06782569923937666,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 11,
+    "weight": [
+      0.25,
+      0.1,
+      0.25,
+      0.4
+    ],
+    "archive_minimum_utility": -0.08191067851792277,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  },
+  {
+    "vertex": 12,
+    "weight": [
+      0.25,
+      0.25,
+      0.1,
+      0.4
+    ],
+    "archive_minimum_utility": -0.06795949691221323,
+    "archive_optimum_ids": [
+      "CA01"
+    ]
+  }
+]

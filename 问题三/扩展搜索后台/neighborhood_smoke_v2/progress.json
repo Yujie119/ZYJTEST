@@ -1,0 +1,83 @@
+{
+  "state": "completed",
+  "updated_utc": "2026-09-23T20:49:43.991469+00:00",
+  "elapsed_s": 10.928693099995144,
+  "rounds": 2,
+  "new_verified_count": 0,
+  "new_nondominated_count": 0,
+  "existing_seed_count": 9,
+  "smoke_control": {
+    "passed": true,
+    "physical_status": "PASS",
+    "raw_status": "PASS",
+    "battery_status": "PASS",
+    "physical_checks": 1015,
+    "raw_checks": 452,
+    "battery_checks": 307,
+    "evidence": [
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke_v2\\smoke_existing_seed_control\\existing_seed_DEM核验.json",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke_v2\\smoke_existing_seed_control\\existing_seed_原始算术核验.json",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke_v2\\smoke_existing_seed_control\\existing_seed_电池位置核验.json"
+    ],
+    "meaning": "Existing verified seed, not a new solution discovered by this worker"
+  },
+  "attempts": [
+    {
+      "round": 0,
+      "mode": "C",
+      "kind": "free_joint_retiming",
+      "started_utc": "2026-09-23T20:49:35.837665+00:00",
+      "seed_objective": [
+        24,
+        65.11205028199753,
+        9165.154435126618,
+        465.2583642491526
+      ],
+      "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "route_instances": 31,
+      "patterns": 20,
+      "caps": {
+        "N": 24.0,
+        "E": 65.11205028199753,
+        "L": 465.2583642491526
+      },
+      "neighborhood_only_lower_bound": null,
+      "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+      "solver_elapsed_s": 4.004473800014239,
+      "accepted_as_feasible": false,
+      "finished_utc": "2026-09-23T20:49:39.888724+00:00"
+    },
+    {
+      "round": 1,
+      "mode": "E",
+      "kind": "two_route_box_vehicle_neighborhood",
+      "started_utc": "2026-09-23T20:49:39.890985+00:00",
+      "seed_objective": [
+        24,
+        65.11205028199753,
+        9165.154435126618,
+        465.2583642491526
+      ],
+      "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\mapped_witness\\已核验方案.json",
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "route_instances": 65,
+      "patterns": 38,
+      "caps": {
+        "N": 25.0,
+        "C": 9345.154435126618,
+        "L": 565.2583642491526
+      },
+      "neighborhood_only_lower_bound": null,
+      "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+      "solver_elapsed_s": 4.018619899987243,
+      "accepted_as_feasible": false,
+      "finished_utc": "2026-09-23T20:49:43.989572+00:00"
+    }
+  ],
+  "scope": "O01-exchange only; no spare carriage; whole-sortie original energy limits retained",
+  "bounds_scope": "Each bound belongs ONLY to its frozen neighborhood, caps, positions, slots and horizon; never merge with a larger-library lower bound.",
+  "original_global_optimality_claim": false,
+  "stop_requested": false,
+  "physical_verification_may_finish_after_solver_budget": true
+}

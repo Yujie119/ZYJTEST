@@ -1,0 +1,101 @@
+{
+  "scope": "O01-only battery replacement; no carried spare batteries; fixed route/relay library",
+  "expert_extended_swap_model_solved": false,
+  "direct_runs": [
+    {
+      "mode": "C",
+      "caps": {
+        "N": 24.000001,
+        "E": 65.12007,
+        "L": 465.2585
+      },
+      "elapsed_s": 300.27177839999786,
+      "rounds": 4,
+      "lower_bound": 6786.438811950914,
+      "external_witness_upper_bound": 9165.85322827993,
+      "relative_gap": 0.25959551795872887,
+      "same_frozen_scope_verified": true,
+      "external_witness_satisfies_caps": true,
+      "new_complete_incumbent": false,
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "file": "全局直接求解/扩展搜索_v3/C/直接联合MILP结果.json"
+    },
+    {
+      "mode": "E",
+      "caps": {
+        "N": 24.000001,
+        "C": 9165.854,
+        "L": 465.2585
+      },
+      "elapsed_s": 300.17641650000587,
+      "rounds": 3,
+      "lower_bound": 60.7353168350321,
+      "external_witness_upper_bound": 65.12006866674481,
+      "relative_gap": 0.06733334164851541,
+      "same_frozen_scope_verified": true,
+      "external_witness_satisfies_caps": true,
+      "new_complete_incumbent": false,
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "file": "全局直接求解/扩展搜索_v3/E/直接联合MILP结果.json"
+    },
+    {
+      "mode": "L",
+      "caps": {
+        "N": 24.000001,
+        "E": 65.12007,
+        "C": 9165.854
+      },
+      "elapsed_s": 300.2349983000313,
+      "rounds": 3,
+      "lower_bound": 0.0,
+      "external_witness_upper_bound": 465.25841077498995,
+      "relative_gap": 1.0,
+      "same_frozen_scope_verified": true,
+      "external_witness_satisfies_caps": true,
+      "new_complete_incumbent": false,
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "file": "全局直接求解/扩展搜索_v3/L/直接联合MILP结果.json"
+    },
+    {
+      "mode": "N",
+      "caps": {
+        "E": 65.12007,
+        "C": 9165.854,
+        "L": 465.2585
+      },
+      "elapsed_s": 300.6489278000081,
+      "rounds": 4,
+      "lower_bound": 21.0,
+      "external_witness_upper_bound": 24,
+      "relative_gap": 0.125,
+      "same_frozen_scope_verified": true,
+      "external_witness_satisfies_caps": true,
+      "new_complete_incumbent": false,
+      "status": "solver_limit_or_rejection_without_new_incumbent",
+      "file": "全局直接求解/扩展搜索_v3/N/直接联合MILP结果.json"
+    }
+  ],
+  "summed_process_elapsed_s": 1201.3321210000431,
+  "note": "Summed process elapsed is not total wall clock or measured CPU time; the four runs were concurrent.",
+  "fixed_structure_elapsed_s": 23.844943700009026,
+  "fixed_structure_verified_count": 8,
+  "old_objective": [
+    24,
+    65.12006866674481,
+    9170.432679280624,
+    465.25841077498995
+  ],
+  "improved_objective": [
+    24,
+    65.11205028199753,
+    9165.154435126618,
+    465.2583642491526
+  ],
+  "improved_minus_old": [
+    0,
+    -0.00801838474728811,
+    -5.278244154005733,
+    -4.652583737652094e-05
+  ],
+  "full_space_global_optimality": false
+}

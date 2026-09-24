@@ -1,0 +1,793 @@
+{
+  "method": "all_column_direct_joint_MILP_with_delayed_exact_constraints",
+  "status": "solver_limit_or_rejection_without_new_incumbent",
+  "scalar_objective": "L",
+  "epsilon_caps": {
+    "N": 24.000001,
+    "E": 65.12007,
+    "C": 9165.854
+  },
+  "candidate_plan": null,
+  "finite_model_valid_lower_bound": 0.0,
+  "iteration_count": 3,
+  "iterations": [
+    {
+      "iteration": 0,
+      "all_route_instances_still_selectable": 1445,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "incumbent_available": true,
+      "objective_mode": "L",
+      "solver_objective": 0.0,
+      "dual_bound": 0.0,
+      "mip_gap": 0.0,
+      "nodes": 1,
+      "max_constraint_violation": 0.0,
+      "variables": 19745,
+      "constraints": 24727,
+      "route_instances": 1445,
+      "loaded_route_blocks": 20,
+      "loaded_transport_pairs": 81,
+      "building_s": 1.0551709999563172,
+      "elapsed_s": 6.223237999947742,
+      "mip_rel_gap_requested": 0.0,
+      "threads": 1,
+      "selected_routes": 20,
+      "objective_recomputed": [
+        21,
+        64.83986405201472,
+        3006.8503793003724,
+        0.0
+      ],
+      "newly_loaded_route_blocks": 14,
+      "newly_loaded_resource_pairs": 81,
+      "transport_conflicts": 123,
+      "incomplete_communication": 14,
+      "accepted_as_feasible": false
+    },
+    {
+      "iteration": 1,
+      "all_route_instances_still_selectable": 1445,
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "incumbent_available": false,
+      "objective_mode": "L",
+      "solver_objective": null,
+      "dual_bound": null,
+      "mip_gap": null,
+      "nodes": null,
+      "max_constraint_violation": null,
+      "variables": 22592,
+      "constraints": 34458,
+      "route_instances": 1445,
+      "loaded_route_blocks": 34,
+      "loaded_transport_pairs": 162,
+      "building_s": 1.0937947999918833,
+      "elapsed_s": 45.144794999971054,
+      "mip_rel_gap_requested": 0.0,
+      "threads": 1,
+      "accepted_as_feasible": false
+    },
+    {
+      "iteration": 2,
+      "all_route_instances_still_selectable": 1445,
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "incumbent_available": false,
+      "objective_mode": "L",
+      "solver_objective": null,
+      "dual_bound": null,
+      "mip_gap": null,
+      "nodes": null,
+      "max_constraint_violation": null,
+      "variables": 22592,
+      "constraints": 34458,
+      "route_instances": 1445,
+      "loaded_route_blocks": 34,
+      "loaded_transport_pairs": 162,
+      "building_s": 1.090931999962777,
+      "elapsed_s": 248.77220599999418,
+      "mip_rel_gap_requested": 0.0,
+      "threads": 1,
+      "accepted_as_feasible": false
+    }
+  ],
+  "elapsed_s": 300.2349983000313,
+  "loaded_route_ids": [
+    "DP000027#I01",
+    "DP000062#I01",
+    "DP000270#I01",
+    "DP000277#I01",
+    "DP000287#I01",
+    "DP000319#I01",
+    "DP000403#I01",
+    "DP000414#I01",
+    "DP000421#I01",
+    "DP000435#I01",
+    "DP000441#I01",
+    "DP000446#I01",
+    "DP000450#I01",
+    "DP000460#I01",
+    "DP000479#I01",
+    "DP000512#I01",
+    "DP000533#I01",
+    "DP000537#I01",
+    "DP000553#I01",
+    "DP000566#I01",
+    "DP000575#I01",
+    "DP000615#I01",
+    "DP000651#I01",
+    "DP000664#I01",
+    "DP000707#I01",
+    "DP000752#I01",
+    "DP000784#I01",
+    "DP000835#I01",
+    "DP000862#I01",
+    "DP000911#I01",
+    "DP000970#I01",
+    "DP001013#I01",
+    "DP001043#I01",
+    "DP001088#I01"
+  ],
+  "resource_pairs": [
+    [
+      "DP000270#I01",
+      "DP000270#I02"
+    ],
+    [
+      "DP000270#I01",
+      "DP000277#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000287#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000319#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000403#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000414#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000421#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000435#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000441#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000446#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000450#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000479#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000512#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000533#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000537#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000270#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000277#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000403#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000414#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000421#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000435#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000446#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000460#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000533#I01"
+    ],
+    [
+      "DP000270#I02",
+      "DP000566#I01"
+    ],
+    [
+      "DP000277#I01",
+      "DP000403#I01"
+    ],
+    [
+      "DP000277#I01",
+      "DP000414#I01"
+    ],
+    [
+      "DP000277#I01",
+      "DP000421#I01"
+    ],
+    [
+      "DP000277#I01",
+      "DP000435#I01"
+    ],
+    [
+      "DP000277#I01",
+      "DP000446#I01"
+    ],
+    [
+      "DP000277#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000277#I01",
+      "DP000533#I01"
+    ],
+    [
+      "DP000277#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000287#I01",
+      "DP000319#I01"
+    ],
+    [
+      "DP000287#I01",
+      "DP000441#I01"
+    ],
+    [
+      "DP000287#I01",
+      "DP000450#I01"
+    ],
+    [
+      "DP000287#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000287#I01",
+      "DP000479#I01"
+    ],
+    [
+      "DP000287#I01",
+      "DP000512#I01"
+    ],
+    [
+      "DP000287#I01",
+      "DP000537#I01"
+    ],
+    [
+      "DP000287#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000319#I01",
+      "DP000441#I01"
+    ],
+    [
+      "DP000319#I01",
+      "DP000450#I01"
+    ],
+    [
+      "DP000319#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000319#I01",
+      "DP000479#I01"
+    ],
+    [
+      "DP000319#I01",
+      "DP000512#I01"
+    ],
+    [
+      "DP000319#I01",
+      "DP000537#I01"
+    ],
+    [
+      "DP000319#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000403#I01",
+      "DP000414#I01"
+    ],
+    [
+      "DP000403#I01",
+      "DP000421#I01"
+    ],
+    [
+      "DP000403#I01",
+      "DP000435#I01"
+    ],
+    [
+      "DP000403#I01",
+      "DP000446#I01"
+    ],
+    [
+      "DP000403#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000403#I01",
+      "DP000533#I01"
+    ],
+    [
+      "DP000403#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000414#I01",
+      "DP000421#I01"
+    ],
+    [
+      "DP000414#I01",
+      "DP000435#I01"
+    ],
+    [
+      "DP000414#I01",
+      "DP000446#I01"
+    ],
+    [
+      "DP000414#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000414#I01",
+      "DP000533#I01"
+    ],
+    [
+      "DP000414#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000421#I01",
+      "DP000435#I01"
+    ],
+    [
+      "DP000421#I01",
+      "DP000446#I01"
+    ],
+    [
+      "DP000421#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000421#I01",
+      "DP000533#I01"
+    ],
+    [
+      "DP000421#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000435#I01",
+      "DP000446#I01"
+    ],
+    [
+      "DP000435#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000435#I01",
+      "DP000533#I01"
+    ],
+    [
+      "DP000435#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000441#I01",
+      "DP000450#I01"
+    ],
+    [
+      "DP000441#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000441#I01",
+      "DP000479#I01"
+    ],
+    [
+      "DP000441#I01",
+      "DP000512#I01"
+    ],
+    [
+      "DP000441#I01",
+      "DP000537#I01"
+    ],
+    [
+      "DP000441#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000446#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000446#I01",
+      "DP000533#I01"
+    ],
+    [
+      "DP000446#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000450#I01",
+      "DP000460#I01"
+    ],
+    [
+      "DP000450#I01",
+      "DP000479#I01"
+    ],
+    [
+      "DP000450#I01",
+      "DP000512#I01"
+    ],
+    [
+      "DP000450#I01",
+      "DP000537#I01"
+    ],
+    [
+      "DP000450#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000460#I01",
+      "DP000479#I01"
+    ],
+    [
+      "DP000460#I01",
+      "DP000512#I01"
+    ],
+    [
+      "DP000460#I01",
+      "DP000533#I01"
+    ],
+    [
+      "DP000460#I01",
+      "DP000537#I01"
+    ],
+    [
+      "DP000460#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000460#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000479#I01",
+      "DP000512#I01"
+    ],
+    [
+      "DP000479#I01",
+      "DP000537#I01"
+    ],
+    [
+      "DP000479#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000512#I01",
+      "DP000537#I01"
+    ],
+    [
+      "DP000512#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000533#I01",
+      "DP000566#I01"
+    ],
+    [
+      "DP000537#I01",
+      "DP000553#I01"
+    ],
+    [
+      "DP000575#I01",
+      "DP000586#I01"
+    ],
+    [
+      "DP000575#I01",
+      "DP000664#I01"
+    ],
+    [
+      "DP000575#I01",
+      "DP000752#I01"
+    ],
+    [
+      "DP000575#I01",
+      "DP000835#I01"
+    ],
+    [
+      "DP000575#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000575#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000575#I01",
+      "DP001088#I01"
+    ],
+    [
+      "DP000586#I01",
+      "DP000664#I01"
+    ],
+    [
+      "DP000586#I01",
+      "DP000752#I01"
+    ],
+    [
+      "DP000586#I01",
+      "DP000835#I01"
+    ],
+    [
+      "DP000586#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000586#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000586#I01",
+      "DP001088#I01"
+    ],
+    [
+      "DP000615#I01",
+      "DP000651#I01"
+    ],
+    [
+      "DP000615#I01",
+      "DP000707#I01"
+    ],
+    [
+      "DP000615#I01",
+      "DP000784#I01"
+    ],
+    [
+      "DP000615#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000615#I01",
+      "DP000911#I01"
+    ],
+    [
+      "DP000615#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000615#I01",
+      "DP001013#I01"
+    ],
+    [
+      "DP000615#I01",
+      "DP001043#I01"
+    ],
+    [
+      "DP000651#I01",
+      "DP000707#I01"
+    ],
+    [
+      "DP000651#I01",
+      "DP000784#I01"
+    ],
+    [
+      "DP000651#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000651#I01",
+      "DP000911#I01"
+    ],
+    [
+      "DP000651#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000651#I01",
+      "DP001013#I01"
+    ],
+    [
+      "DP000651#I01",
+      "DP001043#I01"
+    ],
+    [
+      "DP000664#I01",
+      "DP000752#I01"
+    ],
+    [
+      "DP000664#I01",
+      "DP000835#I01"
+    ],
+    [
+      "DP000664#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000664#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000664#I01",
+      "DP001088#I01"
+    ],
+    [
+      "DP000707#I01",
+      "DP000784#I01"
+    ],
+    [
+      "DP000707#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000707#I01",
+      "DP000911#I01"
+    ],
+    [
+      "DP000707#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000707#I01",
+      "DP001013#I01"
+    ],
+    [
+      "DP000707#I01",
+      "DP001043#I01"
+    ],
+    [
+      "DP000752#I01",
+      "DP000835#I01"
+    ],
+    [
+      "DP000752#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000752#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000752#I01",
+      "DP001088#I01"
+    ],
+    [
+      "DP000784#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000784#I01",
+      "DP000911#I01"
+    ],
+    [
+      "DP000784#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000784#I01",
+      "DP001013#I01"
+    ],
+    [
+      "DP000784#I01",
+      "DP001043#I01"
+    ],
+    [
+      "DP000835#I01",
+      "DP000862#I01"
+    ],
+    [
+      "DP000835#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000835#I01",
+      "DP001088#I01"
+    ],
+    [
+      "DP000862#I01",
+      "DP000911#I01"
+    ],
+    [
+      "DP000862#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000862#I01",
+      "DP001013#I01"
+    ],
+    [
+      "DP000862#I01",
+      "DP001043#I01"
+    ],
+    [
+      "DP000862#I01",
+      "DP001088#I01"
+    ],
+    [
+      "DP000911#I01",
+      "DP000970#I01"
+    ],
+    [
+      "DP000911#I01",
+      "DP001013#I01"
+    ],
+    [
+      "DP000911#I01",
+      "DP001043#I01"
+    ],
+    [
+      "DP000970#I01",
+      "DP001013#I01"
+    ],
+    [
+      "DP000970#I01",
+      "DP001043#I01"
+    ],
+    [
+      "DP000970#I01",
+      "DP001088#I01"
+    ],
+    [
+      "DP001013#I01",
+      "DP001043#I01"
+    ]
+  ],
+  "scope": {
+    "route_instances": 1445,
+    "relay_positions": 24,
+    "relay_slots_per_uav": 3,
+    "horizon_s": 30000,
+    "communication_assignment": "one relay per original certified atomic interval; merge=False",
+    "original_continuous_problem_global_optimality": false,
+    "independent_physics_verification_required": true,
+    "multiobjective_or_minimax_regret_optimum": false
+  },
+  "comparison": "Existing solve_q3.py ALNS outputs unchanged; compare scalar objectives only with matching caps."
+}

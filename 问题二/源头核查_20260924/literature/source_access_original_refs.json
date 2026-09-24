@@ -1,0 +1,90 @@
+[
+  {
+    "name": "task_ref_01_xinhua",
+    "url": "https://www.xinhuanet.com/politics/20260709/acf8e4b353304bb78007d8224f1cd2ef/c.html",
+    "resolved_url": "https://www.xinhuanet.com/politics/20260709/acf8e4b353304bb78007d8224f1cd2ef/c.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "bytes": 10970,
+    "file": "task_ref_01_xinhua.html",
+    "pdf": false,
+    "sha256": "20729a73027cc38b8e7c7484785d5547c9798f62a4963f5f89e9ff997c14237f"
+  },
+  {
+    "name": "task_ref_02_xinhua",
+    "url": "https://www.news.cn/local/20260712/8bd1f64af3124569b5cf4415fc013acd/c.html",
+    "resolved_url": "https://www.news.cn/local/20260712/8bd1f64af3124569b5cf4415fc013acd/c.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "bytes": 25553,
+    "file": "task_ref_02_xinhua.html",
+    "pdf": false,
+    "sha256": "7e345b31f0c02a016148552b064bffc425e1e77cd5fd48a595f7b11f2b27f5d1"
+  },
+  {
+    "name": "task_ref_03_copernicus",
+    "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+    "resolved_url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+    "status": 200,
+    "type": "text/html; charset=UTF-8",
+    "bytes": 110660,
+    "file": "task_ref_03_copernicus.html",
+    "pdf": false,
+    "sha256": "0efe662f324c72217edcbee1674ca8f2e601a4cc2c0aea7562679df47722d809"
+  },
+  {
+    "name": "task_ref_07_ti",
+    "url": "https://www.ti.com/lit/an/slaa287b/slaa287b.pdf",
+    "resolved_url": "https://www.ti.com/lit/an/slaa287b/slaa287b.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 521121,
+    "file": "task_ref_07_ti.pdf",
+    "pdf": true,
+    "sha256": "0d2daa4a12eda251efd23b613ef41adf313aebbbfdeabff03212b5bbcfe41d31"
+  },
+  {
+    "name": "task_ref_09_dji",
+    "url": "https://enterprise.dji.com/matrice-350-rtk/specs",
+    "resolved_url": "https://enterprise.dji.com/cn/matrice-350-rtk/specs",
+    "status": 200,
+    "type": "text/html;charset=utf-8",
+    "bytes": 497600,
+    "file": "task_ref_09_dji.html",
+    "pdf": false,
+    "sha256": "501f9b9e3be2607380ecb9c41ff3214473e2d8b73acc0655fe52f026cd65c083"
+  },
+  {
+    "name": "task_ref_10_doodle",
+    "url": "https://doodlelabs.com/news/sense-interference-avoidance-release/",
+    "resolved_url": "https://doodlelabs.com/news/sense-interference-avoidance-release/",
+    "status": 403,
+    "type": "text/plain; charset=utf-8",
+    "bytes": 59,
+    "file": "task_ref_10_doodle.xml",
+    "pdf": false,
+    "sha256": "fb54087b3381782f8cfec6350a18544a1a985264b928b65a7bd1675e13494658"
+  },
+  {
+    "name": "task_ref_06_itu_pdf",
+    "url": "https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.525-5-202411-I!!PDF-E.pdf",
+    "resolved_url": "https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.525-5-202411-I!!PDF-E.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 246217,
+    "file": "task_ref_06_itu_pdf.pdf",
+    "pdf": true,
+    "sha256": "55ff9bf5bb4534b91863fd84d760fe689e2f969b91db0ea786717fd078df1da5"
+  },
+  {
+    "name": "task_ref_05_trid_abstract",
+    "url": "https://trid.trb.org/view/1761397",
+    "resolved_url": "https://trid.trb.org/view/1761397",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "bytes": 52188,
+    "file": "task_ref_05_trid_abstract.html",
+    "pdf": false,
+    "sha256": "5b32ba24c3b135d76b6da4ee1db355d59db6057089bae706b8d62296bb61781c"
+  }
+]

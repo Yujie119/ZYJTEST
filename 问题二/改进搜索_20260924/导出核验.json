@@ -1,0 +1,28 @@
+{
+  "source_objective": [
+    25,
+    71.31909210428417,
+    6672.014331816174,
+    0.0
+  ],
+  "workbook_objective": [
+    25,
+    71.31909210428417,
+    6672.014331816174,
+    0.0
+  ],
+  "routes": 25,
+  "boxes": 80,
+  "archive_solutions": 11,
+  "uavs": 8,
+  "batteries": 14,
+  "formula_count": 876,
+  "all_formula_caches_verified": true,
+  "typed_numeric_columns_verified": true,
+  "one_final_solution_only": true,
+  "original_workbook_unchanged": true,
+  "source_independent_audit_matches": true,
+  "output": "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\改进搜索_20260924\\问题二_改进搜索结果.xlsx",
+  "sha256": "f6f986defd604618e691562ecacd9f431e524075dbc25782e506190906ec7895",
+  "formula_method": "Python restricted formula parser; Excel auto-recalculation on opening"
+}

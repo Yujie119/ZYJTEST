@@ -1,0 +1,36 @@
+[
+  {
+    "iteration": 0,
+    "all_route_instances_still_selectable": 64,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "incumbent_available": true,
+    "objective_mode": "N",
+    "solver_objective": 30.0,
+    "dual_bound": 30.0,
+    "mip_gap": 0.0,
+    "nodes": 409,
+    "max_constraint_violation": 9.094947017729282e-13,
+    "variables": 9814,
+    "constraints": 37685,
+    "route_instances": 64,
+    "loaded_route_blocks": 64,
+    "loaded_transport_pairs": 681,
+    "building_s": 0.11984609998762608,
+    "elapsed_s": 66.26724880002439,
+    "mip_rel_gap_requested": 0.0,
+    "threads": 1,
+    "selected_routes": 27,
+    "objective_recomputed": [
+      30,
+      79.83846141746082,
+      9973.32509541862,
+      413.1135397140188
+    ],
+    "newly_loaded_route_blocks": 0,
+    "newly_loaded_resource_pairs": 0,
+    "transport_conflicts": 0,
+    "incomplete_communication": 0,
+    "accepted_as_feasible": true
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "source": "archive_05",
+  "source_objective": [
+    25,
+    64.64255097271266,
+    9163.54886305258,
+    602.5438554866743
+  ],
+  "stages": [
+    {
+      "stage": "C",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "value": 9163.548863052572,
+      "bound": 9163.548863052572,
+      "gap": 0.0,
+      "violation": 1.8189894035458565e-12
+    },
+    {
+      "stage": "L",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "value": 602.5438554866732,
+      "bound": 602.5438554866732,
+      "gap": 0.0,
+      "violation": 1.8189894035458565e-12
+    },
+    {
+      "stage": "E",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "value": 3.9329063667346045,
+      "bound": 3.9329063667346045,
+      "gap": 0.0,
+      "violation": 1.8189894035458565e-12
+    }
+  ],
+  "scope": "fixed routes, box assignment, resources/order, relay positions/components and atomic providers; optimize times and charge branches",
+  "status": "PASS",
+  "objective": [
+    25,
+    64.63787853587301,
+    9163.548863152573,
+    602.5438555866731
+  ],
+  "change_from_source": [
+    0.0,
+    -0.004672436839641136,
+    9.999348549172282e-08,
+    9.999882877309574e-08
+  ],
+  "change_from_official": [
+    1.0,
+    -0.48219013087179974,
+    -6.883816128050967,
+    137.28544481168313
+  ],
+  "physical_check_count": 1030,
+  "raw_check_count": 450
+}

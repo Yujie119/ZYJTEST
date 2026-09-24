@@ -1,0 +1,36 @@
+[
+  {
+    "iteration": 0,
+    "all_route_instances_still_selectable": 1445,
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "incumbent_available": true,
+    "objective_mode": "C",
+    "solver_objective": 8364.986176313392,
+    "dual_bound": 5644.247883366157,
+    "mip_gap": 0.32525317264138215,
+    "nodes": 3,
+    "max_constraint_violation": 2.9103830456733704e-11,
+    "variables": 22476,
+    "constraints": 35755,
+    "route_instances": 1445,
+    "loaded_route_blocks": 28,
+    "loaded_transport_pairs": 214,
+    "building_s": 1.0629683000152,
+    "elapsed_s": 44.24056780000683,
+    "mip_rel_gap_requested": 0.0,
+    "threads": 1,
+    "selected_routes": 27,
+    "objective_recomputed": [
+      31,
+      74.98990049734178,
+      8364.986176313392,
+      740.9904625748886
+    ],
+    "newly_loaded_route_blocks": 2,
+    "newly_loaded_resource_pairs": 45,
+    "transport_conflicts": 14,
+    "incomplete_communication": 2,
+    "accepted_as_feasible": false
+  }
+]

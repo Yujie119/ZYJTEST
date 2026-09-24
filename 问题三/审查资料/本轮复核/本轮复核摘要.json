@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "status": "PASS",
+    "checks": 803,
+    "objective": [
+      24,
+      65.12006866674481,
+      9170.432679280622,
+      465.25841077498995
+    ],
+    "certified_intervals": 284,
+    "communication_rows": 174
+  },
+  "witness": {
+    "status": "PASS",
+    "checks": 803,
+    "objective": [
+      24,
+      65.12006866674481,
+      9165.85322827993,
+      465.25841077498995
+    ],
+    "certified_intervals": 284,
+    "communication_rows": 174
+  },
+  "destination_mismatch_rejected": true,
+  "dominance_time_improvement_s": 4.579451000694462,
+  "raw_arithmetic_status": "PASS",
+  "scope": "Arithmetic uses raw workbooks and DEM without production energy/time functions; communication rerun uses legacy sweep kernel. No proof of global optimality."
+}

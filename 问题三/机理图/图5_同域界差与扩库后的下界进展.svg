@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="829.652406pt" height="342.03552pt" viewBox="0 0 829.652406 342.03552" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-24T16:46:07.768995</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 342.03552 
+L 829.652406 342.03552 
+L 829.652406 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.876406 270.72 
+L 373.466406 270.72 
+L 373.466406 77.832 
+L 56.876406 77.832 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 248.925505 108.043373 
+L 313.638375 108.043373 
+" clip-path="url(#pf281a4a539)" style="fill: none; stroke: #bac3c9; stroke-width: 6"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 296.853286 154.52241 
+L 313.638375 154.52241 
+" clip-path="url(#pf281a4a539)" style="fill: none; stroke: #bac3c9; stroke-width: 6"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 64.35491 201.001446 
+L 313.638375 201.001446 
+" clip-path="url(#pf281a4a539)" style="fill: none; stroke: #bac3c9; stroke-width: 6"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 282.477942 247.480482 
+L 313.638375 247.480482 
+" clip-path="url(#pf281a4a539)" style="fill: none; stroke: #bac3c9; stroke-width: 6"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m4e774e2199" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4e774e2199" x="64.35491" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="64.35491" y="285.32" transform="rotate(-0 64.35491 285.32)">0.00</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4e774e2199" x="126.675776" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="126.675776" y="285.32" transform="rotate(-0 126.675776 285.32)">0.25</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m4e774e2199" x="188.996642" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="188.996642" y="285.32" transform="rotate(-0 188.996642 285.32)">0.50</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m4e774e2199" x="251.317509" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="251.317509" y="285.32" transform="rotate(-0 251.317509 285.32)">0.75</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m4e774e2199" x="313.638375" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="313.638375" y="285.32" transform="rotate(-0 313.638375 285.32)">1.00</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 10.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="215.171406" y="300.19" transform="rotate(-0 215.171406 300.19)">各自子问题的目标值 / 已核验外部上界</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_10">
+      <defs>
+       <path id="mff99e3a60d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mff99e3a60d" x="56.876406" y="108.043373" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="49.876406" y="111.843373" transform="rotate(-0 49.876406 111.843373)">C (s)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="56.876406" y="154.52241" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="49.876406" y="158.32241" transform="rotate(-0 49.876406 158.32241)">E (kWh)</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="56.876406" y="201.001446" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="49.876406" y="204.801446" transform="rotate(-0 49.876406 204.801446)">L (s)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="56.876406" y="247.480482" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="49.876406" y="251.280482" transform="rotate(-0 49.876406 251.280482)">N (架次)</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 56.876406 270.72 
+L 56.876406 77.832 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 56.876406 270.72 
+L 373.466406 270.72 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mec46263439" d="M 0 4.472136 
+L 4.472136 0 
+L 0 -4.472136 
+L -4.472136 0 
+z
+" style="stroke: #b65d31"/>
+    </defs>
+    <g clip-path="url(#pf281a4a539)">
+     <use xlink:href="#mec46263439" x="248.925505" y="108.043373" style="fill: #b65d31; stroke: #b65d31"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m6602882d17" d="M 0 3.162278 
+C 0.838646 3.162278 1.643056 2.82908 2.236068 2.236068 
+C 2.82908 1.643056 3.162278 0.838646 3.162278 0 
+C 3.162278 -0.838646 2.82908 -1.643056 2.236068 -2.236068 
+C 1.643056 -2.82908 0.838646 -3.162278 0 -3.162278 
+C -0.838646 -3.162278 -1.643056 -2.82908 -2.236068 -2.236068 
+C -2.82908 -1.643056 -3.162278 -0.838646 -3.162278 0 
+C -3.162278 0.838646 -2.82908 1.643056 -2.236068 2.236068 
+C -1.643056 2.82908 -0.838646 3.162278 0 3.162278 
+z
+" style="stroke: #376b8e"/>
+    </defs>
+    <g clip-path="url(#pf281a4a539)">
+     <use xlink:href="#m6602882d17" x="313.638375" y="108.043373" style="fill: #376b8e; stroke: #376b8e"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.8px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="311.14554" y="101.536308" transform="rotate(-0 311.14554 101.536308)">LB=6786.439   UB=9165.853</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.2px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="327.348965" y="110.527373" transform="rotate(-0 327.348965 110.527373)">25.96%</text>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#pf281a4a539)">
+     <use xlink:href="#mec46263439" x="296.853286" y="154.52241" style="fill: #b65d31; stroke: #b65d31"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#pf281a4a539)">
+     <use xlink:href="#m6602882d17" x="313.638375" y="154.52241" style="fill: #376b8e; stroke: #376b8e"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.8px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="311.14554" y="148.015345" transform="rotate(-0 311.14554 148.015345)">LB=60.735   UB=65.120</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.2px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="327.348965" y="157.00641" transform="rotate(-0 327.348965 157.00641)">6.73%</text>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#pf281a4a539)">
+     <use xlink:href="#mec46263439" x="64.35491" y="201.001446" style="fill: #b65d31; stroke: #b65d31"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#pf281a4a539)">
+     <use xlink:href="#m6602882d17" x="313.638375" y="201.001446" style="fill: #376b8e; stroke: #376b8e"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.8px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="311.14554" y="194.494381" transform="rotate(-0 311.14554 194.494381)">LB=0.000   UB=465.258</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.2px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="327.348965" y="203.485446" transform="rotate(-0 327.348965 203.485446)">100.00%</text>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#pf281a4a539)">
+     <use xlink:href="#mec46263439" x="282.477942" y="247.480482" style="fill: #b65d31; stroke: #b65d31"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#pf281a4a539)">
+     <use xlink:href="#m6602882d17" x="313.638375" y="247.480482" style="fill: #376b8e; stroke: #376b8e"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.8px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="311.14554" y="240.973417" transform="rotate(-0 311.14554 240.973417)">LB=21.000   UB=24.000</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9.2px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="327.348965" y="249.964482" transform="rotate(-0 327.348965 249.964482)">12.50%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="215.171406" y="68.1876" transform="rotate(-0 215.171406 68.1876)">1445 实例库；各行 ε 条件分别冻结</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.3px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(140.771406 315.31152)">见证满足每行阈值并已完成模型映射</text>
+    <text style="font-size: 9.3px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(108.221406 326.65752)">界差属于对应标量子问题，不能合成多目标最优证书</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 14px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="18.885606" y="68.1876" transform="rotate(-0 18.885606 68.1876)">(a)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 500.102406 270.72 
+L 816.692406 270.72 
+L 816.692406 77.832 
+L 500.102406 77.832 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m4e774e2199" x="500.102406" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="500.102406" y="285.32" transform="rotate(-0 500.102406 285.32)">0</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m4e774e2199" x="550.756806" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="550.756806" y="285.32" transform="rotate(-0 550.756806 285.32)">20</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m4e774e2199" x="601.411206" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="601.411206" y="285.32" transform="rotate(-0 601.411206 285.32)">40</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m4e774e2199" x="652.065606" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="652.065606" y="285.32" transform="rotate(-0 652.065606 285.32)">60</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m4e774e2199" x="702.720006" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="702.720006" y="285.32" transform="rotate(-0 702.720006 285.32)">80</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m4e774e2199" x="753.374406" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="753.374406" y="285.32" transform="rotate(-0 753.374406 285.32)">100</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m4e774e2199" x="804.028806" y="270.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="804.028806" y="285.32" transform="rotate(-0 804.028806 285.32)">120</text>
+     </g>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 10.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="658.397406" y="300.19" transform="rotate(-0 658.397406 300.19)">累计子问题求解时间 (min)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_5">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="500.102406" y="263.952" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="493.102406" y="267.752" transform="rotate(-0 493.102406 267.752)">105</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="500.102406" y="230.112" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="493.102406" y="233.912" transform="rotate(-0 493.102406 233.912)">106</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="500.102406" y="196.272" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="493.102406" y="200.072" transform="rotate(-0 493.102406 200.072)">107</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="500.102406" y="162.432" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="493.102406" y="166.232" transform="rotate(-0 493.102406 166.232)">108</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="500.102406" y="128.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="493.102406" y="132.392" transform="rotate(-0 493.102406 132.392)">109</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mff99e3a60d" x="500.102406" y="94.752" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: end" x="493.102406" y="98.552" transform="rotate(-0 493.102406 98.552)">110</text>
+     </g>
+    </g>
+    <g id="text_36">
+     <text style="font-size: 10.5px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="471.524203" y="174.276" transform="rotate(-90 471.524203 174.276)">联合完成时间下界 (min)</text>
+    </g>
+   </g>
+   <g id="line2d_27">
+    <path d="M 512.772773 243.239164 
+L 525.445186 243.239164 
+L 525.445186 221.104379 
+L 538.121945 221.104379 
+L 538.121945 200.111199 
+L 550.802425 200.111199 
+L 550.802425 200.111199 
+L 798.979586 200.111199 
+L 798.979586 169.788219 
+" clip-path="url(#p409ee2a570)" style="fill: none; stroke: #b65d31; stroke-width: 1.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_28">
+    <path d="M 512.772773 256.2534 
+" clip-path="url(#p409ee2a570)" style="fill: none; stroke: #20262b; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m76f242e04f" d="M -3 3 
+L 3 -3 
+M -3 -3 
+L 3 3 
+" style="stroke: #20262b"/>
+    </defs>
+    <g clip-path="url(#p409ee2a570)">
+     <use xlink:href="#m76f242e04f" x="512.772773" y="256.2534" style="fill: #20262b; stroke: #20262b"/>
+    </g>
+   </g>
+   <g id="line2d_29">
+    <path d="M 525.445186 256.2534 
+" clip-path="url(#p409ee2a570)" style="fill: none; stroke: #20262b; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#p409ee2a570)">
+     <use xlink:href="#m76f242e04f" x="525.445186" y="256.2534" style="fill: #20262b; stroke: #20262b"/>
+    </g>
+   </g>
+   <g id="line2d_30">
+    <path d="M 538.121945 256.2534 
+" clip-path="url(#p409ee2a570)" style="fill: none; stroke: #20262b; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#p409ee2a570)">
+     <use xlink:href="#m76f242e04f" x="538.121945" y="256.2534" style="fill: #20262b; stroke: #20262b"/>
+    </g>
+   </g>
+   <g id="line2d_31">
+    <path d="M 798.979586 256.2534 
+" clip-path="url(#p409ee2a570)" style="fill: none; stroke: #20262b; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#p409ee2a570)">
+     <use xlink:href="#m76f242e04f" x="798.979586" y="256.2534" style="fill: #20262b; stroke: #20262b"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 500.102406 270.72 
+L 500.102406 77.832 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 500.102406 270.72 
+L 816.692406 270.72 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 703.266005 207.846698 
+Q 750.192474 189.187381 796.28781 170.858547 
+" style="fill: none; stroke: #b65d31; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 791.831891 170.478039 
+L 796.28781 170.858547 
+L 793.309853 174.194978 
+" style="fill: none; stroke: #b65d31; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #b65d31" transform="translate(639.402006 217.912)">最终有效下界</text>
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; fill: #b65d31" transform="translate(639.402006 230.112)">6466.957 s</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(515.931906 98.93416)">本轮未得到完整核验的上界</text>
+    <text style="font-size: 9.5px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(515.931906 110.52416)">不绘制“收敛到最优”或上下界闭合</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 10px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: middle" x="658.397406" y="68.1876" transform="rotate(-0 658.397406 68.1876)">1596 实例库；两小时 C 子问题</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 9.3px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(582.792766 315.31152)">底部 ×：曾返回不完整松弛解的轮次</text>
+    <text style="font-size: 9.3px; font-family: 'Noto Serif SC', 'Times New Roman'" transform="translate(602.597406 326.65752)">状态标记不对应纵轴目标值</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 14px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="462.111606" y="68.1876" transform="rotate(-0 462.111606 68.1876)">(b)</text>
+   </g>
+   <g id="PathCollection_9">
+    <defs>
+     <path id="m23f87c6cec" d="M 0 3.872983 
+L 3.872983 0 
+L 0 -3.872983 
+L -3.872983 0 
+z
+" style="stroke: #b65d31"/>
+    </defs>
+    <g clip-path="url(#p409ee2a570)">
+     <use xlink:href="#m23f87c6cec" x="512.772773" y="243.239164" style="fill: #b65d31; stroke: #b65d31"/>
+     <use xlink:href="#m23f87c6cec" x="525.445186" y="221.104379" style="fill: #b65d31; stroke: #b65d31"/>
+     <use xlink:href="#m23f87c6cec" x="538.121945" y="200.111199" style="fill: #b65d31; stroke: #b65d31"/>
+     <use xlink:href="#m23f87c6cec" x="550.802425" y="200.111199" style="fill: #b65d31; stroke: #b65d31"/>
+     <use xlink:href="#m23f87c6cec" x="798.979586" y="169.788219" style="fill: #b65d31; stroke: #b65d31"/>
+    </g>
+   </g>
+  </g>
+  <g id="legend_1">
+   <g id="line2d_32">
+    <path d="M 319.604406 20.61 
+L 328.604406 20.61 
+L 337.604406 20.61 
+" style="fill: none; stroke: #b65d31; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m6a4c8ac1d6" d="M 0 4.242641 
+L 4.242641 0 
+L 0 -4.242641 
+L -4.242641 0 
+z
+" style="stroke: #b65d31; stroke-linejoin: miter"/>
+    </defs>
+    <g>
+     <use xlink:href="#m6a4c8ac1d6" x="328.604406" y="20.61" style="fill: #b65d31; stroke: #b65d31; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 9px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="344.804406" y="23.76" transform="rotate(-0 344.804406 23.76)">有效下界</text>
+   </g>
+   <g id="line2d_33">
+    <defs>
+     <path id="m10fc0036b9" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #376b8e"/>
+    </defs>
+    <g>
+     <use xlink:href="#m10fc0036b9" x="407.804406" y="20.61" style="fill: #376b8e; stroke: #376b8e"/>
+    </g>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 9px; font-family: 'Noto Serif SC', 'Times New Roman'; text-anchor: start" x="424.004406" y="23.76" transform="rotate(-0 424.004406 23.76)">已核验外部上界（仅左图）</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf281a4a539">
+   <rect x="56.876406" y="77.832" width="316.59" height="192.888"/>
+  </clipPath>
+  <clipPath id="p409ee2a570">
+   <rect x="500.102406" y="77.832" width="316.59" height="192.888"/>
+  </clipPath>
+ </defs>
+</svg>

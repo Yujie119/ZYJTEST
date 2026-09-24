@@ -1,0 +1,49 @@
+{
+  "chapter": "5 only",
+  "source_final_sha256": "a2f8a50534fb39ebb06d80fca82a3432585fdfbb19dd4a66b75ee74fca82e54b",
+  "document_before_sha256": "e2401729eb7ba127c88635d5934b4b8327cd7f433688285e6d56966b38210e9f",
+  "document_after_sha256": "c636fe9571585dd43460eea0a7e363e17ce12fdea18970daf31dfd2acc2a842f",
+  "chapter_backup_sha256": "b87d470bfe32de136c9bbfe2cf783f21de29ff16163721d1a2770e4ab7a6531c",
+  "chapter_after_sha256": "60e7599cd689d694668abf7066cd5a9ccd8d1a7b5ccf0d9ffbfc8586fbca560e",
+  "outside_prefix_equal": true,
+  "outside_suffix_equal": true,
+  "outside_bytes_equal": true,
+  "whole_image_references_equal": true,
+  "chapter_image_count": 1,
+  "whole_image_count": 8,
+  "figure_placeholders_equal": true,
+  "figure_placeholder_count": 8,
+  "chapter_lines_before": 862,
+  "chapter_lines_after": 882,
+  "routes": 22,
+  "types": {
+    "B": 7,
+    "A": 9,
+    "C": 6
+  },
+  "visit_counts": {
+    "1": 17,
+    "2": 5
+  },
+  "actual_uavs": 7,
+  "actual_batteries": 14,
+  "hard_boxes": 31,
+  "hard_min_slack": 17.1979820270044,
+  "soft_late_boxes": 0,
+  "min_soc": 0.20942545342258811,
+  "last_delivery": 5808.412855457166,
+  "last_return": 6206.344443443169,
+  "last_full_charge": 8600.82124690003,
+  "archived_plans": 14,
+  "library_columns": 28216,
+  "objective": [
+    22,
+    65.51851671683666,
+    6206.344443443169,
+    0.0
+  ],
+  "regret_interval": [
+    0.011536646601719491,
+    0.18905108565680795
+  ]
+}

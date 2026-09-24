@@ -1,0 +1,17 @@
+{
+  "status": "completed_with_time_limited_stages",
+  "scope": "11 archived plans; each plan's candidate routes and box groups fixed; matching type UAVs, batteries, starts and resource order reopened per type; merged global C=max(route finish)",
+  "archive_count": 11,
+  "production_verify_all": true,
+  "raw_xlsx_geotiff_verify_all": true,
+  "objective_monotonicity": "All N and E unchanged; no polished C or L exceeds its source plan.",
+  "time_limited_stages": [
+    {"plan_index": 0, "vehicle": "A", "stage": "C"},
+    {"plan_index": 7, "vehicle": "B", "stage": "L"},
+    {"plan_index": 7, "vehicle": "B", "stage": "C"},
+    {"plan_index": 10, "vehicle": "B", "stage": "L"},
+    {"plan_index": 10, "vehicle": "B", "stage": "C"}
+  ],
+  "interpretation": "Time-limited stages provide verified feasible improvements, not exact per-type optimality. Other reported Optimal statuses certify only the fixed per-plan per-type subproblem.",
+  "artifacts": ["summary.json", "plan_00.json", "plan_01.json", "plan_02.json", "plan_03.json", "plan_04.json", "plan_05.json", "plan_06.json", "plan_07.json", "plan_08.json", "plan_09.json", "plan_10.json", "README.md", "hashes.json"]
+}

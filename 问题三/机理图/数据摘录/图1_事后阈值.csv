@@ -1,0 +1,4 @@
+﻿scenario,N_cap,E_cap,L_cap,known_eligible,representative
+1,24,65.2,650,4,CA04
+2,24,65.13,500,1,CA01
+3,24,64.95,500,0,

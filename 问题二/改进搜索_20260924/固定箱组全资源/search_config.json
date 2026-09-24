@@ -1,0 +1,28 @@
+{
+  "route_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\子问题二\\最终方案.json",
+  "route_source_sha256": "f5ada42c6d0787f6bb482ee30201e47b129373aad4ba668438badd1a24539459",
+  "original_objective": [
+    28,
+    75.71131596897939,
+    7567.094096939377,
+    200.565886509374
+  ],
+  "warm_objective": [
+    28,
+    75.71131596897939,
+    7567.094096939377,
+    70.64808661848737
+  ],
+  "open_variables": [
+    "uav",
+    "battery",
+    "start",
+    "order"
+  ],
+  "fixed_decisions": [
+    "all 28 candidate identities"
+  ],
+  "per_objective_seconds": 120,
+  "seed": 20260924,
+  "no_global_route_optimality_claim": true
+}

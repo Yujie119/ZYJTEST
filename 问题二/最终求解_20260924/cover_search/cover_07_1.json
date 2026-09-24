@@ -1,0 +1,82 @@
+{
+  "spec": {
+    "name": "cover_07_1",
+    "cap": {
+      "N": 26
+    },
+    "weights": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "schedule_weights": [
+      0,
+      0,
+      9.285714285714286e-05,
+      0.0005833333333333333
+    ],
+    "noise": 0.0016,
+    "seed": 2026092471,
+    "master_seconds": 12.0,
+    "schedule_seconds": 12.0
+  },
+  "master": {
+    "status": "Time limit reached",
+    "objective_proxy": 0.9800202507566854,
+    "proxy_dual_bound": 0.8829836949560963,
+    "proxy_not_actual_completion": true,
+    "residual": 0.0,
+    "N": 19,
+    "E": 61.81186295196964,
+    "workload_proxy": 9481.089646310238,
+    "selected_candidate_ids": [
+      "Kda5bec74a4db7f0e",
+      "Kaa37604ba58999d2",
+      "K1b50f64f7498ec8e",
+      "K2c538621508eec24",
+      "Kf58cdb03227f4730",
+      "K45d87be6ef446d50",
+      "K1eecbe2e24269c78",
+      "K8e2c748c649551ef",
+      "Kc0903fcc2fbf3c59",
+      "K1526eb750f035542",
+      "Kada50d43912b2f82",
+      "K3b9ffe6936063ff2",
+      "Kb4dcea9456a134a0",
+      "K645309ed991e9fa2",
+      "K8d90beceb5941288",
+      "Kbaf2e9c3c6aa3d02",
+      "K65be2ca9969bcd33",
+      "K6d5bedb3be0149a0",
+      "K7172711a53efb710"
+    ]
+  },
+  "plan": null,
+  "scheduling": {
+    "scope": "fixed_cover_actual_resource_schedule",
+    "status": "Infeasible",
+    "optimal": false,
+    "incumbent": false,
+    "warm_fallback": false,
+    "lower_bound": null,
+    "upper_bound": null,
+    "weights": [
+      0,
+      0,
+      9.285714285714286e-05,
+      0.0005833333333333333
+    ],
+    "epsilon": {},
+    "gap": null,
+    "matrix_residual": null,
+    "variables": 362,
+    "constraints": 1200,
+    "horizon": 70343.70943931126,
+    "seconds": 0.6199429999687709,
+    "seed": 2026092471,
+    "relaxation": false,
+    "nodes": 525
+  },
+  "verification": null,
+  "seconds": 14.792809600010514
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "source": "terminal_of_all_resources_polish_of_terminal_of_expanded_worker_4_step_56",
+    "objective": [
+      25,
+      71.31909210428417,
+      6672.014331816174,
+      0.0
+    ],
+    "recomputed_regret": [
+      0.05859641572496166,
+      0.3959623629643847
+    ],
+    "reported_regret": [
+      0.05859641572496166,
+      0.3959623629643847
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_all_resources_polish_of_direct_expanded_equal_preference",
+    "objective": [
+      23,
+      68.14991640976821,
+      7066.62791044095,
+      0.0
+    ],
+    "recomputed_regret": [
+      0.05701865034111053,
+      0.43494708581563524
+    ],
+    "reported_regret": [
+      0.05701865034111053,
+      0.43494708581563524
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_all_resources_polish_of_expanded_worker_3_step_56",
+    "objective": [
+      22,
+      67.35998571793408,
+      7831.124655517117,
+      51.21449236346475
+    ],
+    "recomputed_regret": [
+      0.262669132906618,
+      0.6405975683811427
+    ],
+    "reported_regret": [
+      0.262669132906618,
+      0.6405975683811427
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_all_resources_polish_of_terminal_of_expanded_worker_0_step_67",
+    "objective": [
+      23,
+      66.29741292296062,
+      7881.646246218171,
+      37.64777524470868
+    ],
+    "recomputed_regret": [
+      0.27216215114030406,
+      0.6429755074646053
+    ],
+    "reported_regret": [
+      0.27216215114030406,
+      0.6429755074646053
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_all_resources_polish_of_terminal_of_initializer_seed_20260975_mode_3",
+    "objective": [
+      21,
+      67.32235979591468,
+      8013.646246218171,
+      0.0
+    ],
+    "recomputed_regret": [
+      0.2735181965170881,
+      0.6514466319916128
+    ],
+    "reported_regret": [
+      0.2735181965170881,
+      0.6514466319916128
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_all_resources_polish_of_expanded_worker_2_step_19",
+    "objective": [
+      22,
+      64.3922692668716,
+      8337.140388078022,
+      42.238392078744454
+    ],
+    "recomputed_regret": [
+      0.36526267672666846,
+      0.7357890116857799
+    ],
+    "reported_regret": [
+      0.36526267672666846,
+      0.7357890116857799
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_all_resources_polish_of_expanded_worker_2_step_13",
+    "objective": [
+      22,
+      64.56560504372038,
+      8427.071898766839,
+      0.0
+    ],
+    "recomputed_regret": [
+      0.3654279815538315,
+      0.7368902610723449
+    ],
+    "reported_regret": [
+      0.3654279815538315,
+      0.7368902610723449
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_ALNS_comparison",
+    "objective": [
+      23,
+      63.26021230769617,
+      9069.567244129956,
+      109.8013979897079
+    ],
+    "recomputed_regret": [
+      0.5981438889784916,
+      0.96833480601041
+    ],
+    "reported_regret": [
+      0.5981438889784916,
+      0.96833480601041
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_all_resources_polish_of_terminal_of_expanded_worker_7_step_49",
+    "objective": [
+      21,
+      62.72052529403814,
+      9584.298606161949,
+      203.27678734880095
+    ],
+    "recomputed_regret": [
+      0.7427175337075984,
+      1.1142171131720784
+    ],
+    "reported_regret": [
+      0.7427175337075984,
+      1.1142171131720784
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_all_resources_polish_of_expanded_worker_0_step_24",
+    "objective": [
+      20,
+      60.9175261527664,
+      9163.54886305257,
+      446.62419790370546
+    ],
+    "recomputed_regret": [
+      0.7465998925396491,
+      1.1183639905728988
+    ],
+    "reported_regret": [
+      0.7465998925396491,
+      1.1183639905728988
+    ],
+    "match": true
+  },
+  {
+    "source": "terminal_of_fixed_original_resources_lateness_repair",
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "recomputed_regret": [
+      0.7862104818069398,
+      1.1568268724933715
+    ],
+    "reported_regret": [
+      0.7862104818069398,
+      1.1568268724933715
+    ],
+    "match": true
+  }
+]

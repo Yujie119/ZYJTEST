@@ -1,0 +1,12 @@
+{
+  "seconds": 35.0,
+  "task_seconds": 10.0,
+  "seed": 20260924,
+  "output": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\neighborhood_smoke",
+  "started_utc": "2026-09-23T20:48:22.538251+00:00",
+  "pid": 41836,
+  "scope": "O01-exchange only; no spare carriage; whole-sortie original energy limits retained",
+  "bounds_scope": "Each bound belongs ONLY to its frozen neighborhood, caps, positions, slots and horizon; never merge with a larger-library lower bound.",
+  "official_files_modified": false,
+  "threads_per_solver": 1
+}

@@ -1,0 +1,14 @@
+https://api.elsevier.com/content/article/pii/S1361920923000068
+doi:10.1016/j.trd.2023.103609
+1-s2.0-S1361920923000068
+10.1016/j.trd.2023.103609
+S1361-9209(23)00006-8
+Corrigendum to “Energy consumption models for delivery drones: A comparison and assessment” [Transp. Res. Part D: Transp. Environ. 90 (2021) 102668]
+Transportation Research Part D: Transport and Environment
+Journal
+13619209
+2023-02-28
+February 2023
+0
+false
+false

@@ -1,0 +1,473 @@
+{
+  "passed": true,
+  "test_count": 22,
+  "truth_method": "enumerate exact covers, compatible resource assignments, all task orders; earliest starts on each order",
+  "scope": "tiny abstract coefficient fixtures; does not prove complete route enumeration or physical assumptions",
+  "counts": {
+    "exact_covers": 16,
+    "enumerated_feasible_schedules": 523
+  },
+  "fixed_counts": {
+    "exact_covers": 5,
+    "enumerated_feasible_schedules": 36
+  },
+  "resource_scenarios": [
+    {
+      "name": "one_uav_two_batteries",
+      "exact_covers": 1,
+      "enumerated_feasible_schedules": 8
+    },
+    {
+      "name": "two_uavs_one_battery",
+      "exact_covers": 1,
+      "enumerated_feasible_schedules": 8
+    },
+    {
+      "name": "one_uav_one_battery",
+      "exact_covers": 1,
+      "enumerated_feasible_schedules": 2
+    }
+  ],
+  "cases": [
+    {
+      "name": "single_N",
+      "passed": true,
+      "oracle_optimum": 1.0,
+      "production_value": 1.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        1,
+        9.0,
+        8.0,
+        0.3333333333333333
+      ]
+    },
+    {
+      "name": "single_E",
+      "passed": true,
+      "oracle_optimum": 8.0,
+      "production_value": 8.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        1,
+        8.0,
+        10.0,
+        1.3333333333333333
+      ]
+    },
+    {
+      "name": "single_C",
+      "passed": true,
+      "oracle_optimum": 5.0,
+      "production_value": 5.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        3,
+        12.0,
+        5.0,
+        0.0
+      ]
+    },
+    {
+      "name": "single_L",
+      "passed": true,
+      "oracle_optimum": 0.0,
+      "production_value": 0.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        10.0,
+        9.0,
+        0.0
+      ]
+    },
+    {
+      "name": "positive_weighted",
+      "passed": true,
+      "oracle_optimum": 14.8,
+      "production_value": 14.8,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        8.0,
+        8.0,
+        0.0
+      ]
+    },
+    {
+      "name": "epsilon_NE",
+      "passed": true,
+      "oracle_optimum": 7.0,
+      "production_value": 7.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {
+        "N": 2,
+        "E": 9
+      },
+      "objective": [
+        2,
+        9.0,
+        7.0,
+        0.3333333333333333
+      ]
+    },
+    {
+      "name": "epsilon_C",
+      "passed": true,
+      "oracle_optimum": 8.0,
+      "production_value": 8.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {
+        "C": 8
+      },
+      "objective": [
+        2,
+        8.0,
+        8.0,
+        0.0
+      ]
+    },
+    {
+      "name": "epsilon_L",
+      "passed": true,
+      "oracle_optimum": 5.0,
+      "production_value": 5.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {
+        "L": 0.0
+      },
+      "objective": [
+        3,
+        12.0,
+        5.0,
+        0.0
+      ]
+    },
+    {
+      "name": "epsilon_all",
+      "passed": true,
+      "oracle_optimum": 7.0,
+      "production_value": 7.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {
+        "N": 3,
+        "E": 10,
+        "C": 12,
+        "L": 1.0
+      },
+      "objective": [
+        2,
+        10.0,
+        7.0,
+        0.3333333333333333
+      ]
+    },
+    {
+      "name": "infeasible_combination",
+      "passed": true,
+      "oracle_optimum": null,
+      "production_value": null,
+      "status": [
+        "Infeasible"
+      ],
+      "caps": {
+        "N": 1,
+        "E": 7.0
+      },
+      "objective": null
+    },
+    {
+      "name": "lex_C_LEN",
+      "passed": true,
+      "oracle_optimum": [
+        5.0,
+        0.0,
+        12.0,
+        3
+      ],
+      "production_value": [
+        5.0,
+        0.0,
+        12.0,
+        3
+      ],
+      "status": [
+        "Optimal",
+        "Optimal",
+        "Optimal",
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        3,
+        12.0,
+        5.0,
+        0.0
+      ]
+    },
+    {
+      "name": "lex_N_ECL",
+      "passed": true,
+      "oracle_optimum": [
+        1,
+        8.0,
+        10.0,
+        1.3333333333333333
+      ],
+      "production_value": [
+        1,
+        8.0,
+        10.0,
+        1.3333333333333333
+      ],
+      "status": [
+        "Optimal",
+        "Optimal",
+        "Optimal",
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        1,
+        8.0,
+        10.0,
+        1.3333333333333333
+      ]
+    },
+    {
+      "name": "frozen_external_interval",
+      "passed": true,
+      "oracle_optimum": [
+        7.0,
+        0.3333333333333333,
+        12.0,
+        3
+      ],
+      "production_value": [
+        7.0,
+        0.3333333333333333,
+        12.0,
+        3
+      ],
+      "status": [
+        "Optimal",
+        "Optimal",
+        "Optimal",
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        3,
+        12.0,
+        7.0,
+        0.3333333333333333
+      ]
+    },
+    {
+      "name": "one_uav_two_batteries_C",
+      "passed": true,
+      "oracle_optimum": 9.0,
+      "production_value": 9.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        9.0,
+        1.6666666666666667
+      ]
+    },
+    {
+      "name": "one_uav_two_batteries_L",
+      "passed": true,
+      "oracle_optimum": 1.3333333333333333,
+      "production_value": 1.3333333333333333,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        9.0,
+        1.3333333333333333
+      ]
+    },
+    {
+      "name": "one_uav_two_batteries_lex",
+      "passed": true,
+      "oracle_optimum": [
+        9.0,
+        1.3333333333333333,
+        2.0,
+        2
+      ],
+      "production_value": [
+        9.0,
+        1.3333333333333333,
+        2.0,
+        2
+      ],
+      "status": [
+        "Optimal",
+        "Optimal",
+        "Optimal",
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        9.0,
+        1.3333333333333333
+      ]
+    },
+    {
+      "name": "two_uavs_one_battery_C",
+      "passed": true,
+      "oracle_optimum": 11.0,
+      "production_value": 11.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        11.0,
+        2.3333333333333335
+      ]
+    },
+    {
+      "name": "two_uavs_one_battery_L",
+      "passed": true,
+      "oracle_optimum": 2.3333333333333335,
+      "production_value": 2.3333333333333335,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        11.0,
+        2.3333333333333335
+      ]
+    },
+    {
+      "name": "two_uavs_one_battery_lex",
+      "passed": true,
+      "oracle_optimum": [
+        11.0,
+        2.3333333333333335,
+        2.0,
+        2
+      ],
+      "production_value": [
+        11.0,
+        2.3333333333333335,
+        2.0,
+        2
+      ],
+      "status": [
+        "Optimal",
+        "Optimal",
+        "Optimal",
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        11.0,
+        2.3333333333333335
+      ]
+    },
+    {
+      "name": "one_uav_one_battery_C",
+      "passed": true,
+      "oracle_optimum": 11.0,
+      "production_value": 11.0,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        11.0,
+        2.3333333333333335
+      ]
+    },
+    {
+      "name": "one_uav_one_battery_L",
+      "passed": true,
+      "oracle_optimum": 2.3333333333333335,
+      "production_value": 2.3333333333333335,
+      "status": [
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        11.0,
+        2.3333333333333335
+      ]
+    },
+    {
+      "name": "one_uav_one_battery_lex",
+      "passed": true,
+      "oracle_optimum": [
+        11.0,
+        2.3333333333333335,
+        2.0,
+        2
+      ],
+      "production_value": [
+        11.0,
+        2.3333333333333335,
+        2.0,
+        2
+      ],
+      "status": [
+        "Optimal",
+        "Optimal",
+        "Optimal",
+        "Optimal"
+      ],
+      "caps": {},
+      "objective": [
+        2,
+        2.0,
+        11.0,
+        2.3333333333333335
+      ]
+    }
+  ]
+}

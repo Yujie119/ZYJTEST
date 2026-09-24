@@ -1,0 +1,26 @@
+{
+  "seconds": 300.0,
+  "round_seconds": 45.0,
+  "mode": "C",
+  "caps_json": "{N:24.000001,E:65.120070,L:465.2585}",
+  "route_file": "子问题一/累计候选路线.json",
+  "output_dir": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\扩展搜索_20260924\\C",
+  "slots_per_uav": 3,
+  "horizon": 30000,
+  "seed_reference": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\审查资料\\本轮复核\\直接模型基准映射方案.json",
+  "resume_state": null,
+  "display": false,
+  "seed_reference_metadata": {
+    "reference_objective": [
+      24,
+      65.12006866674481,
+      9165.85322827993,
+      465.25841077498995
+    ],
+    "matched_routes": 20,
+    "missing_routes": [],
+    "use": "seed_valid_constraints_only_no_route_fixes_no_upper_bound_claim"
+  },
+  "patterns": 1290,
+  "instances": 1445
+}

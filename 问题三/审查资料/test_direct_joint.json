@@ -1,0 +1,2032 @@
+{
+  "scope": "Read-only raw Context, new local arc certificates for O01-S011 and O01-S001; no official cache read, no full80 optimization or full independent verifier.",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "cases": {
+    "S011_three_boxes_all_direct": {
+      "library": {
+        "input_patterns": 1,
+        "unique_patterns_before_regeneration": 1,
+        "patterns": 1,
+        "instances": 1,
+        "records": [
+          {
+            "pattern_id": "DP000001",
+            "source_ids": [
+              "TEST-S011"
+            ],
+            "copies": 1,
+            "vehicle": "B",
+            "counts": {
+              "S011|医疗物资": 1,
+              "S011|应急食品": 1,
+              "S011|饮用水": 1
+            },
+            "atomic_needs": 0,
+            "energy_recomputed": 1.073963183411491,
+            "energy_delta_from_source": 0.0,
+            "duration_delta_from_source": 0.0
+          }
+        ],
+        "discarded": []
+      },
+      "checks": {
+        "plan_exists": true,
+        "unique_instance_ids": true,
+        "all_expected_box_ids_once": true,
+        "hard_deadlines": true,
+        "body_and_battery_nonoverlap": true,
+        "overlaps": [],
+        "objective_C_includes_both_types": true,
+        "NT_matches": true,
+        "NR_matches": true,
+        "energy_sum_matches": true,
+        "all_direct": true,
+        "exactly_one_instance": true,
+        "one_transport_zero_relays": true,
+        "C_equals_raw_route_duration": true
+      },
+      "result": {
+        "method": "all_column_direct_joint_MILP_with_delayed_exact_constraints",
+        "status": "finite_model_scalar_optimum_certified_pending_independent_physics_verification",
+        "scalar_objective": "C",
+        "epsilon_caps": {},
+        "candidate_plan": {
+          "routes": [
+            {
+              "route_id": "DP000001#I01",
+              "vehicle": "B",
+              "zones": [
+                "S011"
+              ],
+              "counts": {
+                "S011|医疗物资": 1,
+                "S011|应急食品": 1,
+                "S011|饮用水": 1
+              },
+              "deliveries": [
+                {
+                  "zone": "S011",
+                  "counts": {
+                    "S011|医疗物资": 1,
+                    "S011|应急食品": 1,
+                    "S011|饮用水": 1
+                  }
+                }
+              ],
+              "mass": 25.0,
+              "volume": 0.067,
+              "nbox": 3,
+              "prep_s": 390.0,
+              "duration": 1188.4247628605203,
+              "energy": 1.073963183411491,
+              "soc": 0.7315092041471272,
+              "charge_s": 1132.0507128116462,
+              "latest_start": 9893.600951903074,
+              "offsets": {
+                "S011|医疗物资": 906.3990480969269,
+                "S011|应急食品": 906.3990480969269,
+                "S011|饮用水": 906.3990480969269
+              },
+              "segments": [
+                {
+                  "energy": 0.6523221544733001,
+                  "horizontal": 0.5952123690500213,
+                  "climb": 0.05710978542327882,
+                  "time": 276.3990480969269,
+                  "distance": 2808.106412371872,
+                  "up": 167.66175537109376,
+                  "down": 83.26175537109376,
+                  "from": "O01",
+                  "to": "S011",
+                  "load": 25.0
+                },
+                {
+                  "energy": 0.42164102893819105,
+                  "horizontal": 0.40115805891026746,
+                  "climb": 0.020482970027923583,
+                  "time": 282.02571476359356,
+                  "distance": 2808.106412371872,
+                  "up": 83.26175537109376,
+                  "down": 167.66175537109376,
+                  "from": "S011",
+                  "to": "O01",
+                  "load": 0.0
+                }
+              ],
+              "needs": [],
+              "pattern_id": "DP000001",
+              "instance_index": 1,
+              "start": 0.0,
+              "takeoff": 390.0,
+              "finish": 1188.4247628605203,
+              "recharge": 2320.475475672167,
+              "uav": "U05",
+              "battery_id": "B-BAT-01",
+              "links": []
+            }
+          ],
+          "relays": [],
+          "boxes": [
+            {
+              "box": "S011-MED-01",
+              "zone": "S011",
+              "kind": "医疗物资",
+              "mass": 3,
+              "volume": 0.012,
+              "first": "是",
+              "first_deadline": 10800.0,
+              "expected": 10800,
+              "priority": 16,
+              "hard": true,
+              "deadline": 10800.0,
+              "category": "S011|医疗物资",
+              "route_id": "DP000001#I01",
+              "delivery": 906.3990480969269,
+              "uav": "U05",
+              "battery_id": "B-BAT-01"
+            },
+            {
+              "box": "S011-FOD-01",
+              "zone": "S011",
+              "kind": "应急食品",
+              "mass": 8,
+              "volume": 0.028,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 14400,
+              "priority": 6,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S011|应急食品",
+              "route_id": "DP000001#I01",
+              "delivery": 906.3990480969269,
+              "uav": "U05",
+              "battery_id": "B-BAT-01"
+            },
+            {
+              "box": "S011-WAT-01",
+              "zone": "S011",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "是",
+              "first_deadline": 10800.0,
+              "expected": 10800,
+              "priority": 8,
+              "hard": true,
+              "deadline": 10800.0,
+              "category": "S011|饮用水",
+              "route_id": "DP000001#I01",
+              "delivery": 906.3990480969269,
+              "uav": "U05",
+              "battery_id": "B-BAT-01"
+            }
+          ],
+          "NT": 1,
+          "NR": 0,
+          "ET": 1.073963183411491,
+          "ER": 0,
+          "objective": [
+            1,
+            1.073963183411491,
+            1188.4247628605203,
+            0.0
+          ],
+          "status": "finite_model_feasible_pending_independent_physics_verification",
+          "meta": {
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 1188.4247628605203,
+            "dual_bound": 1188.4247628605203,
+            "mip_gap": 0.0,
+            "nodes": 0,
+            "max_constraint_violation": 0.0,
+            "variables": 46,
+            "constraints": 75,
+            "route_instances": 1,
+            "loaded_route_blocks": 0,
+            "loaded_transport_pairs": 0,
+            "building_s": 0.0017443000106140971,
+            "elapsed_s": 0.0036162000033073127,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1
+          }
+        },
+        "finite_model_valid_lower_bound": 1188.4247628605203,
+        "iteration_count": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "all_route_instances_still_selectable": 1,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 1188.4247628605203,
+            "dual_bound": 1188.4247628605203,
+            "mip_gap": 0.0,
+            "nodes": 0,
+            "max_constraint_violation": 0.0,
+            "variables": 46,
+            "constraints": 75,
+            "route_instances": 1,
+            "loaded_route_blocks": 0,
+            "loaded_transport_pairs": 0,
+            "building_s": 0.0017443000106140971,
+            "elapsed_s": 0.0036162000033073127,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1,
+            "selected_routes": 1,
+            "objective_recomputed": [
+              1,
+              1.073963183411491,
+              1188.4247628605203,
+              0.0
+            ],
+            "newly_loaded_route_blocks": 0,
+            "newly_loaded_resource_pairs": 0,
+            "transport_conflicts": 0,
+            "incomplete_communication": 0,
+            "accepted_as_feasible": true
+          }
+        ],
+        "elapsed_s": 0.006894399994052947,
+        "loaded_route_ids": [],
+        "resource_pairs": [],
+        "scope": {
+          "route_instances": 1,
+          "relay_positions": 1,
+          "relay_slots_per_uav": 1,
+          "horizon_s": 30000,
+          "communication_assignment": "one relay per original certified atomic interval; merge=False",
+          "original_continuous_problem_global_optimality": false,
+          "independent_physics_verification_required": true,
+          "multiobjective_or_minimax_regret_optimum": false
+        },
+        "comparison": "Existing solve_q3.py ALNS outputs unchanged; compare scalar objectives only with matching caps.",
+        "finite_model_upper_bound": 1188.4247628605203,
+        "absolute_gap": 0.0,
+        "captured_stdout": "{\"iteration\": 0, \"all_route_instances_still_selectable\": 1, \"status\": 0, \"message\": \"Optimization terminated successfully. (HiGHS Status 7: Optimal)\", \"incumbent_available\": true, \"objective_mode\": \"C\", \"solver_objective\": 1188.4247628605203, \"dual_bound\": 1188.4247628605203, \"mip_gap\": 0.0, \"nodes\": 0, \"max_constraint_violation\": 0.0, \"variables\": 46, \"constraints\": 75, \"route_instances\": 1, \"loaded_route_blocks\": 0, \"loaded_transport_pairs\": 0, \"building_s\": 0.0017443000106140971, \"elapsed_s\": 0.0036162000033073127, \"mip_rel_gap_requested\": 0.0, \"threads\": 1, \"selected_routes\": 1, \"objective_recomputed\": [1, 1.073963183411491, 1188.4247628605203, 0.0], \"newly_loaded_route_blocks\": 0, \"newly_loaded_resource_pairs\": 0, \"transport_conflicts\": 0, \"incomplete_communication\": 0, \"accepted_as_feasible\": true}\n"
+      }
+    },
+    "S001_eight_water_four_B_instances": {
+      "library": {
+        "input_patterns": 1,
+        "unique_patterns_before_regeneration": 1,
+        "patterns": 1,
+        "instances": 4,
+        "records": [
+          {
+            "pattern_id": "DP000001",
+            "source_ids": [
+              "TEST-WATER"
+            ],
+            "copies": 4,
+            "vehicle": "B",
+            "counts": {
+              "S001|饮用水": 2
+            },
+            "atomic_needs": 0,
+            "energy_recomputed": 1.220434433311425,
+            "energy_delta_from_source": 0.0,
+            "duration_delta_from_source": 0.0
+          }
+        ],
+        "discarded": []
+      },
+      "checks": {
+        "plan_exists": true,
+        "unique_instance_ids": true,
+        "all_expected_box_ids_once": true,
+        "hard_deadlines": true,
+        "body_and_battery_nonoverlap": true,
+        "overlaps": [],
+        "objective_C_includes_both_types": true,
+        "NT_matches": true,
+        "NR_matches": true,
+        "energy_sum_matches": true,
+        "four_independent_copies": true,
+        "same_pattern": true,
+        "initial_status_is_relaxation": true,
+        "initial_has_real_resource_conflict": true,
+        "limited_round_does_not_export_relaxation": true,
+        "delayed_resource_pairs_materialized": true,
+        "more_than_one_round": true,
+        "inventory_not_expanded": true,
+        "initial_bound_below_final_value": true
+      },
+      "initial": {
+        "routes": [
+          {
+            "route_id": "DP000001#I01",
+            "vehicle": "B",
+            "zones": [
+              "S001"
+            ],
+            "counts": {
+              "S001|饮用水": 2
+            },
+            "deliveries": [
+              {
+                "zone": "S001",
+                "counts": {
+                  "S001|饮用水": 2
+                }
+              }
+            ],
+            "mass": 28.0,
+            "volume": 0.054,
+            "nbox": 2,
+            "prep_s": 360.0,
+            "duration": 1149.1061758262156,
+            "energy": 1.220434433311425,
+            "soc": 0.6948913916721438,
+            "charge_s": 1195.5215877682842,
+            "latest_start": Infinity,
+            "offsets": {
+              "S001|饮用水": 857.6764212464411
+            },
+            "segments": [
+              {
+                "energy": 0.762236801988464,
+                "horizontal": 0.7110743034933621,
+                "climb": 0.05116249849510193,
+                "time": 287.6764212464412,
+                "distance": 3054.023607514977,
+                "up": 145.3566101074219,
+                "down": 89.05661010742188,
+                "from": "O01",
+                "to": "S001",
+                "load": 28.0
+              },
+              {
+                "energy": 0.45819763132296093,
+                "horizontal": 0.43628908678785383,
+                "climb": 0.021908544535107082,
+                "time": 291.4297545797745,
+                "distance": 3054.023607514977,
+                "up": 89.05661010742188,
+                "down": 145.3566101074219,
+                "from": "S001",
+                "to": "O01",
+                "load": 0.0
+              }
+            ],
+            "needs": [],
+            "pattern_id": "DP000001",
+            "instance_index": 1,
+            "start": 0.0,
+            "takeoff": 360.0,
+            "finish": 1149.1061758262156,
+            "recharge": 2344.6277635945,
+            "uav": "U05",
+            "battery_id": "B-BAT-01",
+            "links": []
+          },
+          {
+            "route_id": "DP000001#I02",
+            "vehicle": "B",
+            "zones": [
+              "S001"
+            ],
+            "counts": {
+              "S001|饮用水": 2
+            },
+            "deliveries": [
+              {
+                "zone": "S001",
+                "counts": {
+                  "S001|饮用水": 2
+                }
+              }
+            ],
+            "mass": 28.0,
+            "volume": 0.054,
+            "nbox": 2,
+            "prep_s": 360.0,
+            "duration": 1149.1061758262156,
+            "energy": 1.220434433311425,
+            "soc": 0.6948913916721438,
+            "charge_s": 1195.5215877682842,
+            "latest_start": Infinity,
+            "offsets": {
+              "S001|饮用水": 857.6764212464411
+            },
+            "segments": [
+              {
+                "energy": 0.762236801988464,
+                "horizontal": 0.7110743034933621,
+                "climb": 0.05116249849510193,
+                "time": 287.6764212464412,
+                "distance": 3054.023607514977,
+                "up": 145.3566101074219,
+                "down": 89.05661010742188,
+                "from": "O01",
+                "to": "S001",
+                "load": 28.0
+              },
+              {
+                "energy": 0.45819763132296093,
+                "horizontal": 0.43628908678785383,
+                "climb": 0.021908544535107082,
+                "time": 291.4297545797745,
+                "distance": 3054.023607514977,
+                "up": 89.05661010742188,
+                "down": 145.3566101074219,
+                "from": "S001",
+                "to": "O01",
+                "load": 0.0
+              }
+            ],
+            "needs": [],
+            "pattern_id": "DP000001",
+            "instance_index": 2,
+            "start": 0.0,
+            "takeoff": 360.0,
+            "finish": 1149.1061758262156,
+            "recharge": 2344.6277635945,
+            "uav": "U05",
+            "battery_id": "B-BAT-01",
+            "links": []
+          },
+          {
+            "route_id": "DP000001#I03",
+            "vehicle": "B",
+            "zones": [
+              "S001"
+            ],
+            "counts": {
+              "S001|饮用水": 2
+            },
+            "deliveries": [
+              {
+                "zone": "S001",
+                "counts": {
+                  "S001|饮用水": 2
+                }
+              }
+            ],
+            "mass": 28.0,
+            "volume": 0.054,
+            "nbox": 2,
+            "prep_s": 360.0,
+            "duration": 1149.1061758262156,
+            "energy": 1.220434433311425,
+            "soc": 0.6948913916721438,
+            "charge_s": 1195.5215877682842,
+            "latest_start": Infinity,
+            "offsets": {
+              "S001|饮用水": 857.6764212464411
+            },
+            "segments": [
+              {
+                "energy": 0.762236801988464,
+                "horizontal": 0.7110743034933621,
+                "climb": 0.05116249849510193,
+                "time": 287.6764212464412,
+                "distance": 3054.023607514977,
+                "up": 145.3566101074219,
+                "down": 89.05661010742188,
+                "from": "O01",
+                "to": "S001",
+                "load": 28.0
+              },
+              {
+                "energy": 0.45819763132296093,
+                "horizontal": 0.43628908678785383,
+                "climb": 0.021908544535107082,
+                "time": 291.4297545797745,
+                "distance": 3054.023607514977,
+                "up": 89.05661010742188,
+                "down": 145.3566101074219,
+                "from": "S001",
+                "to": "O01",
+                "load": 0.0
+              }
+            ],
+            "needs": [],
+            "pattern_id": "DP000001",
+            "instance_index": 3,
+            "start": 0.0,
+            "takeoff": 360.0,
+            "finish": 1149.1061758262156,
+            "recharge": 2344.6277635945,
+            "uav": "U05",
+            "battery_id": "B-BAT-01",
+            "links": []
+          },
+          {
+            "route_id": "DP000001#I04",
+            "vehicle": "B",
+            "zones": [
+              "S001"
+            ],
+            "counts": {
+              "S001|饮用水": 2
+            },
+            "deliveries": [
+              {
+                "zone": "S001",
+                "counts": {
+                  "S001|饮用水": 2
+                }
+              }
+            ],
+            "mass": 28.0,
+            "volume": 0.054,
+            "nbox": 2,
+            "prep_s": 360.0,
+            "duration": 1149.1061758262156,
+            "energy": 1.220434433311425,
+            "soc": 0.6948913916721438,
+            "charge_s": 1195.5215877682842,
+            "latest_start": Infinity,
+            "offsets": {
+              "S001|饮用水": 857.6764212464411
+            },
+            "segments": [
+              {
+                "energy": 0.762236801988464,
+                "horizontal": 0.7110743034933621,
+                "climb": 0.05116249849510193,
+                "time": 287.6764212464412,
+                "distance": 3054.023607514977,
+                "up": 145.3566101074219,
+                "down": 89.05661010742188,
+                "from": "O01",
+                "to": "S001",
+                "load": 28.0
+              },
+              {
+                "energy": 0.45819763132296093,
+                "horizontal": 0.43628908678785383,
+                "climb": 0.021908544535107082,
+                "time": 291.4297545797745,
+                "distance": 3054.023607514977,
+                "up": 89.05661010742188,
+                "down": 145.3566101074219,
+                "from": "S001",
+                "to": "O01",
+                "load": 0.0
+              }
+            ],
+            "needs": [],
+            "pattern_id": "DP000001",
+            "instance_index": 4,
+            "start": 0.0,
+            "takeoff": 360.0,
+            "finish": 1149.1061758262156,
+            "recharge": 2344.6277635945,
+            "uav": "U05",
+            "battery_id": "B-BAT-01",
+            "links": []
+          }
+        ],
+        "relays": [],
+        "boxes": [
+          {
+            "box": "S001-WAT-01",
+            "zone": "S001",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "是",
+            "first_deadline": 3600.0,
+            "expected": 3600,
+            "priority": 12,
+            "hard": true,
+            "deadline": 3600.0,
+            "category": "S001|饮用水",
+            "route_id": "DP000001#I01",
+            "delivery": 857.6764212464411,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S001-WAT-02",
+            "zone": "S001",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "否",
+            "first_deadline": NaN,
+            "expected": 3600,
+            "priority": 12,
+            "hard": false,
+            "deadline": Infinity,
+            "category": "S001|饮用水",
+            "route_id": "DP000001#I01",
+            "delivery": 857.6764212464411,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S001-WAT-03",
+            "zone": "S001",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "否",
+            "first_deadline": NaN,
+            "expected": 3600,
+            "priority": 12,
+            "hard": false,
+            "deadline": Infinity,
+            "category": "S001|饮用水",
+            "route_id": "DP000001#I02",
+            "delivery": 857.6764212464411,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S001-WAT-04",
+            "zone": "S001",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "否",
+            "first_deadline": NaN,
+            "expected": 3600,
+            "priority": 12,
+            "hard": false,
+            "deadline": Infinity,
+            "category": "S001|饮用水",
+            "route_id": "DP000001#I02",
+            "delivery": 857.6764212464411,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S001-WAT-05",
+            "zone": "S001",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "否",
+            "first_deadline": NaN,
+            "expected": 3600,
+            "priority": 12,
+            "hard": false,
+            "deadline": Infinity,
+            "category": "S001|饮用水",
+            "route_id": "DP000001#I03",
+            "delivery": 857.6764212464411,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S001-WAT-06",
+            "zone": "S001",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "否",
+            "first_deadline": NaN,
+            "expected": 3600,
+            "priority": 12,
+            "hard": false,
+            "deadline": Infinity,
+            "category": "S001|饮用水",
+            "route_id": "DP000001#I03",
+            "delivery": 857.6764212464411,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S001-WAT-07",
+            "zone": "S001",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "否",
+            "first_deadline": NaN,
+            "expected": 3600,
+            "priority": 12,
+            "hard": false,
+            "deadline": Infinity,
+            "category": "S001|饮用水",
+            "route_id": "DP000001#I04",
+            "delivery": 857.6764212464411,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S001-WAT-08",
+            "zone": "S001",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "否",
+            "first_deadline": NaN,
+            "expected": 3600,
+            "priority": 12,
+            "hard": false,
+            "deadline": Infinity,
+            "category": "S001|饮用水",
+            "route_id": "DP000001#I04",
+            "delivery": 857.6764212464411,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          }
+        ],
+        "NT": 4,
+        "NR": 0,
+        "ET": 4.8817377332457,
+        "ER": 0,
+        "objective": [
+          4,
+          4.8817377332457,
+          1149.1061758262156,
+          0.0
+        ],
+        "status": "outer_relaxation_incumbent_not_a_feasible_Q3_plan",
+        "meta": {
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "C",
+          "solver_objective": 2298.212351652431,
+          "dual_bound": 2298.212351652431,
+          "mip_gap": 0.0,
+          "nodes": 0,
+          "max_constraint_violation": 0.0,
+          "variables": 74,
+          "constraints": 97,
+          "route_instances": 4,
+          "loaded_route_blocks": 0,
+          "loaded_transport_pairs": 0,
+          "building_s": 0.003873599984217435,
+          "elapsed_s": 0.005281699995975941,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1
+        }
+      },
+      "initial_meta": {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "incumbent_available": true,
+        "objective_mode": "C",
+        "solver_objective": 2298.212351652431,
+        "dual_bound": 2298.212351652431,
+        "mip_gap": 0.0,
+        "nodes": 0,
+        "max_constraint_violation": 0.0,
+        "variables": 74,
+        "constraints": 97,
+        "route_instances": 4,
+        "loaded_route_blocks": 0,
+        "loaded_transport_pairs": 0,
+        "building_s": 0.003873599984217435,
+        "elapsed_s": 0.005281699995975941,
+        "mip_rel_gap_requested": 0.0,
+        "threads": 1
+      },
+      "one_round_result": {
+        "method": "all_column_direct_joint_MILP_with_delayed_exact_constraints",
+        "status": "time_limit_without_certified_incumbent",
+        "scalar_objective": "C",
+        "epsilon_caps": {},
+        "candidate_plan": null,
+        "finite_model_valid_lower_bound": 2298.212351652431,
+        "iteration_count": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "all_route_instances_still_selectable": 4,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 2298.212351652431,
+            "dual_bound": 2298.212351652431,
+            "mip_gap": 0.0,
+            "nodes": 0,
+            "max_constraint_violation": 0.0,
+            "variables": 74,
+            "constraints": 97,
+            "route_instances": 4,
+            "loaded_route_blocks": 0,
+            "loaded_transport_pairs": 0,
+            "building_s": 0.002189299964811653,
+            "elapsed_s": 0.003455699945334345,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1,
+            "selected_routes": 4,
+            "objective_recomputed": [
+              4,
+              4.8817377332457,
+              1149.1061758262156,
+              0.0
+            ],
+            "newly_loaded_route_blocks": 0,
+            "newly_loaded_resource_pairs": 6,
+            "transport_conflicts": 12,
+            "incomplete_communication": 0,
+            "accepted_as_feasible": false
+          }
+        ],
+        "elapsed_s": 0.004599699983373284,
+        "loaded_route_ids": [],
+        "resource_pairs": [
+          [
+            "DP000001#I01",
+            "DP000001#I02"
+          ],
+          [
+            "DP000001#I01",
+            "DP000001#I03"
+          ],
+          [
+            "DP000001#I01",
+            "DP000001#I04"
+          ],
+          [
+            "DP000001#I02",
+            "DP000001#I03"
+          ],
+          [
+            "DP000001#I02",
+            "DP000001#I04"
+          ],
+          [
+            "DP000001#I03",
+            "DP000001#I04"
+          ]
+        ],
+        "scope": {
+          "route_instances": 4,
+          "relay_positions": 1,
+          "relay_slots_per_uav": 1,
+          "horizon_s": 30000,
+          "communication_assignment": "one relay per original certified atomic interval; merge=False",
+          "original_continuous_problem_global_optimality": false,
+          "independent_physics_verification_required": true,
+          "multiobjective_or_minimax_regret_optimum": false
+        },
+        "comparison": "Existing solve_q3.py ALNS outputs unchanged; compare scalar objectives only with matching caps.",
+        "captured_stdout": "{\"iteration\": 0, \"all_route_instances_still_selectable\": 4, \"status\": 0, \"message\": \"Optimization terminated successfully. (HiGHS Status 7: Optimal)\", \"incumbent_available\": true, \"objective_mode\": \"C\", \"solver_objective\": 2298.212351652431, \"dual_bound\": 2298.212351652431, \"mip_gap\": 0.0, \"nodes\": 0, \"max_constraint_violation\": 0.0, \"variables\": 74, \"constraints\": 97, \"route_instances\": 4, \"loaded_route_blocks\": 0, \"loaded_transport_pairs\": 0, \"building_s\": 0.002189299964811653, \"elapsed_s\": 0.003455699945334345, \"mip_rel_gap_requested\": 0.0, \"threads\": 1, \"selected_routes\": 4, \"objective_recomputed\": [4, 4.8817377332457, 1149.1061758262156, 0.0], \"newly_loaded_route_blocks\": 0, \"newly_loaded_resource_pairs\": 6, \"transport_conflicts\": 12, \"incomplete_communication\": 0, \"accepted_as_feasible\": false}\n"
+      },
+      "result": {
+        "method": "all_column_direct_joint_MILP_with_delayed_exact_constraints",
+        "status": "finite_model_scalar_optimum_certified_pending_independent_physics_verification",
+        "scalar_objective": "C",
+        "epsilon_caps": {},
+        "candidate_plan": {
+          "routes": [
+            {
+              "route_id": "DP000001#I01",
+              "vehicle": "B",
+              "zones": [
+                "S001"
+              ],
+              "counts": {
+                "S001|饮用水": 2
+              },
+              "deliveries": [
+                {
+                  "zone": "S001",
+                  "counts": {
+                    "S001|饮用水": 2
+                  }
+                }
+              ],
+              "mass": 28.0,
+              "volume": 0.054,
+              "nbox": 2,
+              "prep_s": 360.0,
+              "duration": 1149.1061758262156,
+              "energy": 1.220434433311425,
+              "soc": 0.6948913916721438,
+              "charge_s": 1195.5215877682842,
+              "latest_start": Infinity,
+              "offsets": {
+                "S001|饮用水": 857.6764212464411
+              },
+              "segments": [
+                {
+                  "energy": 0.762236801988464,
+                  "horizontal": 0.7110743034933621,
+                  "climb": 0.05116249849510193,
+                  "time": 287.6764212464412,
+                  "distance": 3054.023607514977,
+                  "up": 145.3566101074219,
+                  "down": 89.05661010742188,
+                  "from": "O01",
+                  "to": "S001",
+                  "load": 28.0
+                },
+                {
+                  "energy": 0.45819763132296093,
+                  "horizontal": 0.43628908678785383,
+                  "climb": 0.021908544535107082,
+                  "time": 291.4297545797745,
+                  "distance": 3054.023607514977,
+                  "up": 89.05661010742188,
+                  "down": 145.3566101074219,
+                  "from": "S001",
+                  "to": "O01",
+                  "load": 0.0
+                }
+              ],
+              "needs": [],
+              "pattern_id": "DP000001",
+              "instance_index": 1,
+              "start": 0.0,
+              "takeoff": 360.0,
+              "finish": 1149.1061758262156,
+              "recharge": 2344.6277635945,
+              "uav": "U06",
+              "battery_id": "B-BAT-03",
+              "links": []
+            },
+            {
+              "route_id": "DP000001#I02",
+              "vehicle": "B",
+              "zones": [
+                "S001"
+              ],
+              "counts": {
+                "S001|饮用水": 2
+              },
+              "deliveries": [
+                {
+                  "zone": "S001",
+                  "counts": {
+                    "S001|饮用水": 2
+                  }
+                }
+              ],
+              "mass": 28.0,
+              "volume": 0.054,
+              "nbox": 2,
+              "prep_s": 360.0,
+              "duration": 1149.1061758262156,
+              "energy": 1.220434433311425,
+              "soc": 0.6948913916721438,
+              "charge_s": 1195.5215877682842,
+              "latest_start": Infinity,
+              "offsets": {
+                "S001|饮用水": 857.6764212464411
+              },
+              "segments": [
+                {
+                  "energy": 0.762236801988464,
+                  "horizontal": 0.7110743034933621,
+                  "climb": 0.05116249849510193,
+                  "time": 287.6764212464412,
+                  "distance": 3054.023607514977,
+                  "up": 145.3566101074219,
+                  "down": 89.05661010742188,
+                  "from": "O01",
+                  "to": "S001",
+                  "load": 28.0
+                },
+                {
+                  "energy": 0.45819763132296093,
+                  "horizontal": 0.43628908678785383,
+                  "climb": 0.021908544535107082,
+                  "time": 291.4297545797745,
+                  "distance": 3054.023607514977,
+                  "up": 89.05661010742188,
+                  "down": 145.3566101074219,
+                  "from": "S001",
+                  "to": "O01",
+                  "load": 0.0
+                }
+              ],
+              "needs": [],
+              "pattern_id": "DP000001",
+              "instance_index": 2,
+              "start": 0.0,
+              "takeoff": 360.0,
+              "finish": 1149.1061758262156,
+              "recharge": 2344.6277635945,
+              "uav": "U05",
+              "battery_id": "B-BAT-02",
+              "links": []
+            },
+            {
+              "route_id": "DP000001#I03",
+              "vehicle": "B",
+              "zones": [
+                "S001"
+              ],
+              "counts": {
+                "S001|饮用水": 2
+              },
+              "deliveries": [
+                {
+                  "zone": "S001",
+                  "counts": {
+                    "S001|饮用水": 2
+                  }
+                }
+              ],
+              "mass": 28.0,
+              "volume": 0.054,
+              "nbox": 2,
+              "prep_s": 360.0,
+              "duration": 1149.1061758262156,
+              "energy": 1.220434433311425,
+              "soc": 0.6948913916721438,
+              "charge_s": 1195.5215877682842,
+              "latest_start": Infinity,
+              "offsets": {
+                "S001|饮用水": 857.6764212464411
+              },
+              "segments": [
+                {
+                  "energy": 0.762236801988464,
+                  "horizontal": 0.7110743034933621,
+                  "climb": 0.05116249849510193,
+                  "time": 287.6764212464412,
+                  "distance": 3054.023607514977,
+                  "up": 145.3566101074219,
+                  "down": 89.05661010742188,
+                  "from": "O01",
+                  "to": "S001",
+                  "load": 28.0
+                },
+                {
+                  "energy": 0.45819763132296093,
+                  "horizontal": 0.43628908678785383,
+                  "climb": 0.021908544535107082,
+                  "time": 291.4297545797745,
+                  "distance": 3054.023607514977,
+                  "up": 89.05661010742188,
+                  "down": 145.3566101074219,
+                  "from": "S001",
+                  "to": "O01",
+                  "load": 0.0
+                }
+              ],
+              "needs": [],
+              "pattern_id": "DP000001",
+              "instance_index": 3,
+              "start": 1149.1061758262222,
+              "takeoff": 1509.1061758262222,
+              "finish": 2298.212351652438,
+              "recharge": 3493.733939420722,
+              "uav": "U05",
+              "battery_id": "B-BAT-04",
+              "links": []
+            },
+            {
+              "route_id": "DP000001#I04",
+              "vehicle": "B",
+              "zones": [
+                "S001"
+              ],
+              "counts": {
+                "S001|饮用水": 2
+              },
+              "deliveries": [
+                {
+                  "zone": "S001",
+                  "counts": {
+                    "S001|饮用水": 2
+                  }
+                }
+              ],
+              "mass": 28.0,
+              "volume": 0.054,
+              "nbox": 2,
+              "prep_s": 360.0,
+              "duration": 1149.1061758262156,
+              "energy": 1.220434433311425,
+              "soc": 0.6948913916721438,
+              "charge_s": 1195.5215877682842,
+              "latest_start": Infinity,
+              "offsets": {
+                "S001|饮用水": 857.6764212464411
+              },
+              "segments": [
+                {
+                  "energy": 0.762236801988464,
+                  "horizontal": 0.7110743034933621,
+                  "climb": 0.05116249849510193,
+                  "time": 287.6764212464412,
+                  "distance": 3054.023607514977,
+                  "up": 145.3566101074219,
+                  "down": 89.05661010742188,
+                  "from": "O01",
+                  "to": "S001",
+                  "load": 28.0
+                },
+                {
+                  "energy": 0.45819763132296093,
+                  "horizontal": 0.43628908678785383,
+                  "climb": 0.021908544535107082,
+                  "time": 291.4297545797745,
+                  "distance": 3054.023607514977,
+                  "up": 89.05661010742188,
+                  "down": 145.3566101074219,
+                  "from": "S001",
+                  "to": "O01",
+                  "load": 0.0
+                }
+              ],
+              "needs": [],
+              "pattern_id": "DP000001",
+              "instance_index": 4,
+              "start": 1149.1061758262222,
+              "takeoff": 1509.1061758262222,
+              "finish": 2298.212351652438,
+              "recharge": 3493.733939420722,
+              "uav": "U06",
+              "battery_id": "B-BAT-01",
+              "links": []
+            }
+          ],
+          "relays": [],
+          "boxes": [
+            {
+              "box": "S001-WAT-01",
+              "zone": "S001",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "是",
+              "first_deadline": 3600.0,
+              "expected": 3600,
+              "priority": 12,
+              "hard": true,
+              "deadline": 3600.0,
+              "category": "S001|饮用水",
+              "route_id": "DP000001#I01",
+              "delivery": 857.6764212464411,
+              "uav": "U06",
+              "battery_id": "B-BAT-03"
+            },
+            {
+              "box": "S001-WAT-02",
+              "zone": "S001",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 3600,
+              "priority": 12,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S001|饮用水",
+              "route_id": "DP000001#I01",
+              "delivery": 857.6764212464411,
+              "uav": "U06",
+              "battery_id": "B-BAT-03"
+            },
+            {
+              "box": "S001-WAT-03",
+              "zone": "S001",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 3600,
+              "priority": 12,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S001|饮用水",
+              "route_id": "DP000001#I02",
+              "delivery": 857.6764212464411,
+              "uav": "U05",
+              "battery_id": "B-BAT-02"
+            },
+            {
+              "box": "S001-WAT-04",
+              "zone": "S001",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 3600,
+              "priority": 12,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S001|饮用水",
+              "route_id": "DP000001#I02",
+              "delivery": 857.6764212464411,
+              "uav": "U05",
+              "battery_id": "B-BAT-02"
+            },
+            {
+              "box": "S001-WAT-05",
+              "zone": "S001",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 3600,
+              "priority": 12,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S001|饮用水",
+              "route_id": "DP000001#I03",
+              "delivery": 2006.7825970726633,
+              "uav": "U05",
+              "battery_id": "B-BAT-04"
+            },
+            {
+              "box": "S001-WAT-06",
+              "zone": "S001",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 3600,
+              "priority": 12,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S001|饮用水",
+              "route_id": "DP000001#I03",
+              "delivery": 2006.7825970726633,
+              "uav": "U05",
+              "battery_id": "B-BAT-04"
+            },
+            {
+              "box": "S001-WAT-07",
+              "zone": "S001",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 3600,
+              "priority": 12,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S001|饮用水",
+              "route_id": "DP000001#I04",
+              "delivery": 2006.7825970726633,
+              "uav": "U06",
+              "battery_id": "B-BAT-01"
+            },
+            {
+              "box": "S001-WAT-08",
+              "zone": "S001",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 3600,
+              "priority": 12,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S001|饮用水",
+              "route_id": "DP000001#I04",
+              "delivery": 2006.7825970726633,
+              "uav": "U06",
+              "battery_id": "B-BAT-01"
+            }
+          ],
+          "NT": 4,
+          "NR": 0,
+          "ET": 4.8817377332457,
+          "ER": 0,
+          "objective": [
+            4,
+            4.8817377332457,
+            2298.212351652438,
+            0.0
+          ],
+          "status": "finite_model_feasible_pending_independent_physics_verification",
+          "meta": {
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 2298.212351652431,
+            "dual_bound": 2298.212351652431,
+            "mip_gap": 0.0,
+            "nodes": 12,
+            "max_constraint_violation": 6.821210263296962e-12,
+            "variables": 80,
+            "constraints": 169,
+            "route_instances": 4,
+            "loaded_route_blocks": 0,
+            "loaded_transport_pairs": 6,
+            "building_s": 0.0023089000023901463,
+            "elapsed_s": 0.042695999960415065,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1
+          }
+        },
+        "finite_model_valid_lower_bound": 2298.212351652431,
+        "iteration_count": 2,
+        "iterations": [
+          {
+            "iteration": 0,
+            "all_route_instances_still_selectable": 4,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 2298.212351652431,
+            "dual_bound": 2298.212351652431,
+            "mip_gap": 0.0,
+            "nodes": 0,
+            "max_constraint_violation": 0.0,
+            "variables": 74,
+            "constraints": 97,
+            "route_instances": 4,
+            "loaded_route_blocks": 0,
+            "loaded_transport_pairs": 0,
+            "building_s": 0.002224500000011176,
+            "elapsed_s": 0.003430499986279756,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1,
+            "selected_routes": 4,
+            "objective_recomputed": [
+              4,
+              4.8817377332457,
+              1149.1061758262156,
+              0.0
+            ],
+            "newly_loaded_route_blocks": 0,
+            "newly_loaded_resource_pairs": 6,
+            "transport_conflicts": 12,
+            "incomplete_communication": 0,
+            "accepted_as_feasible": false
+          },
+          {
+            "iteration": 1,
+            "all_route_instances_still_selectable": 4,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 2298.212351652431,
+            "dual_bound": 2298.212351652431,
+            "mip_gap": 0.0,
+            "nodes": 12,
+            "max_constraint_violation": 6.821210263296962e-12,
+            "variables": 80,
+            "constraints": 169,
+            "route_instances": 4,
+            "loaded_route_blocks": 0,
+            "loaded_transport_pairs": 6,
+            "building_s": 0.0023089000023901463,
+            "elapsed_s": 0.042695999960415065,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1,
+            "selected_routes": 4,
+            "objective_recomputed": [
+              4,
+              4.8817377332457,
+              2298.212351652438,
+              0.0
+            ],
+            "newly_loaded_route_blocks": 0,
+            "newly_loaded_resource_pairs": 0,
+            "transport_conflicts": 0,
+            "incomplete_communication": 0,
+            "accepted_as_feasible": true
+          }
+        ],
+        "elapsed_s": 0.048624000046402216,
+        "loaded_route_ids": [],
+        "resource_pairs": [
+          [
+            "DP000001#I01",
+            "DP000001#I02"
+          ],
+          [
+            "DP000001#I01",
+            "DP000001#I03"
+          ],
+          [
+            "DP000001#I01",
+            "DP000001#I04"
+          ],
+          [
+            "DP000001#I02",
+            "DP000001#I03"
+          ],
+          [
+            "DP000001#I02",
+            "DP000001#I04"
+          ],
+          [
+            "DP000001#I03",
+            "DP000001#I04"
+          ]
+        ],
+        "scope": {
+          "route_instances": 4,
+          "relay_positions": 1,
+          "relay_slots_per_uav": 1,
+          "horizon_s": 30000,
+          "communication_assignment": "one relay per original certified atomic interval; merge=False",
+          "original_continuous_problem_global_optimality": false,
+          "independent_physics_verification_required": true,
+          "multiobjective_or_minimax_regret_optimum": false
+        },
+        "comparison": "Existing solve_q3.py ALNS outputs unchanged; compare scalar objectives only with matching caps.",
+        "finite_model_upper_bound": 2298.212351652438,
+        "absolute_gap": 6.821210263296962e-12,
+        "captured_stdout": "{\"iteration\": 0, \"all_route_instances_still_selectable\": 4, \"status\": 0, \"message\": \"Optimization terminated successfully. (HiGHS Status 7: Optimal)\", \"incumbent_available\": true, \"objective_mode\": \"C\", \"solver_objective\": 2298.212351652431, \"dual_bound\": 2298.212351652431, \"mip_gap\": 0.0, \"nodes\": 0, \"max_constraint_violation\": 0.0, \"variables\": 74, \"constraints\": 97, \"route_instances\": 4, \"loaded_route_blocks\": 0, \"loaded_transport_pairs\": 0, \"building_s\": 0.002224500000011176, \"elapsed_s\": 0.003430499986279756, \"mip_rel_gap_requested\": 0.0, \"threads\": 1, \"selected_routes\": 4, \"objective_recomputed\": [4, 4.8817377332457, 1149.1061758262156, 0.0], \"newly_loaded_route_blocks\": 0, \"newly_loaded_resource_pairs\": 6, \"transport_conflicts\": 12, \"incomplete_communication\": 0, \"accepted_as_feasible\": false}\n{\"iteration\": 1, \"all_route_instances_still_selectable\": 4, \"status\": 0, \"message\": \"Optimization terminated successfully. (HiGHS Status 7: Optimal)\", \"incumbent_available\": true, \"objective_mode\": \"C\", \"solver_objective\": 2298.212351652431, \"dual_bound\": 2298.212351652431, \"mip_gap\": 0.0, \"nodes\": 12, \"max_constraint_violation\": 6.821210263296962e-12, \"variables\": 80, \"constraints\": 169, \"route_instances\": 4, \"loaded_route_blocks\": 0, \"loaded_transport_pairs\": 6, \"building_s\": 0.0023089000023901463, \"elapsed_s\": 0.042695999960415065, \"mip_rel_gap_requested\": 0.0, \"threads\": 1, \"selected_routes\": 4, \"objective_recomputed\": [4, 4.8817377332457, 2298.212351652438, 0.0], \"newly_loaded_route_blocks\": 0, \"newly_loaded_resource_pairs\": 0, \"transport_conflicts\": 0, \"incomplete_communication\": 0, \"accepted_as_feasible\": true}\n"
+      }
+    },
+    "controlled_communication_block_and_joint_C": {
+      "physical_scope": "Synthetic mandatory relay assignment on an actually direct raw route. Geometry need is not asserted or certified. This isolates MILP block completion and joint-C logic.",
+      "checks": {
+        "plan_exists": true,
+        "unique_instance_ids": true,
+        "all_expected_box_ids_once": true,
+        "hard_deadlines": true,
+        "body_and_battery_nonoverlap": true,
+        "overlaps": [],
+        "objective_C_includes_both_types": true,
+        "NT_matches": true,
+        "NR_matches": true,
+        "energy_sum_matches": true,
+        "unloaded_missing_block_detected": true,
+        "unloaded_plan_labelled_relaxation": true,
+        "one_round_no_false_feasible": true,
+        "communication_block_added": true,
+        "delayed_block_complete": true,
+        "relay_returns_last": true,
+        "C_equals_transport_return_plus_relay_back": true,
+        "relaxation_bound_is_lower": true
+      },
+      "unloaded": {
+        "routes": [
+          {
+            "route_id": "DP000001#I01",
+            "vehicle": "B",
+            "zones": [
+              "S011"
+            ],
+            "counts": {
+              "S011|医疗物资": 1,
+              "S011|应急食品": 1,
+              "S011|饮用水": 1
+            },
+            "deliveries": [
+              {
+                "zone": "S011",
+                "counts": {
+                  "S011|医疗物资": 1,
+                  "S011|应急食品": 1,
+                  "S011|饮用水": 1
+                }
+              }
+            ],
+            "mass": 25.0,
+            "volume": 0.067,
+            "nbox": 3,
+            "prep_s": 390.0,
+            "duration": 1188.4247628605203,
+            "energy": 1.073963183411491,
+            "soc": 0.7315092041471272,
+            "charge_s": 1132.0507128116462,
+            "latest_start": 9893.600951903074,
+            "offsets": {
+              "S011|医疗物资": 906.3990480969269,
+              "S011|应急食品": 906.3990480969269,
+              "S011|饮用水": 906.3990480969269
+            },
+            "segments": [
+              {
+                "energy": 0.6523221544733001,
+                "horizontal": 0.5952123690500213,
+                "climb": 0.05710978542327882,
+                "time": 276.3990480969269,
+                "distance": 2808.106412371872,
+                "up": 167.66175537109376,
+                "down": 83.26175537109376,
+                "from": "O01",
+                "to": "S011",
+                "load": 25.0
+              },
+              {
+                "energy": 0.42164102893819105,
+                "horizontal": 0.40115805891026746,
+                "climb": 0.020482970027923583,
+                "time": 282.02571476359356,
+                "distance": 2808.106412371872,
+                "up": 83.26175537109376,
+                "down": 167.66175537109376,
+                "from": "S011",
+                "to": "O01",
+                "load": 0.0
+              }
+            ],
+            "needs": [
+              {
+                "t0": 390.0,
+                "t1": 1188.4247628605203,
+                "mask": 1
+              }
+            ],
+            "pattern_id": "DP000001",
+            "instance_index": 1,
+            "start": 0.0,
+            "takeoff": 390.0,
+            "finish": 1188.4247628605203,
+            "recharge": 2320.475475672167,
+            "uav": "U05",
+            "battery_id": "B-BAT-01",
+            "links": []
+          }
+        ],
+        "relays": [],
+        "boxes": [
+          {
+            "box": "S011-MED-01",
+            "zone": "S011",
+            "kind": "医疗物资",
+            "mass": 3,
+            "volume": 0.012,
+            "first": "是",
+            "first_deadline": 10800.0,
+            "expected": 10800,
+            "priority": 16,
+            "hard": true,
+            "deadline": 10800.0,
+            "category": "S011|医疗物资",
+            "route_id": "DP000001#I01",
+            "delivery": 906.3990480969269,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S011-FOD-01",
+            "zone": "S011",
+            "kind": "应急食品",
+            "mass": 8,
+            "volume": 0.028,
+            "first": "否",
+            "first_deadline": NaN,
+            "expected": 14400,
+            "priority": 6,
+            "hard": false,
+            "deadline": Infinity,
+            "category": "S011|应急食品",
+            "route_id": "DP000001#I01",
+            "delivery": 906.3990480969269,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          },
+          {
+            "box": "S011-WAT-01",
+            "zone": "S011",
+            "kind": "饮用水",
+            "mass": 14,
+            "volume": 0.027,
+            "first": "是",
+            "first_deadline": 10800.0,
+            "expected": 10800,
+            "priority": 8,
+            "hard": true,
+            "deadline": 10800.0,
+            "category": "S011|饮用水",
+            "route_id": "DP000001#I01",
+            "delivery": 906.3990480969269,
+            "uav": "U05",
+            "battery_id": "B-BAT-01"
+          }
+        ],
+        "NT": 1,
+        "NR": 0,
+        "ET": 1.073963183411491,
+        "ER": 0,
+        "objective": [
+          1,
+          1.073963183411491,
+          1188.4247628605203,
+          0.0
+        ],
+        "status": "outer_relaxation_incumbent_not_a_feasible_Q3_plan",
+        "meta": {
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "incumbent_available": true,
+          "objective_mode": "C",
+          "solver_objective": 1188.4247628605203,
+          "dual_bound": 1188.4247628605203,
+          "mip_gap": 0.0,
+          "nodes": 1,
+          "max_constraint_violation": 0.0,
+          "variables": 46,
+          "constraints": 75,
+          "route_instances": 1,
+          "loaded_route_blocks": 0,
+          "loaded_transport_pairs": 0,
+          "building_s": 0.0021640000049956143,
+          "elapsed_s": 0.0035785000072792172,
+          "mip_rel_gap_requested": 0.0,
+          "threads": 1
+        }
+      },
+      "unloaded_meta": {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "incumbent_available": true,
+        "objective_mode": "C",
+        "solver_objective": 1188.4247628605203,
+        "dual_bound": 1188.4247628605203,
+        "mip_gap": 0.0,
+        "nodes": 1,
+        "max_constraint_violation": 0.0,
+        "variables": 46,
+        "constraints": 75,
+        "route_instances": 1,
+        "loaded_route_blocks": 0,
+        "loaded_transport_pairs": 0,
+        "building_s": 0.0021640000049956143,
+        "elapsed_s": 0.0035785000072792172,
+        "mip_rel_gap_requested": 0.0,
+        "threads": 1
+      },
+      "one_round_result": {
+        "method": "all_column_direct_joint_MILP_with_delayed_exact_constraints",
+        "status": "time_limit_without_certified_incumbent",
+        "scalar_objective": "C",
+        "epsilon_caps": {},
+        "candidate_plan": null,
+        "finite_model_valid_lower_bound": 1188.4247628605203,
+        "iteration_count": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "all_route_instances_still_selectable": 1,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 1188.4247628605203,
+            "dual_bound": 1188.4247628605203,
+            "mip_gap": 0.0,
+            "nodes": 1,
+            "max_constraint_violation": 0.0,
+            "variables": 46,
+            "constraints": 75,
+            "route_instances": 1,
+            "loaded_route_blocks": 0,
+            "loaded_transport_pairs": 0,
+            "building_s": 0.0017976000090129673,
+            "elapsed_s": 0.0031337999971583486,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1,
+            "selected_routes": 1,
+            "objective_recomputed": [
+              1,
+              1.073963183411491,
+              1188.4247628605203,
+              0.0
+            ],
+            "newly_loaded_route_blocks": 1,
+            "newly_loaded_resource_pairs": 0,
+            "transport_conflicts": 0,
+            "incomplete_communication": 1,
+            "accepted_as_feasible": false
+          }
+        ],
+        "elapsed_s": 0.005357500049285591,
+        "loaded_route_ids": [
+          "DP000001#I01"
+        ],
+        "resource_pairs": [],
+        "scope": {
+          "route_instances": 1,
+          "relay_positions": 1,
+          "relay_slots_per_uav": 1,
+          "horizon_s": 30000,
+          "communication_assignment": "one relay per original certified atomic interval; merge=False",
+          "original_continuous_problem_global_optimality": false,
+          "independent_physics_verification_required": true,
+          "multiobjective_or_minimax_regret_optimum": false
+        },
+        "comparison": "Existing solve_q3.py ALNS outputs unchanged; compare scalar objectives only with matching caps.",
+        "captured_stdout": "{\"iteration\": 0, \"all_route_instances_still_selectable\": 1, \"status\": 0, \"message\": \"Optimization terminated successfully. (HiGHS Status 7: Optimal)\", \"incumbent_available\": true, \"objective_mode\": \"C\", \"solver_objective\": 1188.4247628605203, \"dual_bound\": 1188.4247628605203, \"mip_gap\": 0.0, \"nodes\": 1, \"max_constraint_violation\": 0.0, \"variables\": 46, \"constraints\": 75, \"route_instances\": 1, \"loaded_route_blocks\": 0, \"loaded_transport_pairs\": 0, \"building_s\": 0.0017976000090129673, \"elapsed_s\": 0.0031337999971583486, \"mip_rel_gap_requested\": 0.0, \"threads\": 1, \"selected_routes\": 1, \"objective_recomputed\": [1, 1.073963183411491, 1188.4247628605203, 0.0], \"newly_loaded_route_blocks\": 1, \"newly_loaded_resource_pairs\": 0, \"transport_conflicts\": 0, \"incomplete_communication\": 1, \"accepted_as_feasible\": false}\n"
+      },
+      "result": {
+        "method": "all_column_direct_joint_MILP_with_delayed_exact_constraints",
+        "status": "finite_model_scalar_optimum_certified_pending_independent_physics_verification",
+        "scalar_objective": "C",
+        "epsilon_caps": {},
+        "candidate_plan": {
+          "routes": [
+            {
+              "route_id": "DP000001#I01",
+              "vehicle": "B",
+              "zones": [
+                "S011"
+              ],
+              "counts": {
+                "S011|医疗物资": 1,
+                "S011|应急食品": 1,
+                "S011|饮用水": 1
+              },
+              "deliveries": [
+                {
+                  "zone": "S011",
+                  "counts": {
+                    "S011|医疗物资": 1,
+                    "S011|应急食品": 1,
+                    "S011|饮用水": 1
+                  }
+                }
+              ],
+              "mass": 25.0,
+              "volume": 0.067,
+              "nbox": 3,
+              "prep_s": 390.0,
+              "duration": 1188.4247628605203,
+              "energy": 1.073963183411491,
+              "soc": 0.7315092041471272,
+              "charge_s": 1132.0507128116462,
+              "latest_start": 9893.600951903074,
+              "offsets": {
+                "S011|医疗物资": 906.3990480969269,
+                "S011|应急食品": 906.3990480969269,
+                "S011|饮用水": 906.3990480969269
+              },
+              "segments": [
+                {
+                  "energy": 0.6523221544733001,
+                  "horizontal": 0.5952123690500213,
+                  "climb": 0.05710978542327882,
+                  "time": 276.3990480969269,
+                  "distance": 2808.106412371872,
+                  "up": 167.66175537109376,
+                  "down": 83.26175537109376,
+                  "from": "O01",
+                  "to": "S011",
+                  "load": 25.0
+                },
+                {
+                  "energy": 0.42164102893819105,
+                  "horizontal": 0.40115805891026746,
+                  "climb": 0.020482970027923583,
+                  "time": 282.02571476359356,
+                  "distance": 2808.106412371872,
+                  "up": 83.26175537109376,
+                  "down": 167.66175537109376,
+                  "from": "S011",
+                  "to": "O01",
+                  "load": 0.0
+                }
+              ],
+              "needs": [
+                {
+                  "t0": 390.0,
+                  "t1": 1188.4247628605203,
+                  "mask": 1
+                }
+              ],
+              "pattern_id": "DP000001",
+              "instance_index": 1,
+              "start": 0.0,
+              "takeoff": 390.0,
+              "finish": 1188.4247628605203,
+              "recharge": 2320.475475672167,
+              "uav": "U05",
+              "battery_id": "B-BAT-01",
+              "links": [
+                {
+                  "t0": 390.0,
+                  "t1": 1188.4247628605203,
+                  "mask": 1,
+                  "relay_slot": 0
+                }
+              ]
+            }
+          ],
+          "relays": [
+            {
+              "slot": 0,
+              "relay_id": "Q3-DIRECT-R001",
+              "uav": "R01",
+              "component": "R-EC-01",
+              "qid": 0,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 228.7255401611328,
+                "ground": 128.7255401611328,
+                "height": 100.0,
+                "lon": 109.2308517,
+                "lat": 23.0085095,
+                "cruise": 228.7255401611328,
+                "out_s": 25.256385040283202,
+                "back_s": 33.67518005371094,
+                "travel_kwh": 0.008985309761206308,
+                "e0": 0.018151976427872973,
+                "dmax": 8318.775349872414,
+                "back_margin": 37.773336359338856,
+                "qid": "TEST-O01-100"
+              },
+              "start": 154.7436149597168,
+              "takeoff": 334.7436149597168,
+              "arrival": 360.0,
+              "alpha": 390.0,
+              "beta": 1188.4247628605226,
+              "finish": 1222.0999429142335,
+              "duration": 798.4247628605226,
+              "energy": 0.2621150984130327,
+              "soc": 0.9180890317459273,
+              "charge_s": 516.0391000006582,
+              "recharge": 1738.1390429148917,
+              "body_ready": 1522.0999429142335
+            }
+          ],
+          "boxes": [
+            {
+              "box": "S011-MED-01",
+              "zone": "S011",
+              "kind": "医疗物资",
+              "mass": 3,
+              "volume": 0.012,
+              "first": "是",
+              "first_deadline": 10800.0,
+              "expected": 10800,
+              "priority": 16,
+              "hard": true,
+              "deadline": 10800.0,
+              "category": "S011|医疗物资",
+              "route_id": "DP000001#I01",
+              "delivery": 906.3990480969269,
+              "uav": "U05",
+              "battery_id": "B-BAT-01"
+            },
+            {
+              "box": "S011-FOD-01",
+              "zone": "S011",
+              "kind": "应急食品",
+              "mass": 8,
+              "volume": 0.028,
+              "first": "否",
+              "first_deadline": NaN,
+              "expected": 14400,
+              "priority": 6,
+              "hard": false,
+              "deadline": Infinity,
+              "category": "S011|应急食品",
+              "route_id": "DP000001#I01",
+              "delivery": 906.3990480969269,
+              "uav": "U05",
+              "battery_id": "B-BAT-01"
+            },
+            {
+              "box": "S011-WAT-01",
+              "zone": "S011",
+              "kind": "饮用水",
+              "mass": 14,
+              "volume": 0.027,
+              "first": "是",
+              "first_deadline": 10800.0,
+              "expected": 10800,
+              "priority": 8,
+              "hard": true,
+              "deadline": 10800.0,
+              "category": "S011|饮用水",
+              "route_id": "DP000001#I01",
+              "delivery": 906.3990480969269,
+              "uav": "U05",
+              "battery_id": "B-BAT-01"
+            }
+          ],
+          "NT": 1,
+          "NR": 1,
+          "ET": 1.073963183411491,
+          "ER": 0.2621150984130327,
+          "objective": [
+            2,
+            1.3360782818245238,
+            1222.0999429142335,
+            0.0
+          ],
+          "status": "finite_model_feasible_pending_independent_physics_verification",
+          "meta": {
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 1222.0999429142335,
+            "dual_bound": 1222.0999429142335,
+            "mip_gap": 0.0,
+            "nodes": 1,
+            "max_constraint_violation": 1.1368683772161603e-13,
+            "variables": 48,
+            "constraints": 82,
+            "route_instances": 1,
+            "loaded_route_blocks": 1,
+            "loaded_transport_pairs": 0,
+            "building_s": 0.001866999955382198,
+            "elapsed_s": 0.0033017999958246946,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1
+          }
+        },
+        "finite_model_valid_lower_bound": 1222.0999429142335,
+        "iteration_count": 2,
+        "iterations": [
+          {
+            "iteration": 0,
+            "all_route_instances_still_selectable": 1,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 1188.4247628605203,
+            "dual_bound": 1188.4247628605203,
+            "mip_gap": 0.0,
+            "nodes": 1,
+            "max_constraint_violation": 0.0,
+            "variables": 46,
+            "constraints": 75,
+            "route_instances": 1,
+            "loaded_route_blocks": 0,
+            "loaded_transport_pairs": 0,
+            "building_s": 0.0015678000054322183,
+            "elapsed_s": 0.0027965999906882644,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1,
+            "selected_routes": 1,
+            "objective_recomputed": [
+              1,
+              1.073963183411491,
+              1188.4247628605203,
+              0.0
+            ],
+            "newly_loaded_route_blocks": 1,
+            "newly_loaded_resource_pairs": 0,
+            "transport_conflicts": 0,
+            "incomplete_communication": 1,
+            "accepted_as_feasible": false
+          },
+          {
+            "iteration": 1,
+            "all_route_instances_still_selectable": 1,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "incumbent_available": true,
+            "objective_mode": "C",
+            "solver_objective": 1222.0999429142335,
+            "dual_bound": 1222.0999429142335,
+            "mip_gap": 0.0,
+            "nodes": 1,
+            "max_constraint_violation": 1.1368683772161603e-13,
+            "variables": 48,
+            "constraints": 82,
+            "route_instances": 1,
+            "loaded_route_blocks": 1,
+            "loaded_transport_pairs": 0,
+            "building_s": 0.001866999955382198,
+            "elapsed_s": 0.0033017999958246946,
+            "mip_rel_gap_requested": 0.0,
+            "threads": 1,
+            "selected_routes": 1,
+            "objective_recomputed": [
+              2,
+              1.3360782818245238,
+              1222.0999429142335,
+              0.0
+            ],
+            "newly_loaded_route_blocks": 0,
+            "newly_loaded_resource_pairs": 0,
+            "transport_conflicts": 0,
+            "incomplete_communication": 0,
+            "accepted_as_feasible": true
+          }
+        ],
+        "elapsed_s": 0.010591400030534714,
+        "loaded_route_ids": [
+          "DP000001#I01"
+        ],
+        "resource_pairs": [],
+        "scope": {
+          "route_instances": 1,
+          "relay_positions": 1,
+          "relay_slots_per_uav": 1,
+          "horizon_s": 30000,
+          "communication_assignment": "one relay per original certified atomic interval; merge=False",
+          "original_continuous_problem_global_optimality": false,
+          "independent_physics_verification_required": true,
+          "multiobjective_or_minimax_regret_optimum": false
+        },
+        "comparison": "Existing solve_q3.py ALNS outputs unchanged; compare scalar objectives only with matching caps.",
+        "finite_model_upper_bound": 1222.0999429142335,
+        "absolute_gap": 0.0,
+        "captured_stdout": "{\"iteration\": 0, \"all_route_instances_still_selectable\": 1, \"status\": 0, \"message\": \"Optimization terminated successfully. (HiGHS Status 7: Optimal)\", \"incumbent_available\": true, \"objective_mode\": \"C\", \"solver_objective\": 1188.4247628605203, \"dual_bound\": 1188.4247628605203, \"mip_gap\": 0.0, \"nodes\": 1, \"max_constraint_violation\": 0.0, \"variables\": 46, \"constraints\": 75, \"route_instances\": 1, \"loaded_route_blocks\": 0, \"loaded_transport_pairs\": 0, \"building_s\": 0.0015678000054322183, \"elapsed_s\": 0.0027965999906882644, \"mip_rel_gap_requested\": 0.0, \"threads\": 1, \"selected_routes\": 1, \"objective_recomputed\": [1, 1.073963183411491, 1188.4247628605203, 0.0], \"newly_loaded_route_blocks\": 1, \"newly_loaded_resource_pairs\": 0, \"transport_conflicts\": 0, \"incomplete_communication\": 1, \"accepted_as_feasible\": false}\n{\"iteration\": 1, \"all_route_instances_still_selectable\": 1, \"status\": 0, \"message\": \"Optimization terminated successfully. (HiGHS Status 7: Optimal)\", \"incumbent_available\": true, \"objective_mode\": \"C\", \"solver_objective\": 1222.0999429142335, \"dual_bound\": 1222.0999429142335, \"mip_gap\": 0.0, \"nodes\": 1, \"max_constraint_violation\": 1.1368683772161603e-13, \"variables\": 48, \"constraints\": 82, \"route_instances\": 1, \"loaded_route_blocks\": 1, \"loaded_transport_pairs\": 0, \"building_s\": 0.001866999955382198, \"elapsed_s\": 0.0033017999958246946, \"mip_rel_gap_requested\": 0.0, \"threads\": 1, \"selected_routes\": 1, \"objective_recomputed\": [2, 1.3360782818245238, 1222.0999429142335, 0.0], \"newly_loaded_route_blocks\": 0, \"newly_loaded_resource_pairs\": 0, \"transport_conflicts\": 0, \"incomplete_communication\": 0, \"accepted_as_feasible\": true}\n"
+      }
+    }
+  },
+  "summary": {
+    "boolean_checks": 43,
+    "passed": 43,
+    "failed": [],
+    "elapsed_s": 1.0519286000053398
+  }
+}

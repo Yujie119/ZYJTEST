@@ -1,0 +1,18 @@
+{
+  "status": "running",
+  "run_dir": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2",
+  "config_file": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\后台配置.json",
+  "monitor_thread_id": "01a0d007-7219-7242-952a-024f00d2f16d",
+  "monitor_model": "gpt-5.6-luna",
+  "heartbeat_id": "automation",
+  "heartbeat_interval_minutes": 10,
+  "heartbeat_max_runs": 14,
+  "wall_seconds": 7200,
+  "only_O01_swaps": true,
+  "previous_setup_attempt": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045022",
+  "diagnosed_restart_reason": "Corrected metadata-envelope input to a validated full route list:1426 records/1424 patterns/1596 instances",
+  "coordinator_pid": 33608,
+  "launched_at": "2026-09-24T04:57:30.8341905+08:00",
+  "started_epoch": 1790197050.9564424,
+  "deadline_epoch": 1790204250.9564297
+}

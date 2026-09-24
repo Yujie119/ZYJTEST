@@ -1,0 +1,42 @@
+[
+  {
+    "name": "zhang_bing",
+    "url": "https://www.bing.com/search?q=%22Energy+consumption+models+for+delivery+drones%22+pdf",
+    "resolved_url": "https://cn.bing.com/search?q=%22Energy+consumption+models+for+delivery+drones%22+pdf",
+    "status": 200,
+    "file": "zhang_bing.html"
+  },
+  {
+    "name": "zhang_ddg",
+    "url": "https://html.duckduckgo.com/html/?q=%22Energy+consumption+models+for+delivery+drones%22+pdf",
+    "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Energy+consumption+models+for+delivery+drones%22+pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000024396639FD0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=35)'))"
+  },
+  {
+    "name": "zhang_semanticscholar",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.trd.2020.102668?fields=title,openAccessPdf,url",
+    "resolved_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.trd.2020.102668?fields=title,openAccessPdf,url",
+    "status": 200,
+    "file": "zhang_semanticscholar.html"
+  },
+  {
+    "name": "zhang_sciencedirect",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1361920920308531",
+    "resolved_url": "https://www.sciencedirect.com/science/article/pii/S1361920920308531",
+    "status": 403,
+    "file": "zhang_sciencedirect.html"
+  },
+  {
+    "name": "R4_openalex_new",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.cor.2024.106666",
+    "resolved_url": "https://api.openalex.org/works/https://doi.org/10.1016/j.cor.2024.106666",
+    "status": 200,
+    "file": "R4_openalex_new.html"
+  },
+  {
+    "name": "R2_openalex_new",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.trc.2025.105082",
+    "resolved_url": "https://api.openalex.org/works/https://doi.org/10.1016/j.trc.2025.105082",
+    "status": 200,
+    "file": "R2_openalex_new.html"
+  }
+]

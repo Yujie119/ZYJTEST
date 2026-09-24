@@ -1,0 +1,24 @@
+cover_00_1 None Time limit reached Infeasible
+cover_01_0 [20, 65.4625120826029, 6881.6558486674385, 0.0] Time limit reached Optimal
+cover_00_2 None Time limit reached Time limit reached
+cover_00_0 [24, 67.5486609655764, 6475.933206814107, 11.347235152223481] Time limit reached Time limit reached
+cover_01_1 None Time limit reached Infeasible
+cover_01_2 None Time limit reached None
+cover_02_1 None Time limit reached None
+cover_02_0 None Time limit reached None
+cover_02_2 None Time limit reached None
+cover_03_0 None Time limit reached None
+cover_03_2 None Time limit reached None
+cover_04_0 [22, 65.51851671683666, 6206.344443443169, 0.0] Time limit reached Optimal
+cover_04_1 None Time limit reached Infeasible
+cover_03_1 [21, 63.23091055897849, 8813.230777155284, 236.4597173122505] Time limit reached Time limit reached
+cover_04_2 [23, 68.0299127424353, 6236.194922985838, 0.0] Time limit reached Optimal
+cover_05_0 [23, 68.55440900834468, 6139.933117440382, 0.0] Time limit reached Time limit reached
+cover_05_1 [23, 64.34405071902465, 10265.03634327255, 205.30936190859583] Time limit reached Time limit reached
+cover_05_2 [24, 66.96846663712817, 6282.942522220603, 0.0] Time limit reached Time limit reached
+cover_06_1 None Time limit reached Infeasible
+cover_06_0 [24, 66.69553290212605, 6168.102180600398, 128.9554581278687] Time limit reached Time limit reached
+cover_06_2 [24, 68.68820265905524, 6382.708629965983, 0.0] Time limit reached Time limit reached
+cover_07_1 None Time limit reached Infeasible
+cover_07_0 [22, 68.79617614397938, 6199.535596399756, 0.0] Time limit reached Time limit reached
+cover_07_2 [25, 66.41358081608568, 6841.002734440111, 49.45832584644655] Time limit reached Time limit reached

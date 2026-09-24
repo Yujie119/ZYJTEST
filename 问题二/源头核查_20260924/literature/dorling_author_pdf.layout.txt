@@ -1,0 +1,1234 @@
+                                                                                                                                                                                                           1
+
+
+
+
+                                                   Vehicle Routing Problems for Drone Delivery
+                                                      Kevin Dorling, Student Member, IEEE, Jordan Heinrichs, Geoffrey G. Messier, Member, IEEE,
+                                                                                Sebastian Magierowski, Member, IEEE
+
+
+
+                                              Abstract—Unmanned aerial vehicles, or drones, have the poten-                 also for emergency response in the event of forest fires, oil
+                                          tial to significantly reduce the cost and time of making last-mile                spills, and earthquakes.
+                                          deliveries and responding to emergencies. Despite this potential,                    A number of large organizations have shown interest in
+arXiv:1608.02305v1 [math.OC] 8 Aug 2016
+
+
+
+
+                                          little work has gone into developing vehicle routing problems
+                                          (VRPs) specifically for drone delivery scenarios. Existing VRPs                   drone delivery. In 2013, Amazon announced Prime Air [1], a
+                                          are insufficient for planning drone deliveries: either multiple                   service that utilizes multirotor drones to deliver packages from
+                                          trips to the depot are not permitted, leading to solutions with                   Amazon to customers. German logistics company Deutsche
+                                          excess drones, or the effect of battery and payload weight                        Post DHL also started its Parcelcopter project in 2013; the
+                                          on energy consumption is not considered, leading to costly or                     Parcelcopter [2] has transported medicine to the island of Juist
+                                          infeasible routes. We propose two multi-trip VRPs for drone
+                                          delivery that address both issues. One minimizes costs subject to a               in the North Sea. Google revealed Project Wing [3] in 2014 to
+                                          delivery time limit, while the other minimizes the overall delivery               produce drones that can deliver larger items than Prime Air and
+                                          time subject to a budget constraint. We mathematically derive                     Parcelcopter. In 2014, the United Arab Emirates announced
+                                          and experimentally validate an energy consumption model for                       their plan to use drones to distribute official government
+                                          multirotor drones, demonstrating that energy consumption varies                   documents such as permits and ID cards [4]. A startup called
+                                          approximately linearly with payload and battery weight. We use
+                                          this approximation to derive mixed integer linear programs for                    Matternet has partnered with Swiss Post to test a lightweight
+                                          our VRPs. We propose a cost function that considers our energy                    package delivery quadcopter [5].
+                                          consumption model and drone reuse, and apply it in a simulated                       Developments in numerous technologies have made it feasi-
+                                          annealing (SA) heuristic for finding sub-optimal solutions to                     ble for these organizations to perform drone deliveries. Carbon
+                                          practical scenarios. To assist drone delivery practitioners with                  fiber manufacturing costs have decreased from $25/kg to
+                                          balancing cost and delivery time, the SA heuristic is used to show
+                                          that the minimum cost has an inverse exponential relationship                     $10/kg over the last 20 years [6], [7], enabling the development
+                                          with the delivery time limit, and the minimum overall delivery                    of strong, lightweight airframes. Lithium polymer batteries,
+                                          time has an inverse exponential relationship with the budget.                     with their relatively high energy density [8], have improved the
+                                          Numerical results confirm the importance of reusing drones and                    flight times of UAVs compared to alternative technologies such
+                                          optimizing battery size in drone delivery VRPs.                                   as nickel-cadmium and nickel-metal hydride. Drones typically
+                                            Index Terms—Vehicle routing problem (VRP), drone, delivery,                     use GPS to determine their location, and are able to take
+                                          unmanned aerial vehicle (UAV), traveling salesman problem                         advantage of DGPS [9] and localization techniques [10] to im-
+                                          (TSP), simulated annealing (SA), heuristic, mixed integer pro-                    prove accuracy. Obstacles can be avoided through techniques
+                                          gram (MIP).
+                                                                                                                            such as LIDAR [11] and image processing [12]. Architectures
+                                                                                                                            and protocols have been developed that enable drones to form
+                                                                    I. I NTRODUCTION                                        ad-hoc networks [13] and to wirelessly communicate with
+                                             Unmanned aerial vehicles (UAVs), or drones, have the                           other entities [14].
+                                          potential to significantly reduce the cost and time required                         Even though significant effort has gone into developing
+                                          to deliver packages. In general, drones are less expensive                        drone delivery technology, challenges unique to planning
+                                          to maintain than traditional delivery vehicles such as trucks,                    drone deliveries, such as the limited flight range and carrying
+                                          and can lower labor costs by performing tasks autonomously.                       capacity of drones, have been neglected in comparison. The
+                                          Delivering with drones may be faster than delivering with                         flying sidekick traveling salesman problem (FSTSP) [15] pro-
+                                          traditional delivery vehicles, as drones are not limited by                       vides one solution by allowing delivery trucks to also deploy
+                                          established infrastructure such as roads, and generally face                      drones, but relies on a combined fleet of trucks and drones
+                                          less complex obstacle avoidance scenarios. The application of                     to make deliveries. Green VRPs (GVRPs) [16] may account
+                                          drones in emergency situations has the potential to save lives:                   for battery-powered vehicles, but appear to be designed with
+                                          drones can transport much-needed water, food, and medical                         trucks or other large capacity vehicles in mind. Drones have
+                                          supplies over hazardous terrain during a crisis, and can deploy                   much smaller carrying capacities than trucks, and have limited
+                                          wireless sensors to provide immediate updates on the event.                       flight times, meaning that in general they can only carry a
+                                          This makes drones suitable not only for parcel delivery, but                      small number of packages per route. The GVRP does not
+                                                                                                                            allow multiple trips to the depot, so as drone capacity and the
+                                            This work was supported by NSERC under Grant PGSD3-443041-2013.                 maximum travel time decrease, it would likely compensate
+                                            K. Dorling, J. Heinrichs, and G. G. Messier are with the Department
+                                          of Electrical and Computer Engineering, University of Calgary, Calgary,           by unnecessarily purchasing more drones even though they
+                                          AB T2N 1N4, Canada (e-mail: kudorlin@ucalgary.ca, jheinric@ucalgary.ca,           could have been reused. We therefore propose solving drone
+                                          gmessier@ucalgary.ca).                                                            delivery problems with a multi-trip VRP (MTVRP) [17] that
+                                            S. Magierowski is with the Department of Electrical Engineering and
+                                          Computer Science, York University, Toronto, ON M3J 1P3, Canada (e-                compensates for each drone’s limited carrying capacity by
+                                          mail:magiero@cse.yorku.ca).                                                       reusing drones when possible.
+                                           c 2016 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including
+                                          reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or
+                                          reuse of any copyrighted component of this work in other works. DOI: 10.1109/TSMC.2016.2582745
+                                                                                                                                    2
+
+
+
+   The main contribution of this paper is the development of        of performing multiple trips and optimizing battery weight:
+MTVRPs that consider battery and payload weight when cal-           VRPs that do not make such considerations may find costly
+culating energy consumption. Other MTVRPs do not appear to          or infeasible solutions to the DDPs.
+account for battery and payload weight, limiting their applica-        While our DDPs allow for multiple deliveries per route,
+bility in drone delivery and emergency response scenarios. In       it is not clear if delivery companies such as Amazon and
+Section VI-A we experimentally show that increasing battery         DHL are interested in delivering to more than one customer
+and payload weight can noticeably increase energy consump-          per route. The Amazon Prime Air website [1] and the DHL
+tion, which in turn reduces flight time. Optimizing battery         Parcelcopter press release [2] only show drones that can
+weight is important for drones: a drone’s battery consumes a        deliver single packages. Even if these companies only plan
+large portion of its carrying capacity, meaning that increasing     to deliver to one customer per route, our VRPs can be viewed
+its battery size to extend flight time significantly reduces the    as a generalization of this strategy. Constraints can be added
+capacity available for packages. Approaches that consider the       to our problem to limit the number of customers per route.
+effect of payload weight on energy consumption have been            Furthermore, our method can be used to see if the savings
+shown in [18] to reduce costs in capacitated VRPs compared          from considering multiple deliveries per route make up for
+to approaches that do not. Balancing payload weight, battery        the costs associated with implementing the strategy.
+weight, and flight time are important considerations when              The rest of this paper is organized as follows: in Section II
+attempting to minimize the cost or the delivery time for drone      we review work relevant to the DDPs. Section III describes
+deliveries.                                                         our energy consumption model for multirotor copters. In
+   In addition to developing MTVRPs for drone delivery, we          Section IV we provide MILP implementations of the DDPs,
+are the first to derive and experimentally validate a linear        while in Section V we propose an SA heuristic for finding
+energy consumption model for multirotor drones. We demon-           sub-optimal solutions to the problems within a constrained
+strate that energy consumption increases at an approximately        runtime. Section VI presents experimental results validating
+linear rate with battery and payload weight. While others have      the fuel consumption model, evaluates the performance of our
+developed models for large vehicles, we are not aware of            simulated annealing heuristic, and analyzes numerical results
+any that exist for battery-powered drones. Our experiments          to gain insight on the DDPs. Our conclusions are provided in
+not only validate our energy consumption model, but also            Section VII.
+demonstrate that drones consume approximately the same
+power regardless of being in hover or flying at a constant
+                                                                                         II. R ELATED W ORK
+speed. We will show that this considerably simplifies our
+MTVRPs.                                                                Drone routing papers, such as [20] and [21], typically focus
+   Our linear energy consumption model lets us derive mixed         on surveillance applications. The FSTSP [15] considers a
+integer linear programs (MILPs) for solving the drone delivery      delivery scenario based on combining drone delivery with a
+MTVRPs. A linear energy consumption model allows for                delivery truck. There do not appear to be papers that focus
+linear energy consumption constraints, which are required           solely on using drones to make deliveries. This existing work
+to derive an MILP compatible with fast commercial solvers           on drone routing ignores factors important to drone delivery
+such as CPLEX [19]. These problems optimize the number              such as vehicle capacity, battery weight, changing payload
+of drones, the routes they fly, as well as their battery weight,    weight, and reusing vehicles to reduce costs.
+payload weight, and energy consumption. One VRP minimizes              VRPs [22], [23] have been applied to solve delivery prob-
+the cost of making the deliveries and is referred to as the mini-   lems that, at first glance, appear similar to the DDPs proposed
+mum cost drone delivery problem (MC-DDP). Alternatively, in         in this paper. A VRP attempts to find the optimal routes for one
+the case of an emergency response situation, a company may          or more vehicles to deliver commodities to a set of locations.
+want to minimize overall delivery time, defined as the time         Each location may have a unique demand representing the
+it takes to complete all package deliveries; we call this the       number or size of commodities it requires, or a time window
+minimum time drone delivery problem (MT-DDP). We refer              in which the vehicle should arrive. Vehicles typically leave
+to the problems collectively as the drone delivery problems         from one or more depots, deliver their commodities, and then
+(DDPs).                                                             return to the depots. This section will explain why existing
+   As MILPs are NP-hard, large instances (in our case, scenar-      VRPs are not adequate for the drone delivery problem.
+ios with a large number of locations) may take a significant           The Green VRP (GVRP) [16], first described by Erdoǧan
+amount of time to solve. For such cases, we derive a simulated      et al., allows vehicles to visit refuelling stations while making
+annealing (SA) heuristic for finding sub-optimal solutions to       deliveries to extend their range. Schneider et al. [24] created a
+the DDPs within a limited runtime. To help delivery network         version for battery-powered delivery vehicles that considers
+planners understand how the DDPs behave under different             time windows, capacity constraints, and location demands.
+conditions, we perform a sensitivity analysis to show how           Hiermann et al. [25] built on Schneider et al.’s work by
+the optimal cost and overall delivery time found by the MC-         allowing for a mixed fleet of various types of vehicles, perhaps
+DDP and MT-DDP respectively vary with the size of the               with different capacities, battery sizes, and costs. They assume
+area of interest, the number of locations considered, and the       that charging infrastructure is in place, so vehicles can regain
+restrictions placed on the budget or overall delivery time.         energy to extend their travel distance. While it could increase
+The SA heuristic is applied to demonstrate the importance           drone range, it is debatable whether delivery companies will
+                                                                                                                                    3
+
+
+
+deploy charging infrastructure for their drones, and unlikely         modeling energy consumption as a function of battery and
+that such infrastructure would be available in emergency              payload weight.
+response situations. In GVRPs, vehicles can visit the same
+charging station multiple times to restore energy, but appear
+                                                                       III. M ULTIROTOR H ELICOPTER E NERGY C ONSUMPTION
+to be able to visit the depot only once. Drones tend to have
+limited carrying capacities, so if the depot can only be visited         The flight time of a drone is limited by its weight and the
+once, a GVRP will probably require a large number of drones           energy stored in its battery. An energy consumption model
+to satisfy every customer’s demand. In Section VI-D we show           helps balance the two by providing the energy consumed
+that reusing drones by allowing them to make multiple trips           by the drone as a function of its weight. When optimizing
+can significantly reduce costs.                                       deliveries, such a model can be used to compare the energy
+   A VRP that reuses vehicles is known as a multi-trip vehicle        consumed by alternative routes.
+routing problem (MTVRP), first proposed by B. Fleischmann                While energy consumption equations are available for single
+[26]. While a number of approaches are available for solving          rotor helicopters [34], to the best of our knowledge no such
+the MTVRP, such as a large neighborhood search algorithm              equations are available for multirotor helicopters, the type of
+[27], a hybrid genetic algorithm with a local search operator         drone that most delivery companies appear to favor. In this
+[28], a variable neighborhood search algorithm [29], and              section, we derive an equation for the power consumed by
+a branch-and-price algorithm [30], none appear to consider            a multirotor helicopter in hover as a function of its weight.
+energy consumption as a function of vehicle weight. Routes            We show that the power it consumes is approximately linearly
+found by the above approaches may be infeasible or unneces-           proportional to the weight of its battery and payload under
+sarily costly in a drone delivery scenario, with batteries that are   practical assumptions.
+larger than necessary or too heavy to carry. In Section VI-E we          We derive the power consumed by a multirotor drone in
+demonstrate that optimizing battery weight can reduce costs.          hover, but not during flight, takeoff, or landing. In flight,
+Battery weight cannot be optimized without modeling energy            the power consumed by the helicopter is often reduced due
+consumption as a function of vehicle weight: the model is             to translational lift [34], a phenomena where air flowing
+used to find the battery energy, and therefore weight, required       horizontally along the rotor generates additional lift. The
+to complete each route. The DDPs proposed in this paper               average power during hover is consequently an upper bound
+apply our linear energy consumption model to optimize battery         on the average power during flight. We assume that the power
+weight and payload weight, ensuring that the routes found are         consumed during takeoff and landing is, on average, approx-
+low-cost and feasible.                                                imately equivalent to the power consumed during hover. We
+   Our DDPs consider payload weight similar to the energy             confirm in Section VI-A that these assumptions are realistic
+minimizing vehicle routing problem introduced by Kara et              with a 3D Robotics ArduCopter Hexa-B hexacopter.
+al. in [31]. The authors of [31] utilize a VRP that factors              From (2.16) in [34], we can calculate the power P ∗ in Watts
+in the effect of a vehicle’s payload on total costs, but is           of a single rotor helicopter in hover, with the thrust T in
+based solely on Newtonian physics, and is not verified against        Newtons, fluid density of air ρ in kg/m3, and the area ς of
+an actual vehicle. Unlike [31], the work by Xiao et al. [18]          the spinning blade disc in m2 using
+provides a linear fuel consumption model for trucks based on
+actual fuel consumption measurements from [32], along with                                         T 3/2
+                                                                                              P∗ = √     ,                        (1)
+an SA algorithm for minimizing the cost of routes. The load                                          2ρς
+dependant VRP [33] provides a local search heuristic for doing
+                                                                      where the thrust T = (W + m)g, given the frame weight W
+the same in pickup and delivery scenarios. While these VRPs
+                                                                      in kg, the battery and payload weight m in kg, and gravity g
+consider the effect of payload weight on energy consumption,
+                                                                      in N.
+they appear to have been designed with vehicles that have
+                                                                         We can use (1) to derive an equation for the power con-
+relatively large capacities in mind, as they only let vehicles
+                                                                      sumed by an n-rotor copter if we assume that each rotor shares
+depart from the depot once. Drones have a limited carrying
+                                                                      the total mass W + m of the copter equally. Each rotor carries
+capacity, so if they can only leave the depot once, a large
+                                                                      a weight of m′ = m/n for batteries and payload, and a frame
+number will be required to satisfy demand in scenarios with
+                                                                      weight of W ′ = W/n, meaning that the power consumed by
+many customers. To reduce the number and therefore cost of
+                                                                      a single rotor is
+drones, we reuse them after they return to the depot.
+                                                                                                            s
+   The DDPs proposed in this paper combine MTVRPs with                                                         g3
+                                                                                          ′      ′    ′ 3/2
+VRPs that model energy consumption as a function of vehicle                             P = (W + m )              ,
+                                                                                                              2ρς
+weight to gain the strengths of both approaches. As mentioned
+earlier, MTVRPs reduce drone costs by reusing drones after            so the power consumed by all n rotors is
+they return to the depot, but can propose routes that are                                                  s
+costly or infeasible. VRPs that model energy consumption                                                  3/2     g3
+as a function of vehicle weight, on the other hand, ensure                         P = nP ′ = (W + m)                 .           (2)
+                                                                                                                 2ρςn
+that individual routes are feasible and low-cost, but do not
+reuse vehicles to lower costs. The DDPs reduce drone costs            Note that the inverse relationship between P and n seen in
+by reusing vehicles and ensure low-cost, feasible routes by           (2) is a result of n increasing the effective disc area.
+                                                                                                                                                                      4
+
+
+
+                                 0.2                                                                                  100            7
+                                                                                                                                                                6
+                                                                                                                      80                      5
+                                0.15
+
+
+
+
+                                                                                                   y−coordinate (m)
+                   Power (kW)
+                                                                                                                      60
+                                                                                                                                                          Drone 1
+                                 0.1
+                                                                                                                                             4            Drone 2
+                                                                                                                      40 3
+                                                                                                                                         0       10
+                                0.05
+                                                                                                                      20                                    9
+                                                    Equation (2)                                                             2                        8
+                                                    Approximation (3)                                                            1
+                                  0                                                                                    0
+                                   0          1          2            3                                                 0                  50                   100
+                                    Battery and Payload Weight m (kg)                                                                x−coordinate (m)
+
+
+Fig. 1. The linear approximation (3) fitted to the power consumption model      Fig. 2.   An example showing two drones flying three different routes.
+(2), assuming n = 6 rotors, a fluid density of ρ = 1.204 kg/m3 , a rotor disc
+area of ς = 0.2 m2 , and a frame weight W = 1.5 kg.
+                                                                                   We define a route as a path that starts and ends at the depot.
+                                                                                The example given in Fig. 2 depicts two drones flying three
+  The linear approximation of the n-rotor copter power con-                     routes. Whilst Drone 2 flies a single route, visiting locations
+sumption equation (2) can be expressed as                                       4, 5, 6, and 7, Drone 1 flies two routes. During its first route,
+                                       p(m) = αm + β,                     (3)   Drone 1 visits locations 1, 2, and 3, then returns to the depot
+                                                                                to swap batteries and pick up more packages. After the swap,
+where α represents the power consumed per kilogram of                           it flies its second route, visiting locations 8, 9, and 10. We
+battery and payload weight m, and β is the power required                       assume that only one depot exists in the area. The depot
+to keep the hexacopter frame in the air. In Section IV we use                   acts like a charging station: each vehicle may return to the
+(3) to develop MILPs for optimizing the routes flown by a set                   depot multiple times to collect more packages and replace its
+of drones to minimize the time and cost required to deliver                     batteries. The DDPs optimize the routes flown by a set of
+packages to a set of locations. We will see that the linear                     drones in order to deliver packages to a set of locations N .
+approximation is necessary for the constraints in the MILPs                     Location 0 is the depot. Each location i ∈ N0 , where the
+to be linear. Linear constraints ensure compatibility with the                  set N0 = N \ 0, has a demand Di which represents the
+majority of mixed integer program solvers available.                            weight of the package in kg that will be delivered to location
+   Fig. 1 shows that (3) closely fits (2), assuming a Hexa-B                    i. Every location, except for the depot, is visited only once by
+hexacopter such that n = 6, ρ = 1.204 kg/m3 , ς = 0.2 m2 , and                  a drone, and τ s is spent at each location to descend, deliver
+W = 1.5 kg. Applying a linear regression to (2) for m = 0-                      the package, and ascend.
+3 kg in increments of 0.001 kg results in α = 46.7 W/kg and                        The rest of this section is dedicated to explaining our
+β = 26.9 W. Our linear approximation (3) closely fits the                       assumptions and deriving the MILP forms of the MT-DDP
+exact equation (2), with a mean percent error of 3.1% and the                   and MC-DDP. We discuss our assumptions in Section IV-A.
+largest difference being 6.3 W. In Section VI-A we validate                     In Section IV-B we list the constraints and decision variables
+this approximation experimentally with a Hexa-B hexacopter.                     used in the DDPs. Section IV-C provides each DDP’s objective
+   The linear approximation will likely hold for other multiro-                 function and MILP formulation.
+tor helicopters. The parameters n, ς, ρ, and W are presumably
+similar between helicopters and are all under a square root in                  A. Assumptions
+(2), meaning slight adjustments to them will have a limited im-
+                                                                                   This section explains the assumptions we make regarding
+pact on P . A larger variation in m, however, can significantly
+                                                                                drone flight speed, battery charging, and the number of depots.
+reduce the accuracy of the approximation: if m varies between
+                                                                                We assume that drones fly between locations at a constant
+0 kg and 10 kg, the mean percent error becomes 12.8%, and
+                                                                                speed v in m/s. In Section VI-A we demonstrate that while
+the largest difference between (2) and (3) is about 51 W.
+                                                                                the energy consumed by a hexacopter during flight is approx-
+                                                                                imately the same as the energy consumed during hover, the
+             IV. T HE D RONE D ELIVERY P ROBLEMS                                energy consumed during flight can actually be slightly lower
+   In this section, we apply (3) to develop mixed integer linear                than the energy consumed in hover, likely due to translational
+programs (MILPs) for optimizing the number of drones in a                       lift. We therefore assume that the operator would fly drones
+fleet, as well as the routes they fly, in order to solve the drone              as fast as they reasonably can, at a constant speed of v m/s
+delivery problems (DDPs). When the objective is to minimize                     between locations.
+costs, we refer to the problem as the minimum cost drone                           Note that one weakness of this assumption is that it ignores
+delivery problem (MC-DDP). A company that specializes in                        the impact of weather. Flying with the wind, for example,
+delivering parcels may prioritize cost minimization over time.                  could reduce energy consumption. Cold temperatures may
+In an emergency response situation, however, a company could                    adversely affect battery performance until the batteries warm
+instead prioritize time, and would consequently solve the                       up. For the sake of generality, we ignore the effects of weather.
+minimum time drone delivery problem (MT-DDP). In both                           Understanding how hexacopter speed and energy consumption
+DDPs, constraints on the budget B and delivery time limit T                     are affected by the weather would likely require additional
+may be imposed.                                                                 measurements in different weather conditions.
+                                                                                                                                      5
+
+
+
+   We assume that the demand at each location can be fully          determine whether or not a drone can be reused after returning
+satisfied by a single drone. If the demand at a location is         to the depot. The reuse decision variable is σij , where σij = 1
+higher than the drone carrying capacity, the DDPs do not make       if the drone leaves location i for the depot, gains a fresh battery
+multiple drones deliver optimally to that location. To overcome     and set of packages, then flies to location j to begin a new
+this issue, multiple locations can be placed on top of one          route; otherwise σij = 0. Constraint (5a) implies that if a
+another. Their combined demand can then be higher than the          drone returns to the depot from location i, it is available for use
+drone’s carrying capacity. While this does not necessarily find     again to fly to another location. Constraint (5b) ensures that if
+the optimal split, it at least lets drones complete the delivery.   a reused drone leaves from the depot to location i, it arrived
+   We do not consider recharging batteries after they have          previously from another location. The number of drones that
+been swapped out of a drone when calculating energy costs.          can be purchased, and can therefore fly simultaneously, is
+Instead we assume that the operator will purchase enough fully      limited to M by (5c).
+charged batteries to satisfy drone energy requirements before           We apply the demand constraints
+deliveries commence. For a delivery company, managing the
+charging of various battery sizes between trips could be dif-             X               X
+ficult and costly compared to allowing the batteries to charge                    yji −           yij = Di             ∀i ∈ N0     (6a)
+overnight. In addition, batteries have a limited number of                j∈N             j∈N
+                                                                           i6=j            i6=j
+charge cycles, so charging them between trips would likely not
+                                                                         yij ≤ Kxij                            ∀(i, j) ∈ N × N     (6b)
+provide long-term savings, as they would have to be replaced
+more frequently. Disaster management scenarios require low                                                                i 6= j
+response times, limiting charging time between trips.
+   We do not consider multiple depots. While doing so could         to ensure that each location receives what it demands. The
+extend the range of the drones and potentially save money, we       payload weight between locations i and j is represented by the
+believe considering multiple depots for drone delivery would        decision variable yij in kg. The constant K is a large value
+be handled better in a separate paper that discusses optimizing     representing an upper bound for constraints. Constraint (6a)
+the number of depots, their distribution over an area, as well      makes sure that the payload weight when leaving location i is
+as the allocation of batteries and packages among them. The         Di kg less than upon arrival. Constraint (6b) sets the payload
+survey paper [35] discusses VRPs for multiple depots.               weight of each edge without a vehicle to 0 kg.
+B. Decision Variables and Constraints                                 We calculate and enforce timing through
+  This section discusses the decision variables, constants,
+and constraints used in the DDPs. The DDPs have identical                 ti − tj + τ + dij /v               ∀(i, j) ∈ N × N0      (7a)
+constraints, which can be organized into categories related                     ≤ K (1 − xij )                           i 6= j
+to limiting each drone’s route, reusability, timing, energy               ti − ai + τ + di0 /v                        ∀i ∈ N0      (7b)
+consumption, capacity, as well as the total cost of making
+deliveries. Decision variables and constants are described                      ≤ K (1 − xi0 )
+below their corresponding constraints.                                    ai − tj + τ + d0j /v               ∀(i, j) ∈ N0 × N0     (7c)
+  We ensure that every route is valid through                                      ≤ K (1 − σij )                        i 6= j
+           X
+               xij = 1                     ∀i ∈ N0     (4a)               ti ≤ l                                      ∀i ∈ N0      (7d)
+           j∈N
+            i6=j
+                                                                          l ≤ T.                                                   (7e)
+           X               X
+                   xij −           xji = 0   ∀i ∈ N .       (4b)
+           j∈N             j∈N                                      A location i ∈ N0 is visited by a drone at time ti in seconds.
+            i6=j            i6=j                                    The time in seconds that a drone returns to the depot directly
+To create a routing map for the drones, we use the edge             after leaving location i is ai . Note that ai = 0 if xi0 = 0,
+variables xij , where xij = 1 if the drone moves from location      and ai > 0 otherwise. The overall delivery time l is the time
+i to location j, and xij = 0 otherwise. Constraint (4a)             in seconds when all drones have completed their deliveries.
+guarantees that every location, except for the depot, is visited    Constant values related to timing include the speed v in
+exactly once by a drone, while (4b) ensures that a drone            m/s of the drones in the air, the distance dij in m between
+arriving at location i also departs from location i.                locations i and j, as well as the time τ in seconds spent at
+   The reusability constraints                                      each location descending, delivering a package, and ascending.
+           X                                                        Drones must complete their deliveries by the delivery time
+                 σij ≤ xi0                   ∀i ∈ N0        (5a)
+                                                                    limit T in seconds. Constraint (7a) keeps track of the time
+          j∈N0
+           X                                                        ti that each location i is visited by a drone. Similarly, (7b)
+                   σji ≤ x0i                  ∀i ∈ N0       (5b)    keeps track of the time ai that a drone arrives at the depot
+          j∈N0                                                      from location i. Constraint (7c) ensures that times are correct
+           X               X
+                   x0i −           σij ≤ M                  (5c)    for drones that are reused after returning to the depot. The
+          i∈N0      (i,j)∈N0 ×N0                                    overall delivery time l is set by (7d), and the delivery time
+                         i6=j                                       limit T is guaranteed by (7e).
+                                                                                                                                       6
+
+
+
+  Carrying capacity is restricted through                            financial units of a kJ of energy. Constraint (10a) calculates the
+                                                                     total cost c of performing the deliveries. The leftmost term of
+     qij + yij ≤ Qxij                 ∀(i, j) ∈ N × N        (8a)
+                                                                     (10a) represents the cost of drones assuming that each route
+                                                  i 6= j             requires a new drone, while the second term represents the
+     zi /ξ − ζi ≤ K (1 − xi0 )                 ∀i ∈ N0       (8b)    savings provided by reusing drones; together they equal the
+     ζi − ζj ≤ K (1 − xji )          ∀(i, j) ∈ N0 × N0       (8c)    total cost of drones. The rightmost term is the cost of energy.
+                                                                     The total cost is restricted to the budget by (10b).
+                                                  i 6= j
+                                                                        The constraints in this section assume each drone’s battery is
+     qij ≥ ζj − K (1 − xij )         ∀(i, j) ∈ N × N0        (8d)    sized to provide exactly enough energy for the upcoming route.
+                                                 i 6= j              The constraints can, however, be adjusted to find the optimum
+     qi0 ≥ ζi − K (1 − xi0 )                  ∀i ∈ N0 .      (8e)    combination of discrete battery sizes. Assume a set of battery
+                                                                     types B exists, where each battery type j ∈ B has energy Ej
+The battery weight between locations i and j is represented          in kJ, a cost Cj in financial units, a weight wj in kg, and a
+by the decision variable qij in kg. To assist with optimizing        decision variable bji that is 1 if battery type j is in the drone at
+the battery weight, the decision variable ζi tracks the battery      location i with zi ≥ 0, and 0 otherwise. In (8b) the continuous
+weight in kg at location i. The energy consumed from a               battery weight zi /ξ at location   Pi can be replaced with the
+drone’s battery by the time it arrives at the depot directly after   weight of the chosen    batteries    j∈B wj bji . In (10a) the con-
+leaving location i is zi kJ. Note that zi = 0 if xi0 = 0, while
+                                                                                          P
+                                                                     tinuous total cost ǫ i∈N0 zi of batteries P can be P replaced with
+zi > 0 otherwise. The constant ξ is the energy density of the        the total cost of the chosen batteries i∈N0 j∈B Cj bji . To
+battery in kJ/kg. The capacity of the drone between locations        ensure  that the chosen batteries’ energy is adequate, constraint
+i and j is restricted to Q kg by (8a). The weight ζi of the
+                                                                     P
+                                                                        j∈B Ej bji ≥ zi , ∀i ∈ N0 can be added.
+battery at each location i is set by (8b) and (8c): constraint
+(8b) finds ζi for the locations visited just before the depot,
+                                                                     C. Mixed Integer Linear Program Formulation
+while (8c) sets ζi = ζj if the drone flies directly from location
+i to location j. The weight qij of the battery between locations        This section provides mixed integer linear program (MILP)
+i and j is required by (8a) and is found through constraints         formulations of the DDPs. As both problems have identical de-
+(8d) and (8e). Constraint (8d) sets qij ≥ ζj if the drone flies      cision variables and constraints, only their objective functions
+between locations i and j, while (8e) sets qi0 ≥ ζi if the drone     differ. By representing the problems in MILP form, we show
+flies from location i to the depot.                                  that while the problems are non-convex, they are compatible
+   Energy restrictions are enforced by                               with commercial MIP solvers such as CPLEX [19].
+                                                                        The MT-DDP can be expressed as
+   fi − fj + p(mij ) (dij /v + τ )     ∀(i, j) ∈ N × N0      (9a)
+                                                                                            min l                                   (11)
+        ≤ K (1 − xij )                             i 6= j
+                                                                                             s.t. (4a) . . . (10b).
+   fi − zi + p(mi0 ) (di0 /v + τ )              ∀i ∈ N0      (9b)
+        ≤ K (1 − xi0 )                                               The objective function (11) minimizes the overall delivery time
+   zi ≤ Kxi0                                    ∀i ∈ N0 .    (9c)    l. According to (7d), the overall delivery time is equal to the
+                                                                     time of the last package delivery.
+The decision variable fi represents the energy in kJ consumed           The MC-DDP can be expressed as
+from a drone’s current battery upon reaching location i ∈ N0 .
+The power p(m) in kW consumed by a drone with a battery                                     min c                                   (12)
+and payload weight of m kg is the linear approximation (3).                                  s.t. (4a) . . . (10b).
+The weight in kg of the drone’s battery and payload between
+                                                                     The objective function (12) minimizes the total cost c, and
+locations i and j is mij = qij + yij . Constraint (9a) forces
+                                                                     therefore, according to (10a), the cost of drones and energy.
+fi to equal the total energy consumed along the route up
+                                                                        Both DDPs are non-convex as they contain binary decision
+to location i. Constraint (9b) makes zi equal to the energy
+                                                                     variables. However, the objective functions (11) and (12),
+consumed flying the entire route that ends at location i. To
+                                                                     and the constraints (4a)-(10b), are all linear functions of the
+ensure that zi = 0 if the drone does not fly from location i to
+                                                                     decision variables. This means the DDPs are mixed integer
+the depot, and that zi > 0 otherwise, we include (9c). Note
+                                                                     linear programs (MILPs) compatible with most MIP solvers.
+that constraints (9a) and (9b) are linear because the power
+                                                                        While MIP solvers find optimal solutions, the runtime can
+p(mij ) is the linear approximation (3).
+                                                                     be large, even for problems with a small number of locations.
+   Costs are kept in line with the budget B through
+                    X            X           X                       In Section V we propose a simulated annealing approach
+            c=F         x0i − F      σij + ǫ     zi      (10a)       similar to the one in [18] for finding sub-optimal solutions
+                   i∈N0       (i,j)∈N0 ×N0    i∈N0                   to the problem under limited runtimes.
+                                   i6=j
+            c ≤ B.                                          (10b)          V. S IMULATED A NNEALING I MPLEMENTATION
+The cost of a drone is F financial units, while the budget             Even for scenarios with a small number of locations,
+is limited to B financial units. The constant ǫ is the cost in       the time required to solve the MILP implementation of the
+                                                                                                                                     7
+
+
+
+DDPs to optimality may be prohibitively long. Under time             Algorithm 1 The COST(s, Φ) method.
+constraints, a sub-optimal solution may be preferable. In this       Input:
+section, we create a function for determining the cost and             s - The solution vector
+overall delivery time of a DDP solution. This cost function            Φ - A boolean variable that is 1 if the goal is to minimize
+takes into account the cost and weight of batteries, the payload       cost, or 0 to minimize overall delivery time
+weight of each drone, and the fact that each drone can perform       Output:
+multiple trips. To solve practical problems with large numbers         c - The total cost of s
+of locations, we apply it to a simulated annealing (SA) [36]           l - The time taken by s to complete deliveries
+heuristic similar to the algorithms in [18] and [37].
+   We take a string-based approach, meaning that a DDP                 // Find the cost of energy λ, the cost γ of drones, the overall
+solution is represented as a one-dimensional vector of whole           // delivery time l, and the total cost c.
+numbers s = [0 r1 0 r2 0 . . . rR 0], where, as described in           λ ← ENERGY C OST(s)
+[37], the number 0 represents the depot, rn represents a route         (γ, l) ← DRONE C OSTA ND D ELIVERY T IME(s, λ, Φ)
+flown by a drone, and R is the number of routes. The variable          c ← λ+γ
+rn is a vector whose kth element rnk ∈ N , where N is the              // Enforce budget and delivery time limit by increasing cost
+set of locations. The routes in Fig. 2 could, for example, be          // and overall delivery time if either constraint is violated.
+represented by the string s = [0 1 2 3 0 0 0 8 9 10 0 4 5 6 7 0].      if c > B then
+When two neighboring zeros occur, there is an empty route; a               c ← c + K (c − B)
+total of three routes exist in the above s, even though five could         l ← l + K (c − B)
+have been flown. Section 2.3 of [37] discusses the string-based        else if l > T then
+model and its advantages in greater detail.                                c ← c + K (l − T )
+   The rest of this section is dedicated to explaining our SA              l ← l + K (l − T )
+implementation. To decide whether one solution is an im-               return (c, l)
+provement over another, we compare their costs. The method
+we use to determine the cost of a solution is presented in
+Section V-A. Finally, the simulated annealing algorithm is
+discussed in Section V-B.                                            BATTERY E NERGY (t, ω) to find the energy
+
+                                                                                b−1
+A. The DDP Cost Function
+                                                                                X
+                                                                         E=           p(yk(k+1) + E/ξ)φk(k+1)
+   The cost of a set of routes depends on the type of DDP being                 k=a
+                                                                                    Pb−1                      Pb−1
+solved. In the MT-DDP the best solution has the lowest overall                  α     k=a yk(k+1) φk(k+1) + β  k=a φk(k+1)       (13)
+delivery time, while in the MC-DDP the best solution has the                =                        Pb−1
+                                                                                          1 − (α/ξ) k=a φk(k+1)
+lowest cost. In this section, we create a function for calculating
+                                                                                 αω + βt
+the cost and overall delivery time of a DDP solution.                       =
+   We assume that violating the capacity constraint, budget                     1 − (α/ξ)t
+constraint, or delivery time limit is costly. As in [18], we
+reduce the likelihood of accepting a solution that violates a        in kJ required by a drone to complete a route containing
+constraint by penalizing it; we do so by greatly increasing the      locations a to b. Note that t is the time taken to complete a
+cost and overall delivery time. The constant K can be adjusted       route, ω is the sum-of-products of the travel time and payload
+to reflect the actual costs of violating a constraint.               weight between locations, yij is the payload weight in kg
+   Alg. 1 calculates the overall cost and delivery time of a         between locations i and j, p(m) is (3), α is the power in
+solution s to the DDP. It takes the solution vector s and a          kW consumed per kg of battery and payload weight, β is the
+boolean value Φ that is 1 for the MC-DDP and 0 for the MT-           power in kW required to keep the drone in hover assuming no
+DDP as inputs. The algorithm is divided into two phases: the         battery or payload weight, ξ is the battery energy density in
+first phase calculates the cost of energy with Alg. 2, while         kJ/kg, and φij is the travel time in seconds between locationsi
+the second finds the cost of drones and the overall delivery         and j. As Alg. 2 iterates through s once, its bound is O |N0 | .
+time with Alg. 5. Later in this section we show that Alg. 2           Alg. 2 assumes that battery weight and cost can be sized to
+has a O |N0 | bound, and Alg. 5 has a O |N0 | log2 M                 provide the exact amount of energy required. If it is preferable
+bound, where |N0 | is the number of locations in the area of         to combine discrete battery sizes instead, it can be shown that
+interest, and M is the maximum number of drones that can            finding the optimal combination of batteries that minimizes
+be purchased. This means that Alg. 1 has a O |N0 | log2 M            cost while providing enough energy to complete the route is
+bound as well. The rest of this section discusses Algs. 2-5.         a minimum knapsack problem [38]. Let B represent a set of
+   Alg. 2 finds the cost of energy by iterating over the solution    battery types, where each battery type j ∈ B has a weight
+vector s. It iterates from back to front, like the cost function     wj in kg, energy Ej in kJ, and cost Cj in financial units.
+in Fig. A2 in [18]; if it went from front to back, it would          Given a decision variable bj that is 1 if battery type j is used,
+                                                                                                                    Pb−1
+have to calculate the initial value of payload weight y before       and 0 otherwise, while letting Y = Ej − α k=a wj φk(k+1)
+                                                                                    Pb−1                         Pb−1
+iterating over a route, instead of setting y = 0. Alg. 2 calls       and Z = α k=a yk(k+1) φk(k+1) + β k=a φk(k+1) , the
+                                                                                                                                        8
+
+
+
+Algorithm 2 The ENERGY C OST(s) method.                                 Algorithm 3 The ROUTE D ELIVERYA NDA RRIVALT IMES(s)
+Input:                                                                  method.
+  s - The solution vector                                               Input:
+Output:                                                                   s - The solution vector
+  λ - The cost of energy for solution s                                 Output:
+                                                                          u - A vector containing pairs of the delivery and arrival
+  // Initialize the time t, sum-of-products ω of time and weight,         times for each route
+  // payload weight y, and energy cost λ.
+  t←0                                                                     // Initialize the delivery time h and arrival time a to 0.
+  ω←0                                                                     h←0
+  y←0                                                                     a←0
+  λ←0                                                                     // Initialize the route timing vector u to ∅.
+  // Iterate through the locations in s from back to front.               u←∅
+  for k ∈ { LENGTH(s)-2. . . 0} do                                        // Iterate through the locations in s from front to back.
+       // Set the next location i and current location j.                 for k ∈ {1 . . . LENGTH(s) −1} do
+       i ← sk+1                                                                // Set the current location i and previous location j.
+       j ← sk                                                                  i ← sk
+       if i 6= 0 ∨ j 6= 0 then                                                 j ← sk−1
+            // Record the travel time φij between i and j.                     if i 6= 0 ∨ j 6= 0 then
+            φij ← τ + dij /v                                                        // Update the time variables.
+            // Update the time, the sum-of-products of time and                     h←a
+            // weight, and the payload weight respectively.                         φij ← τ + dij /v
+            t ← t + φij                                                             a ← a + φij
+            ω ← ω + yφij                                                            // Add the delivery and arrival time to u.
+            y ← y + Dj                                                              if i == 0 ∧ j 6= 0 then
+            // Update costs when a vehicle arrives at a depot.                           u ← u ∪ (h, a)
+            if (0 == j) ∧ (i 6= 0) then                                                  // Reset the delivery time value.
+                E ← BATTERY E NERGY(t, ω)                                                a←0
+                // Add the cost of energy. Note that ǫ is the cost        return u
+                // of a kJ. Greatly increase the cost if the positive
+                // energy constraint is violated.                       Algorithm 4 The LIST S CHEDULE(u, n) method.
+                if E > 0 then                                           Input:
+                     λ ← λ + Eǫ                                           u - A vector containing pairs of delivery and arrival times
+                else                                                      for each route
+                     λ ← λ + −K (Eǫ)                                      n - The number of drones that can be assigned routes
+                // Enforce the capacity constraint by greatly           Output:
+                // increasing cost if the drone carries too much.         l - The overall delivery time when the routes are assigned
+                if y + E/ξ > Q then                                       to n drones
+                     λ ← λ + K (y + E/ξ − Q)
+                // Reset weight and time values for the next route.       // Apply the list scheduling algorithm to assign routes to
+                t←0                                                       // drones. Initialize the drone timing vector κ.
+                ω←0                                                       κ←∅
+                y←0                                                       for i ∈ {0 . . . n − 1} do
+  return λ                                                                    κ ← κ ∪ (0, 0)
+                                                                          // Go through every route in the route timing vector u.
+                                                                          for i ∈ {0 . . . LENGTH(u)−1} do
+minimum knapsack problem is                                                   // Get the delivery and arrival times of the drone with
+                       X                                                      // the smallest arrival time. Then assign route i to that
+                  min      Cj bj                                (14)
+                                                                              // drone.
+                               j∈B
+                               X                                              (h′ , a′ ) ← POP M INIMUM A RRIVALT IME E LEMENT(κ)
+                        s.t.         Y bj ≥ Z.                                (h, a) ← ui
+                               j∈B                                            INSERT E LEMENT (κ, (a′ + h, a′ + a))
+                                                                          // Return the maximum delivery time in κ.
+P values E,PEǫ, and E/ξ inP
+The                               Alg. 2 can be replaced with
+                                                                          return MAXIMUM D ELIVERY T IME(κ)
+   j∈B Ej b j , j∈B C j b j , and  j∈B wj bj respectively after
+solving (14).
+  To calculate the overall delivery time, we require the deliv-
+ery time and arrival time of each route, which can be found
+                                                                                                                                                    9
+
+
+
+with Alg. 3. The delivery time is when the last delivery along       Algorithm 5 The DRONE C OSTA ND D ELIVERY T IME(s, λ, Φ)
+a route is made, while the arrival time is when the drone            method.
+arrives at the depot after completing the route. Route timing        Input:
+vector u contains pairs of delivery and arrival times for each         s - The solution vector
+route, such that element ui = (hi , ai ), where hi is the delivery     λ - The cost of energy for solution s
+time and ai is the arrival time for route i. Alg. 3 implements         Φ - A boolean variable that is 1 if the goal is to minimize
+ROUTE D ELIVERYA NDA RRIVALT IMES (s), which iterates over             drone cost, or 0 to minimize overall delivery time
+the solution s tocalculate u. As Alg. 3 iterates through s once,    Output:
+it has a O |N0 | bound.                                                γ - The cost of drones
+   To minimize the overall delivery time, we require a method          l - The overall delivery time
+of assigning R routes to n drones; this method is given in
+Alg. 4. This problem is equivalent to the load balancing                // Get the vector u, which contains pairs of delivery and
+problem in computer science, where j jobs are assigned to               // arrival times for each route.
+m machines to minimize the maximum load of the machines.                u ← ROUTE D ELIVERYA NDA RRIVALT IMES(s)
+This problem is NP-hard, so we apply the list scheduling, or            // Perform a binary search to find the best number of
+greedy-balance, algorithm discussed in Section 11.1 of [39],            // drones n when minimizing cost.
+except jobs become routes, machines become drones, and we               if Φ then
+try to minimize the maximum delivery time of the drones.                    // Set the lower and upper bounds ϕ and ψ respectively,
+Alg. 4 implements LIST S CHEDULE(u,n) to approximate the                    // where M is the maximum number of drones available.
+minimum overall delivery time. At most M drones can be                      ϕ←1
+purchased, and the number of elements in u cannot exceed                    ψ←M
+the number of locations |N0 |. Drone timing vector κ contains               while ϕ ≤ ψ − 1 do
+pairs of delivery and arrival times for each route, such that                   n ← ⌊ϕ + ψ−ϕ  2 ⌋
+element κi = (hi , ai ). Assuming that κ is implemented       as a              if LIST S CHEDULE(u, n) ≤ T then
+                                                                                     ψ←n
+                                                       
+binary heap, the bound of Alg. 4 is O |N0 | log M .
+   Alternatives to list scheduling, such as the longest pro-                    else
+cessing time (LPT), or sorted-balance, algorithm discussed                           ϕ ← n+1
+in [39] could be applied. LPT improves list scheduling by                   n←ϕ
+choosing the jobs to assign based on a specific order, such                 if LIST S CHEDULE(u, n) > T then
+as by descending runtime, resulting in a better performance                     n←ψ
+guarantee of 1.5 instead of 2. The order of the route delivery          else
+and arrival times in u depend on the order of the routes in s.              // Purchase as many drones as possible to minimize time,
+The SA algorithm randomly adjusts s: in addition to changing                // given a budget B and a cost F of a single drone.
+the routes themselves, it also changes their order. As the SA               n ← ⌊ B−λ F ⌋
+algorithm is already adjusting the order of the routes, we                  // Make sure number of drones is positive.
+choose not to implement LPT.                                                if n < 1 then
+   Alg. 5 implements the DRONE C OSTA ND D ELIVERY-                             n←1
+T IME(s, λ, Φ) method, where λ is the cost of energy, to                // Find the cost of drones γ and the overall delivery time l.
+calculate the cost of drones γ and the overall delivery time            γ ← nF
+l. When solving the MC-DDP, it performs a binary search to              l ← LIST S CHEDULE(u, n)
+reduce the number of drones n as much as possible, without              return (γ, l)
+violating the delivery time constraint. While solving the MT-
+DDP, on the other hand, it sets n as high as possible without
+violating the budget constraint. After finding n, and in turn γ,                    i                 j                          i              j
+                                                                        Input:                                      Input:
+it uses Alg. 4 to find l. As Alg. 5 performs a binary search                      0 3 2 1 0 6 0 5 4 0                        0 3 2 1 0 6 0 5 4 0
+
+to find the number ofdrones, calling Alg. 4 every iteration, it
+has a O |N0 | log2 M bound.                                           Output:     0 5 2 1 0 6 0 3 4 0              Output:   0 2 1 0 6 0 5 3 4 0
+
+                                                                                        (a) Swap                                 (b) Relocate
+B. Simulated Annealing Algorithm
+                                                                                                          i                  j
+   Alg. 6 provides the simulated annealing algorithm we use.
+                                                                                             Input:   0 3 2 1 0 6 0 5 4 0
+It requires an initial temperature Υ0 , final temperature Υ′ ,
+cooling factor µ, and the number of rounds Λ per cooling
+phase. It is based on the approach discussed in Section 2.5 of                              Output:   0 5 0 6 0 1 2 3 4 0
+
+[37], with slight modifications. We do not include the heating                                                (c) 2-opt
+phase, and instead let Υ0 be an input to the algorithm. We use       Fig. 3.     The exchange rules from Section 2.4 of [37].
+Alg. 1 to compare the costs of different solutions.
+   In Alg. 6 the exchange rules are used to find a neighboring
+solution s′ from the current solution s. The three exchange
+                                                                                                                                   10
+
+
+
+Algorithm 6 The SIMULATEDA NNEALING(Υ0 , Υ′ , µ, Λ)                likely find better solutions than SA given the same runtime, we
+method.                                                            do not believe it is likely that the trends observed in Section VI
+Input:                                                             will change significantly with the heuristic. The trends can be
+  Υ0 - The initial temperature                                     explained by adjustments made to parameters such as area size
+  Υ′ - The final temperature                                       and the number of customer locations in an area, and do not
+  µ - The amount that temperature is adjusted each iteration       appear to be a result of behavior specific to SA.
+  Λ - The number of adjustments to the solution attempted
+  per iteration
+Output:                                                                                     VI. R ESULTS
+  s - A solution to the DDP                                           In this section, we validate the multirotor helicopter energy
+                                                                   consumption model, and analyze the performance of the MILP
+  // Generate a random solution to the DDP using the number        and SA implementations of the DDPs. We demonstrate that
+  // of locations |N0 |. It can be infeasible at this point.       the SA implementations find near-optimal solutions to small
+  s ← RANDOM S OLUTION(|N0 |)                                      instances of the DDPs, and provide consistent results for larger
+  // Set the current temperature Υ to the initial temperature      instances. We show that the cost found by the MC-DDP has an
+  // Υ0 .                                                          inverse exponential relationship with the delivery time limit,
+  Υ ← Υ0                                                           and that the overall delivery time found by the MT-DDP
+  // Perform annealing on the current solution s.                  has an inverse exponential relationship with the budget. We
+  while Υ > Υ′ do                                                  demonstrate that the majority of costs go towards drones, and
+      Υ ← µΥ                                                       that changing the budget or delivery time limit causes the SA
+      for k ∈ {1 . . . Λ} do                                       DDPs to adjust the number of drones while leaving energy
+          // Pick two random indices for s.                        costs approximately constant. We demonstrate that reusing
+          i ← UNIFORM R ANDOM I NTEGER(1,LENGTH(s)-1)              drones to perform multiple trips is an important strategy for
+          j ← UNIFORM R ANDOM I NTEGER(1,LENGTH(s)-1)              reducing costs. Our results indicate that optimizing battery
+          // Choose a random exchange rule R, then adjust s.       weight is an effective strategy for reducing the total cost and
+          R ← UNIFORM R ANDOM I NTEGER(1,3)                        overall delivery time.
+          s′ ← ADJUST W ITH E XCHANGE RULE(s, R, i, j)                To understand how the DDPs behave in general, we average
+          // Use Metropolis algorithm to determine if the          the results of a number of randomly generated instances of
+          // adjustment should become the current solution.        each scenario. Each scenario has an area size of 0.25 km2 or
+          X ← UNIFORM
+                             R ANDOMF LOAT(0,1)                  1 km2 . Small scenarios have 6-8 delivery locations, while large
+                            ′
+          if exp − COST (s )− Υ
+                                COST (s)
+                                         ≥ X then                  scenarios have 125 or 500 delivery locations. We generate 50
+                      ′                                            random instances for each scenario. In each instance, delivery
+              s←s
+  return s                                                         locations are uniformly distributed throughout the area and
+                                                                   are given uniform random demands of 0.5-2 kg; depots are
+                                                                   located in the middle of the area. We run the SA algorithm
+rules in Section 2.4 of [37] are applied in Alg. 6, each using     20 times per instance, and calculate the minimum, mean,
+two uniform randomly selected indices. The swap rule in            standard deviation, and average runtime of these 20 runs. The
+Fig. 3a swaps two randomly selected elements in the vector,        minimums, means, etc. in this section are averaged over all
+the relocate rule in Fig. 3b changes the position of a randomly    50 instances of each scenario. Unless mentioned otherwise,
+selected element in the vector, while the 2-opt rule in Fig. 3c    we use the average minimum values in tables and graphs. We
+reverses a randomly chosen sub-vector. Note that the vectors       run the MILP implementation once per instance, and provide
+in Fig. 3 represent the solution vector s, whose elements          the average result and runtime over all 50 instances of a
+are the locations in the area of interest. To determine if the     scenario. Unless mentioned otherwise, when running the SA
+neighboring solution should become the current one, we apply       algorithm, the initial temperature Υ0 = 1, the final temperature
+the Metropolis algorithm [40].                                     Υ′ = 0.001, the cooling factor µ = 0.99, and the number of
+   Section VI compares the performance of the MILP imple-          rounds Λ = 1000.
+mentations to the SA implementations to validate the cost             We assume that each drone costs F = $500 and has
+function and demonstrate that the SA implementation can find       a maximum carrying capacity of Q = 3 kg. Its maximum
+near-optimal solutions to small DDP instances. One weakness        carrying capacity includes its battery and payload weight, but
+of the SA approach is that it does not take advantage of           not its frame weight. Drones can vary in price from under $100
+characteristics unique to VRPs. For example, it does not take      for basic models to tens of thousands of dollars for industrial or
+advantage of geographical information to reduce the likelihood     military use. We assume that the operator either manufactures
+of connecting distant locations, even though a route containing    its own drones, or uses a hobbyist drone to make deliveries,
+such locations would likely be infeasible. It also does not keep   hence the $500 cost. A carrying capacity of 3 kg should be
+track of how often the swap, relocate, and 2-opt operations        possible for drones designed to deliver small packages. We as-
+improve the solution, which could be used to increase the          sign a slope α = 0.217 kW/kg and a y-intercept β = 0.185 kW
+frequency of operations that are more likely to improve the        to the energy consumption model, based on results obtained
+solution. While heuristics that implement these approaches can     from the hexacopter power consumption measurements made
+                                                                                                                                                            11
+
+
+
+in Section VI-A. When delivering packages, we assume that
+                                                                                                                             30
+the drone flies at a constant speed of v = 6 m/s between
+                                                                                                                             25
+locations, and takes τ = 60 s at each location to descend,
+                                                                                                                             20
+
+
+
+
+                                                                                                                Height (m)
+deliver the package, and ascend. Batteries are given an energy
+                                                                                                                             15
+density of ξ = 650 kJ/kg and cost ǫ = 0.1 $/kJ, based on the
+                                                                                                                             10
+energy density and price of lithium polymer batteries in United
+                                                                                                                             5
+States dollar values at the time this paper was written.
+                                                                                                                             0
+   We use the percent improvement p to compare how a value                                                                    0   50     100
+                                                                                                                                       Time (s)
+                                                                                                                                                150   200
+
+changes from x to x′ after adjusting a parameter or algorithm.       (a) The hexacopter path during the        (b) Hexacopter altitude while per-
+We express the percent improvement as                                straight flight manoeuvre. Map            forming altitude changes.
+                                                                     data and image c 2015 Google.
+                               x − x′
+                          p=          .                     (15)    Fig. 4.    Hexacopter manoeuvre information.
+                                 x′
+We either minimize the cost or the overall delivery time, so                                    TABLE I
+                                                                         AVERAGE VOLTAGE , CURRENT, AND POWER CONSUMED BY THE
+when p > 0, x′ is an improvement over x.                                  HEXACOPTER WHILE PERFORMING DIFFERENT MANOEUVRES .
+   The rest of this section is organized as follows: Section VI-A
+validates our energy consumption model by comparing it                          Manoeuvre        Voltage (V)   Current (A)               Power (W)
+                                                                                    Hover            15.6         19.9                      311
+to measurements from a 3D Robotics ArduCopter Hexa-B                           Straight Flight       15.3         19.8                      304
+hexacopter. Section VI-B compares the results and runtimes of                 Altitude Change        14.7         20.3                      297
+the MILP and SA DDP implementations for instances with 6-
+8 locations, and measures the consistency and runtimes of the
+SA DDPs for instances of up to 500 locations. Section VI-C          changes, the hexacopter’s altitude changed as in Fig. 4b, with
+examines how the cost and overall delivery time found by            minimal changes in latitude and longitude.
+the MC-DDP and MT-DDP respectively change with the                     Table I contains the average voltage, current, and power con-
+delivery time limit, budget, area size, and number of locations.    sumption during hover, level flight, and altitude adjustment. It
+Section VI-C also examines how the DDPs adjust costs for            shows that, on average, the power consumed when performing
+different delivery time limits and budgets. Section VI-D inves-     the three manoeuvres is approximately equal. The current is
+tigates the importance of reusing drones, while Section VI-E        slightly lower during level flight, possibly due to translational
+looks into the advantages of optimizing battery weight.             lift, where air moving horizontally along the rotors creates
+                                                                    extra lift. The voltages in Table I are slightly different between
+                                                                    tests, depending on the battery charge remaining. The altitude
+A. Hexacopter Energy Consumption Measurements
+                                                                    change tests had slightly lower voltages because they were
+   In this section, we conduct two experiments to validate          conducted last.
+our energy consumption model. In the first experiment we               The second set of experiments measure the power con-
+verify that the power consumed during hover, level flight, and      sumption of the hexacopter as it carries different weights,
+changing altitude is, on average, approximately equal. The          while hovering 3-5 m above the ground at the same location.
+second experiment verifies that the relationship between power      Measurements were repeated twice for each weight and battery
+consumption and battery and payload weight is approximately         type. The hexacopter was tested with both a 3-cell 11.1 V
+linear, and provides us with realistic values for our linear        lithium polymer battery and a 4-cell 14.8 V lithium polymer
+model.                                                              battery.
+   Experimental results were generated with a 3D Robotics              Fig. 5 confirms that the power consumption of the hexa-
+ArduCopter Hexa-B hexacopter. It has six 850 RPM/V motors           copter varies approximately linearly with battery and payload
+with 10x4.6 APC slow fly propellers, uses an Arduino flight         weight, for both 3- and 4-cell batteries. The power consumed
+controller with firmware version 3.0.1 of the APM 2.5 autopi-       by the 4-cell battery grows faster with weight than with the 3-
+lot, and has a u-blox LEA-6 GPS with a ceramic 4 mm GPS             cell battery because we used 10x4.7 slow fly propellers, which
+patch antenna. Unless mentioned otherwise, the hexacopter is        perform less efficiently at the higher motor RPM from using
+powered by a 4-cell 14.8 V lithium polymer battery. Power           the 4-cell batteries.
+consumption is calculated using current and voltage readings
+taken from the hexacopter’s power management system, which
+were recorded by the ArduPilot mission planning software.           B. Performance of MILP and SA Implementations
+   Power consumption was measured during level flight, hover,          This section analyzes the performance of the MILP and
+and altitude changes. The ArduPilot software under default          SA implementations of the DDPs. It compares the results and
+settings was used to control the hexacopter and log the             runtimes of the SA implementations with the MILP implemen-
+measurements. During level flight, the drone flew six times         tations, and examines how the SA implementations perform
+between two waypoints positioned about 94 m apart, with an          at different cooling rate levels. The MILP implementations
+average speed of about 6 m/s; the path can be seen in Fig. 4a.      were run in CPLEX in a single thread, otherwise with default
+During hover, the hexacopter remained as stationary as it could     settings. Each scenario has its own number of locations |N0 |,
+over a single location over a period of 40 s. During altitude       not including the depot, and area size A in km2 .
+                                                                                                                                                                        12
+
+
+                                                                                                                                TABLE IV
+                               0.55
+                                           4S Battery                                                         S IMULATED ANNEALING RESULTS FOR THE MT-DDP.
+                                0.5        3S Battery
+                                                                        85                                                     µ = 0.9                    µ = 0.99
+                                                                      .1
+                               0.45                               +                                    A      |N0 |   Mean      Std Runtime      Mean       Std   Runtime
+
+                  Power (kW)
+                                                          m                  87
+                                                        17                 1                         (km2 )            (min)   (min)     (s)      (min)    (min)     (s)
+                                                     .2               +.
+                                0.4                           1   m
+                                                          .17
+                                                                                                     0.250     125    13.28     0.13    4.00      12.19     0.08   40.79
+                               0.35                                                                  1.000     125    17.49     0.31    4.12      15.62     0.14   41.88
+                                                                                                     0.250     500    75.49     0.67   18.20      69.68     0.25   178.17
+                                0.3                                                                  1.000     500    117.82    3.75   18.45     104.75     0.47   181.41
+                               0.25
+                                       0.5            1            1.5                                                          TABLE V
+                                      Battery and Payload Weight m (kg)
+                                                                                                              S IMULATED ANNEALING RESULTS FOR THE MC-DDP.
+Fig. 5. Hexacopter energy consumption for various battery and payload                                                          µ = 0.9                    µ = 0.99
+weights m, with corresponding energy consumption model values.                                         A      |N0 |   Mean      Std    Runtime   Mean      Std    Runtime
+                                                                                                     (km2 )            (k$)    (k$)       (s)     (k$)     (k$)      (s)
+                         TABLE II                                                                    0.250     125    13.99    0.23      5.82    13.52     0.21    57.91
+P ERFORMANCE OF MILP AND SA IMPLEMENTATIONS OF THE MT-DDP.                                           1.000     125    17.03    0.29      6.04    16.21     0.24    58.22
+                                                                                                     0.250     500    60.40    1.02     49.31    54.55     0.43    461.27
+       Scenario                           MILP                                       SA              1.000     500    75.13    1.38     57.11    65.57     0.55    497.65
+      A      |N0 |              Result      Runtime                    Mean        Std    Runtime
+    (km2 )                      (min)           (s)                    (min)      (min)     (s)
+    0.250       6                5.40          0.97                     5.48       0.09    0.24
+    1.000       6                7.20          0.96                     7.28       0.10    0.25     to decrease. Locations are further apart, reducing the number
+    0.250       7                6.59          8.41                     6.68       0.09    0.28     of feasible routes and consequently the number of feasible
+    1.000       7                8.65          6.13                     8.76       0.14    0.28
+    0.250       8                7.29        116.98                     7.43       0.13    0.30     solutions. Perhaps the solver improves the runtime by pruning
+    1.000       8                9.63         86.87                     9.83       0.22    0.31     solutions with routes that consume too much energy, carry too
+                                                                                                    much weight, exceed the delivery time limit, or fail to meet
+                         TABLE III
+P ERFORMANCE OF MILP AND SA IMPLEMENTATIONS OF THE MC-DDP.
+                                                                                                    some other criteria.
+                                                                                                       Tables IV and V show the results of the SA implementation
+        Scenario                           MILP                                     SA              at different cooling rate levels µ for scenarios with over 125
+       A      |N0 |              Result      Runtime                       Mean   Std     Runtime   locations. As before, Υ0 = 1, Υ′ = 0.001, and Λ = 1000.
+     (km2 )                       (k$)          (s)                        (k$)   (k$)      (s)
+     0.250       6                0.99         9.47                        1.00   0.00     0.19     The cooling rate level µ, however, is adjusted this time to see
+     1.000       6                1.04         4.84                        1.04   0.00     0.19     how much the results improve with additional runtime. MT-
+     0.250       7                1.04         75.38                       1.04   0.00     0.22     DDP scenarios have a budget B of $10,000, while MC-DDP
+     1.000       7                1.10         24.84                       1.11   0.00     0.22
+     0.250       8                1.04        1116.87                      1.04   0.00     0.24     scenarios have delivery time limits T of 10 minutes.
+     1.000       8                1.22        205.52                       1.26   0.04     0.24        The SA implementation results are consistent for large
+                                                                                                    scenarios. In Table IV the standard deviations are generally
+                                                                                                    in seconds when the mean values are several minutes long.
+   Tables II and III show the average results and runtimes                                          The standard deviation is always under $1,500 in Table V,
+of the MILP and SA implementations of the MT-DDP and                                                and usually just a few hundred dollars, where the means are
+MC-DDP respectively. The SA algorithm parameters are set                                            often tens of thousands of dollars. The standard deviations
+to Υ0 = 1, Υ′ = 0.001, µ = 0.9, and Λ = 1000. MT-                                                   are greatest when |N0 | is high and µ is low. In this case the
+DDP scenarios have a budget B of $1,500, while MC-DDP                                               solution vector s is long, increasing the number of neighboring
+scenarios have delivery time limits T of 10 minutes.                                                solutions that can be found after an adjustment, and µ is low so
+   The SA implementation consistently finds near-optimal so-                                        the temperature decreases rapidly, giving fewer opportunities
+lutions for problems with 8 or less locations. SA solutions to                                      to make adjustments.
+the MT-DDP are at most seconds away from optimal, while                                                One possible reason for the small standard deviation is that
+SA solutions to the MC-DDP are at most tens of dollars                                              the majority of costs appear to come from purchasing drones,
+away, when optimal solutions are in minutes and thousands                                           which are considerably more expensive than energy. It seems
+of dollars respectively. While optimality cannot be guaranteed                                      like the SA DDPs consistently find similar numbers of drones,
+when using SA, it appears to be an effective approach for                                           and differ more with regards to energy consumption. The
+solving small cases of the DDPs, providing similar results in                                       variation in energy consumption is dampened by the relatively
+under a second of runtime.                                                                          low energy costs, leading to the low standard deviations.
+   The runtime of the MILP implementation can grow expo-                                               Increasing the cooling rate level from 0.9 to 0.99 resulted
+nentially with the number of locations, as can be observed                                          in percent improvements of up to 15% for the means in the
+from the runtimes in Tables II and III. In Table III, for                                           scenarios tested, which came at the cost of increasing runtime
+example, the runtime increases from 75.38 s to 1116.87 s when                                       by about a factor of 10. Even though increasing the cooling
+solving an 8 location problem with an area of 0.25 km2 instead                                      rate level generally improves results, the improvement is not
+of a 7 location problem. The runtime of the SA implementation                                       significant compared to the increase in runtime. While not
+is consistently about 0.2-0.3 s for each scenario.                                                  shown in this paper, increasing µ from 0.99 to 0.999 resulted
+   In Tables II and III, increasing A without changing |N0 |                                        in percent improvements of up to 5%, again with the runtime
+can actually cause the runtime of the MILP implementation                                           increasing by about a factor of 10. We therefore set µ = 0.99
+                                                                                                                                                                                                                        13
+
+
+
+                                80                                                                                                               2
+                                                              A = 1 km2                                                                                                                 A = 1 km2
+
+
+
+
+                                                                                                              Overall Delivery Time l (hours)
+                                                                           2                                                                                                                          2
+                                                              A = .25 km                                                                                                                A = .25 km
+                                60                                                                                                              1.5
+
+
+
+                  Cost c (k$)
+                                40                                                                                                               1
+                                         |N0 |                                                                                                               |N
+                                                 = 50                                                                                                          0|   =5
+                                                        0 lo c                                                                                                           00 l
+                                                              a tio                                                                                                          o ca
+                                                                      ns                                                                                                                 tio n
+                                20                                                                                                              0.5                                            s
+                                        |N0 | = 12 5 loc                                                                                                   |N0 | = 12 5 loc
+                                                        ation s                                                                                                            ation s
+                                0                                                                                                                0
+                                10   20    30       40     50              60                                                                    10   15       20     25                     30        35
+                                      Time Limit T (minutes)                                                                                                  Budget B (k$)
+
+
+Fig. 6. Costs found by the SA MC-DDP algorithm for various delivery time        Fig. 7. Overall delivery times found by the SA MT-DDP algorithm for
+limits, area sizes, and numbers of nodes.                                       various budgets, area sizes, and numbers of nodes.
+
+
+
+for the rest of the section, as further increasing µ would result                                   80                                                                             40
+                                                                                                                                                      Drones                                 Drones
+in minor improvements compared to the increase in runtime.                                                                                            Energy                                 Energy
+                                                                                                    60                                                                             30
+   We would like to mention that heuristics or exact algorithms
+
+
+
+
+                                                                                      Cost c (k$)
+
+
+
+
+                                                                                                                                                                     Cost c (k$)
+that take advantage of characteristics unique to VRPs may find                                      40                                                                             20
+
+lower costs and times than the SA approach in this paper. An
+                                                                                                    20                                                                             10
+approach that takes advantage of geographical information to
+reduce the likelihood of connecting far apart locations would                                       0
+                                                                                                           20        40         60
+                                                                                                                                                                                   0
+                                                                                                                                                                                          10          20      30   40
+likely find better results as fewer infeasible routes would be                                           Time Limit T (minutes)                                                                    Budget B (k$)
+
+tested. The number of times that performing operations such as                            (a) MC-DDP cost breakdown (b) MT-DDP cost breakdown
+swap, relocate, or 2-opt improve the solution could be tracked;                 Fig. 8. Costs found by the SA algorithms for various delivery time limits
+operations which tend to improve the solution could be chosen                   and budgets, with 500 locations in a 1 km2 area.
+
+more frequently than operations that do not.
+   While such approaches may lower cost, we do not believe
+                                                                                decreases. This combination of factors reduces the number of
+that the trends we observed will change significantly with a
+                                                                                purchased drones. After a certain point, increasing T does not
+different method. The trends can be explained by adjustments
+                                                                                alter the routes as much, meaning costs are mainly reduced by
+made to parameters such as area size and the number of
+                                                                                reusing drones. The greater reductions in cost for low delivery
+customer locations in an area. They do not appear to be a
+                                                                                times likely come from not only being able to reuse drones,
+result of behavior specific to SA.
+                                                                                but also from increasing the length and consequently reducing
+                                                                                the number of routes flown.
+C. Analysis of DDP Parameters                                                      Fig. 7 shows an inverse exponential relationship between l
+   This section examines how adjusting the budget B in                          and B. Changes to l from adjusting B are greater when B is
+dollars, time limit T in minutes, number of locations |N0 |,                    low. From Fig. 8b we can see that, as with the MC-DDP, this
+and area size A in km2 affects the results obtained by the                      change comes mostly from adding or removing drones. When
+SA implementations of the DDPs. We show that the overall                        B is low, only a small number of drones can be purchased
+delivery time l found by the MT-DDP is inversely proportional                   to complete deliveries. Adding an additional drone reduces
+to B, and that the cost c found by the MC-DDP is inversely                      the delivery time considerably; for example, suppose a single
+proportional to T . We also examine the sensitivity of the DDPs                 drone is making all of the deliveries, then a second drone is
+to changes in B, T , |N0 |, and A. This information may be                      added. If their burden is shared as evenly as possible, l can
+used to find the point where guaranteeing a better delivery                     potentially be halved. Now suppose a large number of drones
+time limit is not worth the additional cost, or alternatively the               are available, and another one is added. The routes of each
+point at which reducing the budget is not worth the increase                    drone could perhaps be shortened slightly to give the additional
+in overall delivery time.                                                       drone a new route, but this will likely not have anywhere near
+   Fig. 6 shows how adjustments to T , |N0 |, and A affect c,                   the impact on l compared to adding a second drone when only
+while Fig. 7 examines how adjustments to B, |N0 |, and A                        a single drone is making deliveries.
+affect l. To help explain the changes to l and c, Figs. 8a and                     Figs. 6 and 7 show that when |N0 | is high, the MC-DDP
+8b provide stacked bar graphs depicting the split in c between                  becomes more sensitive to changes in T , and the MT-DDP
+drones and energy for scenarios with 500 locations in a 1 km2                   becomes more sensitive to changes in B. For a given increase
+area.                                                                           in T with the MC-DDP, more routes can be extended and
+   Fig. 6 shows an inverse exponential relationship between c                   additional drones can be reused when |N0 | is high. Similarly,
+and T . Changes to c from adjusting T are larger when T is                      increasing |N0 | when T is low has a greater effect on cost than
+low; from Fig. 8a we can see that this change comes mostly                      increasing |N0 | when T is high. When T is low, routes are
+from adding or removing drones. When T is low, most drones                      short and drones are reused less, so increasing |N0 | requires
+fly short routes and are seldom reused; as T increases, drone                   purchasing more drones than if T were high. For higher
+reuse and route length increase, while the number of routes                     values of |N0 | with the MT-DDP, drones require more time
+                                                                                                                                                                         14
+
+
+                          TABLE VI
+                                                                                                                 36
+MC-DDP COSTS WHEN REUSE IS ENABLED AND DISABLED FOR VARIOUS                                                                            Battery Weight Fixed to b
+       TIME LIMITS IN A 0.25 KM 2 AREA WITH 500 NODES .                                                          34                    Battery Weight Optimized
+
+
+   Delivery Time Limit        Cost (k$)      Percent Improvement                                                 32
+
+
+
+
+                                                                                    Cost c (k$)
+        (minutes)        Reuse    No Reuse            (%)
+                                                                                                                 30
+           10.0           54.6       112.9          106.84
+           20.0           29.2       112.7          286.38                                                       28
+           30.0           20.6       112.8          446.65
+           40.0           16.2       112.8          597.77                                                       26
+           50.0           13.6       112.7          730.95
+           60.0           11.7       112.7          866.62                                                       24
+                                                                                                                   0.25                0.3   0.35   0.4     0.45   0.5
+                                                                                                                                        Battery Weight b (kg)
+
+
+                                                                   Fig. 9. Costs found by the MC-DDP when every drone’s battery weighs
+to complete deliveries, as they must travel further and spend      b kg, with a time limit of 30 minutes on a 1 km2 field with 500 nodes.
+more time servicing locations. When B is low, only a small
+number of drones are available and must therefore be reused                                                                 6
+                                                                                                                                       Battery Weight Fixed to b
+
+
+
+
+                                                                                          Overall Delivery Time l (hours)
+more frequently, further increasing l.                                                                                                 Battery Weight Optimized
+                                                                                                                            5
+   From Figs. 6 and 7 we see that the DDPs are less sensitive to
+changes in A than to changes in |N0 |. Increasing A increases                                                               4
+the distance traveled between locations, and consequently the
+time and energy required to complete deliveries. Changing                                                                   3
+
+|N0 | not only increases the travel distance, but also the time
+                                                                                                                            2
+spent servicing locations, as well as the number of deliveries
+that must be made. Changing |N0 | therefore has a greater                                                                       0.25     0.3 0.35 0.4 0.45
+                                                                                                                                        Battery Weight b (kg)
+                                                                                                                                                                   0.5
+
+effect on time and cost than A.
+   Note that these results may not hold for much higher            Fig. 10. Delivery times found by the MT-DDP when every drone’s battery
+                                                                   weighs b kg, with a budget of $10,000 on a 1 km2 field with 500 nodes.
+values of A or |N0 |. If A or |N0 | are so high that it
+becomes impossible in some scenarios to avoid violating the
+capacity constraint, cost constraint, or timing constraint, then
+                                                                   E. Effect of Optimizing Battery Weight
+the average price given by the SA algorithm could greatly
+increase. If a constraint is violated, the SA algorithm makes         While papers on minimizing fuel consumption do not reuse
+that solution undesirable by increasing its cost.                  drones, MTVRPs do. We are not aware of any MTVRPs that
+                                                                   try to optimize battery weight and therefore the energy given to
+                                                                   each drone. Instead, they may limit each drone’s travel distance
+D. Effect of Drone Reuse                                           or travel time to a predefined value. In this section, we apply
+                                                                   our energy model to an MTVRP, and fix the battery weight
+   In the previous section we learned that the majority of         for every route to the same constant value b in kg. Similar to
+costs come from purchasing drones. Unlike other VRPs that          limiting distance or time, the amount of energy that can be
+model fuel consumption, the DDPs permit drones to be reused        consumed is limited. We show that optimizing battery weight
+to perform multiple trips. To demonstrate the importance of        for each route may provide better costs and delivery times
+allowing drone reuse, we show that our SA implementation           compared to optimizing a fixed battery weight that is identical
+performs better when drone reuse is permitted.                     for each route. We also demonstrate that even if all routes share
+   To look at the importance of drone reuse, we altered the SA     an identical battery weight, optimizing it can still be important.
+implementation in Section V-A by removing the binary search           To look at the effect of optimizing battery weight, we altered
+in Alg. 5, and setting the number of drones n to the number        Alg. 2 to assume that every path has an identical battery
+of routes. Table VI compares the results of the MC-DDP with        weight of b kg. The energy in a battery is then ξb, where ξ
+and without drone reuse. We did not include a similar table        is the energy density of the battery in kJ/kg. Fig. 9 shows
+for the MT-DDP, as solutions could not be found for budgets        the cost c found by the MC-DDP when assuming an identical
+of $35,000 or less.                                                battery weight b for each route. The dashed line represents the
+   Table VI shows substantial gains when allowing drone            cost found by optimizing battery weights for each route with
+reuse. We can see that without reusing drones a limit of about     the unaltered version of Alg. 2; it is flat because it does not
+$113,000 is reached. By reusing drones, we can pass this limit     consider b. Fig. 10 is similar, but for the overall delivery time
+without exceeding the delivery time constraints.                   l found by the MT-DDP.
+   Note that we are ignoring the cost of maintaining drones.          Figs. 9 and 10 demonstrate that optimizing battery weights
+Flying fewer drones will likely increase maintenance costs due     for each route to give drones exactly enough energy to
+to increasing the total time flown per drone. New drones are       complete their upcoming routes can provide substantial sav-
+generally expensive, and worn components can presumably            ings compared to optimizing a fixed battery weight that is
+be replaced quickly and relatively inexpensively, so reducing      identical for every route. In Fig. 9 the percent improvement
+the number of drones while increasing the costs of labor and       when optimizing each route’s battery weight amounts to 13%
+replacement parts is likely the less expensive option.             compared to assuming an identical battery weight of 0.3 kg for
+                                                                                                                                                  15
+
+
+
+every route. In Fig. 10 the percent improvement of optimizing          Additional strategies could be implemented to further re-
+each route’s battery weight amounts to about 22% compared           duce costs and generalize the problem. Time windows could be
+to assuming each route has a battery weight of 0.25 kg when         added to locations to ensure that packages are delivered within
+using the MT-DDP. Note that while optimizing battery weight         a specific time. Multiple depots or recharging stations could be
+for each route provides savings compared to optimizing a fixed      studied as a method of extending the flight distance of drones.
+battery weight, it can be less effective with a small area size     While we treat cost and delivery time as separate optimiza-
+or low number of nodes.                                             tion objectives, a multi-objective optimization problem could
+   Even if the battery weight is identical for all routes, opti-    combine both. Maintenance costs could be included when
+mizing it can improve cost and delivery time, as can be seen        determining drone reuse. The performance of the MILP and
+in Figs. 9 and 10. Setting b to 0.3 kg instead of 0.5 kg provides   SA DDPs on a cloud service such as Amazon Web Services
+a percent improvement of 15% for the MC-DDP, and setting b          [41] could be investigated. The runtime or resources provided
+to 0.25 kg instead of 0.45 kg provides a percent improvement        to the algorithms could be adjusted to compare performance
+of 80% for the MT-DDP.                                              gains from increasing the service cost.
+                                                                       The DDPs have practical applications in delivery and emer-
+                       VII. C ONCLUSION                             gency response scenarios. They can plan routes and assign
+   In this paper, we derived an energy consumption model            drones to them in scenarios with tight budgets or time limits.
+for multirotor drones, provided a linear approximation for it,      In a disaster response scenario, for example, the MT-DDP
+and verified the approximation experimentally. With this ap-        could make the best use of a limited budget to optimize the
+proximation we proposed the drone delivery problems (DDPs)          routes taken by a fleet of drones to deliver food or medicine
+that minimize cost or delivery time while considering battery       to assigned locations as quickly as possible. Alternatively, a
+weight, payload weight, and drone reuse, and implemented            delivery company could determine the budget necessary to
+them as mixed integer linear programs. To solve practical           guarantee a minimum delivery time with the MC-DDP. The
+scenarios with hundreds of locations, we proposed a string-         SA implementations can be used to quickly predict delivery
+based simulated annealing algorithm for solving the DDPs.           times and plan budgets for drone-based delivery operations
+   Numerical results indicate that optimizing battery weight        with a large number of locations.
+and reusing drones are important considerations for drone
+delivery. Optimizing battery weights resulted in percent im-
+                                                                                                   R EFERENCES
+provements of over 10% compared to solutions where each
+drone had an identical battery weight. Even when drones had          [1] Amazon.com, Inc. Amazon Prime Air. [Online]. Available: http://www.
+an identical battery weight, optimizing that weight provided a           amazon.com/primeair
+                                                                     [2] DHL International GmbH. (2014, Sep.) DHL parcelcopter
+percent improvement of 80% for the MT-DDP in the scenario                launches initial operations for research purposes. [Online]. Avail-
+considered in Section VI-E. In Section VI-D reusing drones               able:     http://www.dhl.com/en/press/releases/releases 2014/group/dhl
+led to costs in the tens of thousands of dollars, while prevent-         parcelcopter launches initial operations for research purposes.html
+ing drone reuse resulted in costs of approximately $113,000.         [3] J. Stewart. (2014, Aug.) Google tests drone deliveries in Project Wing
+                                                                         trials. BBC. [Online]. Available: http://www.bbc.com/news/technology-
+   When minimizing costs with the MC-DDP, an inverse                     28964260
+exponential relationship between the cost and the delivery           [4] Aljazeera. (2014, Feb.) UAE to use drones for citizen services. [Online].
+time limit was noticed. An inverse exponential relationship              Available: http://www.aljazeera.com/news/middleeast/2014/02/uae-use-
+                                                                         drones-government- services-20142121717319272.html
+was also seen between the overall delivery time and the              [5] C. Dillow. (2015, May) Meet Matternet, the drone delivery startup
+budget constraint with the MT-DDP. For both DDPs, the                    thats actually delivering. Fortune. [Online]. Available: http://fortune.
+majority of costs are allocated to drones instead of energy.             com/2015/05/01/matternet- drone-delivery/
+                                                                     [6] P. Morgan, Carbon Fibers and Their Composites, ser. Materials Engi-
+This information is useful for a practitioner. For example,              neering. CRC Press, 2005.
+reducing already low delivery times can require a relatively         [7] C. Reiter. (2013, Nov.) BMW makes lone shift to
+large investment in additional drones. Adding a single drone             carbon fiber to gain auto edge. Bloomberg. [Online].
+                                                                         Available: http://www.bloomberg.com/news/articles/2013-11-14/bmw-
+when the number of drones is low can greatly reduce delivery             makes-lone-shift-to-carbon-fiber-to-gain-auto-edge
+times, while adding a drone when the number of drones is             [8] T. Reddy, Linden’s Handbook of Batteries, 4th ed.            McGraw-Hill
+high has a limited effect in comparison.                                 Education, 2010.
+                                                                     [9] National Coordination Office for Space-Based Positioning, Navigation,
+   One weakness of the SA algorithm is that it does not take             and Timing. (2015, Dec.) GPS.gov: augmentation systems. [Online].
+advantage of characteristics inherent to a VRP. For instance, it         Available: http://www.gps.gov/systems/augmentations/
+does not take advantage of geographical information to reduce       [10] S. Karpenko, I. Konovalenko, A. Miller, B. Miller, and D. Nikolaev,
+the likelihood of trying infeasible routes with two locations at         “UAV control on the basis of 3D landmark bearing-only observations,”
+                                                                         Sensors, vol. 15, no. 12, pp. 29 802–29 820, Nov. 2015.
+opposite ends of the area of interest. The cost function of the     [11] T. Merz and F. Kendoul, “Dependable low-altitude obstacle avoidance
+SA algorithm accounts for reusing drones, as well as the effect          for robotic helicopters operating in rural areas,” J. Field Robot., vol. 30,
+of battery and payload weight on energy consumption, so it               no. 3, pp. 439–471, Apr. 2013.
+                                                                    [12] R. Carloni, V. Lippiello, M. D’Auria, M. Fumagalli, A. Mersha,
+could be applied to a heuristic better suited to VRPs. The               S. Stramigioli, and B. Siciliano, “Robot vision: Obstacle-avoidance
+cost function itself is also an approximation, as it uses list           techniques for unmanned aerial vehicles,” IEEE Robot. Autom. Mag.,
+scheduling to assign drones to routes. Perhaps a multi-layer             vol. 20, no. 4, pp. 22–31, Dec. 2013.
+                                                                    [13] I. Bekmezci, O. K. Sahingoz, and Şamil Temel, “Flying ad-hoc networks
+approach that optimizes routes and their assignment to drones            (FANETs): A survey,” Ad Hoc Netw., vol. 11, no. 3, pp. 1254–1270, May
+would perform better.                                                    2013.
+                                                                                                                                                               16
+
+
+
+[14] J. Li, Y. Zhou, and L. Lamont, “Communication architectures and pro-          [37] I. Kaku, Y. Xiao, and G. Xia, “The deterministic annealing algorithms
+     tocols for networking unmanned aerial vehicles,” in IEEE GC Wkshps.,               for vehicle routing problems,” Int. J. Smart Eng. Syst. Design, vol. 5,
+     Dec. 2013, pp. 1415–1420.                                                          no. 4, pp. 327–339, 2003.
+[15] C. C. Murray and A. G. Chu, “The flying sidekick traveling salesman           [38] H. Kellerer, U. Pferschy, and D. Pisinger, Knapsack Problems. Springer
+     problem: Optimization of drone-assisted parcel delivery,” Transp. Res.             Berlin Heidelberg, 2004.
+     Part C: Emerging Technol., vol. 54, pp. 86–109, May 2015.                     [39] J. Kleinberg and É. Tardos, Algorithm Design. Addison-Wesley, 2011.
+[16] S. Erdoğan and E. Miller-Hooks, “A green vehicle routing problem,”           [40] N. Metropolis, A. W. Rosenbluth, M. N. Rosenbluth, A. H. Teller, and
+     Transp. Res. Part E: Logistics Transp. Rev., vol. 48, no. 1, pp. 100–114,          E. Teller, “Equation of state calculations by fast computing machines,”
+     Jan. 2012.                                                                         J. Chemical Physics, vol. 21, no. 1087, pp. 1087–1092, Jun. 1953.
+[17] É. D. Taillard, G. Laporte, and M. Gendreau, “Vehicle routing with           [41] Amazon Web Services, Inc. (2016) Amazon web services. [Online].
+     multiple use of vehicles,” J. Oper. Res. Soc., vol. 47, no. 8, pp. 1065–           Available: https://aws.amazon.com/
+     1070, Aug. 1995.
+[18] Y. Xiao, Q. Zhao, I. Kaku, and Y. Xu, “Development of a fuel
+     consumption optimization model for the capacitated vehicle routing                                     Kevin Dorling (S’14) received a B.S. degree in
+     problem,” Comput. Operations Res., vol. 39, no. 7, pp. 1419–1431, Jul.                                 Computer Engineering with distinction from the
+     2012.                                                                                                  University of Calgary, Canada, in 2010. He is cur-
+[19] International Business Machines Corporation. CPLEX Optimizer. [On-                                     rently pursuing a Ph.D. in Electrical Engineering at
+     line]. Available: http://www.ibm.com/software/commerce/optimization/                                   the University of Calgary.
+     cplex-optimizer/                                                                                          In 2011 and 2013, he was an intern at Bell Labs,
+[20] K. Sundar and S. Rathinam, “Algorithms for routing an unmanned aerial                                  Alcatel-Lucent in Stuttgart, Germany, working on
+     vehicle in the presence of refueling depots,” IEEE Trans. Autom. Sci.                                  deployment techniques for wireless sensor networks.
+     Eng., vol. 11, no. 1, pp. 287–294, Jan. 2014.                                                          In 2009, he was an intern at CDL Systems in Cal-
+[21] F. Guerriero, R. Surace, V. Loscrı́, and E. Natalizio, “A multi-objective                              gary, Canada, developing control station software for
+     approach for unmanned aerial vehicle routing problem with soft time                                    unmanned vehicles. His research interests include
+     windows constraints,” Appl. Math. Modelling, vol. 38, no. 3, pp. 839–         wireless sensor networks, operations research, and communication systems.
+     852, Feb. 2014.
+[22] J.-F. Cordeau, G. Laporte, M. W. Savelsbergh, and D. Vigo, “Chapter
+     6 vehicle routing,” in Transportation, ser. Handbooks in Operations                                    Jordan Heinrichs received a B.S. degree in Elec-
+     Research and Management Science, C. Barnhart and G. Laporte, Eds.                                      trical Engineering, minor in Computer Engineering
+     Elsevier, 2007, vol. 14, pp. 367–428.                                                                  with distinction from the University of Calgary,
+[23] B. Eksioglu, A. V. Vural, and A. Reisman, “The vehicle routing problem:                                Canada, in 2016.
+     A taxonomic review,” Comput. Ind. Eng., vol. 57, no. 4, pp. 1472–1483,                                    In 2013 he tested multicopters as a summer re-
+     Nov. 2009.                                                                                             search student. From 2014 to 2015 he interned at
+                                                                                                            Lockheed Martin CDL Systems developing software
+[24] M. Schneider, A. Stenger, and D. Goeke, “The electric vehicle-routing
+                                                                                                            for miniature unmanned aerial vehicles. He is cur-
+     problem with time windows and recharging stations,” Transp. Sci.,
+                                                                                                            rently employed at Hitachi ID Systems developing
+     vol. 48, no. 4, pp. 500–520, Nov. 2014.
+                                                                                                            software for identity management.
+[25] G. Hiermann, J. Puchinger, S. Ropke, and R. F. Hartl, “The electric fleet
+     size and mix vehicle routing problem with time windows and recharging
+     stations,” Eur. J. of Oper. Res., vol. 252, no. 3, pp. 995–1018, Aug. 2016.
+[26] B. Fleischmann, “The vehicle routing problem with multiple use of
+                                                                                                             Geoffrey Messier (S’91 - M’98) received his B.S.
+     the vehicles,” Working Paper, Fachbereich Wirtschaftswissenschaften,
+                                                                                                             in Electrical Engineering and B.S. in Computer Sci-
+     Universitaet Hamburg, 1990.
+                                                                                                             ence degrees from the University of Saskatchewan,
+[27] N. Azi, M. Gendreau, and J.-Y. Potvin, “An adaptive large neighborhood                                  Canada with great distinction in 1996. He received
+     search for a vehicle routing problem with multiple routes,” Comput.                                     his M.Sc. in Electrical Engineering from the Uni-
+     Operations Res., vol. 41, pp. 167–173, Jan. 2014.                                                       versity of Calgary, Canada in 1998 and his Ph.D.
+[28] D. Cattaruzza, N. Absi, D. Feillet, and T. Vidal, “A memetic algorithm                                  degree in Electrical and Computer Engineering from
+     for the multi trip vehicle routing problem,” Eur. J. Oper. Res., vol. 236,                              the University of Alberta, Canada in 2004.
+     no. 3, pp. 833–848, Aug. 2014.                                                                             From 1998 to 2004, he was employed in the
+[29] M. Cheikh, M. Ratli, O. Mkaouar, and B. Jarboui, “A variable neigh-                                     Nortel Networks CDMA Base Station Hardware
+     borhood search algorithm for the vehicle routing problem with multiple                                  Systems Design group in Calgary, Canada. At Nortel
+     trips,” Electron. Notes Discrete Mathematics, vol. 47, pp. 277–284, Feb.      Networks, he was responsible for radio channel propagation measurements
+     2015.                                                                         and simulating the physical layer performance of high speed CDMA and
+[30] F. Hernandez, D. Feillet, R. Giroudeau, and O. Naud, “Branch-and-price        multiple antenna wireless systems. Currently, Dr. Messier is a Professor in the
+     algorithms for the solution of the multi-trip vehicle routing problem with    University of Calgary Department of Electrical and Computer Engineering.
+     time windows,” Eur. J. Oper. Res., vol. 249, no. 2, pp. 551–559, Mar.         His research interests include data networks, physical layer communications
+     2016.                                                                         and communications channel propagation measurements.
+[31] İ. Kara, B. Y. Kara, and M. K. Yetis, “Energy minimizing vehicle routing
+     problem,” in Combinatorial Optimization and Applications, ser. Lecture
+     Notes in Computer Science, A. Dress, Y. Xu, and B. Zhu, Eds. Springer                                    Sebastian Magierowski received his Ph.D. de-
+     Berlin Heidelberg, 2007, vol. 4616, pp. 62–71.                                                           gree in Electrical Engineering from the Univer-
+[32] Japanese Ministry of Land, Infrastructure, Transport and Tourism.                                        sity of Toronto in 2004. From 2004 to 2012 he
+     (2009) Fuel consumption and CO2 emission of passenger cars. [Online].                                    served as Assistant/Associate Professor in the De-
+     Available: http://www.mlit.go.jp/common/000037099.pdf                                                    partment of Electrical and Computer Engineering
+[33] E. E. Zachariadis, C. D. Tarantilis, and C. T. Kiranoudis, “The load-                                    at the University of Calgary after which he joined
+     dependent vehicle routing problem and its pick-up and delivery exten-                                    the faculty of the Department of Electrical En-
+     sion,” Transp. Res. Part B: Methodological, vol. 71, pp. 158–181, Jan.                                   gineering and Computer Science in the Lassonde
+     2015.                                                                                                    School of Engineering at York University, Toronto,
+[34] J. Leishman, Principles of Helicopter Aerodynamics, 2nd ed., ser.                                        Canada.
+     Cambridge Aerospace Series. Cambridge University Press, 2002.                                               As part of his industrial experience (Nortel Net-
+[35] J. R. Montoya-Torres, J. L. Franco, S. N. Isaza, H. F. Jiménez, and          works, PMC-Sierra, Protolinx Corp.) Dr. Magierowski has worked on CMOS
+     N. Herazo-Padilla, “A literature review on the vehicle routing problem        device modeling, high-speed mixed-signal IC design, and data networks. His
+     with multiple depots,” Comp. Ind. Eng., vol. 79, pp. 115–129, Jan. 2015.      research interests include analog/digital CMOS circuit design, communication
+[36] S. Kirkpatrick, C. D. Gelatt, and M. P. Vecchi, “Optimization by              systems and biomedical instrumentation.
+     simulated annealing,” Science, vol. 220, no. 4598, pp. 671–680, May
+     1983.
+

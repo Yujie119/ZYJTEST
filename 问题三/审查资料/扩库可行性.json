@@ -1,0 +1,560 @@
+{
+  "status": "PASS",
+  "scope": "single-service-zone category-count patterns only; no cross-zone combinations, no optimization",
+  "solver_availability": {
+    "gurobipy": false,
+    "highspy": false,
+    "pyscipopt": false,
+    "ortools": false,
+    "mip": false,
+    "pulp": false,
+    "cplex": false,
+    "xpress": false,
+    "scipy": true
+  },
+  "scipy_milp_signature": "(c, *, integrality=None, bounds=None, constraints=None, options=None)",
+  "scipy_milp_supports_x0_warmstart": false,
+  "gurobi_license_test": "not_applicable_import_missing",
+  "highs_note": "SciPy milp uses bundled HiGHS; no highspy module, no documented MIP-start argument in scipy.optimize.milp",
+  "input_fingerprints": {
+    "source_routes_sha256": "d8428afc290bfd60bc3b9f0e57b0e9c65dc82a05fa4b7a1ebbe08c4e176001ce"
+  },
+  "catalog_source_routes": 1292,
+  "catalog_single_pattern_count": 598,
+  "enumerated_category_pattern_count": 732,
+  "enumerated_physical_feasible_count": 732,
+  "new_single_patterns_vs_catalog": 134,
+  "by_zone": {
+    "S001": {
+      "category_count_vectors": 169,
+      "physical_feasible_patterns": 201,
+      "catalog_patterns": 88,
+      "new_patterns_vs_catalog": 113,
+      "by_vehicle": {
+        "A": 13,
+        "B": 19,
+        "C": 169
+      }
+    },
+    "S002": {
+      "category_count_vectors": 53,
+      "physical_feasible_patterns": 76,
+      "catalog_patterns": 59,
+      "new_patterns_vs_catalog": 17,
+      "by_vehicle": {
+        "A": 9,
+        "B": 14,
+        "C": 53
+      }
+    },
+    "S003": {
+      "category_count_vectors": 53,
+      "physical_feasible_patterns": 76,
+      "catalog_patterns": 74,
+      "new_patterns_vs_catalog": 2,
+      "by_vehicle": {
+        "A": 9,
+        "B": 14,
+        "C": 53
+      }
+    },
+    "S004": {
+      "category_count_vectors": 31,
+      "physical_feasible_patterns": 51,
+      "catalog_patterns": 51,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 8,
+        "B": 12,
+        "C": 31
+      }
+    },
+    "S005": {
+      "category_count_vectors": 31,
+      "physical_feasible_patterns": 51,
+      "catalog_patterns": 51,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 8,
+        "B": 12,
+        "C": 31
+      }
+    },
+    "S006": {
+      "category_count_vectors": 31,
+      "physical_feasible_patterns": 51,
+      "catalog_patterns": 49,
+      "new_patterns_vs_catalog": 2,
+      "by_vehicle": {
+        "A": 8,
+        "B": 12,
+        "C": 31
+      }
+    },
+    "S007": {
+      "category_count_vectors": 23,
+      "physical_feasible_patterns": 43,
+      "catalog_patterns": 43,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 8,
+        "B": 12,
+        "C": 23
+      }
+    },
+    "S008": {
+      "category_count_vectors": 23,
+      "physical_feasible_patterns": 43,
+      "catalog_patterns": 43,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 8,
+        "B": 12,
+        "C": 23
+      }
+    },
+    "S009": {
+      "category_count_vectors": 7,
+      "physical_feasible_patterns": 20,
+      "catalog_patterns": 20,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 6,
+        "B": 7,
+        "C": 7
+      }
+    },
+    "S010": {
+      "category_count_vectors": 7,
+      "physical_feasible_patterns": 20,
+      "catalog_patterns": 20,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 6,
+        "B": 7,
+        "C": 7
+      }
+    },
+    "S011": {
+      "category_count_vectors": 7,
+      "physical_feasible_patterns": 20,
+      "catalog_patterns": 20,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 6,
+        "B": 7,
+        "C": 7
+      }
+    },
+    "S012": {
+      "category_count_vectors": 7,
+      "physical_feasible_patterns": 20,
+      "catalog_patterns": 20,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 6,
+        "B": 7,
+        "C": 7
+      }
+    },
+    "S013": {
+      "category_count_vectors": 7,
+      "physical_feasible_patterns": 20,
+      "catalog_patterns": 20,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 6,
+        "B": 7,
+        "C": 7
+      }
+    },
+    "S014": {
+      "category_count_vectors": 7,
+      "physical_feasible_patterns": 20,
+      "catalog_patterns": 20,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 6,
+        "B": 7,
+        "C": 7
+      }
+    },
+    "S015": {
+      "category_count_vectors": 7,
+      "physical_feasible_patterns": 20,
+      "catalog_patterns": 20,
+      "new_patterns_vs_catalog": 0,
+      "by_vehicle": {
+        "A": 6,
+        "B": 7,
+        "C": 7
+      }
+    }
+  },
+  "new_pattern_examples": [
+    {
+      "zone": "S001",
+      "vehicle": "A",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|饮用水": 1
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "A",
+      "counts": {
+        "S001|医疗物资": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "B",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|饮用水": 1
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "B",
+      "counts": {
+        "S001|医疗物资": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "B",
+      "counts": {
+        "S001|生活卫生用品": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 4
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|生活卫生用品": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 1
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 4
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 1,
+        "S001|饮用水": 4
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 2,
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 2,
+        "S001|生活卫生用品": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 2,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 1
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 2,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 2,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 2,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 2,
+        "S001|饮用水": 4
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 3,
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 3,
+        "S001|生活卫生用品": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 3,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 1
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 3,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 3,
+        "S001|饮用水": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|应急食品": 3,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 4
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|生活卫生用品": 1,
+        "S001|饮用水": 5
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|生活卫生用品": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 1
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 2
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|生活卫生用品": 2,
+        "S001|饮用水": 4
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|饮用水": 1
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|饮用水": 3
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|饮用水": 4
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 1,
+        "S001|饮用水": 5
+      }
+    },
+    {
+      "zone": "S001",
+      "vehicle": "C",
+      "counts": {
+        "S001|医疗物资": 2
+      }
+    }
+  ],
+  "recommendation": {
+    "small_single_zone_extension": "Enumerate and append 134 missing category-count patterns if route coefficient/first-deadline semantics are accepted; for exact first-batch/box identity, regenerate named-box candidates separately.",
+    "cross_zone_routes_remain_unenumerated": true,
+    "full_global_milp_not_claimed": true,
+    "ALNS_comparison": "Use fixed same expanded pool and same budget; do not compare to a larger pool without identifying route discovery as a separate factor."
+  }
+}

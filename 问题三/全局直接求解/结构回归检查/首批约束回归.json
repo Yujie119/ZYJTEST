@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "meta": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "incumbent_available": true,
+    "objective_mode": "E",
+    "solver_objective": 2.0,
+    "dual_bound": 2.0,
+    "mip_gap": 0.0,
+    "nodes": 0,
+    "max_constraint_violation": 0.0,
+    "variables": 132,
+    "constraints": 331,
+    "route_instances": 2,
+    "loaded_route_blocks": 0,
+    "loaded_transport_pairs": 0,
+    "building_s": 0.002730300009716302,
+    "elapsed_s": 0.005808699992485344,
+    "mip_rel_gap_requested": 0.0,
+    "threads": 1
+  },
+  "objective": [
+    1,
+    2.0,
+    50.0,
+    0.0
+  ],
+  "chosen": "F0",
+  "first_delivery": 8.0,
+  "explanation": "The cheaper late route cannot replace the early route: bracket first field and binary bounded first selector are enforced. Synthetic only."
+}

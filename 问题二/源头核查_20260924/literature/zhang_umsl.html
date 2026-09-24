@@ -1,0 +1,578 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="nexus-font-support">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google" content="nositelinkssearchbox"/>
+    <meta name="tdm-reservation" content="0">
+    <title>
+        Energy consumption models for delivery drones: A comparison and assessment
+      -  University of Missouri - St. Louis Profiles</title>
+    
+    
+    
+
+
+
+<meta property="og:site_name" content="University of Missouri - St. Louis Profiles">
+
+
+    <meta property="og:title" content="Energy consumption models for delivery drones: A comparison and assessment"/>
+
+
+<meta property="og:url" content="https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/">
+<meta property="og:locale" content="en_US">
+
+
+
+
+    
+        <meta property="og:image" content="https://profiles.umsl.edu/skin/headerImage/">
+    
+
+
+
+
+    
+        <meta property="og:type" content="article">
+    
+
+    
+
+    
+
+
+    <link rel="stylesheet" href="/assets/application-d8c4196ba42289b701050fcf209ab3eb.css" />
+    
+    
+    <link href="/skin/css/" rel="stylesheet"/>
+    
+    <script src="/skin/script/" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/application-d9c3c96b32ee7877543159e1191a25d2.js" ></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/assets/html5shiv.min-ca5300beead9a4a9d2c9c584a9016410.js" ></script>
+    <script type="text/javascript" src="/assets/respond.min-678d372b349e434d9923e1b591f14a1e.js" ></script>
+    <![endif]-->
+    
+        
+        
+        <meta name="citation_title" content="Energy consumption models for delivery drones: A comparison and assessment"></meta><meta name="citation_author" content="Juan Zhang"></meta><meta name="citation_author_institution" content="University of Missouri – St. Louis"></meta><meta name="citation_author" content="James F. Campbell"></meta><meta name="citation_author_institution" content="Supply Chain and Analytics, Department of"></meta><meta name="citation_author_institution" content="UMSL Experts (News and Media Relations)"></meta><meta name="citation_author" content="Donald C. Sweeney"></meta><meta name="citation_author_institution" content="Economics, Department of"></meta><meta name="citation_author" content="Andrea C. Hupman"></meta><meta name="citation_author_institution" content="Supply Chain and Analytics, Department of"></meta><meta name="citation_author_email" content="hupmana@umsl.edu"></meta><meta name="citation_publication_date" content="2021/01"></meta><meta name="citation_doi" content="10.1016/j.trd.2020.102668"></meta><meta name="citation_language" content="English"></meta><meta name="citation_keywords" content="Drone; Drone energy models; Energy consumption; Parcel delivery; UAV; Unmanned aerial vehicle"></meta><meta name="citation_journal_title" content="Transportation Research Part D: Transport and Environment"></meta><meta name="citation_issn" content="1361-9209"></meta><meta name="citation_volume" content="90"></meta><meta name="citation_firstpage" content="102668"></meta>
+        <script src="/assets/Chart.min-27bff060c3e539ceb22e763c8f2e9e10.js"></script>
+        <script src="/assets/jquery.content-chart-9c09bb79ba3fc3829b6478d0e114f737.js"></script>
+        
+    
+    
+    <!-- Google Analytics: No account ID (G) found -->
+    <script src="//assets.adobedtm.com/4a848ae9611a/ea83f870454d/launch-af020409b299.min.js" async=""></script>
+    
+    
+</head>
+
+<body class="" data-page="publications">
+
+<div id="aria-polite" aria-live="polite"></div>
+<div id="aria-assertive" aria-live="assertive"></div>
+
+<a href="#main-navigation" class="sr-only sr-only-focusable">Skip to main navigation</a>
+
+    <a href="#main-search" class="sr-only sr-only-focusable">Skip to search</a>
+
+<a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+
+
+
+
+
+
+    <header class="header" id="page-header">
+        <div class="primary  ">
+            <div class="container">
+                
+                <a href="/en/" class="logo">
+                    
+                        <span class="sr-only">University of Missouri - St. Louis Profiles Home</span>
+                        <img src="/skin/headerImage/" alt="University of Missouri - St. Louis Profiles Logo"/>
+                    
+                </a>
+                
+                
+                
+            </div>
+        </div>
+
+        
+            <div class="header-search">
+                
+<form action="/en/searchAll/index/energy-consumption-models-for-delivery-drones-a-comparison-and-as/" method="get"
+      class="search-form" id="search-everything">
+
+    <div class="global-search-wrapper">
+        <div class="global-search mini">
+            <div class="field-button-wrapper">
+                <div class="search-cell search-field">
+                    <label for="main-search" class="sr-only">Search content at University of Missouri - St. Louis Profiles</label>
+                    <input id="main-search" class="search-field" value="" name="search"
+                           placeholder="Search"/>
+                </div>
+
+                <div class="search-submit">
+                    <button type="submit" aria-label="Search">
+                        <i class="icon icon-magnifying-glass" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $(function () {
+        var searchForm = $("#search-everything");
+        var searchField = $(".search-field", searchForm);
+        searchForm.on("submit", function () {
+            var field = searchField.find("input");
+            var searchString = field.val();
+
+            // No enter key submit nothing :-)
+            if (!searchString) return false;
+
+            if (searchString.length >= 200) {
+                searchForm.attr("method", "post");
+                searchForm.attr("action", "/en/concepts/copypaste/");
+                field.attr("name", "text");
+            }
+        });
+    });
+</script>
+            </div>
+        
+
+
+        
+        
+            <div class="subMenu">
+                <div class="secondary">
+                    <div class="container">
+                        <nav id="main-navigation" aria-label="Main navigation" class="content-navigation three-third">
+                            <ul data-value="More" role="menubar" aria-label="Main navigation">
+                                <li class="" role="none">
+                                    <a href="/en/" role="menuitem" tabindex="-1">Home</a>
+                                </li>
+
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/persons/"><span>Profiles</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/organisations/"><span>Research units</span></a>
+                                    </li>
+                                
+                                    <li class="selected" role="none">
+                                        <a class="portal_link" tabindex="0" role="menuitem" href="/en/publications/"><span>Research output</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/projects/"><span>Projects</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/activities/"><span>Activities</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/prizes/"><span>Prizes</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/courses/"><span>Courses</span></a>
+                                    </li>
+                                
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+    <main id="page-content">
+        
+    <div class="page-section page-section-publications page-section-publications-view ">
+
+        
+        
+        
+        
+        <section
+                class="page-section-header page-section-header-publications page-section-header-publications-view
+                 no-backdrop-image"
+                data-stickyheader=""
+                style="">
+            
+            
+        
+
+
+<div class="container">
+    <div class="row">
+        <div class="introduction no-metrics">
+            <div class="rendering"><h1><span>Energy consumption models for delivery drones: A comparison and assessment</span></h1></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatespersonsclassifiedportal rendering_contributiontojournal rendering_associatespersonsclassifiedportal rendering_contributiontojournal_associatespersonsclassifiedportal"><ul class="relations persons"><li>Juan Zhang</li><li>, James F. Campbell</li><li>, Donald C. Sweeney</li><li>, <a rel="Person" href="https://profiles.umsl.edu/en/persons/andrea-hupman/" class="link person"><span>Andrea C. Hupman</span></a></li></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatesorganisationsportal rendering_contributiontojournal rendering_associatesorganisationsportal rendering_contributiontojournal_associatesorganisationsportal"><ul class="relations organisations"><li class="department"><a rel="Organisation" href="https://profiles.umsl.edu/en/organisations/supply-chain-and-analytics-department-of/" class="link"><span>Supply Chain and Analytics, Department of</span></a></li><li class="none_set"><a rel="Organisation" href="https://profiles.umsl.edu/en/organisations/umsl-experts-news-and-media-relations/" class="link"><span>UMSL Experts (News and Media Relations)</span></a></li><li class="department"><a rel="Organisation" href="https://profiles.umsl.edu/en/organisations/economics-department-of/" class="link"><span>Economics, Department of</span></a></li></ul></div>
+            
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationcontenttyperendererportalng rendering_contributiontojournal rendering_publicationcontenttyperendererportalng rendering_contributiontojournal_publicationcontenttyperendererportalng"><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+<div class="subMenu">
+    <div class="content-profile-navigation">
+    <div class="container">
+        <nav role="navigation">
+            <ul role="menubar">
+                <li class="selected" role="none">
+                    <a class="portal_link" role="menuitem" href="/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/"><span>
+                        <i class="icon icon-publication" aria-hidden="true"></i>
+                        <span class="label">Overview</span>
+                    </span></a>
+                </li>
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+
+            </ul>
+        </nav>
+    </div>
+    </div>
+</div>
+
+    
+        </section>
+
+        <div id="main-content"
+             class="page-section-content page-section-content-publications page-section-content-publications-view   ">
+            
+        <section class="page-section content-relation-section">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="content-content publication-content">
+                        
+                        
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_detailsportal rendering_contributiontojournal rendering_detailsportal rendering_contributiontojournal_detailsportal"><div class="article"><table class="properties"><tbody><tr class="language"><th scope="row">Original language</th><td>English</td></tr><tr><th scope="row">Article number</th><td>102668</td></tr><tr><th scope="row">Journal</th><td><a rel="Journal" href="#" class="link"><span>Transportation Research Part D: Transport and Environment</span></a></td></tr><tr><th scope="row">Volume</th><td>90</td></tr><tr class="digital_object_identifiers"><th scope="row">DOIs</th><td><ul class="relations digital_object_identifiers"><li><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1016/j.trd.2020.102668" class="link"><span>https://doi.org/10.1016/j.trd.2020.102668</span></a> </li></ul></td></tr><tr class="status"><th scope="row">State</th><td><span class="prefix">Published - </span><span class="date">Jan 2021</span></td></tr></tbody></table></div></div>
+                        
+
+                        
+
+                        
+
+                        <div class="rendering rendering_keywordable rendering_expertkeywordgrouspbytypeportal rendering_keywordable_expertkeywordgrouspbytypeportal"><div class="keyword-group"><h2 class="subheader">ASJC Scopus Subject Areas</h2><ul class="relations keywords"><li><span>Civil and Structural Engineering</span></li><li><span>Transportation</span></li><li><span>General Environmental Science</span></li></ul></div><div class="keyword-group"><h2 class="subheader">Keywords</h2><ul class="relations keywords"><li class="userdefined-keyword"><span>Drone</span></li><li class="userdefined-keyword"><span>Drone energy models</span></li><li class="userdefined-keyword"><span>Energy consumption</span></li><li class="userdefined-keyword"><span>Parcel delivery</span></li><li class="userdefined-keyword"><span>UAV</span></li><li class="userdefined-keyword"><span>Unmanned aerial vehicle</span></li></ul></div></div>
+
+                    </div>
+
+                    <div class="content-sidebar publication-sidebar">
+                        
+                            <h2 class="subheader">Access to Document</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationaccessrenderer rendering_contributiontojournal rendering_publicationaccessrenderer rendering_contributiontojournal_publicationaccessrenderer"><ul class="dois"><li><div class="doi"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1016/j.trd.2020.102668" class="link"><span>10.1016/j.trd.2020.102668</span></a></div></li></ul></div>
+
+                        
+
+                        
+
+                        
+                            <h2 class="subheader">Other files and links</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationotherfilesandlinksrenderer rendering_contributiontojournal rendering_publicationotherfilesandlinksrenderer rendering_contributiontojournal_publicationotherfilesandlinksrenderer"><ul class="links"><li><div class="link"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://www.scopus.com/pages/publications/85098474575" class="link"><span>Link to publication in Scopus</span></a></div></li><li><div class="link"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://www.scopus.com/pages/publications/85098474575#tab=citedBy" class="link"><span>Link to the citations in Scopus</span></a></div></li></ul></div>
+
+                        
+
+                        
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        <section class="page-section cite">
+            <div class="container">
+                <section class="publication-cite" aria-labelledby="publications-cite-title">
+    <h2 class="subheader" id="publications-cite-title">Cite this</h2>
+    <ul class="tabs" role="tablist" aria-label="Cite this">
+        
+            <li class="selected" role="tab" id="tab-0" aria-controls="cite-apa" tabindex="-1"  aria-selected="false" >
+                APA
+            </li>
+        
+            <li class="" role="tab" id="tab-1" aria-controls="cite-standard" tabindex="-1"  aria-selected="false" >
+                Standard
+            </li>
+        
+            <li class="" role="tab" id="tab-2" aria-controls="cite-harvard" tabindex="-1"  aria-selected="false" >
+                Harvard
+            </li>
+        
+            <li class="" role="tab" id="tab-3" aria-controls="cite-vancouver" tabindex="-1"  aria-selected="false" >
+                Vancouver
+            </li>
+        
+            <li class="" role="tab" id="tab-4" aria-controls="cite-author" tabindex="-1"  aria-selected="false" >
+                Author
+            </li>
+        
+            <li class="" role="tab" id="tab-5" aria-controls="cite-BIBTEX" tabindex="-1"  aria-selected="false" >
+                BIBTEX
+            </li>
+        
+            <li class="" role="tab" id="tab-6" aria-controls="cite-RIS" tabindex="-1"  aria-selected="false" >
+                RIS
+            </li>
+        
+    </ul>
+    <div class="tab-container">
+        
+            <div id="cite-apa" class="tab selected" role="tabpanel" aria-labelledby="tab-0" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_apa rendering_contributiontojournal rendering_apa rendering_contributiontojournal_apa">Zhang, J., Campbell, J. F., Sweeney, D. C.<a rel="Person" href="https://profiles.umsl.edu/en/persons/andrea-hupman/" class="link"><span>, &amp; Hupman, A. C.</span></a> (2021). <a rel="ContributionToJournal" href="https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/" class="link"><span>Energy consumption models for delivery drones: A comparison and assessment</span></a>. <span><em>Transportation Research Part D: Transport and Environment</em></span>, <em>90</em>, Article 102668. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1016/j.trd.2020.102668" class="link"><span>https://doi.org/10.1016/j.trd.2020.102668</span></a></div>
+            </div>
+        
+            <div id="cite-standard" class="tab " role="tabpanel" aria-labelledby="tab-1" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_standard rendering_contributiontojournal rendering_standard rendering_contributiontojournal_standard"><a rel="ContributionToJournal" href="https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/" class="link"><span><strong>Energy consumption models for delivery drones: A comparison and assessment.</strong></span></a> / Zhang, Juan; Campbell, James F.; Sweeney, Donald C. et al. <br />In: <span>Transportation Research Part D: Transport and Environment</span>, Vol. 90, 102668, 01.2021.<p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+            </div>
+        
+            <div id="cite-harvard" class="tab " role="tabpanel" aria-labelledby="tab-2" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_harvard rendering_contributiontojournal rendering_harvard rendering_contributiontojournal_harvard">Zhang, J, Campbell, JF, Sweeney, DC<a rel="Person" href="https://profiles.umsl.edu/en/persons/andrea-hupman/" class="link"><span> &amp; Hupman, AC</span></a> 2021, '<a rel="ContributionToJournal" href="https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/" class="link harvard_title"><span>Energy consumption models for delivery drones: A comparison and assessment</span></a>', <span><em>Transportation Research Part D: Transport and Environment</em></span>, vol. 90, 102668. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1016/j.trd.2020.102668" class="link"><span>https://doi.org/10.1016/j.trd.2020.102668</span></a></div>
+            </div>
+        
+            <div id="cite-vancouver" class="tab " role="tabpanel" aria-labelledby="tab-3" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_vancouver rendering_contributiontojournal rendering_vancouver rendering_contributiontojournal_vancouver">Zhang J, Campbell JF, Sweeney DC<a rel="Person" href="https://profiles.umsl.edu/en/persons/andrea-hupman/" class="link"><span>, Hupman AC</span></a>. <span class="title"><a rel="ContributionToJournal" href="https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/" class="link"><span>Energy consumption models for delivery drones: <span class="subtitle">A comparison and assessment</span></span></a></span>. <span>Transportation Research Part D: Transport and Environment</span>. 2021 Jan;90:102668. doi: 10.1016/j.trd.2020.102668</div>
+            </div>
+        
+            <div id="cite-author" class="tab " role="tabpanel" aria-labelledby="tab-4" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_author rendering_contributiontojournal rendering_author rendering_contributiontojournal_author">Zhang, Juan ; Campbell, James F. ; Sweeney, Donald C. et al. / <a rel="ContributionToJournal" href="https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/" class="link"><span><strong>Energy consumption models for delivery drones : A comparison and assessment</strong></span></a>. In: <a rel="Journal" href="#" class="link"><span>Transportation Research Part D: Transport and Environment</span></a>. 2021 ; Vol. 90.</div>
+            </div>
+        
+            <div id="cite-BIBTEX" class="tab " role="tabpanel" aria-labelledby="tab-5" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_bibtex rendering_contributiontojournal rendering_bibtex rendering_contributiontojournal_bibtex"><div>@article{871bf272262e498584043b978f052b89,</div><div>  title    = "Energy consumption models for delivery drones: A comparison and assessment",</div><div>  keywords = "Drone, Drone energy models, Energy consumption, Parcel delivery, UAV, Unmanned aerial vehicle",</div><div>  author   = "Juan Zhang and Campbell, \{James F.\} and Sweeney, \{Donald C.\} and Hupman, \{Andrea C.\}",</div><div>  note     = "Publisher Copyright: {\textcopyright} 2020 Elsevier Ltd",</div><div>  year     = "2021",</div><div>  month    = jan,</div><div>  doi      = "10.1016/j.trd.2020.102668",</div><div>  language = "English",</div><div>  volume   = "90",</div><div>  journal  = "Transportation Research Part D: Transport and Environment",</div><div>  issn     = "1361-9209",</div><p>}</p></div>
+            </div>
+        
+            <div id="cite-RIS" class="tab " role="tabpanel" aria-labelledby="tab-6" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_ris rendering_contributiontojournal rendering_ris rendering_contributiontojournal_ris"><p>TY  - JOUR</p><p>T1  - Energy consumption models for delivery drones</p><p>T2  - A comparison and assessment</p><p>AU  - Zhang, Juan</p><p>AU  - Campbell, James F.</p><p>AU  - Sweeney, Donald C.</p><p>AU  - Hupman, Andrea C.</p><p>N1  - Publisher Copyright:
+© 2020 Elsevier Ltd</p><p>PY  - 2021/1</p><p>Y1  - 2021/1</p><p>KW  - Drone</p><p>KW  - Drone energy models</p><p>KW  - Energy consumption</p><p>KW  - Parcel delivery</p><p>KW  - UAV</p><p>KW  - Unmanned aerial vehicle</p><p>UR  - https://www.scopus.com/pages/publications/85098474575</p><p>UR  - https://www.scopus.com/pages/publications/85098474575#tab=citedBy</p><p>U2  - 10.1016/j.trd.2020.102668</p><p>DO  - 10.1016/j.trd.2020.102668</p><p>M3  - Article</p><p>AN  - SCOPUS:85098474575</p><p>SN  - 1361-9209</p><p>VL  - 90</p><p>JO  - Transportation Research Part D: Transport and Environment</p><p>JF  - Transportation Research Part D: Transport and Environment</p><p>M1  - 102668</p><p>ER  - </p></div>
+            </div>
+        
+
+        <script>
+            $(function() {
+                $(".tab-container .rendering a:not([href^='http://dx.doi.org'])").contents().unwrap();
+            });
+        </script>
+    </div>
+</section>
+
+            </div>
+        </section>
+        <script>
+    $(function () {
+        if($('.publication-sidebar').length > 0){
+            if($('a.document-link').length === 0){
+                $(".metrics-top").addClass("one");
+                $('div.metrics-downloads').remove();
+            }
+        }
+    });
+
+    function plumXError(e) {
+        $(e).closest('.metric-plum-x').closest('.metrics-bottom').addClass('one');
+        $(e).closest('.metric-plum-x').remove();
+    }
+    $('div.altmetric-embed').on('altmetric:hide', function () {
+        $(this).closest('.metric-altmetric').closest('.metrics-bottom').addClass('one');
+        $(this).closest('.metric-altmetric').remove();
+    });
+</script>
+        
+
+
+
+    
+    
+    
+    
+    
+    
+
+    
+        
+        
+        
+    
+
+    <div class="share-box">
+        <ul>
+            <li class="icon-share"></li>
+            <li><a aria-label="Share on Facebook"
+                   href="https://www.facebook.com/sharer.php?u=https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.trd.2020.102668&p[summary]=Check+out+this+research+output+at+University+of+Missouri+-+St.+Louis+Profiles%3A+Energy+consumption+models+for+delivery+drones%3A+A+comparison+and+assessment"
+                   class="icon-facebook"
+                   onclick="window.location.origin('https://www.facebook.com/sharer.php?u=https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.trd.2020.102668&p[summary]=Check+out+this+research+output+at+University+of+Missouri+-+St.+Louis+Profiles%3A+Energy+consumption+models+for+delivery+drones%3A+A+comparison+and+assessment', 'Facebook', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" target="popup"></a></li>
+            <li><a aria-label="Share on Twitter"
+                   href="https://twitter.com/intent/tweet?url=https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.trd.2020.102668&text=Check+out+this+research+output+at+University+of+Missouri+-+St.+Louis+Profiles%3A+Energy+consumption+models+for+delivery+drones%3A+A+comparison+and+assessment"
+                   onclick="window.location.origin('https://twitter.com/intent/tweet?url=https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.trd.2020.102668&text=Check+out+this+research+output+at+University+of+Missouri+-+St.+Louis+Profiles%3A+Energy+consumption+models+for+delivery+drones%3A+A+comparison+and+assessment doi%3A10.1016%2Fj.trd.2020.102668', 'Twitter', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="twitter" target="popup"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 300 271">
+                    
+                    <path d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z"></path>
+                </svg></a></li>
+            <li><a aria-label="Share on LinkedIn"
+                   href="https://www.linkedin.com/shareArticle?mini=true&url=https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.trd.2020.102668&summary=Check+out+this+research+output+at+University+of+Missouri+-+St.+Louis+Profiles%3A+Energy+consumption+models+for+delivery+drones%3A+A+comparison+and+assessment"
+                   onclick="window.location.origin('https://www.linkedin.com/shareArticle?mini=true&url=https://profiles.umsl.edu/en/publications/energy-consumption-models-for-delivery-drones-a-comparison-and-as/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.trd.2020.102668&summary=Check+out+this+research+output+at+University+of+Missouri+-+St.+Louis+Profiles%3A+Energy+consumption+models+for+delivery+drones%3A+A+comparison+and+assessment doi%3A10.1016%2Fj.trd.2020.102668', 'LinkedIn', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="icon-linkedin" target="popup"></a></li>
+            <li><a aria-label="Share by email" href="/cdn-cgi/l/email-protection#96a9e5e3f4fcf3f5e2abd3f8f3e4f1efb3a4a6f5f9f8e5e3fbe6e2fff9f8b3a4a6fbf9f2f3fae5b3a4a6f0f9e4b3a4a6f2f3faffe0f3e4efb3a4a6f2e4f9f8f3e5b3a5d7b3a4a6d7b3a4a6f5f9fbe6f7e4ffe5f9f8b3a4a6f7f8f2b3a4a6f7e5e5f3e5e5fbf3f8e2b0f4f9f2efabd5fef3f5fdb3a4a6f9e3e2b3a4a6e2feffe5b3a4a6e4f3e5f3f7e4f5feb3a4a6f9e3e2e6e3e2b3a4a6f7e2b3a4a6c3f8ffe0f3e4e5ffe2efb3a4a6f9f0b3a4a6dbffe5e5f9e3e4ffb3a4a6bbb3a4a6c5e2b8b3a4a6daf9e3ffe5b3a4a6c6e4f9f0fffaf3e5b3a5d7b3a4a6d3f8f3e4f1efb3a4a6f5f9f8e5e3fbe6e2fff9f8b3a4a6fbf9f2f3fae5b3a4a6f0f9e4b3a4a6f2f3faffe0f3e4efb3a4a6f2e4f9f8f3e5b3a5d7b3a4a6d7b3a4a6f5f9fbe6f7e4ffe5f9f8b3a4a6f7f8f2b3a4a6f7e5e5f3e5e5fbf3f8e2b6eab6fee2e2e6e5acb9b9e6e4f9f0fffaf3e5b8e3fbe5fab8f3f2e3b9f3f8b9e6e3f4fafff5f7e2fff9f8e5b9f3f8f3e4f1efbbf5f9f8e5e3fbe6e2fff9f8bbfbf9f2f3fae5bbf0f9e4bbf2f3faffe0f3e4efbbf2e4f9f8f3e5bbf7bbf5f9fbe6f7e4ffe5f9f8bbf7f8f2bbf7e5b9a9e3e2fbc9e5f9e3e4f5f3abf3fbf7fffab0f7fbe6ade3e2fbc9fbf3f2ffe3fbabf3fbf7fffab0f7fbe6ade3e2fbc9f5f7fbe6f7fff1f8abe5fef7e4f3fafff8fd" class="icon-email"></a></li>
+        </ul>
+    </div>
+
+
+
+
+    
+        </div>
+    </div>
+
+    <div id="new-modal-overlay"></div>
+    
+    </main>
+
+    <footer id="page-footer" class="main-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="content-navigation three-third">
+                    <div dir="ltr" class="footer-columns">
+                        
+                        <div class="footer-column">
+                            <p>
+                                Powered by <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure" target="_blank">Pure <span class="sr-only">Link opens in a new tab</span></a>, <a href="http://www.scopus.com/" target="_blank">Scopus <span class="sr-only">Link opens in a new tab</span></a> & <a href="https://www.elsevier.com/products/elsevier-fingerprint-engine" target="_blank">Elsevier Fingerprint Engine&trade; <span class="sr-only">Link opens in a new tab</span></a>
+                            </p>
+
+                            <p>
+                                All content on this site: Copyright &copy; 2026 University of Missouri - St. Louis Profiles, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+                            </p>
+
+                            <p>We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the <a href="/en/about/cookies/">use of cookies</a></p>
+                            
+                            
+                                <p><a href="https://profiles.umsl.edu/admin/workspace.xhtml" rel="nofollow" target="_blank">Log in to Pure <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            <p></p>
+                        </div>
+
+                        <div class="footer-column">
+                            
+                                <p><a href="https://www.umsl.edu/privacy-policy.html" target="_blank">University of Missouri - St. Louis Profiles data protection policy <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            
+                            
+                                <p><a href="/en/web-accessibility/" rel="nofollow" target="_blank">About web accessibility <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                <a href="https://elsevier.responsibledisclosure.com/hc/en-us/requests/new" target="_blank" rel="nofollow">Report vulnerability <span class="sr-only">&nbsp; Link opens in a new tab</span></a>
+                            </p>
+                        </div>
+
+                        
+                            <div class="footer-column">
+                                
+                                    
+                                        <p>
+                                            <a href="/en/contact/index/"> Contact us</a>
+                                        </p>
+                                    
+                                
+
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top">
+            <a href="#" class="back-to-top" aria-label="Go to top"><i class="icon icon-up-open"></i></a>
+        </div>
+    </footer>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+    
+
+    
+
+
+<script>window.appData = window.appData || [];</script><script type="text/javascript">
+try {(function() {
+appData.push({...{"page":{"businessUnit":"ELS:RP:ST","cmsName":"Pure Portal","environment":"prod","language":"en","loadTime":"208","loadTimestamp":"1790123550879","name":"pure portal:publications:view","noTracking":"false","productName":"PR","type":"CP-CA"},"visitor":{"accountId":"","accountName":"pr:University of Missouri - St Louis","ipAddress":"","accessType":"pr:ANON_GUEST","loginStatus":"anonymous"},"content":[{"id":"871bf272-262e-4985-8404-3b978f052b89","title":"Energy consumption models for delivery drones: A comparison and assessment","recordType":"researchoutput"}]}, event: "pageLoad"});})();} catch(e) {if(console) { console.log(e) } }</script>
+<script>try {(function() {
+window.appData = window.appData || [];
+})();} catch(e) {if(console) { console.log(e) } }</script>
+
+</body>
+</html>
+

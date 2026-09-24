@@ -1,0 +1,26 @@
+{
+  "round": 48,
+  "mode": "C",
+  "kind": "free_joint_retiming",
+  "started_utc": "2026-09-23T22:05:54.284735+00:00",
+  "seed_objective": [
+    33,
+    81.05125838536102,
+    10644.22661031477,
+    576.1011585525097
+  ],
+  "seed_source": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\全局直接求解\\Q2新种子\\1_C_原运输资源次序_已核验方案.json",
+  "status": "solver_limit_or_rejection_without_new_incumbent",
+  "route_instances": 42,
+  "patterns": 24,
+  "caps": {
+    "N": 33.0,
+    "E": 81.05125838536102,
+    "L": 576.1011585525097
+  },
+  "neighborhood_only_lower_bound": null,
+  "lower_bound_scope": "This round frozen neighborhood only; not the accumulated full route library.",
+  "solver_elapsed_s": 85.02461789996596,
+  "accepted_as_feasible": false,
+  "finished_utc": "2026-09-23T22:07:19.369687+00:00"
+}

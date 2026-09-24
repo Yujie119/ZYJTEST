@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "input_hashes": "match",
+  "independent_geometry_cases": 15,
+  "coverage": "80 unique boxes exactly once; 15 zones; no cross-zone batching",
+  "physical_max_abs_recalculation_error": 2.2737367544323206e-13,
+  "labelled_candidates_enumerated": 19525,
+  "independent_algorithm": "Exact per-zone Pareto dynamic programming and additive frontier merge",
+  "DP_states": 337,
+  "local_Pareto_counts": {
+    "S001": 1,
+    "S002": 1,
+    "S003": 1,
+    "S004": 1,
+    "S005": 1,
+    "S006": 1,
+    "S007": 1,
+    "S008": 2,
+    "S009": 1,
+    "S010": 1,
+    "S011": 1,
+    "S012": 1,
+    "S013": 1,
+    "S014": 1,
+    "S015": 1
+  },
+  "global_Pareto_objectives": [
+    [
+      18.0,
+      59.133133083,
+      32776.516782278
+    ],
+    [
+      19.0,
+      59.035777465,
+      34440.488752029
+    ]
+  ],
+  "minimax_regrets": [
+    1.0607468237111561e-09,
+    0.6666666663131989
+  ],
+  "SOC_scenario_plans_verified": 13,
+  "gpu_capacity_monotonicity": "pass",
+  "submission_workbook_verified": true,
+  "elapsed_s": 1.6917339999927208
+}

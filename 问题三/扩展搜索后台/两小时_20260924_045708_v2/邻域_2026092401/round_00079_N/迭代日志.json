@@ -1,0 +1,25 @@
+[
+  {
+    "iteration": 0,
+    "all_route_instances_still_selectable": 62,
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+    "incumbent_available": false,
+    "objective_mode": "N",
+    "solver_objective": null,
+    "dual_bound": null,
+    "mip_gap": null,
+    "nodes": null,
+    "max_constraint_violation": null,
+    "variables": 9562,
+    "constraints": 36202,
+    "route_instances": 62,
+    "loaded_route_blocks": 62,
+    "loaded_transport_pairs": 644,
+    "building_s": 0.23945689998799935,
+    "elapsed_s": 87.4599383000168,
+    "mip_rel_gap_requested": 0.0,
+    "threads": 1,
+    "accepted_as_feasible": false
+  }
+]

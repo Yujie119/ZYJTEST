@@ -1,0 +1,134 @@
+[
+  {
+    "index": 0,
+    "source": "terminal_of_all_resources_polish_of_terminal_of_expanded_worker_4_step_56",
+    "objective": [
+      25,
+      71.31909210428417,
+      6672.014331816174,
+      0.0
+    ],
+    "all": true,
+    "checks_count": 399
+  },
+  {
+    "index": 1,
+    "source": "terminal_of_all_resources_polish_of_direct_expanded_equal_preference",
+    "objective": [
+      23,
+      68.14991640976821,
+      7066.62791044095,
+      0.0
+    ],
+    "all": true,
+    "checks_count": 382
+  },
+  {
+    "index": 2,
+    "source": "terminal_of_all_resources_polish_of_expanded_worker_3_step_56",
+    "objective": [
+      22,
+      67.35998571793408,
+      7831.124655517117,
+      51.21449236346475
+    ],
+    "all": true,
+    "checks_count": 373
+  },
+  {
+    "index": 3,
+    "source": "terminal_of_all_resources_polish_of_terminal_of_expanded_worker_0_step_67",
+    "objective": [
+      23,
+      66.29741292296062,
+      7881.646246218171,
+      37.64777524470868
+    ],
+    "all": true,
+    "checks_count": 382
+  },
+  {
+    "index": 4,
+    "source": "terminal_of_all_resources_polish_of_terminal_of_initializer_seed_20260975_mode_3",
+    "objective": [
+      21,
+      67.32235979591468,
+      8013.646246218171,
+      0.0
+    ],
+    "all": true,
+    "checks_count": 363
+  },
+  {
+    "index": 5,
+    "source": "terminal_of_all_resources_polish_of_expanded_worker_2_step_19",
+    "objective": [
+      22,
+      64.3922692668716,
+      8337.140388078022,
+      42.238392078744454
+    ],
+    "all": true,
+    "checks_count": 375
+  },
+  {
+    "index": 6,
+    "source": "terminal_of_all_resources_polish_of_expanded_worker_2_step_13",
+    "objective": [
+      22,
+      64.56560504372038,
+      8427.071898766839,
+      0.0
+    ],
+    "all": true,
+    "checks_count": 375
+  },
+  {
+    "index": 7,
+    "source": "terminal_of_ALNS_comparison",
+    "objective": [
+      23,
+      63.26021230769617,
+      9069.567244129956,
+      109.8013979897079
+    ],
+    "all": true,
+    "checks_count": 384
+  },
+  {
+    "index": 8,
+    "source": "terminal_of_all_resources_polish_of_terminal_of_expanded_worker_7_step_49",
+    "objective": [
+      21,
+      62.72052529403814,
+      9584.298606161949,
+      203.27678734880095
+    ],
+    "all": true,
+    "checks_count": 370
+  },
+  {
+    "index": 9,
+    "source": "terminal_of_all_resources_polish_of_expanded_worker_0_step_24",
+    "objective": [
+      20,
+      60.9175261527664,
+      9163.54886305257,
+      446.62419790370546
+    ],
+    "all": true,
+    "checks_count": 362
+  },
+  {
+    "index": 10,
+    "source": "terminal_of_fixed_original_resources_lateness_repair",
+    "objective": [
+      20,
+      60.70497216913841,
+      9163.54886305257,
+      520.7998072166125
+    ],
+    "all": true,
+    "checks_count": 364
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "objective": [
+    28,
+    75.71131596897939,
+    7264.62791044095,
+    0.0
+  ],
+  "regret_interval": [
+    0.08978907935519698,
+    0.34261267691003017
+  ],
+  "scope": "same frozen K0 and scale; old valid lower bounds retained; all preference upper bounds tightened with this plan",
+  "note": "Not a completed global archive selection; parent search may add more plans."
+}

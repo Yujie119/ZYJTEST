@@ -1,0 +1,86 @@
+{
+  "spec": {
+    "name": "warm_00",
+    "cap": {},
+    "weights": [
+      0.1,
+      0.15,
+      0.75
+    ],
+    "schedule_weights": [
+      0,
+      0,
+      0.00014285714285714287,
+      0.0005
+    ],
+    "noise": 0.0005,
+    "seed": 2026092480,
+    "master_seconds": 15.0,
+    "schedule_seconds": 12.0
+  },
+  "master": {
+    "status": "Time limit reached",
+    "objective_proxy": 0.847459775380078,
+    "proxy_dual_bound": 0.8227415485061007,
+    "proxy_not_actual_completion": true,
+    "master_warm_start": true,
+    "residual": 1.4915713109076023e-10,
+    "N": 24,
+    "E": 67.6086741422961,
+    "workload_proxy": 5619.89527771122,
+    "selected_candidate_ids": [
+      "K49d20eb1d5870510",
+      "K77f11ec77de19048",
+      "K0064eaafe25c52fd",
+      "K0f6fda15b6dbffbd",
+      "K45d87be6ef446d50",
+      "K1eecbe2e24269c78",
+      "K86ecc4edaf8253e9",
+      "K433603c8e9091d30",
+      "Kafdc0da8cd294d1d",
+      "K786424378cca47f8",
+      "K68ef48bbef64ea3a",
+      "Kfff3112b2fa97910",
+      "K0b1e988d1480b516",
+      "K9a2f0b689d841f7e",
+      "K4c7b7001c84eb366",
+      "Kc80884d5c45fed5f",
+      "Kb4dcea9456a134a0",
+      "K645309ed991e9fa2",
+      "Kcd6df8fd893c3cdd",
+      "K25f536ff0ff5623d",
+      "K3e7fb6fea43e2b85",
+      "K6aad34a286fd1fff",
+      "K2a7f619fa79c81d8",
+      "K7172711a53efb710"
+    ]
+  },
+  "plan": null,
+  "scheduling": {
+    "scope": "fixed_cover_actual_resource_schedule",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": false,
+    "warm_fallback": false,
+    "lower_bound": 0.8028421825301794,
+    "upper_bound": null,
+    "weights": [
+      0,
+      0,
+      0.00014285714285714287,
+      0.0005
+    ],
+    "epsilon": {},
+    "gap": null,
+    "matrix_residual": null,
+    "variables": 467,
+    "constraints": 2000,
+    "horizon": 80315.97412370192,
+    "seconds": 12.005187700036913,
+    "seed": 2026092480,
+    "relaxation": false,
+    "nodes": 15836
+  },
+  "verification": null,
+  "seconds": 28.816361400007736
+}

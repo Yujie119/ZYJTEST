@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "case": "first_remote_loose_battery_requires_grounded_unpowered_donor",
+      "passed": true
+    },
+    {
+      "case": "unpowered_donor_cannot_leave",
+      "passed": true
+    },
+    {
+      "case": "legal_remote_exchange_of_mounted_arrivals_and_complete_return",
+      "passed": true
+    },
+    {
+      "case": "O01_inventory_cannot_be_taken_remotely",
+      "passed": true
+    },
+    {
+      "case": "isolated_remote_stock_without_donor_body_rejected",
+      "passed": true
+    },
+    {
+      "case": "second_mounted_battery_rejected",
+      "passed": true
+    }
+  ],
+  "legal_event_trace": [
+    [
+      "fly",
+      "U1",
+      "B1",
+      "S001"
+    ],
+    [
+      "detach",
+      "U1",
+      "B1",
+      "S001"
+    ],
+    [
+      "fly",
+      "U2",
+      "B2",
+      "S001"
+    ],
+    [
+      "detach",
+      "U2",
+      "B2",
+      "S001"
+    ],
+    [
+      "attach",
+      "U1",
+      "B2",
+      "S001"
+    ],
+    [
+      "attach",
+      "U2",
+      "B1",
+      "S001"
+    ],
+    [
+      "fly",
+      "U1",
+      "B2",
+      "O01"
+    ],
+    [
+      "fly",
+      "U2",
+      "B1",
+      "O01"
+    ]
+  ],
+  "scope": "Synthetic battery/body location conservation only; no Q3 feasibility claim.",
+  "unchanged_energy_requirement": "Retain original complete-sortie energy <= one compatible battery capacity * 80%; per-battery SOC adds constraints and does not replace that original rule."
+}

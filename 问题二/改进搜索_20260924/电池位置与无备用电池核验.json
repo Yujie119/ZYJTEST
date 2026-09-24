@@ -1,0 +1,1024 @@
+{
+  "passed": true,
+  "events": [
+    {
+      "battery": "A-BAT-01",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-01",
+      "uav": "U04",
+      "route": "Q2-0007",
+      "type": "install",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-01",
+      "uav": "U04",
+      "route": "Q2-0007",
+      "type": "arrive",
+      "time": 698.5768147050242,
+      "location": "S001",
+      "soc": 0.8424342910138392
+    },
+    {
+      "battery": "A-BAT-01",
+      "uav": "U04",
+      "route": "Q2-0007",
+      "type": "arrive",
+      "time": 1195.6389456845852,
+      "location": "S013",
+      "soc": 0.7093542465913445
+    },
+    {
+      "battery": "A-BAT-01",
+      "uav": "U04",
+      "route": "Q2-0007",
+      "type": "arrive",
+      "time": 1904.1870209659942,
+      "location": "O01",
+      "soc": 0.5125773533116813
+    },
+    {
+      "battery": "A-BAT-01",
+      "type": "charged",
+      "time": 3037.8364616608083,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-02",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-02",
+      "uav": "U01",
+      "route": "Q2-0010",
+      "type": "install",
+      "time": 1250.9069627433817,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-02",
+      "uav": "U01",
+      "route": "Q2-0010",
+      "type": "arrive",
+      "time": 2313.663072048423,
+      "location": "S014",
+      "soc": 0.7044277214039152
+    },
+    {
+      "battery": "A-BAT-02",
+      "uav": "U01",
+      "route": "Q2-0010",
+      "type": "arrive",
+      "time": 3241.305848020131,
+      "location": "O01",
+      "soc": 0.4734608637880722
+    },
+    {
+      "battery": "A-BAT-02",
+      "type": "charged",
+      "time": 4425.806725095637,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-03",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U01",
+      "route": "Q2-0002",
+      "type": "install",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U01",
+      "route": "Q2-0002",
+      "type": "arrive",
+      "time": 698.5768147050242,
+      "location": "S001",
+      "soc": 0.8424342910138392
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U01",
+      "route": "Q2-0002",
+      "type": "arrive",
+      "time": 1250.9069627433817,
+      "location": "O01",
+      "soc": 0.715030276226206
+    },
+    {
+      "battery": "A-BAT-03",
+      "type": "charged",
+      "time": 2121.367603649314,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U02",
+      "route": "Q2-0015",
+      "type": "install",
+      "time": 2215.8496081970998,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U02",
+      "route": "Q2-0015",
+      "type": "arrive",
+      "time": 2941.351261420347,
+      "location": "S006",
+      "soc": 0.8289025556950411
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U02",
+      "route": "Q2-0015",
+      "type": "arrive",
+      "time": 3529.3262479769273,
+      "location": "O01",
+      "soc": 0.6984345204722867
+    },
+    {
+      "battery": "A-BAT-03",
+      "type": "charged",
+      "time": 4421.361371362955,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U02",
+      "route": "Q2-0021",
+      "type": "install",
+      "time": 4421.361371362955,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U02",
+      "route": "Q2-0021",
+      "type": "arrive",
+      "time": 5590.703320011418,
+      "location": "S003",
+      "soc": 0.6521983611287983
+    },
+    {
+      "battery": "A-BAT-03",
+      "uav": "U02",
+      "route": "Q2-0021",
+      "type": "arrive",
+      "time": 6624.098601993215,
+      "location": "O01",
+      "soc": 0.34849859588775317
+    },
+    {
+      "battery": "A-BAT-03",
+      "type": "charged",
+      "time": 7971.050427339136,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-04",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-04",
+      "uav": "U02",
+      "route": "Q2-0001",
+      "type": "install",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-04",
+      "uav": "U02",
+      "route": "Q2-0001",
+      "type": "arrive",
+      "time": 915.9098229441622,
+      "location": "S009",
+      "soc": 0.7138503974098893
+    },
+    {
+      "battery": "A-BAT-04",
+      "uav": "U02",
+      "route": "Q2-0001",
+      "type": "arrive",
+      "time": 1315.9020039739898,
+      "location": "S002",
+      "soc": 0.6316126591433859
+    },
+    {
+      "battery": "A-BAT-04",
+      "uav": "U02",
+      "route": "Q2-0001",
+      "type": "arrive",
+      "time": 2215.8496081970998,
+      "location": "O01",
+      "soc": 0.32988482541081476
+    },
+    {
+      "battery": "A-BAT-04",
+      "type": "charged",
+      "time": 3586.9993351630405,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-04",
+      "uav": "U03",
+      "route": "Q2-0018",
+      "type": "install",
+      "time": 3761.0392929901063,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-04",
+      "uav": "U03",
+      "route": "Q2-0018",
+      "type": "arrive",
+      "time": 4444.240114626565,
+      "location": "S011",
+      "soc": 0.8612195393879655
+    },
+    {
+      "battery": "A-BAT-04",
+      "uav": "U03",
+      "route": "Q2-0018",
+      "type": "arrive",
+      "time": 4983.067602929689,
+      "location": "O01",
+      "soc": 0.7439933755359807
+    },
+    {
+      "battery": "A-BAT-04",
+      "type": "charged",
+      "time": 5815.876214732914,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-05",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U03",
+      "route": "Q2-0003",
+      "type": "install",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U03",
+      "route": "Q2-0003",
+      "type": "arrive",
+      "time": 725.5016532232471,
+      "location": "S006",
+      "soc": 0.8390096493577162
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U03",
+      "route": "Q2-0003",
+      "type": "arrive",
+      "time": 1313.4766397798276,
+      "location": "O01",
+      "soc": 0.7085416141349616
+    },
+    {
+      "battery": "A-BAT-05",
+      "type": "charged",
+      "time": 2192.3725414043774,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U04",
+      "route": "Q2-0014",
+      "type": "install",
+      "time": 2192.3725414043774,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U04",
+      "route": "Q2-0014",
+      "type": "arrive",
+      "time": 3065.9872833524532,
+      "location": "S013",
+      "soc": 0.761651186571877
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U04",
+      "route": "Q2-0014",
+      "type": "arrive",
+      "time": 3804.535358633862,
+      "location": "O01",
+      "soc": 0.5648742932922137
+    },
+    {
+      "battery": "A-BAT-05",
+      "type": "charged",
+      "time": 4870.198777353984,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U04",
+      "route": "Q2-0024",
+      "type": "install",
+      "time": 4870.198777353984,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U04",
+      "route": "Q2-0024",
+      "type": "arrive",
+      "time": 5786.1086002981465,
+      "location": "S009",
+      "soc": 0.7308494074702773
+    },
+    {
+      "battery": "A-BAT-05",
+      "uav": "U04",
+      "route": "Q2-0024",
+      "type": "arrive",
+      "time": 6558.838423242309,
+      "location": "O01",
+      "soc": 0.4989147649661857
+    },
+    {
+      "battery": "A-BAT-05",
+      "type": "charged",
+      "time": 7710.249228786268,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-06",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-06",
+      "uav": "U03",
+      "route": "Q2-0011",
+      "type": "install",
+      "time": 1313.4766397798276,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-06",
+      "uav": "U03",
+      "route": "Q2-0011",
+      "type": "arrive",
+      "time": 2012.0534544848517,
+      "location": "S001",
+      "soc": 0.851772432212853
+    },
+    {
+      "battery": "A-BAT-06",
+      "uav": "U03",
+      "route": "Q2-0011",
+      "type": "arrive",
+      "time": 2863.3965170183983,
+      "location": "S014",
+      "soc": 0.6166268310252114
+    },
+    {
+      "battery": "A-BAT-06",
+      "uav": "U03",
+      "route": "Q2-0011",
+      "type": "arrive",
+      "time": 3761.0392929901063,
+      "location": "O01",
+      "soc": 0.3856599734093684
+    },
+    {
+      "battery": "A-BAT-06",
+      "type": "charged",
+      "time": 5059.681327557928,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "A-BAT-06",
+      "uav": "U03",
+      "route": "Q2-0025",
+      "type": "install",
+      "time": 5059.681327557928,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "A-BAT-06",
+      "uav": "U03",
+      "route": "Q2-0025",
+      "type": "arrive",
+      "time": 5755.1829807811755,
+      "location": "S006",
+      "soc": 0.8542445925750608
+    },
+    {
+      "battery": "A-BAT-06",
+      "uav": "U03",
+      "route": "Q2-0025",
+      "type": "arrive",
+      "time": 6313.1579673377555,
+      "location": "O01",
+      "soc": 0.7237765573523063
+    },
+    {
+      "battery": "A-BAT-06",
+      "type": "charged",
+      "time": 7172.248442779757,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "uav": "U06",
+      "route": "Q2-0004",
+      "type": "install",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "B-BAT-01",
+      "uav": "U06",
+      "route": "Q2-0004",
+      "type": "arrive",
+      "time": 977.6037800868297,
+      "location": "S015",
+      "soc": 0.643721449290466
+    },
+    {
+      "battery": "B-BAT-01",
+      "uav": "U06",
+      "route": "Q2-0004",
+      "type": "arrive",
+      "time": 1828.3275601736595,
+      "location": "O01",
+      "soc": 0.42310291572638203
+    },
+    {
+      "battery": "B-BAT-01",
+      "type": "charged",
+      "time": 3494.9491729145975,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "uav": "U05",
+      "route": "Q2-0022",
+      "type": "install",
+      "time": 4604.515278324053,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "B-BAT-01",
+      "uav": "U05",
+      "route": "Q2-0022",
+      "type": "arrive",
+      "time": 5595.662818578571,
+      "location": "S008",
+      "soc": 0.6474709453102595
+    },
+    {
+      "battery": "B-BAT-01",
+      "uav": "U05",
+      "route": "Q2-0022",
+      "type": "arrive",
+      "time": 6446.357025499756,
+      "location": "O01",
+      "soc": 0.35265753539048506
+    },
+    {
+      "battery": "B-BAT-01",
+      "type": "charged",
+      "time": 8235.083964156249,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-02",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-02",
+      "uav": "U06",
+      "route": "Q2-0013",
+      "type": "install",
+      "time": 1828.3275601736595,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "B-BAT-02",
+      "uav": "U06",
+      "route": "Q2-0013",
+      "type": "arrive",
+      "time": 2859.670967248253,
+      "location": "S012",
+      "soc": 0.5840187368617424
+    },
+    {
+      "battery": "B-BAT-02",
+      "uav": "U06",
+      "route": "Q2-0013",
+      "type": "arrive",
+      "time": 3751.1543743228467,
+      "location": "O01",
+      "soc": 0.3118389023860828
+    },
+    {
+      "battery": "B-BAT-02",
+      "type": "charged",
+      "time": 5610.63361018697,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-03",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-03",
+      "uav": "U05",
+      "route": "Q2-0005",
+      "type": "install",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "B-BAT-03",
+      "uav": "U05",
+      "route": "Q2-0005",
+      "type": "arrive",
+      "time": 642.3983390173997,
+      "location": "S006",
+      "soc": 0.8503800314216021
+    },
+    {
+      "battery": "B-BAT-03",
+      "uav": "U05",
+      "route": "Q2-0005",
+      "type": "arrive",
+      "time": 1147.2700113681328,
+      "location": "O01",
+      "soc": 0.7334323090871048
+    },
+    {
+      "battery": "B-BAT-03",
+      "type": "charged",
+      "time": 2275.987342283818,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-03",
+      "uav": "U05",
+      "route": "Q2-0017",
+      "type": "install",
+      "time": 2702.67353114835,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "B-BAT-03",
+      "uav": "U05",
+      "route": "Q2-0017",
+      "type": "arrive",
+      "time": 3723.8210714028683,
+      "location": "S008",
+      "soc": 0.6039467316930801
+    },
+    {
+      "battery": "B-BAT-03",
+      "uav": "U05",
+      "route": "Q2-0017",
+      "type": "arrive",
+      "time": 4604.515278324053,
+      "location": "O01",
+      "soc": 0.30913332177330566
+    },
+    {
+      "battery": "B-BAT-03",
+      "type": "charged",
+      "time": 6468.684187250323,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "uav": "U05",
+      "route": "Q2-0009",
+      "type": "install",
+      "time": 1147.2700113681328,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "B-BAT-04",
+      "uav": "U05",
+      "route": "Q2-0009",
+      "type": "arrive",
+      "time": 1992.508437924908,
+      "location": "S010",
+      "soc": 0.7202347644502864
+    },
+    {
+      "battery": "B-BAT-04",
+      "uav": "U05",
+      "route": "Q2-0009",
+      "type": "arrive",
+      "time": 2702.67353114835,
+      "location": "O01",
+      "soc": 0.5441851392448921
+    },
+    {
+      "battery": "B-BAT-04",
+      "type": "charged",
+      "time": 4159.419289790537,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "uav": "U06",
+      "route": "Q2-0020",
+      "type": "install",
+      "time": 4159.419289790537,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "B-BAT-04",
+      "uav": "U06",
+      "route": "Q2-0020",
+      "type": "arrive",
+      "time": 5210.566830045055,
+      "location": "S008",
+      "soc": 0.6124714887044023
+    },
+    {
+      "battery": "B-BAT-04",
+      "uav": "U06",
+      "route": "Q2-0020",
+      "type": "arrive",
+      "time": 5903.38030208264,
+      "location": "S011",
+      "soc": 0.40047170854334657
+    },
+    {
+      "battery": "B-BAT-04",
+      "uav": "U06",
+      "route": "Q2-0020",
+      "type": "arrive",
+      "time": 6365.406016846233,
+      "location": "O01",
+      "soc": 0.2950614513087988
+    },
+    {
+      "battery": "B-BAT-04",
+      "type": "charged",
+      "time": 8253.966167910981,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-01",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-01",
+      "uav": "U08",
+      "route": "Q2-0006",
+      "type": "install",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "C-BAT-01",
+      "uav": "U08",
+      "route": "Q2-0006",
+      "type": "arrive",
+      "time": 816.2725229310115,
+      "location": "S001",
+      "soc": 0.7688142063123112
+    },
+    {
+      "battery": "C-BAT-01",
+      "uav": "U08",
+      "route": "Q2-0006",
+      "type": "arrive",
+      "time": 1561.597401938587,
+      "location": "S007",
+      "soc": 0.4967160112343723
+    },
+    {
+      "battery": "C-BAT-01",
+      "uav": "U08",
+      "route": "Q2-0006",
+      "type": "arrive",
+      "time": 2481.4377511439325,
+      "location": "O01",
+      "soc": 0.31689790837810616
+    },
+    {
+      "battery": "C-BAT-01",
+      "type": "charged",
+      "time": 4794.825616324702,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-01",
+      "uav": "U08",
+      "route": "Q2-0023",
+      "type": "install",
+      "time": 4794.825616324702,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "C-BAT-01",
+      "uav": "U08",
+      "route": "Q2-0023",
+      "type": "arrive",
+      "time": 5772.054974070438,
+      "location": "S005",
+      "soc": 0.6796725793133231
+    },
+    {
+      "battery": "C-BAT-01",
+      "uav": "U08",
+      "route": "Q2-0023",
+      "type": "arrive",
+      "time": 6672.014331816174,
+      "location": "O01",
+      "soc": 0.4722272063009802
+    },
+    {
+      "battery": "C-BAT-01",
+      "type": "charged",
+      "time": 8648.855384830717,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-02",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-02",
+      "uav": "U08",
+      "route": "Q2-0016",
+      "type": "install",
+      "time": 2481.4377511439325,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "C-BAT-02",
+      "uav": "U08",
+      "route": "Q2-0016",
+      "type": "arrive",
+      "time": 3668.9351105301553,
+      "location": "S004",
+      "soc": 0.5332231758821067
+    },
+    {
+      "battery": "C-BAT-02",
+      "uav": "U08",
+      "route": "Q2-0016",
+      "type": "arrive",
+      "time": 4782.4924699163785,
+      "location": "O01",
+      "soc": 0.23088493096568946
+    },
+    {
+      "battery": "C-BAT-02",
+      "type": "charged",
+      "time": 7282.241786157385,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-03",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-03",
+      "uav": "U07",
+      "route": "Q2-0008",
+      "type": "install",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "C-BAT-03",
+      "uav": "U07",
+      "route": "Q2-0008",
+      "type": "arrive",
+      "time": 876.2725229310115,
+      "location": "S001",
+      "soc": 0.7557045165962668
+    },
+    {
+      "battery": "C-BAT-03",
+      "uav": "U07",
+      "route": "Q2-0008",
+      "type": "arrive",
+      "time": 1692.175045862023,
+      "location": "O01",
+      "soc": 0.6352970561860678
+    },
+    {
+      "battery": "C-BAT-03",
+      "type": "charged",
+      "time": 3315.6980907922093,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-03",
+      "uav": "U07",
+      "route": "Q2-0019",
+      "type": "install",
+      "time": 3866.0172118865776,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "C-BAT-03",
+      "uav": "U07",
+      "route": "Q2-0019",
+      "type": "arrive",
+      "time": 5145.566067436208,
+      "location": "S003",
+      "soc": 0.49618786059295616
+    },
+    {
+      "battery": "C-BAT-03",
+      "uav": "U07",
+      "route": "Q2-0019",
+      "type": "arrive",
+      "time": 6368.194922985838,
+      "location": "O01",
+      "soc": 0.20942545342258817
+    },
+    {
+      "battery": "C-BAT-03",
+      "type": "charged",
+      "time": 8914.439773903563,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "type": "initial",
+      "time": 0.0,
+      "location": "O01",
+      "soc": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "uav": "U07",
+      "route": "Q2-0012",
+      "type": "install",
+      "time": 1692.175045862023,
+      "location": "O01",
+      "soc": 1.0,
+      "spare_count": 0
+    },
+    {
+      "battery": "C-BAT-04",
+      "uav": "U07",
+      "route": "Q2-0012",
+      "type": "arrive",
+      "time": 2813.5061288743,
+      "location": "S002",
+      "soc": 0.5028908555112537
+    },
+    {
+      "battery": "C-BAT-04",
+      "uav": "U07",
+      "route": "Q2-0012",
+      "type": "arrive",
+      "time": 3866.0172118865776,
+      "location": "O01",
+      "soc": 0.21487369899686676
+    },
+    {
+      "battery": "C-BAT-04",
+      "type": "charged",
+      "time": 6400.4575307267,
+      "location": "O01",
+      "soc": 1.0
+    }
+  ],
+  "scope": "Current O01-only exchange schedules meet the expert location and no-spare constraints; no off-depot charging capability is assumed."
+}

@@ -1,0 +1,86 @@
+{
+  "spec": {
+    "name": "cover_00_2",
+    "cap": {},
+    "weights": [
+      0.05,
+      0.25,
+      0.7
+    ],
+    "schedule_weights": [
+      0,
+      0,
+      3.571428571428572e-05,
+      0.00125
+    ],
+    "noise": 0.0024000000000000002,
+    "seed": 2026092402,
+    "master_seconds": 12.0,
+    "schedule_seconds": 12.0
+  },
+  "master": {
+    "status": "Time limit reached",
+    "objective_proxy": 0.8723273284314604,
+    "proxy_dual_bound": 0.8437824369129664,
+    "proxy_not_actual_completion": true,
+    "residual": 3.3306690738754696e-16,
+    "N": 25,
+    "E": 67.39969449744254,
+    "workload_proxy": 5663.837431846612,
+    "selected_candidate_ids": [
+      "Ka23690613415f690",
+      "K402cacc29a343067",
+      "Ka409a91b7d821e4c",
+      "Kb3c76f8e48a946b1",
+      "K4dff640d4cf1ce65",
+      "Ke29339b2cad0aae3",
+      "K5059b4b32042ded3",
+      "K1eecbe2e24269c78",
+      "K2fe4c1214e980375",
+      "K38cb1c44a328f5a6",
+      "Kfbb212e265617eff",
+      "Kade4f088a7d97b63",
+      "Kd74d525e39c4f063",
+      "K786424378cca47f8",
+      "K68ef48bbef64ea3a",
+      "K1526eb750f035542",
+      "K4c7b7001c84eb366",
+      "K3b9ffe6936063ff2",
+      "Kb6718e9cd4fb8c67",
+      "K8a82721ee334fc7c",
+      "Kc3a3620bc7043f24",
+      "K7c02a763acf2c467",
+      "K202f013e0e030c9e",
+      "K6aad34a286fd1fff",
+      "Ka6b52eef3a9cdc8f"
+    ]
+  },
+  "plan": null,
+  "scheduling": {
+    "scope": "fixed_cover_actual_resource_schedule",
+    "status": "Time limit reached",
+    "optimal": false,
+    "incumbent": false,
+    "warm_fallback": false,
+    "lower_bound": 0.2227212472494942,
+    "upper_bound": null,
+    "weights": [
+      0,
+      0,
+      3.571428571428572e-05,
+      0.00125
+    ],
+    "epsilon": {},
+    "gap": null,
+    "matrix_residual": null,
+    "variables": 482,
+    "constraints": 2088,
+    "horizon": 81228.44551069458,
+    "seconds": 12.005184900015593,
+    "seed": 2026092402,
+    "relaxation": false,
+    "nodes": 12767
+  },
+  "verification": null,
+  "seconds": 25.466502900002524
+}

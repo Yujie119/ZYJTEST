@@ -285,7 +285,7 @@ def prepare_geometry(ctx,step=200.):
                 "step_m":step,"candidate_count":len(ctx.qs),"seconds":time.perf_counter()-t0})
     print("CERTIFICATE_GEOMETRY",len(ctx.arc_cache),len(ctx.qs),round(time.perf_counter()-t0,2),flush=True)
 
-def profile(ctx,route):
+def profile(ctx,route,merge=True):
     v=ctx.vs[route["vehicle"]];t=route["prep_s"];records=[];needs=[]
     ids=[0]+[int(z[1:]) for z in route["zones"]]+[0]
     for h,(i,j) in enumerate(zip(ids,ids[1:])):
@@ -304,7 +304,7 @@ def profile(ctx,route):
     for rec in records:
         if rec["direct"]:continue
         if not rec["mask"]:return None
-        if needs and needs[-1]["mask"]==rec["mask"] and abs(needs[-1]["t1"]-rec["t0"])<1e-7:
+        if merge and needs and needs[-1]["mask"]==rec["mask"] and abs(needs[-1]["t1"]-rec["t0"])<1e-7:
             needs[-1]["t1"]=rec["t1"]
         else:needs.append({k:rec[k] for k in ("t0","t1","mask")})
     return {"records":records,"needs":needs}

@@ -1,0 +1,33 @@
+{
+  "decision_max_containment_error": 0.0,
+  "objective_max_containment_error": 3.786215785339664e-11,
+  "图1_epsilon约束与条件可行集.pdf": {
+    "png_size": [
+      2766,
+      1258
+    ],
+    "pages": 1
+  },
+  "图2_三目标自适应epsilon搜索.pdf": {
+    "png_size": [
+      3386,
+      1384
+    ],
+    "pages": 1
+  },
+  "图3_连续松弛与整数凸包.pdf": {
+    "png_size": [
+      3196,
+      1364
+    ],
+    "pages": 1
+  },
+  "图4_全局连续松弛下界核验.pdf": {
+    "png_size": [
+      3433,
+      1095
+    ],
+    "pages": 1
+  },
+  "status": "PASS"
+}

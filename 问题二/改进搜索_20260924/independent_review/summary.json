@@ -1,0 +1,27 @@
+{
+  "final_objective": [
+    25,
+    71.31909210428417,
+    6672.014331816174,
+    0.0
+  ],
+  "final_raw_checks": 399,
+  "all_final_raw_checks": true,
+  "archive_count": 11,
+  "all_archive_raw_checks": true,
+  "all_archive_regrets_match": true,
+  "final_is_reported_choice": true,
+  "archive_dominance_pairs": [],
+  "candidate_count": 28216,
+  "all_archive_candidates_in_evaluation_pool": true,
+  "all_LP_recomputations_match": true,
+  "all_preference_uppers_match": true,
+  "scope": "expanded finite evaluation library, original frozen scale; weak-duality certificates independently reconstructed",
+  "files_sha256": {
+    "search_expanded.py": "0787441ba9d2508292294b81c6f1972b6be2489ab904411e71929a9a0a1a4670",
+    "最终方案.json": "1939cce13167720a7e36a7a9fff3f3032b89486fda4124d3dafc733fb09f6b26",
+    "联合非支配档案.json": "deadacd5b16073630b7ba78329be0b4748ccb34568b7aa4a0502f0263b68490b",
+    "偏好极点基准_扩大库松弛.json": "c2cb498bc165c4494a0653740fccab0c2b938c22a85b9488d5530f107f7e2f80",
+    "frozen_evaluation_candidates.json.gz": "6e6953b0f0da38bee9abc3967a78d65c9e975fbc81d4a9961fb58dea1b7178e4"
+  }
+}

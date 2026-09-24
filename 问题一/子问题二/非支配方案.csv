@@ -1,0 +1,3 @@
+﻿solution,N,E_kWh,T_s,normalized_N,normalized_E,normalized_T,max_regret,selected
+PF001,18,59.133133080893884,32776.5167822769,0.0,1.0,0.0,0.0,True
+PF002,19,59.03577746310044,34440.48875202747,1.0,0.0,1.0,0.6666666666666665,False

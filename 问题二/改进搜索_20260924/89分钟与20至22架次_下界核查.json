@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "name": "all_generated_routes",
+      "cap": {},
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "optimal": true,
+      "lower_seconds": 5387.923250260231,
+      "lower_minutes": 89.79872083767052,
+      "seconds_above_89min": 47.923250260230816
+    },
+    {
+      "name": "at_most_20",
+      "cap": {
+        "N": 20
+      },
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "optimal": true,
+      "lower_seconds": 6309.253583312066,
+      "lower_minutes": 105.15422638853444,
+      "seconds_above_89min": 969.2535833120664
+    },
+    {
+      "name": "at_most_21",
+      "cap": {
+        "N": 21
+      },
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "optimal": true,
+      "lower_seconds": 5847.300552292062,
+      "lower_minutes": 97.45500920486771,
+      "seconds_above_89min": 507.3005522920621
+    },
+    {
+      "name": "at_most_22",
+      "cap": {
+        "N": 22
+      },
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "optimal": true,
+      "lower_seconds": 5476.087570756813,
+      "lower_minutes": 91.26812617928022,
+      "seconds_above_89min": 136.08757075681297
+    },
+    {
+      "name": "N22_E66",
+      "cap": {
+        "N": 22,
+        "E": 66.0
+      },
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "optimal": true,
+      "lower_seconds": 5625.832314636171,
+      "lower_minutes": 93.76387191060284,
+      "seconds_above_89min": 285.83231463617085
+    }
+  ],
+  "reference_seconds": 5340,
+  "library_sha256": "6e6953b0f0da38bee9abc3967a78d65c9e975fbc81d4a9961fb58dea1b7178e4",
+  "scope": "Finite generated library with O01-only battery use. Valid LP bounds for this scope only; neither full-route nor off-depot exchange global bounds.",
+  "conclusion": "An externally mentioned lower bound is unverified without its model, relaxation and proof. A lower bound is not an achieved schedule."
+}

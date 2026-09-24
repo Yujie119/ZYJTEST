@@ -1,0 +1,61 @@
+[
+  {
+    "name": "zhang_google",
+    "url": "https://www.google.com/search?q=%22Energy+consumption+models+for+delivery+drones%22+pdf",
+    "error": "('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+  },
+  {
+    "name": "zhang_campbell",
+    "url": "https://www.umsl.edu/~campbellj/",
+    "resolved_url": "https://www.umsl.edu/~campbellj/",
+    "status": 404,
+    "file": "zhang_campbell.html",
+    "links": []
+  },
+  {
+    "name": "R4_repository",
+    "url": "https://iris.unitn.it/handle/11572/435294",
+    "resolved_url": "https://iris.unitn.it/handle/11572/435294",
+    "status": 403,
+    "file": "R4_repository.html",
+    "links": []
+  },
+  {
+    "name": "zhang_bing_short",
+    "url": "https://www.bing.com/search?q=Zhang+Campbell+2021+102668+pdf&ensearch=1",
+    "resolved_url": "https://cn.bing.com/search?q=Zhang+Campbell+2021+102668+pdf&ensearch=1",
+    "status": 200,
+    "file": "zhang_bing_short.html",
+    "links": [
+      {
+        "text": "Turn off  Hover Translation (关闭取词)",
+        "href": "/search?q=Zhang+Campbell+2021+102668+pdf&ensearch=1&hta=off"
+      },
+      {
+        "text": "All",
+        "href": "/search?q=Zhang+Campbell+2021+102668+pdf&ensearch=1&FORM=000017&qpvt=Zhang+Campbell+2021+102668+pdf"
+      },
+      {
+        "text": "Past 24 hours",
+        "href": "/search?q=Zhang+Campbell+2021+102668+pdf&filters=ex1%3a%22ez1%22&ensearch=1&FORM=000017"
+      },
+      {
+        "text": "Past week",
+        "href": "/search?q=Zhang+Campbell+2021+102668+pdf&filters=ex1%3a%22ez2%22&ensearch=1&FORM=000017"
+      },
+      {
+        "text": "Past month",
+        "href": "/search?q=Zhang+Campbell+2021+102668+pdf&filters=ex1%3a%22ez3%22&ensearch=1&FORM=000017"
+      },
+      {
+        "text": "Past year",
+        "href": "/search?q=Zhang+Campbell+2021+102668+pdf&filters=ex1%3a%22ez5_20354_20719%22&ensearch=1&FORM=000017"
+      }
+    ]
+  },
+  {
+    "name": "R2_google",
+    "url": "https://www.google.com/search?q=%22Integrating+battery-related+decisions%22",
+    "error": "('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+  }
+]

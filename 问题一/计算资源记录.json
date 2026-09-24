@@ -1,0 +1,39 @@
+{
+  "cpu_logical": 20,
+  "cpu_physical": 14,
+  "memory_total_bytes": 68463718400,
+  "parent_rss_bytes": 534740992,
+  "cpu_worker_processes": 8,
+  "solver_threads_per_worker": 1,
+  "parallel_scenarios": 29,
+  "gpus": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "torch_version": "2.8.0+cu128",
+      "cuda_version": "12.8",
+      "dtype": "float64",
+      "capacity_cases": 138115,
+      "seconds": 0.08830699999816716,
+      "peak_allocated_bytes": 9214976,
+      "peak_reserved_bytes": 23068672
+    },
+    {
+      "device": 1,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "torch_version": "2.8.0+cu128",
+      "cuda_version": "12.8",
+      "dtype": "float64",
+      "capacity_cases": 132110,
+      "seconds": 0.08758880000095814,
+      "peak_allocated_bytes": 8814592,
+      "peak_reserved_bytes": 23068672
+    }
+  ],
+  "gpu_cpu_comparisons": 180,
+  "max_gpu_cpu_difference_kg": 4.263256414560601e-14,
+  "physical_cases": 270225,
+  "memory_policy": "In-memory pattern library, sparse matrices and per-worker input cache; no artificial memory saturation",
+  "gpu_role": "Float64 batched safe-load bisection; CPU-only HiGHS solves LP/MILP",
+  "openmp_policy": "MKL_THREADING_LAYER=SEQUENTIAL; KMP_DUPLICATE_LIB_OK is not enabled"
+}

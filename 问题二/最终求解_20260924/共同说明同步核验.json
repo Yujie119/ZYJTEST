@@ -1,0 +1,21 @@
+{
+  "before_sha256": "c636fe9571585dd43460eea0a7e363e17ce12fdea18970daf31dfd2acc2a842f",
+  "after_sha256": "46ccbfc0f21de7c8667fbd412d70de19a7d67288143414957060b7b76e405696",
+  "image_references_identical": true,
+  "chapter5_unchanged": true,
+  "changes": [
+    {
+      "old": "准备、装载不另计附件未给出的电池耗能，同一站本批货箱均以交接完成时刻记为送达。",
+      "new": "准备、装载不另计附件未给出的电池耗能；运输交接阶段亦按题给航段能量求和口径不另加耗能项，此为缺少运输机悬停功率时的补充约定，不表示服务区30 m交接时真实悬停功率为零。同一站本批货箱均以交接完成时刻记为送达。"
+    },
+    {
+      "old": "DOI: 10.1016/j.cor.2024.106666. 借鉴偏好多面体与最小最大遗憾；本题指标、偏好集合及界评价需按本章定义。",
+      "new": "DOI: 10.1016/j.cor.2024.106666. 用于不确定风险偏好与折中决策的研究背景；本轮仅核实著录与摘要，未核实全文。本题L1偏好集合、最小最大遗憾及其界评价由本文定义和推导，不将具体形式归于该文。"
+    },
+    {
+      "old": "并非现第5章更新后的28架次代表。",
+      "new": "并非第5章此前的28架次代表，也不是现已更新的22架次提交方案。"
+    }
+  ],
+  "scope": "Assumption 5, shared R4 source qualification, historical Q2 cross-reference only; no numerical or Q3 model change."
+}

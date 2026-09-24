@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "formal_solver_started": false,
+  "tests": [
+    {
+      "name": "bound files accepted",
+      "passed": true
+    },
+    {
+      "name": "stale verifier fingerprint rejected",
+      "passed": true
+    },
+    {
+      "name": "changed verified payload rejected",
+      "passed": true
+    },
+    {
+      "name": "changed candidate rejected",
+      "passed": true
+    },
+    {
+      "name": "pending and worker alias counted once",
+      "passed": true
+    },
+    {
+      "name": "unbound filename not trusted",
+      "passed": true
+    }
+  ]
+}

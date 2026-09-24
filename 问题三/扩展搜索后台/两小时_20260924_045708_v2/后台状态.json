@@ -1,0 +1,109 @@
+{
+  "status": "searches_finished",
+  "started_utc": "2026-09-23T20:57:30.956433+00:00",
+  "started_epoch": 1790197050.9564424,
+  "deadline_epoch": 1790204250.9564297,
+  "coordinator_pid": 33608,
+  "config": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\后台配置.json",
+  "jobs": [
+    {
+      "name": "full_C",
+      "kind": "full_library",
+      "pid": 36216,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\全库_C",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.963292+00:00",
+      "returncode": 2,
+      "ended_utc": "2026-09-23T22:55:38.659864+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_E",
+      "kind": "full_library",
+      "pid": 12300,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\全库_E",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.970633+00:00",
+      "returncode": 2,
+      "ended_utc": "2026-09-23T22:55:38.659890+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_L",
+      "kind": "full_library",
+      "pid": 40460,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\全库_L",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.978161+00:00",
+      "returncode": 2,
+      "ended_utc": "2026-09-23T22:55:38.659894+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_N",
+      "kind": "full_library",
+      "pid": 24932,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\全库_N",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.986544+00:00",
+      "returncode": 2,
+      "ended_utc": "2026-09-23T22:55:38.659897+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "neighborhood_2026092401",
+      "kind": "neighborhood",
+      "pid": 8940,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.993565+00:00",
+      "returncode": 0,
+      "ended_utc": "2026-09-23T22:55:38.659899+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "neighborhood_2026092402",
+      "kind": "neighborhood",
+      "pid": 41384,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092402",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:31.001848+00:00",
+      "returncode": 0,
+      "ended_utc": "2026-09-23T22:55:38.659902+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    }
+  ],
+  "elapsed_s": 7087.71769770002,
+  "remaining_s": 112.28230069996789,
+  "only_O01_swaps": true,
+  "completion_does_not_mean_optimality": true,
+  "updated_utc": "2026-09-23T22:55:38.674111+00:00",
+  "active_jobs": 0,
+  "verified_plan_files": [
+    "邻域_2026092402\\round_00015_N\\已核验方案.json",
+    "邻域_2026092402\\round_00020_C\\已核验方案.json",
+    "邻域_2026092402\\round_00022_L\\已核验方案.json",
+    "邻域_2026092402\\round_00031_N\\已核验方案.json",
+    "邻域_2026092402\\round_00051_N\\已核验方案.json",
+    "邻域_2026092401\\round_00008_C\\已核验方案.json",
+    "邻域_2026092401\\round_00010_L\\已核验方案.json",
+    "邻域_2026092401\\round_00020_C\\已核验方案.json",
+    "邻域_2026092401\\round_00034_L\\已核验方案.json",
+    "邻域_2026092401\\round_00055_N\\已核验方案.json",
+    "邻域_2026092401\\round_00061_E\\已核验方案.json"
+  ],
+  "pending_plan_files": [
+    "邻域_2026092402\\round_00015_N\\候选方案_待独立物理核验.json",
+    "邻域_2026092402\\round_00020_C\\候选方案_待独立物理核验.json",
+    "邻域_2026092402\\round_00022_L\\候选方案_待独立物理核验.json",
+    "邻域_2026092402\\round_00031_N\\候选方案_待独立物理核验.json",
+    "邻域_2026092402\\round_00051_N\\候选方案_待独立物理核验.json",
+    "邻域_2026092401\\round_00008_C\\候选方案_待独立物理核验.json",
+    "邻域_2026092401\\round_00010_L\\候选方案_待独立物理核验.json",
+    "邻域_2026092401\\round_00020_C\\候选方案_待独立物理核验.json",
+    "邻域_2026092401\\round_00034_L\\候选方案_待独立物理核验.json",
+    "邻域_2026092401\\round_00055_N\\候选方案_待独立物理核验.json",
+    "邻域_2026092401\\round_00061_E\\候选方案_待独立物理核验.json"
+  ],
+  "finished_utc": "2026-09-23T22:55:38.674128+00:00"
+}

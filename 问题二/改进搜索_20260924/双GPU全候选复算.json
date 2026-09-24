@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "devices": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "routes": 14108,
+      "legs": 28216,
+      "dtype": "float64",
+      "passed": true,
+      "max_abs_error": {
+        "energy_kwh": 4.440892098500626e-16,
+        "duration_s": 0.0,
+        "soc": 1.1102230246251565e-16,
+        "charge_s": 4.547473508864641e-13
+      },
+      "compute_seconds": 0.13372800004435703,
+      "wall_seconds": 0.7373853999888524,
+      "peak_tensor_bytes": 4967936
+    },
+    {
+      "device": 1,
+      "name": "NVIDIA GeForce RTX 3080 Ti",
+      "routes": 14108,
+      "legs": 38180,
+      "dtype": "float64",
+      "passed": true,
+      "max_abs_error": {
+        "energy_kwh": 1.7763568394002505e-15,
+        "duration_s": 9.094947017729282e-13,
+        "soc": 2.220446049250313e-16,
+        "charge_s": 9.094947017729282e-13
+      },
+      "compute_seconds": 0.13170190004166216,
+      "wall_seconds": 0.7337321000522934,
+      "peak_tensor_bytes": 6323712
+    }
+  ],
+  "candidate_count": 28216,
+  "note": "GPU tensor physics verification, not GPU integer programming."
+}

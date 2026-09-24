@@ -1,0 +1,24 @@
+{
+  "archive_count": 15,
+  "objective": [
+    27,
+    73.65691369089227,
+    7210.460195963937,
+    107.16489638900858
+  ],
+  "regret_interval": [
+    0.1614304342637145,
+    0.6076042223587326
+  ],
+  "route_count": 26821,
+  "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e",
+  "scope": "Expanded finite-library heuristic search with certified relaxation lower bounds; no full-route optimum claim",
+  "physics": "Same audited q2_data physical assumptions; no parameter tuning against external answers",
+  "frozen_scale": [
+    15.0,
+    27.77981480435046,
+    1596.4547661131937,
+    459.283422915773
+  ],
+  "status": "completed"
+}

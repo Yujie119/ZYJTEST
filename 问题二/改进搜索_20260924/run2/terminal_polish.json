@@ -1,0 +1,482 @@
+[
+  {
+    "scope": "archive_terminal_0",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 12.251145311880922,
+    "upper_bound": 12.251145311880922,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 27,
+      "E": 75.00366401031708,
+      "C": 7264.62791044095,
+      "L": 12.251145311880922
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 509,
+    "constraints": 422,
+    "horizon": 7264.62791044095,
+    "seconds": 0.0020913000334985554,
+    "seed": 20260924,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_1",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 0.0,
+    "upper_bound": 0.0,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 28,
+      "E": 75.71131596897939,
+      "C": 7264.62791044095,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 533,
+    "constraints": 432,
+    "horizon": 7264.62791044095,
+    "seconds": 0.001704900001641363,
+    "seed": 20260925,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_2",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 54.25995502224788,
+    "upper_bound": 54.25995502224788,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 24,
+      "E": 65.55365418915781,
+      "C": 9029.281375254212,
+      "L": 54.25995502224788
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.4210854715202004e-14,
+    "variables": 434,
+    "constraints": 404,
+    "horizon": 9029.281375254212,
+    "seconds": 0.0014227000065147877,
+    "seed": 20260926,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_3",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 109.80139798970788,
+    "upper_bound": 109.80139798970788,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 63.26021230769617,
+      "C": 9069.567244129956,
+      "L": 109.8013979897079
+    },
+    "gap": 0.0,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 419,
+    "constraints": 412,
+    "horizon": 9069.567244129956,
+    "seconds": 0.0015010000206530094,
+    "seed": 20260927,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_4",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 520.7998072166126,
+    "upper_bound": 520.7998072166126,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 20,
+      "E": 60.70497216913841,
+      "C": 9163.54886305257,
+      "L": 520.7998072166125
+    },
+    "gap": 0.0,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 381,
+    "constraints": 410,
+    "horizon": 9163.54886305257,
+    "seconds": 0.0014637000276707113,
+    "seed": 20260928,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_5",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 12.468106916163773,
+    "upper_bound": 12.468106916163773,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 21,
+      "E": 67.32235979591468,
+      "C": 8147.02382484277,
+      "L": 24.272139659094304
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 396,
+    "constraints": 354,
+    "horizon": 8147.02382484277,
+    "seconds": 0.002556899969931692,
+    "seed": 20260929,
+    "relaxation": false,
+    "nodes": 1
+  },
+  {
+    "scope": "archive_terminal_6",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 144.13878144787924,
+    "upper_bound": 144.13878144787924,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 24,
+      "E": 69.58887587848585,
+      "C": 7387.904912008393,
+      "L": 144.13878144787924
+    },
+    "gap": 0.0,
+    "matrix_residual": 0.0,
+    "variables": 449,
+    "constraints": 386,
+    "horizon": 7387.904912008393,
+    "seconds": 0.001497599994763732,
+    "seed": 20260930,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_7",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 54.79569968735583,
+    "upper_bound": 54.79569968735583,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 66.29741292296062,
+      "C": 8801.581000635153,
+      "L": 54.79569968735583
+    },
+    "gap": 0.0,
+    "matrix_residual": 0.0,
+    "variables": 417,
+    "constraints": 390,
+    "horizon": 8801.581000635153,
+    "seconds": 0.001429299998562783,
+    "seed": 20260931,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_8",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 409.1279418189263,
+    "upper_bound": 409.12794181892633,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 24,
+      "E": 70.8638736952283,
+      "C": 7210.1468043903615,
+      "L": 469.5931893661076
+    },
+    "gap": 1.3893800215182084e-16,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 450,
+    "constraints": 384,
+    "horizon": 7210.1468043903615,
+    "seconds": 0.004590500029735267,
+    "seed": 20260932,
+    "relaxation": false,
+    "nodes": 1
+  },
+  {
+    "scope": "archive_terminal_9",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 0.0,
+    "upper_bound": 0.0,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 22,
+      "E": 69.0812123723445,
+      "C": 8277.64624621817,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 9.094947017729282e-13,
+    "variables": 404,
+    "constraints": 368,
+    "horizon": 8277.64624621817,
+    "seconds": 0.0015513999969698489,
+    "seed": 20260933,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_10",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 27.570931703959133,
+    "upper_bound": 27.570931703959136,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 25,
+      "E": 71.31909210428417,
+      "C": 6672.014331816174,
+      "L": 50.483276284257265
+    },
+    "gap": 1.2885722241625726e-16,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 480,
+    "constraints": 392,
+    "horizon": 6672.014331816174,
+    "seconds": 0.0019804000039584935,
+    "seed": 20260934,
+    "relaxation": false,
+    "nodes": 1
+  },
+  {
+    "scope": "archive_terminal_11",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 0.0,
+    "upper_bound": 0.0,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 23,
+      "E": 70.33734734562732,
+      "C": 7298.5935259879625,
+      "L": 0.0
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.4210854715202004e-14,
+    "variables": 428,
+    "constraints": 374,
+    "horizon": 7298.5935259879625,
+    "seconds": 0.0013921000063419342,
+    "seed": 20260935,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_12",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 8.441518167943919,
+    "upper_bound": 8.441518167943919,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 27,
+      "E": 70.29143588322789,
+      "C": 7838.543016214665,
+      "L": 8.441518167943919
+    },
+    "gap": 0.0,
+    "matrix_residual": 3.637978807091713e-12,
+    "variables": 502,
+    "constraints": 424,
+    "horizon": 7838.543016214665,
+    "seconds": 0.001775300013832748,
+    "seed": 20260936,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_13",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 54.79569968735583,
+    "upper_bound": 54.79569968735583,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 24,
+      "E": 64.64703177165313,
+      "C": 8427.071898766839,
+      "L": 54.79569968735583
+    },
+    "gap": 0.0,
+    "matrix_residual": 7.275957614183426e-12,
+    "variables": 435,
+    "constraints": 400,
+    "horizon": 8427.071898766839,
+    "seconds": 0.0014552000211551785,
+    "seed": 20260937,
+    "relaxation": false,
+    "nodes": 0
+  },
+  {
+    "scope": "archive_terminal_14",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 291.4184170441769,
+    "upper_bound": 291.4184170441769,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 21,
+      "E": 62.72052529403814,
+      "C": 11090.242795618593,
+      "L": 375.1059554199538
+    },
+    "gap": 0.0,
+    "matrix_residual": 1.8189894035458565e-12,
+    "variables": 388,
+    "constraints": 400,
+    "horizon": 11090.242795618593,
+    "seconds": 0.00377220002701506,
+    "seed": 20260938,
+    "relaxation": false,
+    "nodes": 1
+  },
+  {
+    "scope": "archive_terminal_15",
+    "status": "Optimal",
+    "optimal": true,
+    "incumbent": true,
+    "warm_fallback": false,
+    "lower_bound": 18.82388762235434,
+    "upper_bound": 18.82388762235434,
+    "weights": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "epsilon": {
+      "N": 25,
+      "E": 73.12151423043781,
+      "C": 7232.5935259879625,
+      "L": 18.82388762235434
+    },
+    "gap": 0.0,
+    "matrix_residual": 0.0,
+    "variables": 464,
+    "constraints": 396,
+    "horizon": 7232.5935259879625,
+    "seconds": 0.0016008000238798559,
+    "seed": 20260939,
+    "relaxation": false,
+    "nodes": 0
+  }
+]

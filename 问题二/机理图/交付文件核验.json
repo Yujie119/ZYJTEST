@@ -1,0 +1,149 @@
+{
+  "source_fingerprints_unchanged": {
+    "最终求解_20260924\\联合非支配档案.json": true,
+    "最终求解_20260924\\最终方案.json": true,
+    "最终求解_20260924\\frozen_evaluation_candidates.json.gz": true,
+    "最终求解_20260924\\偏好极点基准_扩大库松弛.json": true,
+    "冻结评价配置.json": true,
+    "子问题二\\ALNS对照日志.json": true,
+    "子问题二\\ALNS对照档案.json": true,
+    "子问题二\\自适应epsilon.json": true,
+    "子问题二\\完整联合运行日志.json": true,
+    "子问题二\\构造初始化档案.json": true,
+    "改进搜索_20260924\\89分钟与20至22架次_下界核查.json": true
+  },
+  "data_checks": {
+    "epsilon_thresholds_recomputed": true,
+    "operator_probabilities_recomputed": true,
+    "released_box_conservation": true,
+    "fixed_tasks_unchanged": true,
+    "lp_bounds_recomputed": true,
+    "projection_edge_certified": true,
+    "known_points_inside_projection": true,
+    "regret_recomputed": true
+  },
+  "artifacts": [
+    {
+      "file": "图1_epsilon约束与四目标条件筛选.png",
+      "bytes": 240613,
+      "sha256": "53687abe945fec9bac9ed94064d4d7ed7095e51d92033ce81e5a986ef25e51b0",
+      "pixels": [
+        3958,
+        1290
+      ]
+    },
+    {
+      "file": "图1_epsilon约束与四目标条件筛选.svg",
+      "bytes": 47370,
+      "sha256": "5867e131911cdc1422a1924f44f95da19ab9bd997a5958edb804983561cd01b2",
+      "svg_valid": true,
+      "text_elements": 53,
+      "raster_images": 0
+    },
+    {
+      "file": "图1_epsilon约束与四目标条件筛选.pdf",
+      "bytes": 43722,
+      "sha256": "e017cf73ab871d1b7269fed25097a96bf7aaf6b81843130c4231a427d57ccfff",
+      "page_objects": 1,
+      "embedded_font_file": true
+    },
+    {
+      "file": "图2_自适应epsilon阈值与真实求解状态.png",
+      "bytes": 455505,
+      "sha256": "fc182e32ca3eb3502e1d1fb18d0744147ff0f9709105c31871af29a3efc986c2",
+      "pixels": [
+        3905,
+        1482
+      ]
+    },
+    {
+      "file": "图2_自适应epsilon阈值与真实求解状态.svg",
+      "bytes": 40532,
+      "sha256": "41a26933922bea1fa4a2421646f528ef23b40e2d67e26b8377b7749552b879be",
+      "svg_valid": true,
+      "text_elements": 51,
+      "raster_images": 0
+    },
+    {
+      "file": "图2_自适应epsilon阈值与真实求解状态.pdf",
+      "bytes": 64235,
+      "sha256": "d59abe9c13a20b3726932849bc3a5fb6536cb2ca13ed27fa15230e1a77e5d8ff",
+      "page_objects": 1,
+      "embedded_font_file": true
+    },
+    {
+      "file": "图3_ALNS破坏修复与自适应算子.png",
+      "bytes": 458379,
+      "sha256": "34dd88bc12e967a990517c5bfab9b1d01dc6da38200b69e0834e8c68fbff25ba",
+      "pixels": [
+        3797,
+        2263
+      ]
+    },
+    {
+      "file": "图3_ALNS破坏修复与自适应算子.svg",
+      "bytes": 77455,
+      "sha256": "5dec8d67f650e29a6fa06eeb2ef638840ad816eb1079ff604dc3b1e6bec5f157",
+      "svg_valid": true,
+      "text_elements": 96,
+      "raster_images": 0
+    },
+    {
+      "file": "图3_ALNS破坏修复与自适应算子.pdf",
+      "bytes": 72004,
+      "sha256": "ab270c4c13f2fffafd81c264134533299a418d592c81a0b70f379d72cf584fdd",
+      "page_objects": 1,
+      "embedded_font_file": true
+    },
+    {
+      "file": "图4_覆盖工作量松弛域与分数解.png",
+      "bytes": 411810,
+      "sha256": "87deed3dd073548e4f05dcb88ea9f4c41ff1b836758ac12707fae89906f25afb",
+      "pixels": [
+        3652,
+        1587
+      ]
+    },
+    {
+      "file": "图4_覆盖工作量松弛域与分数解.svg",
+      "bytes": 48585,
+      "sha256": "afaafca02c5072841add21d1d0cda30269fb071abb08d18da2e7766037de5214",
+      "svg_valid": true,
+      "text_elements": 55,
+      "raster_images": 0
+    },
+    {
+      "file": "图4_覆盖工作量松弛域与分数解.pdf",
+      "bytes": 53640,
+      "sha256": "11f542514257183a1cdced7063fb3ec0e479204a68fb1f22a8afa93f28e9fbc0",
+      "page_objects": 1,
+      "embedded_font_file": true
+    },
+    {
+      "file": "图5_同条件下界与最坏遗憾区间.png",
+      "bytes": 260220,
+      "sha256": "b45d0b6c8ee06546df2dcbb7e954cdb63e1ec576d65a0c68541561d5248a9d4d",
+      "pixels": [
+        3729,
+        1598
+      ]
+    },
+    {
+      "file": "图5_同条件下界与最坏遗憾区间.svg",
+      "bytes": 48452,
+      "sha256": "2f900c8062723d94d23ce855dede0eecb4c5f04d62100d8480e1140388facfb0",
+      "svg_valid": true,
+      "text_elements": 48,
+      "raster_images": 0
+    },
+    {
+      "file": "图5_同条件下界与最坏遗憾区间.pdf",
+      "bytes": 40648,
+      "sha256": "9bf4798b3a1c05eef3bbd30d4c1b7116abfe855a707b5f5f5388db41038eb79d",
+      "page_objects": 1,
+      "embedded_font_file": true
+    }
+  ],
+  "note": "PNG files visually inspected by the author. PDF checks are structural; no PDF rendering dependency installed.",
+  "final_submission_sha256": "a2f8a50534fb39ebb06d80fca82a3432585fdfbb19dd4a66b75ee74fca82e54b"
+}

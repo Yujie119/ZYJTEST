@@ -1,0 +1,275 @@
+{
+  "status": "PASS",
+  "scope": {
+    "spare_battery_carriage_allowed": false,
+    "expert_swap_rule": "Swap where an eligible battery is available; not restricted to O01; all shared batteries initially at O01.",
+    "implemented_swap_policy": "Only O01 swaps between complete O01-to-O01 sorties; one installed energy unit per sortie; no spare energy carried.",
+    "full_expert_feasible_domain_searched": false,
+    "interpretation": "These remain allowed restricted-policy candidates under the expert rule, but do not optimize service-node exchange or battery relocation."
+  },
+  "checks": [
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-001",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-004",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-006",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-008",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-003",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-005",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-007",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-002",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-012",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-013",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-015",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-009",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-010",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-014",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-011",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-016",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-017",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-021",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-018",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-025",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-024",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-028",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-023",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-027",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-020",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-019",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-022",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "route": "Q2SEED-28-026",
+      "one_installed_battery": true,
+      "payload_only_raw_cargo_no_spare_mass": true,
+      "starts_and_returns_O01": true,
+      "airframe_initially_O01": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "relay": "Q3-R001",
+      "one_installed_energy_component": true,
+      "sortie_O01_out_and_back_by_model": true,
+      "no_spare_cargo_variable_or_extra_component_assigned": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "relay": "Q3-R002",
+      "one_installed_energy_component": true,
+      "sortie_O01_out_and_back_by_model": true,
+      "no_spare_cargo_variable_or_extra_component_assigned": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "relay": "Q3-R004",
+      "one_installed_energy_component": true,
+      "sortie_O01_out_and_back_by_model": true,
+      "no_spare_cargo_variable_or_extra_component_assigned": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "relay": "Q3-R005",
+      "one_installed_energy_component": true,
+      "sortie_O01_out_and_back_by_model": true,
+      "no_spare_cargo_variable_or_extra_component_assigned": true
+    },
+    {
+      "plan": "1_C_原运输资源次序_已核验方案.json",
+      "relay": "Q3-R006",
+      "one_installed_energy_component": true,
+      "sortie_O01_out_and_back_by_model": true,
+      "no_spare_cargo_variable_or_extra_component_assigned": true
+    }
+  ],
+  "predicate_count": 127,
+  "passed": 127,
+  "initial_shared_battery_location": "O01 (expert-given initial condition)",
+  "limitation": "Checks establish what the modeled candidates carry and where they swap. No service-site battery relocation or exchange search was performed."
+}

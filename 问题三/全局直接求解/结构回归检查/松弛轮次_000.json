@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "iteration": 0,
+    "all_route_instances_still_selectable": 3,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "incumbent_available": true,
+    "objective_mode": "C",
+    "solver_objective": 150.0,
+    "dual_bound": 150.0,
+    "mip_gap": 0.0,
+    "nodes": 1,
+    "max_constraint_violation": 0.0,
+    "variables": 139,
+    "constraints": 334,
+    "route_instances": 3,
+    "loaded_route_blocks": 0,
+    "loaded_transport_pairs": 0,
+    "building_s": 0.0025575999752618372,
+    "elapsed_s": 0.0067903000162914395,
+    "mip_rel_gap_requested": 0.0,
+    "threads": 1,
+    "selected_routes": 3,
+    "objective_recomputed": [
+      3,
+      3.0,
+      100.0,
+      0.0
+    ],
+    "newly_loaded_route_blocks": 1,
+    "newly_loaded_resource_pairs": 3,
+    "transport_conflicts": 6,
+    "incomplete_communication": 1,
+    "accepted_as_feasible": false
+  },
+  "relaxation_incumbent": {
+    "routes": [
+      {
+        "route_id": "T0",
+        "pattern_id": "P0",
+        "vehicle": "C",
+        "counts": {
+          "S001|food": 1
+        },
+        "duration": 100.0,
+        "latest_start": Infinity,
+        "charge_s": 300.0,
+        "energy": 1.0,
+        "offsets": {
+          "S001|food": 50.0
+        },
+        "prep_s": 10.0,
+        "needs": [
+          {
+            "t0": 10.0,
+            "t1": 90.0,
+            "mask": 1
+          }
+        ],
+        "start": 0.0,
+        "takeoff": 10.0,
+        "finish": 100.0,
+        "recharge": 400.0,
+        "uav": "U07",
+        "battery_id": "C-BAT-01",
+        "links": []
+      },
+      {
+        "route_id": "T1",
+        "pattern_id": "P1",
+        "vehicle": "C",
+        "counts": {
+          "S002|food": 1
+        },
+        "duration": 100.0,
+        "latest_start": Infinity,
+        "charge_s": 300.0,
+        "energy": 1.0,
+        "offsets": {
+          "S002|food": 50.0
+        },
+        "prep_s": 10.0,
+        "needs": [],
+        "start": 0.0,
+        "takeoff": 10.0,
+        "finish": 100.0,
+        "recharge": 400.0,
+        "uav": "U07",
+        "battery_id": "C-BAT-01",
+        "links": []
+      },
+      {
+        "route_id": "T2",
+        "pattern_id": "P2",
+        "vehicle": "C",
+        "counts": {
+          "S003|food": 1
+        },
+        "duration": 100.0,
+        "latest_start": Infinity,
+        "charge_s": 300.0,
+        "energy": 1.0,
+        "offsets": {
+          "S003|food": 50.0
+        },
+        "prep_s": 10.0,
+        "needs": [],
+        "start": 0.0,
+        "takeoff": 10.0,
+        "finish": 100.0,
+        "recharge": 400.0,
+        "uav": "U07",
+        "battery_id": "C-BAT-01",
+        "links": []
+      }
+    ],
+    "relays": [],
+    "boxes": [
+      {
+        "box": "B0",
+        "category": "S001|food",
+        "zone": "S001",
+        "kind": "food",
+        "mass": 1.0,
+        "volume": 0.01,
+        "expected": 1000.0,
+        "priority": 1.0,
+        "hard": false,
+        "deadline": Infinity,
+        "first": "否",
+        "first_deadline": Infinity,
+        "route_id": "T0",
+        "delivery": 50.0,
+        "uav": "U07",
+        "battery_id": "C-BAT-01"
+      },
+      {
+        "box": "B1",
+        "category": "S002|food",
+        "zone": "S002",
+        "kind": "food",
+        "mass": 1.0,
+        "volume": 0.01,
+        "expected": 1000.0,
+        "priority": 1.0,
+        "hard": false,
+        "deadline": Infinity,
+        "first": "否",
+        "first_deadline": Infinity,
+        "route_id": "T1",
+        "delivery": 50.0,
+        "uav": "U07",
+        "battery_id": "C-BAT-01"
+      },
+      {
+        "box": "B2",
+        "category": "S003|food",
+        "zone": "S003",
+        "kind": "food",
+        "mass": 1.0,
+        "volume": 0.01,
+        "expected": 1000.0,
+        "priority": 1.0,
+        "hard": false,
+        "deadline": Infinity,
+        "first": "否",
+        "first_deadline": Infinity,
+        "route_id": "T2",
+        "delivery": 50.0,
+        "uav": "U07",
+        "battery_id": "C-BAT-01"
+      }
+    ],
+    "NT": 3,
+    "NR": 0,
+    "ET": 3.0,
+    "ER": 0,
+    "objective": [
+      3,
+      3.0,
+      100.0,
+      0.0
+    ],
+    "status": "outer_relaxation_incumbent_not_a_feasible_Q3_plan",
+    "meta": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "incumbent_available": true,
+      "objective_mode": "C",
+      "solver_objective": 150.0,
+      "dual_bound": 150.0,
+      "mip_gap": 0.0,
+      "nodes": 1,
+      "max_constraint_violation": 0.0,
+      "variables": 139,
+      "constraints": 334,
+      "route_instances": 3,
+      "loaded_route_blocks": 0,
+      "loaded_transport_pairs": 0,
+      "building_s": 0.0025575999752618372,
+      "elapsed_s": 0.0067903000162914395,
+      "mip_rel_gap_requested": 0.0,
+      "threads": 1
+    }
+  },
+  "resource_conflicts": [
+    {
+      "pair": [
+        "T0",
+        "T1"
+      ],
+      "resource": "uav",
+      "id": "U07",
+      "overlap_s": 100.0
+    },
+    {
+      "pair": [
+        "T0",
+        "T1"
+      ],
+      "resource": "battery_id",
+      "id": "C-BAT-01",
+      "overlap_s": 400.0
+    },
+    {
+      "pair": [
+        "T0",
+        "T2"
+      ],
+      "resource": "uav",
+      "id": "U07",
+      "overlap_s": 100.0
+    },
+    {
+      "pair": [
+        "T0",
+        "T2"
+      ],
+      "resource": "battery_id",
+      "id": "C-BAT-01",
+      "overlap_s": 400.0
+    },
+    {
+      "pair": [
+        "T1",
+        "T2"
+      ],
+      "resource": "uav",
+      "id": "U07",
+      "overlap_s": 100.0
+    },
+    {
+      "pair": [
+        "T1",
+        "T2"
+      ],
+      "resource": "battery_id",
+      "id": "C-BAT-01",
+      "overlap_s": 400.0
+    }
+  ],
+  "communication_failures": [
+    {
+      "route": "T0",
+      "reason": "block_not_loaded"
+    }
+  ]
+}

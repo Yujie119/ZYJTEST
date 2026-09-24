@@ -1,0 +1,35 @@
+[
+  {
+    "name": "ALNS_diku",
+    "url": "https://www.diku.dk/~pisinger/ALNS.pdf",
+    "resolved_url": "https://hjemmesider.diku.dk/~pisinger/ALNS.pdf",
+    "status": 404,
+    "type": "text/html; charset=iso-8859-1",
+    "bytes": 196,
+    "file": "ALNS_diku.html",
+    "pdf": false,
+    "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880"
+  },
+  {
+    "name": "ALNS_dtu",
+    "url": "https://orbit.dtu.dk/en/publications/an-adaptive-large-neighborhood-search-heuristic-for-the-pickup-and-",
+    "resolved_url": "https://orbit.dtu.dk/en/publications/an-adaptive-large-neighborhood-search-heuristic-for-the-pickup-and-/",
+    "status": 404,
+    "type": "text/html;charset=UTF-8",
+    "bytes": 14702,
+    "file": "ALNS_dtu.html",
+    "pdf": false,
+    "sha256": "878d5f340800a0cc4e2ec50b2a95a16c0e8eb2523ec5a7159733fe361d973360"
+  },
+  {
+    "name": "R1_ieee_aam",
+    "url": "https://ieeexplore.ieee.org/ielam/7693/10466655/10210623-aam.pdf",
+    "resolved_url": "https://ieeexplore.ieee.org/ielam/7693/10466655/10210623-aam.pdf?tag=1",
+    "status": 404,
+    "type": "text/html",
+    "bytes": 16968,
+    "file": "R1_ieee_aam.xml",
+    "pdf": false,
+    "sha256": "db867e64fd4f9c9b3cb0f85c11fc6f0eec830181e023d3338a4634aaf1478ce5"
+  }
+]

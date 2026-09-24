@@ -1,0 +1,101 @@
+[
+  {
+    "original_route_id": "Q2-0020",
+    "candidate_id": "K4c7b7001c84eb366",
+    "uav": "U05",
+    "battery_id": "B-BAT-01",
+    "old_start": 3492.1532520970486,
+    "new_start": 0.0,
+    "shift": -3492.1532520970486
+  },
+  {
+    "original_route_id": "Q2-0012",
+    "candidate_id": "K8e2c748c649551ef",
+    "uav": "U07",
+    "battery_id": "C-BAT-03",
+    "old_start": 1626.175045862023,
+    "new_start": 0.0,
+    "shift": -1626.175045862023
+  },
+  {
+    "original_route_id": "Q2-0026",
+    "candidate_id": "K7288cab1aa261c76",
+    "uav": "U05",
+    "battery_id": "B-BAT-04",
+    "old_start": 5364.696848193289,
+    "new_start": 1188.4247628605203,
+    "shift": -4176.272085332768
+  },
+  {
+    "original_route_id": "Q2-0001",
+    "candidate_id": "K1828e5c16cac500b",
+    "uav": "U07",
+    "battery_id": "C-BAT-01",
+    "old_start": 0.0,
+    "new_start": 1561.5526244866223,
+    "shift": 1561.5526244866223
+  },
+  {
+    "original_route_id": "Q2-0027",
+    "candidate_id": "Ke5cfb1f82505be01",
+    "uav": "U06",
+    "battery_id": "B-BAT-03",
+    "old_start": 5403.039852379733,
+    "new_start": 1869.7476752786915,
+    "shift": -3533.2921771010415
+  },
+  {
+    "original_route_id": "Q2-0007",
+    "candidate_id": "Kb4dcea9456a134a0",
+    "uav": "U05",
+    "battery_id": "B-BAT-01",
+    "old_start": 0.0,
+    "new_start": 2337.5309386867357,
+    "shift": 2337.5309386867357
+  },
+  {
+    "original_route_id": "Q2-0028",
+    "candidate_id": "K1b4069e1511c59e5",
+    "uav": "U07",
+    "battery_id": "C-BAT-03",
+    "old_start": 5689.905381447906,
+    "new_start": 3187.727670348645,
+    "shift": -2502.1777110992607
+  },
+  {
+    "original_route_id": "Q2-0021",
+    "candidate_id": "K1ffbd54f3df7bdbb",
+    "uav": "U06",
+    "battery_id": "B-BAT-02",
+    "old_start": 3698.075235452351,
+    "new_start": 3830.357340316754,
+    "shift": 132.28210486440275
+  },
+  {
+    "original_route_id": "Q2-0013",
+    "candidate_id": "K8d90beceb5941288",
+    "uav": "U06",
+    "battery_id": "B-BAT-04",
+    "old_start": 1869.7476752786915,
+    "new_start": 4979.46351614297,
+    "shift": 3109.715840864278
+  },
+  {
+    "original_route_id": "Q2-0017",
+    "candidate_id": "K6a2e5f3223bf9174",
+    "uav": "U07",
+    "battery_id": "C-BAT-01",
+    "old_start": 3187.727670348645,
+    "new_start": 5064.916385840116,
+    "shift": 1877.1887154914712
+  },
+  {
+    "original_route_id": "Q2-0010",
+    "candidate_id": "K4bd2066b5fe7dc3c",
+    "uav": "U05",
+    "battery_id": "B-BAT-03",
+    "old_start": 1510.511588744525,
+    "new_start": 5547.562017174775,
+    "shift": 4037.05042843025
+  }
+]

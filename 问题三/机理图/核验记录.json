@@ -1,0 +1,144 @@
+{
+  "scope": "Plot evidence and export verification only; not a new physical feasibility audit or solver run.",
+  "checks": {
+    "source_sha256_match": true,
+    "six_finite_archive_vectors": true,
+    "lexicographic_representatives_C_L_E_N": true,
+    "epsilon_eligible_counts": true,
+    "64_calls_19_solver_returns": true,
+    "weights_finite_positive": true,
+    "historical_forced_fifth_step": true,
+    "same_domain_bounds_recorded": true,
+    "old_gap_arithmetic": true,
+    "C_lower_bound_matches_maximum": true,
+    "C_has_no_new_complete_incumbent": true,
+    "toy_LP_IP_consistency": true,
+    "export_nonempty_图1_epsilon约束与联合目标条件筛选.png": true,
+    "export_nonempty_图1_epsilon约束与联合目标条件筛选.pdf": true,
+    "export_nonempty_图1_epsilon约束与联合目标条件筛选.svg": true,
+    "export_nonempty_图2_自适应阈值空间与实际探索状态.png": true,
+    "export_nonempty_图2_自适应阈值空间与实际探索状态.pdf": true,
+    "export_nonempty_图2_自适应阈值空间与实际探索状态.svg": true,
+    "export_nonempty_图3_ALNS关联破坏修复与算子自适应.png": true,
+    "export_nonempty_图3_ALNS关联破坏修复与算子自适应.pdf": true,
+    "export_nonempty_图3_ALNS关联破坏修复与算子自适应.svg": true,
+    "export_nonempty_图4_连续松弛与逐轮补约束的解空间.png": true,
+    "export_nonempty_图4_连续松弛与逐轮补约束的解空间.pdf": true,
+    "export_nonempty_图4_连续松弛与逐轮补约束的解空间.svg": true,
+    "export_nonempty_图5_同域界差与扩库后的下界进展.png": true,
+    "export_nonempty_图5_同域界差与扩库后的下界进展.pdf": true,
+    "export_nonempty_图5_同域界差与扩库后的下界进展.svg": true
+  },
+  "all_passed": true,
+  "sources": [
+    {
+      "path": "搜索精修/扩展固定结构精修_v1/共同档案重评/目标去重共同档案.json",
+      "sha256": "2f8554e878463ca67ff34e367daeca4c8368533870ea1f7e2e72961e468099f6"
+    },
+    {
+      "path": "日志/搜索记录.json",
+      "sha256": "66f17dd3246c2149c548579cd33c6a5f6c8573cc095672e31f6933100f413991"
+    },
+    {
+      "path": "搜索精修/扩展固定结构精修_v1/official/已核验方案.json",
+      "sha256": "f3be3724a2685c5edf027d4e567ec9144efcca2fc63899a9e6ab9d73d5b88f53"
+    },
+    {
+      "path": "搜索精修/扩展固定结构精修_v1/扩展搜索汇总.json",
+      "sha256": "7070f1a968ffe2bb9c9dc23aa9b262ddd5c61cd8b6bfdfec1bb69b3331a8897b"
+    },
+    {
+      "path": "扩展搜索后台/两小时_20260924_045708_v2/全库_C/直接联合MILP结果.json",
+      "sha256": "b82924988a6918c26f75434913e17a062a66c090408458adf49e35ac4934e60b"
+    },
+    {
+      "path": "扩展搜索后台/两小时_20260924_045708_v2/全库_E/直接联合MILP结果.json",
+      "sha256": "d8d8b673c441f7febc3712083595b13708a8f8b456d65c4fb60fc492167eabbf"
+    },
+    {
+      "path": "扩展搜索后台/两小时_20260924_045708_v2/全库_L/直接联合MILP结果.json",
+      "sha256": "1aeee1f805333e2e95a58e8c9d09267521852e2751850b5cd0981c0855800acc"
+    },
+    {
+      "path": "扩展搜索后台/两小时_20260924_045708_v2/全库_N/直接联合MILP结果.json",
+      "sha256": "c239db2ff8ab66ccabc29c62077e5f29e99a9af4fb2c87340f0a2bdc42c9e282"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "图1_epsilon约束与联合目标条件筛选.png",
+      "bytes": 261147,
+      "sha256": "126a50d03d1b16b0e568c0261270676d141911fa610d6f2f9023799a89f828ad"
+    },
+    {
+      "file": "图1_epsilon约束与联合目标条件筛选.pdf",
+      "bytes": 46427,
+      "sha256": "7d31d2424506732d537e728794a295f49c2eff9a2f3a2b691d0c35b5b3ce53b0"
+    },
+    {
+      "file": "图1_epsilon约束与联合目标条件筛选.svg",
+      "bytes": 45289,
+      "sha256": "f89ca08479263830c16bc8ac1c3d70784cab2fd64c8552ebf9844248aeac8842"
+    },
+    {
+      "file": "图2_自适应阈值空间与实际探索状态.png",
+      "bytes": 343990,
+      "sha256": "0f1941bad4a967841eb3ef5207f6f1fcea64c2beb26b056189dbe4eaf618e3e5"
+    },
+    {
+      "file": "图2_自适应阈值空间与实际探索状态.pdf",
+      "bytes": 58384,
+      "sha256": "3b76db26855f0326fa397bf6ad7c09f6a7b2edb41f84d2afbaec93a332cca776"
+    },
+    {
+      "file": "图2_自适应阈值空间与实际探索状态.svg",
+      "bytes": 53879,
+      "sha256": "5ff7cd012a75516896637715d7cd917afd104041181d291b725d0ecd86f720de"
+    },
+    {
+      "file": "图3_ALNS关联破坏修复与算子自适应.png",
+      "bytes": 620561,
+      "sha256": "72149f49abca0c71480c05be869c40369eaff8e8b3944887f3a550c952691b4b"
+    },
+    {
+      "file": "图3_ALNS关联破坏修复与算子自适应.pdf",
+      "bytes": 100418,
+      "sha256": "71fabb1e4a7428f1824f3b460a1c1ce41ff586fdd6c1e52b6754fade614c9470"
+    },
+    {
+      "file": "图3_ALNS关联破坏修复与算子自适应.svg",
+      "bytes": 43426,
+      "sha256": "8758fedabf7e9c7f8587097b4d3b161356f32c23864210dbfb30b5fc543df0ad"
+    },
+    {
+      "file": "图4_连续松弛与逐轮补约束的解空间.png",
+      "bytes": 319316,
+      "sha256": "5a56a0cc9a829275ca73c8fd30717f4c297db663472d0065c5c6e63d4fa73f2a"
+    },
+    {
+      "file": "图4_连续松弛与逐轮补约束的解空间.pdf",
+      "bytes": 64401,
+      "sha256": "5c1f351087254c279a71208ce19d63d38087186abbc02c6989789aba8d573bc2"
+    },
+    {
+      "file": "图4_连续松弛与逐轮补约束的解空间.svg",
+      "bytes": 31195,
+      "sha256": "f2bc22c02f015df06b137c4e57853d1d4b428fbd0b0dcb1ef6d422715c7d8397"
+    },
+    {
+      "file": "图5_同域界差与扩库后的下界进展.png",
+      "bytes": 347533,
+      "sha256": "a523f773b5c4689e5833dddcffbf36cf52b4c49cd044245dd7f0cdad2222e5e9"
+    },
+    {
+      "file": "图5_同域界差与扩库后的下界进展.pdf",
+      "bytes": 59271,
+      "sha256": "14ffc7a285d9a8f24500bfcbf8153f8060d17870f0bf88608fbeda6d0c9a1584"
+    },
+    {
+      "file": "图5_同域界差与扩库后的下界进展.svg",
+      "bytes": 24944,
+      "sha256": "052aba26154fe6bcfe8ad21ee75fb19a908f2fc2dd7a0b21d6545f8799c461f6"
+    }
+  ]
+}

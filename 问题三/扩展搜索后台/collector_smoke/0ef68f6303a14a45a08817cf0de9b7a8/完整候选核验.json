@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "fingerprint_sha256": "test-fingerprint",
+  "candidate_file": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\collector_smoke\\0ef68f6303a14a45a08817cf0de9b7a8\\候选方案_待独立物理核验.json",
+  "verified_file": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\collector_smoke\\0ef68f6303a14a45a08817cf0de9b7a8\\独立核验归档\\已核验方案.json",
+  "file_bindings": {
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\collector_smoke\\0ef68f6303a14a45a08817cf0de9b7a8\\候选方案_待独立物理核验.json": "303ff6f113844d7731b925ae2e3195ed1c26d175af9cb1dca2a9396c8b1502ff",
+    "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\collector_smoke\\0ef68f6303a14a45a08817cf0de9b7a8\\独立核验归档\\已核验方案.json": "303ff6f113844d7731b925ae2e3195ed1c26d175af9cb1dca2a9396c8b1502ff"
+  }
+}

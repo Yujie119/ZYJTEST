@@ -1,0 +1,54 @@
+[
+  {
+    "worker": 2,
+    "archive": 5,
+    "steps": 60,
+    "initialization_attempts": 20,
+    "seconds": 260.74323419999564,
+    "weights": [
+      0.01,
+      0.04,
+      0.8,
+      0.15
+    ]
+  },
+  {
+    "worker": 0,
+    "archive": 2,
+    "steps": 60,
+    "initialization_attempts": 20,
+    "seconds": 263.56770159996813,
+    "weights": [
+      0.01,
+      0.04,
+      0.8,
+      0.15
+    ]
+  },
+  {
+    "worker": 1,
+    "archive": 3,
+    "steps": 60,
+    "initialization_attempts": 20,
+    "seconds": 264.2205717000179,
+    "weights": [
+      0.01,
+      0.04,
+      0.8,
+      0.15
+    ]
+  },
+  {
+    "worker": 3,
+    "archive": 4,
+    "steps": 60,
+    "initialization_attempts": 20,
+    "seconds": 264.4930332999793,
+    "weights": [
+      0.05,
+      0.05,
+      0.7,
+      0.2
+    ]
+  }
+]

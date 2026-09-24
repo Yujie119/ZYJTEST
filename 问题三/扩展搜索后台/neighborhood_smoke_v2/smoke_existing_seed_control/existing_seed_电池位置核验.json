@@ -1,0 +1,2531 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "no plan-level spare battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "route IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000002/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000004/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K001310/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000003/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000001/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000005/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000006/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000007/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000008/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000009/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000010/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000011/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000012/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000014/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000015/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000013/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000017/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000018/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000019/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/known vehicle type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/one compatible installed battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/aircraft type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/no declared spare batteries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/payload contains original boxes only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/payload mass contains no extra battery cargo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/one continuous O01 round trip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/no declared remote departure or return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/finite times and energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/whole-sortie reserve retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/energy and SOC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/declared departure SOC is full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/full charge ready time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "K000016/preparation before takeoff and return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-04/K000002/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-04/K000009/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-04/K000019/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-04/K000004/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-04/K000010/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-04/K000017/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "A-BAT-01/K001310/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-01/K000003/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-01/K000011/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-01/K000016/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-02/K000001/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-02/K000015/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-01/K000005/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-01/K000012/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-03/K000006/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-03/K000013/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-02/K000007/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "B-BAT-02/K000014/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-03/K000008/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "C-BAT-03/K000018/available at O01 and fully charged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U08/single installed battery through nonoverlapping tasks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U05/single installed battery through nonoverlapping tasks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U01/single installed battery through nonoverlapping tasks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U06/single installed battery through nonoverlapping tasks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "U07/single installed battery through nonoverlapping tasks",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 307,
+  "inventory_count": 14,
+  "ledger": [
+    {
+      "battery": "A-BAT-01",
+      "vehicle_type": "A",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "A-BAT-02",
+      "vehicle_type": "A",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "A-BAT-03",
+      "vehicle_type": "A",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "A-BAT-04",
+      "vehicle_type": "A",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "A-BAT-05",
+      "vehicle_type": "A",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "A-BAT-06",
+      "vehicle_type": "A",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-02",
+      "vehicle_type": "B",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-03",
+      "vehicle_type": "B",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-01",
+      "vehicle_type": "C",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-02",
+      "vehicle_type": "C",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-03",
+      "vehicle_type": "C",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "",
+      "uav": "",
+      "event": "initial_ready",
+      "t0": 0.0,
+      "t1": 0.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000002",
+      "uav": "U08",
+      "event": "installed_during_preparation",
+      "t0": 0.0,
+      "t1": 480.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000002",
+      "uav": "U08",
+      "event": "installed_entire_round_trip",
+      "t0": 480.0,
+      "t1": 1561.5526244866223,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.6752524199103676,
+      "visited_nodes": "O01→S006→O01"
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000002",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 1561.5526244866223,
+      "t1": 3098.505714680826,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.6752524199103676,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000004",
+      "uav": "U05",
+      "event": "installed_during_preparation",
+      "t0": 0.0,
+      "t1": 390.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000004",
+      "uav": "U05",
+      "event": "installed_entire_round_trip",
+      "t0": 390.0,
+      "t1": 1869.7476752786915,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.46490869480858654,
+      "visited_nodes": "O01→S014→O01"
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000004",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 1869.7476752786915,
+      "t1": 3463.905937610474,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.46490869480858654,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "A-BAT-01",
+      "vehicle_type": "A",
+      "route_id": "K001310",
+      "uav": "U01",
+      "event": "installed_during_preparation",
+      "t0": 0.0,
+      "t1": 330.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "A-BAT-01",
+      "vehicle_type": "A",
+      "route_id": "K001310",
+      "uav": "U01",
+      "event": "installed_entire_round_trip",
+      "t0": 330.0,
+      "t1": 1190.9069627433817,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.7289905357101161,
+      "visited_nodes": "O01→S001→O01"
+    },
+    {
+      "battery": "A-BAT-01",
+      "vehicle_type": "A",
+      "route_id": "K001310",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 1190.9069627433817,
+      "t1": 2043.2192663202304,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.7289905357101161,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000003",
+      "uav": "U06",
+      "event": "installed_during_preparation",
+      "t0": -0.0,
+      "t1": 390.0,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000003",
+      "uav": "U06",
+      "event": "installed_entire_round_trip",
+      "t0": 390.0,
+      "t1": 1922.826814149187,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.3118389023860828,
+      "visited_nodes": "O01→S012→O01"
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000003",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 1922.826814149187,
+      "t1": 3782.3060500133097,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.3118389023860828,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-02",
+      "vehicle_type": "C",
+      "route_id": "K000001",
+      "uav": "U07",
+      "event": "installed_during_preparation",
+      "t0": 144.39748477010016,
+      "t1": 624.3974847701002,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-02",
+      "vehicle_type": "C",
+      "route_id": "K000001",
+      "uav": "U07",
+      "event": "installed_entire_round_trip",
+      "t0": 624.3974847701002,
+      "t1": 2252.2396507946546,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.2148736989968668,
+      "visited_nodes": "O01→S002→O01"
+    },
+    {
+      "battery": "C-BAT-02",
+      "vehicle_type": "C",
+      "route_id": "K000001",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 2252.2396507946546,
+      "t1": 4786.679969634776,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.2148736989968668,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-01",
+      "vehicle_type": "C",
+      "route_id": "K000005",
+      "uav": "U08",
+      "event": "installed_during_preparation",
+      "t0": 1561.5526244866223,
+      "t1": 2101.5526244866223,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-01",
+      "vehicle_type": "C",
+      "route_id": "K000005",
+      "uav": "U08",
+      "event": "installed_entire_round_trip",
+      "t0": 2101.5526244866223,
+      "t1": 3187.7276703486455,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.6792981792393071,
+      "visited_nodes": "O01→S001→O01"
+    },
+    {
+      "battery": "C-BAT-01",
+      "vehicle_type": "C",
+      "route_id": "K000005",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 3187.7276703486455,
+      "t1": 4715.91494866348,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.6792981792393071,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-03",
+      "vehicle_type": "B",
+      "route_id": "K000006",
+      "uav": "U05",
+      "event": "installed_during_preparation",
+      "t0": 1869.7476752786915,
+      "t1": 2259.7476752786915,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-03",
+      "vehicle_type": "B",
+      "route_id": "K000006",
+      "uav": "U05",
+      "event": "installed_entire_round_trip",
+      "t0": 2259.7476752786915,
+      "t1": 3425.151195058909,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.5441851392448922,
+      "visited_nodes": "O01→S010→O01"
+    },
+    {
+      "battery": "B-BAT-03",
+      "vehicle_type": "B",
+      "route_id": "K000006",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 3425.151195058909,
+      "t1": 4881.896953701095,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.5441851392448922,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-02",
+      "vehicle_type": "B",
+      "route_id": "K000007",
+      "uav": "U06",
+      "event": "installed_during_preparation",
+      "t0": 1922.826814149187,
+      "t1": 2312.826814149187,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-02",
+      "vehicle_type": "B",
+      "route_id": "K000007",
+      "uav": "U06",
+      "event": "installed_entire_round_trip",
+      "t0": 2312.826814149187,
+      "t1": 3433.3384028937116,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.5437840603570343,
+      "visited_nodes": "O01→S013→O01"
+    },
+    {
+      "battery": "B-BAT-02",
+      "vehicle_type": "B",
+      "route_id": "K000007",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 3433.3384028937116,
+      "t1": 4890.779364941518,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.5437840603570343,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-03",
+      "vehicle_type": "C",
+      "route_id": "K000008",
+      "uav": "U07",
+      "event": "installed_during_preparation",
+      "t0": 2252.2396507946546,
+      "t1": 2702.2396507946546,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-03",
+      "vehicle_type": "C",
+      "route_id": "K000008",
+      "uav": "U07",
+      "event": "installed_entire_round_trip",
+      "t0": 2702.2396507946546,
+      "t1": 4159.840349205346,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.5736155447680221,
+      "visited_nodes": "O01→S007→O01"
+    },
+    {
+      "battery": "C-BAT-03",
+      "vehicle_type": "C",
+      "route_id": "K000008",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 4159.840349205346,
+      "t1": 5917.006668874631,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.5736155447680221,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000009",
+      "uav": "U08",
+      "event": "installed_during_preparation",
+      "t0": 3187.7276703486455,
+      "t1": 3637.7276703486455,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000009",
+      "uav": "U08",
+      "event": "installed_entire_round_trip",
+      "t0": 3637.7276703486455,
+      "t1": 5387.439194949478,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.27049171281181383,
+      "visited_nodes": "O01→S008→O01"
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000009",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 5387.439194949478,
+      "t1": 7801.373817190548,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.27049171281181383,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000010",
+      "uav": "U06",
+      "event": "installed_during_preparation",
+      "t0": 3498.8957671228823,
+      "t1": 3858.8957671228823,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000010",
+      "uav": "U06",
+      "event": "installed_entire_round_trip",
+      "t0": 3858.8957671228823,
+      "t1": 5255.61984843064,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.40966719022976017,
+      "visited_nodes": "O01→S002→O01"
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000010",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 5255.61984843064,
+      "t1": 6945.530052032389,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.40966719022976017,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000011",
+      "uav": "U05",
+      "event": "installed_during_preparation",
+      "t0": 3782.30605001331,
+      "t1": 4142.306050013311,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000011",
+      "uav": "U05",
+      "event": "installed_entire_round_trip",
+      "t0": 4142.306050013311,
+      "t1": 4931.4122258395255,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.6948913916721438,
+      "visited_nodes": "O01→S001→O01"
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000011",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 4931.4122258395255,
+      "t1": 6126.9338136078095,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.6948913916721438,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-01",
+      "vehicle_type": "C",
+      "route_id": "K000012",
+      "uav": "U07",
+      "event": "installed_during_preparation",
+      "t0": 4715.91494866348,
+      "t1": 5195.91494866348,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-01",
+      "vehicle_type": "C",
+      "route_id": "K000012",
+      "uav": "U07",
+      "event": "installed_entire_round_trip",
+      "t0": 5195.91494866348,
+      "t1": 7152.09265976274,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.20942545342258811,
+      "visited_nodes": "O01→S003→O01"
+    },
+    {
+      "battery": "C-BAT-01",
+      "vehicle_type": "C",
+      "route_id": "K000012",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 7152.09265976274,
+      "t1": 9698.337510680467,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.20942545342258811,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-02",
+      "vehicle_type": "B",
+      "route_id": "K000014",
+      "uav": "U06",
+      "event": "installed_during_preparation",
+      "t0": 5255.61984843064,
+      "t1": 5645.61984843064,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-02",
+      "vehicle_type": "B",
+      "route_id": "K000014",
+      "uav": "U06",
+      "event": "installed_entire_round_trip",
+      "t0": 5645.61984843064,
+      "t1": 7083.947408604299,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.4231029157263819,
+      "visited_nodes": "O01→S015→O01"
+    },
+    {
+      "battery": "B-BAT-02",
+      "vehicle_type": "B",
+      "route_id": "K000014",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 7083.947408604299,
+      "t1": 8750.569021345236,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.4231029157263819,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-02",
+      "vehicle_type": "C",
+      "route_id": "K000015",
+      "uav": "U08",
+      "event": "installed_during_preparation",
+      "t0": 5387.439194949478,
+      "t1": 5867.439194949478,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-02",
+      "vehicle_type": "C",
+      "route_id": "K000015",
+      "uav": "U08",
+      "event": "installed_entire_round_trip",
+      "t0": 5867.439194949478,
+      "t1": 7688.493913721924,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.23088493096568952,
+      "visited_nodes": "O01→S004→O01"
+    },
+    {
+      "battery": "C-BAT-02",
+      "vehicle_type": "C",
+      "route_id": "K000015",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 7688.493913721924,
+      "t1": 10188.243229962929,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.23088493096568952,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-03",
+      "vehicle_type": "B",
+      "route_id": "K000013",
+      "uav": "U05",
+      "event": "installed_during_preparation",
+      "t0": 5774.985890338107,
+      "t1": 6164.985890338107,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-03",
+      "vehicle_type": "B",
+      "route_id": "K000013",
+      "uav": "U05",
+      "event": "installed_entire_round_trip",
+      "t0": 6164.985890338107,
+      "t1": 7333.448754672465,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.4759275080665595,
+      "visited_nodes": "O01→S009→O01"
+    },
+    {
+      "battery": "B-BAT-03",
+      "vehicle_type": "B",
+      "route_id": "K000013",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 7333.448754672465,
+      "t1": 8908.507740690427,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.4759275080665595,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000017",
+      "uav": "U06",
+      "event": "installed_during_preparation",
+      "t0": 7083.947408604299,
+      "t1": 7443.947408604299,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000017",
+      "uav": "U06",
+      "event": "installed_entire_round_trip",
+      "t0": 7443.947408604299,
+      "t1": 9104.557073642362,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.3939203787357568,
+      "visited_nodes": "O01→S003→O01"
+    },
+    {
+      "battery": "B-BAT-04",
+      "vehicle_type": "B",
+      "route_id": "K000017",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 9104.557073642362,
+      "t1": 10821.761750500384,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.3939203787357568,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-03",
+      "vehicle_type": "C",
+      "route_id": "K000018",
+      "uav": "U07",
+      "event": "installed_during_preparation",
+      "t0": 7152.09265976274,
+      "t1": 7632.09265976274,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-03",
+      "vehicle_type": "C",
+      "route_id": "K000018",
+      "uav": "U07",
+      "event": "installed_entire_round_trip",
+      "t0": 7632.09265976274,
+      "t1": 9029.281375254212,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.47222720630098025,
+      "visited_nodes": "O01→S005→O01"
+    },
+    {
+      "battery": "C-BAT-03",
+      "vehicle_type": "C",
+      "route_id": "K000018",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 9029.281375254212,
+      "t1": 11006.122428268754,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.47222720630098025,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000019",
+      "uav": "U08",
+      "event": "installed_during_preparation",
+      "t0": 7801.37381719055,
+      "t1": 8221.37381719055,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000019",
+      "uav": "U08",
+      "event": "installed_entire_round_trip",
+      "t0": 8221.37381719055,
+      "t1": 9163.548863052572,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.7148152154644616,
+      "visited_nodes": "O01→S001→O01"
+    },
+    {
+      "battery": "C-BAT-04",
+      "vehicle_type": "C",
+      "route_id": "K000019",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 9163.548863052572,
+      "t1": 10614.782562879573,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.7148152154644616,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000016",
+      "uav": "U05",
+      "event": "installed_during_preparation",
+      "t0": 7976.729672266098,
+      "t1": 8366.729672266098,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 1.0
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000016",
+      "uav": "U05",
+      "event": "installed_entire_round_trip",
+      "t0": 8366.729672266098,
+      "t1": 9165.154435126618,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 1.0,
+      "soc_after": 0.7315092041471272,
+      "visited_nodes": "O01→S011→O01"
+    },
+    {
+      "battery": "B-BAT-01",
+      "vehicle_type": "B",
+      "route_id": "K000016",
+      "uav": "",
+      "event": "detached_charging",
+      "t0": 9165.154435126618,
+      "t1": 10297.205147938264,
+      "origin": "O01",
+      "destination": "O01",
+      "soc_before": 0.7315092041471272,
+      "soc_after": 1.0
+    }
+  ],
+  "scope": "existing transport plans with no en-route battery change; one working battery travels with each UAV",
+  "expert_rule": "no carried spare; swaps may occur where batteries physically exist; all initial shared batteries at O01",
+  "remote_swaps_searched": false,
+  "original_global_optimality_claim": false,
+  "dependency": "Segment geometry/energy and named boxes also require raw arithmetic audit and full DEM verification."
+}

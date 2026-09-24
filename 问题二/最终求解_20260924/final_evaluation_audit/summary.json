@@ -1,0 +1,222 @@
+{
+  "status": "PASS_WITH_SCOPE_WARNINGS",
+  "issues": [
+    "WARN: finalize includes OLD/联合非支配档案.json in addition to combined_archive.json; this broadens the source archive and should remain explicit in the release record."
+  ],
+  "scope": {
+    "candidate_count": 28216,
+    "candidate_digest": "96c73b04ebaeb105368e4298d3bd871ceab92c6734e580a835a9988780dc4058",
+    "old_reported_library_hash": "96c73b04ebaeb105368e4298d3bd871ceab92c6734e580a835a9988780dc4058",
+    "old_reported_base_hashes": [
+      "96c73b04ebaeb105368e4298d3bd871ceab92c6734e580a835a9988780dc4058"
+    ],
+    "frozen_scale": [
+      15.0,
+      27.77981480435046,
+      1596.4547661131937,
+      459.283422915773
+    ],
+    "source_mentions": {
+      "combined_archive": true,
+      "old_archive": true,
+      "cover_archive": false
+    },
+    "finalize_sha256": "232ef2581758d58c7bb1e76e81552f609f14fbaea674744b2a995c79addb2508"
+  },
+  "final_objective": [
+    22,
+    65.51851671683666,
+    6206.344443443169,
+    0.0
+  ],
+  "archive_count": 14,
+  "archive_route_count": 135,
+  "route_identity_errors": [],
+  "regret_errors": [],
+  "archive_dominance_pairs": [],
+  "selection_matches": true,
+  "raw_final": {
+    "all": true,
+    "checks_count": 373,
+    "objective": [
+      22,
+      65.51851671683666,
+      6206.344443443169,
+      0.0
+    ]
+  },
+  "raw_archive": [
+    {
+      "index": 0,
+      "all": true,
+      "checks_count": 373,
+      "objective": [
+        22,
+        65.51851671683666,
+        6206.344443443169,
+        0.0
+      ]
+    },
+    {
+      "index": 1,
+      "all": true,
+      "checks_count": 381,
+      "objective": [
+        23,
+        68.55440900834468,
+        6139.933117440382,
+        0.0
+      ]
+    },
+    {
+      "index": 2,
+      "all": true,
+      "checks_count": 372,
+      "objective": [
+        22,
+        68.79617614397938,
+        6199.535596399756,
+        0.0
+      ]
+    },
+    {
+      "index": 3,
+      "all": true,
+      "checks_count": 372,
+      "objective": [
+        22,
+        64.6002294794056,
+        6418.07219405786,
+        21.605817331758193
+      ]
+    },
+    {
+      "index": 4,
+      "all": true,
+      "checks_count": 363,
+      "objective": [
+        21,
+        70.01094900157256,
+        6304.798859330515,
+        0.0
+      ]
+    },
+    {
+      "index": 5,
+      "all": true,
+      "checks_count": 390,
+      "objective": [
+        24,
+        66.69553290212605,
+        6168.102180600398,
+        128.9554581278687
+      ]
+    },
+    {
+      "index": 6,
+      "all": true,
+      "checks_count": 354,
+      "objective": [
+        20,
+        65.4625120826029,
+        6881.6558486674385,
+        0.0
+      ]
+    },
+    {
+      "index": 7,
+      "all": true,
+      "checks_count": 374,
+      "objective": [
+        22,
+        64.3922692668716,
+        8337.140388078022,
+        24.53638186114161
+      ]
+    },
+    {
+      "index": 8,
+      "all": true,
+      "checks_count": 375,
+      "objective": [
+        22,
+        64.56560504372038,
+        8427.071898766839,
+        0.0
+      ]
+    },
+    {
+      "index": 9,
+      "all": true,
+      "checks_count": 383,
+      "objective": [
+        23,
+        63.26021230769617,
+        8998.557467501163,
+        61.761400381454024
+      ]
+    },
+    {
+      "index": 10,
+      "all": true,
+      "checks_count": 367,
+      "objective": [
+        21,
+        63.23091055897849,
+        8813.230777155284,
+        236.4597173122505
+      ]
+    },
+    {
+      "index": 11,
+      "all": true,
+      "checks_count": 369,
+      "objective": [
+        21,
+        62.72052529403814,
+        9562.055517303757,
+        191.67618168494172
+      ]
+    },
+    {
+      "index": 12,
+      "all": true,
+      "checks_count": 362,
+      "objective": [
+        20,
+        60.9175261527664,
+        9163.54886305257,
+        427.8814455627924
+      ]
+    },
+    {
+      "index": 13,
+      "all": true,
+      "checks_count": 364,
+      "objective": [
+        20,
+        60.70497216913841,
+        9163.54886305257,
+        472.6704096909
+      ]
+    }
+  ],
+  "lower_bounds_reused_same_library": true,
+  "lower_bound_scope": "frozen expanded finite library only; not unrestricted full-route problem",
+  "upper_bounds_recomputed": [
+    1.7081848941002655,
+    2.291321783586346,
+    2.061958941074345,
+    1.5744108471261864,
+    2.1575477366122664,
+    1.3450480046141853,
+    2.5113217835863457,
+    1.6988220515882646,
+    2.281958941074345,
+    1.7944108471261864,
+    1.553511358012466,
+    2.1481848941002655
+  ],
+  "final_source_archive_hash": "349dac3a22ddff4817215d4544db94d5eee51da55d9abbdffcf066891e3311f7",
+  "final_plan_hash": "a2f8a50534fb39ebb06d80fca82a3432585fdfbb19dd4a66b75ee74fca82e54b"
+}

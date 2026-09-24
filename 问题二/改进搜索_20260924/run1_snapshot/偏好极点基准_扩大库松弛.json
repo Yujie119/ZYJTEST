@@ -1,0 +1,230 @@
+[
+  {
+    "weight": [
+      0.09999999999999998,
+      0.25,
+      0.25,
+      0.4
+    ],
+    "coefficients": [
+      0.006666666666666665,
+      0.008999340051786405,
+      0.00015659698308187093,
+      0.0008709219188896246
+    ],
+    "lower": 1.595955213329352,
+    "upper": 2.0032720825298047,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.09999999999999998,
+      0.25,
+      0.4,
+      0.25
+    ],
+    "coefficients": [
+      0.006666666666666665,
+      0.008999340051786405,
+      0.0002505551729309935,
+      0.0005443261993060154
+    ],
+    "lower": 2.1022706979295394,
+    "upper": 2.681842199303393,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.09999999999999998,
+      0.4,
+      0.25,
+      0.25
+    ],
+    "coefficients": [
+      0.006666666666666665,
+      0.014398944082858248,
+      0.00015659698308187093,
+      0.0005443261993060154
+    ],
+    "lower": 1.9503479910373849,
+    "upper": 2.404260997446214,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.25,
+      0.09999999999999998,
+      0.25,
+      0.4
+    ],
+    "coefficients": [
+      0.016666666666666666,
+      0.0035997360207145612,
+      0.00015659698308187093,
+      0.0008709219188896246
+    ],
+    "lower": 1.4675437736704462,
+    "upper": 1.8682819959945385,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.25,
+      0.09999999999999998,
+      0.4,
+      0.25
+    ],
+    "coefficients": [
+      0.016666666666666666,
+      0.0035997360207145612,
+      0.0002505551729309935,
+      0.0005443261993060154
+    ],
+    "lower": 1.9770014204949447,
+    "upper": 2.5468521127681267,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.25,
+      0.25,
+      0.09999999999999998,
+      0.4
+    ],
+    "coefficients": [
+      0.016666666666666666,
+      0.008999340051786405,
+      6.263879323274836e-05,
+      0.0008709219188896246
+    ],
+    "lower": 1.2989420868614314,
+    "upper": 1.5114203652841063,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.25,
+      0.25,
+      0.4,
+      0.09999999999999998
+    ],
+    "coefficients": [
+      0.016666666666666666,
+      0.008999340051786405,
+      0.0002505551729309935,
+      0.0002177304797224061
+    ],
+    "lower": 2.335210556722659,
+    "upper": 2.9428147790813917,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.25,
+      0.4,
+      0.09999999999999998,
+      0.25
+    ],
+    "coefficients": [
+      0.016666666666666666,
+      0.014398944082858248,
+      6.263879323274836e-05,
+      0.0005443261993060154
+    ],
+    "lower": 1.6082037178677804,
+    "upper": 1.8871715214521525,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.25,
+      0.4,
+      0.25,
+      0.09999999999999998
+    ],
+    "coefficients": [
+      0.016666666666666666,
+      0.014398944082858248,
+      0.00015659698308187093,
+      0.0002177304797224061
+    ],
+    "lower": 2.1849446034935895,
+    "upper": 2.663051159171123,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.4,
+      0.09999999999999998,
+      0.25,
+      0.25
+    ],
+    "coefficients": [
+      0.02666666666666667,
+      0.0035997360207145612,
+      0.00015659698308187093,
+      0.0005443261993060154
+    ],
+    "lower": 1.6931030520498784,
+    "upper": 2.133421866622103,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.4,
+      0.25,
+      0.09999999999999998,
+      0.25
+    ],
+    "coefficients": [
+      0.02666666666666667,
+      0.008999340051786405,
+      6.263879323274836e-05,
+      0.0005443261993060154
+    ],
+    "lower": 1.4696286272538772,
+    "upper": 1.731420365284106,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  },
+  {
+    "weight": [
+      0.4,
+      0.25,
+      0.25,
+      0.09999999999999998
+    ],
+    "coefficients": [
+      0.02666666666666667,
+      0.008999340051786405,
+      0.00015659698308187093,
+      0.0002177304797224061
+    ],
+    "lower": 2.0534059097388258,
+    "upper": 2.50917302279015,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scope": "expanded library box-cover and per-type UAV workload relaxation; L relaxed to zero",
+    "library_coefficient_sha256": "cf371de5e8f4c700916e12dd27a7264cef9786a36c946194843f32860070472e"
+  }
+]

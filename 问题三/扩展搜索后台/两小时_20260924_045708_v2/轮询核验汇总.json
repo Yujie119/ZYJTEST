@@ -1,0 +1,181 @@
+{
+  "updated_utc": "2026-09-23T22:59:32.520530+00:00",
+  "coordinator_status": "searches_finished",
+  "elapsed_s": 7087.71769770002,
+  "remaining_s": 112.28230069996789,
+  "jobs": [
+    {
+      "name": "full_C",
+      "kind": "full_library",
+      "pid": 36216,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\全库_C",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.963292+00:00",
+      "returncode": 2,
+      "ended_utc": "2026-09-23T22:55:38.659864+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_E",
+      "kind": "full_library",
+      "pid": 12300,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\全库_E",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.970633+00:00",
+      "returncode": 2,
+      "ended_utc": "2026-09-23T22:55:38.659890+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_L",
+      "kind": "full_library",
+      "pid": 40460,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\全库_L",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.978161+00:00",
+      "returncode": 2,
+      "ended_utc": "2026-09-23T22:55:38.659894+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "full_N",
+      "kind": "full_library",
+      "pid": 24932,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\全库_N",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.986544+00:00",
+      "returncode": 2,
+      "ended_utc": "2026-09-23T22:55:38.659897+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "neighborhood_2026092401",
+      "kind": "neighborhood",
+      "pid": 8940,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:30.993565+00:00",
+      "returncode": 0,
+      "ended_utc": "2026-09-23T22:55:38.659899+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    },
+    {
+      "name": "neighborhood_2026092402",
+      "kind": "neighborhood",
+      "pid": 41384,
+      "folder": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092402",
+      "status": "finished",
+      "started_utc": "2026-09-23T20:57:31.001848+00:00",
+      "returncode": 0,
+      "ended_utc": "2026-09-23T22:55:38.659902+00:00",
+      "interpretation": "Read solver JSON and independent verifier outputs; exit alone is not a certificate."
+    }
+  ],
+  "fingerprint_sha256": "736ff7435fbd2358b36a08d9bab360404ed4599ea0afd4bacfe1f6b444685c5c",
+  "verification_fingerprint": {
+    "input_files": {
+      "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\调度中心与服务区.xlsx": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38",
+      "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\通信链路参数.xlsx": "1860d153199e7ae460ba36e83b673374e640e19de91ea167f2877271001f5f81",
+      "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\物资需求与配送时限.xlsx": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a",
+      "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\运输无人机数据.xlsx": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb",
+      "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\中继无人机数据.xlsx": "be52643ff29419233e6a141dca03a04160a8af551cab36d8c49b51bb836bea04",
+      "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\镇龙乡地理空间数据\\镇龙乡及周边地理数据\\数字高程模型数据（DEM）\\镇龙乡及周边30米DEM.mat": "c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\expanded_routes_for_solver.json": "47c7476c91439179aa0c850c3d49c169d904a0a3280bb87b0bf3385a94d484fb",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\缓存\\中继候选位置.json": "f8709bf8916ae15135ca54c3644cf966903357dce3a6132629866aa843467952",
+      "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\缓存\\区间几何.json": "b1c9e579f0a9265fb85d76b0b6bd76231052310ff12bfc89a64d6eed458c4908"
+    },
+    "scripts": {
+      "check_q3_background.py": "9d13827ba0d69a6c653b2f540d7460ff293face54178adf5f7f7df68d978b601",
+      "verify_q3.py": "456bc105874d97f0e69017b0c242178a4b13bc0274363ca9ffdceded1283e020",
+      "q3_inputs.py": "3925b2593c4c6d6b3fb4c4f94e0d04bb7461f289bdf41a4b2789b8c6722188a9",
+      "q3_common.py": "66ddbe5aeee6e5098d6c57c9210dc5b311cd4f7a1225f3f31ca09e96750c8865",
+      "q3_direct_milp.py": "18865ec314eda39c40d92a977afdce1bf5276957aa668a5536f3b3604e414f2e",
+      "solve_q3_global.py": "560dd25c7727ca1aa15bf2082c4a48283bdbfcb9ec37e5307a1c66804306fbc5",
+      "search_q3_neighborhood_worker.py": "d913e7156f35f159cc4bb1686d04353e5d29489826c73f04e3cc2cb0a56c3a58",
+      "审查资料/audit_source_and_result.py": "d1145572a2c3287c60d9a7b1747587769a21bf350101bf7a884adfae360942f7",
+      "审查资料/battery_location_audit.py": "800d92b3e7dabf5ffd40b90a4c2936e4acf08679ae80ae90338cca1447e3c1ca"
+    },
+    "source_sha256": "47c7476c91439179aa0c850c3d49c169d904a0a3280bb87b0bf3385a94d484fb",
+    "sha256": "736ff7435fbd2358b36a08d9bab360404ed4599ea0afd4bacfe1f6b444685c5c"
+  },
+  "verified_candidates": [],
+  "verified_count": 0,
+  "dominating_presearch_reference": [],
+  "newly_checked": [
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00008_C\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "d425290e48d8051c889b987524fd59ab5b6efeac6b8d1c35607a91664c998e36",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00010_L\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "af27c1e7605db961ca3037334f7757d72b944c8ef5b65cd6bc32cd132d93e297",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00020_C\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "8fc510a49f6dc8553a8ab9453247dc0e4df5327470df304c2e1a8b9282e35a76",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00034_L\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "f9448f20127ef48b5ec965e7cce3d4f6932f0f817dfcaf541b67615dd45392b7",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00055_N\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "b5a3b00358811908c3b544dd0c0b428c77067ee17a21bfea32743b367c54eccc",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092401\\round_00061_E\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "5660bf05ff5c505a51af0c06acdd4bd047e39aa12c549b4fffb1f333215baae0",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092402\\round_00015_N\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "e5585155b4be56f8aa2679d7e4e74dea4bf2bd9481a7d69b8b4629d5b1287259",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092402\\round_00020_C\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "3e5dc692b27282129566ec8d3e913ba2f3c080fe0a445d9fa9bf9ce281c10b81",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092402\\round_00022_L\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "573064a191198d66a31c3ff13f52a5e89c87227939c581af4ec4913e46ceeb98",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092402\\round_00031_N\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "adc5cff169861f4d346158e68a7417bb282e161c778b26e3c3e81a63dc468f75",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\扩展搜索后台\\两小时_20260924_045708_v2\\邻域_2026092402\\round_00051_N\\候选方案_待独立物理核验.json",
+      "status": "ERROR",
+      "candidate_sha256": "ff44cbf23f2cfac1efa7929e323af862a6c51579aefa48803dac33b70a1b9bc1",
+      "error": "ValueError: Nonfinite value cannot enter verified output"
+    }
+  ],
+  "reference_file": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\搜索精修\\扩展固定结构精修_v1\\official\\已核验方案.json",
+  "reference_objective": [
+    24,
+    65.11205028199753,
+    9165.154435126618,
+    465.2583642491526
+  ],
+  "reference_comparison_scope": "Descriptive four-objective comparison to external historical reference; not a same-model bound/gap certificate.",
+  "limitation": "Feasibility and improvements in the O01-only strategy; no original global optimality claim."
+}

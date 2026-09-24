@@ -1,0 +1,3199 @@
+{
+  "candidate_count": 24,
+  "input_fingerprints": [
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\子问题二\\最终方案.json",
+      "sha256": "613b8fd16372791f36e27f6d6b4179cdd01431d5d29087e557bd907794991a7d"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\问题三\\缓存\\中继候选位置.json",
+      "sha256": "f8709bf8916ae15135ca54c3644cf966903357dce3a6132629866aa843467952"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\镇龙乡地理空间数据\\镇龙乡及周边地理数据\\数字高程模型数据（DEM）\\镇龙乡及周边30米DEM.mat",
+      "sha256": "c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\中继无人机数据.xlsx",
+      "sha256": "be52643ff29419233e6a141dca03a04160a8af551cab36d8c49b51bb836bea04"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\通信链路参数.xlsx",
+      "sha256": "1860d153199e7ae460ba36e83b673374e640e19de91ea167f2877271001f5f81"
+    },
+    {
+      "path": "D:\\研究生\\比赛\\数学建模\\2026\\D题\\数据\\无人机应急物资运输基础数据\\调度中心与服务区.xlsx",
+      "sha256": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38"
+    }
+  ],
+  "interpretation": "A: raised cruise; B: H0 cruise with signed endpoint vertical phases; C: H0 cruise and both endpoints at or below H0",
+  "thresholds_db": {
+    "direct": 122.0,
+    "access": 116.0,
+    "backhaul": 126.0
+  },
+  "maximum_A_B_differences_all_candidates": {
+    "out_s": 0.0,
+    "back_s": 5.684341886080802e-14,
+    "climb_roundtrip_m": 0.0,
+    "descent_roundtrip_m": 0.0,
+    "travel_energy_kwh": 0.0
+  },
+  "all_candidates": [
+    {
+      "qid": "Q001",
+      "xyz_m": [
+        -1200.0,
+        3200.0,
+        548.7672882080078
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 312.93182373046875,
+      "current_raise_m": 235.83546447753906,
+      "A": {
+        "horizontal_altitude_m": 548.7672882080078,
+        "horizontal_oneway_m": 3417.6014981270123,
+        "out_s": 333.1069219271361,
+        "back_s": 368.19586261113676,
+        "climb_roundtrip_m": 421.0672882080078,
+        "descent_roundtrip_m": 421.0672882080078,
+        "horizontal_energy_kwh": 0.14556450825355793,
+        "climb_energy_kwh": 0.03745013398419487,
+        "travel_energy_kwh": 0.1830146422377528,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 548.7672882080078,
+            "climb_m": 421.0672882080078,
+            "descent_m": 0.0,
+            "seconds": 105.26682205200196
+          },
+          {
+            "from_m": 548.7672882080078,
+            "to_m": 548.7672882080078,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 548.7672882080078,
+            "to_m": 548.7672882080078,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 548.7672882080078,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 421.0672882080078,
+            "seconds": 140.35576273600262
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 312.93182373046875,
+        "horizontal_oneway_m": 3417.6014981270123,
+        "out_s": 333.1069219271361,
+        "back_s": 368.1958626111367,
+        "climb_roundtrip_m": 421.0672882080078,
+        "descent_roundtrip_m": 421.0672882080078,
+        "horizontal_energy_kwh": 0.14556450825355793,
+        "climb_energy_kwh": 0.03745013398419487,
+        "travel_energy_kwh": 0.1830146422377528,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 312.93182373046875,
+            "climb_m": 185.23182373046876,
+            "descent_m": 0.0,
+            "seconds": 46.30795593261719
+          },
+          {
+            "from_m": 312.93182373046875,
+            "to_m": 548.7672882080078,
+            "climb_m": 235.83546447753906,
+            "descent_m": 0.0,
+            "seconds": 58.958866119384766
+          },
+          {
+            "from_m": 548.7672882080078,
+            "to_m": 312.93182373046875,
+            "climb_m": 0.0,
+            "descent_m": 235.83546447753906,
+            "seconds": 78.61182149251302
+          },
+          {
+            "from_m": 312.93182373046875,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 185.23182373046876,
+            "seconds": 61.74394124348959
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 5.684341886080802e-14,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q002",
+      "xyz_m": [
+        -2400.0,
+        4000.0,
+        717.4828186035156
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 474.0599365234375,
+      "current_raise_m": 243.42288208007812,
+      "A": {
+        "horizontal_altitude_m": 717.4828186035156,
+        "horizontal_oneway_m": 4664.76151587624,
+        "out_s": 458.4298057092949,
+        "back_s": 507.5783739262545,
+        "climb_roundtrip_m": 589.7828186035156,
+        "descent_roundtrip_m": 589.7828186035156,
+        "horizontal_energy_kwh": 0.19868428678732133,
+        "climb_energy_kwh": 0.052455857286559215,
+        "travel_energy_kwh": 0.2511401440738805,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 717.4828186035156,
+            "climb_m": 589.7828186035156,
+            "descent_m": 0.0,
+            "seconds": 147.4457046508789
+          },
+          {
+            "from_m": 717.4828186035156,
+            "to_m": 717.4828186035156,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 717.4828186035156,
+            "to_m": 717.4828186035156,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 717.4828186035156,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 589.7828186035156,
+            "seconds": 196.59427286783853
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 474.0599365234375,
+        "horizontal_oneway_m": 4664.76151587624,
+        "out_s": 458.4298057092949,
+        "back_s": 507.5783739262545,
+        "climb_roundtrip_m": 589.7828186035156,
+        "descent_roundtrip_m": 589.7828186035156,
+        "horizontal_energy_kwh": 0.19868428678732133,
+        "climb_energy_kwh": 0.052455857286559215,
+        "travel_energy_kwh": 0.2511401440738805,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 474.0599365234375,
+            "climb_m": 346.3599365234375,
+            "descent_m": 0.0,
+            "seconds": 86.58998413085938
+          },
+          {
+            "from_m": 474.0599365234375,
+            "to_m": 717.4828186035156,
+            "climb_m": 243.42288208007812,
+            "descent_m": 0.0,
+            "seconds": 60.85572052001953
+          },
+          {
+            "from_m": 717.4828186035156,
+            "to_m": 474.0599365234375,
+            "climb_m": 0.0,
+            "descent_m": 243.42288208007812,
+            "seconds": 81.14096069335938
+          },
+          {
+            "from_m": 474.0599365234375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 346.3599365234375,
+            "seconds": 115.45331217447917
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q003",
+      "xyz_m": [
+        1600.0,
+        1600.0,
+        592.2327880859375
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 342.2327880859375,
+      "current_raise_m": 250.0,
+      "A": {
+        "horizontal_altitude_m": 592.2327880859375,
+        "horizontal_oneway_m": 2262.741699796952,
+        "out_s": 266.9826436746145,
+        "back_s": 305.69370934844267,
+        "climb_roundtrip_m": 464.5327880859375,
+        "descent_roundtrip_m": 464.5327880859375,
+        "horizontal_energy_kwh": 0.09637603536172203,
+        "climb_energy_kwh": 0.04131599780146281,
+        "travel_energy_kwh": 0.13769203316318485,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 592.2327880859375,
+            "climb_m": 464.5327880859375,
+            "descent_m": 0.0,
+            "seconds": 116.13319702148438
+          },
+          {
+            "from_m": 592.2327880859375,
+            "to_m": 592.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 592.2327880859375,
+            "to_m": 592.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 592.2327880859375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 464.5327880859375,
+            "seconds": 154.8442626953125
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 342.2327880859375,
+        "horizontal_oneway_m": 2262.741699796952,
+        "out_s": 266.9826436746145,
+        "back_s": 305.69370934844267,
+        "climb_roundtrip_m": 464.5327880859375,
+        "descent_roundtrip_m": 464.5327880859375,
+        "horizontal_energy_kwh": 0.09637603536172203,
+        "climb_energy_kwh": 0.04131599780146281,
+        "travel_energy_kwh": 0.13769203316318485,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 342.2327880859375,
+            "climb_m": 214.5327880859375,
+            "descent_m": 0.0,
+            "seconds": 53.63319702148438
+          },
+          {
+            "from_m": 342.2327880859375,
+            "to_m": 592.2327880859375,
+            "climb_m": 250.0,
+            "descent_m": 0.0,
+            "seconds": 62.5
+          },
+          {
+            "from_m": 592.2327880859375,
+            "to_m": 342.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 250.0,
+            "seconds": 83.33333333333333
+          },
+          {
+            "from_m": 342.2327880859375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 214.5327880859375,
+            "seconds": 71.51092936197917
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q004",
+      "xyz_m": [
+        1200.0,
+        6000.0,
+        607.762939453125
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 399.8394470214844,
+      "current_raise_m": 207.92349243164062,
+      "A": {
+        "horizontal_altitude_m": 607.762939453125,
+        "horizontal_oneway_m": 6118.823416311342,
+        "out_s": 527.9372959507041,
+        "back_s": 567.9425409051312,
+        "climb_roundtrip_m": 480.062939453125,
+        "descent_roundtrip_m": 480.062939453125,
+        "horizontal_energy_kwh": 0.26061655291696456,
+        "climb_energy_kwh": 0.04269726456281874,
+        "travel_energy_kwh": 0.3033138174797833,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 607.762939453125,
+            "climb_m": 480.062939453125,
+            "descent_m": 0.0,
+            "seconds": 120.01573486328125
+          },
+          {
+            "from_m": 607.762939453125,
+            "to_m": 607.762939453125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 607.762939453125,
+            "to_m": 607.762939453125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 607.762939453125,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 480.062939453125,
+            "seconds": 160.02097981770834
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 399.8394470214844,
+        "horizontal_oneway_m": 6118.823416311342,
+        "out_s": 527.9372959507041,
+        "back_s": 567.9425409051312,
+        "climb_roundtrip_m": 480.062939453125,
+        "descent_roundtrip_m": 480.062939453125,
+        "horizontal_energy_kwh": 0.26061655291696456,
+        "climb_energy_kwh": 0.04269726456281874,
+        "travel_energy_kwh": 0.3033138174797833,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 399.8394470214844,
+            "climb_m": 272.1394470214844,
+            "descent_m": 0.0,
+            "seconds": 68.0348617553711
+          },
+          {
+            "from_m": 399.8394470214844,
+            "to_m": 607.762939453125,
+            "climb_m": 207.92349243164062,
+            "descent_m": 0.0,
+            "seconds": 51.980873107910156
+          },
+          {
+            "from_m": 607.762939453125,
+            "to_m": 399.8394470214844,
+            "climb_m": 0.0,
+            "descent_m": 207.92349243164062,
+            "seconds": 69.30783081054688
+          },
+          {
+            "from_m": 399.8394470214844,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 272.1394470214844,
+            "seconds": 90.71314900716146
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q005",
+      "xyz_m": [
+        4800.0,
+        2000.0,
+        687.9931945800781
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 448.9312438964844,
+      "current_raise_m": 239.06195068359375,
+      "A": {
+        "horizontal_altitude_m": 687.9931945800781,
+        "horizontal_oneway_m": 5200.0,
+        "out_s": 486.7399653116862,
+        "back_s": 533.431064860026,
+        "climb_roundtrip_m": 560.2931945800781,
+        "descent_roundtrip_m": 560.2931945800781,
+        "horizontal_energy_kwh": 0.2214814814814815,
+        "climb_energy_kwh": 0.04983302145544688,
+        "travel_energy_kwh": 0.2713145029369284,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 687.9931945800781,
+            "climb_m": 560.2931945800781,
+            "descent_m": 0.0,
+            "seconds": 140.07329864501952
+          },
+          {
+            "from_m": 687.9931945800781,
+            "to_m": 687.9931945800781,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 687.9931945800781,
+            "to_m": 687.9931945800781,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 687.9931945800781,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 560.2931945800781,
+            "seconds": 186.76439819335937
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 448.9312438964844,
+        "horizontal_oneway_m": 5200.0,
+        "out_s": 486.7399653116862,
+        "back_s": 533.431064860026,
+        "climb_roundtrip_m": 560.2931945800781,
+        "descent_roundtrip_m": 560.2931945800781,
+        "horizontal_energy_kwh": 0.2214814814814815,
+        "climb_energy_kwh": 0.04983302145544688,
+        "travel_energy_kwh": 0.2713145029369284,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 448.9312438964844,
+            "climb_m": 321.2312438964844,
+            "descent_m": 0.0,
+            "seconds": 80.3078109741211
+          },
+          {
+            "from_m": 448.9312438964844,
+            "to_m": 687.9931945800781,
+            "climb_m": 239.06195068359375,
+            "descent_m": 0.0,
+            "seconds": 59.76548767089844
+          },
+          {
+            "from_m": 687.9931945800781,
+            "to_m": 448.9312438964844,
+            "climb_m": 0.0,
+            "descent_m": 239.06195068359375,
+            "seconds": 79.68731689453125
+          },
+          {
+            "from_m": 448.9312438964844,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 321.2312438964844,
+            "seconds": 107.07708129882813
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q006",
+      "xyz_m": [
+        -2800.0,
+        4800.0,
+        856.9552001953125
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 606.9552001953125,
+      "current_raise_m": 250.0,
+      "A": {
+        "horizontal_altitude_m": 856.9552001953125,
+        "horizontal_oneway_m": 5556.977595779922,
+        "out_s": 552.7789731008229,
+        "back_s": 613.5502397837656,
+        "climb_roundtrip_m": 729.2552001953125,
+        "descent_roundtrip_m": 729.2552001953125,
+        "horizontal_energy_kwh": 0.23668608278321887,
+        "climb_energy_kwh": 0.06486066650348239,
+        "travel_energy_kwh": 0.3015467492867013,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 856.9552001953125,
+            "climb_m": 729.2552001953125,
+            "descent_m": 0.0,
+            "seconds": 182.3138000488281
+          },
+          {
+            "from_m": 856.9552001953125,
+            "to_m": 856.9552001953125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 856.9552001953125,
+            "to_m": 856.9552001953125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 856.9552001953125,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 729.2552001953125,
+            "seconds": 243.0850667317708
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 606.9552001953125,
+        "horizontal_oneway_m": 5556.977595779922,
+        "out_s": 552.7789731008229,
+        "back_s": 613.5502397837656,
+        "climb_roundtrip_m": 729.2552001953125,
+        "descent_roundtrip_m": 729.2552001953125,
+        "horizontal_energy_kwh": 0.23668608278321887,
+        "climb_energy_kwh": 0.06486066650348239,
+        "travel_energy_kwh": 0.3015467492867013,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 606.9552001953125,
+            "climb_m": 479.2552001953125,
+            "descent_m": 0.0,
+            "seconds": 119.81380004882813
+          },
+          {
+            "from_m": 606.9552001953125,
+            "to_m": 856.9552001953125,
+            "climb_m": 250.0,
+            "descent_m": 0.0,
+            "seconds": 62.5
+          },
+          {
+            "from_m": 856.9552001953125,
+            "to_m": 606.9552001953125,
+            "climb_m": 0.0,
+            "descent_m": 250.0,
+            "seconds": 83.33333333333333
+          },
+          {
+            "from_m": 606.9552001953125,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 479.2552001953125,
+            "seconds": 159.7517333984375
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q007",
+      "xyz_m": [
+        -1200.0,
+        4000.0,
+        611.5882568359375
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 371.7632141113281,
+      "current_raise_m": 239.82504272460938,
+      "A": {
+        "horizontal_altitude_m": 611.5882568359375,
+        "horizontal_oneway_m": 4176.12260356422,
+        "out_s": 399.3802377799324,
+        "back_s": 439.7042591829272,
+        "climb_roundtrip_m": 483.8882568359375,
+        "descent_roundtrip_m": 483.8882568359375,
+        "horizontal_energy_kwh": 0.17787188867032785,
+        "climb_energy_kwh": 0.04303749200990466,
+        "travel_energy_kwh": 0.22090938068023253,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 611.5882568359375,
+            "climb_m": 483.8882568359375,
+            "descent_m": 0.0,
+            "seconds": 120.97206420898438
+          },
+          {
+            "from_m": 611.5882568359375,
+            "to_m": 611.5882568359375,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 611.5882568359375,
+            "to_m": 611.5882568359375,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 611.5882568359375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 483.8882568359375,
+            "seconds": 161.29608561197918
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 371.7632141113281,
+        "horizontal_oneway_m": 4176.12260356422,
+        "out_s": 399.3802377799324,
+        "back_s": 439.70425918292716,
+        "climb_roundtrip_m": 483.8882568359375,
+        "descent_roundtrip_m": 483.8882568359375,
+        "horizontal_energy_kwh": 0.17787188867032785,
+        "climb_energy_kwh": 0.04303749200990466,
+        "travel_energy_kwh": 0.22090938068023253,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 371.7632141113281,
+            "climb_m": 244.06321411132814,
+            "descent_m": 0.0,
+            "seconds": 61.015803527832034
+          },
+          {
+            "from_m": 371.7632141113281,
+            "to_m": 611.5882568359375,
+            "climb_m": 239.82504272460938,
+            "descent_m": 0.0,
+            "seconds": 59.956260681152344
+          },
+          {
+            "from_m": 611.5882568359375,
+            "to_m": 371.7632141113281,
+            "climb_m": 0.0,
+            "descent_m": 239.82504272460938,
+            "seconds": 79.94168090820312
+          },
+          {
+            "from_m": 371.7632141113281,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 244.06321411132814,
+            "seconds": 81.35440470377604
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 5.684341886080802e-14,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q008",
+      "xyz_m": [
+        -800.0,
+        2800.0,
+        537.7898101806641
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 287.78981018066406,
+      "current_raise_m": 250.0,
+      "A": {
+        "horizontal_altitude_m": 537.7898101806641,
+        "horizontal_oneway_m": 2912.043955712207,
+        "out_s": 296.65871625931317,
+        "back_s": 330.8328671077018,
+        "climb_roundtrip_m": 410.0898101806641,
+        "descent_roundtrip_m": 410.0898101806641,
+        "horizontal_energy_kwh": 0.12403150181737177,
+        "climb_energy_kwh": 0.036473786415894834,
+        "travel_energy_kwh": 0.1605052882332666,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 537.7898101806641,
+            "climb_m": 410.0898101806641,
+            "descent_m": 0.0,
+            "seconds": 102.52245254516602
+          },
+          {
+            "from_m": 537.7898101806641,
+            "to_m": 537.7898101806641,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 537.7898101806641,
+            "to_m": 537.7898101806641,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 537.7898101806641,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 410.0898101806641,
+            "seconds": 136.69660339355468
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 287.78981018066406,
+        "horizontal_oneway_m": 2912.043955712207,
+        "out_s": 296.65871625931317,
+        "back_s": 330.8328671077018,
+        "climb_roundtrip_m": 410.0898101806641,
+        "descent_roundtrip_m": 410.0898101806641,
+        "horizontal_energy_kwh": 0.12403150181737177,
+        "climb_energy_kwh": 0.036473786415894834,
+        "travel_energy_kwh": 0.1605052882332666,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 287.78981018066406,
+            "climb_m": 160.08981018066407,
+            "descent_m": 0.0,
+            "seconds": 40.02245254516602
+          },
+          {
+            "from_m": 287.78981018066406,
+            "to_m": 537.7898101806641,
+            "climb_m": 250.0,
+            "descent_m": 0.0,
+            "seconds": 62.5
+          },
+          {
+            "from_m": 537.7898101806641,
+            "to_m": 287.78981018066406,
+            "climb_m": 0.0,
+            "descent_m": 250.0,
+            "seconds": 83.33333333333333
+          },
+          {
+            "from_m": 287.78981018066406,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 160.08981018066407,
+            "seconds": 53.36327006022136
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q009",
+      "xyz_m": [
+        -2000.0,
+        4800.0,
+        676.6923522949219
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 432.8210144042969,
+      "current_raise_m": 243.871337890625,
+      "A": {
+        "horizontal_altitude_m": 676.6923522949219,
+        "horizontal_oneway_m": 5200.0,
+        "out_s": 483.91475474039714,
+        "back_s": 529.6641174316406,
+        "climb_roundtrip_m": 548.9923522949218,
+        "descent_roundtrip_m": 548.9923522949218,
+        "horizontal_energy_kwh": 0.2214814814814815,
+        "climb_energy_kwh": 0.04882791355567508,
+        "travel_energy_kwh": 0.27030939503715656,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 676.6923522949219,
+            "climb_m": 548.9923522949218,
+            "descent_m": 0.0,
+            "seconds": 137.24808807373046
+          },
+          {
+            "from_m": 676.6923522949219,
+            "to_m": 676.6923522949219,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 676.6923522949219,
+            "to_m": 676.6923522949219,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 676.6923522949219,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 548.9923522949218,
+            "seconds": 182.99745076497393
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 432.8210144042969,
+        "horizontal_oneway_m": 5200.0,
+        "out_s": 483.91475474039714,
+        "back_s": 529.6641174316406,
+        "climb_roundtrip_m": 548.9923522949218,
+        "descent_roundtrip_m": 548.9923522949218,
+        "horizontal_energy_kwh": 0.2214814814814815,
+        "climb_energy_kwh": 0.04882791355567508,
+        "travel_energy_kwh": 0.27030939503715656,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 432.8210144042969,
+            "climb_m": 305.1210144042969,
+            "descent_m": 0.0,
+            "seconds": 76.28025360107422
+          },
+          {
+            "from_m": 432.8210144042969,
+            "to_m": 676.6923522949219,
+            "climb_m": 243.871337890625,
+            "descent_m": 0.0,
+            "seconds": 60.96783447265625
+          },
+          {
+            "from_m": 676.6923522949219,
+            "to_m": 432.8210144042969,
+            "climb_m": 0.0,
+            "descent_m": 243.871337890625,
+            "seconds": 81.29044596354167
+          },
+          {
+            "from_m": 432.8210144042969,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 305.1210144042969,
+            "seconds": 101.70700480143229
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q010",
+      "xyz_m": [
+        2400.0,
+        4000.0,
+        556.2570190429688
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 326.3416748046875,
+      "current_raise_m": 229.91534423828125,
+      "A": {
+        "horizontal_altitude_m": 556.2570190429688,
+        "horizontal_oneway_m": 4664.76151587624,
+        "out_s": 418.1233558191582,
+        "back_s": 453.8364407394056,
+        "climb_roundtrip_m": 428.55701904296876,
+        "descent_roundtrip_m": 428.55701904296876,
+        "horizontal_energy_kwh": 0.19868428678732133,
+        "climb_energy_kwh": 0.038116277926339044,
+        "travel_energy_kwh": 0.23680056471366037,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 556.2570190429688,
+            "climb_m": 428.55701904296876,
+            "descent_m": 0.0,
+            "seconds": 107.13925476074219
+          },
+          {
+            "from_m": 556.2570190429688,
+            "to_m": 556.2570190429688,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 556.2570190429688,
+            "to_m": 556.2570190429688,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 556.2570190429688,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 428.55701904296876,
+            "seconds": 142.8523396809896
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 326.3416748046875,
+        "horizontal_oneway_m": 4664.76151587624,
+        "out_s": 418.1233558191582,
+        "back_s": 453.8364407394056,
+        "climb_roundtrip_m": 428.55701904296876,
+        "descent_roundtrip_m": 428.55701904296876,
+        "horizontal_energy_kwh": 0.19868428678732133,
+        "climb_energy_kwh": 0.038116277926339044,
+        "travel_energy_kwh": 0.23680056471366037,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 326.3416748046875,
+            "climb_m": 198.6416748046875,
+            "descent_m": 0.0,
+            "seconds": 49.66041870117188
+          },
+          {
+            "from_m": 326.3416748046875,
+            "to_m": 556.2570190429688,
+            "climb_m": 229.91534423828125,
+            "descent_m": 0.0,
+            "seconds": 57.47883605957031
+          },
+          {
+            "from_m": 556.2570190429688,
+            "to_m": 326.3416748046875,
+            "climb_m": 0.0,
+            "descent_m": 229.91534423828125,
+            "seconds": 76.63844807942708
+          },
+          {
+            "from_m": 326.3416748046875,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 198.6416748046875,
+            "seconds": 66.21389160156251
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q011",
+      "xyz_m": [
+        800.0,
+        6400.0,
+        518.5367431640625
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 402.73150634765625,
+      "current_raise_m": 115.80523681640625,
+      "A": {
+        "horizontal_altitude_m": 518.5367431640625,
+        "horizontal_oneway_m": 6449.806198638839,
+        "out_s": 527.6962657002716,
+        "back_s": 560.2659942972768,
+        "climb_roundtrip_m": 390.8367431640625,
+        "descent_roundtrip_m": 390.8367431640625,
+        "horizontal_energy_kwh": 0.2747139677198024,
+        "climb_energy_kwh": 0.03476139991717869,
+        "travel_energy_kwh": 0.3094753676369811,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 518.5367431640625,
+            "climb_m": 390.8367431640625,
+            "descent_m": 0.0,
+            "seconds": 97.70918579101563
+          },
+          {
+            "from_m": 518.5367431640625,
+            "to_m": 518.5367431640625,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 518.5367431640625,
+            "to_m": 518.5367431640625,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 518.5367431640625,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 390.8367431640625,
+            "seconds": 130.27891438802084
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 402.73150634765625,
+        "horizontal_oneway_m": 6449.806198638839,
+        "out_s": 527.6962657002716,
+        "back_s": 560.2659942972768,
+        "climb_roundtrip_m": 390.8367431640625,
+        "descent_roundtrip_m": 390.8367431640625,
+        "horizontal_energy_kwh": 0.2747139677198024,
+        "climb_energy_kwh": 0.03476139991717869,
+        "travel_energy_kwh": 0.3094753676369811,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 402.73150634765625,
+            "climb_m": 275.03150634765626,
+            "descent_m": 0.0,
+            "seconds": 68.75787658691407
+          },
+          {
+            "from_m": 402.73150634765625,
+            "to_m": 518.5367431640625,
+            "climb_m": 115.80523681640625,
+            "descent_m": 0.0,
+            "seconds": 28.951309204101562
+          },
+          {
+            "from_m": 518.5367431640625,
+            "to_m": 402.73150634765625,
+            "climb_m": 0.0,
+            "descent_m": 115.80523681640625,
+            "seconds": 38.60174560546875
+          },
+          {
+            "from_m": 402.73150634765625,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 275.03150634765626,
+            "seconds": 91.67716878255209
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q012",
+      "xyz_m": [
+        4000.0,
+        800.0,
+        626.4536743164062
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 440.1230163574219,
+      "current_raise_m": 186.33065795898438,
+      "A": {
+        "horizontal_altitude_m": 626.4536743164062,
+        "horizontal_oneway_m": 4079.215610874228,
+        "out_s": 396.63612597071676,
+        "back_s": 438.19893216375067,
+        "climb_roundtrip_m": 498.75367431640626,
+        "descent_roundtrip_m": 498.75367431640626,
+        "horizontal_energy_kwh": 0.17374436861130968,
+        "climb_energy_kwh": 0.04435963669310677,
+        "travel_energy_kwh": 0.21810400530441645,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 626.4536743164062,
+            "climb_m": 498.75367431640626,
+            "descent_m": 0.0,
+            "seconds": 124.68841857910157
+          },
+          {
+            "from_m": 626.4536743164062,
+            "to_m": 626.4536743164062,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 626.4536743164062,
+            "to_m": 626.4536743164062,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 626.4536743164062,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 498.75367431640626,
+            "seconds": 166.25122477213543
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 440.1230163574219,
+        "horizontal_oneway_m": 4079.215610874228,
+        "out_s": 396.63612597071676,
+        "back_s": 438.19893216375067,
+        "climb_roundtrip_m": 498.75367431640626,
+        "descent_roundtrip_m": 498.75367431640626,
+        "horizontal_energy_kwh": 0.17374436861130968,
+        "climb_energy_kwh": 0.04435963669310677,
+        "travel_energy_kwh": 0.21810400530441645,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 440.1230163574219,
+            "climb_m": 312.4230163574219,
+            "descent_m": 0.0,
+            "seconds": 78.10575408935547
+          },
+          {
+            "from_m": 440.1230163574219,
+            "to_m": 626.4536743164062,
+            "climb_m": 186.33065795898438,
+            "descent_m": 0.0,
+            "seconds": 46.582664489746094
+          },
+          {
+            "from_m": 626.4536743164062,
+            "to_m": 440.1230163574219,
+            "climb_m": 0.0,
+            "descent_m": 186.33065795898438,
+            "seconds": 62.11021931966146
+          },
+          {
+            "from_m": 440.1230163574219,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 312.4230163574219,
+            "seconds": 104.14100545247396
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q013",
+      "xyz_m": [
+        -2400.0,
+        2000.0,
+        661.6313171386719
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 411.6313171386719,
+      "current_raise_m": 250.0,
+      "A": {
+        "horizontal_altitude_m": 661.6313171386719,
+        "horizontal_oneway_m": 3124.099870362662,
+        "out_s": 341.7561539755121,
+        "back_s": 386.25043040373475,
+        "climb_roundtrip_m": 533.9313171386718,
+        "descent_roundtrip_m": 533.9313171386718,
+        "horizontal_energy_kwh": 0.13306351299692817,
+        "climb_energy_kwh": 0.04748837044620514,
+        "travel_energy_kwh": 0.1805518834431333,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 661.6313171386719,
+            "climb_m": 533.9313171386718,
+            "descent_m": 0.0,
+            "seconds": 133.48282928466796
+          },
+          {
+            "from_m": 661.6313171386719,
+            "to_m": 661.6313171386719,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 661.6313171386719,
+            "to_m": 661.6313171386719,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 661.6313171386719,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 533.9313171386718,
+            "seconds": 177.97710571289062
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 411.6313171386719,
+        "horizontal_oneway_m": 3124.099870362662,
+        "out_s": 341.7561539755121,
+        "back_s": 386.25043040373475,
+        "climb_roundtrip_m": 533.9313171386718,
+        "descent_roundtrip_m": 533.9313171386718,
+        "horizontal_energy_kwh": 0.13306351299692817,
+        "climb_energy_kwh": 0.04748837044620514,
+        "travel_energy_kwh": 0.1805518834431333,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 411.6313171386719,
+            "climb_m": 283.9313171386719,
+            "descent_m": 0.0,
+            "seconds": 70.98282928466797
+          },
+          {
+            "from_m": 411.6313171386719,
+            "to_m": 661.6313171386719,
+            "climb_m": 250.0,
+            "descent_m": 0.0,
+            "seconds": 62.5
+          },
+          {
+            "from_m": 661.6313171386719,
+            "to_m": 411.6313171386719,
+            "climb_m": 0.0,
+            "descent_m": 250.0,
+            "seconds": 83.33333333333333
+          },
+          {
+            "from_m": 411.6313171386719,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 283.9313171386719,
+            "seconds": 94.64377237955729
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q014",
+      "xyz_m": [
+        -1600.0,
+        2800.0,
+        549.7760467529297
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 324.4753723144531,
+      "current_raise_m": 225.30067443847656,
+      "A": {
+        "horizontal_altitude_m": 549.7760467529297,
+        "horizontal_oneway_m": 3224.9030993194197,
+        "out_s": 320.5125516428604,
+        "back_s": 355.6855555389379,
+        "climb_roundtrip_m": 422.0760467529297,
+        "descent_roundtrip_m": 422.0760467529297,
+        "horizontal_energy_kwh": 0.1373569838599012,
+        "climb_energy_kwh": 0.03753985394991769,
+        "travel_energy_kwh": 0.17489683780981888,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 549.7760467529297,
+            "climb_m": 422.0760467529297,
+            "descent_m": 0.0,
+            "seconds": 105.51901168823242
+          },
+          {
+            "from_m": 549.7760467529297,
+            "to_m": 549.7760467529297,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 549.7760467529297,
+            "to_m": 549.7760467529297,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 549.7760467529297,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 422.0760467529297,
+            "seconds": 140.6920155843099
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 324.4753723144531,
+        "horizontal_oneway_m": 3224.9030993194197,
+        "out_s": 320.5125516428604,
+        "back_s": 355.6855555389379,
+        "climb_roundtrip_m": 422.0760467529297,
+        "descent_roundtrip_m": 422.0760467529297,
+        "horizontal_energy_kwh": 0.1373569838599012,
+        "climb_energy_kwh": 0.03753985394991769,
+        "travel_energy_kwh": 0.17489683780981888,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 324.4753723144531,
+            "climb_m": 196.77537231445314,
+            "descent_m": 0.0,
+            "seconds": 49.193843078613284
+          },
+          {
+            "from_m": 324.4753723144531,
+            "to_m": 549.7760467529297,
+            "climb_m": 225.30067443847656,
+            "descent_m": 0.0,
+            "seconds": 56.32516860961914
+          },
+          {
+            "from_m": 549.7760467529297,
+            "to_m": 324.4753723144531,
+            "climb_m": 0.0,
+            "descent_m": 225.30067443847656,
+            "seconds": 75.10022481282552
+          },
+          {
+            "from_m": 324.4753723144531,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 196.77537231445314,
+            "seconds": 65.59179077148438
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q015",
+      "xyz_m": [
+        -2800.0,
+        3600.0,
+        816.8016967773438
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 566.8016967773438,
+      "current_raise_m": 250.0,
+      "A": {
+        "horizontal_altitude_m": 816.8016967773438,
+        "horizontal_oneway_m": 4560.701700396552,
+        "out_s": 476.32220422077273,
+        "back_s": 533.7473456188848,
+        "climb_roundtrip_m": 689.1016967773437,
+        "descent_roundtrip_m": 689.1016967773437,
+        "horizontal_energy_kwh": 0.19425210946133462,
+        "climb_energy_kwh": 0.061289374871359936,
+        "travel_energy_kwh": 0.2555414843326945,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 816.8016967773438,
+            "climb_m": 689.1016967773437,
+            "descent_m": 0.0,
+            "seconds": 172.27542419433593
+          },
+          {
+            "from_m": 816.8016967773438,
+            "to_m": 816.8016967773438,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 816.8016967773438,
+            "to_m": 816.8016967773438,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 816.8016967773438,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 689.1016967773437,
+            "seconds": 229.7005655924479
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 566.8016967773438,
+        "horizontal_oneway_m": 4560.701700396552,
+        "out_s": 476.32220422077273,
+        "back_s": 533.7473456188848,
+        "climb_roundtrip_m": 689.1016967773437,
+        "descent_roundtrip_m": 689.1016967773437,
+        "horizontal_energy_kwh": 0.19425210946133462,
+        "climb_energy_kwh": 0.061289374871359936,
+        "travel_energy_kwh": 0.2555414843326945,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 566.8016967773438,
+            "climb_m": 439.10169677734376,
+            "descent_m": 0.0,
+            "seconds": 109.77542419433594
+          },
+          {
+            "from_m": 566.8016967773438,
+            "to_m": 816.8016967773438,
+            "climb_m": 250.0,
+            "descent_m": 0.0,
+            "seconds": 62.5
+          },
+          {
+            "from_m": 816.8016967773438,
+            "to_m": 566.8016967773438,
+            "climb_m": 0.0,
+            "descent_m": 250.0,
+            "seconds": 83.33333333333333
+          },
+          {
+            "from_m": 566.8016967773438,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 439.10169677734376,
+            "seconds": 146.3672322591146
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q016",
+      "xyz_m": [
+        2400.0,
+        1600.0,
+        548.6105651855469
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 314.7939147949219,
+      "current_raise_m": 233.816650390625,
+      "A": {
+        "horizontal_altitude_m": 548.6105651855469,
+        "horizontal_oneway_m": 2884.4410203711914,
+        "out_s": 297.5237093211328,
+        "back_s": 332.59958975326174,
+        "climb_roundtrip_m": 420.9105651855469,
+        "descent_roundtrip_m": 420.9105651855469,
+        "horizontal_energy_kwh": 0.12285582123803222,
+        "climb_energy_kwh": 0.037436194886207586,
+        "travel_energy_kwh": 0.16029201612423982,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 548.6105651855469,
+            "climb_m": 420.9105651855469,
+            "descent_m": 0.0,
+            "seconds": 105.22764129638672
+          },
+          {
+            "from_m": 548.6105651855469,
+            "to_m": 548.6105651855469,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 548.6105651855469,
+            "to_m": 548.6105651855469,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 548.6105651855469,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 420.9105651855469,
+            "seconds": 140.30352172851562
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 314.7939147949219,
+        "horizontal_oneway_m": 2884.4410203711914,
+        "out_s": 297.5237093211328,
+        "back_s": 332.59958975326174,
+        "climb_roundtrip_m": 420.9105651855469,
+        "descent_roundtrip_m": 420.9105651855469,
+        "horizontal_energy_kwh": 0.12285582123803222,
+        "climb_energy_kwh": 0.037436194886207586,
+        "travel_energy_kwh": 0.16029201612423982,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 314.7939147949219,
+            "climb_m": 187.0939147949219,
+            "descent_m": 0.0,
+            "seconds": 46.77347869873047
+          },
+          {
+            "from_m": 314.7939147949219,
+            "to_m": 548.6105651855469,
+            "climb_m": 233.816650390625,
+            "descent_m": 0.0,
+            "seconds": 58.45416259765625
+          },
+          {
+            "from_m": 548.6105651855469,
+            "to_m": 314.7939147949219,
+            "climb_m": 0.0,
+            "descent_m": 233.816650390625,
+            "seconds": 77.93888346354167
+          },
+          {
+            "from_m": 314.7939147949219,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 187.0939147949219,
+            "seconds": 62.36463826497396
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q017",
+      "xyz_m": [
+        -1200.0,
+        3200.0,
+        348.7672882080078
+      ],
+      "height_agl_m": 100.0,
+      "original_cruise_h0_m": 312.93182373046875,
+      "current_raise_m": 35.83546447753906,
+      "A": {
+        "horizontal_altitude_m": 348.7672882080078,
+        "horizontal_oneway_m": 3417.6014981270123,
+        "out_s": 283.1069219271361,
+        "back_s": 301.5291959444701,
+        "climb_roundtrip_m": 221.06728820800782,
+        "descent_roundtrip_m": 221.06728820800782,
+        "horizontal_energy_kwh": 0.14556450825355793,
+        "climb_energy_kwh": 0.01966193953975042,
+        "travel_energy_kwh": 0.16522644779330836,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 348.7672882080078,
+            "climb_m": 221.06728820800782,
+            "descent_m": 0.0,
+            "seconds": 55.266822052001956
+          },
+          {
+            "from_m": 348.7672882080078,
+            "to_m": 348.7672882080078,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 348.7672882080078,
+            "to_m": 348.7672882080078,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 348.7672882080078,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 221.06728820800782,
+            "seconds": 73.68909606933595
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 312.93182373046875,
+        "horizontal_oneway_m": 3417.6014981270123,
+        "out_s": 283.1069219271361,
+        "back_s": 301.5291959444701,
+        "climb_roundtrip_m": 221.06728820800782,
+        "descent_roundtrip_m": 221.06728820800782,
+        "horizontal_energy_kwh": 0.14556450825355793,
+        "climb_energy_kwh": 0.01966193953975042,
+        "travel_energy_kwh": 0.16522644779330836,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 312.93182373046875,
+            "climb_m": 185.23182373046876,
+            "descent_m": 0.0,
+            "seconds": 46.30795593261719
+          },
+          {
+            "from_m": 312.93182373046875,
+            "to_m": 348.7672882080078,
+            "climb_m": 35.83546447753906,
+            "descent_m": 0.0,
+            "seconds": 8.958866119384766
+          },
+          {
+            "from_m": 348.7672882080078,
+            "to_m": 312.93182373046875,
+            "climb_m": 0.0,
+            "descent_m": 35.83546447753906,
+            "seconds": 11.945154825846354
+          },
+          {
+            "from_m": 312.93182373046875,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 185.23182373046876,
+            "seconds": 61.74394124348959
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q018",
+      "xyz_m": [
+        -1200.0,
+        3200.0,
+        448.7672882080078
+      ],
+      "height_agl_m": 200.0,
+      "original_cruise_h0_m": 312.93182373046875,
+      "current_raise_m": 135.83546447753906,
+      "A": {
+        "horizontal_altitude_m": 448.7672882080078,
+        "horizontal_oneway_m": 3417.6014981270123,
+        "out_s": 308.1069219271361,
+        "back_s": 334.86252927780345,
+        "climb_roundtrip_m": 321.0672882080078,
+        "descent_roundtrip_m": 321.0672882080078,
+        "horizontal_energy_kwh": 0.14556450825355793,
+        "climb_energy_kwh": 0.028556036761972645,
+        "travel_energy_kwh": 0.1741205450155306,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 448.7672882080078,
+            "climb_m": 321.0672882080078,
+            "descent_m": 0.0,
+            "seconds": 80.26682205200196
+          },
+          {
+            "from_m": 448.7672882080078,
+            "to_m": 448.7672882080078,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 448.7672882080078,
+            "to_m": 448.7672882080078,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 448.7672882080078,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 321.0672882080078,
+            "seconds": 107.02242940266927
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 312.93182373046875,
+        "horizontal_oneway_m": 3417.6014981270123,
+        "out_s": 308.1069219271361,
+        "back_s": 334.86252927780345,
+        "climb_roundtrip_m": 321.0672882080078,
+        "descent_roundtrip_m": 321.0672882080078,
+        "horizontal_energy_kwh": 0.14556450825355793,
+        "climb_energy_kwh": 0.028556036761972645,
+        "travel_energy_kwh": 0.1741205450155306,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 312.93182373046875,
+            "climb_m": 185.23182373046876,
+            "descent_m": 0.0,
+            "seconds": 46.30795593261719
+          },
+          {
+            "from_m": 312.93182373046875,
+            "to_m": 448.7672882080078,
+            "climb_m": 135.83546447753906,
+            "descent_m": 0.0,
+            "seconds": 33.958866119384766
+          },
+          {
+            "from_m": 448.7672882080078,
+            "to_m": 312.93182373046875,
+            "climb_m": 0.0,
+            "descent_m": 135.83546447753906,
+            "seconds": 45.27848815917969
+          },
+          {
+            "from_m": 312.93182373046875,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 185.23182373046876,
+            "seconds": 61.74394124348959
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q019",
+      "xyz_m": [
+        -2400.0,
+        4000.0,
+        517.4828186035156
+      ],
+      "height_agl_m": 100.0,
+      "original_cruise_h0_m": 474.0599365234375,
+      "current_raise_m": 43.422882080078125,
+      "A": {
+        "horizontal_altitude_m": 517.4828186035156,
+        "horizontal_oneway_m": 4664.76151587624,
+        "out_s": 408.4298057092949,
+        "back_s": 440.91170725958784,
+        "climb_roundtrip_m": 389.78281860351564,
+        "descent_roundtrip_m": 389.78281860351564,
+        "horizontal_energy_kwh": 0.19868428678732133,
+        "climb_energy_kwh": 0.03466766284211477,
+        "travel_energy_kwh": 0.23335194962943612,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 517.4828186035156,
+            "climb_m": 389.78281860351564,
+            "descent_m": 0.0,
+            "seconds": 97.44570465087891
+          },
+          {
+            "from_m": 517.4828186035156,
+            "to_m": 517.4828186035156,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 517.4828186035156,
+            "to_m": 517.4828186035156,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 517.4828186035156,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 389.78281860351564,
+            "seconds": 129.92760620117187
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 474.0599365234375,
+        "horizontal_oneway_m": 4664.76151587624,
+        "out_s": 408.4298057092949,
+        "back_s": 440.91170725958784,
+        "climb_roundtrip_m": 389.78281860351564,
+        "descent_roundtrip_m": 389.78281860351564,
+        "horizontal_energy_kwh": 0.19868428678732133,
+        "climb_energy_kwh": 0.03466766284211477,
+        "travel_energy_kwh": 0.23335194962943612,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 474.0599365234375,
+            "climb_m": 346.3599365234375,
+            "descent_m": 0.0,
+            "seconds": 86.58998413085938
+          },
+          {
+            "from_m": 474.0599365234375,
+            "to_m": 517.4828186035156,
+            "climb_m": 43.422882080078125,
+            "descent_m": 0.0,
+            "seconds": 10.855720520019531
+          },
+          {
+            "from_m": 517.4828186035156,
+            "to_m": 474.0599365234375,
+            "climb_m": 0.0,
+            "descent_m": 43.422882080078125,
+            "seconds": 14.474294026692709
+          },
+          {
+            "from_m": 474.0599365234375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 346.3599365234375,
+            "seconds": 115.45331217447917
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q020",
+      "xyz_m": [
+        -2400.0,
+        4000.0,
+        617.4828186035156
+      ],
+      "height_agl_m": 200.0,
+      "original_cruise_h0_m": 474.0599365234375,
+      "current_raise_m": 143.42288208007812,
+      "A": {
+        "horizontal_altitude_m": 617.4828186035156,
+        "horizontal_oneway_m": 4664.76151587624,
+        "out_s": 433.4298057092949,
+        "back_s": 474.2450405929212,
+        "climb_roundtrip_m": 489.78281860351564,
+        "descent_roundtrip_m": 489.78281860351564,
+        "horizontal_energy_kwh": 0.19868428678732133,
+        "climb_energy_kwh": 0.043561760064337,
+        "travel_energy_kwh": 0.24224604685165835,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 617.4828186035156,
+            "climb_m": 489.78281860351564,
+            "descent_m": 0.0,
+            "seconds": 122.44570465087891
+          },
+          {
+            "from_m": 617.4828186035156,
+            "to_m": 617.4828186035156,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 617.4828186035156,
+            "to_m": 617.4828186035156,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 617.4828186035156,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 489.78281860351564,
+            "seconds": 163.2609395345052
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 474.0599365234375,
+        "horizontal_oneway_m": 4664.76151587624,
+        "out_s": 433.4298057092949,
+        "back_s": 474.2450405929212,
+        "climb_roundtrip_m": 489.78281860351564,
+        "descent_roundtrip_m": 489.78281860351564,
+        "horizontal_energy_kwh": 0.19868428678732133,
+        "climb_energy_kwh": 0.043561760064337,
+        "travel_energy_kwh": 0.24224604685165835,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 474.0599365234375,
+            "climb_m": 346.3599365234375,
+            "descent_m": 0.0,
+            "seconds": 86.58998413085938
+          },
+          {
+            "from_m": 474.0599365234375,
+            "to_m": 617.4828186035156,
+            "climb_m": 143.42288208007812,
+            "descent_m": 0.0,
+            "seconds": 35.85572052001953
+          },
+          {
+            "from_m": 617.4828186035156,
+            "to_m": 474.0599365234375,
+            "climb_m": 0.0,
+            "descent_m": 143.42288208007812,
+            "seconds": 47.80762736002604
+          },
+          {
+            "from_m": 474.0599365234375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 346.3599365234375,
+            "seconds": 115.45331217447917
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q021",
+      "xyz_m": [
+        1600.0,
+        1600.0,
+        392.2327880859375
+      ],
+      "height_agl_m": 100.0,
+      "original_cruise_h0_m": 342.2327880859375,
+      "current_raise_m": 50.0,
+      "A": {
+        "horizontal_altitude_m": 392.2327880859375,
+        "horizontal_oneway_m": 2262.741699796952,
+        "out_s": 216.9826436746145,
+        "back_s": 239.02704268177598,
+        "climb_roundtrip_m": 264.5327880859375,
+        "descent_roundtrip_m": 264.5327880859375,
+        "horizontal_energy_kwh": 0.09637603536172203,
+        "climb_energy_kwh": 0.02352780335701837,
+        "travel_energy_kwh": 0.1199038387187404,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 392.2327880859375,
+            "climb_m": 264.5327880859375,
+            "descent_m": 0.0,
+            "seconds": 66.13319702148438
+          },
+          {
+            "from_m": 392.2327880859375,
+            "to_m": 392.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 392.2327880859375,
+            "to_m": 392.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 392.2327880859375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 264.5327880859375,
+            "seconds": 88.17759602864584
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 342.2327880859375,
+        "horizontal_oneway_m": 2262.741699796952,
+        "out_s": 216.9826436746145,
+        "back_s": 239.02704268177598,
+        "climb_roundtrip_m": 264.5327880859375,
+        "descent_roundtrip_m": 264.5327880859375,
+        "horizontal_energy_kwh": 0.09637603536172203,
+        "climb_energy_kwh": 0.02352780335701837,
+        "travel_energy_kwh": 0.1199038387187404,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 342.2327880859375,
+            "climb_m": 214.5327880859375,
+            "descent_m": 0.0,
+            "seconds": 53.63319702148438
+          },
+          {
+            "from_m": 342.2327880859375,
+            "to_m": 392.2327880859375,
+            "climb_m": 50.0,
+            "descent_m": 0.0,
+            "seconds": 12.5
+          },
+          {
+            "from_m": 392.2327880859375,
+            "to_m": 342.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 50.0,
+            "seconds": 16.666666666666668
+          },
+          {
+            "from_m": 342.2327880859375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 214.5327880859375,
+            "seconds": 71.51092936197917
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q022",
+      "xyz_m": [
+        1600.0,
+        1600.0,
+        492.2327880859375
+      ],
+      "height_agl_m": 200.0,
+      "original_cruise_h0_m": 342.2327880859375,
+      "current_raise_m": 150.0,
+      "A": {
+        "horizontal_altitude_m": 492.2327880859375,
+        "horizontal_oneway_m": 2262.741699796952,
+        "out_s": 241.9826436746145,
+        "back_s": 272.3603760151093,
+        "climb_roundtrip_m": 364.5327880859375,
+        "descent_roundtrip_m": 364.5327880859375,
+        "horizontal_energy_kwh": 0.09637603536172203,
+        "climb_energy_kwh": 0.032421900579240596,
+        "travel_energy_kwh": 0.12879793594096262,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 492.2327880859375,
+            "climb_m": 364.5327880859375,
+            "descent_m": 0.0,
+            "seconds": 91.13319702148438
+          },
+          {
+            "from_m": 492.2327880859375,
+            "to_m": 492.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 492.2327880859375,
+            "to_m": 492.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 492.2327880859375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 364.5327880859375,
+            "seconds": 121.51092936197917
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 342.2327880859375,
+        "horizontal_oneway_m": 2262.741699796952,
+        "out_s": 241.9826436746145,
+        "back_s": 272.3603760151093,
+        "climb_roundtrip_m": 364.5327880859375,
+        "descent_roundtrip_m": 364.5327880859375,
+        "horizontal_energy_kwh": 0.09637603536172203,
+        "climb_energy_kwh": 0.032421900579240596,
+        "travel_energy_kwh": 0.12879793594096262,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 342.2327880859375,
+            "climb_m": 214.5327880859375,
+            "descent_m": 0.0,
+            "seconds": 53.63319702148438
+          },
+          {
+            "from_m": 342.2327880859375,
+            "to_m": 492.2327880859375,
+            "climb_m": 150.0,
+            "descent_m": 0.0,
+            "seconds": 37.5
+          },
+          {
+            "from_m": 492.2327880859375,
+            "to_m": 342.2327880859375,
+            "climb_m": 0.0,
+            "descent_m": 150.0,
+            "seconds": 50.0
+          },
+          {
+            "from_m": 342.2327880859375,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 214.5327880859375,
+            "seconds": 71.51092936197917
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q023",
+      "xyz_m": [
+        1200.0,
+        6000.0,
+        407.762939453125
+      ],
+      "height_agl_m": 100.0,
+      "original_cruise_h0_m": 399.8394470214844,
+      "current_raise_m": 7.923492431640625,
+      "A": {
+        "horizontal_altitude_m": 407.762939453125,
+        "horizontal_oneway_m": 6118.823416311342,
+        "out_s": 477.937295950704,
+        "back_s": 501.27587423846444,
+        "climb_roundtrip_m": 280.062939453125,
+        "descent_roundtrip_m": 280.062939453125,
+        "horizontal_energy_kwh": 0.26061655291696456,
+        "climb_energy_kwh": 0.0249090701183743,
+        "travel_energy_kwh": 0.28552562303533885,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 407.762939453125,
+            "climb_m": 280.062939453125,
+            "descent_m": 0.0,
+            "seconds": 70.01573486328125
+          },
+          {
+            "from_m": 407.762939453125,
+            "to_m": 407.762939453125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 407.762939453125,
+            "to_m": 407.762939453125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 407.762939453125,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 280.062939453125,
+            "seconds": 93.35431315104167
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 399.8394470214844,
+        "horizontal_oneway_m": 6118.823416311342,
+        "out_s": 477.937295950704,
+        "back_s": 501.27587423846444,
+        "climb_roundtrip_m": 280.062939453125,
+        "descent_roundtrip_m": 280.062939453125,
+        "horizontal_energy_kwh": 0.26061655291696456,
+        "climb_energy_kwh": 0.0249090701183743,
+        "travel_energy_kwh": 0.28552562303533885,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 399.8394470214844,
+            "climb_m": 272.1394470214844,
+            "descent_m": 0.0,
+            "seconds": 68.0348617553711
+          },
+          {
+            "from_m": 399.8394470214844,
+            "to_m": 407.762939453125,
+            "climb_m": 7.923492431640625,
+            "descent_m": 0.0,
+            "seconds": 1.9808731079101562
+          },
+          {
+            "from_m": 407.762939453125,
+            "to_m": 399.8394470214844,
+            "climb_m": 0.0,
+            "descent_m": 7.923492431640625,
+            "seconds": 2.6411641438802085
+          },
+          {
+            "from_m": 399.8394470214844,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 272.1394470214844,
+            "seconds": 90.71314900716146
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    },
+    {
+      "qid": "Q024",
+      "xyz_m": [
+        1200.0,
+        6000.0,
+        507.762939453125
+      ],
+      "height_agl_m": 200.0,
+      "original_cruise_h0_m": 399.8394470214844,
+      "current_raise_m": 107.92349243164062,
+      "A": {
+        "horizontal_altitude_m": 507.762939453125,
+        "horizontal_oneway_m": 6118.823416311342,
+        "out_s": 502.937295950704,
+        "back_s": 534.6092075717978,
+        "climb_roundtrip_m": 380.062939453125,
+        "descent_roundtrip_m": 380.062939453125,
+        "horizontal_energy_kwh": 0.26061655291696456,
+        "climb_energy_kwh": 0.03380316734059652,
+        "travel_energy_kwh": 0.2944197202575611,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 507.762939453125,
+            "climb_m": 380.062939453125,
+            "descent_m": 0.0,
+            "seconds": 95.01573486328125
+          },
+          {
+            "from_m": 507.762939453125,
+            "to_m": 507.762939453125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 507.762939453125,
+            "to_m": 507.762939453125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 507.762939453125,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 380.062939453125,
+            "seconds": 126.68764648437501
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 399.8394470214844,
+        "horizontal_oneway_m": 6118.823416311342,
+        "out_s": 502.937295950704,
+        "back_s": 534.6092075717978,
+        "climb_roundtrip_m": 380.062939453125,
+        "descent_roundtrip_m": 380.062939453125,
+        "horizontal_energy_kwh": 0.26061655291696456,
+        "climb_energy_kwh": 0.03380316734059652,
+        "travel_energy_kwh": 0.2944197202575611,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 399.8394470214844,
+            "climb_m": 272.1394470214844,
+            "descent_m": 0.0,
+            "seconds": 68.0348617553711
+          },
+          {
+            "from_m": 399.8394470214844,
+            "to_m": 507.762939453125,
+            "climb_m": 107.92349243164062,
+            "descent_m": 0.0,
+            "seconds": 26.980873107910156
+          },
+          {
+            "from_m": 507.762939453125,
+            "to_m": 399.8394470214844,
+            "climb_m": 0.0,
+            "descent_m": 107.92349243164062,
+            "seconds": 35.97449747721354
+          },
+          {
+            "from_m": 399.8394470214844,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 272.1394470214844,
+            "seconds": 90.71314900716146
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true
+    }
+  ],
+  "final_relays": [
+    {
+      "qid": "Q012",
+      "xyz_m": [
+        4000.0,
+        800.0,
+        626.4536743164062
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 440.1230163574219,
+      "current_raise_m": 186.33065795898438,
+      "A": {
+        "horizontal_altitude_m": 626.4536743164062,
+        "horizontal_oneway_m": 4079.215610874228,
+        "out_s": 396.63612597071676,
+        "back_s": 438.19893216375067,
+        "climb_roundtrip_m": 498.75367431640626,
+        "descent_roundtrip_m": 498.75367431640626,
+        "horizontal_energy_kwh": 0.17374436861130968,
+        "climb_energy_kwh": 0.04435963669310677,
+        "travel_energy_kwh": 0.21810400530441645,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 626.4536743164062,
+            "climb_m": 498.75367431640626,
+            "descent_m": 0.0,
+            "seconds": 124.68841857910157
+          },
+          {
+            "from_m": 626.4536743164062,
+            "to_m": 626.4536743164062,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 626.4536743164062,
+            "to_m": 626.4536743164062,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 626.4536743164062,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 498.75367431640626,
+            "seconds": 166.25122477213543
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 440.1230163574219,
+        "horizontal_oneway_m": 4079.215610874228,
+        "out_s": 396.63612597071676,
+        "back_s": 438.19893216375067,
+        "climb_roundtrip_m": 498.75367431640626,
+        "descent_roundtrip_m": 498.75367431640626,
+        "horizontal_energy_kwh": 0.17374436861130968,
+        "climb_energy_kwh": 0.04435963669310677,
+        "travel_energy_kwh": 0.21810400530441645,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 440.1230163574219,
+            "climb_m": 312.4230163574219,
+            "descent_m": 0.0,
+            "seconds": 78.10575408935547
+          },
+          {
+            "from_m": 440.1230163574219,
+            "to_m": 626.4536743164062,
+            "climb_m": 186.33065795898438,
+            "descent_m": 0.0,
+            "seconds": 46.582664489746094
+          },
+          {
+            "from_m": 626.4536743164062,
+            "to_m": 440.1230163574219,
+            "climb_m": 0.0,
+            "descent_m": 186.33065795898438,
+            "seconds": 62.11021931966146
+          },
+          {
+            "from_m": 440.1230163574219,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 312.4230163574219,
+            "seconds": 104.14100545247396
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true,
+      "relay_id": "Q3-R001",
+      "model_energy_kwh": 0.9385653074937479,
+      "A_total_energy_kwh": 0.9385653074937479,
+      "B_total_energy_kwh": 0.9385653074937479
+    },
+    {
+      "qid": "Q006",
+      "xyz_m": [
+        -2800.0,
+        4800.0,
+        856.9552001953125
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 606.9552001953125,
+      "current_raise_m": 250.0,
+      "A": {
+        "horizontal_altitude_m": 856.9552001953125,
+        "horizontal_oneway_m": 5556.977595779922,
+        "out_s": 552.7789731008229,
+        "back_s": 613.5502397837656,
+        "climb_roundtrip_m": 729.2552001953125,
+        "descent_roundtrip_m": 729.2552001953125,
+        "horizontal_energy_kwh": 0.23668608278321887,
+        "climb_energy_kwh": 0.06486066650348239,
+        "travel_energy_kwh": 0.3015467492867013,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 856.9552001953125,
+            "climb_m": 729.2552001953125,
+            "descent_m": 0.0,
+            "seconds": 182.3138000488281
+          },
+          {
+            "from_m": 856.9552001953125,
+            "to_m": 856.9552001953125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 856.9552001953125,
+            "to_m": 856.9552001953125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 856.9552001953125,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 729.2552001953125,
+            "seconds": 243.0850667317708
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 606.9552001953125,
+        "horizontal_oneway_m": 5556.977595779922,
+        "out_s": 552.7789731008229,
+        "back_s": 613.5502397837656,
+        "climb_roundtrip_m": 729.2552001953125,
+        "descent_roundtrip_m": 729.2552001953125,
+        "horizontal_energy_kwh": 0.23668608278321887,
+        "climb_energy_kwh": 0.06486066650348239,
+        "travel_energy_kwh": 0.3015467492867013,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 606.9552001953125,
+            "climb_m": 479.2552001953125,
+            "descent_m": 0.0,
+            "seconds": 119.81380004882813
+          },
+          {
+            "from_m": 606.9552001953125,
+            "to_m": 856.9552001953125,
+            "climb_m": 250.0,
+            "descent_m": 0.0,
+            "seconds": 62.5
+          },
+          {
+            "from_m": 856.9552001953125,
+            "to_m": 606.9552001953125,
+            "climb_m": 0.0,
+            "descent_m": 250.0,
+            "seconds": 83.33333333333333
+          },
+          {
+            "from_m": 606.9552001953125,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 479.2552001953125,
+            "seconds": 159.7517333984375
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true,
+      "relay_id": "Q3-R002",
+      "model_energy_kwh": 2.56,
+      "A_total_energy_kwh": 2.5599999999999996,
+      "B_total_energy_kwh": 2.5599999999999996
+    },
+    {
+      "qid": "Q004",
+      "xyz_m": [
+        1200.0,
+        6000.0,
+        607.762939453125
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 399.8394470214844,
+      "current_raise_m": 207.92349243164062,
+      "A": {
+        "horizontal_altitude_m": 607.762939453125,
+        "horizontal_oneway_m": 6118.823416311342,
+        "out_s": 527.9372959507041,
+        "back_s": 567.9425409051312,
+        "climb_roundtrip_m": 480.062939453125,
+        "descent_roundtrip_m": 480.062939453125,
+        "horizontal_energy_kwh": 0.26061655291696456,
+        "climb_energy_kwh": 0.04269726456281874,
+        "travel_energy_kwh": 0.3033138174797833,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 607.762939453125,
+            "climb_m": 480.062939453125,
+            "descent_m": 0.0,
+            "seconds": 120.01573486328125
+          },
+          {
+            "from_m": 607.762939453125,
+            "to_m": 607.762939453125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 607.762939453125,
+            "to_m": 607.762939453125,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 607.762939453125,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 480.062939453125,
+            "seconds": 160.02097981770834
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 399.8394470214844,
+        "horizontal_oneway_m": 6118.823416311342,
+        "out_s": 527.9372959507041,
+        "back_s": 567.9425409051312,
+        "climb_roundtrip_m": 480.062939453125,
+        "descent_roundtrip_m": 480.062939453125,
+        "horizontal_energy_kwh": 0.26061655291696456,
+        "climb_energy_kwh": 0.04269726456281874,
+        "travel_energy_kwh": 0.3033138174797833,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 399.8394470214844,
+            "climb_m": 272.1394470214844,
+            "descent_m": 0.0,
+            "seconds": 68.0348617553711
+          },
+          {
+            "from_m": 399.8394470214844,
+            "to_m": 607.762939453125,
+            "climb_m": 207.92349243164062,
+            "descent_m": 0.0,
+            "seconds": 51.980873107910156
+          },
+          {
+            "from_m": 607.762939453125,
+            "to_m": 399.8394470214844,
+            "climb_m": 0.0,
+            "descent_m": 207.92349243164062,
+            "seconds": 69.30783081054688
+          },
+          {
+            "from_m": 399.8394470214844,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 272.1394470214844,
+            "seconds": 90.71314900716146
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true,
+      "relay_id": "Q3-R003",
+      "model_energy_kwh": 0.4723718190577374,
+      "A_total_energy_kwh": 0.4723718190577374,
+      "B_total_energy_kwh": 0.4723718190577374
+    },
+    {
+      "qid": "Q014",
+      "xyz_m": [
+        -1600.0,
+        2800.0,
+        549.7760467529297
+      ],
+      "height_agl_m": 300.0,
+      "original_cruise_h0_m": 324.4753723144531,
+      "current_raise_m": 225.30067443847656,
+      "A": {
+        "horizontal_altitude_m": 549.7760467529297,
+        "horizontal_oneway_m": 3224.9030993194197,
+        "out_s": 320.5125516428604,
+        "back_s": 355.6855555389379,
+        "climb_roundtrip_m": 422.0760467529297,
+        "descent_roundtrip_m": 422.0760467529297,
+        "horizontal_energy_kwh": 0.1373569838599012,
+        "climb_energy_kwh": 0.03753985394991769,
+        "travel_energy_kwh": 0.17489683780981888,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 549.7760467529297,
+            "climb_m": 422.0760467529297,
+            "descent_m": 0.0,
+            "seconds": 105.51901168823242
+          },
+          {
+            "from_m": 549.7760467529297,
+            "to_m": 549.7760467529297,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 549.7760467529297,
+            "to_m": 549.7760467529297,
+            "climb_m": 0.0,
+            "descent_m": 0.0,
+            "seconds": 0.0
+          },
+          {
+            "from_m": 549.7760467529297,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 422.0760467529297,
+            "seconds": 140.6920155843099
+          }
+        ]
+      },
+      "B": {
+        "horizontal_altitude_m": 324.4753723144531,
+        "horizontal_oneway_m": 3224.9030993194197,
+        "out_s": 320.5125516428604,
+        "back_s": 355.6855555389379,
+        "climb_roundtrip_m": 422.0760467529297,
+        "descent_roundtrip_m": 422.0760467529297,
+        "horizontal_energy_kwh": 0.1373569838599012,
+        "climb_energy_kwh": 0.03753985394991769,
+        "travel_energy_kwh": 0.17489683780981888,
+        "signed_vertical_segments": [
+          {
+            "from_m": 127.7,
+            "to_m": 324.4753723144531,
+            "climb_m": 196.77537231445314,
+            "descent_m": 0.0,
+            "seconds": 49.193843078613284
+          },
+          {
+            "from_m": 324.4753723144531,
+            "to_m": 549.7760467529297,
+            "climb_m": 225.30067443847656,
+            "descent_m": 0.0,
+            "seconds": 56.32516860961914
+          },
+          {
+            "from_m": 549.7760467529297,
+            "to_m": 324.4753723144531,
+            "climb_m": 0.0,
+            "descent_m": 225.30067443847656,
+            "seconds": 75.10022481282552
+          },
+          {
+            "from_m": 324.4753723144531,
+            "to_m": 127.7,
+            "climb_m": 0.0,
+            "descent_m": 196.77537231445314,
+            "seconds": 65.59179077148438
+          }
+        ]
+      },
+      "A_minus_B": {
+        "out_s": 0.0,
+        "back_s": 0.0,
+        "climb_roundtrip_m": 0.0,
+        "descent_roundtrip_m": 0.0,
+        "travel_energy_kwh": 0.0
+      },
+      "C_strict_admissible": false,
+      "equivalence_endpoint_condition": true,
+      "relay_id": "Q3-R004",
+      "model_energy_kwh": 0.23160538742692854,
+      "A_total_energy_kwh": 0.23160538742692854,
+      "B_total_energy_kwh": 0.23160538742692854
+    }
+  ],
+  "strict_C": {
+    "candidate_count": 0,
+    "candidate_ids": [],
+    "service_nodes": [
+      {
+        "zone": "S001",
+        "xyz_m": [
+          1269.1699219010623,
+          2777.817111438484,
+          184.0
+        ],
+        "direct": {
+          "margin_db": 2.24771385877267,
+          "blocked": true,
+          "distance_m": 3054.239330055651,
+          "minimum_clearance_m": -52.496814839407534
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": true
+      },
+      {
+        "zone": "S002",
+        "xyz_m": [
+          2839.7166984906735,
+          6845.936207025278,
+          219.5
+        ],
+        "direct": {
+          "margin_db": -5.452794286226634,
+          "blocked": true,
+          "distance_m": 7411.881590955594,
+          "minimum_clearance_m": -51.33815298939183
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S003",
+        "xyz_m": [
+          -6355.373355953578,
+          3517.443919109309,
+          338.5
+        ],
+        "direct": {
+          "margin_db": -5.280530077345318,
+          "blocked": true,
+          "distance_m": 7266.332421355611,
+          "minimum_clearance_m": -276.4180213237336
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S004",
+        "xyz_m": [
+          750.3871566968317,
+          7678.1008080523625,
+          228.3
+        ],
+        "direct": {
+          "margin_db": -5.801059035898405,
+          "blocked": true,
+          "distance_m": 7715.102673558525,
+          "minimum_clearance_m": -138.90414415754694
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S005",
+        "xyz_m": [
+          -261.55959828932436,
+          5274.111575089369,
+          195.0
+        ],
+        "direct": {
+          "margin_db": -2.508227791369876,
+          "blocked": true,
+          "distance_m": 5280.805205643258,
+          "minimum_clearance_m": -98.67631283559098
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S006",
+        "xyz_m": [
+          -3184.9806990700627,
+          -88.09695382351546,
+          314.8
+        ],
+        "direct": {
+          "margin_db": 1.8683888800624544,
+          "blocked": true,
+          "distance_m": 3190.5776180374937,
+          "minimum_clearance_m": -35.91210749517259
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": true
+      },
+      {
+        "zone": "S007",
+        "xyz_m": [
+          -3898.9541341595636,
+          2315.560046755532,
+          348.5
+        ],
+        "direct": {
+          "margin_db": -1.1937365176753048,
+          "blocked": true,
+          "distance_m": 4539.160969872123,
+          "minimum_clearance_m": -168.25168518084178
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S008",
+        "xyz_m": [
+          -1856.0028796848844,
+          7863.032427398766,
+          270.9
+        ],
+        "direct": {
+          "margin_db": -6.202505524891052,
+          "blocked": true,
+          "distance_m": 8080.0497451267665,
+          "minimum_clearance_m": -97.43352378124683
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S009",
+        "xyz_m": [
+          2387.6719196811728,
+          5181.651302622435,
+          230.0
+        ],
+        "direct": {
+          "margin_db": -3.1807034065250974,
+          "blocked": true,
+          "distance_m": 5705.897011689113,
+          "minimum_clearance_m": -47.68800638521219
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S010",
+        "xyz_m": [
+          4630.150275412627,
+          1206.1585956945476,
+          351.6
+        ],
+        "direct": {
+          "margin_db": -1.6591526950182356,
+          "blocked": true,
+          "distance_m": 4789.017158130827,
+          "minimum_clearance_m": -114.67965124565055
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S011",
+        "xyz_m": [
+          -1078.0696447321873,
+          2592.918715330475,
+          212.1
+        ],
+        "direct": {
+          "margin_db": 2.9752203689650543,
+          "blocked": true,
+          "distance_m": 2808.8447773424623,
+          "minimum_clearance_m": -47.36696590018866
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": true
+      },
+      {
+        "zone": "S012",
+        "xyz_m": [
+          5359.952197597734,
+          5089.191030155501,
+          279.8
+        ],
+        "direct": {
+          "margin_db": -5.42984066485198,
+          "blocked": true,
+          "distance_m": 7392.320563391984,
+          "minimum_clearance_m": -154.25784511973808
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S013",
+        "xyz_m": [
+          4155.203398046757,
+          2500.458442863541,
+          351.7
+        ],
+        "direct": {
+          "margin_db": -1.775908330041716,
+          "blocked": true,
+          "distance_m": 4853.825677095015,
+          "minimum_clearance_m": -33.62719104260759
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S014",
+        "xyz_m": [
+          5407.201871835279,
+          -365.43347357259984,
+          351.0
+        ],
+        "direct": {
+          "margin_db": -2.739574445940306,
+          "blocked": true,
+          "distance_m": 5423.348098396994,
+          "minimum_clearance_m": -217.12279679748497
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      },
+      {
+        "zone": "S015",
+        "xyz_m": [
+          -3944.1124797915336,
+          4534.451544180149,
+          474.5
+        ],
+        "direct": {
+          "margin_db": -3.6441975540626004,
+          "blocked": true,
+          "distance_m": 6018.643725937352,
+          "minimum_clearance_m": -126.08718235335323
+        },
+        "relay_details": [],
+        "available_relay_candidates": [],
+        "covered": false
+      }
+    ],
+    "uncovered_service_nodes": [
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S012",
+      "S013",
+      "S014",
+      "S015"
+    ]
+  },
+  "limitations": [
+    "Existing finite candidate set only; no new coordinates or heights searched.",
+    "Service-node checks are necessary endpoint checks, not full trajectory certification.",
+    "No joint rescheduling; A/B equality concerns the stated physical model.",
+    "B changes the sign of terminal vertical phase; wording interpretation remains explicit."
+  ]
+}

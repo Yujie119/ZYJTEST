@@ -1,0 +1,15 @@
+{
+  "archive": "D:\\研究生\\比赛\\数学建模\\2026\\问题二\\改进搜索_20260924\\联合非支配档案.json",
+  "archive_sha256": "deadacd5b16073630b7ba78329be0b4748ccb34568b7aa4a0502f0263b68490b",
+  "count": 11,
+  "vehicles": [
+    "A",
+    "B",
+    "C"
+  ],
+  "seconds_per_type_stage": 20,
+  "route_choices_fixed": true,
+  "resources_open": true,
+  "global_C_cap_source": "each plan objective[2]",
+  "N_policy": "preserve original plan N; no route addition/removal"
+}
